@@ -1,0 +1,130 @@
+{
+  "senate": {
+    "title": "U.S. Senate",
+    "term": "6-year term",
+    "one": "Votes on laws for the whole country. Georgia gets two senators, and one seat is up this year.",
+    "why": "They also approve or block the President's picks, including Supreme Court justices.",
+    "also": [
+      "Approves treaties with other countries",
+      "Helps set the federal budget",
+      "Georgia's other seat (Raphael Warnock) is up in 2028"
+    ]
+  },
+  "house": {
+    "title": "U.S. House",
+    "term": "2-year term",
+    "one": "Also votes on national laws, but speaks for your district instead of the whole state.",
+    "why": "Your closest voice in Washington, and you get to keep or replace them every two years.",
+    "also": []
+  },
+  "governor": {
+    "title": "Governor",
+    "term": "4-year term",
+    "one": "Runs the state and signs or vetoes every bill the legislature passes.",
+    "why": "Shapes how Georgia spends its money on schools, roads, and health care.",
+    "also": [
+      "Can veto single items out of the budget",
+      "Commands the State Patrol and National Guard",
+      "Brian Kemp has hit the two-term limit, so this seat is wide open"
+    ]
+  },
+  "ltgov": {
+    "title": "Lieutenant Governor",
+    "term": "4-year term",
+    "one": "Runs the State Senate's meetings and takes over if the governor can't serve.",
+    "why": "Has a hand in which bills move forward in the State Senate.",
+    "also": []
+  },
+  "sos": {
+    "title": "Secretary of State",
+    "one": "Runs Georgia's elections.",
+    "why": "Handles voter registration and certifies the results. Also licenses businesses and lots of professions.",
+    "also": [
+      "Tracks who donates to campaigns",
+      "Oversees investment sales",
+      "Keeps the state archives"
+    ]
+  },
+  "ag": {
+    "title": "Attorney General",
+    "one": "Georgia's top lawyer. Represents the state in court.",
+    "why": "Goes after scams, shady debt collectors, misleading ads, and data breaches.",
+    "also": [
+      "Can win refunds for people who got ripped off"
+    ]
+  },
+  "agr": {
+    "title": "Agriculture Commissioner",
+    "one": "This job covers a lot more than farms.",
+    "why": "Inspects grocery stores for food safety, checks that gas pumps give you what you pay for, and tests store scales.",
+    "also": [
+      "Pet breeders and dealers",
+      "Pest control companies",
+      "Bottled water, pet food, and fertilizer",
+      "State farmers markets"
+    ]
+  },
+  "ins": {
+    "title": "Insurance Commissioner",
+    "one": "Keeps insurance companies in check, and is also the state fire marshal.",
+    "why": "Reviews car, home, and health insurance rates, and takes your complaint if an insurer does you wrong.",
+    "also": [
+      "Licenses insurance agents",
+      "Investigates insurance fraud",
+      "Sets fire safety codes"
+    ]
+  },
+  "labor": {
+    "title": "Labor Commissioner",
+    "one": "Runs the state Department of Labor.",
+    "why": "If you lose your job, this office handles your unemployment check. It also helps with job searches and training.",
+    "also": [
+      "Workplace safety inspections",
+      "Rules for workers under 18"
+    ]
+  },
+  "schools": {
+    "title": "School Superintendent",
+    "term": "4-year term",
+    "one": "Leads Georgia's public schools, kindergarten through 12th grade.",
+    "why": "Sends state money to local schools, pre-K, and the HOPE Scholarship.",
+    "also": []
+  },
+  "psc3": {
+    "title": "Public Service Commission · District 3",
+    "one": "Sets what Georgia Power can charge you for electricity.",
+    "why": "Their decisions show up on your power bill. They also approve new power plants.",
+    "also": [
+      "Regulates natural gas companies",
+      "Sets gas pipeline safety rules",
+      "Doesn't cover water, cell phones, cable, or electric co-op rates",
+      "Every Georgian votes on every seat. Candidates just have to live in the district"
+    ]
+  },
+  "psc5": {
+    "title": "Public Service Commission · District 5",
+    "one": "A second seat on the commission that sets your power rates.",
+    "why": "Same deal as District 3: everyone in Georgia votes on this one.",
+    "also": []
+  },
+  "sen": {
+    "title": "State Senate",
+    "term": "2-year term",
+    "one": "Writes Georgia's laws and passes the state budget. There are 56 state senators.",
+    "why": "State laws cover schools, roads, voting rules, criminal law, and state taxes.",
+    "also": []
+  },
+  "rep": {
+    "title": "State House",
+    "term": "2-year term",
+    "one": "The other half of the legislature. There are 180 state representatives, each with a smaller district than a senator's.",
+    "why": "Every bill has to pass here and in the State Senate before the governor can sign it.",
+    "also": []
+  },
+  "amend": {
+    "title": "Farm & Timber Land Tax Break",
+    "one": "Land used for farming or timber gets a property tax break, capped at 2,000 acres per owner. This would raise the cap to 4,000.",
+    "why": "YES raises the cap to 4,000 acres. NO keeps it at 2,000.",
+    "also": []
+  }
+}

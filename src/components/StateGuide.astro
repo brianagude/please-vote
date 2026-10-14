@@ -1,0 +1,109 @@
+---
+import type { StateData } from "../lib/types";
+import { partyName } from "../lib/names";
+import Masthead from "./Masthead.astro";
+import DateCards from "./DateCards.astro";
+import AddressForm from "./AddressForm.astro";
+import BallotGroup from "./BallotGroup.astro";
+import RaceCard from "./RaceCard.astro";
+interface Props {
+  data: StateData;
+}
+const { data } = Astro.props;
+const { config, offices: O, races: R, legislature: L } = data;
+const D = config.districts;
+const asOf = new Date(config.asOf + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+
+// Short labels for the closed-group summary line.
+const short = (k: string) => {
+  if (k === "@house") return { text: D.house.label, key: "house" };
+  if (k === "@upper") return { text: D.upper.label };
+  if (k === "@lower") return { text: D.lower.label };
+  return { text: O[k.replace("?", "")].title.replace("Public Service Commission", "PSC") };
+};
+const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k] });
+---
+<div class="wrap">
+  <Masthead config={config} />
+  <DateCards config={config} />
+  <AddressForm config={config} />
+
+  <section aria-labelledby="s3">
+    <div class="shead"><span class="no">03</span><h2 class="disp" id="s3">Who's on your ballot</h2></div>
+    <p class="note">See the races, who's running, and what they do.</p>
+    <div class="groups" id="ballot">
+      {
+        config.groups.map((g) => (
+          <BallotGroup id={g.id} title={g.title} sub={g.sub} inside={g.races.map(short)}>
+            {g.races.map((k) => {
+              if (k === "@house")
+                return (
+                  <>
+                    <RaceCard office={O.house} data-house="">
+                      <div class="row">
+                        <div class="cell">
+                          <span class="lbl">Candidates</span>
+                          <p class="rnote">Enter your address in step 02 to see who's running in your district.</p>
+                        </div>
+                      </div>
+                    </RaceCard>
+                    {Object.entries(R.house).map(([n, r]) => (
+                      <RaceCard office={O.house} candidates={r.candidates} note={r.note} title={`${D.house.label} · District ${n}`} hidden data-house={n} />
+                    ))}
+                  </>
+                );
+              if (k === "@upper" || k === "@lower") {
+                const ch = chamber(k.slice(1) as "upper" | "lower");
+                return (
+                  <RaceCard office={O[ch.office]} data-chamber={ch.k} data-label={ch.label}>
+                    <div class="row">
+                      <div class="cell" data-seat="">
+                        <span class="lbl">Has the seat now</span>
+                        <p class="rnote">Pick your {ch.label} district in step 02.</p>
+                      </div>
+                      {Object.entries(ch.seats).map(([n, p]) => (
+                        <div class="cell seat" data-seat={n} hidden>
+                          <span class="lbl">Has the seat now</span>
+                          {p.vacant ? (
+                            <strong>Vacant</strong>
+                          ) : (
+                            <>
+                              <strong>{p.name}</strong>
+                              <span class="p" style="font-size:.85rem;color:var(--soft)">{partyName(p.party)}</span>
+                            </>
+                          )}
+                          <p class="rnote">Who's running: see your voter page. We're still adding these races.</p>
+                          <a class="src" href={p.source.url} target="_blank" rel="noopener">Source: {p.source.label}</a>
+                        </div>
+                      ))}
+                      <div class="cell" data-seat="unknown" hidden>
+                        <span class="lbl">Has the seat now</span>
+                        <p class="rnote">We couldn't confirm who has this seat. Check your voter page.</p>
+                      </div>
+                    </div>
+                  </RaceCard>
+                );
+              }
+              if (k.startsWith("?")) return <RaceCard office={O[k.slice(1)]} question />;
+              return <RaceCard office={O[k]} candidates={R.statewide[k].candidates} />;
+            })}
+          </BallotGroup>
+        ))
+      }
+    </div>
+  </section>
+
+  <footer>
+    <p>Info as of {asOf}. {config.footerNote}</p>
+    <details>
+      <summary>Sources</summary>
+      <ul>{data.sources.map((s) => <li>{s.what}: <a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}</ul>
+    </details>
+  </footer>
+</div>
+
+<script type="application/json" id="zip-data" set:html={JSON.stringify(data.zipToHouse)} />
+<script>
+  import { start } from "../scripts/ballot";
+  start();
+</script>

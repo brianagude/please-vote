@@ -1,0 +1,21 @@
+---
+import type { StateConfig } from "../lib/types";
+interface Props {
+  config: StateConfig;
+}
+const { config } = Astro.props;
+---
+<span class="lbl kicker">Please Vote</span>
+<header class="sheet mast">
+  <div class="row r1">
+    <div class="cell"><span class="lbl">{config.election.kind}</span><h1 class="disp">Election Day Need-to-Know</h1></div>
+    <div class="cell count" id="count" data-election={config.election.date}>
+      <span class="lbl" id="count-l">Days to go</span><span class="n" id="count-n"></span>
+    </div>
+  </div>
+  <div class="row r2">
+    <div class="cell"><span class="lbl">State</span><span class="val">{config.name}</span></div>
+    <div class="cell"><span class="lbl">Election day</span><span class="val">{config.election.label}</span></div>
+    <div class="cell"><span class="lbl">Polls open</span><span class="val">{config.election.polls}</span></div>
+  </div>
+</header>

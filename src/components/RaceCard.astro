@@ -1,0 +1,44 @@
+---
+import type { Candidate, Office } from "../lib/types";
+import { byLastName } from "../lib/names";
+import CandidateRow from "./CandidateRow.astro";
+interface Props {
+  office: Office;
+  candidates?: Candidate[];
+  title?: string;
+  note?: string;
+  question?: boolean;
+  hidden?: boolean;
+  [data: `data-${string}`]: string;
+}
+const { office: o, candidates = [], title, note, question, hidden, ...data } = Astro.props;
+const list = byLastName(candidates);
+---
+<article class="race" hidden={hidden} {...data}>
+  <div class="row head" style={o.term ? undefined : "grid-template-columns:1fr"}>
+    <div class="cell"><span class="lbl">{question ? "Question" : "Office"}</span><h3 class="disp" data-title>{title ?? o.title}</h3></div>
+    {o.term && <div class="cell"><span class="lbl">Term</span><span>{o.term.replace("-year term", " years")}</span></div>}
+  </div>
+  <div class="row why">
+    <div class="cell"><span class="lbl">{question ? "What it is" : "What they do"}</span><p>{o.one} {o.why}</p></div>
+  </div>
+  {
+    list.length > 0 && (
+      <div class="row">
+        <div class="cell" style="padding:10px 0 4px">
+          <span class="lbl" style="padding:0 14px">Candidates</span>
+          <ul class="cands">{list.map((c) => <CandidateRow c={c} />)}</ul>
+        </div>
+      </div>
+    )
+  }
+  <slot />
+  {note && <div class="row"><div class="cell"><p class="rnote">{note}</p></div></div>}
+  {
+    o.also.length > 0 && (
+      <div class="row">
+        <div class="cell"><span class="lbl">Also handles</span><p class="also">{o.also.join(" · ")}</p></div>
+      </div>
+    )
+  }
+</article>

@@ -1,0 +1,53 @@
+---
+import type { Candidate, Source } from "../lib/types";
+import { initials, partyName } from "../lib/names";
+import { sourced } from "../lib/state";
+interface Props {
+  c: Candidate;
+}
+const { c } = Astro.props;
+const bio = sourced(c.bio) ? c.bio : undefined;
+const career = (c.career ?? []).filter(sourced);
+const committees = c.committees?.source ? c.committees.items : [];
+// One short line listing where this candidate's facts came from.
+const used: Source[] = [bio?.source, ...career.map((f) => f.source), committees.length ? c.committees?.source : undefined].filter(
+  (s): s is Source => !!s,
+);
+const sources = [...new Map(used.map((s) => [s.url, s])).values()];
+const { campaign, official, ballotpedia } = c.links;
+---
+<li class="cand">
+  {
+    c.photo ? (
+      <span class="pin"><img src={c.photo.src} alt={c.name} loading="lazy" width="52" height="52" /></span>
+    ) : (
+      <span class="pin" aria-hidden="true">{initials(c.name)}</span>
+    )
+  }
+  <div>
+    <div class="cn">
+      <strong>{c.name}</strong><span class="p">{partyName(c.party)}</span>
+      {c.incumbent && <span class="stamp">Has the job now</span>}
+    </div>
+    {bio && <p class="bio">{bio.text}</p>}
+    {career.length > 0 && <ul class="career">{career.map((f) => <li>{f.text}</li>)}</ul>}
+    {committees.length > 0 && <p class="works">Committee work: {committees.join(", ")}</p>}
+    {
+      (campaign || official || ballotpedia) && (
+        <p class="links">
+          {campaign && <a class="site" href={campaign} target="_blank" rel="noopener">Campaign site →</a>}
+          {official && <a class="site" href={official} target="_blank" rel="noopener">Official site →</a>}
+          {ballotpedia && <a class="site" href={ballotpedia} target="_blank" rel="noopener">Ballotpedia →</a>}
+        </p>
+      )
+    }
+    {
+      (sources.length > 0 || c.photo?.credit) && (
+        <p class="src">
+          {sources.length > 0 && <>Facts from {sources.map((s, i) => <>{i > 0 && ", "}<a class="src" href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}.</>}
+          {c.photo?.credit && <> Photo: <a class="src" href={c.photo.source.url} target="_blank" rel="noopener">{c.photo.credit}</a>{c.photo.license && `, ${c.photo.license}`}.</>}
+        </p>
+      )
+    }
+  </div>
+</li>

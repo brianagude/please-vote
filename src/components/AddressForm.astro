@@ -1,0 +1,49 @@
+---
+import type { StateConfig } from "../lib/types";
+interface Props {
+  config: StateConfig;
+}
+const { districts: D } = Astro.props.config;
+const range = (n: number) => Array.from({ length: n }, (_, i) => i + 1);
+---
+<section aria-labelledby="s2">
+  <div class="shead"><span class="no">02</span><h2 class="disp" id="s2">Where do you live?</h2></div>
+  <p class="note">Some races depend on your address. Enter yours to update your ballot.</p>
+  <div class="sheet form">
+    <form class="row one" id="addr-form">
+      <div class="cell">
+        <label class="lbl" for="addr">Home address</label>
+        <div class="addr">
+          <input id="addr" name="address" autocomplete="street-address" placeholder="Street, city, ZIP" />
+          <button class="btn" type="submit">Find my ballot</button>
+        </div>
+        <span class="hint" id="addr-hint" aria-live="polite">We don't save your address.</span>
+      </div>
+    </form>
+    <div class="row one"><span class="lbl or">Your districts. Or fill them in yourself.</span></div>
+    <div class="row stack">
+      <div class="cell">
+        <label class="lbl" for="zip">ZIP code</label>
+        <input id="zip" inputmode="numeric" maxlength="5" placeholder="#####" autocomplete="postal-code" />
+        <span class="hint" id="zip-hint" aria-live="polite">Sets your {D.house.label} race.</span>
+        <div class="chips" id="zip-choices"></div>
+      </div>
+      <div class="cell">
+        <label class="lbl" for="sel-upper">{D.upper.label} dist.</label>
+        <select id="sel-upper">
+          <option value="">Not sure yet</option>
+          {range(D.upper.count).map((n) => <option value={n}>District {n}</option>)}
+        </select>
+        <span class="hint">Listed on your voter page.</span>
+      </div>
+      <div class="cell">
+        <label class="lbl" for="sel-lower">{D.lower.label} dist.</label>
+        <select id="sel-lower">
+          <option value="">Not sure yet</option>
+          {range(D.lower.count).map((n) => <option value={n}>District {n}</option>)}
+        </select>
+        <span class="hint">Same page, just below.</span>
+      </div>
+    </div>
+  </div>
+</section>

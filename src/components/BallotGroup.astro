@@ -1,0 +1,18 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  sub: string;
+  inside: { text: string; key?: string }[];
+}
+const { id, title, sub, inside } = Astro.props;
+---
+<details class="grp" data-id={id}>
+  <summary>
+    <h3 class="disp gtitle">{title}</h3>
+    <span class="pm" aria-hidden="true"></span>
+    <span class="gsub">{sub}</span>
+    <span class="gin">{inside.map((s, i) => <>{i > 0 && " · "}<span data-inside={s.key}>{s.text}</span></>)}</span>
+  </summary>
+  <div class="races"><slot /></div>
+</details>

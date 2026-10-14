@@ -1,0 +1,1556 @@
+{
+  "statewide": {
+    "senate": {
+      "candidates": [
+        {
+          "id": "jon-ossoff",
+          "name": "Jon Ossoff",
+          "party": "D",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. senator for Georgia since 2021.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jon_Ossoff"
+            }
+          },
+          "career": [
+            {
+              "text": "Won the seat in a January 2021 runoff against then-Sen. David Perdue",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Jon_Ossoff"
+              }
+            },
+            {
+              "text": "Ran for the U.S. House in 2017 and lost",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Jon_Ossoff"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "federal spending",
+              "elections & Senate rules",
+              "spy agencies"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://electjon.com/",
+            "official": "https://www.ossoff.senate.gov",
+            "ballotpedia": "https://ballotpedia.org/Jon_Ossoff"
+          },
+          "ids": {
+            "bioguide": "O000174"
+          }
+        },
+        {
+          "id": "mike-collins",
+          "name": "Mike Collins",
+          "party": "R",
+          "bio": {
+            "text": "U.S. representative for Georgia's 10th District since 2023.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+            }
+          },
+          "career": [
+            {
+              "text": "Re-elected to the House in 2024",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "public lands & wildlife",
+              "roads, bridges & airports",
+              "science & space"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://mikecollinsga.com/",
+            "official": "https://collins.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Mike_Collins_(Georgia)"
+          },
+          "ids": {
+            "bioguide": "C001129"
+          }
+        }
+      ]
+    },
+    "governor": {
+      "candidates": [
+        {
+          "id": "keisha-lance-bottoms",
+          "name": "Keisha Lance Bottoms",
+          "party": "D",
+          "bio": {
+            "text": "Former mayor of Atlanta.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Keisha_Lance_Bottoms"
+            }
+          },
+          "career": [
+            {
+              "text": "Atlanta City Council member, 2010–2017",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Keisha_Lance_Bottoms"
+              }
+            },
+            {
+              "text": "Mayor of Atlanta, 2018–2022",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Keisha_Lance_Bottoms"
+              }
+            },
+            {
+              "text": "White House adviser to President Biden, 2022–2023",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Keisha_Lance_Bottoms"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.keishaforgovernor.com/",
+            "ballotpedia": "https://ballotpedia.org/Keisha_Lance_Bottoms"
+          }
+        },
+        {
+          "id": "rick-jackson",
+          "name": "Rick Jackson",
+          "party": "R",
+          "bio": {
+            "text": "Founder and CEO of Jackson Healthcare, a health care staffing company based in Alpharetta.",
+            "source": {
+              "label": "Atlanta News First",
+              "url": "https://www.atlantanewsfirst.com/2026/02/03/jackson-healthcare-ceo-launches-georgia-governors-bid-with-50m/"
+            }
+          },
+          "links": {
+            "campaign": "https://rickjackson.com/",
+            "ballotpedia": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+          }
+        }
+      ]
+    },
+    "ltgov": {
+      "candidates": [
+        {
+          "id": "josh-mclaurin",
+          "name": "Josh McLaurin",
+          "party": "D",
+          "bio": {
+            "text": "Georgia state senator since 2023.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Josh_McLaurin"
+            }
+          },
+          "career": [
+            {
+              "text": "State representative, 2019–2023",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Josh_McLaurin"
+              }
+            },
+            {
+              "text": "State senator for District 14, 2023–present",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Josh_McLaurin"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "http://joshforgeorgia.com",
+            "ballotpedia": "https://ballotpedia.org/Josh_McLaurin"
+          }
+        },
+        {
+          "id": "greg-dolezal",
+          "name": "Greg Dolezal",
+          "party": "R",
+          "bio": {
+            "text": "Georgia state senator since 2019.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Greg_Dolezal"
+            }
+          },
+          "career": [
+            {
+              "text": "Represents State Senate District 27, in the Cumming/Forsyth County area",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Greg_Dolezal"
+              }
+            },
+            {
+              "text": "Co-owns Renewed Vision, a software company",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Greg_Dolezal"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://gregdolezal.com/",
+            "ballotpedia": "https://ballotpedia.org/Greg_Dolezal"
+          }
+        }
+      ]
+    },
+    "sos": {
+      "candidates": [
+        {
+          "id": "penny-brown-reynolds",
+          "name": "Penny Brown Reynolds",
+          "party": "D",
+          "bio": {
+            "text": "Former Fulton County Superior Court judge and TV host.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Penny_Brown_Reynolds"
+            }
+          },
+          "links": {
+            "campaign": "https://www.pennyforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Penny_Brown_Reynolds"
+          }
+        },
+        {
+          "id": "tim-fleming",
+          "name": "Tim Fleming",
+          "party": "R",
+          "bio": {
+            "text": "Georgia state representative since 2023.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Tim_Fleming"
+            }
+          },
+          "career": [
+            {
+              "text": "Chief of staff to Gov. Brian Kemp, 2019–2020",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Tim_Fleming"
+              }
+            },
+            {
+              "text": "State representative for District 114, 2023–present",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Tim_Fleming"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.flemingforga.com/",
+            "ballotpedia": "https://ballotpedia.org/Tim_Fleming"
+          }
+        }
+      ]
+    },
+    "ag": {
+      "candidates": [
+        {
+          "id": "tanya-miller",
+          "name": "Tanya Miller",
+          "party": "D",
+          "bio": {
+            "text": "Georgia state representative since 2023 (District 62).",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Tanya_Miller"
+            }
+          },
+          "career": [
+            {
+              "text": "Former prosecutor in the Fulton County District Attorney's office",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Tanya_Miller"
+              }
+            },
+            {
+              "text": "Former lawyer at the U.S. Department of Justice",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Tanya_Miller"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.tanyaforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Tanya_Miller"
+          }
+        },
+        {
+          "id": "brian-strickland",
+          "name": "Brian Strickland",
+          "party": "R",
+          "bio": {
+            "text": "Georgia state senator since 2018 (now District 42).",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Brian_Strickland"
+            }
+          },
+          "career": [
+            {
+              "text": "Chaired the State Senate committee that handles courts and criminal law (Judiciary), 2021–2024",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Brian_Strickland"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "http://www.stricklandforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Brian_Strickland"
+          }
+        }
+      ]
+    },
+    "agr": {
+      "candidates": [
+        {
+          "id": "katherine-juhan-arnold",
+          "name": "Katherine Juhan-Arnold",
+          "party": "D",
+          "bio": {
+            "text": "Nonprofit founder.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Katherine_Juhan-Arnold"
+            }
+          },
+          "career": [
+            {
+              "text": "Founded Ag Explained, which teaches people how Georgia agriculture works",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Katherine_Juhan-Arnold"
+              }
+            },
+            {
+              "text": "Founded Baby Katie's Pharm & Kitchen, which works with growers on food and plants",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Katherine_Juhan-Arnold"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://katherineforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Katherine_Juhan-Arnold"
+          }
+        },
+        {
+          "id": "tyler-harper",
+          "name": "Tyler Harper",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "Georgia's agriculture commissioner since 2023.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Tyler_Harper"
+            }
+          },
+          "career": [
+            {
+              "text": "South Georgia farmer",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Tyler_Harper"
+              }
+            },
+            {
+              "text": "Georgia state senator, 2013–2023",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Tyler_Harper"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://tylerharperga.com/",
+            "ballotpedia": "https://ballotpedia.org/Tyler_Harper"
+          }
+        }
+      ]
+    },
+    "ins": {
+      "candidates": [
+        {
+          "id": "keisha-waites",
+          "name": "Keisha Waites",
+          "party": "D",
+          "bio": {
+            "text": "Former Atlanta City Council member.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Keisha_Waites"
+            }
+          },
+          "career": [
+            {
+              "text": "Georgia state representative, 2012–2017",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Keisha_Waites"
+              }
+            },
+            {
+              "text": "Atlanta City Council member, 2022–2024",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Keisha_Waites"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.keishawaites.org/",
+            "ballotpedia": "https://ballotpedia.org/Keisha_Waites"
+          }
+        },
+        {
+          "id": "john-king",
+          "name": "John King",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "Georgia's insurance commissioner since 2019.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/John_F._King"
+            }
+          },
+          "career": [
+            {
+              "text": "Appointed in 2019 after the previous commissioner was suspended; won a full term in 2022",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/John_F._King"
+              }
+            },
+            {
+              "text": "Former Doraville police chief and National Guard major general",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/John_F._King"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.votejohnking.com/",
+            "ballotpedia": "https://ballotpedia.org/John_King_(Georgia)"
+          }
+        }
+      ]
+    },
+    "labor": {
+      "candidates": [
+        {
+          "id": "nikki-porcher",
+          "name": "Nikki Porcher",
+          "party": "D",
+          "bio": {
+            "text": "Entrepreneur.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Nikki_Porcher"
+            }
+          },
+          "career": [
+            {
+              "text": "U.S. Air Force veteran",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Nikki_Porcher"
+              }
+            },
+            {
+              "text": "Former public school teacher",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Nikki_Porcher"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.voteporcher4ga.com/",
+            "ballotpedia": "https://ballotpedia.org/Nikki_Porcher"
+          }
+        },
+        {
+          "id": "barbara-rivera-holmes",
+          "name": "Bárbara Rivera Holmes",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "Georgia's labor commissioner, appointed by Gov. Kemp in 2025.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/B%C3%A1rbara_Rivera_Holmes"
+            }
+          },
+          "links": {
+            "campaign": "https://www.barbaraforga.com/",
+            "ballotpedia": "https://ballotpedia.org/B%C3%A1rbara_Rivera_Holmes"
+          }
+        }
+      ]
+    },
+    "schools": {
+      "candidates": [
+        {
+          "id": "lydia-powell",
+          "name": "Lydia Powell",
+          "party": "D",
+          "bio": {
+            "text": "Educator.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Lydia_Powell"
+            }
+          },
+          "links": {
+            "campaign": "https://www.drlydiapowell.com/",
+            "ballotpedia": "https://ballotpedia.org/Lydia_Powell"
+          }
+        },
+        {
+          "id": "richard-woods",
+          "name": "Richard Woods",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "Georgia's school superintendent since 2015.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Richard_Woods_(politician)"
+            }
+          },
+          "career": [
+            {
+              "text": "High school social studies teacher in Irwin County for 14 years",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Richard_Woods_(politician)"
+              }
+            },
+            {
+              "text": "Former assistant principal",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Richard_Woods_(politician)"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "http://www.woodsforsuper.com",
+            "ballotpedia": "https://ballotpedia.org/Richard_Woods_(Georgia)"
+          }
+        }
+      ]
+    },
+    "psc3": {
+      "candidates": [
+        {
+          "id": "peter-hubbard",
+          "name": "Peter Hubbard",
+          "party": "D",
+          "incumbent": true,
+          "bio": {
+            "text": "Has held this seat since January 2026.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Peter_Hubbard"
+            }
+          },
+          "career": [
+            {
+              "text": "Won a 2025 special election for a one-year term, beating Fitz Johnson",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Peter_Hubbard"
+              }
+            },
+            {
+              "text": "That short term ends in December, so the seat is up again",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Peter_Hubbard"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://peterforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Peter_Hubbard"
+          }
+        },
+        {
+          "id": "fitz-johnson",
+          "name": "Fitz Johnson",
+          "party": "R",
+          "bio": {
+            "text": "Held this seat from 2021 until he lost the 2025 special election to Peter Hubbard.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Fitz_Johnson"
+            }
+          },
+          "career": [
+            {
+              "text": "Appointed to the commission by Gov. Kemp in 2021",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Fitz_Johnson"
+              }
+            },
+            {
+              "text": "U.S. Army, 1981–2002; retired as a major",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Fitz_Johnson"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://friendsforfitz.com/",
+            "ballotpedia": "https://ballotpedia.org/Fitz_Johnson"
+          }
+        }
+      ]
+    },
+    "psc5": {
+      "candidates": [
+        {
+          "id": "shelia-edwards",
+          "name": "Shelia Edwards",
+          "party": "D",
+          "bio": {
+            "text": "Business owner.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Shelia_Edwards"
+            }
+          },
+          "career": [
+            {
+              "text": "Founded Legacy Cares, a community group in Mableton",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Shelia_Edwards"
+              }
+            },
+            {
+              "text": "Ran for a Public Service Commission seat in 2022",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Shelia_Edwards"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://shelia4psc.com/",
+            "ballotpedia": "https://ballotpedia.org/Shelia_Edwards"
+          }
+        },
+        {
+          "id": "josh-tolbert",
+          "name": "Josh Tolbert",
+          "party": "R",
+          "bio": {
+            "text": "Engineer.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Josh_Tolbert"
+            }
+          },
+          "career": [
+            {
+              "text": "Ran in a 2025 special election for State Senate District 35 and finished third",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Josh_Tolbert"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://teamtolbert.com/",
+            "ballotpedia": "https://ballotpedia.org/Josh_Tolbert"
+          }
+        },
+        {
+          "id": "thomas-blooming",
+          "name": "Thomas Blooming",
+          "party": "L",
+          "bio": {
+            "text": "Libertarian nominee. We couldn't find more about his background."
+          },
+          "links": {}
+        }
+      ]
+    }
+  },
+  "house": {
+    "1": {
+      "candidates": [
+        {
+          "id": "amanda-hollowell",
+          "name": "Amanda Hollowell",
+          "party": "D",
+          "bio": {
+            "text": "Political organizer.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Amanda_Hollowell"
+            }
+          },
+          "career": [
+            {
+              "text": "Has worked with the groups Color Of Change and When We All Vote",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Amanda_Hollowell"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.amandaforga.com/",
+            "ballotpedia": "https://ballotpedia.org/Amanda_Hollowell"
+          }
+        },
+        {
+          "id": "jim-kingston",
+          "name": "Jim Kingston",
+          "party": "R",
+          "bio": {
+            "text": "Insurance salesman."
+          },
+          "links": {}
+        }
+      ],
+      "note": "Buddy Carter, who has this seat now, is running for U.S. Senate instead."
+    },
+    "2": {
+      "candidates": [
+        {
+          "id": "sanford-d-bishop-jr",
+          "name": "Sanford D. Bishop, Jr.",
+          "party": "D",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 1993.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Sanford_Bishop"
+            }
+          },
+          "career": [
+            {
+              "text": "Georgia state representative, 1977–1990, and state senator, 1992–1993",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Sanford_Bishop"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "federal spending"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://sanfordbishop.com/",
+            "official": "https://bishop.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Sanford_Bishop"
+          },
+          "ids": {
+            "bioguide": "B000490"
+          }
+        },
+        {
+          "id": "matt-day",
+          "name": "Matt Day",
+          "party": "R",
+          "bio": {
+            "text": "Businessman."
+          },
+          "links": {
+            "campaign": "https://votemattday.com/"
+          }
+        }
+      ]
+    },
+    "3": {
+      "candidates": [
+        {
+          "id": "maura-keller",
+          "name": "Maura Keller",
+          "party": "D",
+          "bio": {
+            "text": "Retired Army lieutenant colonel and VA health care worker.",
+            "source": {
+              "label": "The Citizen",
+              "url": "https://thecitizen.com/2026/03/22/record-breaking-retired-lt-colonel-and-va-healthcare-worker-enters-ga-3-congressional-race/"
+            }
+          },
+          "career": [
+            {
+              "text": "Served in the U.S. Army, 1978–2004",
+              "source": {
+                "label": "The Citizen",
+                "url": "https://thecitizen.com/2026/03/22/record-breaking-retired-lt-colonel-and-va-healthcare-worker-enters-ga-3-congressional-race/"
+              }
+            },
+            {
+              "text": "Ran for this seat in 2024 and lost to Brian Jack",
+              "source": {
+                "label": "The Citizen",
+                "url": "https://thecitizen.com/2026/03/22/record-breaking-retired-lt-colonel-and-va-healthcare-worker-enters-ga-3-congressional-race/"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.maura4ga3.com/",
+            "ballotpedia": "https://ballotpedia.org/Maura_Keller"
+          }
+        },
+        {
+          "id": "brian-jack",
+          "name": "Brian Jack",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 2025.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Brian_Jack"
+            }
+          },
+          "career": [
+            {
+              "text": "Senior adviser to Donald Trump's 2024 presidential campaign",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Brian_Jack"
+              }
+            },
+            {
+              "text": "Ran delegate operations for Trump's 2016 campaign",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Brian_Jack"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "investigating the federal government",
+              "small businesses",
+              "which bills get a vote"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://brianjack.com/",
+            "official": "https://jack.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Brian_Jack"
+          },
+          "ids": {
+            "bioguide": "J000311"
+          }
+        }
+      ]
+    },
+    "4": {
+      "candidates": [
+        {
+          "id": "henry-c-johnson-jr",
+          "name": "Henry C. \"Hank\" Johnson, Jr.",
+          "party": "D",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 2007.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/J000288"
+            }
+          },
+          "committees": {
+            "items": [
+              "roads, bridges & airports",
+              "courts & federal law enforcement"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://hankforcongress.com/",
+            "official": "https://hankjohnson.house.gov"
+          },
+          "ids": {
+            "bioguide": "J000288"
+          }
+        },
+        {
+          "id": "james-duffie",
+          "name": "James Duffie",
+          "party": "R",
+          "bio": {
+            "text": "Retired nonprofit director and veteran.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/James_Duffie"
+            }
+          },
+          "links": {
+            "campaign": "https://jimduffie.com/",
+            "ballotpedia": "https://ballotpedia.org/James_Duffie"
+          }
+        }
+      ]
+    },
+    "5": {
+      "candidates": [
+        {
+          "id": "nikema-williams",
+          "name": "Nikema Williams",
+          "party": "D",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/W000788"
+            }
+          },
+          "committees": {
+            "items": [
+              "banks & housing"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://www.nikemaforcongress.com/",
+            "official": "https://nikemawilliams.house.gov"
+          },
+          "ids": {
+            "bioguide": "W000788"
+          }
+        },
+        {
+          "id": "john-salvesen",
+          "name": "John Salvesen",
+          "party": "R",
+          "bio": {
+            "text": "Handyman who works in construction.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/John_Salvesen"
+            }
+          },
+          "career": [
+            {
+              "text": "Ran for this seat in 2024 and lost to Nikema Williams",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/John_Salvesen"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.bongo4congress.com/",
+            "ballotpedia": "https://ballotpedia.org/John_Salvesen"
+          }
+        }
+      ]
+    },
+    "6": {
+      "candidates": [
+        {
+          "id": "lucy-mcbath",
+          "name": "Lucy McBath",
+          "party": "D",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001208"
+            }
+          },
+          "career": [
+            {
+              "text": "Represented the 6th District 2019–2023 and the 7th District 2023–2025, then the 6th again after the maps were redrawn"
+            }
+          ],
+          "committees": {
+            "items": [
+              "courts & federal law enforcement",
+              "schools & workplace rules"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "http://lucyforcongress.com",
+            "official": "https://mcbath.house.gov"
+          },
+          "ids": {
+            "bioguide": "M001208"
+          }
+        },
+        {
+          "id": "kevin-martin",
+          "name": "Kevin Martin",
+          "party": "R",
+          "bio": {
+            "text": "Company controller with 35 years in accounting and finance.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Kevin_Martin_(Georgia)"
+            }
+          },
+          "links": {
+            "campaign": "https://kevinmartinforcongress.com/",
+            "ballotpedia": "https://ballotpedia.org/Kevin_Martin_(Georgia)"
+          }
+        }
+      ]
+    },
+    "7": {
+      "candidates": [
+        {
+          "id": "anthony-kozycki",
+          "name": "Anthony Kozycki",
+          "party": "D",
+          "bio": {
+            "text": "Attorney."
+          },
+          "links": {
+            "campaign": "https://kozyckiforcongress.com/"
+          }
+        },
+        {
+          "id": "richard-mccormick",
+          "name": "Richard McCormick",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative since 2023; has represented this district since 2025.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Rich_McCormick"
+            }
+          },
+          "career": [
+            {
+              "text": "Represented the 6th District, 2023–2025, before the maps were redrawn",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Rich_McCormick"
+              }
+            },
+            {
+              "text": "Emergency room doctor; served in the Marine Corps and Navy",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Rich_McCormick"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "science & space",
+              "the military",
+              "investigating the federal government"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "http://richmccormick.us/",
+            "official": "https://mccormick.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Rich_McCormick"
+          },
+          "ids": {
+            "bioguide": "M001218"
+          }
+        }
+      ]
+    },
+    "8": {
+      "candidates": [
+        {
+          "id": "kelly-esti",
+          "name": "Kelly Esti",
+          "party": "D",
+          "bio": {
+            "text": "Businessman.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Kelly_Esti"
+            }
+          },
+          "links": {
+            "campaign": "https://kellyesti4congress.com/",
+            "ballotpedia": "https://ballotpedia.org/Kelly_Esti"
+          }
+        },
+        {
+          "id": "austin-scott",
+          "name": "Austin Scott",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 2011.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Austin_Scott"
+            }
+          },
+          "career": [
+            {
+              "text": "Georgia state representative, 1997–2010",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Austin_Scott"
+              }
+            },
+            {
+              "text": "Leads a House subcommittee on farm programs and farm loans",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Austin_Scott"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "farms & food aid",
+              "the military",
+              "spy agencies",
+              "which bills get a vote"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "http://www.scottforga.com",
+            "official": "https://austinscott.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Austin_Scott"
+          },
+          "ids": {
+            "bioguide": "S001189"
+          }
+        }
+      ]
+    },
+    "9": {
+      "candidates": [
+        {
+          "id": "caitlyn-gegen",
+          "name": "Caitlyn Gegen",
+          "party": "D",
+          "bio": {
+            "text": "Community organizer.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Caitlyn_Gegen"
+            }
+          },
+          "links": {
+            "campaign": "https://www.caitlynforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Caitlyn_Gegen"
+          }
+        },
+        {
+          "id": "andrew-s-clyde",
+          "name": "Andrew S. Clyde",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 2021.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Andrew_Clyde"
+            }
+          },
+          "career": [
+            {
+              "text": "Served 28 years in the U.S. Navy",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Andrew_Clyde"
+              }
+            },
+            {
+              "text": "Owns Clyde Armory, a gun shop in Athens",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Andrew_Clyde"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "federal spending",
+              "the federal budget"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://www.clyde4congress.com/",
+            "official": "https://clyde.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Andrew_Clyde"
+          },
+          "ids": {
+            "bioguide": "C001116"
+          }
+        }
+      ]
+    },
+    "10": {
+      "candidates": [
+        {
+          "id": "pamela-delancy",
+          "name": "Pamela DeLancy",
+          "party": "D",
+          "bio": {
+            "text": "Registered nurse and retired Army colonel.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Pamela_DeLancy"
+            }
+          },
+          "career": [
+            {
+              "text": "Served 30+ years as an Army nurse",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Pamela_DeLancy"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://votepamdelancy.com/",
+            "ballotpedia": "https://ballotpedia.org/Pamela_DeLancy"
+          }
+        },
+        {
+          "id": "houston-gaines",
+          "name": "Houston Gaines",
+          "party": "R",
+          "bio": {
+            "text": "Georgia state representative since 2019.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Houston_Gaines"
+            }
+          },
+          "links": {
+            "campaign": "https://houstongaines.com/",
+            "ballotpedia": "https://ballotpedia.org/Houston_Gaines"
+          }
+        }
+      ],
+      "note": "Mike Collins, who has this seat now, is running for U.S. Senate instead."
+    },
+    "11": {
+      "candidates": [
+        {
+          "id": "chris-harden",
+          "name": "Chris Harden",
+          "party": "D",
+          "bio": {
+            "text": "Attorney.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Chris_Harden"
+            }
+          },
+          "career": [
+            {
+              "text": "Co-owns Harden Law Firm, an estate planning practice in Woodstock",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Chris_Harden"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://chrishardenforcongress.com/",
+            "ballotpedia": "https://ballotpedia.org/Chris_Harden"
+          }
+        },
+        {
+          "id": "john-cowan",
+          "name": "John Cowan",
+          "party": "R",
+          "bio": {
+            "text": "Neurosurgeon.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/John_Cowan"
+            }
+          },
+          "career": [
+            {
+              "text": "Founded the toy company Cortex Toys",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/John_Cowan"
+              }
+            },
+            {
+              "text": "Ran for Georgia's 14th District in 2020 and lost the Republican runoff to Marjorie Taylor Greene",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/John_Cowan"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.cowanforcongress.com/",
+            "ballotpedia": "https://ballotpedia.org/John_Cowan"
+          }
+        }
+      ],
+      "note": "Barry Loudermilk, who has this seat now, isn't running."
+    },
+    "12": {
+      "candidates": [
+        {
+          "id": "ceretta-smith",
+          "name": "Ceretta Smith",
+          "party": "D",
+          "bio": {
+            "text": "Served six years on the Grovetown City Council.",
+            "source": {
+              "label": "WRDW",
+              "url": "https://wrdw.com/2026/06/17/ceretta-smith-wins-runoff-democratic-us-house-primary"
+            }
+          },
+          "links": {
+            "campaign": "https://cerettaforgeorgia.com/",
+            "ballotpedia": "https://ballotpedia.org/Ceretta_Smith"
+          }
+        },
+        {
+          "id": "rick-w-allen",
+          "name": "Rick W. Allen",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since 2015.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Rick_W._Allen"
+            }
+          },
+          "career": [
+            {
+              "text": "Founded the construction company R.W. Allen & Associates in 1976",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Rick_W._Allen"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "health care & energy",
+              "schools & workplace rules"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://rickwallen.com/",
+            "official": "https://allen.house.gov",
+            "ballotpedia": "https://ballotpedia.org/Rick_W._Allen"
+          },
+          "ids": {
+            "bioguide": "A000372"
+          }
+        }
+      ]
+    },
+    "13": {
+      "candidates": [
+        {
+          "id": "jasmine-clark",
+          "name": "Jasmine Clark",
+          "party": "D",
+          "bio": {
+            "text": "Georgia state representative since 2019 (District 108).",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jasmine_Clark"
+            }
+          },
+          "career": [
+            {
+              "text": "Former scientist and college professor",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Jasmine_Clark"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "http://www.jasmine4ga.com",
+            "ballotpedia": "https://ballotpedia.org/Jasmine_Clark"
+          }
+        },
+        {
+          "id": "jonathan-chavez",
+          "name": "Jonathan Chavez",
+          "party": "R",
+          "bio": {
+            "text": "Former chair of the Rockdale County Republican Party.",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jonathan_Chavez"
+            }
+          },
+          "career": [
+            {
+              "text": "Served in the U.S. Air Force, 1990–2013",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Jonathan_Chavez"
+              }
+            },
+            {
+              "text": "Ran for Congress in 2022 and 2024 and lost both races",
+              "source": {
+                "label": "Ballotpedia",
+                "url": "https://ballotpedia.org/Jonathan_Chavez"
+              }
+            }
+          ],
+          "links": {
+            "campaign": "https://www.jonathanchavezforcongress.com/",
+            "ballotpedia": "https://ballotpedia.org/Jonathan_Chavez"
+          }
+        }
+      ],
+      "note": "Everton Blair Jr., who has this seat now, lost in the primary."
+    },
+    "14": {
+      "candidates": [
+        {
+          "id": "shawn-harris",
+          "name": "Shawn Harris",
+          "party": "D",
+          "bio": {
+            "text": "Cattle farmer and retired brigadier general."
+          },
+          "career": [
+            {
+              "text": "Lost the April 2026 special election for this seat to Clay Fuller"
+            }
+          ],
+          "links": {
+            "campaign": "https://www.shawnforgeorgia.com/"
+          }
+        },
+        {
+          "id": "clay-fuller",
+          "name": "Clay Fuller",
+          "party": "R",
+          "incumbent": true,
+          "bio": {
+            "text": "U.S. representative for this district since April 2026.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Clay_Fuller"
+            }
+          },
+          "career": [
+            {
+              "text": "Won an April 2026 special election, beating Shawn Harris",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Clay_Fuller"
+              }
+            },
+            {
+              "text": "Former district attorney for the Lookout Mountain Judicial Circuit",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Clay_Fuller"
+              }
+            }
+          ],
+          "committees": {
+            "items": [
+              "roads, bridges & airports",
+              "small businesses"
+            ],
+            "source": {
+              "label": "unitedstates/congress-legislators",
+              "url": "https://github.com/unitedstates/congress-legislators"
+            }
+          },
+          "links": {
+            "campaign": "https://clayfullerforgeorgia.com/",
+            "official": "https://fuller.house.gov"
+          },
+          "ids": {
+            "bioguide": "F000485"
+          }
+        }
+      ]
+    }
+  }
+}

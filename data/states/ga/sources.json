@@ -1,0 +1,142 @@
+[
+  {
+    "what": "Dates, ID, poll hours",
+    "label": "Georgia Election Guide",
+    "url": "https://georgia.gov/georgia-election-guide"
+  },
+  {
+    "what": "ZIP to U.S. House district",
+    "label": "us-zipcodes-congress (Census data)",
+    "url": "https://github.com/OpenSourceActivismTech/us-zipcodes-congress"
+  },
+  {
+    "what": "Members of Congress, photos, committees",
+    "label": "unitedstates project",
+    "url": "https://github.com/unitedstates/congress-legislators"
+  },
+  {
+    "what": "State legislators",
+    "label": "Open States",
+    "url": "https://github.com/openstates/people"
+  },
+  {
+    "what": "Candidates",
+    "label": "Wikipedia 2026 Georgia race pages",
+    "url": "https://en.wikipedia.org/wiki/2026_Georgia_state_elections"
+  },
+  {
+    "what": "Candidates",
+    "label": "WABE",
+    "url": "https://www.wabe.org/2026georgiacandidates/"
+  },
+  {
+    "what": "Maura Keller",
+    "label": "The Citizen",
+    "url": "https://thecitizen.com/2026/03/22/record-breaking-retired-lt-colonel-and-va-healthcare-worker-enters-ga-3-congressional-race/"
+  },
+  {
+    "what": "Ceretta Smith",
+    "label": "WRDW",
+    "url": "https://wrdw.com/2026/06/17/ceretta-smith-wins-runoff-democratic-us-house-primary"
+  },
+  {
+    "what": "Rick Jackson",
+    "label": "Atlanta News First",
+    "url": "https://www.atlantanewsfirst.com/2026/02/03/jackson-healthcare-ceo-launches-georgia-governors-bid-with-50m/"
+  },
+  {
+    "what": "Tyler Harper",
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tyler_Harper"
+  },
+  {
+    "what": "John King",
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_F._King"
+  },
+  {
+    "what": "Richard Woods",
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Richard_Woods_(politician)"
+  },
+  {
+    "what": "PSC candidates",
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election"
+  },
+  {
+    "what": "What Congress does",
+    "label": "US Vote Foundation",
+    "url": "https://www.usvotefoundation.org/who-gets-your-vote-what-do-they-do"
+  },
+  {
+    "what": "Governor and executive offices",
+    "label": "New Georgia Encyclopedia",
+    "url": "https://www.georgiaencyclopedia.org/articles/government-politics/executive-branch-overview"
+  },
+  {
+    "what": "Lieutenant Governor",
+    "label": "New Georgia Encyclopedia",
+    "url": "https://www.georgiaencyclopedia.org/articles/government-politics/lieutenant-governor/"
+  },
+  {
+    "what": "Secretary of State",
+    "label": "Run for Office",
+    "url": "https://www.runforoffice.org/elected_offices/43227-georgia-secretary-of-state"
+  },
+  {
+    "what": "Attorney General",
+    "label": "Georgia Department of Law",
+    "url": "https://law.georgia.gov/cpd"
+  },
+  {
+    "what": "Agriculture",
+    "label": "Georgia Dept. of Agriculture",
+    "url": "https://agr.georgia.gov/about-georgia-department-agriculture"
+  },
+  {
+    "what": "Insurance",
+    "label": "Georgia Insurance Commissioner",
+    "url": "https://oci.georgia.gov/about-us"
+  },
+  {
+    "what": "Labor",
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Georgia_Department_of_Labor"
+  },
+  {
+    "what": "Schools",
+    "label": "Run for Office",
+    "url": "https://www.runforoffice.org/elected_offices/43228-georgia-state-superintendent-of-schools"
+  },
+  {
+    "what": "Public Service Commission",
+    "label": "Georgia PSC",
+    "url": "https://psc.ga.gov/about-the-psc/"
+  },
+  {
+    "what": "Ballot question",
+    "label": "Ballotpedia",
+    "url": "https://ballotpedia.org/Georgia_elections,_2026"
+  },
+  {
+    "what": "Campaign websites",
+    "label": "Branch and BallotReady candidate pages",
+    "url": "https://branch.vote/"
+  },
+  {
+    "what": "Career facts and profiles",
+    "label": "Ballotpedia candidate profiles",
+    "url": "https://ballotpedia.org/"
+  },
+  {
+    "what": "PSC District 5 ballot",
+    "label": "Ballotpedia News",
+    "url": "https://news.ballotpedia.org/2026/08/10/partisan-control-of-georgia-public-service-commission-at-stake-in-november-election/"
+  },
+  {
+    "what": "Andrew Clyde, Clay Fuller",
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Clay_Fuller"
+  }
+]

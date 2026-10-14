@@ -1,0 +1,32 @@
+---
+import type { StateConfig } from "../lib/types";
+interface Props {
+  config: StateConfig;
+}
+const { config } = Astro.props;
+// Status (Passed / Open now / Coming up / Upcoming) is filled in by the
+// browser so it's right on the day the page is read, not the day it was built.
+---
+<section aria-labelledby="s1">
+  <div class="shead"><span class="no">01</span><h2 class="disp" id="s1">Mark your calendar</h2></div>
+  <div class="sheet">
+    <div class="dates" id="dates">
+      {
+        config.dates.map((d) => (
+          <div class="d" data-start={d.start} data-end={d.end}>
+            <span class="lbl">{d.what}</span>
+            <span class="when">{d.when}</span>
+            {d.sub && <span class="sub">{d.sub}</span>}
+            <span class="st" />
+          </div>
+        ))
+      }
+    </div>
+    <div class="row">
+      <div class="reg">
+        <p>Registered? Know where you vote?</p>
+        <a class="btn" href={config.voterPage} target="_blank" rel="noopener">Check my voter page →</a>
+      </div>
+    </div>
+  </div>
+</section>
