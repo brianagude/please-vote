@@ -1,0 +1,1885 @@
+{
+ "meta": {
+  "state": "GA",
+  "election": "2026-11-03",
+  "as_of": "2026-10-14",
+  "note": "Hand-assembled snapshot used by the prototype. Replace with pipeline output."
+ },
+ "races": {
+  "senate": [
+   {
+    "name": "Jon Ossoff",
+    "party": "D",
+    "bio": "U.S. senator for Georgia since 2021.",
+    "inc": true,
+    "site": "https://www.ossoff.senate.gov",
+    "works": [
+     "federal spending",
+     "elections & Senate rules",
+     "spy agencies"
+    ],
+    "web": "https://electjon.com/",
+    "bp": "https://ballotpedia.org/Jon_Ossoff",
+    "career": [
+     "Won the seat in a January 2021 runoff against then-Sen. David Perdue",
+     "Ran for the U.S. House in 2017 and lost"
+    ],
+    "bioguide": "O000174"
+   },
+   {
+    "name": "Mike Collins",
+    "party": "R",
+    "bio": "U.S. representative for Georgia's 10th District since 2023.",
+    "site": "https://collins.house.gov",
+    "works": [
+     "public lands & wildlife",
+     "roads, bridges & airports",
+     "science & space"
+    ],
+    "web": "https://mikecollinsga.com/",
+    "bp": "https://ballotpedia.org/Mike_Collins_(Georgia)",
+    "career": [
+     "Re-elected to the House in 2024"
+    ],
+    "bioguide": "C001129"
+   }
+  ],
+  "governor": [
+   {
+    "name": "Keisha Lance Bottoms",
+    "party": "D",
+    "bio": "Former mayor of Atlanta.",
+    "web": "https://www.keishaforgovernor.com/",
+    "bp": "https://ballotpedia.org/Keisha_Lance_Bottoms",
+    "career": [
+     "Atlanta City Council member, 2010–2017",
+     "Mayor of Atlanta, 2018–2022",
+     "White House adviser to President Biden, 2022–2023"
+    ]
+   },
+   {
+    "name": "Rick Jackson",
+    "party": "R",
+    "bio": "Founder and CEO of Jackson Healthcare, a health care staffing company based in Alpharetta.",
+    "web": "https://rickjackson.com/",
+    "bp": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+   }
+  ],
+  "ltgov": [
+   {
+    "name": "Josh McLaurin",
+    "party": "D",
+    "bio": "Georgia state senator since 2023.",
+    "web": "http://joshforgeorgia.com",
+    "bp": "https://ballotpedia.org/Josh_McLaurin",
+    "career": [
+     "State representative, 2019–2023",
+     "State senator for District 14, 2023–present"
+    ]
+   },
+   {
+    "name": "Greg Dolezal",
+    "party": "R",
+    "bio": "Georgia state senator since 2019.",
+    "web": "https://gregdolezal.com/",
+    "bp": "https://ballotpedia.org/Greg_Dolezal",
+    "career": [
+     "Represents State Senate District 27, in the Cumming/Forsyth County area",
+     "Co-owns Renewed Vision, a software company"
+    ]
+   }
+  ],
+  "sos": [
+   {
+    "name": "Penny Brown Reynolds",
+    "party": "D",
+    "bio": "Former Fulton County Superior Court judge and TV host.",
+    "web": "https://www.pennyforgeorgia.com/",
+    "bp": "https://ballotpedia.org/Penny_Brown_Reynolds"
+   },
+   {
+    "name": "Tim Fleming",
+    "party": "R",
+    "bio": "Georgia state representative since 2023.",
+    "web": "https://www.flemingforga.com/",
+    "bp": "https://ballotpedia.org/Tim_Fleming",
+    "career": [
+     "Chief of staff to Gov. Brian Kemp, 2019–2020",
+     "State representative for District 114, 2023–present"
+    ]
+   }
+  ],
+  "ag": [
+   {
+    "name": "Tanya Miller",
+    "party": "D",
+    "bio": "Georgia state representative since 2023 (District 62).",
+    "web": "https://www.tanyaforgeorgia.com/",
+    "bp": "https://ballotpedia.org/Tanya_Miller",
+    "career": [
+     "Former prosecutor in the Fulton County District Attorney's office",
+     "Former lawyer at the U.S. Department of Justice"
+    ]
+   },
+   {
+    "name": "Brian Strickland",
+    "party": "R",
+    "bio": "Georgia state senator since 2018 (now District 42).",
+    "web": "http://www.stricklandforgeorgia.com/",
+    "bp": "https://ballotpedia.org/Brian_Strickland",
+    "career": [
+     "Chaired the State Senate committee that handles courts and criminal law (Judiciary), 2021–2024"
+    ]
+   }
+  ],
+  "agr": [
+   {
+    "name": "Katherine Juhan-Arnold",
+    "party": "D",
+    "bio": "Nonprofit founder.",
+    "web": "https://katherineforgeorgia.com/",
+    "bp": "https://ballotpedia.org/Katherine_Juhan-Arnold",
+    "career": [
+     "Founded Ag Explained, which teaches people how Georgia agriculture works",
+     "Founded Baby Katie's Pharm & Kitchen, which works with growers on food and plants"
+    ]
+   },
+   {
+    "name": "Tyler Harper",
+    "party": "R",
+    "bio": "Georgia's agriculture commissioner since 2023.",
+    "inc": true,
+    "web": "https://tylerharperga.com/",
+    "bp": "https://ballotpedia.org/Tyler_Harper",
+    "career": [
+     "South Georgia farmer",
+     "Georgia state senator, 2013–2023"
+    ]
+   }
+  ],
+  "ins": [
+   {
+    "name": "Keisha Waites",
+    "party": "D",
+    "bio": "Former Atlanta City Council member.",
+    "web": "https://www.keishawaites.org/",
+    "bp": "https://ballotpedia.org/Keisha_Waites",
+    "career": [
+     "Georgia state representative, 2012–2017",
+     "Atlanta City Council member, 2022–2024"
+    ]
+   },
+   {
+    "name": "John King",
+    "party": "R",
+    "bio": "Georgia's insurance commissioner since 2019.",
+    "inc": true,
+    "web": "https://www.votejohnking.com/",
+    "bp": "https://ballotpedia.org/John_King_(Georgia)",
+    "career": [
+     "Appointed in 2019 after the previous commissioner was suspended; won a full term in 2022",
+     "Former Doraville police chief and National Guard major general"
+    ]
+   }
+  ],
+  "labor": [
+   {
+    "name": "Nikki Porcher",
+    "party": "D",
+    "bio": "Entrepreneur.",
+    "web": "https://www.voteporcher4ga.com/",
+    "bp": "https://ballotpedia.org/Nikki_Porcher",
+    "career": [
+     "U.S. Air Force veteran",
+     "Former public school teacher"
+    ]
+   },
+   {
+    "name": "Bárbara Rivera Holmes",
+    "party": "R",
+    "bio": "Georgia's labor commissioner, appointed by Gov. Kemp in 2025.",
+    "inc": true,
+    "web": "https://www.barbaraforga.com/",
+    "bp": "https://ballotpedia.org/B%C3%A1rbara_Rivera_Holmes"
+   }
+  ],
+  "schools": [
+   {
+    "name": "Lydia Powell",
+    "party": "D",
+    "bio": "Educator.",
+    "web": "https://www.drlydiapowell.com/",
+    "bp": "https://ballotpedia.org/Lydia_Powell"
+   },
+   {
+    "name": "Richard Woods",
+    "party": "R",
+    "bio": "Georgia's school superintendent since 2015.",
+    "inc": true,
+    "web": "http://www.woodsforsuper.com",
+    "bp": "https://ballotpedia.org/Richard_Woods_(Georgia)",
+    "career": [
+     "High school social studies teacher in Irwin County for 14 years",
+     "Former assistant principal"
+    ]
+   }
+  ],
+  "psc3": [
+   {
+    "name": "Peter Hubbard",
+    "party": "D",
+    "bio": "Has held this seat since January 2026.",
+    "inc": true,
+    "web": "https://peterforgeorgia.com/",
+    "bp": "https://ballotpedia.org/Peter_Hubbard",
+    "career": [
+     "Won a 2025 special election for a one-year term, beating Fitz Johnson",
+     "That short term ends in December, so the seat is up again"
+    ]
+   },
+   {
+    "name": "Fitz Johnson",
+    "party": "R",
+    "bio": "Held this seat from 2021 until he lost the 2025 special election to Peter Hubbard.",
+    "web": "https://friendsforfitz.com/",
+    "bp": "https://ballotpedia.org/Fitz_Johnson",
+    "career": [
+     "Appointed to the commission by Gov. Kemp in 2021",
+     "U.S. Army, 1981–2002; retired as a major"
+    ]
+   }
+  ],
+  "psc5": [
+   {
+    "name": "Shelia Edwards",
+    "party": "D",
+    "bio": "Business owner.",
+    "web": "https://shelia4psc.com/",
+    "bp": "https://ballotpedia.org/Shelia_Edwards",
+    "career": [
+     "Founded Legacy Cares, a community group in Mableton",
+     "Ran for a Public Service Commission seat in 2022"
+    ]
+   },
+   {
+    "name": "Josh Tolbert",
+    "party": "R",
+    "bio": "Engineer.",
+    "web": "https://teamtolbert.com/",
+    "bp": "https://ballotpedia.org/Josh_Tolbert",
+    "career": [
+     "Ran in a 2025 special election for State Senate District 35 and finished third"
+    ]
+   },
+   {
+    "name": "Thomas Blooming",
+    "party": "L",
+    "bio": "Libertarian nominee. We couldn't find more about his background."
+   }
+  ]
+ },
+ "house": {
+  "1": {
+   "cands": [
+    {
+     "name": "Amanda Hollowell",
+     "party": "D",
+     "bio": "Political organizer.",
+     "web": "https://www.amandaforga.com/",
+     "bp": "https://ballotpedia.org/Amanda_Hollowell",
+     "career": [
+      "Has worked with the groups Color Of Change and When We All Vote"
+     ]
+    },
+    {
+     "name": "Jim Kingston",
+     "party": "R",
+     "bio": "Insurance salesman."
+    }
+   ],
+   "note": "Buddy Carter, who has this seat now, is running for U.S. Senate instead."
+  },
+  "2": {
+   "cands": [
+    {
+     "name": "Sanford D. Bishop, Jr.",
+     "party": "D",
+     "bio": "U.S. representative for this district since 1993.",
+     "inc": true,
+     "site": "https://bishop.house.gov",
+     "works": [
+      "federal spending"
+     ],
+     "web": "https://sanfordbishop.com/",
+     "bp": "https://ballotpedia.org/Sanford_Bishop",
+     "career": [
+      "Georgia state representative, 1977–1990, and state senator, 1992–1993"
+     ],
+     "bioguide": "B000490"
+    },
+    {
+     "name": "Matt Day",
+     "party": "R",
+     "bio": "Businessman.",
+     "web": "https://votemattday.com/"
+    }
+   ],
+   "note": null
+  },
+  "3": {
+   "cands": [
+    {
+     "name": "Maura Keller",
+     "party": "D",
+     "bio": "Retired Army lieutenant colonel and VA health care worker.",
+     "web": "https://www.maura4ga3.com/",
+     "bp": "https://ballotpedia.org/Maura_Keller",
+     "career": [
+      "Served in the U.S. Army, 1978–2004",
+      "Ran for this seat in 2024 and lost to Brian Jack"
+     ]
+    },
+    {
+     "name": "Brian Jack",
+     "party": "R",
+     "bio": "U.S. representative for this district since 2025.",
+     "inc": true,
+     "site": "https://jack.house.gov",
+     "works": [
+      "investigating the federal government",
+      "small businesses",
+      "which bills get a vote"
+     ],
+     "web": "https://brianjack.com/",
+     "bp": "https://ballotpedia.org/Brian_Jack",
+     "career": [
+      "Senior adviser to Donald Trump's 2024 presidential campaign",
+      "Ran delegate operations for Trump's 2016 campaign"
+     ],
+     "bioguide": "J000311"
+    }
+   ],
+   "note": null
+  },
+  "4": {
+   "cands": [
+    {
+     "name": "Henry C. \"Hank\" Johnson, Jr.",
+     "party": "D",
+     "bio": "U.S. representative for this district since 2007.",
+     "inc": true,
+     "site": "https://hankjohnson.house.gov",
+     "works": [
+      "roads, bridges & airports",
+      "courts & federal law enforcement"
+     ],
+     "web": "https://hankforcongress.com/",
+     "bioguide": "J000288"
+    },
+    {
+     "name": "James Duffie",
+     "party": "R",
+     "bio": "Retired nonprofit director and veteran.",
+     "web": "https://jimduffie.com/",
+     "bp": "https://ballotpedia.org/James_Duffie"
+    }
+   ],
+   "note": null
+  },
+  "5": {
+   "cands": [
+    {
+     "name": "Nikema Williams",
+     "party": "D",
+     "bio": "U.S. representative for this district since 2021.",
+     "inc": true,
+     "site": "https://nikemawilliams.house.gov",
+     "works": [
+      "banks & housing"
+     ],
+     "web": "https://www.nikemaforcongress.com/",
+     "bioguide": "W000788"
+    },
+    {
+     "name": "John Salvesen",
+     "party": "R",
+     "bio": "Handyman who works in construction.",
+     "web": "https://www.bongo4congress.com/",
+     "bp": "https://ballotpedia.org/John_Salvesen",
+     "career": [
+      "Ran for this seat in 2024 and lost to Nikema Williams"
+     ]
+    }
+   ],
+   "note": null
+  },
+  "6": {
+   "cands": [
+    {
+     "name": "Lucy McBath",
+     "party": "D",
+     "bio": "U.S. representative since 2019.",
+     "inc": true,
+     "site": "https://mcbath.house.gov",
+     "works": [
+      "courts & federal law enforcement",
+      "schools & workplace rules"
+     ],
+     "web": "http://lucyforcongress.com",
+     "career": [
+      "Represented the 6th District 2019–2023 and the 7th District 2023–2025, then the 6th again after the maps were redrawn"
+     ],
+     "bioguide": "M001208"
+    },
+    {
+     "name": "Kevin Martin",
+     "party": "R",
+     "bio": "Company controller with 35 years in accounting and finance.",
+     "web": "https://kevinmartinforcongress.com/",
+     "bp": "https://ballotpedia.org/Kevin_Martin_(Georgia)"
+    }
+   ],
+   "note": null
+  },
+  "7": {
+   "cands": [
+    {
+     "name": "Anthony Kozycki",
+     "party": "D",
+     "bio": "Attorney.",
+     "web": "https://kozyckiforcongress.com/"
+    },
+    {
+     "name": "Richard McCormick",
+     "party": "R",
+     "bio": "U.S. representative since 2023; has represented this district since 2025.",
+     "inc": true,
+     "site": "https://mccormick.house.gov",
+     "works": [
+      "science & space",
+      "the military",
+      "investigating the federal government"
+     ],
+     "web": "http://richmccormick.us/",
+     "bp": "https://ballotpedia.org/Rich_McCormick",
+     "career": [
+      "Represented the 6th District, 2023–2025, before the maps were redrawn",
+      "Emergency room doctor; served in the Marine Corps and Navy"
+     ],
+     "bioguide": "M001218"
+    }
+   ],
+   "note": null
+  },
+  "8": {
+   "cands": [
+    {
+     "name": "Kelly Esti",
+     "party": "D",
+     "bio": "Businessman.",
+     "web": "https://kellyesti4congress.com/",
+     "bp": "https://ballotpedia.org/Kelly_Esti"
+    },
+    {
+     "name": "Austin Scott",
+     "party": "R",
+     "bio": "U.S. representative for this district since 2011.",
+     "inc": true,
+     "site": "https://austinscott.house.gov",
+     "works": [
+      "farms & food aid",
+      "the military",
+      "spy agencies",
+      "which bills get a vote"
+     ],
+     "web": "http://www.scottforga.com",
+     "bp": "https://ballotpedia.org/Austin_Scott",
+     "career": [
+      "Georgia state representative, 1997–2010",
+      "Leads a House subcommittee on farm programs and farm loans"
+     ],
+     "bioguide": "S001189"
+    }
+   ],
+   "note": null
+  },
+  "9": {
+   "cands": [
+    {
+     "name": "Caitlyn Gegen",
+     "party": "D",
+     "bio": "Community organizer.",
+     "web": "https://www.caitlynforgeorgia.com/",
+     "bp": "https://ballotpedia.org/Caitlyn_Gegen"
+    },
+    {
+     "name": "Andrew S. Clyde",
+     "party": "R",
+     "bio": "U.S. representative for this district since 2021.",
+     "inc": true,
+     "site": "https://clyde.house.gov",
+     "works": [
+      "federal spending",
+      "the federal budget"
+     ],
+     "web": "https://www.clyde4congress.com/",
+     "bp": "https://ballotpedia.org/Andrew_Clyde",
+     "career": [
+      "Served 28 years in the U.S. Navy",
+      "Owns Clyde Armory, a gun shop in Athens"
+     ],
+     "bioguide": "C001116"
+    }
+   ],
+   "note": null
+  },
+  "10": {
+   "cands": [
+    {
+     "name": "Pamela DeLancy",
+     "party": "D",
+     "bio": "Registered nurse and retired Army colonel.",
+     "web": "https://votepamdelancy.com/",
+     "bp": "https://ballotpedia.org/Pamela_DeLancy",
+     "career": [
+      "Served 30+ years as an Army nurse"
+     ]
+    },
+    {
+     "name": "Houston Gaines",
+     "party": "R",
+     "bio": "Georgia state representative since 2019.",
+     "web": "https://houstongaines.com/",
+     "bp": "https://ballotpedia.org/Houston_Gaines"
+    }
+   ],
+   "note": "Mike Collins, who has this seat now, is running for U.S. Senate instead."
+  },
+  "11": {
+   "cands": [
+    {
+     "name": "Chris Harden",
+     "party": "D",
+     "bio": "Attorney.",
+     "web": "https://chrishardenforcongress.com/",
+     "bp": "https://ballotpedia.org/Chris_Harden",
+     "career": [
+      "Co-owns Harden Law Firm, an estate planning practice in Woodstock"
+     ]
+    },
+    {
+     "name": "John Cowan",
+     "party": "R",
+     "bio": "Neurosurgeon.",
+     "web": "https://www.cowanforcongress.com/",
+     "bp": "https://ballotpedia.org/John_Cowan",
+     "career": [
+      "Founded the toy company Cortex Toys",
+      "Ran for Georgia's 14th District in 2020 and lost the Republican runoff to Marjorie Taylor Greene"
+     ]
+    }
+   ],
+   "note": "Barry Loudermilk, who has this seat now, isn't running."
+  },
+  "12": {
+   "cands": [
+    {
+     "name": "Ceretta Smith",
+     "party": "D",
+     "bio": "Served six years on the Grovetown City Council.",
+     "web": "https://cerettaforgeorgia.com/",
+     "bp": "https://ballotpedia.org/Ceretta_Smith"
+    },
+    {
+     "name": "Rick W. Allen",
+     "party": "R",
+     "bio": "U.S. representative for this district since 2015.",
+     "inc": true,
+     "site": "https://allen.house.gov",
+     "works": [
+      "health care & energy",
+      "schools & workplace rules"
+     ],
+     "web": "https://rickwallen.com/",
+     "bp": "https://ballotpedia.org/Rick_W._Allen",
+     "career": [
+      "Founded the construction company R.W. Allen & Associates in 1976"
+     ],
+     "bioguide": "A000372"
+    }
+   ],
+   "note": null
+  },
+  "13": {
+   "cands": [
+    {
+     "name": "Jasmine Clark",
+     "party": "D",
+     "bio": "Georgia state representative since 2019 (District 108).",
+     "web": "http://www.jasmine4ga.com",
+     "bp": "https://ballotpedia.org/Jasmine_Clark",
+     "career": [
+      "Former scientist and college professor"
+     ]
+    },
+    {
+     "name": "Jonathan Chavez",
+     "party": "R",
+     "bio": "Former chair of the Rockdale County Republican Party.",
+     "web": "https://www.jonathanchavezforcongress.com/",
+     "bp": "https://ballotpedia.org/Jonathan_Chavez",
+     "career": [
+      "Served in the U.S. Air Force, 1990–2013",
+      "Ran for Congress in 2022 and 2024 and lost both races"
+     ]
+    }
+   ],
+   "note": "Everton Blair Jr., who has this seat now, lost in the primary."
+  },
+  "14": {
+   "cands": [
+    {
+     "name": "Shawn Harris",
+     "party": "D",
+     "bio": "Cattle farmer and retired brigadier general.",
+     "web": "https://www.shawnforgeorgia.com/",
+     "career": [
+      "Lost the April 2026 special election for this seat to Clay Fuller"
+     ]
+    },
+    {
+     "name": "Clay Fuller",
+     "party": "R",
+     "bio": "U.S. representative for this district since April 2026.",
+     "inc": true,
+     "site": "https://fuller.house.gov",
+     "works": [
+      "roads, bridges & airports",
+      "small businesses"
+     ],
+     "web": "https://clayfullerforgeorgia.com/",
+     "career": [
+      "Won an April 2026 special election, beating Shawn Harris",
+      "Former district attorney for the Lookout Mountain Judicial Circuit"
+     ],
+     "bioguide": "F000485"
+    }
+   ],
+   "note": null
+  }
+ },
+ "state": {
+  "lower1": {
+   "name": "Mike Cameron",
+   "party": "R"
+  },
+  "lower2": {
+   "name": "Steve Tarvin",
+   "party": "R"
+  },
+  "lower3": {
+   "name": "Mitchell Horner",
+   "party": "R"
+  },
+  "lower4": {
+   "name": "Kasey Carpenter",
+   "party": "R"
+  },
+  "lower5": {
+   "name": "Matt Barton",
+   "party": "R"
+  },
+  "lower6": {
+   "name": "Jason Ridley",
+   "party": "R"
+  },
+  "lower7": {
+   "name": "Johnny Chastain",
+   "party": "R"
+  },
+  "lower8": {
+   "name": "Stan Gunter",
+   "party": "R"
+  },
+  "lower9": {
+   "name": "Will Wade",
+   "party": "R"
+  },
+  "lower10": {
+   "name": "Victor Anderson",
+   "party": "R"
+  },
+  "lower11": {
+   "name": "Rick Jasperse",
+   "party": "R"
+  },
+  "lower12": {
+   "name": "Eddie Lumsden",
+   "party": "R"
+  },
+  "lower13": {
+   "name": "Katie Dempsey",
+   "party": "R"
+  },
+  "lower14": {
+   "name": "Mitchell Scoggins",
+   "party": "R"
+  },
+  "lower15": {
+   "name": "Matthew Gambill",
+   "party": "R"
+  },
+  "lower16": {
+   "name": "Trey Kelley",
+   "party": "R"
+  },
+  "lower17": {
+   "name": "Martin Momtahan",
+   "party": "R"
+  },
+  "lower18": {
+   "name": "Tyler Smith",
+   "party": "R"
+  },
+  "lower19": {
+   "name": "Joseph Gullett",
+   "party": "R"
+  },
+  "lower20": {
+   "name": "Charlice Byrd",
+   "party": "R"
+  },
+  "lower21": {
+   "name": "Brad Thomas",
+   "party": "R"
+  },
+  "lower22": {
+   "name": "Jordan Ridley",
+   "party": "R"
+  },
+  "lower23": {
+   "name": "Bill Fincher",
+   "party": "R"
+  },
+  "lower24": {
+   "name": "Carter Barrett",
+   "party": "R"
+  },
+  "lower25": {
+   "name": "Todd Jones",
+   "party": "R"
+  },
+  "lower26": {
+   "name": "Lauren McDonald",
+   "party": "R"
+  },
+  "lower27": {
+   "name": "Lee Hawkins",
+   "party": "R"
+  },
+  "lower28": {
+   "name": "Brent Cox",
+   "party": "R"
+  },
+  "lower29": {
+   "name": "Matt Dubnik",
+   "party": "R"
+  },
+  "lower30": {
+   "name": "Derrick McCollum",
+   "party": "R"
+  },
+  "lower31": {
+   "name": "Emory Dunahoo",
+   "party": "R"
+  },
+  "lower32": {
+   "name": "Chris Erwin",
+   "party": "R"
+  },
+  "lower33": {
+   "name": "Alan Powell",
+   "party": "R"
+  },
+  "lower34": {
+   "name": "Devan Seabaugh",
+   "party": "R"
+  },
+  "lower35": {
+   "name": "Lisa Campbell",
+   "party": "D"
+  },
+  "lower36": {
+   "name": "Ginny Ehrhart",
+   "party": "R"
+  },
+  "lower37": {
+   "name": "Mary Frances Williams",
+   "party": "D"
+  },
+  "lower38": {
+   "name": "David Wilkerson",
+   "party": "D"
+  },
+  "lower39": {
+   "name": "Terry Cummings",
+   "party": "D"
+  },
+  "lower40": {
+   "name": "Kimberly New",
+   "party": "R"
+  },
+  "lower41": {
+   "name": "Michael Smith",
+   "party": "D"
+  },
+  "lower42": {
+   "name": "Gabriel Sanchez",
+   "party": "D"
+  },
+  "lower43": {
+   "name": "Solomon Adesanya",
+   "party": "D"
+  },
+  "lower44": {
+   "name": "Don Parsons",
+   "party": "R"
+  },
+  "lower45": {
+   "name": "Sharon Cooper",
+   "party": "R"
+  },
+  "lower46": {
+   "name": "John Carson",
+   "party": "R"
+  },
+  "lower47": {
+   "name": "Jan Jones",
+   "party": "R"
+  },
+  "lower48": {
+   "name": "Scott Hilton",
+   "party": "R"
+  },
+  "lower49": {
+   "name": "Chuck Martin",
+   "party": "R"
+  },
+  "lower50": {
+   "name": "Michelle Au",
+   "party": "D"
+  },
+  "lower51": {
+   "name": "Esther Panitch",
+   "party": "D"
+  },
+  "lower52": {
+   "name": "Shea Roberts",
+   "party": "D"
+  },
+  "lower53": {
+   "name": "Deborah Silcox",
+   "party": "R"
+  },
+  "lower54": {
+   "name": "Betsy Holland",
+   "party": "D"
+  },
+  "lower55": {
+   "name": "Inga Willis",
+   "party": "D"
+  },
+  "lower56": {
+   "name": "Bryce Berry",
+   "party": "D"
+  },
+  "lower57": {
+   "name": "Stacey Evans",
+   "party": "D"
+  },
+  "lower58": {
+   "name": "Park Cannon",
+   "party": "D"
+  },
+  "lower59": {
+   "name": "Phil Olaleye",
+   "party": "D"
+  },
+  "lower60": {
+   "name": "Sheila Jones",
+   "party": "D"
+  },
+  "lower61": {
+   "name": "Mekyah McQueen",
+   "party": "D"
+  },
+  "lower62": {
+   "name": "Tanya Miller",
+   "party": "D"
+  },
+  "lower63": {
+   "name": "Kim Schofield",
+   "party": "D"
+  },
+  "lower64": {
+   "name": "Sylvia Wayfer",
+   "party": "D"
+  },
+  "lower65": {
+   "name": "Robert Dawson",
+   "party": "D"
+  },
+  "lower66": {
+   "name": "Kimberly Alexander",
+   "party": "D"
+  },
+  "lower67": {
+   "name": "Lydia Glaize",
+   "party": "D"
+  },
+  "lower68": {
+   "name": "Derrick Jackson",
+   "party": "D"
+  },
+  "lower69": {
+   "name": "Debra Bazemore",
+   "party": "D"
+  },
+  "lower70": {
+   "name": "Lynn Smith",
+   "party": "R"
+  },
+  "lower71": {
+   "name": "Jutt Howard",
+   "party": "R"
+  },
+  "lower72": {
+   "name": "David Huddleston",
+   "party": "R"
+  },
+  "lower73": {
+   "name": "Josh Bonner",
+   "party": "R"
+  },
+  "lower74": {
+   "name": "Robert Flournoy",
+   "party": "D"
+  },
+  "lower75": {
+   "name": "Eric Bell",
+   "party": "D"
+  },
+  "lower76": {
+   "name": "Sandra Scott",
+   "party": "D"
+  },
+  "lower77": {
+   "name": "Rhonda Burnough",
+   "party": "D"
+  },
+  "lower78": {
+   "name": "Demetrius Douglas",
+   "party": "D"
+  },
+  "lower79": {
+   "name": "Yasmin Neal",
+   "party": "D"
+  },
+  "lower80": {
+   "name": "Long Tran",
+   "party": "D"
+  },
+  "lower81": {
+   "name": "Noelle Kahaian",
+   "party": "R"
+  },
+  "lower82": {
+   "name": "Karen Mathiak",
+   "party": "R"
+  },
+  "lower83": {
+   "name": "Karen Lupton",
+   "party": "D"
+  },
+  "lower84": {
+   "name": "Mary Margaret Oliver",
+   "party": "D"
+  },
+  "lower85": {
+   "name": "Karla Drenner",
+   "party": "D"
+  },
+  "lower86": {
+   "name": "Imani Barnes",
+   "party": "D"
+  },
+  "lower87": {
+   "name": "Viola Davis",
+   "party": "D"
+  },
+  "lower88": {
+   "name": "Billy Mitchell",
+   "party": "D"
+  },
+  "lower89": {
+   "name": "Omari Crawford",
+   "party": "D"
+  },
+  "lower90": {
+   "name": "Saira Draper",
+   "party": "D"
+  },
+  "lower91": {
+   "name": "Angela Moore",
+   "party": "D"
+  },
+  "lower92": {
+   "name": "Rhonda Taylor",
+   "party": "D"
+  },
+  "lower93": {
+   "name": "Doreen Carter",
+   "party": "D"
+  },
+  "lower94": {
+   "name": "Venola Mason",
+   "party": "D"
+  },
+  "lower95": {
+   "name": "Dar'shun Kendrick",
+   "party": "D"
+  },
+  "lower96": {
+   "name": "Arlene Beckles",
+   "party": "D"
+  },
+  "lower97": {
+   "name": "Ruwa Romman",
+   "party": "D"
+  },
+  "lower98": {
+   "name": "Marvin Lim",
+   "party": "D"
+  },
+  "lower99": {
+   "name": "Matt Reeves",
+   "party": "R"
+  },
+  "lower100": {
+   "name": "David Clark",
+   "party": "R"
+  },
+  "lower101": {
+   "name": "Scott Holcomb",
+   "party": "D"
+  },
+  "lower102": {
+   "name": "Gabe Okoye",
+   "party": "D"
+  },
+  "lower103": {
+   "name": "Soo Hong",
+   "party": "R"
+  },
+  "lower104": {
+   "name": "Chuck Efstration",
+   "party": "R"
+  },
+  "lower105": {
+   "name": "Sandy Donatucci",
+   "party": "R"
+  },
+  "lower106": {
+   "name": "Akbar Ali",
+   "party": "D"
+  },
+  "lower107": {
+   "name": "Sam Park",
+   "party": "D"
+  },
+  "lower108": {
+   "name": "Jasmine Clark",
+   "party": "D"
+  },
+  "lower109": {
+   "name": "Dewey McClain",
+   "party": "D"
+  },
+  "lower110": {
+   "name": "Segun Adeyina",
+   "party": "D"
+  },
+  "lower111": {
+   "name": "Rey Martinez",
+   "party": "R"
+  },
+  "lower112": {
+   "name": "Bruce Williamson",
+   "party": "R"
+  },
+  "lower113": {
+   "name": "Sharon Henderson",
+   "party": "D"
+  },
+  "lower114": {
+   "name": "Tim Fleming",
+   "party": "R"
+  },
+  "lower115": {
+   "name": "Regina Lewis-Ward",
+   "party": "D"
+  },
+  "lower116": {
+   "name": "El-Mahdi Holly",
+   "party": "D"
+  },
+  "lower117": {
+   "name": "Mary Ann Santos",
+   "party": "D"
+  },
+  "lower118": {
+   "name": "Clint Crowe",
+   "party": "R"
+  },
+  "lower119": {
+   "name": "Holt Persinger",
+   "party": "R"
+  },
+  "lower120": {
+   "name": "Houston Gaines",
+   "party": "R"
+  },
+  "lower121": {
+   "name": "Eric Gisler",
+   "party": "D"
+  },
+  "lower122": {
+   "name": "Spencer Frye",
+   "party": "D"
+  },
+  "lower123": {
+   "name": "Rob Leverett",
+   "party": "R"
+  },
+  "lower124": {
+   "name": "Trey Rhodes",
+   "party": "R"
+  },
+  "lower125": {
+   "name": "Gary Richardson",
+   "party": "R"
+  },
+  "lower126": {
+   "name": "L.C. Myles",
+   "party": "D"
+  },
+  "lower127": {
+   "name": "Mark Newton",
+   "party": "R"
+  },
+  "lower128": {
+   "name": "Mack Jackson",
+   "party": "D"
+  },
+  "lower129": {
+   "name": "Karlton Howard",
+   "party": "D"
+  },
+  "lower130": {
+   "name": "Sheila Nelson",
+   "party": "D"
+  },
+  "lower131": {
+   "name": "Rob Clifton",
+   "party": "R"
+  },
+  "lower132": {
+   "name": "Brian Prince",
+   "party": "D"
+  },
+  "lower133": {
+   "name": "Danny Mathis",
+   "party": "R"
+  },
+  "lower134": {
+   "name": "Robert Dickey",
+   "party": "R"
+  },
+  "lower135": {
+   "name": "Beth Camp",
+   "party": "R"
+  },
+  "lower136": {
+   "name": "David Jenkins",
+   "party": "R"
+  },
+  "lower137": {
+   "name": "Debbie Buckner",
+   "party": "D"
+  },
+  "lower138": {
+   "name": "Vance Smith",
+   "party": "R"
+  },
+  "lower139": {
+   "name": "Carmen Rice",
+   "party": "R"
+  },
+  "lower140": {
+   "name": "Teddy Reese",
+   "party": "D"
+  },
+  "lower141": {
+   "name": "Carolyn Hugley",
+   "party": "D"
+  },
+  "lower142": {
+   "name": "Miriam Paris",
+   "party": "D"
+  },
+  "lower143": {
+   "name": "Nissa Jones",
+   "party": "D"
+  },
+  "lower144": {
+   "name": "Dale Washburn",
+   "party": "R"
+  },
+  "lower145": {
+   "name": "Tangie Herring",
+   "party": "D"
+  },
+  "lower146": {
+   "name": "Shaw Blackmon",
+   "party": "R"
+  },
+  "lower147": {
+   "name": "Bethany Ballard",
+   "party": "R"
+  },
+  "lower148": {
+   "name": "Noel Williams",
+   "party": "R"
+  },
+  "lower149": {
+   "name": "Floyd Griffin",
+   "party": "D"
+  },
+  "lower150": {
+   "name": "Patty Marie Stinson",
+   "party": "D"
+  },
+  "lower151": {
+   "name": "Mike Cheokas",
+   "party": "R"
+  },
+  "lower152": {
+   "name": "Bill Yearta",
+   "party": "R"
+  },
+  "lower153": {
+   "name": "David Sampson",
+   "party": "D"
+  },
+  "lower154": {
+   "name": "Gerald Greene",
+   "party": "R"
+  },
+  "lower155": {
+   "name": "Matt Hatchett",
+   "party": "R"
+  },
+  "lower156": {
+   "name": "Leesa Hagan",
+   "party": "R"
+  },
+  "lower157": {
+   "name": "Bill Werkheiser",
+   "party": "R"
+  },
+  "lower158": {
+   "name": "Butch Parrish",
+   "party": "R"
+  },
+  "lower159": {
+   "name": "Jon Burns",
+   "party": "R"
+  },
+  "lower160": {
+   "name": "Lehman Franklin",
+   "party": "R"
+  },
+  "lower161": {
+   "name": "Bill Hitchens",
+   "party": "R"
+  },
+  "lower162": {
+   "name": "Carl Gilliard",
+   "party": "D"
+  },
+  "lower163": {
+   "name": "Anne Westbrook",
+   "party": "D"
+  },
+  "lower164": {
+   "name": "Ron Stephens",
+   "party": "R"
+  },
+  "lower165": {
+   "name": "Edna Jackson",
+   "party": "D"
+  },
+  "lower166": {
+   "name": "Jesse Petrea",
+   "party": "R"
+  },
+  "lower167": {
+   "name": "Buddy DeLoach",
+   "party": "R"
+  },
+  "lower168": {
+   "name": "Al Williams",
+   "party": "D"
+  },
+  "lower169": {
+   "name": "Angie O'Steen",
+   "party": "R"
+  },
+  "lower170": {
+   "name": "Jaclyn Ford",
+   "party": "R"
+  },
+  "lower171": {
+   "name": "Joe Campbell",
+   "party": "R"
+  },
+  "lower172": {
+   "name": "Chas Cannon",
+   "party": "R"
+  },
+  "lower173": {
+   "name": "Darlene Taylor",
+   "party": "R"
+  },
+  "lower174": {
+   "name": "John Corbett",
+   "party": "R"
+  },
+  "lower175": {
+   "name": "John LaHood",
+   "party": "R"
+  },
+  "lower176": {
+   "name": "James Burchett",
+   "party": "R"
+  },
+  "lower177": {
+   "name": "Alvin Payton",
+   "party": "D"
+  },
+  "lower178": {
+   "name": "Steven Meeks",
+   "party": "R"
+  },
+  "lower179": {
+   "name": "Rick Townsend",
+   "party": "R"
+  },
+  "lower180": {
+   "name": "Steven Sainz",
+   "party": "R"
+  },
+  "upper1": {
+   "name": "Ben Watson",
+   "party": "R"
+  },
+  "upper2": {
+   "name": "Derek Mallow",
+   "party": "D"
+  },
+  "upper3": {
+   "name": "Mike Hodges",
+   "party": "R"
+  },
+  "upper4": {
+   "name": "Billy Hickman",
+   "party": "R"
+  },
+  "upper5": {
+   "name": "Sheikh Rahman",
+   "party": "D"
+  },
+  "upper6": {
+   "name": "Matt Brass",
+   "party": "R"
+  },
+  "upper7": {
+   "name": "Adrienne White",
+   "party": "D"
+  },
+  "upper8": {
+   "name": "Russ Goodman",
+   "party": "R"
+  },
+  "upper9": {
+   "name": "Nikki Merritt",
+   "party": "D"
+  },
+  "upper10": {
+   "name": "Emanuel Jones",
+   "party": "D"
+  },
+  "upper11": {
+   "name": "Sam Watson",
+   "party": "R"
+  },
+  "upper13": {
+   "name": "Carden Summers",
+   "party": "R"
+  },
+  "upper14": {
+   "name": "Josh McLaurin",
+   "party": "D"
+  },
+  "upper15": {
+   "name": "Ed Harbison",
+   "party": "D"
+  },
+  "upper16": {
+   "name": "Marty Harbin",
+   "party": "R"
+  },
+  "upper17": {
+   "name": "Gail Davenport",
+   "party": "D"
+  },
+  "upper18": {
+   "name": "Steven McNeel",
+   "party": "R"
+  },
+  "upper19": {
+   "name": "Blake Tillery",
+   "party": "R"
+  },
+  "upper20": {
+   "name": "Larry Walker",
+   "party": "R"
+  },
+  "upper21": {
+   "name": "Jason Dickerson",
+   "party": "R"
+  },
+  "upper22": {
+   "name": "Harold Jones",
+   "party": "D"
+  },
+  "upper23": {
+   "name": "Max Burns",
+   "party": "R"
+  },
+  "upper24": {
+   "name": "Lee Anderson",
+   "party": "R"
+  },
+  "upper25": {
+   "name": "Rick Williams",
+   "party": "R"
+  },
+  "upper26": {
+   "name": "David Lucas",
+   "party": "D"
+  },
+  "upper27": {
+   "name": "Greg Dolezal",
+   "party": "R"
+  },
+  "upper28": {
+   "name": "Donzella James",
+   "party": "D"
+  },
+  "upper29": {
+   "name": "Randy Robertson",
+   "party": "R"
+  },
+  "upper30": {
+   "name": "Tim Bearden",
+   "party": "R"
+  },
+  "upper31": {
+   "name": "Jason Anavitarte",
+   "party": "R"
+  },
+  "upper32": {
+   "name": "Kay Kirkpatrick",
+   "party": "R"
+  },
+  "upper33": {
+   "name": "Doc Rhett",
+   "party": "D"
+  },
+  "upper34": {
+   "name": "Kenya Wicks",
+   "party": "D"
+  },
+  "upper35": {
+   "name": "Jaha Howard",
+   "party": "D"
+  },
+  "upper36": {
+   "name": "Nan Orrock",
+   "party": "D"
+  },
+  "upper37": {
+   "name": "Ed Setzler",
+   "party": "R"
+  },
+  "upper38": {
+   "name": "RaShaun Kemp",
+   "party": "D"
+  },
+  "upper39": {
+   "name": "Sonya Halpern",
+   "party": "D"
+  },
+  "upper40": {
+   "name": "Sally Harrell",
+   "party": "D"
+  },
+  "upper41": {
+   "name": "Kim Jackson",
+   "party": "D"
+  },
+  "upper42": {
+   "name": "Brian Strickland",
+   "party": "R"
+  },
+  "upper43": {
+   "name": "Tonya Anderson",
+   "party": "D"
+  },
+  "upper44": {
+   "name": "Elena Parent",
+   "party": "D"
+  },
+  "upper45": {
+   "name": "Clint Dixon",
+   "party": "R"
+  },
+  "upper46": {
+   "name": "Bill Cowsert",
+   "party": "R"
+  },
+  "upper47": {
+   "name": "Frank Ginn",
+   "party": "R"
+  },
+  "upper48": {
+   "name": "Shawn Still",
+   "party": "R"
+  },
+  "upper49": {
+   "name": "Drew Echols",
+   "party": "R"
+  },
+  "upper50": {
+   "name": "Bo Hatchett",
+   "party": "R"
+  },
+  "upper51": {
+   "name": "Steve Gooch",
+   "party": "R"
+  },
+  "upper52": {
+   "name": "Chuck Hufstetler",
+   "party": "R"
+  },
+  "upper53": {
+   "name": "Lanny Thomas",
+   "party": "R"
+  },
+  "upper54": {
+   "name": "Chuck Payne",
+   "party": "R"
+  },
+  "upper55": {
+   "name": "Randal Mangham",
+   "party": "D"
+  },
+  "upper56": {
+   "name": "John Albers",
+   "party": "R"
+  }
+ },
+ "offices": {
+  "senate": {
+   "title": "U.S. Senate",
+   "term": "6-year term",
+   "one": "Votes on laws for the whole country. Georgia gets two senators, and one seat is up this year.",
+   "why": "They also approve or block the President's picks, including Supreme Court justices.",
+   "also": [
+    "Approves treaties with other countries",
+    "Helps set the federal budget",
+    "Georgia's other seat (Raphael Warnock) is up in 2028"
+   ]
+  },
+  "house": {
+   "title": "U.S. House",
+   "term": "2-year term",
+   "one": "Also votes on national laws, but speaks for your district instead of the whole state.",
+   "why": "Your closest voice in Washington, and you get to keep or replace them every two years.",
+   "also": []
+  },
+  "governor": {
+   "title": "Governor",
+   "term": "4-year term",
+   "one": "Runs the state and signs or vetoes every bill the legislature passes.",
+   "why": "Shapes how Georgia spends its money on schools, roads, and health care.",
+   "also": [
+    "Can veto single items out of the budget",
+    "Commands the State Patrol and National Guard",
+    "Brian Kemp has hit the two-term limit, so this seat is wide open"
+   ]
+  },
+  "ltgov": {
+   "title": "Lieutenant Governor",
+   "term": "4-year term",
+   "one": "Runs the State Senate's meetings and takes over if the governor can't serve.",
+   "why": "Has a hand in which bills move forward in the State Senate.",
+   "also": []
+  },
+  "sos": {
+   "title": "Secretary of State",
+   "one": "Runs Georgia's elections.",
+   "why": "Handles voter registration and certifies the results. Also licenses businesses and lots of professions.",
+   "also": [
+    "Tracks who donates to campaigns",
+    "Oversees investment sales",
+    "Keeps the state archives"
+   ]
+  },
+  "ag": {
+   "title": "Attorney General",
+   "one": "Georgia's top lawyer. Represents the state in court.",
+   "why": "Goes after scams, shady debt collectors, misleading ads, and data breaches.",
+   "also": [
+    "Can win refunds for people who got ripped off"
+   ]
+  },
+  "agr": {
+   "title": "Agriculture Commissioner",
+   "one": "This job covers a lot more than farms.",
+   "why": "Inspects grocery stores for food safety, checks that gas pumps give you what you pay for, and tests store scales.",
+   "also": [
+    "Pet breeders and dealers",
+    "Pest control companies",
+    "Bottled water, pet food, and fertilizer",
+    "State farmers markets"
+   ]
+  },
+  "ins": {
+   "title": "Insurance Commissioner",
+   "one": "Keeps insurance companies in check, and is also the state fire marshal.",
+   "why": "Reviews car, home, and health insurance rates, and takes your complaint if an insurer does you wrong.",
+   "also": [
+    "Licenses insurance agents",
+    "Investigates insurance fraud",
+    "Sets fire safety codes"
+   ]
+  },
+  "labor": {
+   "title": "Labor Commissioner",
+   "one": "Runs the state Department of Labor.",
+   "why": "If you lose your job, this office handles your unemployment check. It also helps with job searches and training.",
+   "also": [
+    "Workplace safety inspections",
+    "Rules for workers under 18"
+   ]
+  },
+  "schools": {
+   "title": "School Superintendent",
+   "term": "4-year term",
+   "one": "Leads Georgia's public schools, kindergarten through 12th grade.",
+   "why": "Sends state money to local schools, pre-K, and the HOPE Scholarship.",
+   "also": []
+  },
+  "psc3": {
+   "title": "Public Service Commission · District 3",
+   "one": "Sets what Georgia Power can charge you for electricity.",
+   "why": "Their decisions show up on your power bill. They also approve new power plants.",
+   "also": [
+    "Regulates natural gas companies",
+    "Sets gas pipeline safety rules",
+    "Doesn't cover water, cell phones, cable, or electric co-op rates",
+    "Every Georgian votes on every seat. Candidates just have to live in the district"
+   ]
+  },
+  "psc5": {
+   "title": "Public Service Commission · District 5",
+   "one": "A second seat on the commission that sets your power rates.",
+   "why": "Same deal as District 3: everyone in Georgia votes on this one.",
+   "also": []
+  },
+  "sen": {
+   "title": "State Senate",
+   "term": "2-year term",
+   "one": "Writes Georgia's laws and passes the state budget. There are 56 state senators.",
+   "why": "State laws cover schools, roads, voting rules, criminal law, and state taxes.",
+   "also": []
+  },
+  "rep": {
+   "title": "State House",
+   "term": "2-year term",
+   "one": "The other half of the legislature. There are 180 state representatives, each with a smaller district than a senator's.",
+   "why": "Every bill has to pass here and in the State Senate before the governor can sign it.",
+   "also": []
+  },
+  "amend": {
+   "title": "Farm & Timber Land Tax Break",
+   "one": "Land used for farming or timber gets a property tax break, capped at 2,000 acres per owner. This would raise the cap to 4,000.",
+   "why": "YES raises the cap to 4,000 acres. NO keeps it at 2,000.",
+   "also": []
+  }
+ },
+ "sources": [
+  [
+   "Dates, ID, poll hours",
+   "https://georgia.gov/georgia-election-guide",
+   "Georgia Election Guide"
+  ],
+  [
+   "ZIP to U.S. House district",
+   "https://github.com/OpenSourceActivismTech/us-zipcodes-congress",
+   "us-zipcodes-congress (Census data)"
+  ],
+  [
+   "Members of Congress, photos, committees",
+   "https://github.com/unitedstates/congress-legislators",
+   "unitedstates project"
+  ],
+  [
+   "State legislators",
+   "https://github.com/openstates/people",
+   "Open States"
+  ],
+  [
+   "Candidates",
+   "https://en.wikipedia.org/wiki/2026_Georgia_state_elections",
+   "Wikipedia 2026 Georgia race pages"
+  ],
+  [
+   "Candidates",
+   "https://www.wabe.org/2026georgiacandidates/",
+   "WABE"
+  ],
+  [
+   "Maura Keller",
+   "https://thecitizen.com/2026/03/22/record-breaking-retired-lt-colonel-and-va-healthcare-worker-enters-ga-3-congressional-race/",
+   "The Citizen"
+  ],
+  [
+   "Ceretta Smith",
+   "https://wrdw.com/2026/06/17/ceretta-smith-wins-runoff-democratic-us-house-primary",
+   "WRDW"
+  ],
+  [
+   "Rick Jackson",
+   "https://www.atlantanewsfirst.com/2026/02/03/jackson-healthcare-ceo-launches-georgia-governors-bid-with-50m/",
+   "Atlanta News First"
+  ],
+  [
+   "Tyler Harper",
+   "https://en.wikipedia.org/wiki/Tyler_Harper",
+   "Wikipedia"
+  ],
+  [
+   "John King",
+   "https://en.wikipedia.org/wiki/John_F._King",
+   "Wikipedia"
+  ],
+  [
+   "Richard Woods",
+   "https://en.wikipedia.org/wiki/Richard_Woods_(politician)",
+   "Wikipedia"
+  ],
+  [
+   "PSC candidates",
+   "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+   "Wikipedia"
+  ],
+  [
+   "What Congress does",
+   "https://www.usvotefoundation.org/who-gets-your-vote-what-do-they-do",
+   "US Vote Foundation"
+  ],
+  [
+   "Governor and executive offices",
+   "https://www.georgiaencyclopedia.org/articles/government-politics/executive-branch-overview",
+   "New Georgia Encyclopedia"
+  ],
+  [
+   "Lieutenant Governor",
+   "https://www.georgiaencyclopedia.org/articles/government-politics/lieutenant-governor/",
+   "New Georgia Encyclopedia"
+  ],
+  [
+   "Secretary of State",
+   "https://www.runforoffice.org/elected_offices/43227-georgia-secretary-of-state",
+   "Run for Office"
+  ],
+  [
+   "Attorney General",
+   "https://law.georgia.gov/cpd",
+   "Georgia Department of Law"
+  ],
+  [
+   "Agriculture",
+   "https://agr.georgia.gov/about-georgia-department-agriculture",
+   "Georgia Dept. of Agriculture"
+  ],
+  [
+   "Insurance",
+   "https://oci.georgia.gov/about-us",
+   "Georgia Insurance Commissioner"
+  ],
+  [
+   "Labor",
+   "https://en.wikipedia.org/wiki/Georgia_Department_of_Labor",
+   "Wikipedia"
+  ],
+  [
+   "Schools",
+   "https://www.runforoffice.org/elected_offices/43228-georgia-state-superintendent-of-schools",
+   "Run for Office"
+  ],
+  [
+   "Public Service Commission",
+   "https://psc.ga.gov/about-the-psc/",
+   "Georgia PSC"
+  ],
+  [
+   "Ballot question",
+   "https://ballotpedia.org/Georgia_elections,_2026",
+   "Ballotpedia"
+  ],
+  [
+   "Campaign websites",
+   "https://branch.vote/",
+   "Branch and BallotReady candidate pages"
+  ],
+  [
+   "Career facts and profiles",
+   "https://ballotpedia.org/",
+   "Ballotpedia candidate profiles"
+  ],
+  [
+   "PSC District 5 ballot",
+   "https://news.ballotpedia.org/2026/08/10/partisan-control-of-georgia-public-service-commission-at-stake-in-november-election/",
+   "Ballotpedia News"
+  ],
+  [
+   "Andrew Clyde, Clay Fuller",
+   "https://en.wikipedia.org/wiki/Clay_Fuller",
+   "Wikipedia"
+  ]
+ ]
+}
