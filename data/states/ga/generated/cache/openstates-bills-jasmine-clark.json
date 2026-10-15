@@ -1,0 +1,139 @@
+{
+  "2023_24": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "HB 1304",
+        "title": "Elections; advance voting on certain Saturdays in run-off elections; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1304/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "HB 1306",
+        "title": "Health; provide patients with information regarding risks of physical and psychological dependence from opioids; require prescribers",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1306/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "HB 1309",
+        "title": "Evidence; creative or artistic expression evidence is inadmissible at trial; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1309/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "HB 1305",
+        "title": "Elections; advance voting; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1305/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "HB 209",
+        "title": "State holidays; March 10 as Harriet Tubman Day; designate",
+        "url": "https://openstates.org/ga/bills/2023_24/HB209/",
+        "introduced": "2023-02-02",
+        "law": null
+      },
+      {
+        "id": "HB 2",
+        "title": "Primaries and elections; advanced voting; runoffs; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB2/",
+        "introduced": "2022-12-13",
+        "law": null
+      },
+      {
+        "id": "HB 177",
+        "title": "Quality Basic Education Act; prescribed course of study in sex education and HIV prevention instruction is age appropriate; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB177/",
+        "introduced": "2023-01-31",
+        "law": null
+      },
+      {
+        "id": "HB 513",
+        "title": "Quality Basic Education Act; prescribed course of study in sex education and HIV prevention instruction is age appropriate; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB513/",
+        "introduced": "2023-02-21",
+        "law": null
+      }
+    ]
+  },
+  "2023_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  },
+  "2025_26": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "HB 670",
+        "title": "Georgia Civil Rights Act of 2025; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB670/",
+        "introduced": "2025-02-27",
+        "law": null
+      },
+      {
+        "id": "HB 496",
+        "title": "Criminal procedure; scent of marijuana, cannabis, or hemp; provide imitations on stops, searches, seizures, or arrests",
+        "url": "https://openstates.org/ga/bills/2025_26/HB496/",
+        "introduced": "2025-02-18",
+        "law": null
+      },
+      {
+        "id": "HB 960",
+        "title": "Gwinnett Judicial Circuit; superior courts; provide twelfth judge",
+        "url": "https://openstates.org/ga/bills/2025_26/HB960/",
+        "introduced": "2026-01-14",
+        "law": null
+      },
+      {
+        "id": "HB 721",
+        "title": "Motor vehicles; transportation referral service providers and ride share network services; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB721/",
+        "introduced": "2025-03-04",
+        "law": null
+      },
+      {
+        "id": "HB 1468",
+        "title": "Georgia Property Tax Fairness Fund; create",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1468/",
+        "introduced": "2026-02-25",
+        "law": null
+      },
+      {
+        "id": "HB 761",
+        "title": "Lilburn, City of; ad valorem tax; provide additional homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB761/",
+        "introduced": "2025-03-11",
+        "law": "2025-05-13"
+      },
+      {
+        "id": "HB 497",
+        "title": "Penal institutions; inmate be allowed to dress in plain clothes during trial proceedings; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB497/",
+        "introduced": "2025-02-18",
+        "law": null
+      },
+      {
+        "id": "HB 681",
+        "title": "Domestic relations; sealing of name change petitions upon request; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB681/",
+        "introduced": "2025-02-27",
+        "law": null
+      },
+      {
+        "id": "HB 1506",
+        "title": "Contracts; payment terms for business to business transactions; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1506/",
+        "introduced": "2026-03-04",
+        "law": null
+      }
+    ]
+  },
+  "2026_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  }
+}

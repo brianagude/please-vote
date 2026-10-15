@@ -1,0 +1,546 @@
+{
+  "jon-ossoff": {
+    "since": "2023-01-01",
+    "wrote": 90,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/O000174"
+    }
+  },
+  "mike-collins": {
+    "since": "2023-01-01",
+    "wrote": 23,
+    "becameLaw": 1,
+    "laws": [
+      {
+        "id": "H.R. 1734",
+        "title": "TRANQ Research Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1734",
+        "date": "2023-12-19"
+      }
+    ],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/C001129"
+    }
+  },
+  "josh-mclaurin": {
+    "since": "2023-01-01",
+    "wrote": 17,
+    "becameLaw": 1,
+    "laws": [
+      {
+        "id": "SB 115",
+        "title": "Georgia National Guard; the adjutant general to be the official sponsor of the state sponsored life insurance program; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB115/",
+        "date": "2023-05-01"
+      }
+    ],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/josh-mclaurin-5bdYg1QjylfR616Tmh704n/"
+    }
+  },
+  "greg-dolezal": {
+    "since": "2023-01-01",
+    "wrote": 35,
+    "becameLaw": 8,
+    "laws": [
+      {
+        "id": "SB 1",
+        "title": "State Government; automatic repealer on the prohibition on state and local governments from requiring  proof of COVID vaccination for government services; remove",
+        "url": "https://openstates.org/ga/bills/2023_24/SB1/",
+        "date": "2023-05-02"
+      },
+      {
+        "id": "SB 430",
+        "title": "COVID-19 Pandemic Business Safety; provisions for rebuttable presumptions of risk by claimants in certain COVID-19 liability claims; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/SB430/",
+        "date": "2024-04-22"
+      },
+      {
+        "id": "SB 353",
+        "title": "Highways, Bridges, and Ferries; duties when death results from an accident upon a highway in certain instances; allow for delegation",
+        "url": "https://openstates.org/ga/bills/2023_24/SB353/",
+        "date": "2024-03-04"
+      },
+      {
+        "id": "SB 233",
+        "title": "'The Georgia Promise Scholarship Act'; establishment of promise scholarship accounts",
+        "url": "https://openstates.org/ga/bills/2023_24/SB233/",
+        "date": "2024-04-23"
+      },
+      {
+        "id": "SB 26",
+        "title": "State Government; meetings and public hearings of development authorities and community improvement districts to be held by teleconference; permit",
+        "url": "https://openstates.org/ga/bills/2023_24/SB26/",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "SB 204",
+        "title": "Education Accountability; recognition of certain accrediting agencies as evaluators of the quality of education offered in public schools in this state; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB204/",
+        "date": "2023-05-02"
+      },
+      {
+        "id": "SB 1",
+        "title": "'Fair and Safe Athletic Opportunities Act'; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB1/",
+        "date": "2025-04-28"
+      },
+      {
+        "id": "SB 140",
+        "title": "Optometrists; doctors of optometry to dispense and sell pharmaceutical agents to patients under certain conditions; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB140/",
+        "date": "2025-05-13"
+      }
+    ],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/greg-dolezal-xPt9CGpMZqDulbva8JwQW/"
+    }
+  },
+  "tim-fleming": {
+    "since": "2023-01-01",
+    "wrote": 19,
+    "becameLaw": 7,
+    "laws": [
+      {
+        "id": "HB 1475",
+        "title": "Covington, City of; change corporate limits",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1475/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "HB 1207",
+        "title": "Elections; proofing of ballots by local superintendents in certain races; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1207/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "HB 1477",
+        "title": "Oxford, City of; change corporate limits",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1477/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "HB 1391",
+        "title": "Specialty license plates; honor public safety officers; establish",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1391/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "HB 1503",
+        "title": "Covington, City of; ad valorem tax for municipal purposes; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1503/",
+        "date": "2026-05-11"
+      },
+      {
+        "id": "HB 150",
+        "title": "Combating Threats from China Act of 2025 - Higher Education; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB150/",
+        "date": "2025-05-12"
+      },
+      {
+        "id": "HB 743",
+        "title": "Social Circle, City of; ad valorem tax; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB743/",
+        "date": "2025-05-09"
+      }
+    ],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/tim-fleming-6JhfWeqahtE9l9nk9CBHxe/"
+    }
+  },
+  "tanya-miller": {
+    "since": "2023-01-01",
+    "wrote": 10,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/tanya-miller-3MBdKu9mhwJ72YY6DoB7pl/"
+    }
+  },
+  "brian-strickland": {
+    "since": "2023-01-01",
+    "wrote": 31,
+    "becameLaw": 18,
+    "laws": [
+      {
+        "id": "SB 375",
+        "title": "Behavioral Health Coordinating Council; add commissioner of veterans service",
+        "url": "https://openstates.org/ga/bills/2023_24/SB375/",
+        "date": "2024-04-22"
+      },
+      {
+        "id": "SB 456",
+        "title": "Central Caregiver Registry; disabled persons to the registry; add",
+        "url": "https://openstates.org/ga/bills/2023_24/SB456/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "SB 572",
+        "title": "Probate Court of Morgan County; assessment and collection of a technology fee; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB572/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "SB 533",
+        "title": "Proceedings; jail-based competency restoration programs; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB533/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "SB 574",
+        "title": "Alcovy Judicial Circuit; counties that make up said judicial circuit to provide additional investigators to the district attorney; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB574/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "SB 573",
+        "title": "Magistrate Court of Morgan County; the assessment and collection of a technology fee; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB573/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "SB 580",
+        "title": "City of Madison; mayor's vote when the city council is electing a mayor pro tempore; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/SB580/",
+        "date": "2024-04-22"
+      },
+      {
+        "id": "SB 454",
+        "title": "Alimony and Child Support;  guidelines for child support award calculations; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB454/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "SB 61",
+        "title": "Sick Leave for Care of Immediate Family Members; sunset provision relating to such sick leave requirements; repeal",
+        "url": "https://openstates.org/ga/bills/2023_24/SB61/",
+        "date": "2023-05-01"
+      },
+      {
+        "id": "SB 133",
+        "title": "Juvenile Code; a uniform process to assume custody of children as a result of disposition orders; create",
+        "url": "https://openstates.org/ga/bills/2023_24/SB133/",
+        "date": "2023-05-02"
+      },
+      {
+        "id": "SB 433",
+        "title": "\"Rio's Law\"",
+        "url": "https://openstates.org/ga/bills/2025_26/SB433/",
+        "date": "2026-05-06"
+      },
+      {
+        "id": "SB 207",
+        "title": "Professions and Businesses; a preclearance process in the licensing of individuals with criminal records who make application to or are investigated by certain licensing boards and commissions; create",
+        "url": "https://openstates.org/ga/bills/2025_26/SB207/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "SB 547",
+        "title": "Offenses of Pimping and Pandering; modify the penalties",
+        "url": "https://openstates.org/ga/bills/2025_26/SB547/",
+        "date": "2026-05-06"
+      },
+      {
+        "id": "SB 569",
+        "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB569/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "SB 132",
+        "title": "Insanity and Mental Incapacity; hearing before a court orders an evaluation of the mental competency of an accused person to stand trial; require",
+        "url": "https://openstates.org/ga/bills/2025_26/SB132/",
+        "date": "2025-05-14"
+      },
+      {
+        "id": "SB 329",
+        "title": "Flint Judicial Circuit; chief judge; annual stipend in addition to county compensation to superior court judges; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB329/",
+        "date": "2025-05-13"
+      },
+      {
+        "id": "SB 328",
+        "title": "State Court of Henry County; additional judge; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB328/",
+        "date": "2025-05-13"
+      },
+      {
+        "id": "SB 237",
+        "title": "Newton County Public Facilities Authority; contracts and borrowing of funds; revise provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/SB237/",
+        "date": "2025-05-13"
+      }
+    ],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/brian-strickland-1m5NC4TmZfmQIdJ10bBd6H/"
+    }
+  },
+  "sanford-d-bishop-jr": {
+    "since": "2023-01-01",
+    "wrote": 11,
+    "becameLaw": 1,
+    "laws": [
+      {
+        "id": "H.R. 9600",
+        "title": "To designate the facility of the United States Postal Service located at 119 Main Street in Plains, Georgia, as the \"Jimmy and Rosalynn Carter Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9600",
+        "date": "2025-01-04"
+      }
+    ],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/B000490"
+    }
+  },
+  "brian-jack": {
+    "since": "2023-01-01",
+    "wrote": 3,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/J000311"
+    }
+  },
+  "henry-c-johnson-jr": {
+    "since": "2023-01-01",
+    "wrote": 32,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/J000288"
+    }
+  },
+  "nikema-williams": {
+    "since": "2023-01-01",
+    "wrote": 81,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/W000788"
+    }
+  },
+  "lucy-mcbath": {
+    "since": "2023-01-01",
+    "wrote": 31,
+    "becameLaw": 2,
+    "laws": [
+      {
+        "id": "H.R. 5646",
+        "title": "Stop Campus Hazing Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5646",
+        "date": "2024-12-23"
+      },
+      {
+        "id": "H.R. 3019",
+        "title": "Federal Prison Oversight Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3019",
+        "date": "2024-07-25"
+      }
+    ],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/M001208"
+    }
+  },
+  "richard-mccormick": {
+    "since": "2023-01-01",
+    "wrote": 33,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/M001218"
+    }
+  },
+  "austin-scott": {
+    "since": "2023-01-01",
+    "wrote": 15,
+    "becameLaw": 2,
+    "laws": [
+      {
+        "id": "H.R. 8322",
+        "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8322",
+        "date": "2026-04-18"
+      },
+      {
+        "id": "H.R. 6983",
+        "title": "To designate the facility of the United States Postal Service located at 15 South Valdosta Road in Lakeland, Georgia, as the \"Nell Patten Roquemore Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6983",
+        "date": "2025-01-02"
+      }
+    ],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/S001189"
+    }
+  },
+  "andrew-s-clyde": {
+    "since": "2023-01-01",
+    "wrote": 46,
+    "becameLaw": 2,
+    "laws": [
+      {
+        "id": "HJRES 42",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/42",
+        "date": "2025-05-09"
+      },
+      {
+        "id": "HJRES 26",
+        "title": "Disapproving the action of the District of Columbia Council in approving the Revised Criminal Code Act of 2022.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/26",
+        "date": "2023-03-20"
+      }
+    ],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/C001116"
+    }
+  },
+  "houston-gaines": {
+    "since": "2023-01-01",
+    "wrote": 30,
+    "becameLaw": 13,
+    "laws": [
+      {
+        "id": "HB 1460",
+        "title": "Commerce, City of; ad valorem tax for educational purposes; homestead exemption; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1460/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "HB 1201",
+        "title": "Criminal procedure; vacating of sentences of victims of trafficking; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1201/",
+        "date": "2024-04-24"
+      },
+      {
+        "id": "HB 1461",
+        "title": "Jackson County; ad valorem tax; homestead exemption; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1461/",
+        "date": "2024-05-06"
+      },
+      {
+        "id": "HB 528",
+        "title": "Georgia Online Automatic Renewal Transparency Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB528/",
+        "date": "2023-05-03"
+      },
+      {
+        "id": "HB 88",
+        "title": "Coleman-Baker Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB88/",
+        "date": "2023-04-28"
+      },
+      {
+        "id": "HB 288",
+        "title": "Appeal and error; declaratory judgments in instances involving accusations made by a prosecuting attorney regarding credibility of a peace officer; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB288/",
+        "date": "2025-05-12"
+      },
+      {
+        "id": "HB 1578",
+        "title": "Arcade, Town of; municipality; clarify name",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1578/",
+        "date": "2026-05-11"
+      },
+      {
+        "id": "HB 1573",
+        "title": "Statham, City of; ad valorem tax for municipal purposes; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1573/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "HB 1379",
+        "title": "Foreign Funding Transparency and Accountability Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1379/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "HB 295",
+        "title": "Local government; procedures for real property owners to make claims for compensation for loss of property value or expenses incurred; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB295/",
+        "date": "2026-05-12"
+      },
+      {
+        "id": "HB 839",
+        "title": "Jackson County; board of commissioners; filling vacancies; revise provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB839/",
+        "date": "2025-05-13"
+      },
+      {
+        "id": "HB 454",
+        "title": "Vince Dooley Battlefield Trust Fund Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB454/",
+        "date": "2025-05-12"
+      },
+      {
+        "id": "HB 296",
+        "title": "Motor vehicles; presentation of a driver's license in a certain electronic format; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB296/",
+        "date": "2025-05-14"
+      }
+    ],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/houston-gaines-72KxvLe5L1XyA8034YxBDj/"
+    }
+  },
+  "rick-w-allen": {
+    "since": "2023-01-01",
+    "wrote": 37,
+    "becameLaw": 1,
+    "laws": [
+      {
+        "id": "H.R. 3944",
+        "title": "To designate the facility of the United States Postal Service located at 120 West Church Street in Mount Vernon, Georgia, as the \"Second Lieutenant Patrick Palmer Calhoun Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3944",
+        "date": "2024-05-07"
+      }
+    ],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/A000372"
+    }
+  },
+  "jasmine-clark": {
+    "since": "2023-01-01",
+    "wrote": 16,
+    "becameLaw": 1,
+    "laws": [
+      {
+        "id": "HB 761",
+        "title": "Lilburn, City of; ad valorem tax; provide additional homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB761/",
+        "date": "2025-05-13"
+      }
+    ],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/jasmine-clark-8Gj5GVqYVp38qaWIkslI2/"
+    }
+  },
+  "clay-fuller": {
+    "since": "2023-01-01",
+    "wrote": 10,
+    "becameLaw": 0,
+    "laws": [],
+    "source": {
+      "label": "Congress.gov",
+      "url": "https://www.congress.gov/member/F000485"
+    }
+  }
+}

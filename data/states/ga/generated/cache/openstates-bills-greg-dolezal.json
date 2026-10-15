@@ -1,0 +1,265 @@
+{
+  "2023_24": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "SB 1",
+        "title": "State Government; automatic repealer on the prohibition on state and local governments from requiring  proof of COVID vaccination for government services; remove",
+        "url": "https://openstates.org/ga/bills/2023_24/SB1/",
+        "introduced": "2023-01-09",
+        "law": "2023-05-02"
+      },
+      {
+        "id": "SB 430",
+        "title": "COVID-19 Pandemic Business Safety; provisions for rebuttable presumptions of risk by claimants in certain COVID-19 liability claims; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/SB430/",
+        "introduced": "2024-01-30",
+        "law": "2024-04-22"
+      },
+      {
+        "id": "SB 353",
+        "title": "Highways, Bridges, and Ferries; duties when death results from an accident upon a highway in certain instances; allow for delegation",
+        "url": "https://openstates.org/ga/bills/2023_24/SB353/",
+        "introduced": "2024-01-11",
+        "law": "2024-03-04"
+      },
+      {
+        "id": "SB 233",
+        "title": "'The Georgia Promise Scholarship Act'; establishment of promise scholarship accounts",
+        "url": "https://openstates.org/ga/bills/2023_24/SB233/",
+        "introduced": "2023-02-22",
+        "law": "2024-04-23"
+      },
+      {
+        "id": "SB 429",
+        "title": "\"Small Business Protection Act of 2024\"; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/SB429/",
+        "introduced": "2024-01-30",
+        "law": null
+      },
+      {
+        "id": "SB 208",
+        "title": "'Georgia Development Impact Fee Act'; provide for fees for education",
+        "url": "https://openstates.org/ga/bills/2023_24/SB208/",
+        "introduced": "2023-02-16",
+        "law": null
+      },
+      {
+        "id": "SB 154",
+        "title": "Sale or Distribution of Harmful Materials to Minors; provisions of Code Section 16-12-103 shall be applicable to libraries operated by schools; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB154/",
+        "introduced": "2023-02-13",
+        "law": null
+      },
+      {
+        "id": "SB 365",
+        "title": "Education; notification to parents and legal guardians of public school students of the right to receive email notification each time their child obtains school library materials; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB365/",
+        "introduced": "2024-01-22",
+        "law": null
+      },
+      {
+        "id": "SB 186",
+        "title": "\"Georgia Landowners Protection Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/SB186/",
+        "introduced": "2023-02-15",
+        "law": null
+      },
+      {
+        "id": "SB 26",
+        "title": "State Government; meetings and public hearings of development authorities and community improvement districts to be held by teleconference; permit",
+        "url": "https://openstates.org/ga/bills/2023_24/SB26/",
+        "introduced": "2023-01-26",
+        "law": "2024-02-13"
+      },
+      {
+        "id": "SB 452",
+        "title": "Banking and Finance and Property; regulations of motor vehicle title pawn transactions; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB452/",
+        "introduced": "2024-02-01",
+        "law": null
+      },
+      {
+        "id": "SB 361",
+        "title": "Meetings Open to the Public; authorized nonemergency teleconference meetings in which members of nonstatewide agencies participate;  increase the number",
+        "url": "https://openstates.org/ga/bills/2023_24/SB361/",
+        "introduced": "2024-01-22",
+        "law": null
+      },
+      {
+        "id": "SB 183",
+        "title": "Ticket Brokers; exception permitting certain resale restrictions; remove",
+        "url": "https://openstates.org/ga/bills/2023_24/SB183/",
+        "introduced": "2023-02-14",
+        "law": null
+      },
+      {
+        "id": "SB 204",
+        "title": "Education Accountability; recognition of certain accrediting agencies as evaluators of the quality of education offered in public schools in this state; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB204/",
+        "introduced": "2023-02-16",
+        "law": "2023-05-02"
+      },
+      {
+        "id": "SB 261",
+        "title": "Education; postsecondary educational institutions, local school systems; prohibit the use of political litmus tests",
+        "url": "https://openstates.org/ga/bills/2023_24/SB261/",
+        "introduced": "2023-02-27",
+        "law": null
+      },
+      {
+        "id": "SB 2",
+        "title": "Torts; certain immunities from liability claims regarding COVID-19; provisions; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/SB2/",
+        "introduced": "2023-01-11",
+        "law": null
+      },
+      {
+        "id": "SB 242",
+        "title": "Statute of Frauds; agreements with a value in excess of $10,000.00 shall be in writing; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB242/",
+        "introduced": "2023-02-23",
+        "law": null
+      },
+      {
+        "id": "SB 99",
+        "title": "Certificate of Need Requirements; exemption for acute care hospitals established in rural counties that meet certain criteria; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB99/",
+        "introduced": "2023-02-06",
+        "law": null
+      }
+    ]
+  },
+  "2023_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  },
+  "2025_26": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "SB 4",
+        "title": "Education; fundamental roles of local boards of education and local school superintendents; revise provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/SB4/",
+        "introduced": "2025-01-13",
+        "law": null
+      },
+      {
+        "id": "SB 3",
+        "title": "Prosecuting Attorneys; convictions for district attorneys, assistant district attorneys, deputy district attorneys; provide additional qualifications",
+        "url": "https://openstates.org/ga/bills/2025_26/SB3/",
+        "introduced": "2025-01-13",
+        "law": null
+      },
+      {
+        "id": "SB 28",
+        "title": "\"Red Tape Rollback Act of 2025\"; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB28/",
+        "introduced": "2025-01-27",
+        "law": null
+      },
+      {
+        "id": "SB 178",
+        "title": "State Depository Board; allow the state treasurer to invest in Bitcoin; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB178/",
+        "introduced": "2025-02-13",
+        "law": null
+      },
+      {
+        "id": "SB 486",
+        "title": "Laws and Statutes; provisions relating to the effect and enforcement of foreign laws; revise",
+        "url": "https://openstates.org/ga/bills/2025_26/SB486/",
+        "introduced": "2026-02-10",
+        "law": null
+      },
+      {
+        "id": "SB 463",
+        "title": "Specialized Land Transactions; business enterprises or business enterprises controlled by natural born persons from owning an interest in more than 500 single-family residential properties; prohibit",
+        "url": "https://openstates.org/ga/bills/2025_26/SB463/",
+        "introduced": "2026-02-04",
+        "law": null
+      },
+      {
+        "id": "SB 61",
+        "title": "Delinquency; additional offenses over which superior courts are authorized to exercise exclusive original jurisdiction; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB61/",
+        "introduced": "2025-01-29",
+        "law": null
+      },
+      {
+        "id": "SB 38",
+        "title": "Development Impact Fees; provide for education",
+        "url": "https://openstates.org/ga/bills/2025_26/SB38/",
+        "introduced": "2025-01-28",
+        "law": null
+      },
+      {
+        "id": "SB 445",
+        "title": "\"Georgia Promise Scholarship Act\"; public schools with a state-wide attendance zone and certain charter schools shall not be included in the separate list of public schools annually reported by the Office of Student Achievement; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB445/",
+        "introduced": "2026-02-02",
+        "law": null
+      },
+      {
+        "id": "SB 370",
+        "title": "Elections and Primaries; closed primaries; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB370/",
+        "introduced": "2025-03-31",
+        "law": null
+      },
+      {
+        "id": "SB 1",
+        "title": "'Fair and Safe Athletic Opportunities Act'; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB1/",
+        "introduced": "2025-01-13",
+        "law": "2025-04-28"
+      },
+      {
+        "id": "SB 471",
+        "title": "Education; requires a student to wear a face mask or face covering while present on school property; eliminate automatic repeal provision",
+        "url": "https://openstates.org/ga/bills/2025_26/SB471/",
+        "introduced": "2026-02-06",
+        "law": null
+      },
+      {
+        "id": "SB 152",
+        "title": "\"Georgia Promise Scholarship Act\"; the biological or adopted children of individuals who are foster parents and who meet certain conditions shall qualify for promise scholarship accounts; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB152/",
+        "introduced": "2025-02-12",
+        "law": null
+      },
+      {
+        "id": "SB 2",
+        "title": "State Income Tax; exclude tips from taxation",
+        "url": "https://openstates.org/ga/bills/2025_26/SB2/",
+        "introduced": "2025-01-13",
+        "law": null
+      },
+      {
+        "id": "SB 31",
+        "title": "Income Taxes; all income received as retirement benefits derived from service in the armed forces of the United States or the reserve components; exempt from taxation",
+        "url": "https://openstates.org/ga/bills/2025_26/SB31/",
+        "introduced": "2025-01-27",
+        "law": null
+      },
+      {
+        "id": "SB 140",
+        "title": "Optometrists; doctors of optometry to dispense and sell pharmaceutical agents to patients under certain conditions; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB140/",
+        "introduced": "2025-02-10",
+        "law": "2025-05-13"
+      },
+      {
+        "id": "SB 568",
+        "title": "Elections and Primaries; the list of eligible voters is posted and made public prior to each primary or election; require",
+        "url": "https://openstates.org/ga/bills/2025_26/SB568/",
+        "introduced": "2026-02-24",
+        "law": null
+      }
+    ]
+  },
+  "2026_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  }
+}

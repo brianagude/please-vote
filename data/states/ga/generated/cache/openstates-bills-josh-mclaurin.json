@@ -1,0 +1,139 @@
+{
+  "2023_24": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "SB 586",
+        "title": "Grants of Pardons, Paroles, and Other Relief; procedures when a person is denied parole after completing certain prerequisites; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB586/",
+        "introduced": "2024-03-20",
+        "law": null
+      },
+      {
+        "id": "SB 506",
+        "title": "Pleadings and Motions; movants to file notices of uncontested motions in superior courts and state courts; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB506/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "SB 516",
+        "title": "Unfair or Deceptive Practices in Consumer Transactions; making of false or misleading statements regarding the limited supply of or the duration of discounted purchase prices for consumer goods; add example",
+        "url": "https://openstates.org/ga/bills/2023_24/SB516/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "SB 521",
+        "title": "Labor and Industrial Relations; protections for freelance workers; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB521/",
+        "introduced": "2024-02-16",
+        "law": null
+      },
+      {
+        "id": "SB 179",
+        "title": "Electors; restrictions of voting rights for judicially incompetent persons; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB179/",
+        "introduced": "2023-02-14",
+        "law": null
+      },
+      {
+        "id": "SB 247",
+        "title": "Removal of Improperly Parked Cars; a towing and storage firm from placing an instrument designed to restrict movement of a motor vehicle; prohibit",
+        "url": "https://openstates.org/ga/bills/2023_24/SB247/",
+        "introduced": "2023-02-23",
+        "law": null
+      },
+      {
+        "id": "SB 115",
+        "title": "Georgia National Guard; the adjutant general to be the official sponsor of the state sponsored life insurance program; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB115/",
+        "introduced": "2023-02-08",
+        "law": "2023-05-01"
+      },
+      {
+        "id": "SB 245",
+        "title": "Proceedings in Criminal Trials; legislative intent; exceptions to rulings or orders of the court; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB245/",
+        "introduced": "2023-02-23",
+        "law": null
+      }
+    ]
+  },
+  "2023_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  },
+  "2025_26": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "SB 541",
+        "title": "Property; the placement of wheel restraints on trespassing motor vehicles; prohibit",
+        "url": "https://openstates.org/ga/bills/2025_26/SB541/",
+        "introduced": "2026-02-20",
+        "law": null
+      },
+      {
+        "id": "SB 173",
+        "title": "Pleadings and Motions; movants to file notices of uncontested motions in superior courts and state courts; authorize",
+        "url": "https://openstates.org/ga/bills/2025_26/SB173/",
+        "introduced": "2025-02-13",
+        "law": null
+      },
+      {
+        "id": "SB 174",
+        "title": "Conduct of Proceedings in Criminal Trials; legislative intent; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB174/",
+        "introduced": "2025-02-13",
+        "law": null
+      },
+      {
+        "id": "SB 397",
+        "title": "Torts; remedies for deprivation of constitutional rights of state citizens by civil immigration enforcement officers; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB397/",
+        "introduced": "2026-01-13",
+        "law": null
+      },
+      {
+        "id": "SB 396",
+        "title": "Labor and Industrial Relations; retaliatory actions by certain employers against certain employees for disclosing potentially unlawful activities; prohibit",
+        "url": "https://openstates.org/ga/bills/2025_26/SB396/",
+        "introduced": "2026-01-13",
+        "law": null
+      },
+      {
+        "id": "SB 363",
+        "title": "Electors; restrictions of voting rights for judicially incompetent persons; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB363/",
+        "introduced": "2025-03-27",
+        "law": null
+      },
+      {
+        "id": "SB 25",
+        "title": "Pardons and Paroles; procedures when a person is denied parole after completing certain prerequisites; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB25/",
+        "introduced": "2025-01-17",
+        "law": null
+      },
+      {
+        "id": "SB 227",
+        "title": "Labor and Industrial Relations; protections for freelance workers; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB227/",
+        "introduced": "2025-02-20",
+        "law": null
+      },
+      {
+        "id": "SB 379",
+        "title": "\"Georgia Health Insurance Affordability and Consumer Protection Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB379/",
+        "introduced": "2026-01-12",
+        "law": null
+      }
+    ]
+  },
+  "2026_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "2023_24": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "HB 1164",
+        "title": "Crimes and offenses; offense of criminal trespass involving a wild animal; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1164/",
+        "introduced": "2024-02-06",
+        "law": null
+      },
+      {
+        "id": "HB 325",
+        "title": "Transparency in Policing Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB325/",
+        "introduced": "2023-02-08",
+        "law": null
+      }
+    ]
+  },
+  "2023_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  },
+  "2025_26": {
+    "fetched": "2026-10-15",
+    "bills": [
+      {
+        "id": "HB 826",
+        "title": "Overtime Income Tax Exemption Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB826/",
+        "introduced": "2025-03-25",
+        "law": null
+      },
+      {
+        "id": "HB 733",
+        "title": "Georgia Insurance Consumer and Policyholder Advocacy Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB733/",
+        "introduced": "2025-03-06",
+        "law": null
+      },
+      {
+        "id": "HB 294",
+        "title": "Quality Basic Education Act; require State Board of Education to review and update policies, guidelines, and processes for awarding units of high school credit to students based on a demonstration of subject area competency",
+        "url": "https://openstates.org/ga/bills/2025_26/HB294/",
+        "introduced": "2025-02-05",
+        "law": null
+      },
+      {
+        "id": "HB 306",
+        "title": "Labor and industrial relations; cause of action for workplace harassment and retaliation; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB306/",
+        "introduced": "2025-02-06",
+        "law": null
+      },
+      {
+        "id": "HB 1520",
+        "title": "Rental Pricing Integrity Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1520/",
+        "introduced": "2026-03-06",
+        "law": null
+      },
+      {
+        "id": "HB 293",
+        "title": "Education; Protect Students First Act; repeal various provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB293/",
+        "introduced": "2025-02-05",
+        "law": null
+      },
+      {
+        "id": "HB 1521",
+        "title": "Ponzi Scheme Prevention Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1521/",
+        "introduced": "2026-03-06",
+        "law": null
+      },
+      {
+        "id": "HB 729",
+        "title": "Georgia Maternity Care Desert Reduction Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB729/",
+        "introduced": "2025-03-04",
+        "law": null
+      }
+    ]
+  },
+  "2026_ss": {
+    "fetched": "2026-10-15",
+    "bills": []
+  }
+}
