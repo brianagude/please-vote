@@ -6,3 +6,4 @@ dist/
 .astro/
 .wrangler/
 .DS_Store
+exports/
