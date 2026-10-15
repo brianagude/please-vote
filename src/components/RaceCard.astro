@@ -32,6 +32,17 @@ const list = byLastName(candidates);
       </div>
     )
   }
+  {
+    o.ballot && (
+      <div class="row">
+        <div class="cell">
+          <span class="lbl">Exact wording on your ballot</span>
+          <p class="also">“{o.ballot}”</p>
+          {o.source && <a class="src" href={o.source.url} target="_blank" rel="noopener">Source: {o.source.label}</a>}
+        </div>
+      </div>
+    )
+  }
   <slot />
   {note && <div class="row"><div class="cell"><p class="rnote">{note}</p></div></div>}
   {

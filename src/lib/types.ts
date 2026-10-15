@@ -56,6 +56,9 @@ export interface Office {
   one: string;
   why: string;
   also: string[];
+  /** Ballot questions: the exact wording printed on the ballot. */
+  ballot?: string;
+  source?: Source;
 }
 
 export interface Seat {

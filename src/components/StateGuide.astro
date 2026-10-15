@@ -20,7 +20,7 @@ const short = (k: string) => {
   if (k === "@house") return { text: D.house.label, key: "house" };
   if (k === "@upper") return { text: D.upper.label };
   if (k === "@lower") return { text: D.lower.label };
-  return { text: O[k.replace("?", "")].title.replace("Public Service Commission", "PSC") };
+  return { text: O[k.replace("?", "")].title.replace("Public Service Commission", "PSC").replace(/^Amendment (\d+):.*/, "Amendment $1") };
 };
 const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L.running[k] });
 ---

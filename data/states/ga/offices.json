@@ -122,9 +122,36 @@
     "also": []
   },
   "amend": {
-    "title": "Farm & Timber Land Tax Break",
+    "title": "Amendment 1: Farm & Timber Land Tax Break",
     "one": "Land used for farming or timber gets a property tax break, capped at 2,000 acres per owner. This would raise the cap to 4,000.",
     "why": "YES raises the cap to 4,000 acres. NO keeps it at 2,000.",
-    "also": []
+    "also": [],
+    "ballot": "Shall the Constitution of Georgia, for the purpose of protecting family farmland, be amended so as to increase the maximum acreage to qualify for assessment and taxation as a bona fide conservation use property from 2,000 acres to 4,000 acres?",
+    "source": {
+      "label": "Georgia Secretary of State, amendments booklet",
+      "url": "https://sos.ga.gov/sites/default/files/2026-09/2026%20Constitutional%20Summaries%20booklet%20FINAL.pdf"
+    }
+  },
+  "amend2": {
+    "title": "Amendment 2: Nonpartisan Probate Judges",
+    "one": "Probate judges handle wills, estates, guardianships, and marriage licenses. In many counties they already run without a party label, but in some they still run as a Democrat or Republican.",
+    "why": "YES means every probate judge runs without a party label. NO keeps things as they are.",
+    "also": [],
+    "ballot": "Shall the Constitution of Georgia be amended so as to require that all probate court judges be elected in nonpartisan elections?",
+    "source": {
+      "label": "Georgia Secretary of State, amendments booklet",
+      "url": "https://sos.ga.gov/sites/default/files/2026-09/2026%20Constitutional%20Summaries%20booklet%20FINAL.pdf"
+    }
+  },
+  "amend3": {
+    "title": "Amendment 3: Fund for 911 Systems",
+    "one": "Lets state lawmakers set aside some existing state money in a fund that can only be used to run, maintain, and expand 911 emergency call systems.",
+    "why": "YES allows the separate 911 fund. NO keeps things as they are.",
+    "also": [],
+    "ballot": "Shall the Constitution of Georgia be amended so as to authorize the General Assembly to dedicate certain existing revenues, including revenues reallocated by law, to a nonlapsing fund to be used exclusively for the expansion, maintenance, and operation of emergency 9-1-1 systems in this state?",
+    "source": {
+      "label": "Georgia Secretary of State, amendments booklet",
+      "url": "https://sos.ga.gov/sites/default/files/2026-09/2026%20Constitutional%20Summaries%20booklet%20FINAL.pdf"
+    }
   }
 }

@@ -93,10 +93,12 @@
     },
     {
       "id": "q",
-      "title": "Ballot question",
-      "sub": "A yes-or-no change to Georgia's constitution.",
+      "title": "Ballot questions",
+      "sub": "Yes-or-no changes to Georgia's constitution.",
       "races": [
-        "?amend"
+        "?amend",
+        "?amend2",
+        "?amend3"
       ]
     }
   ],

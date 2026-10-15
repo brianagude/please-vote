@@ -120,11 +120,6 @@
     "url": "https://psc.ga.gov/about-the-psc/"
   },
   {
-    "what": "Ballot question",
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Georgia_elections,_2026"
-  },
-  {
     "what": "Campaign websites",
     "label": "Branch and BallotReady candidate pages",
     "url": "https://branch.vote/"
@@ -138,5 +133,10 @@
     "what": "Andrew Clyde, Clay Fuller",
     "label": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/Clay_Fuller"
+  },
+  {
+    "what": "Ballot questions",
+    "label": "Georgia Secretary of State, amendments booklet",
+    "url": "https://sos.ga.gov/sites/default/files/2026-09/2026%20Constitutional%20Summaries%20booklet%20FINAL.pdf"
   }
 ]
