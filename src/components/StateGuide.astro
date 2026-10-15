@@ -112,7 +112,7 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
       <summary>Sources</summary>
       <ul>{data.sources.map((s) => <li>{s.what}: <a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}</ul>
     </details>
-    <button class="motion" type="button" id="motion" aria-pressed="false">Stop motion</button>
+    <button class="motion" type="button" id="motion" aria-pressed="false">Pause motion</button>
   </footer>
   <div class="strip strip-bottom" aria-hidden="true"></div>
 </div>

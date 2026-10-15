@@ -155,7 +155,7 @@ function motionToggle() {
   const root = document.documentElement;
   const sync = () => {
     const still = root.classList.contains("still");
-    btn.textContent = still ? "Start motion" : "Stop motion";
+    btn.textContent = still ? "Play motion" : "Pause motion";
     btn.setAttribute("aria-pressed", String(still));
   };
   btn.addEventListener("click", () => {
