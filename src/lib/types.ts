@@ -32,6 +32,17 @@ export interface Candidate {
   links: { campaign?: string; official?: string; ballotpedia?: string };
   ids?: { bioguide?: string; fec?: string; openstates?: string };
   photo?: Photo;
+  /** Filled from data/states/<code>/generated/ by the nightly job. */
+  record?: CareerRecord;
+}
+
+export interface CareerRecord {
+  offices?: { items: { title: string; from: string; to?: string }[]; source: Source };
+  roles?: { items: string[]; source: Source };
+  bills?: { since: string; wrote: number; becameLaw: number; laws: { id: string; title: string; url: string; date?: string }[]; source: Source };
+  money?:
+    | { raised: number; spent: number; cashOnHand: number; fromIndividuals: number; fromPACs: number; from?: string; through?: string; source: Source }
+    | { none: true; source: Source };
 }
 
 export interface Race {
@@ -84,6 +95,7 @@ export interface StateConfig {
   };
   groups: Group[];
   footerNote: string;
+  records: { since: string; sinceLabel: string };
 }
 
 export interface StateData {

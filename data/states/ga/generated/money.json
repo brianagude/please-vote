@@ -1,0 +1,407 @@
+{
+  "jon-ossoff": {
+    "raised": 97986263.04,
+    "spent": 59730545.53,
+    "cashOnHand": 42587451,
+    "fromIndividuals": 86546255.04,
+    "fromPACs": 1043665.39,
+    "fromParty": 13318.85,
+    "fromSelf": 0,
+    "from": "2021-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/S8GA00180/?cycle=2026&election_full=true"
+    }
+  },
+  "mike-collins": {
+    "raised": 7471304.01,
+    "spent": 6015387.55,
+    "cashOnHand": 2059087,
+    "fromIndividuals": 4456092.99,
+    "fromPACs": 495631.55,
+    "fromParty": 0,
+    "fromSelf": 65000,
+    "from": "2025-01-01",
+    "through": "2026-09-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/S6GA00390/?cycle=2026&election_full=true"
+    }
+  },
+  "amanda-hollowell": {
+    "raised": 162499.86,
+    "spent": 155572.24,
+    "cashOnHand": 7388.62,
+    "fromIndividuals": 128987.47,
+    "fromPACs": 1000,
+    "fromParty": 0,
+    "fromSelf": 32512.39,
+    "from": "2025-07-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA01158/?cycle=2026&election_full=true"
+    }
+  },
+  "jim-kingston": {
+    "raised": 1944528.39,
+    "spent": 1650435.78,
+    "cashOnHand": 294092.61,
+    "fromIndividuals": 1742078.39,
+    "fromPACs": 202450,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-04-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA01109/?cycle=2026&election_full=true"
+    }
+  },
+  "sanford-d-bishop-jr": {
+    "raised": 1126529.96,
+    "spent": 861582.99,
+    "cashOnHand": 447807.95,
+    "fromIndividuals": 377718.14,
+    "fromPACs": 738750.01,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H2GA02031/?cycle=2026&election_full=true"
+    }
+  },
+  "matt-day": {
+    "raised": 217005.73,
+    "spent": 217005.73,
+    "cashOnHand": 0,
+    "fromIndividuals": 10762.5,
+    "fromPACs": 0,
+    "fromParty": 0,
+    "fromSelf": 191334.85,
+    "from": "2025-07-01",
+    "through": "2026-09-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA01182/?cycle=2026&election_full=true"
+    }
+  },
+  "maura-keller": {
+    "raised": 150513.84,
+    "spent": 65893.8,
+    "cashOnHand": 87575.61,
+    "fromIndividuals": 141513.84,
+    "fromPACs": 4000,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H4GA03100/?cycle=2026&election_full=true"
+    }
+  },
+  "brian-jack": {
+    "raised": 2045912.87,
+    "spent": 1143464.28,
+    "cashOnHand": 1142624.92,
+    "fromIndividuals": 879476.19,
+    "fromPACs": 836639.53,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H4GA03126/?cycle=2026&election_full=true"
+    }
+  },
+  "henry-c-johnson-jr": {
+    "raised": 402314.84,
+    "spent": 396085.24,
+    "cashOnHand": 117905.6,
+    "fromIndividuals": 77702.5,
+    "fromPACs": 316750,
+    "fromParty": 779.17,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA04129/?cycle=2026&election_full=true"
+    }
+  },
+  "nikema-williams": {
+    "raised": 599714.8,
+    "spent": 536864.64,
+    "cashOnHand": 76091.81,
+    "fromIndividuals": 180134.96,
+    "fromPACs": 402755,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H0GA05301/?cycle=2026&election_full=true"
+    }
+  },
+  "lucy-mcbath": {
+    "raised": 896855.83,
+    "spent": 1173781.4,
+    "cashOnHand": 676348.88,
+    "fromIndividuals": 533440.41,
+    "fromPACs": 343437.48,
+    "fromParty": 779.17,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H8GA06393/?cycle=2026&election_full=true"
+    }
+  },
+  "kevin-martin": {
+    "raised": 10320,
+    "spent": 10220,
+    "cashOnHand": 100,
+    "fromIndividuals": 0,
+    "fromPACs": 0,
+    "fromParty": 0,
+    "fromSelf": 10320,
+    "from": "2026-01-01",
+    "through": "2026-03-31",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA06181/?cycle=2026&election_full=true"
+    }
+  },
+  "anthony-kozycki": {
+    "raised": 883487.06,
+    "spent": 200104.73,
+    "cashOnHand": 683382.33,
+    "fromIndividuals": 155784.74,
+    "fromPACs": 6000,
+    "fromParty": 0,
+    "fromSelf": 716702.32,
+    "from": "2026-03-02",
+    "through": "2026-09-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA07221/?cycle=2026&election_full=true"
+    }
+  },
+  "richard-mccormick": {
+    "raised": 1642412.73,
+    "spent": 1332251.26,
+    "cashOnHand": 1007984.38,
+    "fromIndividuals": 382097.92,
+    "fromPACs": 435500,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H0GA07273/?cycle=2026&election_full=true"
+    }
+  },
+  "kelly-esti": {
+    "raised": 19342.58,
+    "spent": 24002.84,
+    "cashOnHand": 1687.58,
+    "fromIndividuals": 18342.58,
+    "fromPACs": 0,
+    "fromParty": 0,
+    "fromSelf": 1000,
+    "from": "2026-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA08138/?cycle=2026&election_full=true"
+    }
+  },
+  "austin-scott": {
+    "raised": 1124951.95,
+    "spent": 755665.34,
+    "cashOnHand": 1349452.16,
+    "fromIndividuals": 386901.05,
+    "fromPACs": 703250,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H0GA08099/?cycle=2026&election_full=true"
+    }
+  },
+  "caitlyn-gegen": {
+    "raised": 43387.42,
+    "spent": 38717.75,
+    "cashOnHand": 4669.67,
+    "fromIndividuals": 35206.42,
+    "fromPACs": 2000,
+    "fromParty": 0,
+    "fromSelf": 6181,
+    "from": "2026-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA09284/?cycle=2026&election_full=true"
+    }
+  },
+  "andrew-s-clyde": {
+    "raised": 671072.43,
+    "spent": 590803.96,
+    "cashOnHand": 176252.58,
+    "fromIndividuals": 552361.46,
+    "fromPACs": 118710.97,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H0GA09246/?cycle=2026&election_full=true"
+    }
+  },
+  "pamela-delancy": {
+    "raised": 23080,
+    "spent": 11121.45,
+    "cashOnHand": 8705,
+    "fromIndividuals": 15480,
+    "fromPACs": 0,
+    "fromParty": 0,
+    "fromSelf": 7600,
+    "from": "2026-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA10183/?cycle=2026&election_full=true"
+    }
+  },
+  "houston-gaines": {
+    "raised": 2303879.9,
+    "spent": 1600460.26,
+    "cashOnHand": 703419.64,
+    "fromIndividuals": 2051172,
+    "fromPACs": 214510.25,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-07-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA10175/?cycle=2026&election_full=true"
+    }
+  },
+  "chris-harden": {
+    "raised": 74664.25,
+    "spent": 72427.09,
+    "cashOnHand": 2237.16,
+    "fromIndividuals": 72577.25,
+    "fromPACs": 2000,
+    "fromParty": 0,
+    "fromSelf": 87,
+    "from": "2025-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA11116/?cycle=2026&election_full=true"
+    }
+  },
+  "john-cowan": {
+    "raised": 2347796.21,
+    "spent": 2330166.55,
+    "cashOnHand": 17629.66,
+    "fromIndividuals": 464917.88,
+    "fromPACs": 120000,
+    "fromParty": 0,
+    "fromSelf": 1750020,
+    "from": "2026-01-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H0GA14048/?cycle=2026&election_full=true"
+    }
+  },
+  "ceretta-smith": {
+    "raised": 26695.6,
+    "spent": 23290.75,
+    "cashOnHand": 3502.42,
+    "fromIndividuals": 24942.73,
+    "fromPACs": 0,
+    "fromParty": 0,
+    "fromSelf": 1752.87,
+    "from": "2025-07-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA12080/?cycle=2026&election_full=true"
+    }
+  },
+  "rick-w-allen": {
+    "raised": 1207040.8,
+    "spent": 937935.84,
+    "cashOnHand": 1444061.62,
+    "fromIndividuals": 583539,
+    "fromPACs": 621850,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-01-01",
+    "through": "2026-09-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H2GA12121/?cycle=2026&election_full=true"
+    }
+  },
+  "jasmine-clark": {
+    "raised": 1619079.3,
+    "spent": 1389934.64,
+    "cashOnHand": 229144.66,
+    "fromIndividuals": 1562231.39,
+    "fromPACs": 55173.18,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-06-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H6GA13070/?cycle=2026&election_full=true"
+    }
+  },
+  "shawn-harris": {
+    "raised": 8098513.75,
+    "spent": 8080283.63,
+    "cashOnHand": 18230.12,
+    "fromIndividuals": 8084825.57,
+    "fromPACs": 13688.18,
+    "fromParty": 0,
+    "fromSelf": 0,
+    "from": "2025-04-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H4GA14057/?cycle=2026&election_full=true"
+    }
+  },
+  "clay-fuller": {
+    "raised": 1846892.29,
+    "spent": 1776374.19,
+    "cashOnHand": 70518.1,
+    "fromIndividuals": 1080792.2,
+    "fromPACs": 305480.74,
+    "fromParty": 0,
+    "fromSelf": 450000,
+    "from": "2025-10-01",
+    "through": "2026-06-30",
+    "source": {
+      "label": "FEC",
+      "url": "https://www.fec.gov/data/candidate/H0GA14030/?cycle=2026&election_full=true"
+    }
+  }
+}

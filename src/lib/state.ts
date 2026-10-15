@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Candidate, Fact, StateData } from "./types";
+import { buildRecord } from "./record";
 
 const DATA_DIR = path.resolve("data/states");
 
@@ -26,7 +27,16 @@ export function loadState(code: string): StateData {
   };
   // Nightly output, keyed by candidate id. Merged over the hand-checked files.
   const photos: Record<string, Candidate["photo"]> | undefined = readIfExists(code, "generated/photos.json");
-  if (photos) for (const c of allCandidates(data)) if (photos[c.id]) c.photo = photos[c.id];
+  const gen = {
+    congress: readIfExists(code, "generated/congress.json"),
+    money: readIfExists(code, "generated/money.json"),
+    bills: readIfExists(code, "generated/bills.json"),
+  };
+  const cycle = data.config.election.date.slice(0, 4);
+  for (const c of allCandidates(data)) {
+    if (photos?.[c.id]) c.photo = photos[c.id];
+    c.record = buildRecord(c, gen, cycle, data.config.name);
+  }
   return data;
 }
 

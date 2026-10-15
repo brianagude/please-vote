@@ -2,6 +2,7 @@
 import type { Candidate, Source } from "../lib/types";
 import { initials, partyName } from "../lib/names";
 import { sourced } from "../lib/state";
+import CareerRecord from "./CareerRecord.astro";
 interface Props {
   c: Candidate;
 }
@@ -32,6 +33,7 @@ const { campaign, official, ballotpedia } = c.links;
     {bio && <p class="bio">{bio.text}</p>}
     {career.length > 0 && <ul class="career">{career.map((f) => <li>{f.text}</li>)}</ul>}
     {committees.length > 0 && <p class="works">Committee work: {committees.join(", ")}</p>}
+    {c.record && <CareerRecord r={c.record} />}
     {
       (campaign || official || ballotpedia) && (
         <p class="links">

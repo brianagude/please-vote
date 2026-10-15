@@ -30,7 +30,9 @@ export async function congress(code: string) {
     const roles: any[] = [];
     for (const [cid, members] of Object.entries(membership)) {
       const m = members.find((x) => x.bioguide === id);
-      if (m && names[cid] && !names[cid].parent) roles.push({ committee: names[cid].name, title: m.title ?? null });
+      // Full committees always; subcommittees only when they hold a title (chair, etc.).
+      if (m && names[cid] && (!names[cid].parent || m.title))
+        roles.push({ committee: names[cid].name, parent: names[cid].parent, title: m.title ?? null });
     }
     out[id] = {
       name: p.name.official_full,

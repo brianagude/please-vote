@@ -4,10 +4,14 @@
 // and the failed one keeps yesterday's file.
 import { congress } from "./congress.ts";
 import { legislature } from "./legislature.ts";
+import { photos } from "./photos.ts";
+import { fec } from "./fec.ts";
+import { bills } from "./bills.ts";
 import { log } from "./lib.ts";
 
 const STATES = ["ga"];
-const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature };
+// Order matters: photos uses congress output.
+const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature, photos, fec, bills };
 
 const only = process.argv.slice(2);
 let failed = 0;

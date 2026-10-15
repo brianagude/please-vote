@@ -10,42 +10,99 @@
   },
   "voterPage": "https://mvp.sos.ga.gov/",
   "dates": [
-    { "what": "Register", "when": "Oct 5", "start": "2026-10-05" },
-    { "what": "Early voting", "when": "Oct 13–30", "start": "2026-10-13", "end": "2026-10-30" },
-    { "what": "Mail ballot request", "when": "Oct 23", "start": "2026-10-23", "sub": "Ballot due back by 7 p.m. Nov 3" },
-    { "what": "Election day", "when": "Nov 3", "start": "2026-11-03", "sub": "7 a.m. – 7 p.m." },
-    { "what": "Runoff, if needed", "when": "Dec 1", "start": "2026-12-01" }
+    {
+      "what": "Register",
+      "when": "Oct 5",
+      "start": "2026-10-05"
+    },
+    {
+      "what": "Early voting",
+      "when": "Oct 13–30",
+      "start": "2026-10-13",
+      "end": "2026-10-30"
+    },
+    {
+      "what": "Mail ballot request",
+      "when": "Oct 23",
+      "start": "2026-10-23",
+      "sub": "Ballot due back by 7 p.m. Nov 3"
+    },
+    {
+      "what": "Election day",
+      "when": "Nov 3",
+      "start": "2026-11-03",
+      "sub": "7 a.m. – 7 p.m."
+    },
+    {
+      "what": "Runoff, if needed",
+      "when": "Dec 1",
+      "start": "2026-12-01"
+    }
   ],
   "districts": {
-    "house": { "label": "U.S. House", "count": 14 },
-    "upper": { "label": "State Senate", "count": 56, "office": "sen" },
-    "lower": { "label": "State House", "count": 180, "office": "rep" }
+    "house": {
+      "label": "U.S. House",
+      "count": 14
+    },
+    "upper": {
+      "label": "State Senate",
+      "count": 56,
+      "office": "sen"
+    },
+    "lower": {
+      "label": "State House",
+      "count": 180,
+      "office": "rep"
+    }
   },
   "groups": [
     {
       "id": "fed",
       "title": "Federal",
       "sub": "They make laws for the entire country.",
-      "races": ["senate", "@house"]
+      "races": [
+        "senate",
+        "@house"
+      ]
     },
     {
       "id": "state",
       "title": "State",
       "sub": "They run Georgia. Everyone in the state votes on these.",
-      "races": ["governor", "ltgov", "sos", "ag", "agr", "ins", "labor", "schools", "psc3", "psc5"]
+      "races": [
+        "governor",
+        "ltgov",
+        "sos",
+        "ag",
+        "agr",
+        "ins",
+        "labor",
+        "schools",
+        "psc3",
+        "psc5"
+      ]
     },
     {
       "id": "leg",
       "title": "State lawmakers",
       "sub": "They write Georgia's laws. Your district decides who's on your ballot.",
-      "races": ["@upper", "@lower"]
+      "races": [
+        "@upper",
+        "@lower"
+      ]
     },
     {
       "id": "q",
       "title": "Ballot question",
       "sub": "A yes-or-no change to Georgia's constitution.",
-      "races": ["?amend"]
+      "races": [
+        "?amend"
+      ]
     }
   ],
-  "footerNote": "If your address can't be matched, we fall back to ZIP code. ZIP codes can cross district lines, so double-check yours on your voter page."
+  "footerNote": "If your address can't be matched, we fall back to ZIP code. ZIP codes can cross district lines, so double-check yours on your voter page.",
+  "records": {
+    "since": "2023-01-01",
+    "sinceLabel": "2023"
+  }
 }

@@ -133,6 +133,9 @@
           "links": {
             "campaign": "https://www.keishaforgovernor.com/",
             "ballotpedia": "https://ballotpedia.org/Keisha_Lance_Bottoms"
+          },
+          "ids": {
+            "wikipedia": "Keisha Lance Bottoms"
           }
         },
         {
@@ -149,6 +152,9 @@
           "links": {
             "campaign": "https://rickjackson.com/",
             "ballotpedia": "https://ballotpedia.org/Rick_Jackson_(Georgia)"
+          },
+          "ids": {
+            "wikipedia": "Rick Jackson (businessman)"
           }
         }
       ]
@@ -185,6 +191,10 @@
           "links": {
             "campaign": "http://joshforgeorgia.com",
             "ballotpedia": "https://ballotpedia.org/Josh_McLaurin"
+          },
+          "ids": {
+            "wikipedia": "Josh McLaurin",
+            "openstates": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1"
           }
         },
         {
@@ -217,6 +227,10 @@
           "links": {
             "campaign": "https://gregdolezal.com/",
             "ballotpedia": "https://ballotpedia.org/Greg_Dolezal"
+          },
+          "ids": {
+            "wikipedia": "Greg Dolezal",
+            "openstates": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c"
           }
         }
       ]
@@ -269,6 +283,10 @@
           "links": {
             "campaign": "https://www.flemingforga.com/",
             "ballotpedia": "https://ballotpedia.org/Tim_Fleming"
+          },
+          "ids": {
+            "wikipedia": "Tim Fleming (politician)",
+            "openstates": "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe"
           }
         }
       ]
@@ -305,6 +323,10 @@
           "links": {
             "campaign": "https://www.tanyaforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Tanya_Miller"
+          },
+          "ids": {
+            "wikipedia": "Tanya Miller",
+            "openstates": "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d"
           }
         },
         {
@@ -330,6 +352,10 @@
           "links": {
             "campaign": "http://www.stricklandforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Brian_Strickland"
+          },
+          "ids": {
+            "wikipedia": "Brian Strickland",
+            "openstates": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9"
           }
         }
       ]
@@ -399,6 +425,9 @@
           "links": {
             "campaign": "https://tylerharperga.com/",
             "ballotpedia": "https://ballotpedia.org/Tyler_Harper"
+          },
+          "ids": {
+            "wikipedia": "Tyler Harper"
           }
         }
       ]
@@ -435,6 +464,9 @@
           "links": {
             "campaign": "https://www.keishawaites.org/",
             "ballotpedia": "https://ballotpedia.org/Keisha_Waites"
+          },
+          "ids": {
+            "wikipedia": "Keisha Waites"
           }
         },
         {
@@ -468,6 +500,9 @@
           "links": {
             "campaign": "https://www.votejohnking.com/",
             "ballotpedia": "https://ballotpedia.org/John_King_(Georgia)"
+          },
+          "ids": {
+            "wikipedia": "John F. King"
           }
         }
       ]
@@ -521,6 +556,9 @@
           "links": {
             "campaign": "https://www.barbaraforga.com/",
             "ballotpedia": "https://ballotpedia.org/B%C3%A1rbara_Rivera_Holmes"
+          },
+          "ids": {
+            "wikipedia": "Bárbara Rivera Holmes"
           }
         }
       ]
@@ -574,6 +612,9 @@
           "links": {
             "campaign": "http://www.woodsforsuper.com",
             "ballotpedia": "https://ballotpedia.org/Richard_Woods_(Georgia)"
+          },
+          "ids": {
+            "wikipedia": "Richard Woods (politician)"
           }
         }
       ]
@@ -611,6 +652,9 @@
           "links": {
             "campaign": "https://peterforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Peter_Hubbard"
+          },
+          "ids": {
+            "wikipedia": "Peter Hubbard"
           }
         },
         {
@@ -643,6 +687,9 @@
           "links": {
             "campaign": "https://friendsforfitz.com/",
             "ballotpedia": "https://ballotpedia.org/Fitz_Johnson"
+          },
+          "ids": {
+            "wikipedia": "Fitz Johnson"
           }
         }
       ]
@@ -1342,7 +1389,9 @@
             "ballotpedia": "https://ballotpedia.org/Houston_Gaines"
           },
           "ids": {
-            "fec": "H6GA10175"
+            "fec": "H6GA10175",
+            "wikipedia": "Houston Gaines",
+            "openstates": "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607"
           }
         }
       ],
@@ -1432,6 +1481,9 @@
           "links": {
             "campaign": "https://cerettaforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Ceretta_Smith"
+          },
+          "ids": {
+            "fec": "H6GA12080"
           }
         },
         {
@@ -1471,7 +1523,8 @@
             "ballotpedia": "https://ballotpedia.org/Rick_W._Allen"
           },
           "ids": {
-            "bioguide": "A000372"
+            "bioguide": "A000372",
+            "fec": "H2GA12121"
           }
         }
       ]
@@ -1501,6 +1554,11 @@
           "links": {
             "campaign": "http://www.jasmine4ga.com",
             "ballotpedia": "https://ballotpedia.org/Jasmine_Clark"
+          },
+          "ids": {
+            "wikipedia": "Jasmine Clark",
+            "fec": "H6GA13070",
+            "openstates": "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a"
           }
         },
         {
@@ -1533,6 +1591,9 @@
           "links": {
             "campaign": "https://www.jonathanchavezforcongress.com/",
             "ballotpedia": "https://ballotpedia.org/Jonathan_Chavez"
+          },
+          "ids": {
+            "fec": "H2GA04201"
           }
         }
       ],
@@ -1554,6 +1615,9 @@
           ],
           "links": {
             "campaign": "https://www.shawnforgeorgia.com/"
+          },
+          "ids": {
+            "fec": "H4GA14057"
           }
         },
         {
@@ -1599,7 +1663,8 @@
             "official": "https://fuller.house.gov"
           },
           "ids": {
-            "bioguide": "F000485"
+            "bioguide": "F000485",
+            "fec": "H0GA14030"
           }
         }
       ]

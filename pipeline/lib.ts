@@ -23,10 +23,12 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** fetch with a timeout and a few retries for flaky or rate-limited APIs. */
 export async function get(url: string | URL, init: RequestInit = {}, tries = 4): Promise<Response> {
+  // Congress.gov can take over a minute to answer.
+  const timeout = String(url).includes("api.congress.gov") ? 180_000 : 60_000;
   let last: unknown;
   for (let i = 0; i < tries; i++) {
     try {
-      const res = await fetch(url, { ...init, headers: { "user-agent": UA, ...init.headers }, signal: AbortSignal.timeout(60_000) });
+      const res = await fetch(url, { ...init, headers: { "user-agent": UA, ...init.headers }, signal: AbortSignal.timeout(timeout) });
       if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
       return res;
     } catch (e) {
