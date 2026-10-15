@@ -19,6 +19,12 @@ const image = new URL("/share.png", Astro.site);
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="theme-color" content="#f2eee3" />
+    <script is:inline>
+      // Apply a saved "Stop motion" choice before anything draws.
+      try {
+        if (localStorage.getItem("please-vote:still") === "1") document.documentElement.classList.add("still");
+      } catch {}
+    </script>
     <!-- Link previews (iMessage, Slack, Facebook, X, LinkedIn...) -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Please Vote" />

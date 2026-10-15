@@ -149,7 +149,27 @@ async function lookup(e: SubmitEvent) {
   }
 }
 
+function motionToggle() {
+  const btn = document.getElementById("motion");
+  if (!btn) return;
+  const root = document.documentElement;
+  const sync = () => {
+    const still = root.classList.contains("still");
+    btn.textContent = still ? "Start motion" : "Stop motion";
+    btn.setAttribute("aria-pressed", String(still));
+  };
+  btn.addEventListener("click", () => {
+    root.classList.toggle("still");
+    try {
+      localStorage.setItem("please-vote:still", root.classList.contains("still") ? "1" : "0");
+    } catch {}
+    sync();
+  });
+  sync();
+}
+
 export function start() {
+  motionToggle();
   countdown();
   dateCards();
   const zi = $<HTMLInputElement>("#zip");

@@ -175,10 +175,10 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   body::after{right:0;background-position:left 0 top 380px;background-image:url("/people/right-0.svg")}
 }
 /* "Line boil": three slightly different drawings swap a few times a second, like hand-drawn
-   animation. It runs for under 5 seconds, then holds still (WCAG 2.2.2). */
+   animation. The "Stop motion" button in the footer turns it off (WCAG 2.2.2). */
 @media (min-width:1120px) and (prefers-reduced-motion:no-preference){
-  body::before{animation:boil-l .9s steps(1) 5}
-  body::after{animation:boil-r .9s steps(1) 5}
+  body::before{animation:boil-l .9s steps(1) infinite}
+  body::after{animation:boil-r .9s steps(1) infinite}
 }
 @keyframes boil-l{0%{background-image:url("/people/left-0.svg")}33%{background-image:url("/people/left-1.svg")}66%{background-image:url("/people/left-2.svg")}}
 @keyframes boil-r{0%{background-image:url("/people/right-0.svg")}33%{background-image:url("/people/right-1.svg")}66%{background-image:url("/people/right-2.svg")}}
@@ -190,8 +190,8 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
 .strip-bottom{margin:-24px 0 -48px;background-image:url("/people/bottom-0.svg");background-position:120px 0}
 @media (min-width:1120px){.strip{display:none}}
 @media (max-width:1119px) and (prefers-reduced-motion:no-preference){
-  .strip-top{animation:boil-t .9s steps(1) 5}
-  .strip-bottom{animation:boil-b .9s steps(1) 5}
+  .strip-top{animation:boil-t .9s steps(1) infinite}
+  .strip-bottom{animation:boil-b .9s steps(1) infinite}
 }
 @keyframes boil-t{0%{background-image:url("/people/top-0.svg")}33%{background-image:url("/people/top-1.svg")}66%{background-image:url("/people/top-2.svg")}}
 @keyframes boil-b{0%{background-image:url("/people/bottom-0.svg")}33%{background-image:url("/people/bottom-1.svg")}66%{background-image:url("/people/bottom-2.svg")}}
@@ -228,12 +228,17 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   .race .head>.cell+.cell{border-left:0;border-top:1px solid var(--rule)}
 }
 
-/* "Open now" dot: a slow blink for about 5 seconds when the page loads, then solid.
-   (Blinking longer than 5 seconds would need a pause control, per WCAG 2.2.2.) */
+/* "Open now" dot: a slow, soft blink. The "Stop motion" button turns it off. */
 .st .dot{display:inline-block}
-@media (prefers-reduced-motion:no-preference){.st .dot{animation:blink 1s ease-in-out 5}}
-@keyframes blink{50%{opacity:.3}}
+@media (prefers-reduced-motion:no-preference){.st .dot{animation:blink 2.4s ease-in-out infinite}}
+@keyframes blink{50%{opacity:.4}}
 .d.is-open .sub{color:#5a554c}
 
 /* No one-word last lines (widows) in running text. */
 p,li,dd,.sub,.gsub,.hint,.note,.rnote,.also{text-wrap:pretty}
+
+/* "Stop motion" toggle (footer). html.still turns off every animation on the page. */
+.still body::before,.still body::after,.still .strip,.still .st .dot{animation:none!important}
+.motion{align-self:flex-start;background:none;border:0;padding:4px 0;min-height:24px;font:inherit;font-size:.85rem;color:var(--ink);text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px;text-decoration-thickness:1.5px}
+.motion:hover{text-underline-offset:5px;text-decoration-thickness:2px}
+@media (prefers-reduced-motion:reduce){.motion{display:none}}
