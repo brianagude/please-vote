@@ -1,0 +1,23 @@
+---
+// A guide for each state other than Georgia (which is at /).
+import Base from "../../layouts/Base.astro";
+import StateGuide from "../../components/StateGuide.astro";
+import { loadState, stateCodes, stateList } from "../../lib/state";
+
+export function getStaticPaths() {
+  return stateCodes()
+    .filter((code) => code !== "ga")
+    .map((code) => ({ params: { state: code } }));
+}
+
+const { state } = Astro.params;
+const data = loadState(state!);
+const name = data.config.name;
+---
+<Base
+  title={`Please Vote: ${name}`}
+  description={`A nonpartisan guide to ${name}'s 2026 midterms: when to vote, what's on your ballot, and who's running.`}
+  imageAlt={`Please Vote: ${name} general election, Nov 3. When to vote, what's on your ballot, and who's running.`}
+>
+  <StateGuide data={data} states={stateList()} />
+</Base>

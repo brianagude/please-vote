@@ -12,6 +12,16 @@ const read = (code: string, file: string) =>
 const readIfExists = (code: string, file: string) =>
   fs.existsSync(path.join(DATA_DIR, code, file)) ? read(code, file) : undefined;
 
+/** Georgia keeps the main address so links already shared still work; other states live at /<code>/. */
+export const statePath = (code: string) => (code === "ga" ? "/" : `/${code}/`);
+
+/** Every state with a guide, alphabetical by name, for the state picker. */
+export function stateList(): { code: string; name: string; path: string }[] {
+  return stateCodes()
+    .map((code) => ({ code, name: read(code, "state.json").name as string, path: statePath(code) }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
 /** Every state with a data folder. */
 export function stateCodes(): string[] {
   return fs.readdirSync(DATA_DIR).filter((d) => fs.existsSync(path.join(DATA_DIR, d, "state.json")));

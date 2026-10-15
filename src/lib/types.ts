@@ -138,6 +138,8 @@ export interface StateConfig {
   name: string;
   asOf: string;
   election: { kind: string; date: string; label: string; polls: string };
+  /** IANA time zone for judging dates ("America/New_York"). */
+  timeZone: string;
   voterPage: string;
   dates: KeyDate[];
   districts: {

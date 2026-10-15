@@ -9,8 +9,10 @@ import BallotGroup from "./BallotGroup.astro";
 import RaceCard from "./RaceCard.astro";
 interface Props {
   data: StateData;
+  /** Every state with a guide, for the state picker in the masthead. */
+  states: { code: string; name: string; path: string }[];
 }
-const { data } = Astro.props;
+const { data, states } = Astro.props;
 const { config, offices: O, races: R, legislature: L } = data;
 const D = config.districts;
 const asOf = new Date(config.asOf + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
@@ -24,9 +26,9 @@ const short = (k: string) => {
 };
 const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L.running[k] });
 ---
-<div class="wrap">
+<div class="wrap" data-state={config.code} data-state-name={config.name} data-tz={config.timeZone}>
   <div class="strip strip-top" aria-hidden="true"></div>
-  <Masthead config={config} />
+  <Masthead config={config} states={states} />
   <DateCards config={config} />
   <AddressForm config={config} />
 

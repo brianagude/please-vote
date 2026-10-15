@@ -8,6 +8,7 @@
     "label": "Tuesday, Nov. 3, 2026",
     "polls": "7 a.m. – 7 p.m."
   },
+  "timeZone": "America/New_York",
   "voterPage": "https://mvp.sos.ga.gov/",
   "dates": [
     {

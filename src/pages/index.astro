@@ -1,12 +1,12 @@
 ---
 import Base from "../layouts/Base.astro";
 import StateGuide from "../components/StateGuide.astro";
-import { loadState } from "../lib/state";
+import { loadState, stateList } from "../lib/state";
 
-// Georgia is the only state for now. A second state means a second data
-// folder and a page like this one.
+// Georgia stays at the main address so links already shared keep working.
+// Other states are at /<code>/ (src/pages/[state]/index.astro).
 const data = loadState("ga");
 ---
 <Base title="Please Vote" description="A nonpartisan guide to Georgia's 2026 midterms: when to vote, what's on your ballot, and who's running.">
-  <StateGuide data={data} />
+  <StateGuide data={data} states={stateList()} />
 </Base>

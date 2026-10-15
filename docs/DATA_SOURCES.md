@@ -103,3 +103,24 @@ Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
   - **MIT Election Lab** on Harvard Dataverse: U.S. Senate 1976–2024 downloads freely. **U.S. House requires filling in a "guestbook" form** (terms) before download.
   - **FEC official results spreadsheets** (`fec.gov/resources/cms-content/documents/federalelectionsYYYY.xlsx`): 2018–2022 download; 2024 returns 403.
   - **Georgia Secretary of State** results: blocks automated access, like the candidate list.
+
+## Open States limits (Oct 15, 2026)
+
+- **The free API key allows 250 requests a day** (`{"detail":"exceeded limit of 250/day"}`). Testing used it up on Oct 15. With more states, the nightly job has to stay under it. Lean on the bulk downloads instead (`data.openstates.org/csv/latest/...`, no key, not counted) wherever possible.
+
+## New York (checked Oct 15, 2026)
+
+- **Certified candidates:** the State Board of Elections' "Certification for the November 3, 2026 General Election" PDF (Sept 17, 2026, 136 pages), linked from `elections.ny.gov/ballot-certifications-elections`. **elections.ny.gov blocks automated access (HTTP 403)**, like Georgia's site, so the owner downloads it by hand into `data/states/ny/sources/`. The Board can issue amended certifications; check for a newer one.
+- **Dates:** New York Attorney General, `ag.ny.gov/election-key-dates` (reachable):
+  - Register by Sat, Oct 24. That's also "Golden Day": register and vote early the same day.
+  - Early voting Oct 24–Nov 1.
+  - Mail or early mail ballot: request online or by mail by Oct 24, or in person by Nov 2. Postmark by Nov 3; the county must receive it by Nov 10.
+- **Poll hours:** 6 a.m.–9 p.m. (State Board of Elections home page, via search; the page itself blocks us).
+- **Races in 2026:**
+  - Governor and lieutenant governor (one joint vote in November), attorney general, comptroller.
+  - All 26 U.S. House seats, 63 State Senate seats, and 150 Assembly seats.
+  - No U.S. Senate race: Schumer's term runs to 2028 and Gillibrand's to 2030.
+  - No statewide ballot questions confirmed yet.
+- **Fusion voting:** a candidate can run on several party lines (e.g. Democratic and Working Families). The `party` field holds the full list as text.
+- **Congressional map:** a state judge ordered NY-11 redrawn (Jan 21, 2026), but the U.S. Supreme Court stayed that order on March 2, 2026, so the current map is used. ZIP-to-district is from `us-zipcodes-congress` (119th Congress maps): 1,826 ZIPs, 345 split.
+- **Voter lookup:** `voterlookup.elections.ny.gov`.

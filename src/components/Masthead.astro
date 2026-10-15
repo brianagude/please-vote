@@ -2,8 +2,9 @@
 import type { StateConfig } from "../lib/types";
 interface Props {
   config: StateConfig;
+  states: { code: string; name: string; path: string }[];
 }
-const { config } = Astro.props;
+const { config, states } = Astro.props;
 ---
 <header class="sheet mast">
   <div class="row r1">
@@ -13,7 +14,18 @@ const { config } = Astro.props;
     </div>
   </div>
   <div class="row r2">
-    <div class="cell"><span class="lbl">State</span><span class="val">{config.name}</span></div>
+    {
+      states.length > 1 ? (
+        <div class="cell">
+          <label class="lbl" for="state-pick">State</label>
+          <select id="state-pick" class="val statepick">
+            {states.map((s) => <option value={s.path} selected={s.code === config.code.toLowerCase()}>{s.name}</option>)}
+          </select>
+        </div>
+      ) : (
+        <div class="cell"><span class="lbl">State</span><span class="val">{config.name}</span></div>
+      )
+    }
     <div class="cell"><span class="lbl">Election day</span><span class="val">{config.election.label}</span></div>
     <div class="cell"><span class="lbl">Polls open</span><span class="val">{config.election.polls}</span></div>
   </div>

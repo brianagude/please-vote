@@ -10,14 +10,19 @@ This is an ongoing project. The Georgia guide stays as-is through Election Day (
 - Ossoff's "none became law" checked on Congress.gov: 90 bills since 2023, none became law.
 - Sample ballot checked (Oct 15): only the 3 statewide amendments already on the site. No veterans' question. Ballot wording and all 24 statewide and congressional candidate names match the site.
 
-## Now: new branch (`states-and-voting-records`)
+## Done in `states-and-voting-records` (merged Oct 15)
 
 Built off to the side so the live Georgia guide isn't touched. Launches after Nov 3.
 
 1. **Voting records and attendance** (DECISIONS #4 and #7). How each officeholder voted on bills that passed, grouped by topic, and how many votes they missed. The owner's top priority.
    - **Done (Oct 15):** nightly votes and attendance, and a page for each candidate with bills or votes (`/person/<id>/`).
    - **Done (Oct 15):** on those pages, how to reach them, every bill they wrote with how far it got, and which PACs gave and which outside groups spent for or against them.
-2. **More states.** The code is already organized by state (`data/states/<code>/`). Each state needs its own dates, offices, candidate list, and data sources checked. Certified candidate lists come in different formats per state, and some states don't publish one in a usable form.
+## Now: branch `more-states`
+
+2. **More states.** The code is already organized by state (`data/states/<code>/`). Each state needs its own dates, offices, candidate list, and data sources checked. Certified candidate lists come in different formats per state, and some states don't publish one in a usable form, so states are added one at a time (owner, Oct 15).
+   - **Order:** New York, California, Texas, Illinois, Indiana.
+   - **Before Nov 3, each state gets:** key dates and its "check your registration" link; U.S. Senate (if up) and U.S. House races with person pages for incumbents; statewide offices and ballot questions; and current state legislators by district (full legislative candidate lists later).
+   - **Switching states:** the "State" box in the masthead becomes a dropdown. Georgia stays at `/` so shared links keep working; other states live at `/<code>/` (e.g. `/ny/`). A state-picker home page waits until after the election.
 
 ## The bigger picture (ongoing)
 
@@ -36,6 +41,7 @@ The long-term goal: a place to check in any time, not just before one election.
     - Legal jargon in bill titles stays out of scope. Plain-language summaries (below) handle that.
     - This changes the copy rules in DESIGN.md ("plain words") and the stamp text. Update DESIGN.md when it's built.
 7. **Dec 1 runoff.** Decide whether to cover it if any race goes to a runoff.
+8. **A donate section** (after the site goes live in full). Ask readers to help pay for the paid data, and say plainly what the money would buy: full candidate data for every race and state (Ballotpedia, BallotReady), election dates and polling places for all states (Democracy Works), and the AI bill summaries (Anthropic API).
 
 ## Later
 
