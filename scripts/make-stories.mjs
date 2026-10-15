@@ -36,14 +36,16 @@ const FORMATS = {
   story: { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 4, out: "exports/stories", outroNote: "", featured: true },
   "story-ballot": { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 5, out: "exports/stories-ballot", outroNote: "" },
   feed: { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 4, out: "exports/feed-ballot", outroNote: "Link in bio" },
-  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 3, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
+  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 3, scale: 0.8, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
 };
 const F = FORMATS[process.argv[3] ?? "story"];
 if (!F) throw new Error('Format must be "story", "story-ballot", "feed", or "feed-women"');
 const PARTY_ORDER = ["D", "R", "L", "I"]; // Democrats first
 
 // The feed carousel features these candidates (owner's list), each with her own card.
-const FOOTER = "More on every candidate @ vote.brianagude.com";
+const FOOTER = "More on every candidate<br>@ vote.brianagude.com";
+// Wording changes for the posts only (the site keeps its full sourced text).
+const POST_BIO = { "Penny Brown Reynolds": "Attorney, former judge, and professor." };
 
 const FEATURED = [
   "Lucy McBath",
@@ -126,7 +128,7 @@ const page = (inner) => `<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&family=Instrument+Sans:wght@400..700&display=block">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html{--s:1}
+html{--s:${F.scale ?? 1}}
 body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b2824;font-family:"Instrument Sans",sans-serif;position:relative;overflow:hidden}
 .safe{position:absolute;left:60px;right:60px;top:${F.safeTop}px;bottom:${F.safeBottom}px;display:flex;flex-direction:column;justify-content:center;gap:calc(22px*var(--s))}
 .lbl{font-family:Archivo;font-stretch:115%;font-weight:500;font-size:24px;letter-spacing:.2em;text-transform:uppercase;color:rgba(43,40,36,.68)}
@@ -150,12 +152,13 @@ body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b
 .line{font-size:calc(24px*var(--s));line-height:1.3;color:#2b2824;text-wrap:pretty}
 .big{text-wrap:pretty}
 .urlbox{align-self:flex-start;font-family:Archivo;font-stretch:110%;font-weight:600;font-size:46px;letter-spacing:.06em;color:#ad3f2c;border:4px solid #ad3f2c;padding:16px 26px 12px;transform:rotate(-2deg)}
-.grid{display:flex;flex-direction:column;border:4px solid #2b2824;background:#f7f4ec}
-.feat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:calc(28px*var(--s));padding:calc(30px*var(--s)) 30px;border-top:3px solid #2b2824;align-items:start}
-.feat:first-child{border-top:0}
+.grid{display:flex;flex-direction:column;gap:calc(18px*var(--s))}
+.feat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:calc(28px*var(--s));padding:calc(30px*var(--s)) 30px;border:4px solid #2b2824;background:#f7f4ec;align-items:start}
+.feat .running{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font-family:Archivo;font-stretch:115%;font-weight:500;font-size:calc(20px*var(--s));letter-spacing:.16em;text-transform:uppercase;line-height:1.35}
+.feat .running .k{color:rgba(43,40,36,.68)}
+.feat .running .v{color:#ad3f2c;font-weight:600}
 .feat .pin{width:calc(230px*var(--s));height:calc(230px*var(--s))}
-.feat.sparse{padding-top:calc(22px*var(--s));padding-bottom:calc(22px*var(--s))}
-.feat.sparse .pin{width:calc(150px*var(--s));height:calc(150px*var(--s))}
+
 .feat .info{display:flex;flex-direction:column;align-items:flex-start;gap:calc(8px*var(--s));min-width:0}
 .feat .bio{font-size:calc(30px*var(--s));line-height:1.3;font-weight:500;text-wrap:pretty}
 .feat ul{list-style:none;display:flex;flex-direction:column;gap:calc(8px*var(--s));border-top:2px dashed #cfc8b8;padding-top:calc(10px*var(--s));margin-top:calc(4px*var(--s));align-self:stretch}
@@ -195,15 +198,14 @@ const candHTML = (c, n) => {
 const featHTML = (c) => {
   const ph = photoOf(c);
   const facts = moreFacts(c);
-  // Less to say -> a smaller photo, so sparse sections can share a card.
-  return `<div class="feat${facts.length ? "" : " sparse"}">
+  return `<div class="feat">
     <span class="pin">${ph ? `<img src="${ph}">` : esc(initials(c.name))}</span>
     <div class="info">
-      <span class="office">${esc(c.office)}</span>
+      <span class="running"><span class="k">Running for:</span><span class="v">${esc(c.office)}</span></span>
       <span class="name">${esc(c.name)}</span>
       <span class="party">${esc(PARTY[c.party] ?? c.party)}</span>
       ${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}
-      ${lineFor(c, c.inRace) ? `<p class="bio">${esc(lineFor(c, c.inRace))}</p>` : ""}
+      ${POST_BIO[c.name] ?? lineFor(c, c.inRace) ? `<p class="bio">${esc(POST_BIO[c.name] ?? lineFor(c, c.inRace))}</p>` : ""}
       ${facts.length ? `<ul>${facts.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
     </div>
   </div>`;
@@ -223,7 +225,7 @@ const shoot = async (html, file) => {
   await p.goto("file://" + f, { waitUntil: "networkidle" });
   await p.evaluate(() => document.fonts.ready);
   // Shrink a little at a time until everything fits inside Instagram's safe area.
-  for (let s = 1; s > 0.6; s -= 0.04) {
+  for (let s = F.scale ?? 1; s > 0.6; s -= 0.04) {
     const fits = await p.evaluate((s) => {
       document.documentElement.style.setProperty("--s", String(s));
       const safe = document.querySelector(".safe");
@@ -242,21 +244,21 @@ if (F.featured) {
   // Pack by how much each person has: measure every section at full size, then fill
   // each card up to what fits (and at most perSlide), in order. Sparse ones share a card;
   // detailed ones get room.
-  const frame = (inner, label) => page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${label}</span></div><div class="grid">${inner}</div><span class="lbl">${esc(FOOTER)}</span>`);
+  const frame = (inner, label) => page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${label}</span></div><div class="grid">${inner}</div><span class="lbl">${FOOTER}</span>`);
   const mf = path.join(tmp, "measure.html");
   fs.writeFileSync(mf, frame(featured.map(featHTML).join(""), "0 / 0"));
   const mp = await browser.newPage({ viewport: { width: F.w, height: F.h } });
   await mp.goto("file://" + mf, { waitUntil: "networkidle" });
   await mp.evaluate(() => document.fonts.ready);
-  const { heights, room } = await mp.evaluate(() => {
+  const { heights, between, room } = await mp.evaluate(() => {
     const safe = document.querySelector(".safe");
     const grid = document.querySelector(".grid");
     const heights = [...grid.children].map((e) => e.getBoundingClientRect().height);
     // Everything on the card except the people: the label rows, the gaps, and the grid's border.
     const gap = parseFloat(getComputedStyle(safe).rowGap) || 0;
     const others = [...safe.children].filter((e) => e !== grid).reduce((n, e) => n + e.getBoundingClientRect().height, 0);
-    const border = grid.getBoundingClientRect().height - heights.reduce((a, b) => a + b, 0);
-    return { heights, room: safe.clientHeight - others - gap * (safe.children.length - 1) - border };
+    const between = parseFloat(getComputedStyle(grid).rowGap) || 0;
+    return { heights, between, room: safe.clientHeight - others - gap * (safe.children.length - 1) };
   });
   await mp.close();
   if (process.env.DEBUG) console.error("room", Math.round(room), "heights", heights.map(Math.round).join(","));
@@ -267,16 +269,16 @@ if (F.featured) {
   for (let mask = 0; mask < 1 << (featured.length - 1); mask++) {
     const groups = [[0]];
     for (let i = 1; i < featured.length; i++) (mask & (1 << (i - 1)) ? groups.push([i]) : groups.at(-1).push(i));
-    const sums = groups.map((g) => g.reduce((n, i) => n + heights[i], 0));
+    const sums = groups.map((g) => g.reduce((n, i) => n + heights[i], 0) + between * (g.length - 1));
     if (sums.some((x) => x > cap) || groups.some((g) => g.length > F.perSlide)) continue;
     const score = [groups.length, Math.max(...sums) - Math.min(...sums)];
     if (!best || score[0] < best.score[0] || (score[0] === best.score[0] && score[1] < best.score[1])) best = { groups, score };
   }
   const groups = best.groups.map((g) => g.map((i) => featured[i]));
   for (const [i, g] of groups.entries())
-    await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${groups.length}</span></div><div class="grid">${g.map(featHTML).join("")}</div><span class="lbl">${esc(FOOTER)}</span>`), `${pad(n++)}-women-${i + 1}.png`);
+    await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${groups.length}</span></div><div class="grid">${g.map(featHTML).join("")}</div><span class="lbl">${FOOTER}</span>`), `${pad(n++)}-women-${i + 1}.png`);
 } else for (const [i, s] of slides.entries())
-  await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${slides.length}</span></div><div class="sheet">${s.map(officeHTML).join("")}</div><span class="lbl">${esc(FOOTER)}</span>`), `${pad(n++)}-ballot-${i + 1}.png`);
+  await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${slides.length}</span></div><div class="sheet">${s.map(officeHTML).join("")}</div><span class="lbl">${FOOTER}</span>`), `${pad(n++)}-ballot-${i + 1}.png`);
 await shoot(page(`<span class="lbl">${esc(COPY.outro.kicker)}</span><h1 class="disp big" style="font-size:136px">${esc(COPY.outro.big)}</h1><span class="urlbox">${esc(COPY.outro.url)}</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:20px">${COPY.outro.dates.map((d) => `<p class="small" style="font-size:40px">${esc(d)}</p>`).join("")}</div>${F.outroNote ? `<p class="lbl" style="margin-top:16px">${esc(F.outroNote)}</p>` : `<div style="height:220px"></div>`}`), `${pad(n++)}-go-learn.png`);
 
 await browser.close();
