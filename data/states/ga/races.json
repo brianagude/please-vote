@@ -583,6 +583,14 @@
           },
           "ids": {
             "wikipedia": "Bárbara Rivera Holmes"
+          },
+          "photo": {
+            "src": "/photos/manual/barbara-rivera-holmes.jpg",
+            "credit": "Bárbara Rivera Holmes campaign",
+            "source": {
+              "label": "Bárbara Rivera Holmes campaign",
+              "url": "https://www.barbaraforga.com/"
+            }
           }
         }
       ]
@@ -722,6 +730,14 @@
           },
           "ids": {
             "wikipedia": "Fitz Johnson"
+          },
+          "photo": {
+            "src": "/photos/manual/fitz-johnson.jpg",
+            "credit": "Friends for Fitz",
+            "source": {
+              "label": "Friends for Fitz",
+              "url": "https://www.friendsforfitz.com/"
+            }
           }
         }
       ]
@@ -791,6 +807,14 @@
           "links": {
             "campaign": "https://teamtolbert.com/",
             "ballotpedia": "https://ballotpedia.org/Josh_Tolbert"
+          },
+          "photo": {
+            "src": "/photos/manual/josh-tolbert.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Josh_Tolbert"
+            }
           }
         }
       ]
@@ -1159,6 +1183,14 @@
           },
           "ids": {
             "fec": "H6GA06181"
+          },
+          "photo": {
+            "src": "/photos/manual/kevin-martin.jpg",
+            "credit": "Kevin Martin for Congress",
+            "source": {
+              "label": "Kevin Martin for Congress",
+              "url": "https://kevinmartinforcongress.com/"
+            }
           }
         }
       ]
