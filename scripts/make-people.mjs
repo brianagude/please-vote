@@ -20,29 +20,34 @@ function rng(seed) {
 }
 const f = (n) => Math.round(n * 10) / 10;
 
-/** Pick where people stand: loose clusters, nobody overlapping. */
-function layout(seed) {
+/**
+ * Pick where people stand: loose clusters, nobody overlapping.
+ * band: everyone stands along the bottom of a short, wide strip (for phones).
+ */
+function layout(seed, { w = W, h: th = H, count = 64, band = false } = {}) {
   const r = rng(seed);
   const spots = [];
   const banners = [];
   let tries = 0;
-  while (spots.length < 64 && tries++ < 12000) {
+  const clash = (x, y, h) =>
+    spots.some((p) => (band ? Math.abs(p.x - x) < 22 && Math.abs(p.y - y) < 9 : Math.abs(p.x - x) < 30 && Math.abs(p.y - y) < Math.max(p.h, h) * 0.95));
+  while (spots.length < count && tries++ < 12000) {
     // Sometimes start a small group next to someone already placed.
     const near = spots.length && r() < 0.45 ? spots[Math.floor(r() * spots.length)] : null;
-    const x = near ? near.x + (r() - 0.5) * 90 : 20 + r() * (W - 40);
-    const y = near ? near.y + (r() - 0.5) * 70 : 110 + r() * (H - 130);
-    const h = 46 + r() * 34;
-    if (x < 26 || x > W - 26 || y < 110 || y > H - 12) continue;
+    const x = near ? near.x + (r() - 0.5) * 90 : 20 + r() * (w - 40);
+    const y = band ? th - 4 - r() * 14 : near ? near.y + (r() - 0.5) * 70 : 110 + r() * (th - 130);
+    const h = band ? 36 + r() * 12 : 46 + r() * 34;
+    if (x < 26 || x > w - 26 || y < (band ? 0 : 110) || y > th - 3) continue;
     // Uneven crowding: some stretches busy, others nearly empty.
-    const busy = 0.5 + 0.5 * Math.sin(y / 170 + seed) * Math.cos(x / 90 + seed * 0.3);
+    const busy = 0.5 + 0.5 * Math.sin((band ? x : y) / 170 + seed) * Math.cos(x / 90 + seed * 0.3);
     if (!near && r() > 0.25 + busy * 0.75) continue;
-    if (spots.some((p) => Math.abs(p.x - x) < 30 && Math.abs(p.y - y) < Math.max(p.h, h) * 0.95)) continue;
+    if (clash(x, y, h)) continue;
     // Now and then, two people side by side holding a banner between them.
     if (!near && r() < 0.07) {
-      const d = 58 + r() * 26;
-      const y2 = y + (r() - 0.5) * 8;
+      const d = (band ? 44 : 58) + r() * 26;
+      const y2 = band ? y : y + (r() - 0.5) * 8;
       const h2 = h * (0.92 + r() * 0.16);
-      if (x + d > W - 26 || spots.some((p) => Math.abs(p.x - (x + d)) < 30 && Math.abs(p.y - y2) < Math.max(p.h, h2) * 0.95)) continue;
+      if (x + d > w - 26 || clash(x + d, y2, h2)) continue;
       const a = { x, y, h, ...traits(r), bannerSide: 1, sign: null, wave: false, bag: false, lean: 0 };
       const b = { x: x + d, y: y2, h: h2, ...traits(r), bannerSide: -1, sign: null, wave: false, bag: false, lean: 0 };
       spots.push(a, b);
@@ -77,6 +82,8 @@ function traits(r) {
     lean: (r() - 0.5) * 7, // degrees; nobody stands perfectly straight
   };
   if (t.sign) t.wave = false; // one raised hand per person
+  // A few people call out through a megaphone.
+  t.horn = !t.sign && !t.wave && r() < 0.1;
   return t;
 }
 
@@ -200,7 +207,13 @@ function person(p, j) {
   const handY = p.pockets ? hipY + h * 0.02 : hipY + h * 0.1;
   const handX = p.pockets ? hip * 0.9 : sh * 1.05;
   const up = p.bannerSide || (p.sign || p.wave ? p.facing : 0); // which arm is raised
+  const hx = x + p.facing * h * 0.01;
+  const hy = neckY - headR * 1.05;
   const arm = (side) => {
+    if (p.horn && side === p.facing) {
+      // Elbow out, hand up at the mouth holding the megaphone.
+      return `M${pt(x + side * sh, neckY + h * 0.05)}Q${pt(x + side * sh * 1.9, neckY + h * 0.02)} ${pt(hx + side * headR * 1.6, hy + headR * 0.9)}`;
+    }
     if (side === up) {
       const tx = x + side * sh * 1.35;
       const ty = neckY - h * (p.sign ? 0.16 : 0.22);
@@ -222,30 +235,45 @@ function person(p, j) {
   }
 
   // Head: a filled blob, nudged the way they're facing; sometimes hair or a hat.
-  const hx = x + p.facing * h * 0.01;
-  const hy = neckY - headR * 1.05;
   out.push(`<ellipse cx="${f(hx + J(0.6))}" cy="${f(hy + J(0.6))}" rx="${f(headR * (0.85 + J(0.05)))}" ry="${f(headR * (1.05 + J(0.05)))}" class="fill"/>`);
   if (p.hair) out.push(`<path d="M${pt(hx - headR, hy - headR * 0.2, 0.6)}Q${pt(hx - headR * 1.4, hy + headR * 1.6, 0.8)} ${pt(hx - headR * 0.6, hy + headR * 2.2, 0.6)}" stroke-width="${f(headR * 0.6)}"/>`);
   if (p.hat) out.push(`<path d="M${pt(hx - headR * 1.6, hy - headR * 0.55, 0.5)}L${pt(hx + headR * 1.6, hy - headR * 0.55, 0.5)}" stroke-width="${f(headR * 0.5)}"/>`);
 
   if (p.sign) out.push(sign(p, x + up * sh * 1.35, neckY - h * 0.16, J));
+  if (p.horn) {
+    // Megaphone: a cone from the mouth, tipped slightly up, with sound lines.
+    const d = p.facing;
+    const mx = hx + d * headR * 0.9, my = hy + headR * 0.25;
+    const L = h * 0.17, n = h * 0.022, wide = h * 0.06, lift = -h * 0.03;
+    out.push(`<path d="M${pt(mx, my - n, 0.3)}L${pt(mx + d * L, my + lift - wide, 0.4)}L${pt(mx + d * L, my + lift + wide, 0.4)}L${pt(mx, my + n, 0.3)}Z" class="fill"/>`);
+    const ex = mx + d * L + d * h * 0.04, ey = my + lift;
+    for (const k of [-1, 0, 1]) out.push(`<path d="M${pt(ex, ey + k * h * 0.06, 0.4)}l${f(d * h * 0.06)} ${f(k * h * 0.035)}" stroke-width="${f(0.7 + h * 0.008)}"/>`);
+  }
   return `<g transform="rotate(${f(p.lean + J(0.6))} ${f(x)} ${f(y)})">${out.join("")}</g>`;
 }
 
-function tile(layoutSeed, frame) {
-  const { people, banners } = layout(layoutSeed);
+function tile(layoutSeed, frame, opts = {}) {
+  const w = opts.w ?? W, th = opts.h ?? H;
+  const { people, banners } = layout(layoutSeed, opts);
   const j = rng(layoutSeed * 31 + frame * 977 + 7);
   const body = people.map((p) => person(p, j)).join("") + banners.map((bn) => banner(bn, j)).join("");
   // A little turbulence roughens every edge like a felt-tip marker on paper.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}"><defs><filter id="m" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="1" seed="${frame + 3}"/><feDisplacementMap in="SourceGraphic" scale="1.8"/></filter><style>path,ellipse{stroke:#2b2824;fill:none;stroke-linecap:round;stroke-linejoin:round}.fill{fill:#2b2824;stroke-width:.8}.board{fill:#f2eee3}</style></defs><g filter="url(#m)">${body}</g></svg>\n`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${th}" width="${w}" height="${th}"><defs><filter id="m" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="1" seed="${frame + 3}"/><feDisplacementMap in="SourceGraphic" scale="1.8"/></filter><style>path,ellipse{stroke:#2b2824;fill:none;stroke-linecap:round;stroke-linejoin:round}.fill{fill:#2b2824;stroke-width:.8}.board{fill:#f2eee3}</style></defs><g filter="url(#m)">${body}</g></svg>\n`;
 }
 
 fs.mkdirSync("public/people", { recursive: true });
 let total = 0;
-for (const [side, seed] of [["left", 1964], ["right", 2026]])
-  for (let fr = 0; fr < FRAMES; fr++) {
-    const file = `public/people/${side}-${fr}.svg`;
-    fs.writeFileSync(file, tile(seed, fr));
-    total += fs.statSync(file).size;
-  }
-console.log(`people: ${FRAMES * 2} files, ${Math.round(total / 1024)}KB total`);
+const save = (file, svg) => {
+  fs.writeFileSync(file, svg);
+  total += fs.statSync(file).size;
+};
+for (let fr = 0; fr < FRAMES; fr++) {
+  // Side margins on wide screens.
+  save(`public/people/left-${fr}.svg`, tile(1964, fr));
+  save(`public/people/right-${fr}.svg`, tile(2026, fr));
+  // Short strips above and below the content on narrower screens.
+  const strip = { w: 900, h: 96, count: 22, band: true };
+  save(`public/people/top-${fr}.svg`, tile(311, fr, strip));
+  save(`public/people/bottom-${fr}.svg`, tile(1103, fr, strip));
+}
+console.log(`people: ${FRAMES * 4} files, ${Math.round(total / 1024)}KB total`);

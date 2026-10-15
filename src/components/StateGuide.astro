@@ -25,6 +25,7 @@ const short = (k: string) => {
 const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L.running[k] });
 ---
 <div class="wrap">
+  <div class="strip strip-top" aria-hidden="true"></div>
   <Masthead config={config} />
   <DateCards config={config} />
   <AddressForm config={config} />
@@ -112,6 +113,7 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
       <ul>{data.sources.map((s) => <li>{s.what}: <a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}</ul>
     </details>
   </footer>
+  <div class="strip strip-bottom" aria-hidden="true"></div>
 </div>
 
 <script type="application/json" id="zip-data" set:html={JSON.stringify(data.zipToHouse)} />
