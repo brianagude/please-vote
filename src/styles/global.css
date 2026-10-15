@@ -97,7 +97,7 @@ details.grp[open]>summary{border-bottom:1.5px solid var(--rule)}
 .cand:first-child{border-top:0}
 .pin{width:52px;height:52px;border-radius:50%;border:1px solid var(--rule);display:grid;place-items:center;font-family:var(--label);font-stretch:68%;font-weight:700;font-size:1.25rem;overflow:hidden;background:var(--card)}
 .pin img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;filter:grayscale(1) sepia(.25) contrast(1.05)}
-.cn{display:flex;align-items:baseline;gap:6px 10px;flex-wrap:wrap}
+.cn{display:flex;align-items:baseline;gap:0 10px;flex-wrap:wrap}
 .cn strong{font-family:var(--label);font-stretch:75%;font-weight:700;font-size:1.25rem;text-transform:uppercase;letter-spacing:.01em}
 .cn .p{font-size:.85rem;color:var(--soft)}
 .stamp{font-family:var(--label);font-stretch:110%;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red);border:1.5px solid var(--red);padding:2px 6px 1px;transform:rotate(-2deg);display:inline-block}
@@ -219,6 +219,7 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   .cand>div{display:contents}
   .cand>div>*{grid-column:1/-1}
   .cand>div>.cn{grid-column:2}
+  .cn .stamp{margin-top:2px}
 }
 @media (max-width:375px){
   /* Race header: Office over Term */
