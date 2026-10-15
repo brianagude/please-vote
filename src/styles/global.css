@@ -163,16 +163,19 @@ details.grp>summary:hover .pm{background:var(--ink);color:var(--card)}
 /* At least 24px tall tap targets for the candidate links (WCAG 2.2). */
 .links .site{min-height:24px;display:inline-flex;align-items:center}
 
-/* ---- background crowd: wide screens only, in the side margins, never behind text ---- */
-@media (min-width:1000px){
-  body::before,body::after{content:"";position:fixed;inset:-8px;z-index:-1;pointer-events:none;background-repeat:no-repeat;background-size:cover;background-position:center bottom;
-    -webkit-mask-image:linear-gradient(to right,#000 0,#000 calc(50% - 480px),transparent calc(50% - 400px),transparent calc(50% + 400px),#000 calc(50% + 480px),#000 100%);
-    mask-image:linear-gradient(to right,#000 0,#000 calc(50% - 480px),transparent calc(50% - 400px),transparent calc(50% + 400px),#000 calc(50% + 480px),#000 100%)}
-  body::before{background-image:url("/crowd-back.svg");opacity:.14}
-  body::after{background-image:url("/crowd-front.svg");opacity:.17}
+/* ---- background people: wide screens only, in the side margins, never behind text ----
+   Drawn by scripts/make-people.mjs. The people nearest the content are always whole;
+   anything cut off is at the outer edge of the window. */
+@media (min-width:1120px){
+  body{position:relative}
+  body::before,body::after{content:"";position:absolute;top:0;bottom:0;width:calc(50% - 370px - 32px);z-index:-1;pointer-events:none;opacity:.3;background-repeat:repeat-y;background-size:340px 3200px}
+  body::before{left:0;background-position:right 0 top 0;background-image:url("/people/left-0.svg")}
+  body::after{right:0;background-position:left 0 top 380px;background-image:url("/people/right-0.svg")}
 }
-@media (min-width:1000px) and (prefers-reduced-motion:no-preference){
-  body::before{animation:sway 11s ease-in-out infinite alternate}
-  body::after{animation:sway 8s ease-in-out infinite alternate-reverse}
+/* "Line boil": three slightly different drawings swap a few times a second, like hand-drawn animation. */
+@media (min-width:1120px) and (prefers-reduced-motion:no-preference){
+  body::before{animation:boil-l .9s steps(1) infinite}
+  body::after{animation:boil-r .9s steps(1) infinite}
 }
-@keyframes sway{from{transform:translate3d(-3px,0,0)}to{transform:translate3d(3px,-2px,0)}}
+@keyframes boil-l{0%{background-image:url("/people/left-0.svg")}33%{background-image:url("/people/left-1.svg")}66%{background-image:url("/people/left-2.svg")}}
+@keyframes boil-r{0%{background-image:url("/people/right-0.svg")}33%{background-image:url("/people/right-1.svg")}66%{background-image:url("/people/right-2.svg")}}
