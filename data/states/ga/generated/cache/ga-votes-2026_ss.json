@@ -1,4 +1,5 @@
 {
+  "v": 4,
   "fetched": "2026-10-15",
   "people": [
     "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
@@ -17,7 +18,9 @@
       "caption": "MOTION FOR THE PREVIOUS QUESTION",
       "bill": "SR 1",
       "billTitle": "Senate Rules; adopt",
-      "topic": "Other",
+      "topics": [
+        "Other"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74750",
       "result": "pass"
     },
@@ -28,7 +31,10 @@
       "caption": "ADOPTION",
       "bill": "HR 2",
       "billTitle": "General Assembly convened; notify Governor",
-      "topic": "General Assembly",
+      "topics": [
+        "General Assembly",
+        "Public Officers and Employees"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74748",
       "result": "pass"
     },
@@ -39,7 +45,9 @@
       "caption": "ADOPTION",
       "bill": "SR 1",
       "billTitle": "Senate Rules; adopt",
-      "topic": "Other",
+      "topics": [
+        "Other"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74750",
       "result": "pass"
     },
@@ -50,7 +58,9 @@
       "caption": "ADOPTION",
       "bill": "SR 3",
       "billTitle": "Adjournment; relative to",
-      "topic": "General Assembly",
+      "topics": [
+        "General Assembly"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74751",
       "result": "pass"
     },
@@ -61,7 +71,9 @@
       "caption": "MOTION TO ENGROSS",
       "bill": "SR 1",
       "billTitle": "Senate Rules; adopt",
-      "topic": "Other",
+      "topics": [
+        "Other"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74750",
       "result": "pass"
     },
@@ -72,7 +84,9 @@
       "caption": "Local Calendar",
       "bill": "HB 5",
       "billTitle": "Cadwell, City of; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74760",
       "result": "pass"
     },
@@ -83,7 +97,9 @@
       "caption": "PASSAGE",
       "bill": "SB 2",
       "billTitle": "City of Brunswick; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74755",
       "result": "pass"
     },
@@ -94,7 +110,9 @@
       "caption": "PASSAGE AS AMENDED",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "pass"
     },
@@ -105,7 +123,9 @@
       "caption": "ADOPTION OF AMENDMENT #1 BY THE SENATOR FROM THE 31ST",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "pass"
     },
@@ -116,7 +136,9 @@
       "caption": "MOTION TO RECONSIDER LOCAL CONSENT CALENDAR",
       "bill": "SB 1",
       "billTitle": "Glynn County; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74754",
       "result": "pass"
     },
@@ -127,7 +149,9 @@
       "caption": "LOCAL CONSENT CALENDAR",
       "bill": "SB 4",
       "billTitle": "Baldwin County; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74757",
       "result": "pass"
     },
@@ -138,7 +162,9 @@
       "caption": "PASSAGE",
       "bill": "SB 1",
       "billTitle": "Glynn County; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74754",
       "result": "pass"
     },
@@ -149,7 +175,9 @@
       "caption": "MOTION TO ADJOURN",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "fail"
     },
@@ -160,7 +188,11 @@
       "caption": "ADOPT",
       "bill": "HR 3",
       "billTitle": "General Assembly; motor fuel and diesel fuel taxes; ratify Governor Brian P. Kemp's Executive Order",
-      "topic": "General Assembly",
+      "topics": [
+        "General Assembly",
+        "Public Officers and Employees",
+        "Public Utilities and Transportation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74752",
       "result": "pass"
     },
@@ -171,7 +203,9 @@
       "caption": "PASSAGE",
       "bill": "SB 4",
       "billTitle": "Baldwin County; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74757",
       "result": "pass"
     },
@@ -182,7 +216,9 @@
       "caption": "MOTION TO TABLE",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "fail"
     },
@@ -193,7 +229,11 @@
       "caption": "MOTION TO ENGROSS",
       "bill": "HR 3",
       "billTitle": "General Assembly; motor fuel and diesel fuel taxes; ratify Governor Brian P. Kemp's Executive Order",
-      "topic": "General Assembly",
+      "topics": [
+        "General Assembly",
+        "Public Officers and Employees",
+        "Public Utilities and Transportation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74752",
       "result": "pass"
     },
@@ -204,7 +244,9 @@
       "caption": "MOTION TO RESOLVE DEBATE",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "pass"
     },
@@ -215,7 +257,9 @@
       "caption": "MOTION TO RECONSIDER LOCAL CONSENT CALENDAR",
       "bill": "SB 8",
       "billTitle": "City of Plains; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74863",
       "result": "pass"
     },
@@ -226,7 +270,9 @@
       "caption": "Local Calendar",
       "bill": "HB 52",
       "billTitle": "Walnut Grove, City of; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74816",
       "result": "pass"
     },
@@ -237,7 +283,9 @@
       "caption": "Local Calendar",
       "bill": "HB 50",
       "billTitle": "White, City of; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74814",
       "result": "pass"
     },
@@ -248,7 +296,9 @@
       "caption": "Local Calendar",
       "bill": "HB 72",
       "billTitle": "Patterson, City of; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74840",
       "result": "pass"
     },
@@ -259,7 +309,9 @@
       "caption": "LOCAL CONSENT CALENDAR",
       "bill": "SB 5",
       "billTitle": "City of Toccoa; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74856",
       "result": "pass"
     },
@@ -270,7 +322,9 @@
       "caption": "Previous Local Calendar",
       "bill": "HB 70",
       "billTitle": "Toombs County; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74838",
       "result": "pass"
     },
@@ -281,7 +335,9 @@
       "caption": "Local Calendar",
       "bill": "HB 76",
       "billTitle": "Taylor County; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74844",
       "result": "pass"
     },
@@ -292,7 +348,9 @@
       "caption": "Local Calendar",
       "bill": "HB 81",
       "billTitle": "Santa Claus, City of; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74849",
       "result": "pass"
     },
@@ -303,7 +361,9 @@
       "caption": "Local Calendar",
       "bill": "HB 79",
       "billTitle": "Tift County; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74847",
       "result": "pass"
     },
@@ -314,7 +374,9 @@
       "caption": "Local Calendar",
       "bill": "HB 71",
       "billTitle": "Blackshear, City of; ad valorem tax; provide homestead exemption",
-      "topic": "Local laws (one city or county)",
+      "topics": [
+        "Local laws (one city or county)"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74839",
       "result": "pass"
     },
@@ -325,7 +387,9 @@
       "caption": "PASSAGE",
       "bill": "SB 6",
       "billTitle": "Stephens County; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74858",
       "result": "pass"
     },
@@ -336,7 +400,9 @@
       "caption": "AGREE TO HOUSE SUBSTITUTE",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "pass"
     },
@@ -347,7 +413,9 @@
       "caption": "PASSAGE",
       "bill": "SB 5",
       "billTitle": "City of Toccoa; ad valorem taxes; homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST); provide homestead exemption",
-      "topic": "Revenue and Taxation",
+      "topics": [
+        "Revenue and Taxation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74856",
       "result": "pass"
     },
@@ -358,7 +426,9 @@
       "caption": "Immediately Transmit",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "pass"
     },
@@ -369,7 +439,11 @@
       "caption": "ADOPTION",
       "bill": "HR 3",
       "billTitle": "General Assembly; motor fuel and diesel fuel taxes; ratify Governor Brian P. Kemp's Executive Order",
-      "topic": "General Assembly",
+      "topics": [
+        "General Assembly",
+        "Public Officers and Employees",
+        "Public Utilities and Transportation"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74752",
       "result": "pass"
     },
@@ -380,7 +454,9 @@
       "caption": "AGREE TO HOUSE SUBSTITUTE AS AMENDED",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "fail"
     },
@@ -391,7 +467,9 @@
       "caption": "PASSAGE",
       "bill": "SB 3",
       "billTitle": "Election Equipment Specifications and Standards Committee; establish",
-      "topic": "Elections",
+      "topics": [
+        "Elections"
+      ],
       "url": "https://www.legis.ga.gov/legislation/74767",
       "result": "pass"
     }
@@ -490,8 +568,8 @@
       "Senate#3": "no"
     },
     "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9": {
-      "Senate#20": "other",
-      "Senate#21": "other",
+      "Senate#20": "Excused",
+      "Senate#21": "Excused",
       "Senate#15": "yes",
       "Senate#18": "yes",
       "Senate#2": "yes",
@@ -518,15 +596,15 @@
       "House#6": "Yea",
       "House#5": "Nay",
       "House#8": "Nay",
+      "House#13": "Nay",
       "House#9": "Nay",
       "House#10": "Nay",
-      "House#13": "Nay",
-      "House#15": "Nay",
       "House#14": "Nay",
+      "House#15": "Nay",
       "House#16": "Nay",
+      "House#18": "Nay",
       "House#17": "Nay",
-      "House#19": "Nay",
-      "House#18": "Nay"
+      "House#19": "Nay"
     }
   }
 }

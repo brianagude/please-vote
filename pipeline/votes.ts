@@ -22,21 +22,23 @@ import os from "node:os";
 import path from "node:path";
 import { candidates, get, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
 
-export type Cast = "Yes" | "No" | "Present" | "Didn't vote";
+export type Cast = "Yes" | "No" | "Present" | "Excused" | "Didn't vote";
 
 /** A bill that someone voted on. Stored once and shared by everyone who voted on it. */
 export interface BillRef {
   bill: string;
   title: string;
   url: string;
-  topic: string;
+  /** Congress.gov gives one "policy area"; Georgia can give several subjects, so a bill may sit under more than one topic. */
+  topics: string[];
   law?: boolean;
 }
 /** One vote, kept short because there are thousands: [bill key, date, chamber, what the vote was, how they voted, did it pass (1/0)]. */
 export type VoteTuple = [string, string, string, string, Cast, 0 | 1];
 export interface VoteRecord {
   since: string;
-  attendance: { missed: number; total: number };
+  /** missed counts every vote they didn't cast; excused is the part of that the chamber excused (Georgia only). */
+  attendance: { missed: number; excused: number; total: number };
   votes: VoteTuple[];
   source: { label: string; url: string }[];
 }
@@ -108,6 +110,7 @@ const cast = (v: string): Cast => {
   if (s === "yea" || s === "aye" || s === "yes") return "Yes";
   if (s === "nay" || s === "no") return "No";
   if (s === "present") return "Present";
+  if (s === "excused") return "Excused";
   return "Didn't vote";
 };
 
@@ -202,6 +205,7 @@ type BillInfo = {
   /** Senate record votes ("2025-105") where the Senate agreed to the House's changes. */
   senateConcur: string[];
   fetched: string;
+  v?: number;
 };
 
 async function billInfo(congress: number, type: string, number: string, cache: Record<string, BillInfo>): Promise<BillInfo | null> {
@@ -209,7 +213,7 @@ async function billInfo(congress: number, type: string, number: string, cache: R
   const old = cache[key];
   const week = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
   // Laws don't change; anything else is re-checked weekly.
-  if (old?.senateConcur && (old.law || old.fetched >= week)) return old;
+  if (old?.v === 2 && (old.law || old.fetched >= week)) return old;
   const t = FED_TYPES[type].gov;
   const { ok, body } = await text(`https://www.govinfo.gov/bulkdata/BILLSTATUS/${congress}/${t}/BILLSTATUS-${congress}${t}${number}.xml`);
   if (!ok) return old ?? null;
@@ -220,7 +224,9 @@ async function billInfo(congress: number, type: string, number: string, cache: R
     .filter((a) => /concur|agreed to the House amendment/i.test(a.text) && /Senate/i.test(a.text))
     .flatMap((a) => [...a.text.matchAll(/Record Vote (?:Number|No)[.:]?\s*(\d+)/gi)].map((m) => `${a.date.slice(0, 4)}-${m[1]}`));
   cache[key] = {
-    title: unxml(tag(body, "title")),
+    // The bill's own "Display Title"; other <title>s in the file belong to related bills.
+    title: unxml(body.match(/<titleType>Display Title<\/titleType>[\s\S]*?<title>([\s\S]*?)<\/title>/)?.[1] ?? tag(body, "title")).replace(/^(H\.R\.|S\.|H\.J\.Res\.|S\.J\.Res\.) \d+, /, ""),
+    v: 2,
     topic: unxml(tag(tag(body, "policyArea"), "name")) || "Other",
     passedHouse: actions.some((a) => /Passed\/agreed to in House|passed House/i.test(a)),
     passedSenate: actions.some((a) => /Passed\/agreed to in Senate|passed Senate/i.test(a)),
@@ -287,7 +293,7 @@ async function federal(code: string, since: string, people: { id: string; biogui
           bill: `${t.label} ${r.b!.number}`,
           title: info.title || r.v.title,
           url: `https://www.congress.gov/bill/${ordinal(r.congress)}-congress/${t.slug}/${r.b!.number}`,
-          topic: info.topic,
+          topics: [info.topic],
           ...(info.law ? { law: true } : {}),
         },
         date: r.v.date,
@@ -299,11 +305,11 @@ async function federal(code: string, since: string, people: { id: string; biogui
     }
     out.people[p.id] = {
       since,
-      attendance: { missed, total },
+      attendance: { missed, excused: 0, total },
       votes: pack(rows, out.bills),
       source: [
         { label: "Congress.gov", url: `https://www.congress.gov/member/${p.bioguide}` },
-        { label: "House Clerk and Senate roll calls", url: "https://www.congress.gov/roll-call-votes" },
+        { label: "Voteview (UCLA)", url: "https://voteview.com/" },
       ],
     };
   }
@@ -329,8 +335,8 @@ const titleCase = (s: string) =>
 /** Georgia's local acts are titled "Savannah, City of; ..." or "Cobb County; ...". */
 const isLocal = (title: string) => /^[^;]*(, City of|, Town of|County|Consolidated Government)[^;]*;/.test(title);
 
-type GaVote = { chamber: string; num: string; date: string; caption: string; bill: string; billTitle: string; topic: string; url: string; result: string };
-type GaSession = { fetched: string; people: string[]; votes: Record<string, GaVote>; cast: Record<string, Record<string, string>> };
+type GaVote = { chamber: string; num: string; date: string; caption: string; bill: string; billTitle: string; topics: string[]; url: string; result: string };
+type GaSession = { v?: number; fetched: string; people: string[]; votes: Record<string, GaVote>; cast: Record<string, Record<string, string>> };
 type GaPerson = { openstates: string; last: string; district: string; chamber: string };
 
 const ordinalUpper = (d: string) => ordinal(Number(d)).toUpperCase();
@@ -341,22 +347,77 @@ const ordinalUpper = (d: string) => ordinal(Number(d)).toUpperCase();
  * Georgia's own record names them "CLARK, 100TH" and "CLARK, 108TH",
  * so for anyone Open States didn't match we read each vote from Georgia.
  */
+/** How each member voted on one Georgia vote, by Georgia's own name for them ("CLARK, 108TH"). */
+async function gaMembers(voteId: number) {
+  const xml = await gaSoap("Votes", "http://www.legis.ga.gov/2009/01/01/services/VoteFinder/GetVote",
+    `<GetVote xmlns="http://www.legis.ga.gov/2009/01/01/services/"><VoteId>${voteId}</VoteId></GetVote>`).catch(() => "");
+  return [...xml.matchAll(/<a:Name>([^<]*)<\/a:Name><\/a:Member><a:MemberVoted>([^<]*)</g)].map((m) => ({ name: m[1].toUpperCase(), vote: m[2] }));
+}
+function gaFind(members: { name: string; vote: string }[], p: GaPerson) {
+  const same = members.filter((m) => m.name === p.last || m.name.startsWith(p.last + ","));
+  return same.length === 1 ? same[0] : same.find((m) => m.name === `${p.last}, ${ordinalUpper(p.district)}`);
+}
+
 async function gaFallback(missing: GaPerson[], ids: Record<string, number>, castBy: Record<string, Record<string, string>>) {
   for (const branch of ["House", "Senate"]) {
     const who = missing.filter((p) => (p.chamber === "lower" ? "House" : "Senate") === branch);
     if (!who.length) continue;
     const keys = Object.keys(ids).filter((k) => k.startsWith(branch + "#"));
     await pool(keys, 3, async (k) => {
-      const xml = await gaSoap("Votes", "http://www.legis.ga.gov/2009/01/01/services/VoteFinder/GetVote",
-        `<GetVote xmlns="http://www.legis.ga.gov/2009/01/01/services/"><VoteId>${ids[k]}</VoteId></GetVote>`).catch(() => "");
-      const members = [...xml.matchAll(/<a:Name>([^<]*)<\/a:Name><\/a:Member><a:MemberVoted>([^<]*)</g)].map((m) => ({ name: m[1].toUpperCase(), vote: m[2] }));
+      const members = await gaMembers(ids[k]);
       for (const p of who) {
-        const same = members.filter((m) => m.name === p.last || m.name.startsWith(p.last + ","));
-        const hit = same.length === 1 ? same[0] : same.find((m) => m.name === `${p.last}, ${ordinalUpper(p.district)}`);
+        const hit = gaFind(members, p);
         if (hit) (castBy[p.openstates] ??= {})[k] = hit.vote;
       }
     });
   }
+}
+
+/**
+ * Open States lumps "Excused" and "Not Voting" together as "other".
+ * Georgia keeps them apart, so we look up just those votes.
+ */
+async function gaExcused(people: GaPerson[], ids: Record<string, number>, castBy: Record<string, Record<string, string>>) {
+  const keys = [...new Set(people.flatMap((p) => Object.entries(castBy[p.openstates] ?? {}).filter(([, o]) => o === "other").map(([k]) => k)))];
+  await pool(keys.filter((k) => ids[k]), 3, async (k) => {
+    const members = await gaMembers(ids[k]);
+    for (const p of people) {
+      if (castBy[p.openstates]?.[k] !== "other") continue;
+      const hit = gaFind(members, p);
+      if (hit) castBy[p.openstates][k] = hit.vote;
+    }
+  });
+}
+
+/**
+ * Bill subjects from Georgia's own index ("EDUCATION", "REVENUE AND TAXATION"), by bill ("HB 3").
+ * Open States has them for some sessions only, so we read them from Georgia for all.
+ */
+async function gaSubjects(sessionId: number): Promise<Map<string, string[]>> {
+  const ns = "http://www.legis.ga.gov/2009/01/01/services/";
+  const act = "http://www.legis.ga.gov/2009/01/01/services/LegislationSearch/";
+  const titles = await gaSoap("Legislation", act + "GetTitles", `<GetTitles xmlns="${ns}"/>`);
+  const subjects = [...titles.matchAll(/<a:Subject><a:Code>[^<]*<\/a:Code><a:Id>(\d+)<\/a:Id><a:Name>([^<]*)<\/a:Name>/g)].map((m) => ({ id: m[1], name: unxml(m[2]).trim() }));
+  const out = new Map<string, string[]>();
+  await pool(subjects, 3, async (sub) => {
+    for (let start = 0; ; start += 250) {
+      const xml = await gaSoap("Legislation", act + "GetLegislationSearchResultsPaged",
+        `<GetLegislationSearchResultsPaged xmlns="${ns}"><Constraints xmlns:a="http://www.legis.ga.gov/2009/01/01/data/"><a:Session><a:Id>${sessionId}</a:Id></a:Session>` +
+        `<a:Subjects><b:int xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">${sub.id}</b:int></a:Subjects></Constraints>` +
+        `<PageSize>250</PageSize><StartIndex>${start}</StartIndex></GetLegislationSearchResultsPaged>`);
+      const rows = [...xml.matchAll(/<a:LegislationSearchResult>([\s\S]*?)<\/a:LegislationSearchResult>/g)];
+      for (const [, r] of rows) {
+        // The bill's own number follows its own Id ("<a:Id>63471</a:Id><a:Number>3</a:Number>").
+        const num = r.match(/<a:Id>\d+<\/a:Id><a:Number>(\d+)<\/a:Number>/)?.[1];
+        if (!num) continue;
+        const bill = `${tag(r, "a:DocumentType")} ${num}`;
+        out.set(bill, [...(out.get(bill) ?? []), sub.name]);
+      }
+      if (rows.length < 250) break;
+    }
+  });
+  for (const v of out.values()) v.sort();
+  return out;
 }
 
 async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson[], cacheDir: string): Promise<GaSession | null> {
@@ -365,7 +426,7 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
   const recent = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
   const old: GaSession | null = fs.existsSync(file) ? readJSON(file) : null;
   // A session that ended over 30 days ago won't change, unless we now track someone new.
-  if (old && s.end_date && s.end_date < recent && people.every((p) => old.people.includes(p.openstates))) return old;
+  if (old && s.end_date && s.end_date < recent && people.every((p) => old.people.includes(p.openstates)) && old.v === 4) return old;
 
   const zipUrl = s.downloads?.find((d: any) => /csv/.test(d.url))?.url;
   const sid = gaIds[s.name];
@@ -398,6 +459,7 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
     const csv = (name: string) => parseCSV(execFileSync("unzip", ["-p", zip, `*_${name}.csv`], { maxBuffer: 1 << 30 }).toString("utf8"));
 
     const bills = new Map(csv("bills").map((b) => [b.id, b]));
+    const gaSubj = await gaSubjects(sid);
     const sources = new Map<string, string>();
     for (const r of csv("bill_sources")) if (/legis\.ga\.gov\/legislation\/\d+/.test(r.url) && !sources.has(r.bill_id)) sources.set(r.bill_id, r.url);
     const votes: Record<string, GaVote> = {};
@@ -409,7 +471,7 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
       eventToKey[v.id] = key;
       if (votes[key]) continue; // one vote can cover a batch of local bills; keep the first
       const b = bills.get(v.bill_id);
-      const subjects: string[] = b ? JSON.parse(b.subject.replace(/'/g, '"') || "[]") : [];
+      const subjects: string[] = (b && gaSubj.get(b.identifier)) || (b ? JSON.parse(b.subject.replace(/'/g, '"') || "[]") : []);
       votes[key] = {
         chamber: m[1],
         num: m[2],
@@ -417,7 +479,7 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
         caption: caption[key]?.caption ?? "",
         bill: b?.identifier ?? "",
         billTitle: b?.title ?? "",
-        topic: subjects[0] ? titleCase(subjects[0]) : b && isLocal(b.title) ? "Local laws (one city or county)" : "Other",
+        topics: subjects.length ? subjects.map(titleCase) : [b && isLocal(b.title) ? "Local laws (one city or county)" : "Other"],
         url: sources.get(v.bill_id) ?? "",
         result: v.result,
       };
@@ -431,11 +493,12 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
     }
     // Anyone Open States didn't match: read Georgia's own record, for the votes Open States has.
     const missing = people.filter((p) => !castBy[p.openstates]);
-    if (missing.length) {
+    if (missing.length && Object.keys(votes).length) {
       log("votes", `ga ${s.identifier}: reading Georgia's record for ${missing.map((p) => p.last).join(", ")}`);
       await gaFallback(missing, Object.fromEntries(Object.entries(voteIds).filter(([k]) => votes[k])), castBy);
     }
-    const out: GaSession = { fetched: today, people: people.map((p) => p.openstates), votes, cast: castBy };
+    await gaExcused(people, voteIds, castBy);
+    const out: GaSession = { v: 4, fetched: today, people: people.map((p) => p.openstates), votes, cast: castBy };
     writeJSON(file, out);
     return out;
   } finally {
@@ -485,7 +548,7 @@ async function georgia(code: string, since: string, people: { id: string; openst
 
   const out: VotesFile = { bills: {}, people: {} };
   for (const p of people) {
-    let total = 0, missed = 0;
+    let total = 0, missed = 0, excused = 0;
     const rows: Row[] = [];
     for (const [i, d] of data.entries()) {
       const mine = d.cast[p.openstates] ?? {};
@@ -493,12 +556,14 @@ async function georgia(code: string, since: string, people: { id: string; openst
         const v = d.votes[k];
         if (!v || v.date < since) continue;
         total++;
-        if (cast(opt) === "Didn't vote") missed++;
+        const c = cast(opt);
+        if (c === "Didn't vote" || c === "Excused") missed++;
+        if (c === "Excused") excused++;
         const what = gaPassage(v.caption);
         if (!what || !v.bill || !passedBills.has(`${i}|${v.bill}`)) continue;
         rows.push({
           key: `${code}-${d.session}-${v.bill}`,
-          ref: { bill: v.bill, title: v.billTitle, url: v.url, topic: v.topic },
+          ref: { bill: v.bill, title: v.billTitle, url: v.url, topics: v.topics },
           date: v.date,
           chamber: v.chamber === "House" ? "Georgia House" : "Georgia Senate",
           what,
@@ -510,7 +575,7 @@ async function georgia(code: string, since: string, people: { id: string; openst
     if (!total) continue;
     out.people[p.id] = {
       since,
-      attendance: { missed, total },
+      attendance: { missed, excused, total },
       votes: pack(rows, out.bills),
       source: [
         { label: "Open States", url: `https://openstates.org/person/${p.openstates.replace("ocd-person/", "")}/` },

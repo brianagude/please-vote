@@ -244,3 +244,39 @@ p,li,dd,.sub,.gsub,.hint,.note,.rnote,.also{text-wrap:pretty}
 .motion{align-self:flex-start;background:none;border:0;padding:4px 0;min-height:24px;font:inherit;font-size:.85rem;color:var(--ink);text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px;text-decoration-thickness:1.5px}
 .motion:hover{text-underline-offset:5px;text-decoration-thickness:2px}
 @media (prefers-reduced-motion:reduce){.motion{display:none}}
+
+/* person page: every vote, by topic */
+.back{font-size:.9rem;align-self:flex-start}
+.wrap.person{gap:40px}
+.person header .val{font-size:1.05rem}
+.head-cand{flex-direction:row;align-items:center;gap:16px}
+.pin.big{width:88px;height:88px;font-size:2rem;flex:none}
+.person h1{font-size:clamp(2.4rem,8vw,3.6rem)}
+.person .cn{margin-top:6px}
+.tallies{grid-template-columns:1fr 1fr}
+.tallies p{font-size:.95rem}
+.jump p{font-size:.95rem}
+.overview{gap:8px}
+.overview .links{margin-top:4px}
+/* Vote topics: quiet rows inside one sheet, not big section boxes. */
+.topics{padding:10px 0 4px;display:flex;flex-direction:column}
+.topics>.lbl{padding:0 14px 6px}
+details.topic{border-top:1px dashed var(--hair)}
+details.topic>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:6px 12px;padding:9px 14px}
+details.topic>summary::-webkit-details-marker{display:none}
+details.topic>summary::before{content:"+";font-weight:700;width:12px;flex:none;color:var(--soft)}
+details.topic[open]>summary::before{content:"–"}
+.tname{font-weight:600;flex:1;min-width:0}
+.tcount{font-size:.85rem;color:var(--soft);white-space:nowrap}
+@media (hover:hover){details.topic>summary:hover{background:#efeadf}details.topic>summary:hover .tname{text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px}}
+details.topic[open]>summary{border-bottom:1px dashed var(--hair)}
+details.topic .vlist{background:var(--paper)}
+.vlist{list-style:none;margin:0;padding:0}
+.vlist li{display:grid;grid-template-columns:minmax(0,1fr) 92px;gap:6px 16px;padding:10px 16px;border-top:1px dashed var(--hair);font-size:.9rem}
+.vlist li:first-child{border-top:0}
+.vmain{display:flex;flex-direction:column;gap:2px;min-width:0;overflow-wrap:anywhere}
+.vmeta{font-size:.78rem;color:var(--soft)}
+.vcast{font-family:var(--label);font-stretch:90%;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:.85rem;text-align:right}
+@media (max-width:420px){.vlist li{grid-template-columns:1fr}.vcast{text-align:left}.head-cand{gap:12px}.pin.big{width:64px;height:64px;font-size:1.5rem}}
+.rec .site{min-height:24px;display:inline-flex;align-items:center;margin-top:0}
+.person .rec{margin:0;border-top:0}.person .rec>div:last-child{border-bottom:0}

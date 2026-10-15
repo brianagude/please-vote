@@ -1,0 +1,181 @@
+---
+// A page for each candidate with bills or votes: who they are and their record, then how they voted (DECISIONS #4, #7).
+// Section order, top to bottom (docs/DESIGN.md "Person pages"):
+//   1. Overview: background, career, links, then their record (offices, roles, bills, money)
+//   2. How they voted
+// Later sections (what they're doing now, etc.) go after these.
+import Base from "../../layouts/Base.astro";
+import CareerRecord from "../../components/CareerRecord.astro";
+import { loadState, loadVotes, sourced } from "../../lib/state";
+import { initials, partyName } from "../../lib/names";
+import { attendanceLine, countLine, hasPage, ruleLine } from "../../lib/votes";
+import type { Candidate, Source } from "../../lib/types";
+
+export function getStaticPaths() {
+  const d = loadState("ga");
+  const seats: { c: Candidate; running: string }[] = [
+    ...Object.entries(d.races.statewide).flatMap(([k, r]) => r.candidates.map((c) => ({ c, running: d.offices[k].title }))),
+    ...Object.entries(d.races.house).flatMap(([n, r]) => r.candidates.map((c) => ({ c, running: `${d.config.districts.house.label}, District ${n}` }))),
+  ];
+  return seats.filter(({ c }) => hasPage(c)).map(({ c, running }) => ({ params: { id: c.id }, props: { c, running, asOf: d.config.asOf, sinceYear: d.config.records.sinceLabel } }));
+}
+
+interface Props {
+  c: Candidate;
+  running: string;
+  asOf: string;
+  sinceYear: string;
+}
+const { c, running, asOf, sinceYear } = Astro.props;
+
+// Overview: the same sourced facts as their card.
+const bio = sourced(c.bio) ? c.bio : undefined;
+const career = (c.career ?? []).filter(sourced);
+const committees = c.committees?.source ? c.committees.items : [];
+const used: Source[] = [bio?.source, ...career.map((f) => f.source), committees.length ? c.committees?.source : undefined].filter((s): s is Source => !!s);
+const factSources = [...new Map(used.map((s) => [s.url, s])).values()];
+const { campaign, official, ballotpedia } = c.links;
+
+// Record: everything except votes, which get their own section.
+const record = c.record ? { ...c.record, votes: undefined } : undefined;
+const hasRecord = !!record && Object.values(record).some(Boolean);
+
+// Votes, by topic: most votes first; "Other" and local laws at the end.
+const v = loadVotes("ga", c.id);
+const summary = c.record?.votes;
+const groups = new Map<string, NonNullable<typeof v>["votes"]>();
+for (const x of v?.votes ?? []) for (const t of x.topics) groups.set(t, [...(groups.get(t) ?? []), x]);
+const multi = !!v?.votes.some((x) => x.topics.length > 1);
+const last = (t: string) => (/^Other|^Local/.test(t) ? 1 : 0);
+const topics = [...groups].sort((a, b) => last(a[0]) - last(b[0]) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+
+const sections = [
+  { id: "overview", label: "Overview" },
+  v && { id: "votes", label: "How they voted" },
+].filter((s): s is { id: string; label: string } => !!s);
+
+const date = (d: string) => new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+---
+<Base
+  title={`${c.name} · Please Vote`}
+  description={`Who ${c.name} is, their record${v ? ", and how they voted" : ""}. Running for ${running}. Sourced and nonpartisan.`}
+  skip={{ href: "#overview", label: "Skip to the overview" }}
+>
+  <div class="wrap person">
+    <a class="back" href="/#s3">← Back to the guide</a>
+
+    <header class="sheet">
+      <div class="row">
+        <div class="cell">
+          <span class="lbl">Running for</span>
+          <span class="val">{running}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cell head-cand">
+          {
+            c.photo ? (
+              <span class="pin big"><img src={c.photo.src} alt="" width="88" height="88" /></span>
+            ) : (
+              <span class="pin big" aria-hidden="true">{initials(c.name)}</span>
+            )
+          }
+          <div>
+            <h1 class="disp">{c.name}</h1>
+            <p class="cn"><span class="p">{partyName(c.party)}</span>{c.incumbent && <span class="stamp">Has the job now</span>}</p>
+          </div>
+        </div>
+      </div>
+      {
+        sections.length > 1 && (
+          <nav class="row" aria-label="On this page">
+            <div class="cell jump">
+              <span class="lbl">On this page</span>
+              <p>{sections.map((s, i) => <>{i > 0 && " · "}<a href={`#${s.id}`}>{s.label}</a></>)}</p>
+            </div>
+          </nav>
+        )
+      }
+    </header>
+
+    <section aria-labelledby="overview">
+      <div class="shead"><h2 class="disp" id="overview" tabindex="-1">Overview</h2></div>
+      <div class="sheet">
+        <div class="cell overview">
+          {bio ? <p class="bio">{bio.text}</p> : <p class="rnote">We don't have a sourced background for {c.name} yet.</p>}
+          {career.length > 0 && <ul class="career">{career.map((f) => <li>{f.text}</li>)}</ul>}
+          {committees.length > 0 && <p class="works">Committee work: {committees.join(", ")}</p>}
+          {
+            (campaign || official || ballotpedia) && (
+              <p class="links">
+                {campaign && <a class="site" href={campaign} target="_blank" rel="noopener">Campaign site →</a>}
+                {official && <a class="site" href={official} target="_blank" rel="noopener">Official site →</a>}
+                {ballotpedia && <a class="site" href={ballotpedia} target="_blank" rel="noopener">Ballotpedia →</a>}
+              </p>
+            )
+          }
+          {
+            (factSources.length > 0 || c.photo?.credit) && (
+              <p class="src">
+                {factSources.length > 0 && <>Facts from {factSources.map((s, i) => <>{i > 0 && ", "}<a class="src" href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}.</>}
+                {c.photo?.credit && <> Photo: <a class="src" href={c.photo.source.url} target="_blank" rel="noopener">{c.photo.credit}</a>{c.photo.license && `, ${c.photo.license}`}.</>}
+              </p>
+            )
+          }
+        </div>
+        {hasRecord && <div class="row"><div class="cell"><CareerRecord r={record!} /></div></div>}
+      </div>
+    </section>
+
+    {
+      v && summary && (
+        <section aria-labelledby="votes">
+          <div class="shead"><h2 class="disp" id="votes" tabindex="-1">How they voted</h2></div>
+          <p class="note">{ruleLine(summary.chamber, sinceYear)}{multi && " A bill can show up under more than one topic."}</p>
+          <div class="sheet">
+            <div class="row stack tallies">
+              <div class="cell"><span class="lbl">Votes shown</span><p>{countLine(v.votes.length)}</p></div>
+              <div class="cell"><span class="lbl">Attendance</span><p>{attendanceLine(v.attendance)}</p></div>
+            </div>
+            <div class="row">
+              <div class="topics">
+                <span class="lbl">By topic</span>
+                {topics.map(([topic, list]) => (
+                  <details class="topic">
+                    <summary>
+                      <span class="tname">{topic}</span>
+                      <span class="tcount">{list.length} {list.length === 1 ? "vote" : "votes"}</span>
+                    </summary>
+                    <ul class="vlist">
+                      {list.map((x) => (
+                        <li>
+                          <div class="vmain">
+                            <span class="vmeta">{date(x.date)} · {x.chamber}{x.what !== "Passage" && ` · ${x.what}`}</span>
+                            <span>
+                              {x.url ? <a href={x.url} target="_blank" rel="noopener">{x.bill}</a> : x.bill}: {x.title}
+                            </span>
+                            <span class="vmeta">{x.passed ? "Passed" : "Didn't pass"}{x.law && " · Became law"}</span>
+                          </div>
+                          <span class="vcast"><span class="sr">Their vote: </span>{x.vote}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+          <p class="src">
+            Source: {v.source.map((s, i) => <>{i > 0 && ", "}<a class="src" href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}. Topics from {/Georgia/.test(summary.chamber) ? "the Georgia General Assembly" : "Congress.gov"}.
+          </p>
+        </section>
+      )
+    }
+
+    <footer>
+      <p>Info as of {asOfLong}. Records update every night.</p>
+      <p><a href="/#s3">← Back to the guide</a></p>
+    </footer>
+  </div>
+</Base>

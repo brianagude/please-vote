@@ -2,6 +2,7 @@
 import type { Candidate, Office } from "../lib/types";
 import { byLastName } from "../lib/names";
 import CandidateRow from "./CandidateRow.astro";
+import { hasPage, personPath } from "../lib/votes";
 interface Props {
   office: Office;
   candidates?: Candidate[];
@@ -27,7 +28,7 @@ const list = byLastName(candidates);
       <div class="row">
         <div class="cell" style="padding:10px 0 4px">
           <span class="lbl" style="padding:0 14px">Candidates</span>
-          <ul class="cands">{list.map((c) => <CandidateRow c={c} />)}</ul>
+          <ul class="cands">{list.map((c) => <CandidateRow c={c} page={hasPage(c) ? personPath(c.id) : undefined} />)}</ul>
         </div>
       </div>
     )

@@ -54,6 +54,14 @@ export interface CareerRecord {
         source: Source;
       }
     | { none: true; source: Source };
+  /** Summary for the card; the full list is on the person's own page. */
+  votes?: {
+    since: string;
+    listed: number;
+    attendance: { missed: number; excused: number; total: number };
+    chamber: string;
+    source: Source[];
+  };
 }
 
 export interface Race {
