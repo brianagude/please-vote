@@ -7,11 +7,12 @@ import { legislature } from "./legislature.ts";
 import { photos } from "./photos.ts";
 import { fec } from "./fec.ts";
 import { bills } from "./bills.ts";
+import { votes } from "./votes.ts";
 import { log } from "./lib.ts";
 
 const STATES = ["ga"];
 // Order matters: photos uses congress output.
-const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature, photos, fec, bills };
+const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature, photos, fec, bills, votes };
 
 const only = process.argv.slice(2);
 let failed = 0;

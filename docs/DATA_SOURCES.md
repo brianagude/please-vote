@@ -68,3 +68,22 @@ Status as researched October 13–14, 2026. Verify each source before relying on
 - **congress-legislators, unitedstates/images, Wikipedia, Wikimedia Commons:** work, no key. Commons gives license and author per file.
 - **Georgia Secretary of State (sos.ga.gov, elections.sos.ga.gov):** blocks all automated access (HTTP 403), including PDFs. The certified candidate list has to be downloaded by hand.
 - **Senate District 12:** no current member in Open States (Freddie Sims's term ended April 8, 2026). The site says it couldn't confirm the seat.
+
+## Voting records (verified Oct 15, 2026)
+
+Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
+
+- **U.S. House and Senate: Voteview** (`voteview.com/static/data/out/{votes,rollcalls,members}/{H|S}{congress}_*.csv`, UCLA, no key). Republishes every official roll call, with each member's bioguide ID. Three downloads per chamber per Congress; the whole federal step runs in seconds. Current to within a few weeks.
+  - Checked against Congress.gov's `/house-vote/.../members`: 112 of 112 Georgia member votes matched.
+  - Voteview leaves out quorum calls and records Speaker elections properly. Counting straight from the Clerk's files would wrongly mark members as missing those.
+  - `vote_question` "On the Motion" (Senate) doesn't say what the motion was. We count it as "agree to the House's changes" only when the bill's history (below) names that Senate record vote as a concurrence.
+- **House Clerk (`clerk.house.gov/evs`) and senate.gov roll-call XML:** both work at first, then block automated downloads (HTTP 403 / "Access Denied") after a few hundred requests. Don't use them in the nightly job.
+- **Congress.gov `/house-vote`:** works (House only, no Senate endpoint). Good for spot checks; slow for bulk.
+- **Federal bill topic and status: GovInfo BILLSTATUS** (`govinfo.gov/bulkdata/BILLSTATUS/{congress}/{type}/BILLSTATUS-{congress}{type}{number}.xml`, no key). Gives Congress.gov's "policy area" (our topic), whether it passed each chamber, and whether it became law. Fast.
+- **Georgia: Open States bulk CSV** (one zip per session, linked from `/jurisdictions/ga?include=legislative_sessions` → `downloads`). About 60 MB, downloads in seconds. Has every recorded vote and how each member voted, by Open States person ID.
+  - **Open States labels every Georgia vote "passage"**, including amendment votes and batch votes on local bills. Its `motion_text` is just "Senate Vote #26".
+  - Open States can't tell members with the same last name apart (David Clark and Jasmine Clark are both "CLARK", with no person ID).
+  - Bill subjects come from Georgia's subject index; about 60% of voted-on bills have one. Most of the rest are local acts ("Savannah, City of; ..."), grouped as "Local laws".
+- **Georgia General Assembly vote service** (`webservices.legis.ga.gov/GGAServices/Votes/Service.svc`, SOAP, no key). `GetVotes(Branch, SessionId)` lists every vote with its real caption ("PASSAGE BY SUBSTITUTE", "ADOPTION OF AMENDMENT #1"), so we join it to Open States by chamber and vote number. `GetVote(VoteId)` names each member with their district ("CLARK, 108TH"); we use it for anyone Open States didn't match. Session IDs come from `Session/Service.svc` `GetSessions`. Morning roll calls aren't published.
+  - Checked 12 of Josh McLaurin's votes against `GetVote`: all matched.
+  - Georgia records "Excused" separately from "Not Voting". We show both as "Didn't vote".
