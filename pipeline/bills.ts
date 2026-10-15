@@ -6,6 +6,22 @@
 import fs from "node:fs";
 import path from "node:path";
 import { candidates, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
+import { billInfo, gaPassage, type BillInfo } from "./votes.ts";
+
+/** How far a bill got. */
+export type Status = "Became law" | "Passed both chambers" | "Passed the House" | "Passed the Senate" | "Introduced";
+const statusOf = (house: boolean, senate: boolean, law: boolean): Status =>
+  law ? "Became law" : house && senate ? "Passed both chambers" : house ? "Passed the House" : senate ? "Passed the Senate" : "Introduced";
+// Laws first, then the ones that got furthest.
+const RANK: Record<Status, number> = { "Became law": 0, "Passed both chambers": 1, "Passed the House": 2, "Passed the Senate": 2, Introduced: 3 };
+interface Bill {
+  id: string;
+  title: string;
+  url: string;
+  introduced?: string;
+  status: Status;
+}
+const sortBills = (b: Bill[]) => b.sort((x, y) => RANK[x.status] - RANK[y.status] || (y.introduced ?? "").localeCompare(x.introduced ?? ""));
 
 const CONGRESS_TYPES: Record<string, string> = {
   HR: "house-bill",
@@ -26,10 +42,12 @@ interface Record {
   wrote: number;
   becameLaw: number;
   laws: Law[];
+  /** Every bill they wrote, with how far it got. */
+  all: Bill[];
   source: { label: string; url: string };
 }
 
-async function federal(bioguide: string, since: string): Promise<Record> {
+async function federal(bioguide: string, since: string, statusCache: { [k: string]: BillInfo }): Promise<Record> {
   const key = process.env.DATA_GOV_API_KEY;
   if (!key) throw new Error("DATA_GOV_API_KEY is not set");
   const items: any[] = [];
@@ -51,11 +69,25 @@ async function federal(bioguide: string, since: string): Promise<Record> {
       url: `https://www.congress.gov/bill/${ordinal(b.congress)}-congress/${CONGRESS_TYPES[b.type]}/${b.number}`,
       date: b.latestAction?.actionDate,
     }));
+  // How far each bill got, from GovInfo's bill status files (no key).
+  const all: Bill[] = [];
+  for (const b of bills) {
+    const info = await billInfo(b.congress, b.type, String(b.number), statusCache).catch(() => null);
+    const law = info?.law ?? /Became Public Law/i.test(b.latestAction?.text ?? "");
+    all.push({
+      id: `${b.type === "HR" ? "H.R." : b.type === "S" ? "S." : b.type === "HJRES" ? "H.J.Res." : "S.J.Res."} ${b.number}`,
+      title: b.title,
+      url: `https://www.congress.gov/bill/${ordinal(b.congress)}-congress/${CONGRESS_TYPES[b.type]}/${b.number}`,
+      introduced: b.introducedDate,
+      status: statusOf(!!info?.passedHouse, !!info?.passedSenate, law),
+    });
+  }
   return {
     since,
     wrote: bills.length,
     becameLaw: laws.length,
     laws,
+    all: sortBills(all),
     source: { label: "Congress.gov", url: `https://www.congress.gov/member/${bioguide}` },
   };
 }
@@ -106,11 +138,24 @@ async function state(code: string, personId: string, since: string, cacheFile: s
   const person = (await getJSON(`https://v3.openstates.org/people?id=${encodeURIComponent(personId)}`, { headers: { "X-API-KEY": process.env.OPENSTATES_API_KEY ?? "" } })).results?.[0];
   const bills = Object.values(cache).flatMap((s) => s.bills).filter((b) => !b.introduced || b.introduced >= since);
   const laws = bills.filter((b) => b.law).map((b) => ({ id: b.id, title: b.title, url: b.url, date: b.law }));
+  // Which chamber passed each bill, from the Georgia vote files the votes step saves.
+  const all: Bill[] = [];
+  for (const [session, s] of Object.entries(cache)) {
+    const vf = path.join(path.dirname(cacheFile), `ga-votes-${session}.json`);
+    const passed = new Set<string>();
+    if (fs.existsSync(vf))
+      for (const v of Object.values<any>(readJSON(vf).votes)) if (v.result === "pass" && gaPassage(v.caption)) passed.add(`${v.chamber}|${v.bill}`);
+    for (const b of s.bills) {
+      if (b.introduced && b.introduced < since) continue;
+      all.push({ id: b.id, title: b.title, url: b.url, introduced: b.introduced, status: statusOf(passed.has(`House|${b.id}`), passed.has(`Senate|${b.id}`), !!b.law) });
+    }
+  }
   return {
     since,
     wrote: bills.length,
     becameLaw: laws.length,
     laws,
+    all: sortBills(all),
     source: { label: "Open States", url: person?.openstates_url ?? "https://openstates.org/ga/" },
   };
 }
@@ -121,11 +166,14 @@ export async function bills(code: string) {
   const races = readJSON(path.join(sd, "races.json"));
   const file = path.join(sd, "generated/bills.json");
   const out: { [id: string]: Record } = fs.existsSync(file) ? readJSON(file) : {};
+  // Federal bill status files, shared with the votes step.
+  const statusFile = path.join(sd, "generated/cache/federal-bills.json");
+  const statusCache: { [k: string]: BillInfo } = fs.existsSync(statusFile) ? readJSON(statusFile) : {};
   let errors = 0;
 
   for (const { c } of candidates(races)) {
     try {
-      if (c.ids?.bioguide) out[c.id] = await federal(c.ids.bioguide, since);
+      if (c.ids?.bioguide) out[c.id] = await federal(c.ids.bioguide, since, statusCache);
       else if (c.ids?.openstates) out[c.id] = await state(code, c.ids.openstates, since, path.join(sd, `generated/cache/openstates-bills-${c.id}.json`));
     } catch (e) {
       // Keep yesterday's numbers for this person.
@@ -133,6 +181,7 @@ export async function bills(code: string) {
       log("bills", `${c.id}: ${e instanceof Error ? e.message : e}`);
     }
   }
+  writeJSON(statusFile, statusCache);
   const changed = writeJSON(file, out);
   log("bills", `${Object.keys(out).length} candidates${changed ? " (updated)" : ""}`);
   if (errors) throw new Error(`${errors} candidate(s) failed`);

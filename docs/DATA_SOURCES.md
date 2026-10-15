@@ -87,3 +87,19 @@ Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
 - **Georgia General Assembly vote service** (`webservices.legis.ga.gov/GGAServices/Votes/Service.svc`, SOAP, no key). `GetVotes(Branch, SessionId)` lists every vote with its real caption ("PASSAGE BY SUBSTITUTE", "ADOPTION OF AMENDMENT #1"), so we join it to Open States by chamber and vote number. `GetVote(VoteId)` names each member with their district ("CLARK, 108TH"); we use it for anyone Open States didn't match. Session IDs come from `Session/Service.svc` `GetSessions`. Morning roll calls aren't published.
   - Checked 12 of Josh McLaurin's votes against `GetVote`: all matched.
   - Georgia records "Excused" separately from "Not Voting". We show both as "Didn't vote".
+
+## Person pages: contact, bill status, donors, past results (checked Oct 15, 2026)
+
+- **Contact, Congress:** `legislators-current.json` (last term: `phone`, `address`, `contact_form`, `url`) and `legislators-social-media.json` (twitter, facebook, instagram, youtube). No key.
+- **Contact, Georgia legislators:** Open States `/people?id=...&include=offices` gives the Capitol office phone and address, plus `email`.
+- **How far each federal bill got:** GovInfo BILLSTATUS. **Read only the bill's own `<actions>`.** The file also lists related bills with their own latest actions; reading the whole file wrongly marked 6 of Ossoff's bills as laws (a related bill, the 2024 defense bill, became law).
+- **How far each Georgia bill got:** passage votes in the General Assembly vote files the votes step saves, plus Open States' "became law" action.
+- **PACs that gave to the campaign:** `/candidate/{id}/committees/?designation=P` (the main campaign committee), then `/schedules/schedule_a/?committee_id=...&line_number=F3-11C&two_year_transaction_period=2026` (keyset paging with `last_index` and `last_contribution_receipt_amount`), keeping `entity_type` PAC and adding up per PAC. Filed with `is_individual=false` alone, the list also has ActBlue and Democracy Engine (individual donations passed along) and transfers from the candidate's own committees, which aren't PAC money.
+- **Outside spending (super PACs and other groups):** `/schedules/schedule_e/by_candidate/?cycle=2026&election_full=false`, per group, for (S) or against (O). With `election_full=true`, a senator's list reaches back to the 2021 runoff, so we use the current two years only. Super PACs can't give to campaigns; this is their own spending.
+- Tried and dropped (owner, Oct 15): small-donor share (`by_size`) and in-state share (`by_state`). `/schedules/schedule_b/by_purpose/` (what campaigns spend on) isn't usable: most spending is filed as "OTHER" (75% for McBath).
+  - **Rate limit: about 60 requests a minute** (`x-ratelimit-limit: 60`). The money step waits about 1 second between requests.
+- **Past election results (not built yet):**
+  - **OpenElections** (`github.com/openelections/openelections-data-ga`): Georgia results as CSV, covering Congress and the legislature. 2020 general matched official totals exactly (Ossoff 2,374,519). But the Jan 2021 runoff file is missing 4 of 159 counties (Ossoff 2,254,592 vs. 2,269,262 official), so it can't be trusted without a check.
+  - **MIT Election Lab** on Harvard Dataverse: U.S. Senate 1976–2024 downloads freely. **U.S. House requires filling in a "guestbook" form** (terms) before download.
+  - **FEC official results spreadsheets** (`fec.gov/resources/cms-content/documents/federalelectionsYYYY.xlsx`): 2018–2022 download; 2024 returns 403.
+  - **Georgia Secretary of State** results: blocks automated access, like the candidate list.

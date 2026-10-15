@@ -30,7 +30,7 @@ function role(r: { committee: string; parent?: string; title: string }, party: s
 
 export function buildRecord(
   c: Candidate,
-  gen: { congress?: any; money?: any; bills?: any; votes?: any },
+  gen: { congress?: any; money?: any; bills?: any; votes?: any; contact?: any },
   cycle: string,
   stateName: string,
   today = new Date().toISOString().slice(0, 10),
@@ -44,6 +44,7 @@ export function buildRecord(
     if (titled.length || lead.length) rec.roles = { items: [...lead, ...titled.map((r: any) => role(r, c.party))], source: m.source };
   }
   if (gen.bills?.[c.id]) rec.bills = gen.bills[c.id];
+  if (gen.contact?.[c.id]) rec.contact = gen.contact[c.id];
   const v = gen.votes?.people?.[c.id];
   if (v) rec.votes = { since: v.since, listed: v.votes.length, attendance: v.attendance, chamber: v.votes[0]?.[2] ?? "", source: v.source };
   if (gen.money?.[c.id]) rec.money = gen.money[c.id];

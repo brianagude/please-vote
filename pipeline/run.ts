@@ -8,11 +8,12 @@ import { photos } from "./photos.ts";
 import { fec } from "./fec.ts";
 import { bills } from "./bills.ts";
 import { votes } from "./votes.ts";
+import { contact } from "./contact.ts";
 import { log } from "./lib.ts";
 
 const STATES = ["ga"];
-// Order matters: photos uses congress output.
-const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature, photos, fec, bills, votes };
+// Order matters: photos uses congress output; bills reads the Georgia vote files that votes writes.
+const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature, photos, fec, votes, bills, contact };
 
 const only = process.argv.slice(2);
 let failed = 0;

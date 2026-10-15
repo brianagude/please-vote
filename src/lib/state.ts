@@ -33,6 +33,7 @@ export function loadState(code: string): StateData {
     money: readIfExists(code, "generated/money.json"),
     bills: readIfExists(code, "generated/bills.json"),
     votes: readIfExists(code, "generated/votes.json"),
+    contact: readIfExists(code, "generated/contact.json"),
   };
   const cycle = data.config.election.date.slice(0, 4);
   for (const c of allCandidates(data)) {

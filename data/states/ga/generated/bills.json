@@ -4,6 +4,638 @@
     "wrote": 90,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "S. 2073",
+        "title": "Kids Online Safety and Privacy Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2073",
+        "introduced": "2023-06-21",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "S. 1049",
+        "title": "Preventing Child Trafficking Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1049",
+        "introduced": "2025-03-13",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "S. 5284",
+        "title": "Lieutenant Osvaldo Albarati Stopping Prison Contraband Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5284",
+        "introduced": "2024-09-25",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "S. 4640",
+        "title": "Supporting Victims of Human Trafficking Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4640",
+        "introduced": "2024-07-09",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "S. 3687",
+        "title": "Preventing Child Trafficking Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3687",
+        "introduced": "2024-01-30",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "S. 5287",
+        "title": "Colorectal Cancer Early Detection Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5287",
+        "introduced": "2026-08-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4932",
+        "title": "No Lead in Toys Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4932",
+        "introduced": "2026-06-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4884",
+        "title": "Right to Vote Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4884",
+        "introduced": "2026-06-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4502",
+        "title": "Farm Disaster Tax Cut Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4502",
+        "introduced": "2026-05-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4474",
+        "title": "Servicemember Civilian Transition Support Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4474",
+        "introduced": "2026-04-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4067",
+        "title": "Land Grant Research Prioritization Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4067",
+        "introduced": "2026-03-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3459",
+        "title": "Support Small Business Growth Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3459",
+        "introduced": "2025-12-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2713",
+        "title": "American Energy Security Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2713",
+        "introduced": "2025-09-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2664",
+        "title": "Skilled Workforce Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2664",
+        "introduced": "2025-08-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2102",
+        "title": "Ralph David Abernathy, Sr., National Historic Site Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2102",
+        "introduced": "2025-06-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1879",
+        "title": "Ban Congressional Stock Trading Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1879",
+        "introduced": "2025-05-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1550",
+        "title": "Improving SCRA Benefit Utilization Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1550",
+        "introduced": "2025-05-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1419",
+        "title": "Youth Sports Facilities Act of 2024",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1419",
+        "introduced": "2025-04-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1322",
+        "title": "Family Notification of Death, Injury, or Illness in Custody Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1322",
+        "introduced": "2025-04-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1131",
+        "title": "Ocmulgee Mounds National Park and Preserve Establishment Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1131",
+        "introduced": "2025-03-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 784",
+        "title": "Rural Veterans Transportation to Care Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/784",
+        "introduced": "2025-02-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 687",
+        "title": "BCRA of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/687",
+        "introduced": "2025-02-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 517",
+        "title": "Forest Data Modernization Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/517",
+        "introduced": "2025-02-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 361",
+        "title": "Supporting Victims of Human Trafficking Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/361",
+        "introduced": "2025-02-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5560",
+        "title": "Youth Sports Facilities Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5560",
+        "introduced": "2024-12-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5565",
+        "title": "BCRA",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5565",
+        "introduced": "2024-12-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5477",
+        "title": "Family Notification of Death, Injury, or Illness in Custody Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5477",
+        "introduced": "2024-12-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5345",
+        "title": "A bill to designate the facility of the United States Postal Service located at 119 Main Street in Plains, Georgia, as the \"Jimmy and Rosalynn Carter Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5345",
+        "introduced": "2024-11-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5322",
+        "title": "Border Smuggling Crackdown Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5322",
+        "introduced": "2024-11-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5301",
+        "title": "Veterans Home Loan Fairness Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5301",
+        "introduced": "2024-11-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5120",
+        "title": "Fresh Food Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5120",
+        "introduced": "2024-09-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 5080",
+        "title": "Postmaster General Reform Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5080",
+        "introduced": "2024-09-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4922",
+        "title": "VA Transportation Programs Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4922",
+        "introduced": "2024-08-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4944",
+        "title": "Access to Homeownership Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4944",
+        "introduced": "2024-08-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4970",
+        "title": "Female Officers Ballistic Protection Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4970",
+        "introduced": "2024-08-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4982",
+        "title": "Protecting Our Produce Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4982",
+        "introduced": "2024-08-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4748",
+        "title": "Veterans Transition Support Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4748",
+        "introduced": "2024-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4721",
+        "title": "Gold Star Children Education Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4721",
+        "introduced": "2024-07-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4644",
+        "title": "City of Atlanta Water Infrastructure Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4644",
+        "introduced": "2024-07-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4601",
+        "title": "MCLB Albany Innovation Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4601",
+        "introduced": "2024-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4602",
+        "title": "Fort Eisenhower National Guard Support Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4602",
+        "introduced": "2024-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4603",
+        "title": "Savannah CRTC Dining Hall Construction Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4603",
+        "introduced": "2024-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4604",
+        "title": "Kings Bay Trident Modernization Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4604",
+        "introduced": "2024-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4605",
+        "title": "Robins Facilities Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4605",
+        "introduced": "2024-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4606",
+        "title": "Dobbins Civil Engineering Support Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4606",
+        "introduced": "2024-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4536",
+        "title": "A bill to designate the Federal building and United States courthouse located at 600 East First Street in Rome, Georgia, as the \"Harold L. Murphy Federal Building and United States Courthouse.\"",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4536",
+        "introduced": "2024-06-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4491",
+        "title": "Military Families Support Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4491",
+        "introduced": "2024-06-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4509",
+        "title": "Hunter Army Airfield Support Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4509",
+        "introduced": "2024-06-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4383",
+        "title": "Coastal Georgia Flooding Prevention Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4383",
+        "introduced": "2024-05-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4382",
+        "title": "East Point Water Infrastructure Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4382",
+        "introduced": "2024-05-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4384",
+        "title": "Georgia Stormwater Management Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4384",
+        "introduced": "2024-05-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4216",
+        "title": "Ocmulgee Mounds National Park and Preserve Establishment Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4216",
+        "introduced": "2024-04-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4142",
+        "title": "Lieutenant Osvaldo Albarati Stopping Prison Contraband Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4142",
+        "introduced": "2024-04-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 4102",
+        "title": "Improving SCRA Benefit Utilization Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4102",
+        "introduced": "2024-04-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3965",
+        "title": "Deploy Fentanyl Scanners Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3965",
+        "introduced": "2024-03-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3916",
+        "title": "Right to Vote Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3916",
+        "introduced": "2024-03-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3912",
+        "title": "Election Worker and Polling Place Protection Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3912",
+        "introduced": "2024-03-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3920",
+        "title": "Military Spouse Job Continuity Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3920",
+        "introduced": "2024-03-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3751",
+        "title": "Rural Veterans Transportation to Care Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3751",
+        "introduced": "2024-02-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3586",
+        "title": "Bilingual Public Safety Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3586",
+        "introduced": "2024-01-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3539",
+        "title": "Small Business Contracting Fairness Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3539",
+        "introduced": "2023-12-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 3238",
+        "title": "USSC Emergency Supplemental Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3238",
+        "introduced": "2023-11-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2956",
+        "title": "Middle East Security Coordination Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2956",
+        "introduced": "2023-09-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2773",
+        "title": "Ban Congressional Stock Trading Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2773",
+        "introduced": "2023-09-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2680",
+        "title": "Transitioning Servicemember Food Security Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2680",
+        "introduced": "2023-07-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2471",
+        "title": "Federal Grants Language Accessibility Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2471",
+        "introduced": "2023-07-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2359",
+        "title": "Servicemember Mental Health Support Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2359",
+        "introduced": "2023-07-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2264",
+        "title": "Fentanyl Trafficking Prevention Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2264",
+        "introduced": "2023-07-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2218",
+        "title": "Robins Air Force Base Battle Management Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2218",
+        "introduced": "2023-07-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2215",
+        "title": "Fort Gordon Cyber Center Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2215",
+        "introduced": "2023-07-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2192",
+        "title": "Georgia Citrus Development Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2192",
+        "introduced": "2023-06-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 2146",
+        "title": "Investing in VETS Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2146",
+        "introduced": "2023-06-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1977",
+        "title": "Junior Enlisted Housing Affordability Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1977",
+        "introduced": "2023-06-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1980",
+        "title": "Military Housing Wait Times Accountability Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1980",
+        "introduced": "2023-06-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1978",
+        "title": "Military Tenant Advocacy Improvement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1978",
+        "introduced": "2023-06-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1880",
+        "title": "Military Spouse Career Support Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1880",
+        "introduced": "2023-06-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1899",
+        "title": "Hydrogen Aviation Development Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1899",
+        "introduced": "2023-06-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1902",
+        "title": "Hydrogen Aviation Strategy Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1902",
+        "introduced": "2023-06-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1743",
+        "title": "Forest Data Modernization Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1743",
+        "introduced": "2023-05-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1683",
+        "title": "Kids Fly Safe Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1683",
+        "introduced": "2023-05-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1721",
+        "title": "Military Facilities Upgrades Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1721",
+        "introduced": "2023-05-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1623",
+        "title": "Fort Gordon Child Development Center Expansion Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1623",
+        "introduced": "2023-05-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1620",
+        "title": "Fort Gillem Defense Forensics Enhancement Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1620",
+        "introduced": "2023-05-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1621",
+        "title": "Military Mental Health Professionals Support Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1621",
+        "introduced": "2023-05-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1401",
+        "title": "Federal Prison Oversight Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1401",
+        "introduced": "2023-05-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 1347",
+        "title": "Military Families Mental Health Services Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1347",
+        "introduced": "2023-04-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 972",
+        "title": "Filling Public Safety Vacancies Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/972",
+        "introduced": "2023-03-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 874",
+        "title": "Farm Operations Support Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/874",
+        "introduced": "2023-03-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 643",
+        "title": "Farm Fresh Food for Families Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/643",
+        "introduced": "2023-03-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "S. 507",
+        "title": "Ralph David Abernathy, Sr., National Historic Site Act",
+        "url": "https://www.congress.gov/bill/118th-congress/senate-bill/507",
+        "introduced": "2023-02-16",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/O000174"
@@ -21,6 +653,169 @@
         "date": "2023-12-19"
       }
     ],
+    "all": [
+      {
+        "id": "H.R. 1734",
+        "title": "TRANQ Research Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1734",
+        "introduced": "2023-03-23",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 3898",
+        "title": "PERMIT Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3898",
+        "introduced": "2025-06-11",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 3679",
+        "title": "Small Business Artificial Intelligence Advancement Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3679",
+        "introduced": "2025-06-03",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 29",
+        "title": "Laken Riley Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/29",
+        "introduced": "2025-01-03",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 7511",
+        "title": "Laken Riley Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7511",
+        "introduced": "2024-03-01",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 8679",
+        "title": "To amend title 38, United States Code, to require the Secretary of Veterans Affairs to transmit a veteran's history of opioid prescriptions to a Community Care health care provider.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8679",
+        "introduced": "2026-05-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 158",
+        "title": "Encouraging States to establish \"Veterans Tax Relief Weekends\" that coincide with Memorial Day, Independence Day, and Veterans Day, providing a practical way for communities across the country to recognize the service of veterans and members of the Armed Forces by providing financial relief to them.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/158",
+        "introduced": "2026-04-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8079",
+        "title": "Diesel Truck Liberation Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8079",
+        "introduced": "2026-03-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5258",
+        "title": "Lawsuit Abuse Reduction Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5258",
+        "introduced": "2025-09-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4068",
+        "title": "Streamlining NEPA for Coal Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4068",
+        "introduced": "2025-06-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3900",
+        "title": "Water Quality Technology Availability Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3900",
+        "introduced": "2025-06-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3899",
+        "title": "Clarifying Federal General Permits Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3899",
+        "introduced": "2025-06-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2662",
+        "title": "Staged Accident Fraud Prevention Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2662",
+        "introduced": "2025-04-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1818",
+        "title": "Aviation Workforce Development Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1818",
+        "introduced": "2025-03-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1241",
+        "title": "SAFE for America Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1241",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1057",
+        "title": "Safe Passage on Interstates Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1057",
+        "introduced": "2025-02-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9197",
+        "title": "Small Business Artificial Intelligence Advancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9197",
+        "introduced": "2024-07-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8603",
+        "title": "ROAM Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8603",
+        "introduced": "2024-06-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 151",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Supplemental Effluent Limitations Guidelines and Standards for the Steam Electric Power Generating Point Source Category\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/151",
+        "introduced": "2024-05-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7349",
+        "title": "Safe Passage on Interstates Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7349",
+        "introduced": "2024-02-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7083",
+        "title": "RAZOR Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7083",
+        "introduced": "2024-01-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4373",
+        "title": "Weather Information for Agriculture Act.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4373",
+        "introduced": "2023-06-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1818",
+        "title": "Aviation Workforce Development Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1818",
+        "introduced": "2023-03-28",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/C001129"
@@ -36,6 +831,127 @@
         "title": "Georgia National Guard; the adjutant general to be the official sponsor of the state sponsored life insurance program; provide",
         "url": "https://openstates.org/ga/bills/2023_24/SB115/",
         "date": "2023-05-01"
+      }
+    ],
+    "all": [
+      {
+        "id": "SB 115",
+        "title": "Georgia National Guard; the adjutant general to be the official sponsor of the state sponsored life insurance program; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB115/",
+        "introduced": "2023-02-08",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 173",
+        "title": "Pleadings and Motions; movants to file notices of uncontested motions in superior courts and state courts; authorize",
+        "url": "https://openstates.org/ga/bills/2025_26/SB173/",
+        "introduced": "2025-02-13",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "SB 541",
+        "title": "Property; the placement of wheel restraints on trespassing motor vehicles; prohibit",
+        "url": "https://openstates.org/ga/bills/2025_26/SB541/",
+        "introduced": "2026-02-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 397",
+        "title": "Torts; remedies for deprivation of constitutional rights of state citizens by civil immigration enforcement officers; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB397/",
+        "introduced": "2026-01-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 396",
+        "title": "Labor and Industrial Relations; retaliatory actions by certain employers against certain employees for disclosing potentially unlawful activities; prohibit",
+        "url": "https://openstates.org/ga/bills/2025_26/SB396/",
+        "introduced": "2026-01-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 379",
+        "title": "\"Georgia Health Insurance Affordability and Consumer Protection Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB379/",
+        "introduced": "2026-01-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 363",
+        "title": "Electors; restrictions of voting rights for judicially incompetent persons; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB363/",
+        "introduced": "2025-03-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 227",
+        "title": "Labor and Industrial Relations; protections for freelance workers; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB227/",
+        "introduced": "2025-02-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 174",
+        "title": "Conduct of Proceedings in Criminal Trials; legislative intent; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB174/",
+        "introduced": "2025-02-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 25",
+        "title": "Pardons and Paroles; procedures when a person is denied parole after completing certain prerequisites; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB25/",
+        "introduced": "2025-01-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 586",
+        "title": "Grants of Pardons, Paroles, and Other Relief; procedures when a person is denied parole after completing certain prerequisites; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB586/",
+        "introduced": "2024-03-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 506",
+        "title": "Pleadings and Motions; movants to file notices of uncontested motions in superior courts and state courts; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB506/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 516",
+        "title": "Unfair or Deceptive Practices in Consumer Transactions; making of false or misleading statements regarding the limited supply of or the duration of discounted purchase prices for consumer goods; add example",
+        "url": "https://openstates.org/ga/bills/2023_24/SB516/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 521",
+        "title": "Labor and Industrial Relations; protections for freelance workers; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB521/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 247",
+        "title": "Removal of Improperly Parked Cars; a towing and storage firm from placing an instrument designed to restrict movement of a motor vehicle; prohibit",
+        "url": "https://openstates.org/ga/bills/2023_24/SB247/",
+        "introduced": "2023-02-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 245",
+        "title": "Proceedings in Criminal Trials; legislative intent; exceptions to rulings or orders of the court; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB245/",
+        "introduced": "2023-02-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 179",
+        "title": "Electors; restrictions of voting rights for judicially incompetent persons; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB179/",
+        "introduced": "2023-02-14",
+        "status": "Introduced"
       }
     ],
     "source": {
@@ -97,6 +1013,253 @@
         "date": "2025-05-13"
       }
     ],
+    "all": [
+      {
+        "id": "SB 140",
+        "title": "Optometrists; doctors of optometry to dispense and sell pharmaceutical agents to patients under certain conditions; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB140/",
+        "introduced": "2025-02-10",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 1",
+        "title": "'Fair and Safe Athletic Opportunities Act'; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB1/",
+        "introduced": "2025-01-13",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 430",
+        "title": "COVID-19 Pandemic Business Safety; provisions for rebuttable presumptions of risk by claimants in certain COVID-19 liability claims; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/SB430/",
+        "introduced": "2024-01-30",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 353",
+        "title": "Highways, Bridges, and Ferries; duties when death results from an accident upon a highway in certain instances; allow for delegation",
+        "url": "https://openstates.org/ga/bills/2023_24/SB353/",
+        "introduced": "2024-01-11",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 233",
+        "title": "'The Georgia Promise Scholarship Act'; establishment of promise scholarship accounts",
+        "url": "https://openstates.org/ga/bills/2023_24/SB233/",
+        "introduced": "2023-02-22",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 204",
+        "title": "Education Accountability; recognition of certain accrediting agencies as evaluators of the quality of education offered in public schools in this state; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB204/",
+        "introduced": "2023-02-16",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 26",
+        "title": "State Government; meetings and public hearings of development authorities and community improvement districts to be held by teleconference; permit",
+        "url": "https://openstates.org/ga/bills/2023_24/SB26/",
+        "introduced": "2023-01-26",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 1",
+        "title": "State Government; automatic repealer on the prohibition on state and local governments from requiring  proof of COVID vaccination for government services; remove",
+        "url": "https://openstates.org/ga/bills/2023_24/SB1/",
+        "introduced": "2023-01-09",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 429",
+        "title": "\"Small Business Protection Act of 2024\"; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/SB429/",
+        "introduced": "2024-01-30",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "SB 568",
+        "title": "Elections and Primaries; the list of eligible voters is posted and made public prior to each primary or election; require",
+        "url": "https://openstates.org/ga/bills/2025_26/SB568/",
+        "introduced": "2026-02-24",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 471",
+        "title": "Education; requires a student to wear a face mask or face covering while present on school property; eliminate automatic repeal provision",
+        "url": "https://openstates.org/ga/bills/2025_26/SB471/",
+        "introduced": "2026-02-06",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 463",
+        "title": "Specialized Land Transactions; business enterprises or business enterprises controlled by natural born persons from owning an interest in more than 500 single-family residential properties; prohibit",
+        "url": "https://openstates.org/ga/bills/2025_26/SB463/",
+        "introduced": "2026-02-04",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 445",
+        "title": "\"Georgia Promise Scholarship Act\"; public schools with a state-wide attendance zone and certain charter schools shall not be included in the separate list of public schools annually reported by the Office of Student Achievement; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB445/",
+        "introduced": "2026-02-02",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 152",
+        "title": "\"Georgia Promise Scholarship Act\"; the biological or adopted children of individuals who are foster parents and who meet certain conditions shall qualify for promise scholarship accounts; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB152/",
+        "introduced": "2025-02-12",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 61",
+        "title": "Delinquency; additional offenses over which superior courts are authorized to exercise exclusive original jurisdiction; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB61/",
+        "introduced": "2025-01-29",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 28",
+        "title": "\"Red Tape Rollback Act of 2025\"; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB28/",
+        "introduced": "2025-01-27",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 31",
+        "title": "Income Taxes; all income received as retirement benefits derived from service in the armed forces of the United States or the reserve components; exempt from taxation",
+        "url": "https://openstates.org/ga/bills/2025_26/SB31/",
+        "introduced": "2025-01-27",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 4",
+        "title": "Education; fundamental roles of local boards of education and local school superintendents; revise provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/SB4/",
+        "introduced": "2025-01-13",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 208",
+        "title": "'Georgia Development Impact Fee Act'; provide for fees for education",
+        "url": "https://openstates.org/ga/bills/2023_24/SB208/",
+        "introduced": "2023-02-16",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 99",
+        "title": "Certificate of Need Requirements; exemption for acute care hospitals established in rural counties that meet certain criteria; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB99/",
+        "introduced": "2023-02-06",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 486",
+        "title": "Laws and Statutes; provisions relating to the effect and enforcement of foreign laws; revise",
+        "url": "https://openstates.org/ga/bills/2025_26/SB486/",
+        "introduced": "2026-02-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 370",
+        "title": "Elections and Primaries; closed primaries; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB370/",
+        "introduced": "2025-03-31",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 178",
+        "title": "State Depository Board; allow the state treasurer to invest in Bitcoin; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB178/",
+        "introduced": "2025-02-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 38",
+        "title": "Development Impact Fees; provide for education",
+        "url": "https://openstates.org/ga/bills/2025_26/SB38/",
+        "introduced": "2025-01-28",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 3",
+        "title": "Prosecuting Attorneys; convictions for district attorneys, assistant district attorneys, deputy district attorneys; provide additional qualifications",
+        "url": "https://openstates.org/ga/bills/2025_26/SB3/",
+        "introduced": "2025-01-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 2",
+        "title": "State Income Tax; exclude tips from taxation",
+        "url": "https://openstates.org/ga/bills/2025_26/SB2/",
+        "introduced": "2025-01-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 452",
+        "title": "Banking and Finance and Property; regulations of motor vehicle title pawn transactions; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB452/",
+        "introduced": "2024-02-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 365",
+        "title": "Education; notification to parents and legal guardians of public school students of the right to receive email notification each time their child obtains school library materials; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB365/",
+        "introduced": "2024-01-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 361",
+        "title": "Meetings Open to the Public; authorized nonemergency teleconference meetings in which members of nonstatewide agencies participate;  increase the number",
+        "url": "https://openstates.org/ga/bills/2023_24/SB361/",
+        "introduced": "2024-01-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 261",
+        "title": "Education; postsecondary educational institutions, local school systems; prohibit the use of political litmus tests",
+        "url": "https://openstates.org/ga/bills/2023_24/SB261/",
+        "introduced": "2023-02-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 242",
+        "title": "Statute of Frauds; agreements with a value in excess of $10,000.00 shall be in writing; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB242/",
+        "introduced": "2023-02-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 186",
+        "title": "\"Georgia Landowners Protection Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/SB186/",
+        "introduced": "2023-02-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 183",
+        "title": "Ticket Brokers; exception permitting certain resale restrictions; remove",
+        "url": "https://openstates.org/ga/bills/2023_24/SB183/",
+        "introduced": "2023-02-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 154",
+        "title": "Sale or Distribution of Harmful Materials to Minors; provisions of Code Section 16-12-103 shall be applicable to libraries operated by schools; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB154/",
+        "introduced": "2023-02-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 2",
+        "title": "Torts; certain immunities from liability claims regarding COVID-19; provisions; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/SB2/",
+        "introduced": "2023-01-11",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Open States",
       "url": "https://openstates.org/person/greg-dolezal-xPt9CGpMZqDulbva8JwQW/"
@@ -150,6 +1313,141 @@
         "date": "2025-05-09"
       }
     ],
+    "all": [
+      {
+        "id": "HB 1503",
+        "title": "Covington, City of; ad valorem tax for municipal purposes; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1503/",
+        "introduced": "2026-03-03",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1391",
+        "title": "Specialty license plates; honor public safety officers; establish",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1391/",
+        "introduced": "2026-02-19",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 743",
+        "title": "Social Circle, City of; ad valorem tax; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB743/",
+        "introduced": "2025-03-10",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 150",
+        "title": "Combating Threats from China Act of 2025 - Higher Education; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB150/",
+        "introduced": "2025-01-28",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1475",
+        "title": "Covington, City of; change corporate limits",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1475/",
+        "introduced": "2024-03-13",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1477",
+        "title": "Oxford, City of; change corporate limits",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1477/",
+        "introduced": "2024-03-13",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1207",
+        "title": "Elections; proofing of ballots by local superintendents in certain races; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1207/",
+        "introduced": "2024-02-08",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 397",
+        "title": "Elections; allow municipalities to opt in to providing advance voting on Saturdays for municipal elections",
+        "url": "https://openstates.org/ga/bills/2025_26/HB397/",
+        "introduced": "2025-02-11",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "HB 306",
+        "title": "Education; energy cost savings measures; revise definition",
+        "url": "https://openstates.org/ga/bills/2023_24/HB306/",
+        "introduced": "2023-02-08",
+        "status": "Passed the House"
+      },
+      {
+        "id": "HB 18",
+        "title": "Morgan County; ad valorem tax; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2026_ss/HB18/",
+        "introduced": "2026-06-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 20",
+        "title": "Madison, City of; ad valorem tax; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2026_ss/HB20/",
+        "introduced": "2026-06-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 56",
+        "title": "Social Circle, City of; ad valorem tax; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2026_ss/HB56/",
+        "introduced": "2026-06-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1467",
+        "title": "Elections; motor-voter applications shall be opt-in instead of opt-out; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1467/",
+        "introduced": "2026-02-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 913",
+        "title": "Administrative Service, Department of; prohibit a governmental entity from entering into contracts for the licensing of certain software applications",
+        "url": "https://openstates.org/ga/bills/2025_26/HB913/",
+        "introduced": "2025-04-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 602",
+        "title": "Education; denial of state funds for loans, grants, and scholarships for any student convicted of a criminal offense; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB602/",
+        "introduced": "2025-02-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 390",
+        "title": "HALO Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB390/",
+        "introduced": "2025-02-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1224",
+        "title": "Postsecondary education; revise definition of approved school; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1224/",
+        "introduced": "2024-02-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 840",
+        "title": "Torts; right of action against any person who knowingly or negligently engages in sexually explicit conduct in the presence of a minor; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB840/",
+        "introduced": "2023-03-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 347",
+        "title": "Alternative ad valorem tax; rental motor vehicle; revise definition",
+        "url": "https://openstates.org/ga/bills/2023_24/HB347/",
+        "introduced": "2023-02-09",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Open States",
       "url": "https://openstates.org/person/tim-fleming-6JhfWeqahtE9l9nk9CBHxe/"
@@ -160,6 +1458,78 @@
     "wrote": 10,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "HB 1520",
+        "title": "Rental Pricing Integrity Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1520/",
+        "introduced": "2026-03-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1521",
+        "title": "Ponzi Scheme Prevention Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1521/",
+        "introduced": "2026-03-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 826",
+        "title": "Overtime Income Tax Exemption Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB826/",
+        "introduced": "2025-03-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 733",
+        "title": "Georgia Insurance Consumer and Policyholder Advocacy Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB733/",
+        "introduced": "2025-03-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 729",
+        "title": "Georgia Maternity Care Desert Reduction Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB729/",
+        "introduced": "2025-03-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 306",
+        "title": "Labor and industrial relations; cause of action for workplace harassment and retaliation; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB306/",
+        "introduced": "2025-02-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 294",
+        "title": "Quality Basic Education Act; require State Board of Education to review and update policies, guidelines, and processes for awarding units of high school credit to students based on a demonstration of subject area competency",
+        "url": "https://openstates.org/ga/bills/2025_26/HB294/",
+        "introduced": "2025-02-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 293",
+        "title": "Education; Protect Students First Act; repeal various provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB293/",
+        "introduced": "2025-02-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1164",
+        "title": "Crimes and offenses; offense of criminal trespass involving a wild animal; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1164/",
+        "introduced": "2024-02-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 325",
+        "title": "Transparency in Policing Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB325/",
+        "introduced": "2023-02-08",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Open States",
       "url": "https://openstates.org/person/tanya-miller-3MBdKu9mhwJ72YY6DoB7pl/"
@@ -279,6 +1649,225 @@
         "date": "2025-05-13"
       }
     ],
+    "all": [
+      {
+        "id": "SB 569",
+        "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB569/",
+        "introduced": "2026-02-24",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 547",
+        "title": "Offenses of Pimping and Pandering; modify the penalties",
+        "url": "https://openstates.org/ga/bills/2025_26/SB547/",
+        "introduced": "2026-02-20",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 433",
+        "title": "\"Rio's Law\"",
+        "url": "https://openstates.org/ga/bills/2025_26/SB433/",
+        "introduced": "2026-01-28",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 329",
+        "title": "Flint Judicial Circuit; chief judge; annual stipend in addition to county compensation to superior court judges; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB329/",
+        "introduced": "2025-03-10",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 328",
+        "title": "State Court of Henry County; additional judge; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB328/",
+        "introduced": "2025-03-10",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 237",
+        "title": "Newton County Public Facilities Authority; contracts and borrowing of funds; revise provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/SB237/",
+        "introduced": "2025-02-21",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 207",
+        "title": "Professions and Businesses; a preclearance process in the licensing of individuals with criminal records who make application to or are investigated by certain licensing boards and commissions; create",
+        "url": "https://openstates.org/ga/bills/2025_26/SB207/",
+        "introduced": "2025-02-19",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 132",
+        "title": "Insanity and Mental Incapacity; hearing before a court orders an evaluation of the mental competency of an accused person to stand trial; require",
+        "url": "https://openstates.org/ga/bills/2025_26/SB132/",
+        "introduced": "2025-02-10",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 580",
+        "title": "City of Madison; mayor's vote when the city council is electing a mayor pro tempore; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/SB580/",
+        "introduced": "2024-03-13",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 572",
+        "title": "Probate Court of Morgan County; assessment and collection of a technology fee; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB572/",
+        "introduced": "2024-03-05",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 574",
+        "title": "Alcovy Judicial Circuit; counties that make up said judicial circuit to provide additional investigators to the district attorney; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB574/",
+        "introduced": "2024-03-05",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 573",
+        "title": "Magistrate Court of Morgan County; the assessment and collection of a technology fee; authorize",
+        "url": "https://openstates.org/ga/bills/2023_24/SB573/",
+        "introduced": "2024-03-05",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 533",
+        "title": "Proceedings; jail-based competency restoration programs; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB533/",
+        "introduced": "2024-02-20",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 456",
+        "title": "Central Caregiver Registry; disabled persons to the registry; add",
+        "url": "https://openstates.org/ga/bills/2023_24/SB456/",
+        "introduced": "2024-02-06",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 454",
+        "title": "Alimony and Child Support;  guidelines for child support award calculations; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB454/",
+        "introduced": "2024-02-06",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 375",
+        "title": "Behavioral Health Coordinating Council; add commissioner of veterans service",
+        "url": "https://openstates.org/ga/bills/2023_24/SB375/",
+        "introduced": "2024-01-23",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 133",
+        "title": "Juvenile Code; a uniform process to assume custody of children as a result of disposition orders; create",
+        "url": "https://openstates.org/ga/bills/2023_24/SB133/",
+        "introduced": "2023-02-09",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 61",
+        "title": "Sick Leave for Care of Immediate Family Members; sunset provision relating to such sick leave requirements; repeal",
+        "url": "https://openstates.org/ga/bills/2023_24/SB61/",
+        "introduced": "2023-01-31",
+        "status": "Became law"
+      },
+      {
+        "id": "SB 455",
+        "title": "Medical Assistance; provisions to comply with federal law; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/SB455/",
+        "introduced": "2024-02-06",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "SB 157",
+        "title": "Professions and Businesses; preclearance process in the licensing of individuals with criminal records who make an application to or are investigated by certain licensing boards and commissions; create",
+        "url": "https://openstates.org/ga/bills/2023_24/SB157/",
+        "introduced": "2023-02-13",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "SB 572",
+        "title": "Criminal Prosecutions; an additional justification for use of force in defense of self or others; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB572/",
+        "introduced": "2026-02-24",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 482",
+        "title": "Law Enforcement Officers and Agencies; persons requesting booking photographs to provide the first and last names of the individuals in the photographs; require",
+        "url": "https://openstates.org/ga/bills/2025_26/SB482/",
+        "introduced": "2026-02-09",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 89",
+        "title": "Income Taxes; amount of a tax credit based on the federal tax credit for certain child and dependent care expenses; increase",
+        "url": "https://openstates.org/ga/bills/2025_26/SB89/",
+        "introduced": "2025-02-04",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 371",
+        "title": "\"Daniel D. Podsiadly, Jr. Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/SB371/",
+        "introduced": "2024-01-22",
+        "status": "Passed the Senate"
+      },
+      {
+        "id": "SB 374",
+        "title": "Buildings; local fire ordinances requiring fire sprinklers in certain multifamily dwellings; authorize",
+        "url": "https://openstates.org/ga/bills/2025_26/SB374/",
+        "introduced": "2025-04-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 371",
+        "title": "Mental Health and Penal Institutions; grant program to create peer support programs in hospitals; establish",
+        "url": "https://openstates.org/ga/bills/2025_26/SB371/",
+        "introduced": "2025-04-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 279",
+        "title": "\"Daniel D. Podsiadly, Jr. Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/SB279/",
+        "introduced": "2025-02-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 569",
+        "title": "Criminal Procedure; requirements for bail hearings for illegal aliens and removable or inadmissible aliens charged with a felony; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/SB569/",
+        "introduced": "2024-03-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 283",
+        "title": "\"Pregnancy Protection Act\"; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/SB283/",
+        "introduced": "2023-03-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 282",
+        "title": "Labor and Industrial Relations; private employers from preventing an employee from engaging in certain protected activities; prohibit",
+        "url": "https://openstates.org/ga/bills/2023_24/SB282/",
+        "introduced": "2023-03-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "SB 143",
+        "title": "Appellate Court Judges; eligibility for retirement benefits; decrease the age",
+        "url": "https://openstates.org/ga/bills/2023_24/SB143/",
+        "introduced": "2023-02-09",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Open States",
       "url": "https://openstates.org/person/brian-strickland-1m5NC4TmZfmQIdJ10bBd6H/"
@@ -296,6 +1885,85 @@
         "date": "2025-01-04"
       }
     ],
+    "all": [
+      {
+        "id": "H.R. 9600",
+        "title": "To designate the facility of the United States Postal Service located at 119 Main Street in Plains, Georgia, as the \"Jimmy and Rosalynn Carter Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9600",
+        "introduced": "2024-09-16",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 7761",
+        "title": "Heirs Education and Investment to Resolve Succession of Property Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7761",
+        "introduced": "2026-03-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7762",
+        "title": "Protecting Our Produce Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7762",
+        "introduced": "2026-03-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5422",
+        "title": "Military Housing Performance Insight Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5422",
+        "introduced": "2025-09-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1369",
+        "title": "President Jimmy Carter Congressional Gold Medal Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1369",
+        "introduced": "2025-02-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 333",
+        "title": "Disabled Veterans Tax Termination Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/333",
+        "introduced": "2025-01-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9647",
+        "title": "President Jimmy Carter Congressional Gold Medal Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9647",
+        "introduced": "2024-09-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9240",
+        "title": "Protecting Our Produce Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9240",
+        "introduced": "2024-08-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8198",
+        "title": "Heirs Education and Investment to Resolve Succession of Property Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8198",
+        "introduced": "2024-05-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1480",
+        "title": "Beagle Brigade Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1480",
+        "introduced": "2023-03-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 333",
+        "title": "Disabled Veterans Tax Termination Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/333",
+        "introduced": "2023-01-12",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/B000490"
@@ -306,6 +1974,29 @@
     "wrote": 3,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "H.R. 6330",
+        "title": "Federal Relocation Payment Improvement Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6330",
+        "introduced": "2025-12-01",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 4624",
+        "title": "Muhammad Ali American Boxing Revival Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4624",
+        "introduced": "2025-07-23",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 3148",
+        "title": "SALUTE Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3148",
+        "introduced": "2025-05-01",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/J000311"
@@ -316,6 +2007,232 @@
     "wrote": 32,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "H.J.Res. 209",
+        "title": "Supporting the designation of November 9 of each year as \"Gold Star Father's Day\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/209",
+        "introduced": "2026-08-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9784",
+        "title": "Justice is BLIND Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9784",
+        "introduced": "2026-07-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9408",
+        "title": "Open Meetings Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9408",
+        "introduced": "2026-06-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7766",
+        "title": "Stop Militarizing Law Enforcement Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7766",
+        "introduced": "2026-03-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6091",
+        "title": "Bivens Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6091",
+        "introduced": "2025-11-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6092",
+        "title": "Constitutional Accountability Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6092",
+        "introduced": "2025-11-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5350",
+        "title": "FAIR Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5350",
+        "introduced": "2025-09-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4678",
+        "title": "RAP Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4678",
+        "introduced": "2025-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3544",
+        "title": "Supreme Court Tenure Establishment and Retirement Modernization Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3544",
+        "introduced": "2025-05-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3513",
+        "title": "Supreme Court Ethics, Recusal, and Transparency Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3513",
+        "introduced": "2025-05-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3449",
+        "title": "Stronger Communities through Better Transit Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3449",
+        "introduced": "2025-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3150",
+        "title": "TRUST Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3150",
+        "introduced": "2025-05-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1929",
+        "title": "JUDGES Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1929",
+        "introduced": "2025-03-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 945",
+        "title": "To award a Congressional Gold Medal to the Freedom Riders, collectively, in recognition of their unique contribution to Civil Rights, which inspired a revolutionary movement for equality in interstate travel.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/945",
+        "introduced": "2025-02-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9868",
+        "title": "Effective Death Penalty Appeals Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9868",
+        "introduced": "2024-09-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9674",
+        "title": "Judiciary Accountability Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9674",
+        "introduced": "2024-09-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9262",
+        "title": "Bivens Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9262",
+        "introduced": "2024-08-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9210",
+        "title": "Criminal Judicial Administration Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9210",
+        "introduced": "2024-07-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7039",
+        "title": "Stronger Communities through Better Transit Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7039",
+        "introduced": "2024-01-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6820",
+        "title": "Small Business Contracting Fairness Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6820",
+        "introduced": "2023-12-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6596",
+        "title": "Gun Violence Prevention and Community Safety Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6596",
+        "introduced": "2023-12-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5566",
+        "title": "Supreme Court Tenure Establishment and Retirement Modernization Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5566",
+        "introduced": "2023-09-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4032",
+        "title": "Hydrogen Aviation Strategy Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4032",
+        "introduced": "2023-06-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 65",
+        "title": "Designating November 9th of each year as \"Gold Star Father's Day\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/65",
+        "introduced": "2023-05-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3422",
+        "title": "Judiciary Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3422",
+        "introduced": "2023-05-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3185",
+        "title": "DCA Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3185",
+        "introduced": "2023-05-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2953",
+        "title": "FAIR Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2953",
+        "introduced": "2023-04-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2952",
+        "title": "RAP Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2952",
+        "introduced": "2023-04-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2428",
+        "title": "Minorities in Aviation Education Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2428",
+        "introduced": "2023-03-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1247",
+        "title": "To award a Congressional Gold Medal to the Freedom Riders, collectively, in recognition of their unique contribution to Civil Rights, which inspired a revolutionary movement for equality in interstate travel.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1247",
+        "introduced": "2023-02-28",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 927",
+        "title": "Supreme Court Ethics Act.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/927",
+        "introduced": "2023-02-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 926",
+        "title": "Supreme Court Ethics, Recusal, and Transparency Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/926",
+        "introduced": "2023-02-09",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/J000288"
@@ -326,6 +2243,575 @@
     "wrote": 81,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "H.R. 4423",
+        "title": "No New Burma Funds Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4423",
+        "introduced": "2025-07-15",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.J.Res. 216",
+        "title": "Proposing an amendment to the Constitution of the United States to prohibit the use of slavery and involuntary servitude as a punishment for a crime.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/216",
+        "introduced": "2026-09-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10239",
+        "title": "Equal Pay for Equal Work Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10239",
+        "introduced": "2026-09-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10182",
+        "title": "CEDS Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10182",
+        "introduced": "2026-08-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9946",
+        "title": "Equity in STI Testing Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9946",
+        "introduced": "2026-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9890",
+        "title": "Polling Place Standards Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9890",
+        "introduced": "2026-07-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9493",
+        "title": "Home Internet Accessibility Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9493",
+        "introduced": "2026-06-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9380",
+        "title": "Expanding Access to Credit through Consumer-Permissioned Data Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9380",
+        "introduced": "2026-06-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9309",
+        "title": "PRIDE Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9309",
+        "introduced": "2026-06-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8950",
+        "title": "REPORTS Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8950",
+        "introduced": "2026-05-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8716",
+        "title": "Blood Pressure MATTERS Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8716",
+        "introduced": "2026-05-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8717",
+        "title": "Negating Neighborhood Noise Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8717",
+        "introduced": "2026-05-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 171",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to the withdrawal of the rule relating to \"Bulletin 2022-06: Unfair Returned Deposited Item Fee Assessment Practices\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/171",
+        "introduced": "2026-04-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8459",
+        "title": "WISE Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8459",
+        "introduced": "2026-04-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8361",
+        "title": "Clean Slate through Rehabilitation Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8361",
+        "introduced": "2026-04-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8317",
+        "title": "Tech to Save Moms Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8317",
+        "introduced": "2026-04-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8246",
+        "title": "OHH SNAP Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8246",
+        "introduced": "2026-04-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6682",
+        "title": "Endometriosis CARE Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6682",
+        "introduced": "2025-12-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6245",
+        "title": "PLAY Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6245",
+        "introduced": "2025-11-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6045",
+        "title": "COACH Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6045",
+        "introduced": "2025-11-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5990",
+        "title": "Whole-Home Repairs Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5990",
+        "introduced": "2025-11-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5925",
+        "title": "HHS Reproductive and Sexual Health Ombuds Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5925",
+        "introduced": "2025-11-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5417",
+        "title": "Health Access Innovation Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5417",
+        "introduced": "2025-09-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5099",
+        "title": "SAFES Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5099",
+        "introduced": "2025-09-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4917",
+        "title": "Expanding the VOTE Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4917",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4912",
+        "title": "Help America Run Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4912",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4916",
+        "title": "Youth Voting Rights Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4916",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4915",
+        "title": "Election Mail Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4915",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4908",
+        "title": "Time Off to Vote Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4908",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4909",
+        "title": "Voters on the Move Registration Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4909",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4913",
+        "title": "CHALLENGES Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4913",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4914",
+        "title": "Unhoused Voter Opportunity Through Elections Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4914",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4911",
+        "title": "POLL Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4911",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4910",
+        "title": "Sustaining Our Democracy Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4910",
+        "introduced": "2025-08-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4827",
+        "title": "Medical Debt Relief Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4827",
+        "introduced": "2025-07-29",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4623",
+        "title": "Plain Prescription Prices Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4623",
+        "introduced": "2025-07-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4150",
+        "title": "Advancing Maternal Health Equity Under Medicaid Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4150",
+        "introduced": "2025-06-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4066",
+        "title": "Countering White Supremacist Extremism Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4066",
+        "introduced": "2025-06-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3793",
+        "title": "Minority Entrepreneurship Grant Program Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3793",
+        "introduced": "2025-06-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3665",
+        "title": "Medicare Economic Security Solutions Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3665",
+        "introduced": "2025-05-29",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2967",
+        "title": "Ralph David Abernathy, Sr. National Historic Site Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2967",
+        "introduced": "2025-04-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2906",
+        "title": "SERVICE Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2906",
+        "introduced": "2025-04-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2905",
+        "title": "Ensuring Agency Service Quality Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2905",
+        "introduced": "2025-04-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1640",
+        "title": "HEIRS Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1640",
+        "introduced": "2025-02-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10562",
+        "title": "REPORTS Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/10562",
+        "introduced": "2024-12-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10316",
+        "title": "Expanding Access to Credit through Consumer-Permissioned Data Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/10316",
+        "introduced": "2024-12-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10079",
+        "title": "COACH Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/10079",
+        "introduced": "2024-10-29",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9989",
+        "title": "PRIDE Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9989",
+        "introduced": "2024-10-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9424",
+        "title": "Equal Pay for Equal Work Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9424",
+        "introduced": "2024-08-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9344",
+        "title": "Promotion of Youth Sports Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9344",
+        "introduced": "2024-08-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8877",
+        "title": "SAFES Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8877",
+        "introduced": "2024-06-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8852",
+        "title": "East Point Water Infrastructure Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8852",
+        "introduced": "2024-06-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8853",
+        "title": "City of Atlanta Water Infrastructure Enhancement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8853",
+        "introduced": "2024-06-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8565",
+        "title": "Endometriosis CARE Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8565",
+        "introduced": "2024-05-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8127",
+        "title": "HEIRS Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8127",
+        "introduced": "2024-04-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7970",
+        "title": "Plain Prescription Prices Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7970",
+        "introduced": "2024-04-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7429",
+        "title": "Negating Neighborhood Noise Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7429",
+        "introduced": "2024-02-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6457",
+        "title": "Minority Entrepreneurship Grant Program Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6457",
+        "introduced": "2023-11-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5825",
+        "title": "CEDS Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5825",
+        "introduced": "2023-09-28",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5520",
+        "title": "Health Equity Innovation Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5520",
+        "introduced": "2023-09-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5293",
+        "title": "Youth Voting Rights Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5293",
+        "introduced": "2023-08-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5292",
+        "title": "Sustaining Our Democracy Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5292",
+        "introduced": "2023-08-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5291",
+        "title": "People Over Long Lines Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5291",
+        "introduced": "2023-08-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5290",
+        "title": "Voters on the Move Registration Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5290",
+        "introduced": "2023-08-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5294",
+        "title": "Unhoused Voter Opportunity Through Elections Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5294",
+        "introduced": "2023-08-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5295",
+        "title": "Expanding the VOTE Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5295",
+        "introduced": "2023-08-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5066",
+        "title": "Tech to Save Moms Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5066",
+        "introduced": "2023-07-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4594",
+        "title": "Clean Slate through Rehabilitation Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4594",
+        "introduced": "2023-07-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4456",
+        "title": "OHH SNAP Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4456",
+        "introduced": "2023-06-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 72",
+        "title": "Proposing an amendment to the Constitution of the United States to prohibit the use of slavery and involuntary servitude as a punishment for a crime.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/72",
+        "introduced": "2023-06-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3551",
+        "title": "Kids Fly Safe Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3551",
+        "introduced": "2023-05-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3078",
+        "title": "Sunlight in Workplace Harassment Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3078",
+        "introduced": "2023-05-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2987",
+        "title": "Election Mail Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2987",
+        "introduced": "2023-04-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2921",
+        "title": "WISE Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2921",
+        "introduced": "2023-04-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2456",
+        "title": "Know Your Body Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2456",
+        "introduced": "2023-03-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1150",
+        "title": "John Lewis Civil Rights Fellowship Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1150",
+        "introduced": "2023-02-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 973",
+        "title": "Thomas W. Dortch, Jr. Congressional Gold Medal Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/973",
+        "introduced": "2023-02-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 827",
+        "title": "Home Internet Accessibility Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/827",
+        "introduced": "2023-02-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 737",
+        "title": "Ralph David Abernathy, Sr. National Historic Site Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/737",
+        "introduced": "2023-02-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 491",
+        "title": "Return Home to Housing Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/491",
+        "introduced": "2023-01-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 445",
+        "title": "HHS Reproductive and Sexual Health Ombuds Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/445",
+        "introduced": "2023-01-20",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/W000788"
@@ -349,6 +2835,225 @@
         "date": "2024-07-25"
       }
     ],
+    "all": [
+      {
+        "id": "H.R. 5646",
+        "title": "Stop Campus Hazing Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5646",
+        "introduced": "2023-09-21",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 3019",
+        "title": "Federal Prison Oversight Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3019",
+        "introduced": "2023-04-28",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 10631",
+        "title": "Smaller Class Sizes for Students and Educators Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10631",
+        "introduced": "2026-09-28",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10281",
+        "title": "FEMA for Safe Recovery Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10281",
+        "introduced": "2026-09-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10031",
+        "title": "READ Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10031",
+        "introduced": "2026-08-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9754",
+        "title": "Health Claim Denial Transparency Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9754",
+        "introduced": "2026-07-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8937",
+        "title": "Early Childhood Workforce Advancement Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8937",
+        "introduced": "2026-05-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8304",
+        "title": "CREATES Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8304",
+        "introduced": "2026-04-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8055",
+        "title": "Extending WIC for New Moms Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8055",
+        "introduced": "2026-03-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7599",
+        "title": "Federal Extreme Risk Protection Order Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7599",
+        "introduced": "2026-02-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7333",
+        "title": "Family Violence Prevention and Services Improvement Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7333",
+        "introduced": "2026-02-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5476",
+        "title": "Preparing And Retaining All (PARA) Educators Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5476",
+        "introduced": "2025-09-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4701",
+        "title": "Charting My Path for Future Success Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4701",
+        "introduced": "2025-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4602",
+        "title": "Countering Threats and Attacks on Our Judges Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4602",
+        "introduced": "2025-07-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3985",
+        "title": "Helping Student Parents Succeed Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3985",
+        "introduced": "2025-06-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3115",
+        "title": "Assault Weapons Ban of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+        "introduced": "2025-04-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3114",
+        "title": "Clean Slate Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3114",
+        "introduced": "2025-04-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2789",
+        "title": "Adult Education WORKS Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2789",
+        "introduced": "2025-04-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2790",
+        "title": "GOSAFE Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2790",
+        "introduced": "2025-04-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1132",
+        "title": "To amend the Workforce Innovation and Opportunity Act to direct the Secretary of Labor to award grants to community colleges for high-quality workforce development programs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1132",
+        "introduced": "2025-02-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9570",
+        "title": "Smaller Class Sizes for Students and Educators Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9570",
+        "introduced": "2024-09-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8947",
+        "title": "To amend the Workforce Innovation and Opportunity Act to direct the Secretary of Labor to award grants to community colleges for high-quality workforce development programs.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8947",
+        "introduced": "2024-07-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8600",
+        "title": "GOSAFE Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8600",
+        "introduced": "2024-06-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6704",
+        "title": "CReatES Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6704",
+        "introduced": "2023-12-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6601",
+        "title": "TRAIN Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6601",
+        "introduced": "2023-12-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6246",
+        "title": "END Child Exploitation Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6246",
+        "introduced": "2023-11-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5987",
+        "title": "Adult Education WORKS Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5987",
+        "introduced": "2023-10-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3332",
+        "title": "Extending WIC for New Moms Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3332",
+        "introduced": "2023-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3151",
+        "title": "WIC Healthy Beginnings Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3151",
+        "introduced": "2023-05-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3018",
+        "title": "Federal Extreme Risk Protection Order Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3018",
+        "introduced": "2023-04-28",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2604",
+        "title": "Family Violence Prevention and Services Improvement Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2604",
+        "introduced": "2023-04-13",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/M001208"
@@ -359,6 +3064,239 @@
     "wrote": 33,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "H.R. 1486",
+        "title": "Economic Espionage Prevention Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1486",
+        "introduced": "2025-02-21",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 8361",
+        "title": "Economic Espionage Prevention Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8361",
+        "introduced": "2024-05-10",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 6602",
+        "title": "To amend the Export Control Reform Act of 2018 relating to the review of the interagency dispute resolution process.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6602",
+        "introduced": "2023-12-05",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 10784",
+        "title": "To amend the Internal Revenue Code of 1986 to provide home ownership assistance, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10784",
+        "introduced": "2026-10-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10501",
+        "title": "Communist Control Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10501",
+        "introduced": "2026-09-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9991",
+        "title": "STOP the SWAMP Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9991",
+        "introduced": "2026-07-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9919",
+        "title": "Ban Birth Tourism Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9919",
+        "introduced": "2026-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9755",
+        "title": "Biotechnology Diplomacy Leadership Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9755",
+        "introduced": "2026-07-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8938",
+        "title": "Biotechnology Workforce Alignment Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8938",
+        "introduced": "2026-05-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8580",
+        "title": "Forestry Protection Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8580",
+        "introduced": "2026-04-29",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8455",
+        "title": "Make DC Square Again Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8455",
+        "introduced": "2026-04-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8269",
+        "title": "CLEAR LABELS Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8269",
+        "introduced": "2026-04-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7962",
+        "title": "Export Dispute Resolution Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7962",
+        "introduced": "2026-03-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7660",
+        "title": "HBCU Empowerment and Reform Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7660",
+        "introduced": "2026-02-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7649",
+        "title": "Humanitarian Theft Enforcement Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7649",
+        "introduced": "2026-02-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6211",
+        "title": "Medical Professional Access Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6211",
+        "introduced": "2025-11-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5477",
+        "title": "Litigation Reimbursement Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5477",
+        "introduced": "2025-09-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5438",
+        "title": "Incentivize Savings Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5438",
+        "introduced": "2025-09-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4704",
+        "title": "ROTOR Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4704",
+        "introduced": "2025-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4042",
+        "title": "STATES Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4042",
+        "introduced": "2025-06-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 874",
+        "title": "To amend title 38, United States Code, to modify the rate of pay for care or services provided under the Community Care Program of the Department of Veterans Affairs based on the location at which such care or services were provided, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/874",
+        "introduced": "2025-01-31",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 873",
+        "title": "To amend title 10, United States Code, to modify the rate of pay for care or services provided under the TRICARE program based on the location at which such care or services were provided.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/873",
+        "introduced": "2025-01-31",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 742",
+        "title": "PROTECTS Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/742",
+        "introduced": "2025-01-28",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9084",
+        "title": "STOP the SWAMP Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9084",
+        "introduced": "2024-07-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9045",
+        "title": "Community Association Reporting Exemption Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9045",
+        "introduced": "2024-07-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7183",
+        "title": "PROTECTS Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7183",
+        "introduced": "2024-02-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6542",
+        "title": "Immigration Visa Efficiency and Security Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6542",
+        "introduced": "2023-12-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6010",
+        "title": "Stop the Iranian Hostage Business Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6010",
+        "introduced": "2023-10-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5925",
+        "title": "Make Putin Pay Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5925",
+        "introduced": "2023-10-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4554",
+        "title": "Ukraine Aid Oversight Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4554",
+        "introduced": "2023-07-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4430",
+        "title": "E-Verify Data Privacy and Wrongful Unemployment Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4430",
+        "introduced": "2023-06-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3915",
+        "title": "Aviation Weather Improvement Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3915",
+        "introduced": "2023-06-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1775",
+        "title": "AUDIT Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1775",
+        "introduced": "2023-03-24",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/M001218"
@@ -382,6 +3320,113 @@
         "date": "2025-01-02"
       }
     ],
+    "all": [
+      {
+        "id": "H.R. 8322",
+        "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8322",
+        "introduced": "2026-04-16",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 6983",
+        "title": "To designate the facility of the United States Postal Service located at 15 South Valdosta Road in Lakeland, Georgia, as the \"Nell Patten Roquemore Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6983",
+        "introduced": "2024-01-11",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 8884",
+        "title": "Removing Barriers to Work for Disabled Americans Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8884",
+        "introduced": "2026-05-19",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 6019",
+        "title": "To repeal certain provisions relating to notification to Senate offices regarding legal process on disclosure of Senate data, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6019",
+        "introduced": "2025-11-12",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 9933",
+        "title": "South Atlantic Red Snapper Fair Access Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9933",
+        "introduced": "2026-07-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9416",
+        "title": "Ocmulgee Mounds National Park Redesignation Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9416",
+        "introduced": "2026-06-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8863",
+        "title": "To amend title 5, United States Code, to add certain employees of the Bureau of Alcohol, Tobacco, Firearms and Explosives to the definition of employees in fire protection activities for the purpose of compensation for certain illnesses and diseases deemed to be proximately caused by employment in fire protection activities.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8863",
+        "introduced": "2026-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7559",
+        "title": "To amend the Internal Revenue Code of 1986 to deny deduction for outsourcing payments.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7559",
+        "introduced": "2026-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7475",
+        "title": "Expedited Guaranteed Lender Pilot Program Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7475",
+        "introduced": "2026-02-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7120",
+        "title": "Purple Heart Freedom to Work Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7120",
+        "introduced": "2026-01-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6598",
+        "title": "Commodity Futures Trading Commission Research and Development Modernization Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6598",
+        "introduced": "2025-12-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2345",
+        "title": "Ocmulgee Mounds National Park and Preserve Establishment Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2345",
+        "introduced": "2025-03-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8182",
+        "title": "Ocmulgee Mounds National Park and Preserve Establishment Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8182",
+        "introduced": "2024-04-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8055",
+        "title": "Ensuring Access to Risk Management Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8055",
+        "introduced": "2024-04-17",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1841",
+        "title": "Purple Heart Freedom to Work Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1841",
+        "introduced": "2023-03-28",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/S001189"
@@ -403,6 +3448,330 @@
         "title": "Disapproving the action of the District of Columbia Council in approving the Revised Criminal Code Act of 2022.",
         "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/26",
         "date": "2023-03-20"
+      }
+    ],
+    "all": [
+      {
+        "id": "H.J.Res. 42",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/42",
+        "introduced": "2025-02-12",
+        "status": "Became law"
+      },
+      {
+        "id": "H.J.Res. 26",
+        "title": "Disapproving the action of the District of Columbia Council in approving the Revised Criminal Code Act of 2022.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/26",
+        "introduced": "2023-02-02",
+        "status": "Became law"
+      },
+      {
+        "id": "H.J.Res. 42",
+        "title": "Disapproving the action of the District of Columbia Council in approving the Comprehensive Policing and Justice Reform Amendment Act of 2022.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/42",
+        "introduced": "2023-03-09",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "H.R. 5107",
+        "title": "Common-Sense Law Enforcement and Accountability Now in DC Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5107",
+        "introduced": "2025-09-03",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 6046",
+        "title": "Standing Against Houthi Aggression Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6046",
+        "introduced": "2023-10-25",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.J.Res. 44",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Alcohol, Tobacco, Firearms, and Explosives relating to \"Factoring Criteria for Firearms with Attached 'Stabilizing Braces'\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/44",
+        "introduced": "2023-03-17",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 10377",
+        "title": "MAGA Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10377",
+        "introduced": "2026-09-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9453",
+        "title": "End EPA Abuse Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9453",
+        "introduced": "2026-06-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8460",
+        "title": "Territorial Protection and Sovereignty Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8460",
+        "introduced": "2026-04-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6372",
+        "title": "D.C. Shield Law Repeal Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6372",
+        "introduced": "2025-12-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4788",
+        "title": "To require the District of Columbia to permit Members of Congress who have a valid license or permit which is issued pursuant to the law of a State which permits the Member to carry a concealed firearm, or who is otherwise entitled to carry a concealed firearm in the State in which the Member resides, to carry a concealed firearm in the District of Columbia, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4788",
+        "introduced": "2025-07-29",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4432",
+        "title": "Lanier Parks Local Access Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4432",
+        "introduced": "2025-07-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3228",
+        "title": "Constitutional Hearing Protection Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3228",
+        "introduced": "2025-05-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2807",
+        "title": "Postal Service Transparency and Review Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2807",
+        "introduced": "2025-04-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2395",
+        "title": "SHORT Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2395",
+        "introduced": "2025-03-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1774",
+        "title": "To amend title 23, United States Code, to withhold certain apportionment funds from the District of Columbia unless the Mayor of the District of Columbia removes the phrase Black Lives Matter from the street symbolically designated as Black Lives Matter Plaza, redesignates such street as Liberty Plaza, and removes such phrase from each website, document, and other material under the jurisdiction of the District of Columbia.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1774",
+        "introduced": "2025-03-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 55",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Financial Crimes Enforcement Network relating to \"Anti-Money Laundering Regulations for Residential Real Estate Transfers\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/55",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 41",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Postsecondary Student Success Grant\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/41",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 40",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Defense relating to \"Cybersecurity Maturity Model Certification (CMMC) Program\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/40",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 49",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Federal Deposit Insurance Corporation relating to \"Quality Control Standards for Automated Valuation Models\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/49",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 51",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Consumer Financial Protection relating to \"Quality Control Standards for Automated Valuation Models\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/51",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 48",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Board of Governors of the Federal Reserve System relating to \"Quality Control Standards for Automated Valuation Models\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/48",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 43",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"New Source Performance Standards Review for Volatile Organic Liquid Storage Vessels (Including Petroleum Liquid Storage Vessels)\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/43",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 53",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Securities and Exchange Commission relating to \"Form N-PORT and Form N-CEN Reporting; Guidance on Open-End Fund Liquidity Risk Management Programs\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/53",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 58",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Centers for Medicare & Medicaid Services relating to \"Medicare Program; Calendar Year (CY) 2025 Home Health Prospective Payment System (HH PPS) Rate Update; HH Quality Reporting Program Requirements; HH Value-Based Purchasing Expanded Model Requirements; Home Intravenous Immune Globulin (IVIG) Items and Services Rate Update; and Other Medicare Policies\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/58",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 46",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Decabromodiphenyl Ether and Phenol, Isopropylated Phosphate (3:1); Revision to the Regulation of Persistent, Bioaccumulative, and Toxic Chemicals Under the Toxic Substances Control Act (TSCA)\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/46",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 57",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of the Interior relating to \"Oil and Gas and Sulfur Operations in the Outer Continental Shelf-High Pressure High Temperature Updates\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/57",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 56",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Financial Crimes Enforcement Network relating to \"Anti-Money Laundering/Countering the Financing of Terrorism Program and Suspicious Activity Report Filing Requirements for Registered Investment Advisers and Exempt Reporting Advisers\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/56",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 44",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Primary Drinking Water Regulations for Lead and Copper: Improvements (LCRI)\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/44",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 45",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Reconsideration of the Dust-Lead Hazard Standards and Dust-Lead Post-Abatement Clearance Levels\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/45",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 47",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Comptroller of the Currency relating to \"Quality Control Standards for Automated Valuation Models\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/47",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 50",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Credit Union Administration relating to \"Quality Control Standards for Automated Valuation Models\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/50",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 52",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Federal Housing Finance Agency relating to \"Quality Control Standards for Automated Valuation Models\".",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/52",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1180",
+        "title": "To repeal the Impoundment Control Act of 1974.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1180",
+        "introduced": "2025-02-11",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10414",
+        "title": "To repeal the Impoundment Control Act of 1974.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/10414",
+        "introduced": "2024-12-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10299",
+        "title": "Medicaid Funds Integrity Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/10299",
+        "introduced": "2024-12-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9941",
+        "title": "No Guns for Illegal Aliens Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9941",
+        "introduced": "2024-10-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9913",
+        "title": "Ending FCC Meddling in Our Elections Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/9913",
+        "introduced": "2024-10-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8838",
+        "title": "Free Speech Defense Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8838",
+        "introduced": "2024-06-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 144",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Alcohol, Tobacco, Firearms, and Explosives, Department of Justice, relating to \"Definition of 'Engaged in the Business' as a Dealer in Firearms\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/144",
+        "introduced": "2024-05-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 131",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Multi-Pollutant Emissions Standards for Model Years 2027 and Later Light-Duty and Medium-Duty Vehicles\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/131",
+        "introduced": "2024-04-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7622",
+        "title": "AUSTIN Act of 2024",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7622",
+        "introduced": "2024-03-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 107",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Federal Communications Commission relating to \"The Infrastructure Investment and Jobs Act: Prevention and Elimination of Digital Discrimination\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/107",
+        "introduced": "2024-01-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6734",
+        "title": "Stopping Unconstitutional Background Checks Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6734",
+        "introduced": "2023-12-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 646",
+        "title": "SHORT Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/646",
+        "introduced": "2023-01-31",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 407",
+        "title": "Protect the UNBORN Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/407",
+        "introduced": "2023-01-20",
+        "status": "Introduced"
       }
     ],
     "source": {
@@ -494,6 +3863,218 @@
         "date": "2025-05-14"
       }
     ],
+    "all": [
+      {
+        "id": "HB 1578",
+        "title": "Arcade, Town of; municipality; clarify name",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1578/",
+        "introduced": "2026-03-18",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1573",
+        "title": "Statham, City of; ad valorem tax for municipal purposes; provide homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1573/",
+        "introduced": "2026-03-18",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1379",
+        "title": "Foreign Funding Transparency and Accountability Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1379/",
+        "introduced": "2026-02-18",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 839",
+        "title": "Jackson County; board of commissioners; filling vacancies; revise provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB839/",
+        "introduced": "2025-03-25",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 454",
+        "title": "Vince Dooley Battlefield Trust Fund Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB454/",
+        "introduced": "2025-02-13",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 288",
+        "title": "Appeal and error; declaratory judgments in instances involving accusations made by a prosecuting attorney regarding credibility of a peace officer; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB288/",
+        "introduced": "2025-02-05",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 295",
+        "title": "Local government; procedures for real property owners to make claims for compensation for loss of property value or expenses incurred; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB295/",
+        "introduced": "2025-02-05",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 296",
+        "title": "Motor vehicles; presentation of a driver's license in a certain electronic format; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB296/",
+        "introduced": "2025-02-05",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1460",
+        "title": "Commerce, City of; ad valorem tax for educational purposes; homestead exemption; revise",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1460/",
+        "introduced": "2024-03-07",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1461",
+        "title": "Jackson County; ad valorem tax; homestead exemption; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1461/",
+        "introduced": "2024-03-07",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 1201",
+        "title": "Criminal procedure; vacating of sentences of victims of trafficking; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1201/",
+        "introduced": "2024-02-08",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 528",
+        "title": "Georgia Online Automatic Renewal Transparency Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB528/",
+        "introduced": "2023-02-21",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 88",
+        "title": "Coleman-Baker Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB88/",
+        "introduced": "2023-01-26",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 370",
+        "title": "Ad valorem tax; school districts; state-wide base year homestead exemption; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB370/",
+        "introduced": "2025-02-10",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "HB 185",
+        "title": "Education; provide for HOPE Inclusive Postsecondary Education (IPSE) grants",
+        "url": "https://openstates.org/ga/bills/2023_24/HB185/",
+        "introduced": "2023-02-01",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "HB 577",
+        "title": "Georgia Nicotine Vapor Products Directory Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB577/",
+        "introduced": "2025-02-21",
+        "status": "Passed the House"
+      },
+      {
+        "id": "HB 1260",
+        "title": "Georgia Nicotine Vapor Products Directory Act; enact",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1260/",
+        "introduced": "2024-02-12",
+        "status": "Passed the House"
+      },
+      {
+        "id": "HB 1586",
+        "title": "Bogart, Town of; provide new charter",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1586/",
+        "introduced": "2026-03-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1437",
+        "title": "Notaries public; notarial acts to be performed using electronic means when certain requirements are satisfied; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1437/",
+        "introduced": "2026-02-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1436",
+        "title": "Georgia Keep Violent Criminals Off Our Streets Act; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1436/",
+        "introduced": "2026-02-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 851",
+        "title": "Athens-Clarke County; Board of Elections and Registration; provide for abolition on a date certain",
+        "url": "https://openstates.org/ga/bills/2025_26/HB851/",
+        "introduced": "2025-03-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 852",
+        "title": "Athens-Clarke County; Board of Elections and Registration; reconstitute and reestablish",
+        "url": "https://openstates.org/ga/bills/2025_26/HB852/",
+        "introduced": "2025-03-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 558",
+        "title": "State Board of the Technical College System of Georgia; establish adult workforce high school diploma program",
+        "url": "https://openstates.org/ga/bills/2025_26/HB558/",
+        "introduced": "2025-02-20",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 417",
+        "title": "Education; tuition equalization grants at private colleges and universities; revise definition of approved school",
+        "url": "https://openstates.org/ga/bills/2025_26/HB417/",
+        "introduced": "2025-02-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 246",
+        "title": "Courts; office of sheriff and training of peace officers; revise qualification requirements",
+        "url": "https://openstates.org/ga/bills/2025_26/HB246/",
+        "introduced": "2025-02-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1452",
+        "title": "Education; annually increasing maximum age of eligibility for certain state funded special education programs to 30 years; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1452/",
+        "introduced": "2024-03-05",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1415",
+        "title": "Law enforcement officers; cooperate with federal authorities on enforcement of immigration laws; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1415/",
+        "introduced": "2024-02-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1359",
+        "title": "Ad valorem tax; refund for loss of property value or expenses due to failure of local governments to enforce certain laws; provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1359/",
+        "introduced": "2024-02-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 229",
+        "title": "Courts; grounds for recall of district attorneys of judicial circuits and solicitors-general of state courts; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB229/",
+        "introduced": "2023-02-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 92",
+        "title": "Public utilities and public transportation; percentage limitation as to amount of investments an electric membership corporation may make and maintain in a gas affiliate; modify",
+        "url": "https://openstates.org/ga/bills/2023_24/HB92/",
+        "introduced": "2023-01-26",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Open States",
       "url": "https://openstates.org/person/houston-gaines-72KxvLe5L1XyA8034YxBDj/"
@@ -509,6 +4090,267 @@
         "title": "To designate the facility of the United States Postal Service located at 120 West Church Street in Mount Vernon, Georgia, as the \"Second Lieutenant Patrick Palmer Calhoun Post Office\".",
         "url": "https://www.congress.gov/bill/118th-congress/house-bill/3944",
         "date": "2024-05-07"
+      }
+    ],
+    "all": [
+      {
+        "id": "H.R. 3944",
+        "title": "To designate the facility of the United States Postal Service located at 120 West Church Street in Mount Vernon, Georgia, as the \"Second Lieutenant Patrick Palmer Calhoun Post Office\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3944",
+        "introduced": "2023-06-09",
+        "status": "Became law"
+      },
+      {
+        "id": "H.R. 4626",
+        "title": "Home Appliance Protection and Affordability Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4626",
+        "introduced": "2025-07-23",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 2988",
+        "title": "Protecting Prudent Investment of Retirement Savings Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2988",
+        "introduced": "2025-04-24",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 5339",
+        "title": "Protecting Americans’ Investments from Woke Policies Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5339",
+        "introduced": "2023-09-05",
+        "status": "Passed the House"
+      },
+      {
+        "id": "H.R. 9798",
+        "title": "Employer Health Plan Flexibility Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9798",
+        "introduced": "2026-07-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7895",
+        "title": "PBM Kickback Prohibition Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7895",
+        "introduced": "2026-03-12",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7195",
+        "title": "Timber Harvesters, Haulers, and Landowners Market Disruptions Relief Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7195",
+        "introduced": "2026-01-22",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6122",
+        "title": "BARN Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6122",
+        "introduced": "2025-11-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5509",
+        "title": "Safe Step Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5509",
+        "introduced": "2025-09-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 5169",
+        "title": "Retire through Ownership Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5169",
+        "introduced": "2025-09-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4214",
+        "title": "Clean Air and Building Infrastructure Improvement Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4214",
+        "introduced": "2025-06-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4154",
+        "title": "Employee Rights Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4154",
+        "introduced": "2025-06-26",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4122",
+        "title": "Health Care for Energy Workers Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4122",
+        "introduced": "2025-06-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2403",
+        "title": "TELL Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2403",
+        "introduced": "2025-03-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2241",
+        "title": "Secret Ballot Protection Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2241",
+        "introduced": "2025-03-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2099",
+        "title": "To amend the Workforce Innovation and Opportunity Act to authorize a study to review specific outcomes of entrepreneurial skills development programs, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2099",
+        "introduced": "2025-03-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1975",
+        "title": "BEAD FEE Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1975",
+        "introduced": "2025-03-10",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1649",
+        "title": "Expanding Student Access to Mental Health Services Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1649",
+        "introduced": "2025-02-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1446",
+        "title": "Validate Prior Learning to Accelerate Employment Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1446",
+        "introduced": "2025-02-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 651",
+        "title": "Spectrum Pipeline Act of 2025",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/651",
+        "introduced": "2025-01-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 334",
+        "title": "To amend the Communications Act of 1934 to establish technical and procedural standards for artificial or prerecorded voice systems created through generative artificial intelligence, and for other purposes.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/334",
+        "introduced": "2025-01-13",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 254",
+        "title": "American Science First Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/254",
+        "introduced": "2025-01-09",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8939",
+        "title": "To amend the Communications Act of 1934 to establish technical and procedural standards for artificial or prerecorded voice systems created through generative artificial intelligence, and for other purposes.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/8939",
+        "introduced": "2024-07-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 143",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Labor relating to \"Amendment to Prohibited Transaction Exemptions 75-1, 77-4, 80-83, 83-1, and 86-128\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/143",
+        "introduced": "2024-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 140",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Labor relating to \"Amendment to Prohibited Transaction Exemption 2020-02\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/140",
+        "introduced": "2024-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 141",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Labor relating to \"Amendment to Prohibited Transaction Exemption 84-24\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/141",
+        "introduced": "2024-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 142",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Labor relating to \"Retirement Security Rule: Definition of an Investment Advice Fiduciary\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/142",
+        "introduced": "2024-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 7578",
+        "title": "Promote Secure Connectivity to Taiwan Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/7578",
+        "introduced": "2024-03-07",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 117",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Reconsideration of the National Ambient Air Quality Standards for Particulate Matter\".",
+        "url": "https://www.congress.gov/bill/118th-congress/house-joint-resolution/117",
+        "introduced": "2024-03-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 6236",
+        "title": "Nuclear Licensing Efficiency Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/6236",
+        "introduced": "2023-11-06",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 4320",
+        "title": "Truth in Employment Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/4320",
+        "introduced": "2023-06-23",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3669",
+        "title": "Expanding Student Access to Mental Health Services Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3669",
+        "introduced": "2023-05-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 3298",
+        "title": "BEAD FEE Act of 2023",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/3298",
+        "introduced": "2023-05-15",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 2700",
+        "title": "Employee Rights Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2700",
+        "introduced": "2023-04-19",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 1778",
+        "title": "BARN Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/1778",
+        "introduced": "2023-03-24",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 699",
+        "title": "To amend the Workforce Innovation and Opportunity Act to authorize a study to review specific outcomes of entrepreneurial skills development programs, and for other purposes.",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/699",
+        "introduced": "2023-02-01",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 401",
+        "title": "American Science First Act",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/401",
+        "introduced": "2023-01-20",
+        "status": "Introduced"
       }
     ],
     "source": {
@@ -528,6 +4370,120 @@
         "date": "2025-05-13"
       }
     ],
+    "all": [
+      {
+        "id": "HB 761",
+        "title": "Lilburn, City of; ad valorem tax; provide additional homestead exemption",
+        "url": "https://openstates.org/ga/bills/2025_26/HB761/",
+        "introduced": "2025-03-11",
+        "status": "Became law"
+      },
+      {
+        "id": "HB 960",
+        "title": "Gwinnett Judicial Circuit; superior courts; provide twelfth judge",
+        "url": "https://openstates.org/ga/bills/2025_26/HB960/",
+        "introduced": "2026-01-14",
+        "status": "Passed both chambers"
+      },
+      {
+        "id": "HB 1506",
+        "title": "Contracts; payment terms for business to business transactions; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1506/",
+        "introduced": "2026-03-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1468",
+        "title": "Georgia Property Tax Fairness Fund; create",
+        "url": "https://openstates.org/ga/bills/2025_26/HB1468/",
+        "introduced": "2026-02-25",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 721",
+        "title": "Motor vehicles; transportation referral service providers and ride share network services; provisions",
+        "url": "https://openstates.org/ga/bills/2025_26/HB721/",
+        "introduced": "2025-03-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 670",
+        "title": "Georgia Civil Rights Act of 2025; enact",
+        "url": "https://openstates.org/ga/bills/2025_26/HB670/",
+        "introduced": "2025-02-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 681",
+        "title": "Domestic relations; sealing of name change petitions upon request; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB681/",
+        "introduced": "2025-02-27",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 496",
+        "title": "Criminal procedure; scent of marijuana, cannabis, or hemp; provide imitations on stops, searches, seizures, or arrests",
+        "url": "https://openstates.org/ga/bills/2025_26/HB496/",
+        "introduced": "2025-02-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 497",
+        "title": "Penal institutions; inmate be allowed to dress in plain clothes during trial proceedings; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/HB497/",
+        "introduced": "2025-02-18",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1304",
+        "title": "Elections; advance voting on certain Saturdays in run-off elections; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1304/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1306",
+        "title": "Health; provide patients with information regarding risks of physical and psychological dependence from opioids; require prescribers",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1306/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1309",
+        "title": "Evidence; creative or artistic expression evidence is inadmissible at trial; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1309/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 1305",
+        "title": "Elections; advance voting; revise provisions",
+        "url": "https://openstates.org/ga/bills/2023_24/HB1305/",
+        "introduced": "2024-02-16",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 513",
+        "title": "Quality Basic Education Act; prescribed course of study in sex education and HIV prevention instruction is age appropriate; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB513/",
+        "introduced": "2023-02-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 209",
+        "title": "State holidays; March 10 as Harriet Tubman Day; designate",
+        "url": "https://openstates.org/ga/bills/2023_24/HB209/",
+        "introduced": "2023-02-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "HB 177",
+        "title": "Quality Basic Education Act; prescribed course of study in sex education and HIV prevention instruction is age appropriate; provide",
+        "url": "https://openstates.org/ga/bills/2023_24/HB177/",
+        "introduced": "2023-01-31",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Open States",
       "url": "https://openstates.org/person/jasmine-clark-8Gj5GVqYVp38qaWIkslI2/"
@@ -538,6 +4494,78 @@
     "wrote": 10,
     "becameLaw": 0,
     "laws": [],
+    "all": [
+      {
+        "id": "H.R. 10264",
+        "title": "American Made Federal Uniforms and Apparel Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10264",
+        "introduced": "2026-09-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10266",
+        "title": "No Elite Athletes Using X-pro status to ensure Prioritizing Recruitment Of Student-athletes (NEAUX PROS) Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10266",
+        "introduced": "2026-09-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 10265",
+        "title": "White House Fellows Program Authorization Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10265",
+        "introduced": "2026-09-03",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 204",
+        "title": "Proposing an amendment to the Constitution of the United States to require that certain individuals are natural born citizens.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/204",
+        "introduced": "2026-07-21",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9667",
+        "title": "Securing Healthcare and Income Entitlements for Lawfully Domiciled Citizens (SHIELD Citizens) Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9667",
+        "introduced": "2026-07-14",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9577",
+        "title": "COCOA-VIP Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9577",
+        "introduced": "2026-07-02",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9545",
+        "title": "HONEST Act of 2026",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9545",
+        "introduced": "2026-06-30",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 9146",
+        "title": "Millstone Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9146",
+        "introduced": "2026-06-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.J.Res. 172",
+        "title": "Proposing an amendment to the Constitution of the United States to protect United States citizenship.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/172",
+        "introduced": "2026-05-04",
+        "status": "Introduced"
+      },
+      {
+        "id": "H.R. 8594",
+        "title": "Congressional Gold Medal For Inspiring Great Heroism and Tenacity (FIGHT) Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8594",
+        "introduced": "2026-04-30",
+        "status": "Introduced"
+      }
+    ],
     "source": {
       "label": "Congress.gov",
       "url": "https://www.congress.gov/member/F000485"

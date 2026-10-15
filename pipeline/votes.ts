@@ -196,7 +196,7 @@ async function voteview(chamber: "House" | "Senate", congress: number, cacheDir:
 
 // ---------- federal bill details (topic, title, status) ----------
 
-type BillInfo = {
+export type BillInfo = {
   title: string;
   topic: string;
   passedHouse: boolean;
@@ -208,16 +208,18 @@ type BillInfo = {
   v?: number;
 };
 
-async function billInfo(congress: number, type: string, number: string, cache: Record<string, BillInfo>): Promise<BillInfo | null> {
+export async function billInfo(congress: number, type: string, number: string, cache: Record<string, BillInfo>): Promise<BillInfo | null> {
   const key = `${congress}-${type}-${number}`;
   const old = cache[key];
   const week = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
   // Laws don't change; anything else is re-checked weekly.
-  if (old?.v === 2 && (old.law || old.fetched >= week)) return old;
+  if (old?.v === 3 && (old.law || old.fetched >= week)) return old;
   const t = FED_TYPES[type].gov;
   const { ok, body } = await text(`https://www.govinfo.gov/bulkdata/BILLSTATUS/${congress}/${t}/BILLSTATUS-${congress}${t}${number}.xml`);
   if (!ok) return old ?? null;
-  const items = [...body.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => m[1]);
+  // Only this bill's own actions: related bills and amendments carry actions of their own.
+  const own = body.replace(/<(relatedBills|amendments|committeeReports|cboCostEstimates)>[\s\S]*?<\/\1>/g, "");
+  const items = [...(own.match(/<actions>([\s\S]*?)<\/actions>/)?.[1] ?? "").matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => m[1]);
   const actions = items.map((i) => tag(i, "text"));
   const senateConcur = items
     .map((i) => ({ text: tag(i, "text"), date: tag(i, "actionDate") }))
@@ -226,7 +228,7 @@ async function billInfo(congress: number, type: string, number: string, cache: R
   cache[key] = {
     // The bill's own "Display Title"; other <title>s in the file belong to related bills.
     title: unxml(body.match(/<titleType>Display Title<\/titleType>[\s\S]*?<title>([\s\S]*?)<\/title>/)?.[1] ?? tag(body, "title")).replace(/^(H\.R\.|S\.|H\.J\.Res\.|S\.J\.Res\.) \d+, /, ""),
-    v: 2,
+    v: 3,
     topic: unxml(tag(tag(body, "policyArea"), "name")) || "Other",
     passedHouse: actions.some((a) => /Passed\/agreed to in House|passed House/i.test(a)),
     passedSenate: actions.some((a) => /Passed\/agreed to in Senate|passed Senate/i.test(a)),

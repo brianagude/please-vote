@@ -1,0 +1,45 @@
+---
+// Campaign money in a few plain sentences. Used on the card and on the person page,
+// which adds the full PAC and outside-group lists below it.
+import type { CareerRecord } from "../lib/types";
+import { moneyLines, usd } from "../lib/money";
+interface Props {
+  money: NonNullable<CareerRecord["money"]>;
+}
+const { money } = Astro.props;
+const m = !("none" in money) ? money : undefined;
+const lines = m ? moneyLines(m) : undefined;
+const pct = (part: number, whole: number) => (whole > 0 ? Math.round((part / whole) * 100) : 0);
+const monthYear = (d?: string) => (d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", year: "numeric" }) : "");
+const year = m?.groupsSince?.slice(0, 4);
+const pacTotal = m?.pacs?.reduce((n, p) => n + p.amount, 0) ?? 0;
+const helped = m?.outside?.reduce((n, o) => n + o.for, 0) ?? 0;
+const opposed = m?.outside?.reduce((n, o) => n + o.against, 0) ?? 0;
+---
+{
+  m && lines ? (
+    <ul>
+      <li>Raised {lines.raised} and spent {lines.spent} since {monthYear(m.from)}.</li>
+      {m.donations ? (
+        <li>
+          Of the money donors gave, {pct(m.fromIndividuals, m.donations)}% came from individual people and {pct(m.fromPACs, m.donations)}% from PACs (groups that
+          collect money to give to candidates).
+        </li>
+      ) : null}
+      {m.pacs && m.pacs.length > 0 ? (
+        <li>
+          Since {year}, {m.pacs.length === 1 ? "1 PAC" : `${m.pacs.length} PACs`} gave {usd(pacTotal)} to their campaign.
+        </li>
+      ) : null}
+      {helped + opposed > 0 ? (
+        <li>
+          Since {year}, outside groups like super PACs spent{" "}
+          {[helped > 0 && `${usd(helped)} to help them`, opposed > 0 && `${usd(opposed)} against them`].filter(Boolean).join(" and ")}.
+        </li>
+      ) : null}
+    </ul>
+  ) : (
+    <p>No totals yet. The FEC only lists a candidate after they raise or spend more than $5,000.</p>
+  )
+}
+<a class="src" href={money.source.url} target="_blank" rel="noopener">Source and every donor: {money.source.label}</a>

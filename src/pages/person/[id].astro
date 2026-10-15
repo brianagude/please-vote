@@ -6,6 +6,8 @@
 // Later sections (what they're doing now, etc.) go after these.
 import Base from "../../layouts/Base.astro";
 import CareerRecord from "../../components/CareerRecord.astro";
+import Money from "../../components/Money.astro";
+import { orgName, usd } from "../../lib/money";
 import { loadState, loadVotes, sourced } from "../../lib/state";
 import { initials, partyName } from "../../lib/names";
 import { attendanceLine, countLine, hasPage, ruleLine } from "../../lib/votes";
@@ -37,7 +39,18 @@ const factSources = [...new Map(used.map((s) => [s.url, s])).values()];
 const { campaign, official, ballotpedia } = c.links;
 
 // Record: everything except votes, which get their own section.
-const record = c.record ? { ...c.record, votes: undefined } : undefined;
+// Bills and votes get their own sections below.
+const record = c.record ? { ...c.record, votes: undefined, contact: undefined, bills: undefined, money: undefined } : undefined;
+const money = c.record?.money;
+const mm = money && !("none" in money) ? money : undefined;
+const helpers = mm?.outside?.filter((o) => o.for > 0).sort((a, b) => b.for - a.for) ?? [];
+const opposers = mm?.outside?.filter((o) => o.against > 0).sort((a, b) => b.against - a.against) ?? [];
+const sinceGroups = mm?.groupsSince?.slice(0, 4);
+const fecPage = (id?: string) => (id ? `https://www.fec.gov/data/committee/${id}/` : undefined);
+const bills = c.record?.bills;
+const further = bills?.all?.filter((b) => b.status !== "Became law" && b.status !== "Introduced").length ?? 0;
+const reach = c.record?.contact;
+const tel = (p: string) => `tel:+1${p.replace(/\D/g, "").replace(/^1/, "")}`;
 const hasRecord = !!record && Object.values(record).some(Boolean);
 
 // Votes, by topic: most votes first; "Other" and local laws at the end.
@@ -51,6 +64,8 @@ const topics = [...groups].sort((a, b) => last(a[0]) - last(b[0]) || b[1].length
 
 const sections = [
   { id: "overview", label: "Overview" },
+  money && { id: "money", label: "Campaign money" },
+  bills && { id: "bills", label: "Bills they wrote" },
   v && { id: "votes", label: "How they voted" },
 ].filter((s): s is { id: string; label: string } => !!s);
 
@@ -124,9 +139,104 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
             )
           }
         </div>
+        {
+          reach && (
+            <div class="row">
+              <div class="cell">
+                <dl class="rec">
+                  <div>
+                    <dt class="lbl">How to reach them</dt>
+                    <dd>
+                      <ul class="reach">
+                        {reach.phone && <li>Office phone: <a href={tel(reach.phone)}>{reach.phone}</a></li>}
+                        {reach.address && <li>Office: {reach.address}</li>}
+                        {reach.email && <li>Email: <a href={`mailto:${reach.email}`}>{reach.email}</a></li>}
+                        {reach.form && <li><a href={reach.form} target="_blank" rel="noopener">Contact form →</a></li>}
+                        {reach.website && !official && <li><a href={reach.website} target="_blank" rel="noopener">Official website →</a></li>}
+                        {reach.social.length > 0 && (
+                          <li>
+                            Official accounts: {reach.social.map((s, i) => <>{i > 0 && ", "}<a href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}
+                          </li>
+                        )}
+                      </ul>
+                      <a class="src" href={reach.source.url} target="_blank" rel="noopener">Source: {reach.source.label}</a>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          )
+        }
         {hasRecord && <div class="row"><div class="cell"><CareerRecord r={record!} /></div></div>}
       </div>
     </section>
+
+    {
+      money && (
+        <section aria-labelledby="money">
+          <div class="shead"><h2 class="disp" id="money" tabindex="-1">Campaign money</h2></div>
+          <div class="sheet">
+            <div class="row"><div class="cell money"><Money money={money} /></div></div>
+            {[
+              { title: "PACs that gave to their campaign", unit: ["PAC", "PACs"], rows: (mm?.pacs ?? []).map((p) => ({ name: p.name, id: p.id, amount: p.amount })) },
+              { title: "Outside groups that spent to help them", unit: ["group", "groups"], rows: helpers.map((o) => ({ name: o.name, id: o.id, amount: o.for })) },
+              { title: "Outside groups that spent against them", unit: ["group", "groups"], rows: opposers.map((o) => ({ name: o.name, id: o.id, amount: o.against })) },
+            ].filter((g) => g.rows.length > 0).map((g) => (
+              <div class="row">
+                <details class="topic grouplist">
+                  <summary>
+                    <span class="tname">{g.title} since {sinceGroups}</span>
+                    <span class="tcount">{`${g.rows.length} ${g.unit[g.rows.length === 1 ? 0 : 1]} · ${usd(g.rows.reduce((n, r) => n + r.amount, 0))}`}</span>
+                  </summary>
+                  <ul class="cols">
+                      {g.rows.map((r) => (
+                        <li>
+                          {fecPage(r.id) ? <a href={fecPage(r.id)} target="_blank" rel="noopener">{r.name ? orgName(r.name) : "Unnamed group"}</a> : r.name ? orgName(r.name) : "Unnamed group"}{" "}
+                          <span class="amt">{usd(r.amount)}</span>
+                        </li>
+                      ))}
+                  </ul>
+                </details>
+              </div>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      bills && (
+        <section aria-labelledby="bills">
+          <div class="shead"><h2 class="disp" id="bills" tabindex="-1">Bills they wrote</h2></div>
+          <p class="note">Bills and joint resolutions where they're the main author, since {sinceYear}. Laws first, then the ones that got furthest.</p>
+          <div class="sheet">
+            <div class="row stack tallies">
+              <div class="cell"><span class="lbl">Wrote</span><p>{bills.wrote} {bills.wrote === 1 ? "bill" : "bills"}</p></div>
+              <div class="cell">
+                <span class="lbl">Became law</span>
+                <p>{bills.becameLaw === 0 ? "None" : bills.becameLaw} became law.{further > 0 && ` Another ${further} passed the House or Senate but didn't.`}</p>
+              </div>
+            </div>
+            {bills.all && bills.all.length > 0 && (
+              <div class="row capped">
+                <ul class="vlist" data-cap="5">
+                  {bills.all.map((b) => (
+                    <li>
+                      <div class="vmain">
+                        {b.introduced && <span class="vmeta">Introduced {date(b.introduced)}</span>}
+                        <span><a href={b.url} target="_blank" rel="noopener">{b.id}</a>: {b.title}</span>
+                      </div>
+                      <span class="vcast bst">{b.status}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+          <p class="src"><a class="src" href={bills.source.url} target="_blank" rel="noopener">Source: {bills.source.label}</a></p>
+        </section>
+      )
+    }
 
     {
       v && summary && (
@@ -178,4 +288,28 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
       <p><a href="/#s3">← Back to the guide</a></p>
     </footer>
   </div>
+  <script>
+    // Long lists show the first few, with a Show more / Show less button. Without JavaScript, everything shows.
+    for (const ul of document.querySelectorAll<HTMLUListElement>("ul[data-cap]")) {
+      const cap = Number(ul.dataset.cap);
+      const items = [...ul.children] as HTMLElement[];
+      if (items.length <= cap) continue;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "more";
+      btn.setAttribute("aria-expanded", "false");
+      const set = (open: boolean) => {
+        items.forEach((li, i) => (li.hidden = !open && i >= cap));
+        btn.setAttribute("aria-expanded", String(open));
+        btn.textContent = open ? "Show less" : `Show all ${items.length}`;
+      };
+      btn.addEventListener("click", () => {
+        const open = btn.getAttribute("aria-expanded") !== "true";
+        set(open);
+        if (!open) ul.scrollIntoView({ block: "nearest" });
+      });
+      set(false);
+      ul.after(btn);
+    }
+  </script>
 </Base>

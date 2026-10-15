@@ -593,17 +593,17 @@
       "Senate#3": "yes"
     },
     "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a": {
-      "House#6": "Yea",
       "House#5": "Nay",
+      "House#6": "Yea",
       "House#8": "Nay",
       "House#13": "Nay",
       "House#9": "Nay",
       "House#10": "Nay",
       "House#14": "Nay",
-      "House#15": "Nay",
       "House#16": "Nay",
-      "House#18": "Nay",
+      "House#15": "Nay",
       "House#17": "Nay",
+      "House#18": "Nay",
       "House#19": "Nay"
     }
   }
