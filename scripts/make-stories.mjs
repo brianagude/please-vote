@@ -33,10 +33,10 @@ const COPY = {
 const OFFICES = ["@house", "governor", "sos", "ag", "agr", "ins", "labor", "schools", "@upper", "@lower"];
 // Sizes per format. "safe" keeps text clear of Instagram's own buttons and labels.
 const FORMATS = {
-  story: { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 2, out: "exports/stories", outroNote: "", featured: true },
+  story: { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 4, out: "exports/stories", outroNote: "", featured: true },
   "story-ballot": { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 5, out: "exports/stories-ballot", outroNote: "" },
   feed: { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 4, out: "exports/feed-ballot", outroNote: "Link in bio" },
-  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 2, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
+  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 3, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
 };
 const F = FORMATS[process.argv[3] ?? "story"];
 if (!F) throw new Error('Format must be "story", "story-ballot", "feed", or "feed-women"');
@@ -154,6 +154,8 @@ body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b
 .feat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:calc(28px*var(--s));padding:calc(30px*var(--s)) 30px;border-top:3px solid #2b2824;align-items:start}
 .feat:first-child{border-top:0}
 .feat .pin{width:calc(230px*var(--s));height:calc(230px*var(--s))}
+.feat.sparse{padding-top:calc(22px*var(--s));padding-bottom:calc(22px*var(--s))}
+.feat.sparse .pin{width:calc(150px*var(--s));height:calc(150px*var(--s))}
 .feat .info{display:flex;flex-direction:column;align-items:flex-start;gap:calc(8px*var(--s));min-width:0}
 .feat .bio{font-size:calc(30px*var(--s));line-height:1.3;font-weight:500;text-wrap:pretty}
 .feat ul{list-style:none;display:flex;flex-direction:column;gap:calc(8px*var(--s));border-top:2px dashed #cfc8b8;padding-top:calc(10px*var(--s));margin-top:calc(4px*var(--s));align-self:stretch}
@@ -193,7 +195,8 @@ const candHTML = (c, n) => {
 const featHTML = (c) => {
   const ph = photoOf(c);
   const facts = moreFacts(c);
-  return `<div class="feat">
+  // Less to say -> a smaller photo, so sparse sections can share a card.
+  return `<div class="feat${facts.length ? "" : " sparse"}">
     <span class="pin">${ph ? `<img src="${ph}">` : esc(initials(c.name))}</span>
     <div class="info">
       <span class="office">${esc(c.office)}</span>
@@ -236,9 +239,40 @@ const pad = (n) => String(n).padStart(2, "0");
 let n = 1;
 await shoot(page(`<span class="lbl">${esc(COPY.intro.kicker)}</span><h1 class="disp big" style="font-size:150px">${esc(COPY.intro.big)}</h1><p class="sub">${esc(COPY.intro.sub)}</p><p class="small light">${esc(COPY.intro.small)}</p>`), `${pad(n++)}-intro.png`);
 if (F.featured) {
-  // Full rows of two in a 2-column grid: groups of 4, then whatever's left (10 -> 4, 4, 2).
-  const groups = [];
-  for (let i = 0; i < featured.length; i += F.perSlide) groups.push(featured.slice(i, i + F.perSlide));
+  // Pack by how much each person has: measure every section at full size, then fill
+  // each card up to what fits (and at most perSlide), in order. Sparse ones share a card;
+  // detailed ones get room.
+  const frame = (inner, label) => page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${label}</span></div><div class="grid">${inner}</div><span class="lbl">${esc(FOOTER)}</span>`);
+  const mf = path.join(tmp, "measure.html");
+  fs.writeFileSync(mf, frame(featured.map(featHTML).join(""), "0 / 0"));
+  const mp = await browser.newPage({ viewport: { width: F.w, height: F.h } });
+  await mp.goto("file://" + mf, { waitUntil: "networkidle" });
+  await mp.evaluate(() => document.fonts.ready);
+  const { heights, room } = await mp.evaluate(() => {
+    const safe = document.querySelector(".safe");
+    const grid = document.querySelector(".grid");
+    const heights = [...grid.children].map((e) => e.getBoundingClientRect().height);
+    // Everything on the card except the people: the label rows, the gaps, and the grid's border.
+    const gap = parseFloat(getComputedStyle(safe).rowGap) || 0;
+    const others = [...safe.children].filter((e) => e !== grid).reduce((n, e) => n + e.getBoundingClientRect().height, 0);
+    const border = grid.getBoundingClientRect().height - heights.reduce((a, b) => a + b, 0);
+    return { heights, room: safe.clientHeight - others - gap * (safe.children.length - 1) - border };
+  });
+  await mp.close();
+  if (process.env.DEBUG) console.error("room", Math.round(room), "heights", heights.map(Math.round).join(","));
+  // Try every way to split the list (in order) into cards. Keep splits where each card
+  // fits and holds at most perSlide; pick the fewest cards, then the most even ones.
+  const cap = room * 0.95;
+  let best = null;
+  for (let mask = 0; mask < 1 << (featured.length - 1); mask++) {
+    const groups = [[0]];
+    for (let i = 1; i < featured.length; i++) (mask & (1 << (i - 1)) ? groups.push([i]) : groups.at(-1).push(i));
+    const sums = groups.map((g) => g.reduce((n, i) => n + heights[i], 0));
+    if (sums.some((x) => x > cap) || groups.some((g) => g.length > F.perSlide)) continue;
+    const score = [groups.length, Math.max(...sums) - Math.min(...sums)];
+    if (!best || score[0] < best.score[0] || (score[0] === best.score[0] && score[1] < best.score[1])) best = { groups, score };
+  }
+  const groups = best.groups.map((g) => g.map((i) => featured[i]));
   for (const [i, g] of groups.entries())
     await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${groups.length}</span></div><div class="grid">${g.map(featHTML).join("")}</div><span class="lbl">${esc(FOOTER)}</span>`), `${pad(n++)}-women-${i + 1}.png`);
 } else for (const [i, s] of slides.entries())
