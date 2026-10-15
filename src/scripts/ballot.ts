@@ -168,8 +168,29 @@ function motionToggle() {
   sync();
 }
 
+/** Load all three drawings of the background people before animating them,
+ *  so they never disappear for a moment while a frame downloads. */
+async function startBoil() {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const sides = matchMedia("(min-width: 1120px)").matches ? ["left", "right"] : ["top", "bottom"];
+  const frames = sides.flatMap((s) => [0, 1, 2].map((n) => `/people/${s}-${n}.svg`));
+  try {
+    await Promise.all(
+      frames.map((src) => {
+        const img = new Image();
+        img.src = src;
+        return img.decode();
+      }),
+    );
+    document.documentElement.classList.add("boil");
+  } catch {
+    // If a drawing fails to load, the people just stay still.
+  }
+}
+
 export function start() {
   motionToggle();
+  startBoil();
   countdown();
   dateCards();
   const zi = $<HTMLInputElement>("#zip");

@@ -175,10 +175,12 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   body::after{right:0;background-position:left 0 top 380px;background-image:url("/people/right-0.svg")}
 }
 /* "Line boil": three slightly different drawings swap a few times a second, like hand-drawn
+   animation. It only starts once all three drawings are loaded (html.boil, set in ballot.ts),
+   so the people never blink out while a frame downloads.
    animation. The "Pause motion" button in the footer turns it off (WCAG 2.2.2). */
 @media (min-width:1120px) and (prefers-reduced-motion:no-preference){
-  body::before{animation:boil-l .9s steps(1) infinite}
-  body::after{animation:boil-r .9s steps(1) infinite}
+  .boil body::before{animation:boil-l .9s steps(1) infinite}
+  .boil body::after{animation:boil-r .9s steps(1) infinite}
 }
 @keyframes boil-l{0%{background-image:url("/people/left-0.svg")}33%{background-image:url("/people/left-1.svg")}66%{background-image:url("/people/left-2.svg")}}
 @keyframes boil-r{0%{background-image:url("/people/right-0.svg")}33%{background-image:url("/people/right-1.svg")}66%{background-image:url("/people/right-2.svg")}}
@@ -190,8 +192,8 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
 .strip-bottom{margin:-24px 0 -48px;background-image:url("/people/bottom-0.svg");background-position:120px 0}
 @media (min-width:1120px){.strip{display:none}}
 @media (max-width:1119px) and (prefers-reduced-motion:no-preference){
-  .strip-top{animation:boil-t .9s steps(1) infinite}
-  .strip-bottom{animation:boil-b .9s steps(1) infinite}
+  .boil .strip-top{animation:boil-t .9s steps(1) infinite}
+  .boil .strip-bottom{animation:boil-b .9s steps(1) infinite}
 }
 @keyframes boil-t{0%{background-image:url("/people/top-0.svg")}33%{background-image:url("/people/top-1.svg")}66%{background-image:url("/people/top-2.svg")}}
 @keyframes boil-b{0%{background-image:url("/people/bottom-0.svg")}33%{background-image:url("/people/bottom-1.svg")}66%{background-image:url("/people/bottom-2.svg")}}
