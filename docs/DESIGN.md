@@ -68,6 +68,13 @@ Everything else is ink.
 - Links to voting-record websites as a substitute for showing records.
 - Coloring candidates by party.
 
+## Small screens
+
+- 560px and under: "Find my ballot" is full width; section cards hide their list of offices, and Open/Close becomes a full-width bar along the bottom of the card.
+- 480px and under: the masthead is a single column ("Days to go" and the number side by side).
+- 420px and under: candidate photo sits above the name, and everything else uses the full width.
+- 375px and under: a race's Office and Term stack.
+
 ## Interaction
 
 - Everything clickable shows a pointer cursor.

@@ -14,7 +14,7 @@ const range = (n: number) => Array.from({ length: n }, (_, i) => i + 1);
       <div class="cell">
         <label class="lbl" for="addr">Home address</label>
         <div class="addr">
-          <input id="addr" name="address" autocomplete="street-address" placeholder="Street, city, ZIP" />
+          <input id="addr" name="address" autocomplete="street-address" placeholder="Street, city, ZIP" data-bwignore data-1p-ignore data-lpignore="true" />
           <button class="btn" type="submit">Find my ballot</button>
         </div>
         <span class="hint" id="addr-hint" aria-live="polite">We don't save your address.</span>
@@ -24,7 +24,7 @@ const range = (n: number) => Array.from({ length: n }, (_, i) => i + 1);
     <div class="row stack">
       <div class="cell">
         <label class="lbl" for="zip">ZIP code</label>
-        <input id="zip" inputmode="numeric" maxlength="5" placeholder="#####" autocomplete="postal-code" />
+        <input id="zip" inputmode="numeric" maxlength="5" placeholder="#####" autocomplete="postal-code" data-bwignore data-1p-ignore data-lpignore="true" />
         <span class="hint" id="zip-hint" aria-live="polite">Sets your {D.house.label} race.</span>
         <div class="chips" id="zip-choices"></div>
       </div>
