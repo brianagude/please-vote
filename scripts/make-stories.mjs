@@ -16,12 +16,13 @@ import { chromium } from "@playwright/test";
 const COPY = {
   intro: {
     kicker: "Georgia · Nov 3, 2026",
-    big: "A lot of the Democratic candidates running for office this year are Black women (((((:",
+    big: "Did you know?",
+    sub: "A lot of the Democratic candidates running for office this year are Black women (((((:",
     small: "So I built a site to help me learn about who's on my ballot.",
   },
   outro: {
     kicker: "Georgia voters",
-    big: "Go learn who you're voting for.",
+    big: "Please learn who you're voting for.",
     url: "vote.brianagude.com",
     dates: ["Early voting: now through Oct 30", "Election Day: Nov 3, 7 a.m. – 7 p.m."],
   },
@@ -40,6 +41,8 @@ if (!F) throw new Error('Format must be "story", "feed", or "feed-women"');
 const PARTY_ORDER = ["D", "R", "L", "I"]; // Democrats first
 
 // The feed carousel features these candidates (owner's list), each with her own card.
+const FOOTER = "More on every candidate @ vote.brianagude.com";
+
 const FEATURED = [
   "Lucy McBath",
   "Keisha Lance Bottoms",
@@ -106,7 +109,7 @@ const slides = split(blocks, F.perSlide);
 const featured = FEATURED.map((name) => {
   for (const b of blocks) {
     const c = b.cands.find((x) => x.name === name);
-    if (c) return { ...c, office: b.title };
+    if (c) return { ...c, office: b.title, inRace: b.cands.length };
   }
   throw new Error(`${name} isn't on this ballot`);
 });
@@ -138,6 +141,9 @@ body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b
 .stamp{align-self:flex-start;margin-top:4px;font-family:Archivo;font-stretch:110%;font-weight:600;font-size:calc(17px*var(--s));letter-spacing:.16em;text-transform:uppercase;color:#ad3f2c;border:2px solid #ad3f2c;padding:3px 8px 2px;transform:rotate(-2deg)}
 .big{font-size:118px}
 .small{font-size:42px;line-height:1.3;color:#2b2824;text-wrap:pretty}
+.sub{font-size:56px;line-height:1.2;font-weight:600;text-wrap:pretty}
+.light{color:#6d675d;font-size:36px}
+.line{font-size:calc(24px*var(--s));line-height:1.3;color:#2b2824;text-wrap:pretty}
 .big{text-wrap:pretty}
 .urlbox{align-self:flex-start;font-family:Archivo;font-stretch:110%;font-weight:600;font-size:46px;letter-spacing:.06em;color:#ad3f2c;border:4px solid #ad3f2c;padding:16px 26px 12px;transform:rotate(-2deg)}
 .grid{display:grid;grid-template-columns:1fr 1fr;border:4px solid #2b2824;background:#f7f4ec}
@@ -152,11 +158,14 @@ body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b
 .people.bottom{bottom:0;background-position:-520px 0}
 </style></head><body>${people("top", "top")}${people("bottom", "bottom")}<div class="safe">${inner}</div></body></html>`;
 
-const candHTML = (c) => {
+/** The candidate's one-line background from the site (sourced only), or "Running unopposed". */
+const lineFor = (c, othersInRace) => (othersInRace === 1 ? "Running unopposed." : c.bio?.source ? c.bio.text : "");
+
+const candHTML = (c, n) => {
   const ph = photoOf(c);
   return `<div class="cand">
     <span class="pin">${ph ? `<img src="${ph}">` : esc(initials(c.name))}</span>
-    <span class="who"><span class="name">${esc(c.name)}</span><span class="party">${esc(PARTY[c.party] ?? c.party)}</span>${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}</span>
+    <span class="who"><span class="name">${esc(c.name)}</span><span class="party">${esc(PARTY[c.party] ?? c.party)}</span>${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}${lineFor(c, n) ? `<span class="line">${esc(lineFor(c, n))}</span>` : ""}</span>
   </div>`;
 };
 const featHTML = (c) => {
@@ -167,9 +176,10 @@ const featHTML = (c) => {
     <span class="name">${esc(c.name)}</span>
     <span class="party">${esc(PARTY[c.party] ?? c.party)}</span>
     ${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}
+    ${lineFor(c, c.inRace) ? `<span class="line">${esc(lineFor(c, c.inRace))}</span>` : ""}
   </div>`;
 };
-const officeHTML = (b) => `<div class="office"><h2 class="disp otitle">${esc(b.title)}</h2><div class="cands">${order(b.cands).map(candHTML).join("")}</div></div>`;
+const officeHTML = (b) => `<div class="office"><h2 class="disp otitle">${esc(b.title)}</h2><div class="cands">${order(b.cands).map((c) => candHTML(c, b.cands.length)).join("")}</div></div>`;
 
 // ---- render ----
 const out = F.out;
@@ -198,15 +208,15 @@ const shoot = async (html, file) => {
 
 const pad = (n) => String(n).padStart(2, "0");
 let n = 1;
-await shoot(page(`<span class="lbl">${esc(COPY.intro.kicker)}</span><h1 class="disp big">${esc(COPY.intro.big)}</h1><p class="small">${esc(COPY.intro.small)}</p>`), `${pad(n++)}-intro.png`);
+await shoot(page(`<span class="lbl">${esc(COPY.intro.kicker)}</span><h1 class="disp big" style="font-size:150px">${esc(COPY.intro.big)}</h1><p class="sub">${esc(COPY.intro.sub)}</p><p class="small light">${esc(COPY.intro.small)}</p>`), `${pad(n++)}-intro.png`);
 if (F.featured) {
   // Full rows of two in a 2-column grid: groups of 4, then whatever's left (10 -> 4, 4, 2).
   const groups = [];
   for (let i = 0; i < featured.length; i += F.perSlide) groups.push(featured.slice(i, i + F.perSlide));
   for (const [i, g] of groups.entries())
-    await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${groups.length}</span></div><div class="grid">${g.map(featHTML).join("")}</div><span class="lbl">More on every candidate: vote.brianagude.com</span>`), `${pad(n++)}-women-${i + 1}.png`);
+    await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${groups.length}</span></div><div class="grid">${g.map(featHTML).join("")}</div><span class="lbl">${esc(FOOTER)}</span>`), `${pad(n++)}-women-${i + 1}.png`);
 } else for (const [i, s] of slides.entries())
-  await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${slides.length}</span></div><div class="sheet">${s.map(officeHTML).join("")}</div><span class="lbl">More on every candidate: vote.brianagude.com</span>`), `${pad(n++)}-ballot-${i + 1}.png`);
+  await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${slides.length}</span></div><div class="sheet">${s.map(officeHTML).join("")}</div><span class="lbl">${esc(FOOTER)}</span>`), `${pad(n++)}-ballot-${i + 1}.png`);
 await shoot(page(`<span class="lbl">${esc(COPY.outro.kicker)}</span><h1 class="disp big" style="font-size:136px">${esc(COPY.outro.big)}</h1><span class="urlbox">${esc(COPY.outro.url)}</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:20px">${COPY.outro.dates.map((d) => `<p class="small" style="font-size:40px">${esc(d)}</p>`).join("")}</div>${F.outroNote ? `<p class="lbl" style="margin-top:16px">${esc(F.outroNote)}</p>` : `<div style="height:220px"></div>`}`), `${pad(n++)}-go-learn.png`);
 
 await browser.close();
