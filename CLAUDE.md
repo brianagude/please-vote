@@ -1,4 +1,6 @@
-# Election Day Need-to-Know
+# Please Vote
+
+The project is named "Please Vote". The page title stays "Election Day Need-to-Know", with a small "Please Vote" kicker above the masthead (owner's call, Oct 14, 2026).
 
 This is a nonpartisan voter guide for people who don't usually vote. It covers Georgia first, and the code is organized by state so others can be added.
 
@@ -8,7 +10,8 @@ This is a nonpartisan voter guide for people who don't usually vote. It covers G
 - `docs/DATA_SOURCES.md`: which APIs to use, which are dead, and the known data issues.
 - `docs/DESIGN.md`: the visual and copy spec, including what the owner rejected.
 - `prototype/index.html`: the approved single-file prototype. Match its look.
-- `data/georgia-2026-snapshot.json`: the hand-checked data behind the prototype. Use it as test fixtures and as a fallback until the pipeline replaces it.
+- `data/georgia-2026-snapshot.json`: the original hand-checked data behind the prototype. It has been split into `data/states/ga/`, which is now the source of truth.
+- `README.md`: how the site, address lookup, and nightly job fit together, and which file to edit for what.
 
 ## Hard rules
 

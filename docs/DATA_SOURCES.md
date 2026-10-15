@@ -57,3 +57,14 @@ Status as researched October 13–14, 2026. Verify each source before relying on
 - **GA-14:** Andrew Underwood (L) and Rob Ruszkowski (I) were removed. They ran in the March 2026 special election, and Branch and The Ballot Brief list only Fuller and Harris for November.
 - **PSC District 5:** Thomas Blooming (L) is confirmed on the ballot by Ballotpedia News (Aug 10, 2026).
 - **Snapshot age:** candidate lists were assembled from Wikipedia, WABE, Branch, and Ballotpedia. Re-verify against the Georgia Secretary of State's certified candidate list.
+
+## Verified by calling them (Oct 14, 2026)
+
+- **Census Geocoder:** works, no key. Sends no CORS headers, so browsers can't call it; the Cloudflare function does. Layer names include a year/Congress number ("120th Congressional Districts", "2026 State Legislative Districts - Upper") and layer IDs change between vintages, so we request `layers=all` and match names.
+- **One api.data.gov key covers both Congress.gov and OpenFEC.** Stored as `DATA_GOV_API_KEY`. Limit: 1,000 requests/hour (DEMO_KEY: 40/hour).
+- **Congress.gov:** works, but slow from some networks (30–95 seconds per request). The job allows 3 minutes per request.
+- **OpenFEC:** `/candidate/{id}/totals/?cycle=2026&election_full=true` works. Latest processed reports run through June 30 or Sept 30, 2026 depending on the campaign; the site shows each one's date.
+- **Open States v3:** works with key (`X-API-KEY` header). `per_page` max is 20. `/people` returns current members only (former legislators like Tyler Harper aren't returned). Georgia marks every sponsor as "primary"; the first listed sponsor is the author, so "bills they wrote" counts only first-listed.
+- **congress-legislators, unitedstates/images, Wikipedia, Wikimedia Commons:** work, no key. Commons gives license and author per file.
+- **Georgia Secretary of State (sos.ga.gov, elections.sos.ga.gov):** blocks all automated access (HTTP 403), including PDFs. The certified candidate list has to be downloaded by hand.
+- **Senate District 12:** no current member in Open States (Freddie Sims's term ended April 8, 2026). The site says it couldn't confirm the seat.

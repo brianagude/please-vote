@@ -1,0 +1,50 @@
+# Pulls fresh data every night, checks it, and commits it.
+# Cloudflare sees the commit and redeploys the site.
+name: Nightly data refresh
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 4 a.m. Eastern (daylight time)
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Fetch data
+        # A failed source keeps yesterday's file; we still publish the rest.
+        continue-on-error: true
+        env:
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+        run: node pipeline/run.ts
+
+      - name: Check the rules (sources, order, completeness)
+        run: npm test
+
+      - name: Make sure the site builds
+        run: npm run build
+
+      - name: Commit new data
+        run: |
+          git config user.name "please-vote-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data public/photos
+          if git diff --cached --quiet; then echo "No changes tonight."; exit 0; fi
+          git commit -m "Nightly data refresh $(date -u +%F)"
+          git push
