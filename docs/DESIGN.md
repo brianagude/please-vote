@@ -71,7 +71,7 @@ Everything else is ink.
 ## Small screens
 
 - 560px and under: "Find my ballot" is full width; section cards hide their list of offices, and Open/Close becomes a full-width bar along the bottom of the card.
-- 480px and under: the masthead is a single column ("Days to go" and the number side by side).
+- 480px and under: the masthead is a single column ("Days to go" above the number).
 - 420px and under: candidate photo and name/party stay side by side; everything else folds under at full width.
 - 375px and under: a race's Office and Term stack.
 
@@ -79,6 +79,8 @@ Everything else is ink.
 
 - Everything clickable shows a pointer cursor.
 - Hover feedback is small: buttons lift 1px, link underlines drop slightly, "Campaign site →" links nudge right, and section headers shade. Movement is turned off when the device asks for reduced motion.
+- Motion stops on its own: the background people's line boil and the "Open now" dot blink each run under 5 seconds, then hold still (WCAG 2.2.2). Both are off entirely for reduced motion.
+- Running text uses `text-wrap: pretty` so lines don't end with a single orphaned word.
 - `npm run test:a11y` checks WCAG 2.2 AA at desktop and 360px on every push.
 
 ## Copy rules

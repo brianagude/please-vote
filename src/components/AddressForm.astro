@@ -34,7 +34,7 @@ const range = (n: number) => Array.from({ length: n }, (_, i) => i + 1);
           <option value="">Not sure yet</option>
           {range(D.upper.count).map((n) => <option value={n}>District {n}</option>)}
         </select>
-        <span class="hint">Listed on your voter page.</span>
+        <span class="hint">Listed on your voter page from step 1.</span>
       </div>
       <div class="cell">
         <label class="lbl" for="sel-lower">{D.lower.label} dist.</label>
@@ -42,7 +42,7 @@ const range = (n: number) => Array.from({ length: n }, (_, i) => i + 1);
           <option value="">Not sure yet</option>
           {range(D.lower.count).map((n) => <option value={n}>District {n}</option>)}
         </select>
-        <span class="hint">Same page, just below.</span>
+        <span class="hint">Listed on your voter page from step 1.</span>
       </div>
     </div>
   </div>

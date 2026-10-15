@@ -174,10 +174,11 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   body::before{left:0;background-position:right 0 top 0;background-image:url("/people/left-0.svg")}
   body::after{right:0;background-position:left 0 top 380px;background-image:url("/people/right-0.svg")}
 }
-/* "Line boil": three slightly different drawings swap a few times a second, like hand-drawn animation. */
+/* "Line boil": three slightly different drawings swap a few times a second, like hand-drawn
+   animation. It runs for under 5 seconds, then holds still (WCAG 2.2.2). */
 @media (min-width:1120px) and (prefers-reduced-motion:no-preference){
-  body::before{animation:boil-l .9s steps(1) infinite}
-  body::after{animation:boil-r .9s steps(1) infinite}
+  body::before{animation:boil-l .9s steps(1) 5}
+  body::after{animation:boil-r .9s steps(1) 5}
 }
 @keyframes boil-l{0%{background-image:url("/people/left-0.svg")}33%{background-image:url("/people/left-1.svg")}66%{background-image:url("/people/left-2.svg")}}
 @keyframes boil-r{0%{background-image:url("/people/right-0.svg")}33%{background-image:url("/people/right-1.svg")}66%{background-image:url("/people/right-2.svg")}}
@@ -189,8 +190,8 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
 .strip-bottom{margin:-24px 0 -48px;background-image:url("/people/bottom-0.svg");background-position:120px 0}
 @media (min-width:1120px){.strip{display:none}}
 @media (max-width:1119px) and (prefers-reduced-motion:no-preference){
-  .strip-top{animation:boil-t .9s steps(1) infinite}
-  .strip-bottom{animation:boil-b .9s steps(1) infinite}
+  .strip-top{animation:boil-t .9s steps(1) 5}
+  .strip-bottom{animation:boil-b .9s steps(1) 5}
 }
 @keyframes boil-t{0%{background-image:url("/people/top-0.svg")}33%{background-image:url("/people/top-1.svg")}66%{background-image:url("/people/top-2.svg")}}
 @keyframes boil-b{0%{background-image:url("/people/bottom-0.svg")}33%{background-image:url("/people/bottom-1.svg")}66%{background-image:url("/people/bottom-2.svg")}}
@@ -210,7 +211,7 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   .mast .r1,.mast .r2{grid-template-columns:1fr}
   .mast .r1>.cell+.cell,.mast .r2>.cell+.cell{border-left:0;border-top:1px solid var(--rule)}
   .mast .r2 .cell:last-child{grid-column:auto}
-  .count{flex-direction:row;align-items:center;justify-content:space-between}
+  .count{gap:10px}
   .count .n{font-size:3.6rem}
 }
 @media (max-width:420px){
@@ -230,6 +231,9 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
 /* "Open now" dot: a slow blink for about 5 seconds when the page loads, then solid.
    (Blinking longer than 5 seconds would need a pause control, per WCAG 2.2.2.) */
 .st .dot{display:inline-block}
-@media (prefers-reduced-motion:no-preference){.st .dot{animation:blink 1.2s ease-in-out 4}}
-@keyframes blink{50%{opacity:.15}}
+@media (prefers-reduced-motion:no-preference){.st .dot{animation:blink 1s ease-in-out 5}}
+@keyframes blink{50%{opacity:.3}}
 .d.is-open .sub{color:#5a554c}
+
+/* No one-word last lines (widows) in running text. */
+p,li,dd,.sub,.gsub,.hint,.note,.rnote,.also{text-wrap:pretty}
