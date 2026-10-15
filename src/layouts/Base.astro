@@ -3,8 +3,9 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description: string;
+  skip?: { href: string; label: string };
 }
-const { title, description } = Astro.props;
+const { title, description, skip = { href: "#s3", label: "Skip to your ballot" } } = Astro.props;
 const url = new URL(Astro.url.pathname, Astro.site);
 // Bump ?v= when share.png changes, so apps that cache previews fetch the new one.
 const image = new URL("/share.png?v=2", Astro.site);
@@ -48,7 +49,7 @@ const image = new URL("/share.png?v=2", Astro.site);
     />
   </head>
   <body>
-    <a class="skip" href="#s3">Skip to your ballot</a>
+    <a class="skip" href={skip.href}>{skip.label}</a>
     <slot />
     <script>
       // Tell screen reader users when a link opens a new tab.

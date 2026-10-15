@@ -39,7 +39,15 @@ export interface Candidate {
 export interface CareerRecord {
   offices?: { items: { title: string; from: string; to?: string }[]; source: Source };
   roles?: { items: string[]; source: Source };
-  bills?: { since: string; wrote: number; becameLaw: number; laws: { id: string; title: string; url: string; date?: string }[]; source: Source };
+  bills?: {
+    since: string;
+    wrote: number;
+    becameLaw: number;
+    laws: { id: string; title: string; url: string; date?: string }[];
+    /** Every bill they wrote, laws first, with how far it got. */
+    all?: { id: string; title: string; url: string; introduced?: string; status: string }[];
+    source: Source;
+  };
   money?:
     | {
         raised: number;
@@ -49,11 +57,35 @@ export interface CareerRecord {
         fromPACs: number;
         donations?: number;
         transfersIn?: number;
+        /** PACs that gave to the campaign, biggest first (FEC line 11C). */
+        pacs?: { name: string; id?: string; amount: number }[];
+        /** Outside groups' independent spending for or against the candidate. */
+        outside?: { name: string; id?: string; for: number; against: number }[];
+        /** Start of the period the two lists above cover. */
+        groupsSince?: string;
         from?: string;
         through?: string;
         source: Source;
       }
     | { none: true; source: Source };
+  /** How to reach them in office (person page only). */
+  contact?: {
+    phone?: string;
+    address?: string;
+    email?: string;
+    form?: string;
+    website?: string;
+    social: { label: string; url: string }[];
+    source: Source;
+  };
+  /** Summary for the card; the full list is on the person's own page. */
+  votes?: {
+    since: string;
+    listed: number;
+    attendance: { missed: number; excused: number; total: number };
+    chamber: string;
+    source: Source[];
+  };
 }
 
 export interface Race {

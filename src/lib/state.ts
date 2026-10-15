@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Candidate, Fact, StateData } from "./types";
 import { buildRecord } from "./record";
+import type { VotesFile } from "../../pipeline/votes";
 
 const DATA_DIR = path.resolve("data/states");
 
@@ -31,6 +32,8 @@ export function loadState(code: string): StateData {
     congress: readIfExists(code, "generated/congress.json"),
     money: readIfExists(code, "generated/money.json"),
     bills: readIfExists(code, "generated/bills.json"),
+    votes: readIfExists(code, "generated/votes.json"),
+    contact: readIfExists(code, "generated/contact.json"),
   };
   const cycle = data.config.election.date.slice(0, 4);
   for (const c of allCandidates(data)) {
@@ -43,6 +46,17 @@ export function loadState(code: string): StateData {
 
 export function allCandidates(d: StateData): Candidate[] {
   return [...Object.values(d.races.statewide), ...Object.values(d.races.house)].flatMap((r) => r.candidates);
+}
+
+/** Every vote for one person, with the bill details filled in (for their own page). */
+export function loadVotes(code: string, id: string) {
+  const f: VotesFile | undefined = readIfExists(code, "generated/votes.json");
+  const p = f?.people[id];
+  if (!f || !p) return undefined;
+  return {
+    ...p,
+    votes: p.votes.map(([key, date, chamber, what, vote, passed]) => ({ ...f.bills[key], key, date, chamber, what, vote, passed: !!passed })),
+  };
 }
 
 /** Hard rule #2: a fact without a source is not shown. */

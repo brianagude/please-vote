@@ -1,0 +1,315 @@
+---
+// A page for each candidate with bills or votes: who they are and their record, then how they voted (DECISIONS #4, #7).
+// Section order, top to bottom (docs/DESIGN.md "Person pages"):
+//   1. Overview: background, career, links, then their record (offices, roles, bills, money)
+//   2. How they voted
+// Later sections (what they're doing now, etc.) go after these.
+import Base from "../../layouts/Base.astro";
+import CareerRecord from "../../components/CareerRecord.astro";
+import Money from "../../components/Money.astro";
+import { orgName, usd } from "../../lib/money";
+import { loadState, loadVotes, sourced } from "../../lib/state";
+import { initials, partyName } from "../../lib/names";
+import { attendanceLine, countLine, hasPage, ruleLine } from "../../lib/votes";
+import type { Candidate, Source } from "../../lib/types";
+
+export function getStaticPaths() {
+  const d = loadState("ga");
+  const seats: { c: Candidate; running: string }[] = [
+    ...Object.entries(d.races.statewide).flatMap(([k, r]) => r.candidates.map((c) => ({ c, running: d.offices[k].title }))),
+    ...Object.entries(d.races.house).flatMap(([n, r]) => r.candidates.map((c) => ({ c, running: `${d.config.districts.house.label}, District ${n}` }))),
+  ];
+  return seats.filter(({ c }) => hasPage(c)).map(({ c, running }) => ({ params: { id: c.id }, props: { c, running, asOf: d.config.asOf, sinceYear: d.config.records.sinceLabel } }));
+}
+
+interface Props {
+  c: Candidate;
+  running: string;
+  asOf: string;
+  sinceYear: string;
+}
+const { c, running, asOf, sinceYear } = Astro.props;
+
+// Overview: the same sourced facts as their card.
+const bio = sourced(c.bio) ? c.bio : undefined;
+const career = (c.career ?? []).filter(sourced);
+const committees = c.committees?.source ? c.committees.items : [];
+const used: Source[] = [bio?.source, ...career.map((f) => f.source), committees.length ? c.committees?.source : undefined].filter((s): s is Source => !!s);
+const factSources = [...new Map(used.map((s) => [s.url, s])).values()];
+const { campaign, official, ballotpedia } = c.links;
+
+// Record: everything except votes, which get their own section.
+// Bills and votes get their own sections below.
+const record = c.record ? { ...c.record, votes: undefined, contact: undefined, bills: undefined, money: undefined } : undefined;
+const money = c.record?.money;
+const mm = money && !("none" in money) ? money : undefined;
+const helpers = mm?.outside?.filter((o) => o.for > 0).sort((a, b) => b.for - a.for) ?? [];
+const opposers = mm?.outside?.filter((o) => o.against > 0).sort((a, b) => b.against - a.against) ?? [];
+const sinceGroups = mm?.groupsSince?.slice(0, 4);
+const fecPage = (id?: string) => (id ? `https://www.fec.gov/data/committee/${id}/` : undefined);
+const bills = c.record?.bills;
+const further = bills?.all?.filter((b) => b.status !== "Became law" && b.status !== "Introduced").length ?? 0;
+const reach = c.record?.contact;
+const tel = (p: string) => `tel:+1${p.replace(/\D/g, "").replace(/^1/, "")}`;
+const hasRecord = !!record && Object.values(record).some(Boolean);
+
+// Votes, by topic: most votes first; "Other" and local laws at the end.
+const v = loadVotes("ga", c.id);
+const summary = c.record?.votes;
+const groups = new Map<string, NonNullable<typeof v>["votes"]>();
+for (const x of v?.votes ?? []) for (const t of x.topics) groups.set(t, [...(groups.get(t) ?? []), x]);
+const multi = !!v?.votes.some((x) => x.topics.length > 1);
+const last = (t: string) => (/^Other|^Local/.test(t) ? 1 : 0);
+const topics = [...groups].sort((a, b) => last(a[0]) - last(b[0]) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+
+const sections = [
+  { id: "overview", label: "Overview" },
+  money && { id: "money", label: "Campaign money" },
+  bills && { id: "bills", label: "Bills they wrote" },
+  v && { id: "votes", label: "How they voted" },
+].filter((s): s is { id: string; label: string } => !!s);
+
+const date = (d: string) => new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+---
+<Base
+  title={`${c.name} · Please Vote`}
+  description={`Who ${c.name} is, their record${v ? ", and how they voted" : ""}. Running for ${running}. Sourced and nonpartisan.`}
+  skip={{ href: "#overview", label: "Skip to the overview" }}
+>
+  <div class="wrap person">
+    <a class="back" href="/#s3">← Back to the guide</a>
+
+    <header class="sheet">
+      <div class="row">
+        <div class="cell">
+          <span class="lbl">Running for</span>
+          <span class="val">{running}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cell head-cand">
+          {
+            c.photo ? (
+              <span class="pin big"><img src={c.photo.src} alt="" width="88" height="88" /></span>
+            ) : (
+              <span class="pin big" aria-hidden="true">{initials(c.name)}</span>
+            )
+          }
+          <div>
+            <h1 class="disp">{c.name}</h1>
+            <p class="cn"><span class="p">{partyName(c.party)}</span>{c.incumbent && <span class="stamp">Has the job now</span>}</p>
+          </div>
+        </div>
+      </div>
+      {
+        sections.length > 1 && (
+          <nav class="row" aria-label="On this page">
+            <div class="cell jump">
+              <span class="lbl">On this page</span>
+              <p>{sections.map((s, i) => <>{i > 0 && " · "}<a href={`#${s.id}`}>{s.label}</a></>)}</p>
+            </div>
+          </nav>
+        )
+      }
+    </header>
+
+    <section aria-labelledby="overview">
+      <div class="shead"><h2 class="disp" id="overview" tabindex="-1">Overview</h2></div>
+      <div class="sheet">
+        <div class="cell overview">
+          {bio ? <p class="bio">{bio.text}</p> : <p class="rnote">We don't have a sourced background for {c.name} yet.</p>}
+          {career.length > 0 && <ul class="career">{career.map((f) => <li>{f.text}</li>)}</ul>}
+          {committees.length > 0 && <p class="works">Committee work: {committees.join(", ")}</p>}
+          {
+            (campaign || official || ballotpedia) && (
+              <p class="links">
+                {campaign && <a class="site" href={campaign} target="_blank" rel="noopener">Campaign site →</a>}
+                {official && <a class="site" href={official} target="_blank" rel="noopener">Official site →</a>}
+                {ballotpedia && <a class="site" href={ballotpedia} target="_blank" rel="noopener">Ballotpedia →</a>}
+              </p>
+            )
+          }
+          {
+            (factSources.length > 0 || c.photo?.credit) && (
+              <p class="src">
+                {factSources.length > 0 && <>Facts from {factSources.map((s, i) => <>{i > 0 && ", "}<a class="src" href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}.</>}
+                {c.photo?.credit && <> Photo: <a class="src" href={c.photo.source.url} target="_blank" rel="noopener">{c.photo.credit}</a>{c.photo.license && `, ${c.photo.license}`}.</>}
+              </p>
+            )
+          }
+        </div>
+        {
+          reach && (
+            <div class="row">
+              <div class="cell">
+                <dl class="rec">
+                  <div>
+                    <dt class="lbl">How to reach them</dt>
+                    <dd>
+                      <ul class="reach">
+                        {reach.phone && <li>Office phone: <a href={tel(reach.phone)}>{reach.phone}</a></li>}
+                        {reach.address && <li>Office: {reach.address}</li>}
+                        {reach.email && <li>Email: <a href={`mailto:${reach.email}`}>{reach.email}</a></li>}
+                        {reach.form && <li><a href={reach.form} target="_blank" rel="noopener">Contact form →</a></li>}
+                        {reach.website && !official && <li><a href={reach.website} target="_blank" rel="noopener">Official website →</a></li>}
+                        {reach.social.length > 0 && (
+                          <li>
+                            Official accounts: {reach.social.map((s, i) => <>{i > 0 && ", "}<a href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}
+                          </li>
+                        )}
+                      </ul>
+                      <a class="src" href={reach.source.url} target="_blank" rel="noopener">Source: {reach.source.label}</a>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          )
+        }
+        {hasRecord && <div class="row"><div class="cell"><CareerRecord r={record!} /></div></div>}
+      </div>
+    </section>
+
+    {
+      money && (
+        <section aria-labelledby="money">
+          <div class="shead"><h2 class="disp" id="money" tabindex="-1">Campaign money</h2></div>
+          <div class="sheet">
+            <div class="row"><div class="cell money"><Money money={money} /></div></div>
+            {[
+              { title: "PACs that gave to their campaign", unit: ["PAC", "PACs"], rows: (mm?.pacs ?? []).map((p) => ({ name: p.name, id: p.id, amount: p.amount })) },
+              { title: "Outside groups that spent to help them", unit: ["group", "groups"], rows: helpers.map((o) => ({ name: o.name, id: o.id, amount: o.for })) },
+              { title: "Outside groups that spent against them", unit: ["group", "groups"], rows: opposers.map((o) => ({ name: o.name, id: o.id, amount: o.against })) },
+            ].filter((g) => g.rows.length > 0).map((g) => (
+              <div class="row">
+                <details class="topic grouplist">
+                  <summary>
+                    <span class="tname">{g.title} since {sinceGroups}</span>
+                    <span class="tcount">{`${g.rows.length} ${g.unit[g.rows.length === 1 ? 0 : 1]} · ${usd(g.rows.reduce((n, r) => n + r.amount, 0))}`}</span>
+                  </summary>
+                  <ul class="cols">
+                      {g.rows.map((r) => (
+                        <li>
+                          {fecPage(r.id) ? <a href={fecPage(r.id)} target="_blank" rel="noopener">{r.name ? orgName(r.name) : "Unnamed group"}</a> : r.name ? orgName(r.name) : "Unnamed group"}{" "}
+                          <span class="amt">{usd(r.amount)}</span>
+                        </li>
+                      ))}
+                  </ul>
+                </details>
+              </div>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      bills && (
+        <section aria-labelledby="bills">
+          <div class="shead"><h2 class="disp" id="bills" tabindex="-1">Bills they wrote</h2></div>
+          <p class="note">Bills and joint resolutions where they're the main author, since {sinceYear}. Laws first, then the ones that got furthest.</p>
+          <div class="sheet">
+            <div class="row stack tallies">
+              <div class="cell"><span class="lbl">Wrote</span><p>{bills.wrote} {bills.wrote === 1 ? "bill" : "bills"}</p></div>
+              <div class="cell">
+                <span class="lbl">Became law</span>
+                <p>{bills.becameLaw === 0 ? "None" : bills.becameLaw} became law.{further > 0 && ` Another ${further} passed the House or Senate but didn't.`}</p>
+              </div>
+            </div>
+            {bills.all && bills.all.length > 0 && (
+              <div class="row capped">
+                <ul class="vlist" data-cap="5">
+                  {bills.all.map((b) => (
+                    <li>
+                      <div class="vmain">
+                        {b.introduced && <span class="vmeta">Introduced {date(b.introduced)}</span>}
+                        <span><a href={b.url} target="_blank" rel="noopener">{b.id}</a>: {b.title}</span>
+                      </div>
+                      <span class="vcast bst">{b.status}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+          <p class="src"><a class="src" href={bills.source.url} target="_blank" rel="noopener">Source: {bills.source.label}</a></p>
+        </section>
+      )
+    }
+
+    {
+      v && summary && (
+        <section aria-labelledby="votes">
+          <div class="shead"><h2 class="disp" id="votes" tabindex="-1">How they voted</h2></div>
+          <p class="note">{ruleLine(summary.chamber, sinceYear)}{multi && " A bill can show up under more than one topic."}</p>
+          <div class="sheet">
+            <div class="row stack tallies">
+              <div class="cell"><span class="lbl">Votes shown</span><p>{countLine(v.votes.length)}</p></div>
+              <div class="cell"><span class="lbl">Attendance</span><p>{attendanceLine(v.attendance)}</p></div>
+            </div>
+            <div class="row">
+              <div class="topics">
+                <span class="lbl">By topic</span>
+                {topics.map(([topic, list]) => (
+                  <details class="topic">
+                    <summary>
+                      <span class="tname">{topic}</span>
+                      <span class="tcount">{list.length} {list.length === 1 ? "vote" : "votes"}</span>
+                    </summary>
+                    <ul class="vlist">
+                      {list.map((x) => (
+                        <li>
+                          <div class="vmain">
+                            <span class="vmeta">{date(x.date)} · {x.chamber}{x.what !== "Passage" && ` · ${x.what}`}</span>
+                            <span>
+                              {x.url ? <a href={x.url} target="_blank" rel="noopener">{x.bill}</a> : x.bill}: {x.title}
+                            </span>
+                            <span class="vmeta">{x.passed ? "Passed" : "Didn't pass"}{x.law && " · Became law"}</span>
+                          </div>
+                          <span class="vcast"><span class="sr">Their vote: </span>{x.vote}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+          <p class="src">
+            Source: {v.source.map((s, i) => <>{i > 0 && ", "}<a class="src" href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}. Topics from {/Georgia/.test(summary.chamber) ? "the Georgia General Assembly" : "Congress.gov"}.
+          </p>
+        </section>
+      )
+    }
+
+    <footer>
+      <p>Info as of {asOfLong}. Records update every night.</p>
+      <p><a href="/#s3">← Back to the guide</a></p>
+    </footer>
+  </div>
+  <script>
+    // Long lists show the first few, with a Show more / Show less button. Without JavaScript, everything shows.
+    for (const ul of document.querySelectorAll<HTMLUListElement>("ul[data-cap]")) {
+      const cap = Number(ul.dataset.cap);
+      const items = [...ul.children] as HTMLElement[];
+      if (items.length <= cap) continue;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "more";
+      btn.setAttribute("aria-expanded", "false");
+      const set = (open: boolean) => {
+        items.forEach((li, i) => (li.hidden = !open && i >= cap));
+        btn.setAttribute("aria-expanded", String(open));
+        btn.textContent = open ? "Show less" : `Show all ${items.length}`;
+      };
+      btn.addEventListener("click", () => {
+        const open = btn.getAttribute("aria-expanded") !== "true";
+        set(open);
+        if (!open) ul.scrollIntoView({ block: "nearest" });
+      });
+      set(false);
+      ul.after(btn);
+    }
+  </script>
+</Base>

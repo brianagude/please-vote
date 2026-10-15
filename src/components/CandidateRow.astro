@@ -5,8 +5,12 @@ import { sourced } from "../lib/state";
 import CareerRecord from "./CareerRecord.astro";
 interface Props {
   c: Candidate;
+  /** Link to their own page, where their full record lives. */
+  page?: string;
 }
-const { c } = Astro.props;
+const { c, page } = Astro.props;
+// The card keeps offices, roles, and money; bills and votes live on their page.
+const short = c.record && (c.record.offices || c.record.roles || c.record.money) ? { offices: c.record.offices, roles: c.record.roles, money: c.record.money } : undefined;
 const bio = sourced(c.bio) ? c.bio : undefined;
 const career = (c.career ?? []).filter(sourced);
 const committees = c.committees?.source ? c.committees.items : [];
@@ -33,10 +37,11 @@ const { campaign, official, ballotpedia } = c.links;
     {bio && <p class="bio">{bio.text}</p>}
     {career.length > 0 && <ul class="career">{career.map((f) => <li>{f.text}</li>)}</ul>}
     {committees.length > 0 && <p class="works">Committee work: {committees.join(", ")}</p>}
-    {c.record && <CareerRecord r={c.record} />}
+    {short && <CareerRecord r={short} />}
     {
-      (campaign || official || ballotpedia) && (
+      (page || campaign || official || ballotpedia) && (
         <p class="links">
+          {page && <a class="site" href={page}>More about {c.name} →</a>}
           {campaign && <a class="site" href={campaign} target="_blank" rel="noopener">Campaign site →</a>}
           {official && <a class="site" href={official} target="_blank" rel="noopener">Official site →</a>}
           {ballotpedia && <a class="site" href={ballotpedia} target="_blank" rel="noopener">Ballotpedia →</a>}

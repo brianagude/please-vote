@@ -1,18 +1,16 @@
 ---
 // A candidate's career record: facts only, each line with its source.
 import type { CareerRecord } from "../lib/types";
-import { moneyLines } from "../lib/money";
+import Money from "./Money.astro";
 interface Props {
   r: CareerRecord;
 }
 const { r } = Astro.props;
 
-const pct = (part: number, whole: number) => (whole > 0 ? Math.round((part / whole) * 100) : 0);
 const year = (d?: string) => d?.slice(0, 4);
-const monthYear = (d?: string) => (d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", year: "numeric" }) : "");
-const longDate = (d?: string) => (d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }) : "");
-const m = r.money && !("none" in r.money) ? r.money : undefined;
-const lines = m ? moneyLines(m) : undefined;
+// "3 more passed the House or Senate but haven't become law."
+const further = r.bills?.all?.filter((b) => b.status !== "Became law" && b.status !== "Introduced").length ?? 0;
+const furtherLine = further ? ` ${further} more passed at least one chamber.` : "";
 ---
 <dl class="rec">
   {
@@ -45,9 +43,20 @@ const lines = m ? moneyLines(m) : undefined;
           <p>
             {r.bills.wrote === 0
               ? `Wrote no bills since ${year(r.bills.since)}.`
-              : `Wrote ${r.bills.wrote} ${r.bills.wrote === 1 ? "bill" : "bills"} since ${year(r.bills.since)}. ${r.bills.becameLaw === 0 ? "None" : r.bills.becameLaw} became law.`}
+              : `Wrote ${r.bills.wrote} ${r.bills.wrote === 1 ? "bill" : "bills"} since ${year(r.bills.since)}. ${r.bills.becameLaw === 0 ? "None" : r.bills.becameLaw} became law.${furtherLine}`}
           </p>
-          {r.bills.laws.length > 0 && (
+          {r.bills.all && r.bills.all.length > 0 ? (
+            <details class="laws">
+              <summary>See {r.bills.all.length === 1 ? "it" : `all ${r.bills.all.length}`}, and how far each one got</summary>
+              <ul class="billlist">
+                {r.bills.all.map((b) => (
+                  <li>
+                    <a href={b.url} target="_blank" rel="noopener">{b.id}</a>: {b.title} <span class="bstat">{b.status}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          ) : r.bills.laws.length > 0 && (
             <details class="laws">
               <summary>See the {r.bills.laws.length === 1 ? "one" : r.bills.laws.length} that became law</summary>
               <ul>
@@ -68,25 +77,7 @@ const lines = m ? moneyLines(m) : undefined;
     r.money && (
       <div>
         <dt class="lbl">Campaign money</dt>
-        <dd>
-          {m && lines ? (
-            <ul>
-              <li>Raised {lines.raised} and spent {lines.spent} since {monthYear(m.from)}.</li>
-              <li>
-                Had {lines.left} left as of {longDate(m.through)}{lines.start ? ", including money left over from earlier campaigns." : "."}
-              </li>
-              {m.donations ? (
-                <li>
-                  Of the money donors gave, {pct(m.fromIndividuals, m.donations)}% came from individual people and {pct(m.fromPACs, m.donations)}% from PACs
-                  (groups that collect money to give to candidates).
-                </li>
-              ) : null}
-            </ul>
-          ) : (
-            <p>No totals yet. The FEC only lists a candidate after they raise or spend more than $5,000.</p>
-          )}
-          <a class="src" href={r.money.source.url} target="_blank" rel="noopener">Source and every donor: {r.money.source.label}</a>
-        </dd>
+        <dd><Money money={r.money} /></dd>
       </div>
     )
   }

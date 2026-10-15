@@ -15,6 +15,8 @@ This is an ongoing project. The Georgia guide stays as-is through Election Day (
 Built off to the side so the live Georgia guide isn't touched. Launches after Nov 3.
 
 1. **Voting records and attendance** (DECISIONS #4 and #7). How each officeholder voted on bills that passed, grouped by topic, and how many votes they missed. The owner's top priority.
+   - **Done (Oct 15):** nightly votes and attendance, and a page for each candidate with bills or votes (`/person/<id>/`).
+   - **Done (Oct 15):** on those pages, how to reach them, every bill they wrote with how far it got, and which PACs gave and which outside groups spent for or against them.
 2. **More states.** The code is already organized by state (`data/states/<code>/`). Each state needs its own dates, offices, candidate list, and data sources checked. Certified candidate lists come in different formats per state, and some states don't publish one in a usable form.
 
 ## The bigger picture (ongoing)
@@ -41,4 +43,11 @@ The long-term goal: a place to check in any time, not just before one election.
 - **Seven hidden candidate facts** (Kingston, Day, Kozycki, Harris, McBath career line, Blooming). They stay hidden until each has a source.
 - **Bills for former state legislators** (Harper, Waites). Open States v3 only lists current members.
 - **Spot-check other "became law" counts** against Congress.gov.
+- **Past election results on the person pages.** The owner downloads official results from the Georgia Secretary of State by hand (the site blocks automated downloads) into `data/states/ga/sources/results/`: the Nov 2020 general, Jan 2021 runoff, Nov 2022 general, Dec 2022 runoff, and Nov 2024 general, then each new election. A script turns them into each person's past races, checked against totals we've already confirmed (Ossoff 2020: 2,374,519). Automatic sources were checked and rejected: OpenElections is missing counties in some files, MIT's House data requires agreeing to terms, and the FEC's 2024 file is blocked.
+- **More for the person pages** (owner: maybe later):
+  - All their committees, not just the ones where they hold a title.
+  - Bills they co-signed (cosponsored).
+  - Outside spending for or against them (FEC independent expenditures).
+  - Personal financial disclosures and stock trades (House Clerk PDFs; the Senate's site blocks automated downloads).
+  - Not planned, because they turn into ratings: ideology scores, interest-group ratings, "votes with their party" percentages.
 - **Plain-language bill summaries**, reviewed by the owner before publishing (DECISIONS #5). Needs an Anthropic API key.

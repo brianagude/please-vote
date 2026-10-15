@@ -1,0 +1,348 @@
+{
+  "jon-ossoff": {
+    "phone": "202-224-3521",
+    "address": "317 Hart Senate Office Building Washington DC 20510",
+    "form": "https://www.ossoff.senate.gov/contact-us/",
+    "website": "https://www.ossoff.senate.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/SenOssoff"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/SenOssoff"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/jonossoff"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "mike-collins": {
+    "phone": "202-225-4101",
+    "address": "2351 Rayburn House Office Building Washington DC 20515-1010",
+    "website": "https://collins.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepMikeCollins"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepMikeCollinsGA"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repmikecollins"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "sanford-d-bishop-jr": {
+    "phone": "202-225-3631",
+    "address": "2407 Rayburn House Office Building Washington DC 20515-1002",
+    "website": "https://bishop.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/SanfordBishop"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/sanfordbishop"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepSanfordBishop"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "brian-jack": {
+    "phone": "202-225-5901",
+    "address": "1320 Longworth House Office Building Washington DC 20515-1003",
+    "website": "https://jack.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepBrianJack"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepBrianJack"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repbrianjack"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "henry-c-johnson-jr": {
+    "phone": "202-225-1605",
+    "address": "2240 Rayburn House Office Building Washington DC 20515-1004",
+    "website": "https://hankjohnson.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepHankJohnson"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/115356957005"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepHankJohnson"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rephankjohnson"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "nikema-williams": {
+    "phone": "202-225-3801",
+    "address": "1406 Longworth House Office Building Washington DC 20515-1005",
+    "website": "https://nikemawilliams.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepNikema"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepNikemaWilliams"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repnikema"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "lucy-mcbath": {
+    "phone": "202-225-4501",
+    "address": "2246 Rayburn House Office Building Washington DC 20515-1006",
+    "website": "https://mcbath.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepLucyMcBath"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepLucyMcBath"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/replucymcbath"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "richard-mccormick": {
+    "phone": "202-225-4272",
+    "address": "1719 Longworth House Office Building Washington DC 20515-1007",
+    "website": "https://mccormick.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepMcCormick"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/100089135203690"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/reprichmccormick"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "austin-scott": {
+    "phone": "202-225-6531",
+    "address": "2185 Rayburn House Office Building Washington DC 20515-1008",
+    "website": "https://austinscott.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/AustinScottGA08"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepAustinScott"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepAustinScott"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "andrew-s-clyde": {
+    "phone": "202-225-9893",
+    "address": "445 Cannon House Office Building Washington DC 20515-1009",
+    "website": "https://clyde.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/Rep_Clyde"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepresentativeClyde"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repclyde"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/UC-o-UOnLuu8pZxZpShG4s7A"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "rick-w-allen": {
+    "phone": "202-225-2823",
+    "address": "462 Cannon House Office Building Washington DC 20515-1012",
+    "website": "https://allen.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepRickAllen"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/Rep_RickAllen"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/CongressmanRickAllen"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCZPoYXHFDAV17BGLMzGAmpg"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "clay-fuller": {
+    "phone": "202-225-5211",
+    "address": "2201 Rayburn House Office Building Washington DC 20515-1014",
+    "website": "https://fuller.house.gov",
+    "social": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "josh-mclaurin": {
+    "phone": "404-463-4228",
+    "address": "Room 323-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "josh.mclaurin@senate.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/josh-mclaurin-5bdYg1QjylfR616Tmh704n/"
+    }
+  },
+  "greg-dolezal": {
+    "phone": "404-656-0040",
+    "address": "Room 324-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "greg.dolezal@senate.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/greg-dolezal-xPt9CGpMZqDulbva8JwQW/"
+    }
+  },
+  "tim-fleming": {
+    "phone": "404-656-0188",
+    "address": "Room 504-D, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "tim.fleming@house.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/tim-fleming-6JhfWeqahtE9l9nk9CBHxe/"
+    }
+  },
+  "tanya-miller": {
+    "phone": "404-656-0298",
+    "address": "Room 608-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "tanya.miller@house.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/tanya-miller-3MBdKu9mhwJ72YY6DoB7pl/"
+    }
+  },
+  "brian-strickland": {
+    "phone": "404-656-0508",
+    "address": "Room 324-B, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "brian.strickland@senate.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/brian-strickland-1m5NC4TmZfmQIdJ10bBd6H/"
+    }
+  },
+  "houston-gaines": {
+    "phone": "404-656-0152",
+    "address": "Room 401-A, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "houston.gaines@house.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/houston-gaines-72KxvLe5L1XyA8034YxBDj/"
+    }
+  },
+  "jasmine-clark": {
+    "phone": "404-656-0287",
+    "address": "Room 607-E, Coverdell Legislative Office Building 18 Capitol Square SW, Atlanta, GA 30334",
+    "email": "jasmine.clark@house.ga.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/jasmine-clark-8Gj5GVqYVp38qaWIkslI2/"
+    }
+  }
+}

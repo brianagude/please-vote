@@ -9,5 +9,7 @@
     "run_worker_first": ["/api/*"]
   },
   "routes": [{ "pattern": "vote.brianagude.com", "custom_domain": true }],
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  // Lets Cloudflare build a preview of non-main branches (wrangler preview). The live site still deploys only from main.
+  "previews": {}
 }

@@ -58,6 +58,27 @@ Everything else is ink.
      - Links: Campaign site, Official site, Ballotpedia
 5. **Footer:** date of the information and a collapsible Sources list.
 
+## Person pages (`/person/<id>/`)
+
+Added Oct 15, 2026. Only candidates with bills they wrote or a voting record get a page (owner: no pages with little on them). Everyone else's card already shows all we have.
+
+**On the card (main page):** background, career list, committee work, offices held, leadership roles, campaign money, then the links.
+
+**Campaign money:** on the card, sentences only: raised and spent; the individual vs. PAC split; "Since 2025, 119 PACs gave $459,000 to their campaign."; and "Since 2025, outside groups like super PACs spent $X to help them and $Y against them." The person page has its own "Campaign money" section with the same sentences, then three collapsed rows (closed by default), each with a count and total: PACs that gave to their campaign, outside groups that spent to help them, and outside groups that spent against them. Opened, each shows its names in a 3-column block (biggest first, name linked to its FEC page, amount in soft gray). Pages exist only for people with bills or votes; no pages just for money. The owner removed the "had $X left" line and the small-donor and in-state shares (Oct 15, 2026). FEC names are shown in normal case, keeping acronyms like PAC and AFL-CIO.
+
+**On the page, top to bottom:**
+1. Back link, then a header sheet: "Running for", photo, name, party, stamp, and "On this page" jump links.
+2. **Overview:** one sheet with the short background, career list, committee work, and links (with sources); "How to reach them" (office phone, address, email or contact form, official accounts); then offices held and leadership roles.
+3. **Campaign money** (see above).
+4. **Bills they wrote:** the same layout as "How they voted": a "Wrote" cell and a "Became law" cell, then every bill (laws first, then the ones that got furthest) with its status on the right. Only the first 5 show, with a full-width "Show all N" / "Show less" bar in a slightly lighter shade (everything shows without JavaScript). Up to 640px, each status folds under its bill, and accordion counts fold under their titles. Money rows with nothing reported are hidden.
+5. **How they voted** (officeholders only): the rule in one sentence (plus a note when a bill can sit under more than one topic), a votes-shown cell and an attendance cell, then "By topic".
+   - Topics are quiet rows inside the same sheet (bold body text, a count, +/–), not big display boxes. They're less important than the ballot sections on the main page and shouldn't look as important.
+   - Each vote: date, chamber, and kind of vote; the bill number linked to the official page with its title; passed or became law; their vote in small caps on the right. Votes are not colored.
+   - Georgia's "Excused" is shown apart from "Didn't vote": "They had permission to be away (excused) for 148 of them."
+6. Later sections (what they're doing now, etc.) go after these.
+
+Long official bill titles are a known issue; plain-language summaries (DECISIONS #5) will fix them later.
+
 ## Rejected (don't reintroduce)
 
 - Bright red/white/blue poster styling, huge bold blocky type, and "in your face" color.

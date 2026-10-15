@@ -244,3 +244,65 @@ p,li,dd,.sub,.gsub,.hint,.note,.rnote,.also{text-wrap:pretty}
 .motion{align-self:flex-start;background:none;border:0;padding:4px 0;min-height:24px;font:inherit;font-size:.85rem;color:var(--ink);text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px;text-decoration-thickness:1.5px}
 .motion:hover{text-underline-offset:5px;text-decoration-thickness:2px}
 @media (prefers-reduced-motion:reduce){.motion{display:none}}
+
+/* person page: every vote, by topic */
+.back{font-size:.9rem;align-self:flex-start}
+.wrap.person{gap:40px}
+.person header .val{font-size:1.05rem}
+.head-cand{flex-direction:row;align-items:center;gap:16px}
+.pin.big{width:88px;height:88px;font-size:2rem;flex:none}
+.person h1{font-size:clamp(2.4rem,8vw,3.6rem)}
+.person .cn{margin-top:6px}
+.tallies{grid-template-columns:1fr 1fr}
+.tallies p{font-size:.95rem}
+.jump p{font-size:.95rem}
+.overview{gap:8px}
+.overview .links{margin-top:4px}
+/* Vote topics: quiet rows inside one sheet, not big section boxes. */
+.topics{padding:10px 0 4px;display:flex;flex-direction:column}
+.topics>.lbl{padding:0 14px 6px}
+details.topic{border-top:1px dashed var(--hair)}
+details.topic>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:6px 12px;padding:9px 14px}
+details.topic>summary::-webkit-details-marker{display:none}
+details.topic>summary::before{content:"+";font-weight:700;width:12px;flex:none;color:var(--soft)}
+details.topic[open]>summary::before{content:"–"}
+.tname{font-weight:600;flex:1;min-width:0}
+.tcount{font-size:.85rem;color:var(--soft);white-space:nowrap}
+@media (hover:hover){details.topic>summary:hover{background:#efeadf}details.topic>summary:hover .tname{text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px}}
+details.topic[open]>summary{border-bottom:1px dashed var(--hair)}
+details.topic .vlist{background:var(--paper)}
+.vlist{list-style:none;margin:0;padding:0}
+.vlist li{display:grid;grid-template-columns:minmax(0,1fr) 110px;gap:6px 16px;padding:10px 16px;border-top:1px dashed var(--hair);font-size:.9rem}
+.vlist li:first-child{border-top:0}
+.vmain{display:flex;flex-direction:column;gap:2px;min-width:0;overflow-wrap:anywhere}
+.vmeta{font-size:.78rem;color:var(--soft)}
+.vcast{font-family:var(--label);font-stretch:90%;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:.85rem;text-align:right}
+@media (max-width:420px){.vlist li{grid-template-columns:1fr}.vcast{text-align:left}.head-cand{gap:12px}.pin.big{width:64px;height:64px;font-size:1.5rem}}
+.rec .site{min-height:24px;display:inline-flex;align-items:center;margin-top:0}
+.person .rec{margin:0;border-top:0}.person .rec>div:last-child{border-bottom:0}
+.billlist li{font-size:.85rem}.bstat{font-size:.75rem;color:var(--soft);white-space:nowrap}.bstat::before{content:"· "}
+.reach{list-style:none;padding-left:0!important}.reach li{min-height:24px}
+.bst{font-size:.72rem;letter-spacing:.06em;line-height:1.3}
+.rec dd>a.src{min-height:24px;display:inline-flex;align-items:center}
+/* person page money: long lists of names in columns */
+.cell.money ul{margin:0;padding-left:16px;display:flex;flex-direction:column;gap:4px;font-size:.95rem}
+.cell.money ul li::marker{color:var(--faded)}
+.cols{list-style:none;margin:4px 0 0;padding:0;columns:3 200px;column-gap:24px;font-size:.85rem}
+.cols li{break-inside:avoid;padding:3px 0;min-height:24px;line-height:1.35}
+.amt{color:var(--soft);white-space:nowrap;font-variant-numeric:tabular-nums}
+.cols a{text-decoration-color:var(--hair)}.cols a:hover{text-decoration-color:var(--red)}
+.grouplist{width:100%;border-top:0}
+.grouplist .cols{padding:8px 14px 12px}
+.capped{display:flex;flex-direction:column;align-items:stretch}
+/* Show all / Show less: a full-width bar along the bottom, like Open/Close on small screens. */
+.capped .more{display:block;width:100%;margin:0;border:0;border-top:1px solid var(--rule);background:#fbf9f4;color:var(--ink);padding:11px 16px;text-align:center;font-family:var(--type);font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+@media (hover:hover){.capped .more:hover{background:#efeadf}}
+/* Up to 640px: counts and statuses fold under the title. */
+@media (max-width:640px){
+  details.topic>summary{flex-wrap:wrap}
+  details.topic>summary .tname{flex-basis:calc(100% - 24px)}
+  details.topic>summary .tcount{flex-basis:100%;padding-left:24px}
+  .capped .vlist li{grid-template-columns:1fr}
+  .capped .vcast{text-align:left}
+}
+.vlist li[hidden]{display:none}
