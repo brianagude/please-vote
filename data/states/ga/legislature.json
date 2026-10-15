@@ -1,451 +1,499 @@
 {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "upper": {
     "1": {
       "name": "Ben Watson",
       "party": "R",
+      "openstates": "ocd-person/fd2717f1-6294-4601-a027-8fc41195372c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/ben-watson-7hgvJqrG0XNBlugC6jN5eG/"
       }
     },
     "2": {
       "name": "Derek Mallow",
       "party": "D",
+      "openstates": "ocd-person/73918c45-83c1-4d52-a84d-3ad7ad8de40b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/derek-mallow-3W4dG0KknLaN8bm6oF1hPf/"
       }
     },
     "3": {
       "name": "Mike Hodges",
       "party": "R",
+      "openstates": "ocd-person/011995be-4dd0-43b2-ae75-57ae45f53576",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mike-hodges-24gRtDfNQQrErlUCgmYgY/"
       }
     },
     "4": {
       "name": "Billy Hickman",
       "party": "R",
+      "openstates": "ocd-person/449db918-10b7-4fa7-a047-eb9de416dce3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/billy-hickman-25TYaPFGSZXDd382emn27n/"
       }
     },
     "5": {
       "name": "Sheikh Rahman",
       "party": "D",
+      "openstates": "ocd-person/5b6e0e37-802b-4103-b401-551532aba2e7",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sheikh-rahman-2mWb1vUTyRWDZCNomtfrrL/"
       }
     },
     "6": {
       "name": "Matt Brass",
       "party": "R",
+      "openstates": "ocd-person/81b84318-8c9f-467f-a7c1-776d9c415f51",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/matt-brass-3wmDWjZQoqLM2JIdMBR8cb/"
       }
     },
     "7": {
       "name": "Adrienne White",
       "party": "D",
+      "openstates": "ocd-person/3cfc8d4f-68d4-44b2-81f4-a162465e1aed",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/adrienne-white-1r4xHdqH1ed6rXvdlLqxSf/"
       }
     },
     "8": {
       "name": "Russ Goodman",
       "party": "R",
+      "openstates": "ocd-person/b90b899d-87f0-43a5-9d15-6e310187ac41",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/russ-goodman-5dAqtaoq1SOzUzDOaEdXXN/"
       }
     },
     "9": {
       "name": "Nikki Merritt",
       "party": "D",
+      "openstates": "ocd-person/57ad1f65-9969-4be2-b262-684bf53123fb",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/nikki-merritt-2fRRsiDnKjb2CeoTpK8Mqh/"
       }
     },
     "10": {
       "name": "Emanuel Jones",
       "party": "D",
+      "openstates": "ocd-person/acc7c167-6251-4ce8-8021-511acfa291ef",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/emanuel-jones-5G1y3swr2loKMgjidPGqA3/"
       }
     },
     "11": {
       "name": "Sam Watson",
       "party": "R",
+      "openstates": "ocd-person/cbcdfca3-e47d-4b32-9164-ec0709a134bf",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
-      }
-    },
-    "12": {
-      "vacant": true,
-      "source": {
-        "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/retired"
+        "url": "https://openstates.org/person/sam-watson-6CZZsIyrJSVTRidvK3CwW7/"
       }
     },
     "13": {
       "name": "Carden Summers",
       "party": "R",
+      "openstates": "ocd-person/98850c9f-1c37-4177-9ad8-17d2b4d3c8d4",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/carden-summers-4dndWB3TAVcKPpxAmRmbKu/"
       }
     },
     "14": {
       "name": "Josh McLaurin",
       "party": "D",
+      "openstates": "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/josh-mclaurin-5bdYg1QjylfR616Tmh704n/"
       }
     },
     "15": {
       "name": "Ed Harbison",
       "party": "D",
+      "openstates": "ocd-person/4cf7c975-678b-4e21-9877-6d22d7b37916",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/ed-harbison-2LEeeu7Ijp3zMCoo0HGIBK/"
       }
     },
     "16": {
       "name": "Marty Harbin",
       "party": "R",
+      "openstates": "ocd-person/078246e9-90b8-43aa-bb92-d7016f517b8e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/marty-harbin-EATwp8cN3tQbu2hwo7yPe/"
       }
     },
     "17": {
       "name": "Gail Davenport",
       "party": "D",
+      "openstates": "ocd-person/df023a79-0194-4d1a-8755-5dee4053e1cc",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/gail-davenport-6moJ3H5Nnz7oItZHzquXRU/"
       }
     },
     "18": {
       "name": "Steven McNeel",
       "party": "R",
+      "openstates": "ocd-person/516cb969-9467-490f-9a05-02c3e7decae3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/steven-mcneel-2Te44DsJoA8BxUo7WuxQbT/"
       }
     },
     "19": {
       "name": "Blake Tillery",
       "party": "R",
+      "openstates": "ocd-person/e9c5a2fc-3354-49e1-ac29-783502155fe7",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/blake-tillery-777X0WTAqltnm96jkxvgJz/"
       }
     },
     "20": {
       "name": "Larry Walker",
       "party": "R",
+      "openstates": "ocd-person/44a51125-9e82-41f6-8d4f-a646895b5994",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/larry-walker-25Wufd7LtEYu2r7QBkWIia/"
       }
     },
     "21": {
       "name": "Jason Dickerson",
       "party": "R",
+      "openstates": "ocd-person/584267b0-e40b-4d6e-a7fe-4c076eb6214c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jason-dickerson-2gXff1tTilJRA4sjyRxBQy/"
       }
     },
     "22": {
       "name": "Harold Jones",
       "party": "D",
+      "openstates": "ocd-person/d7bfd125-d343-4acd-a4dc-480daf241af3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/harold-jones-6Z70fvoZuJJBDjzwCKE4yB/"
       }
     },
     "23": {
       "name": "Max Burns",
       "party": "R",
+      "openstates": "ocd-person/918888ac-edc7-4178-9133-d058f0f21010",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/max-burns-4QcHa3lPp6ivhkxY80BKs4/"
       }
     },
     "24": {
       "name": "Lee Anderson",
       "party": "R",
+      "openstates": "ocd-person/e11cecf4-f2e5-49d9-ba9e-47681f779438",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lee-anderson-6qmUXbgjbKbdvREWhabOTQ/"
       }
     },
     "25": {
       "name": "Rick Williams",
       "party": "R",
+      "openstates": "ocd-person/c7860bae-9d9c-449c-9903-20230eec50ac",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rick-williams-64UjOAxLK6Ug74tMWms0ce/"
       }
     },
     "26": {
       "name": "David Lucas",
       "party": "D",
+      "openstates": "ocd-person/4b05e770-4423-4b64-8ae1-9600e8c73244",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/david-lucas-2HZ7bbO7ukeabxJYuHwFBU/"
       }
     },
     "27": {
       "name": "Greg Dolezal",
       "party": "R",
+      "openstates": "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/greg-dolezal-xPt9CGpMZqDulbva8JwQW/"
       }
     },
     "28": {
       "name": "Donzella James",
       "party": "D",
+      "openstates": "ocd-person/7f88fadb-2f51-48c7-8ae5-e20cd2f33e4a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/donzella-james-3secmUsFngWEVFzNkKPI8Q/"
       }
     },
     "29": {
       "name": "Randy Robertson",
       "party": "R",
+      "openstates": "ocd-person/6da7fe11-4436-4854-8e1b-4c45dc4cdaac",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/randy-robertson-3Kuw3XoqHJBC20mOoZN1cy/"
       }
     },
     "30": {
       "name": "Tim Bearden",
       "party": "R",
+      "openstates": "ocd-person/93f45299-bfa2-4458-844a-5c6b9bdd8c1d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/tim-bearden-4VBWizdKo0XswOxxJnEtyv/"
       }
     },
     "31": {
       "name": "Jason Anavitarte",
       "party": "R",
+      "openstates": "ocd-person/cb7d8c1d-3c26-4f35-8d37-d1cf8a7ce207",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jason-anavitarte-6Byoh6JnmmK0uEIvTYseDn/"
       }
     },
     "32": {
       "name": "Kay Kirkpatrick",
       "party": "R",
+      "openstates": "ocd-person/fc31ab02-026c-4173-86db-570c0b297c64",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kay-kirkpatrick-7fslPeuQMgvkumJPQeEJ6K/"
       }
     },
     "33": {
       "name": "Doc Rhett",
       "party": "D",
+      "openstates": "ocd-person/efb9168c-b45a-4f43-bba5-d6f05e7d9cbe",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/doc-rhett-7ILkbJ3V9D1BYUB8TjmGYI/"
       }
     },
     "34": {
       "name": "Kenya Wicks",
       "party": "D",
+      "openstates": "ocd-person/0a816fbf-e5ec-4056-8b3e-08184400e71b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kenya-wicks-Jp4hrDaRnptZzdrxo4q7v/"
       }
     },
     "35": {
       "name": "Jaha Howard",
       "party": "D",
+      "openstates": "ocd-person/fcd57129-480c-4fba-a0d1-7fb369706611",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jaha-howard-7h5bnciYPd2vcEz2gpUYZF/"
       }
     },
     "36": {
       "name": "Nan Orrock",
       "party": "D",
+      "openstates": "ocd-person/bf2c1ec5-d995-4605-85ac-139adb037d99",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/nan-orrock-5ojhEyhy91AYbhStnt7kGf/"
       }
     },
     "37": {
       "name": "Ed Setzler",
       "party": "R",
+      "openstates": "ocd-person/777f58bb-9d6b-4755-ab7b-b94d11629cb5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/ed-setzler-3dUHdWcbYBWXOfg3toTy2n/"
       }
     },
     "38": {
       "name": "RaShaun Kemp",
       "party": "D",
+      "openstates": "ocd-person/069fb4fa-766b-40e4-90b7-ce96b4fa2ace",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rashaun-kemp-CUwIHej1OKrLmV7GBwhOo/"
       }
     },
     "39": {
       "name": "Sonya Halpern",
       "party": "D",
+      "openstates": "ocd-person/2abbbe23-8cb6-4f33-afaf-38ce88a4e10c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sonya-halpern-1IdTXHeguTGekIBduzRhoC/"
       }
     },
     "40": {
       "name": "Sally Harrell",
       "party": "D",
+      "openstates": "ocd-person/218a4fc4-a568-4b78-b350-0d60c6b12d4c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sally-harrell-11HxEQQZ3hfi1NJgGTJY2G/"
       }
     },
     "41": {
       "name": "Kim Jackson",
       "party": "D",
+      "openstates": "ocd-person/2f8621bc-0548-457c-8b0d-9148e14b77fe",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kim-jackson-1Rfw8khE54Asu2nvwgk9LK/"
       }
     },
     "42": {
       "name": "Brian Strickland",
       "party": "R",
+      "openstates": "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/brian-strickland-1m5NC4TmZfmQIdJ10bBd6H/"
       }
     },
     "43": {
       "name": "Tonya Anderson",
       "party": "D",
+      "openstates": "ocd-person/d9f1ea57-7b90-484a-9664-927a36c87e0c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/tonya-anderson-6dFtDTK3WQuxaaH2ZDhVpU/"
       }
     },
     "44": {
       "name": "Elena Parent",
       "party": "D",
+      "openstates": "ocd-person/3f15ad5e-877d-44aa-b5b3-b24587c42685",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/elena-parent-1v2QET7MFUSiokLOWhfRkD/"
       }
     },
     "45": {
       "name": "Clint Dixon",
       "party": "R",
+      "openstates": "ocd-person/17a7e011-73f2-4ac5-8470-3436b47a6744",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/clint-dixon-idXeGBlxVqK8ju4EgdyFA/"
       }
     },
     "46": {
       "name": "Bill Cowsert",
       "party": "R",
+      "openstates": "ocd-person/4dc87191-fa52-4c2f-bc9c-8823a8b4c882",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bill-cowsert-2Mm0knXw6zeZFhy7VbJo8o/"
       }
     },
     "47": {
       "name": "Frank Ginn",
       "party": "R",
+      "openstates": "ocd-person/9e417b67-da09-4516-b858-6b2458f53633",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/frank-ginn-4ociCwoMU7111Eudch9DIx/"
       }
     },
     "48": {
       "name": "Shawn Still",
       "party": "R",
+      "openstates": "ocd-person/314d7845-ba55-4bd4-809a-c7c7aea26690",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/shawn-still-1V21ixmS86x5GvCGQ0tOD2/"
       }
     },
     "49": {
       "name": "Drew Echols",
       "party": "R",
+      "openstates": "ocd-person/6be704ef-6250-4e08-86d3-f5fa2e1eebf3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/drew-echols-3HbkoZhTJQBlYUHUet4Wo7/"
       }
     },
     "50": {
       "name": "Bo Hatchett",
       "party": "R",
+      "openstates": "ocd-person/60bb96c4-f20c-4918-b88b-d7857341e5f4",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bo-hatchett-2wWzUOFv1GgTib6eZFXwIe/"
       }
     },
     "51": {
       "name": "Steve Gooch",
       "party": "R",
+      "openstates": "ocd-person/e2c141e9-9e04-4e2b-8e5b-57db594c7abc",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/steve-gooch-6tsaG0c1I1I662fIuHoDCW/"
       }
     },
     "52": {
       "name": "Chuck Hufstetler",
       "party": "R",
+      "openstates": "ocd-person/b11d0191-cd84-4a93-add6-ee65494caff2",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/chuck-hufstetler-5OCteokrcPmqZHKdJC7lHm/"
       }
     },
     "53": {
       "name": "Lanny Thomas",
       "party": "R",
+      "openstates": "ocd-person/ae6e08e3-6971-4cd2-982a-48d650a343d5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lanny-thomas-5J8wxGsNZ4F1SaOuzEeesX/"
       }
     },
     "54": {
       "name": "Chuck Payne",
       "party": "R",
+      "openstates": "ocd-person/1ac93f89-f367-4de3-82ba-79fa78d4d134",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/chuck-payne-oXloR6K8vHUI3k3oiaHeW/"
       }
     },
     "55": {
       "name": "Randal Mangham",
       "party": "D",
+      "openstates": "ocd-person/8798a822-fee8-4546-bcdd-455f788bef44",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/randal-mangham-47rjAJCRCcmqtuxVdjO2Fg/"
       }
     },
     "56": {
       "name": "John Albers",
       "party": "R",
+      "openstates": "ocd-person/ac1cac30-3fec-4c56-b172-b483db465a6b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/john-albers-5ElmaOW3CImOIZbmfNs1gR/"
       }
     }
   },
@@ -453,1441 +501,1621 @@
     "1": {
       "name": "Mike Cameron",
       "party": "R",
+      "openstates": "ocd-person/f4f9be12-5d7c-4fae-8b7b-9e9d19d2282f",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mike-cameron-7SGG91LjlY141r1IVhCefn/"
       }
     },
     "2": {
       "name": "Steve Tarvin",
       "party": "R",
+      "openstates": "ocd-person/80f4bbdf-02f3-4233-8456-e550e7e745af",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/steve-tarvin-3vKrPmaXfBbq8Ged7ctcpr/"
       }
     },
     "3": {
       "name": "Mitchell Horner",
       "party": "R",
+      "openstates": "ocd-person/c4c6c741-0cb4-4179-b46d-9983421b8fdd",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mitchell-horner-5zJKxR6lP6Zt4upDOf1qiT/"
       }
     },
     "4": {
       "name": "Kasey Carpenter",
       "party": "R",
+      "openstates": "ocd-person/97a40ea4-674f-4b84-8fd3-8bc2f3b4a35d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kasey-carpenter-4c8oZdfOfIw9lafipRwZeX/"
       }
     },
     "5": {
       "name": "Matt Barton",
       "party": "R",
+      "openstates": "ocd-person/9103b29e-964b-4637-9304-0e73216d7796",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/matt-barton-4PdZn4L0Xc5DrDWkYC8IAY/"
       }
     },
     "6": {
       "name": "Jason Ridley",
       "party": "R",
+      "openstates": "ocd-person/594aa971-500b-42a4-9d7a-1ceb4c029220",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jason-ridley-2iUR8R6Baubnmo0Xqx4u80/"
       }
     },
     "7": {
       "name": "Johnny Chastain",
       "party": "R",
+      "openstates": "ocd-person/8106e2d8-e1e3-42a8-b550-fbd2627fa474",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/johnny-chastain-3vT9k4iCydkiEqAOsVBtNk/"
       }
     },
     "8": {
       "name": "Stan Gunter",
       "party": "R",
+      "openstates": "ocd-person/432ef767-d4c8-4736-b2ac-96397205fb3d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/stan-gunter-22lwsMOu6fmahW4P5R4nHh/"
       }
     },
     "9": {
       "name": "Will Wade",
       "party": "R",
+      "openstates": "ocd-person/97a002db-6151-4fdf-9bce-013a6344764f",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/will-wade-4c6xvumknUctjjrL1jLkqt/"
       }
     },
     "10": {
       "name": "Victor Anderson",
       "party": "R",
+      "openstates": "ocd-person/546d682f-b256-4060-8fd3-084d7f118d43",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/victor-anderson-2ZJLz41tr6Dkehvd77DCRX/"
       }
     },
     "11": {
       "name": "Rick Jasperse",
       "party": "R",
+      "openstates": "ocd-person/4d1f5379-01e9-4f58-9868-42acc07ec7a8",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rick-jasperse-2LWixmYn3vIufw52HOs1zk/"
       }
     },
     "12": {
       "name": "Eddie Lumsden",
       "party": "R",
+      "openstates": "ocd-person/f33d979c-554c-433e-ad0f-837eef1da589",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/eddie-lumsden-7OzHYYxLwSvxBKbIATWpHF/"
       }
     },
     "13": {
       "name": "Katie Dempsey",
       "party": "R",
+      "openstates": "ocd-person/bf68b3dc-ca81-49f9-8e33-fe27317183d3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/katie-dempsey-5pBNmpUYOVnMxHCqWPnXkZ/"
       }
     },
     "14": {
       "name": "Mitchell Scoggins",
       "party": "R",
+      "openstates": "ocd-person/7ac30a66-1649-4a8c-a72f-a4b9a7ab1534",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mitchell-scoggins-3jeCFyccqn2QSnUimLM4V2/"
       }
     },
     "15": {
       "name": "Matthew Gambill",
       "party": "R",
+      "openstates": "ocd-person/909e9026-e549-494b-be99-e8562a389e0c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/matthew-gambill-4OtMEXkDP9XI6jTyCNMnEa/"
       }
     },
     "16": {
       "name": "Trey Kelley",
       "party": "R",
+      "openstates": "ocd-person/6ac8933e-8dde-4902-8eec-61cc5a91c844",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/trey-kelley-3FUqgWDADgz5bo46V8FrFc/"
       }
     },
     "17": {
       "name": "Martin Momtahan",
       "party": "R",
+      "openstates": "ocd-person/6552dd8d-1020-4bbb-abfc-88975573ebd4",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/martin-momtahan-35C5rm660SCQ9lhclSxd92/"
       }
     },
     "18": {
       "name": "Tyler Smith",
       "party": "R",
+      "openstates": "ocd-person/4b162447-89a7-4ffc-acbf-617e1ad87e2a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/tyler-smith-2HgXgVayNefCHky0tJVibi/"
       }
     },
     "19": {
       "name": "Joseph Gullett",
       "party": "R",
+      "openstates": "ocd-person/f36d2507-b19a-4ee5-b4f9-5c06df761edf",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/joseph-gullett-7PL0uVnoZc32NCmMK93ZSJ/"
       }
     },
     "20": {
       "name": "Charlice Byrd",
       "party": "R",
+      "openstates": "ocd-person/0d75f0d9-0242-4f72-b4f3-1cd085eb26b6",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/charlice-byrd-POnYi19zWBxBFNB4Zu6Yo/"
       }
     },
     "21": {
       "name": "Brad Thomas",
       "party": "R",
+      "openstates": "ocd-person/933a841a-19d6-42c2-a046-991ff9903a23",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/brad-thomas-4Toc44uVQanLVmsfgwI3Gd/"
       }
     },
     "22": {
       "name": "Jordan Ridley",
       "party": "R",
+      "openstates": "ocd-person/56f28f8a-9296-4e69-9bd4-d0101a42b359",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jordan-ridley-2e4Box1qVQifguLJubtPCr/"
       }
     },
     "23": {
       "name": "Bill Fincher",
       "party": "R",
+      "openstates": "ocd-person/f2444048-8c14-45b2-b700-37f7899fa5bb",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bill-fincher-7N9KhnJhLvonDRhyYZR3nv/"
       }
     },
     "24": {
       "name": "Carter Barrett",
       "party": "R",
+      "openstates": "ocd-person/72370a62-92f4-46f1-ab7b-193a643085b8",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/carter-barrett-3TWHI2HEYaagPD5tGV7TU8/"
       }
     },
     "25": {
       "name": "Todd Jones",
       "party": "R",
+      "openstates": "ocd-person/45567c87-3ba6-49ec-9ea2-5ebb880aa94c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/todd-jones-26pzggO13gGwjbpjOCxmSS/"
       }
     },
     "26": {
       "name": "Lauren McDonald",
       "party": "R",
+      "openstates": "ocd-person/7767ee85-7961-45ba-adc2-c3606b1c39b8",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lauren-mcdonald-3dJaCHv5PAYxnpDRMFll4C/"
       }
     },
     "27": {
       "name": "Lee Hawkins",
       "party": "R",
+      "openstates": "ocd-person/69493144-3e3e-49a8-9e1f-f9a948fd0ff3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lee-hawkins-3Cfdt8QMvHwwek1NaIjRrv/"
       }
     },
     "28": {
       "name": "Brent Cox",
       "party": "R",
+      "openstates": "ocd-person/c0b205e2-1542-4802-896d-fa7b2b6fc4d9",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/brent-cox-5rbsmDRYn0lsRvzEXNxWG1/"
       }
     },
     "29": {
       "name": "Matt Dubnik",
       "party": "R",
+      "openstates": "ocd-person/99f0a2a7-8817-4756-a40e-575e259890e7",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/matt-dubnik-4gTnOVt4iC4ETT89DwaS9f/"
       }
     },
     "30": {
       "name": "Derrick McCollum",
       "party": "R",
+      "openstates": "ocd-person/3a323603-753e-4380-993c-9bb2a7fc55f3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/derrick-mccollum-1loV5a1w8xzmutcsQ4Lcxv/"
       }
     },
     "31": {
       "name": "Emory Dunahoo",
       "party": "R",
+      "openstates": "ocd-person/3b2b9f31-6859-4582-8d82-581597c0c178",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/emory-dunahoo-1neTuqxVSyHzUgEJtBNULI/"
       }
     },
     "32": {
       "name": "Chris Erwin",
       "party": "R",
+      "openstates": "ocd-person/d79c3e9b-b73d-416b-9bfd-8a0338d8256c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/chris-erwin-6YqklP09rrvjWI4Y1m087w/"
       }
     },
     "33": {
       "name": "Alan Powell",
       "party": "R",
+      "openstates": "ocd-person/bb48e87c-29db-4a4d-a278-fa299be2020e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/alan-powell-5hOsp6K6KiT8jtyX5KChKA/"
       }
     },
     "34": {
       "name": "Devan Seabaugh",
       "party": "R",
+      "openstates": "ocd-person/8f76af22-98dc-4e1e-ba99-75b87c1129d6",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/devan-seabaugh-4Mi8m8LhZu0Lfel9T9mQTu/"
       }
     },
     "35": {
       "name": "Lisa Campbell",
       "party": "D",
+      "openstates": "ocd-person/3a23acfd-5ce6-4e47-b641-1efdab05bdca",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lisa-campbell-1lhrFJuRox6YBLLdvfrsWg/"
       }
     },
     "36": {
       "name": "Ginny Ehrhart",
       "party": "R",
+      "openstates": "ocd-person/be05ace3-ea73-4f3f-85ae-c5ed313d4cbe",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/ginny-ehrhart-5mZ8Pu0ZZPhDuIDHQ10WFC/"
       }
     },
     "37": {
       "name": "Mary Frances Williams",
       "party": "D",
+      "openstates": "ocd-person/4aec761f-5117-4f43-a487-9d77418f0bfa",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mary-frances-williams-2HNUiBYPVUGcTkpUAEUfdq/"
       }
     },
     "38": {
       "name": "David Wilkerson",
       "party": "D",
+      "openstates": "ocd-person/83a7bbf2-d69c-4813-bbeb-52820e6b9af4",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/david-wilkerson-40QeGw1dkdwyqke80Xl7Y4/"
       }
     },
     "39": {
       "name": "Terry Cummings",
       "party": "D",
+      "openstates": "ocd-person/aa7405f9-5c37-4ce8-a7eb-ac5949a6e776",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/terry-cummings-5BdiXWy99evu7t4E1y6Zvi/"
       }
     },
     "40": {
       "name": "Kimberly New",
       "party": "R",
+      "openstates": "ocd-person/fc1a5e1f-6ce4-47ab-987b-095afa166359",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kimberly-new-7fi7DfEgCXUL7m5EL0fTuz/"
       }
     },
     "41": {
       "name": "Michael Smith",
       "party": "D",
+      "openstates": "ocd-person/68185f1d-fa54-4571-b305-fcd6c7dc024e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/michael-smith-3AQL4KaEmLcGIEGs50hI6A/"
       }
     },
     "42": {
       "name": "Gabriel Sanchez",
       "party": "D",
+      "openstates": "ocd-person/bd990496-ea34-4b79-8d6f-68cfed424c15",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/gabriel-sanchez-5llTi08XnArzVngdWU5DYj/"
       }
     },
     "43": {
       "name": "Solomon Adesanya",
       "party": "D",
+      "openstates": "ocd-person/5474fbe2-6cdb-4ad2-9831-cdffaca442af",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/solomon-adesanya-2ZMofaBvE5Pu106CoTonrL/"
       }
     },
     "44": {
       "name": "Don Parsons",
       "party": "R",
+      "openstates": "ocd-person/81dde544-49e9-4fb0-9313-32eacaf6194b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/don-parsons-3x3PpxD7oJVIxdmLisA11v/"
       }
     },
     "45": {
       "name": "Sharon Cooper",
       "party": "R",
+      "openstates": "ocd-person/15db25fc-273b-467f-b8f9-897337f40b65",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sharon-cooper-fEzNOAmOFr5QjghIq8qCj/"
       }
     },
     "46": {
       "name": "John Carson",
       "party": "R",
+      "openstates": "ocd-person/713cac52-0a57-4baa-8273-6eeca5b491df",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/john-carson-3RfrMK1ocXpXG58IuaufTr/"
       }
     },
     "47": {
       "name": "Jan Jones",
       "party": "R",
+      "openstates": "ocd-person/85740034-23b0-4001-9190-8948bd9f3b37",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jan-jones-43ozVFbjTviRy7tpneTP4Z/"
       }
     },
     "48": {
       "name": "Scott Hilton",
       "party": "R",
+      "openstates": "ocd-person/91abe321-5ea4-4f17-b8d8-573d7cb913e6",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/scott-hilton-4QsRHj98yK64rQZVWXqxU6/"
       }
     },
     "49": {
       "name": "Chuck Martin",
       "party": "R",
+      "openstates": "ocd-person/42517dd7-eccb-4d22-a795-cbd010b69ee6",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/chuck-martin-218jad1ZLQbjjPe1RX7QeM/"
       }
     },
     "50": {
       "name": "Michelle Au",
       "party": "D",
+      "openstates": "ocd-person/48b46caf-d38e-46ab-96ff-c268e23a7d76",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/michelle-au-2DBtuVLPbEzNmUsDtSlW1G/"
       }
     },
     "51": {
       "name": "Esther Panitch",
       "party": "D",
+      "openstates": "ocd-person/bdc621be-7296-4383-8c45-b4533d1c106c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/esther-panitch-5m65y91GWC1gNRdu5PHYjM/"
       }
     },
     "52": {
       "name": "Shea Roberts",
       "party": "D",
+      "openstates": "ocd-person/9007dcd9-3246-4cf3-9185-7478b3a9ad7a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/shea-roberts-4NmUHCIn0gQej1O32KCYR8/"
       }
     },
     "53": {
       "name": "Deborah Silcox",
       "party": "R",
+      "openstates": "ocd-person/b824f8fd-7343-449d-8027-fcd0afaf1949",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/deborah-silcox-5bTU3BJmLYhRugPHXfBDLd/"
       }
     },
     "54": {
       "name": "Betsy Holland",
       "party": "D",
+      "openstates": "ocd-person/c2c81ffc-f4b1-40f4-96b0-6309f89902ee",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/betsy-holland-5vXy42vXYzX8kMu5DYegeM/"
       }
     },
     "55": {
       "name": "Inga Willis",
       "party": "D",
+      "openstates": "ocd-person/f02d369f-2d48-4d8d-853d-77ce5a8810fc",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/inga-willis-7JCou5Wp1FgoZ3IIosyBGm/"
       }
     },
     "56": {
       "name": "Bryce Berry",
       "party": "D",
+      "openstates": "ocd-person/b1187e7a-8cea-4e91-9c9f-7c7c61df3c85",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bryce-berry-5OApoOqblUiXTk3L9MkGFJ/"
       }
     },
     "57": {
       "name": "Stacey Evans",
       "party": "D",
+      "openstates": "ocd-person/fa5d8d09-a0b9-4ba4-93da-a24902530416",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/stacey-evans-7cQpkM9vRCm4y7uh01kS5G/"
       }
     },
     "58": {
       "name": "Park Cannon",
       "party": "D",
+      "openstates": "ocd-person/5c5ab5cb-54f6-4218-8d1d-a99d36bca436",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/park-cannon-2oGkQ7HBFCy0ZCG5IjPfAU/"
       }
     },
     "59": {
       "name": "Phil Olaleye",
       "party": "D",
+      "openstates": "ocd-person/80928bd9-c963-4b21-954c-c62ee9373064",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/phil-olaleye-3ubzMOTcyFHEo8cXRLzCnE/"
       }
     },
     "60": {
       "name": "Sheila Jones",
       "party": "D",
+      "openstates": "ocd-person/b278b399-5ca3-4cd7-bc19-4053166577a2",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sheila-jones-5QlnHremzeXHJy3zw3KGDi/"
       }
     },
     "61": {
       "name": "Mekyah McQueen",
       "party": "D",
+      "openstates": "ocd-person/f0af2586-d535-4e44-bcaa-65239f9390b1",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mekyah-mcqueen-7KACRSPLHXNBBmQBYGQRN3/"
       }
     },
     "62": {
       "name": "Tanya Miller",
       "party": "D",
+      "openstates": "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/tanya-miller-3MBdKu9mhwJ72YY6DoB7pl/"
       }
     },
     "63": {
       "name": "Kim Schofield",
       "party": "D",
+      "openstates": "ocd-person/eff357d0-3187-4a7b-93fe-2d54d010b093",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kim-schofield-7ImNCVLTfvhz4664CLEux9/"
       }
     },
     "64": {
       "name": "Sylvia Wayfer",
       "party": "D",
+      "openstates": "ocd-person/cabc1e6f-ba7c-4063-a778-707579f91ec8",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sylvia-wayfer-6AYQ4so5gA36q2Lh7Yuioy/"
       }
     },
     "65": {
       "name": "Robert Dawson",
       "party": "D",
+      "openstates": "ocd-person/5d77204f-89e7-43df-bccb-a08b9956132d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/robert-dawson-2qMj5W1hJSVbkLVCZHDvlV/"
       }
     },
     "66": {
       "name": "Kimberly Alexander",
       "party": "D",
+      "openstates": "ocd-person/275b772e-6407-4aaa-8bd6-ceddad1da7fa",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/kimberly-alexander-1CGV2PHqu4XxaJYyewg9ZC/"
       }
     },
     "67": {
       "name": "Lydia Glaize",
       "party": "D",
+      "openstates": "ocd-person/ee575d7a-b5a1-419c-949d-4aa9290a67a1",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lydia-glaize-7Fk6BfQi5XZmc520yJ0S6D/"
       }
     },
     "68": {
       "name": "Derrick Jackson",
       "party": "D",
+      "openstates": "ocd-person/9046fcb2-f3eb-4233-bd92-32c94e60f9df",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/derrick-jackson-4OFKqftYdeWBH68Xp5zhrL/"
       }
     },
     "69": {
       "name": "Debra Bazemore",
       "party": "D",
+      "openstates": "ocd-person/1bb8d14b-9d5d-4edd-8c93-37e95991a8e4",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/debra-bazemore-qJFn1fkdK2iyiW309rRaO/"
       }
     },
     "70": {
       "name": "Lynn Smith",
       "party": "R",
+      "openstates": "ocd-person/945875f7-f3c5-4c75-acd6-a195a0f76b12",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lynn-smith-4VvI2z7aovCM4LlRvZ2Hha/"
       }
     },
     "71": {
       "name": "Jutt Howard",
       "party": "R",
+      "openstates": "ocd-person/8b62e64b-bf80-4967-832b-8fb92cd6c4b3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jutt-howard-4F186NTHdAq0TrOrZdb95n/"
       }
     },
     "72": {
       "name": "David Huddleston",
       "party": "R",
+      "openstates": "ocd-person/9bcfa0eb-ee7d-4762-9555-7bc4a67d6417",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/david-huddleston-4k0hE6ebcCVjaxG2mn9wON/"
       }
     },
     "73": {
       "name": "Josh Bonner",
       "party": "R",
+      "openstates": "ocd-person/0e45048c-c1a4-415f-9ee4-5d09ea857e2e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/josh-bonner-QvQtTr6Xo3V7Tj9jKlQvG/"
       }
     },
     "74": {
       "name": "Robert Flournoy",
       "party": "D",
+      "openstates": "ocd-person/32c3fbdd-4034-47d0-b7ab-0411bd200737",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/robert-flournoy-1XnBEb1AMU0xkMhJ1ZZlgN/"
       }
     },
     "75": {
       "name": "Eric Bell",
       "party": "D",
+      "openstates": "ocd-person/fe4b934e-8976-4c62-bcb0-ed8ae9782560",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/eric-bell-7jqaWZ1OZ2UwG4hMrNbXLU/"
       }
     },
     "76": {
       "name": "Sandra Scott",
       "party": "D",
+      "openstates": "ocd-person/21c6cae1-bcd2-4403-ad39-af04b64ce55c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sandra-scott-11jau1dBF8zlCjlt7WLomy/"
       }
     },
     "77": {
       "name": "Rhonda Burnough",
       "party": "D",
+      "openstates": "ocd-person/e04bd985-5b75-4551-84a1-f9797ac495d2",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rhonda-burnough-6pEwZEii7MJwJ7Ed6FC350/"
       }
     },
     "78": {
       "name": "Demetrius Douglas",
       "party": "D",
+      "openstates": "ocd-person/016fb7f0-2b08-4587-b7f2-8d18c1d9b8f5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/demetrius-douglas-2i2xql5xVnVukVntg8u7Z/"
       }
     },
     "79": {
       "name": "Yasmin Neal",
       "party": "D",
+      "openstates": "ocd-person/6f986b42-14f6-4147-9466-c49294331db9",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/yasmin-neal-3OZnqQpPwtSLRLnXciZHuz/"
       }
     },
     "80": {
       "name": "Long Tran",
       "party": "D",
+      "openstates": "ocd-person/7475f989-a4f9-4ac8-9188-26903a012d71",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/long-tran-3Xl1WLjNwgZWKlaJBPLpkv/"
       }
     },
     "81": {
       "name": "Noelle Kahaian",
       "party": "R",
+      "openstates": "ocd-person/fdf78e39-985f-48c3-8ed3-ccf15946871f",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/noelle-kahaian-7jEBto75x9cM9M9vdKWZpP/"
       }
     },
     "82": {
       "name": "Karen Mathiak",
       "party": "R",
+      "openstates": "ocd-person/f8db50e0-08ab-406c-ac8b-39c7038ef5ca",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/karen-mathiak-7ZaK8KRFGRO7eoBT6SdohG/"
       }
     },
     "83": {
       "name": "Karen Lupton",
       "party": "D",
+      "openstates": "ocd-person/eb28f991-35c9-4d84-a907-5be56aed1aff",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/karen-lupton-79jvBkIQIcETaRA7R7AmVz/"
       }
     },
     "84": {
       "name": "Mary Margaret Oliver",
       "party": "D",
+      "openstates": "ocd-person/e6ca1b23-0972-4df6-ab04-6186cf9da814",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mary-margaret-oliver-71Ub4MMhxHxwFinJ4IAfWW/"
       }
     },
     "85": {
       "name": "Karla Drenner",
       "party": "D",
+      "openstates": "ocd-person/27365f19-a138-4a9e-9f6e-11352932e5d5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/karla-drenner-1BzY0mTU5QuskItUA50a0r/"
       }
     },
     "86": {
       "name": "Imani Barnes",
       "party": "D",
+      "openstates": "ocd-person/2a68d594-e7d5-49cd-b615-6efb872430c3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/imani-barnes-1I1aOyqmgkTfEInxH2NJKN/"
       }
     },
     "87": {
       "name": "Viola Davis",
       "party": "D",
+      "openstates": "ocd-person/e3b1be9c-b244-4466-9192-adc365a31cfb",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/viola-davis-6veUEoc4Uyb65nilOmFfnn/"
       }
     },
     "88": {
       "name": "Billy Mitchell",
       "party": "D",
+      "openstates": "ocd-person/96307d79-07d4-4f59-9dd3-b7f994d566d5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/billy-mitchell-4ZP0YyPhQOVq3hKIvdScgX/"
       }
     },
     "89": {
       "name": "Omari Crawford",
       "party": "D",
+      "openstates": "ocd-person/dbb81f07-2181-48dd-b383-19870e08d4fd",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/omari-crawford-6gbSifpRWMtstaqSq8o9pF/"
       }
     },
     "90": {
       "name": "Saira Draper",
       "party": "D",
+      "openstates": "ocd-person/2a66b922-b812-4c45-9786-478187cd5e33",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/saira-draper-1I0caLyCyr23JxDithOQkN/"
       }
     },
     "91": {
       "name": "Angela Moore",
       "party": "D",
+      "openstates": "ocd-person/b001a55f-61fa-4e62-85fd-ac6c282f2711",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/angela-moore-5M7OuOU2OIWd1tvj100oJF/"
       }
     },
     "92": {
       "name": "Rhonda Taylor",
       "party": "D",
+      "openstates": "ocd-person/bc40f904-9c20-41d0-80d5-e5645d3e6935",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rhonda-taylor-5jEFVM3KYIQrlVkmagSJ2j/"
       }
     },
     "93": {
       "name": "Doreen Carter",
       "party": "D",
+      "openstates": "ocd-person/818f1afb-2850-448e-99c1-be63a9acfe95",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/doreen-carter-3wTPOELlPd6pskXHWEM5Ej/"
       }
     },
     "94": {
       "name": "Venola Mason",
       "party": "D",
+      "openstates": "ocd-person/b9050158-4a6d-4332-8ad2-769472f52e3e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/venola-mason-5d7roCoRO66ao9TzUraK7C/"
       }
     },
     "95": {
       "name": "Dar'shun Kendrick",
       "party": "D",
+      "openstates": "ocd-person/1f94316e-fb58-401f-bbfc-5ada0a717b6b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/dar-shun-kendrick-xaUANpmVaIEpRPeKf6OyZ/"
       }
     },
     "96": {
       "name": "Arlene Beckles",
       "party": "D",
+      "openstates": "ocd-person/3b3da57c-2f96-4a94-a7bc-eb6a814cc627",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/arlene-beckles-1nmicrZ9DDd5OrAaPYJdo7/"
       }
     },
     "97": {
       "name": "Ruwa Romman",
       "party": "D",
+      "openstates": "ocd-person/d291834f-70cd-48b5-b7db-b05d23d74a4c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/ruwa-romman-6PKt4Tp2yMdfHwyZ9CpcOS/"
       }
     },
     "98": {
       "name": "Marvin Lim",
       "party": "D",
+      "openstates": "ocd-person/9531d502-440c-48db-83c4-70dfbe9a9ea1",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/marvin-lim-4XWd3rsC1E7fZNBIth2Tcv/"
       }
     },
     "99": {
       "name": "Matt Reeves",
       "party": "R",
+      "openstates": "ocd-person/0f4f3c5a-1192-4ec1-9698-4aef005b4875",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/matt-reeves-St5w2LSQzethppvGpzwMn/"
       }
     },
     "100": {
       "name": "David Clark",
       "party": "R",
+      "openstates": "ocd-person/ad18dba4-9247-4542-95b1-2ccef815dbc7",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/david-clark-5Gd21gfkvV8et5ryuuPWbP/"
       }
     },
     "101": {
       "name": "Scott Holcomb",
       "party": "D",
+      "openstates": "ocd-person/99ef9b20-6b1f-4831-8e58-a523de606cda",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/scott-holcomb-4gTKE8xe34jcMms7uh5OTi/"
       }
     },
     "102": {
       "name": "Gabe Okoye",
       "party": "D",
+      "openstates": "ocd-person/dc99efc3-076b-4d00-b4b0-66a0507a4057",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/gabe-okoye-6iGezRblfxh2SP4zh777LD/"
       }
     },
     "103": {
       "name": "Soo Hong",
       "party": "R",
+      "openstates": "ocd-person/64721c9b-451c-4bc9-9040-4ca232ffd746",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/soo-hong-33XNg4DA09eAYMp5a9YZzq/"
       }
     },
     "104": {
       "name": "Chuck Efstration",
       "party": "R",
+      "openstates": "ocd-person/3ff894cb-f2e4-47d0-9f67-b125245a10c3",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/chuck-efstration-1wi7Lg6ypsXtcneCNaNe1z/"
       }
     },
     "105": {
       "name": "Sandy Donatucci",
       "party": "R",
+      "openstates": "ocd-person/4ab15127-5b7a-40bc-8807-26e8e8a73397",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sandy-donatucci-2GwSuRIWlWDQIPsn0IpunH/"
       }
     },
     "106": {
       "name": "Akbar Ali",
       "party": "D",
+      "openstates": "ocd-person/938f2479-c51f-446a-87f0-76d4f07c61e5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/akbar-ali-4URHsTMjgEKtsaCFgjd7NV/"
       }
     },
     "107": {
       "name": "Sam Park",
       "party": "D",
+      "openstates": "ocd-person/2ba0916f-40b1-4255-9496-94b12ccabd1e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sam-park-1KK35lwBVKklb25ncpEh70/"
       }
     },
     "108": {
       "name": "Jasmine Clark",
       "party": "D",
+      "openstates": "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jasmine-clark-8Gj5GVqYVp38qaWIkslI2/"
       }
     },
     "109": {
       "name": "Dewey McClain",
       "party": "D",
+      "openstates": "ocd-person/8afda706-7afa-462c-89f2-0d6d5da010ff",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/dewey-mcclain-4EGrMCW0h0kQN58nZDQJzD/"
       }
     },
     "110": {
       "name": "Segun Adeyina",
       "party": "D",
+      "openstates": "ocd-person/702658f4-8382-479a-9416-79928239d5e7",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/segun-adeyina-3PcfG4Ci2E6Zf3t3STtCOF/"
       }
     },
     "111": {
       "name": "Rey Martinez",
       "party": "R",
+      "openstates": "ocd-person/08ee45fd-d3f4-4129-9e7c-27cf52533ed2",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rey-martinez-GqpS0JHUwDjSklPuXHWXC/"
       }
     },
     "112": {
       "name": "Bruce Williamson",
       "party": "R",
+      "openstates": "ocd-person/13b7af1b-5b56-481b-a81a-2001846188a6",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bruce-williamson-bCnTfOC8e6l5TKz6UK9aA/"
       }
     },
     "113": {
       "name": "Sharon Henderson",
       "party": "D",
+      "openstates": "ocd-person/e51d36a7-9684-4540-aae7-a5e60e434681",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sharon-henderson-6yKanLvwFCraWB98BRrYO1/"
       }
     },
     "114": {
       "name": "Tim Fleming",
       "party": "R",
+      "openstates": "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/tim-fleming-6JhfWeqahtE9l9nk9CBHxe/"
       }
     },
     "115": {
       "name": "Regina Lewis-Ward",
       "party": "D",
+      "openstates": "ocd-person/21651856-bba6-49fd-b3f8-8ed1b723e804",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/regina-lewis-ward-110wjgNaAz5sF8dTybDRlE/"
       }
     },
     "116": {
       "name": "El-Mahdi Holly",
       "party": "D",
+      "openstates": "ocd-person/4615e308-db74-408f-89df-02be56b5013b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/el-mahdi-holly-28FSqGOGh9aY06PrssyBR5/"
       }
     },
     "117": {
       "name": "Mary Ann Santos",
       "party": "D",
+      "openstates": "ocd-person/7deae3f1-5548-4afe-9018-e8112945fd8d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mary-ann-santos-3pbNw7Gti3HIbu0MbOAt6j/"
       }
     },
     "118": {
       "name": "Clint Crowe",
       "party": "R",
+      "openstates": "ocd-person/e1a9102d-f845-47f5-882e-e344eef060ec",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/clint-crowe-6roXD7OjVV3g8AYCQA7UYG/"
       }
     },
     "119": {
       "name": "Holt Persinger",
       "party": "R",
+      "openstates": "ocd-person/b39e2164-d570-45f2-b271-5e2fbe99c8d6",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/holt-persinger-5SvtKB0gss9vBDLmZs01gc/"
       }
     },
     "120": {
       "name": "Houston Gaines",
       "party": "R",
+      "openstates": "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/houston-gaines-72KxvLe5L1XyA8034YxBDj/"
       }
     },
     "121": {
       "name": "Eric Gisler",
       "party": "D",
+      "openstates": "ocd-person/abece831-30a8-4cf8-94ff-d41f7f48197f",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/eric-gisler-5EPxBvh39jaRc1hm5vFbjD/"
       }
     },
     "122": {
       "name": "Spencer Frye",
       "party": "D",
+      "openstates": "ocd-person/e6ae8d30-4b1b-4b06-8918-2be6fa7f8108",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/spencer-frye-71I0L2Wx7XIVV33coIPBNo/"
       }
     },
     "123": {
       "name": "Rob Leverett",
       "party": "R",
+      "openstates": "ocd-person/29210f3f-ec97-47c8-9492-b81154275109",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rob-leverett-1FbnCsCxRai50jDzuiwRez/"
       }
     },
     "124": {
       "name": "Trey Rhodes",
       "party": "R",
+      "openstates": "ocd-person/9dfc8ec3-0935-4d1d-877d-e05cf7a5dca5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/trey-rhodes-4o7DIa9Hh19lEU67FTDr6L/"
       }
     },
     "125": {
       "name": "Gary Richardson",
       "party": "R",
+      "openstates": "ocd-person/47fd36f3-f5d4-4ef6-a429-1ffc7681e233",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/gary-richardson-2BqApJOJeasVevd0ps92zj/"
       }
     },
     "126": {
       "name": "L.C. Myles",
       "party": "D",
+      "openstates": "ocd-person/1d9bb111-bf4f-4e4f-aa63-a2f6a94b566c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/l-c-myles-trvaDmAiFKvKldZ6vSRie/"
       }
     },
     "127": {
       "name": "Mark Newton",
       "party": "R",
+      "openstates": "ocd-person/5e12fb82-1f69-46df-9ac5-a09ce51dd95b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mark-newton-2rVx8BYzxZaFd6GwN4bmSR/"
       }
     },
     "128": {
       "name": "Mack Jackson",
       "party": "D",
+      "openstates": "ocd-person/8e209d95-2333-4aa2-a628-1bdcec0674f5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mack-jackson-4KBoZrzki8FCcPsY64m69l/"
       }
     },
     "129": {
       "name": "Karlton Howard",
       "party": "D",
+      "openstates": "ocd-person/4b3fdb35-d3fb-40aa-843e-d3900df37ce4",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/karlton-howard-2Hzbd2RfW6TKAZNzPGENt6/"
       }
     },
     "130": {
       "name": "Sheila Nelson",
       "party": "D",
+      "openstates": "ocd-person/059c0e54-cc7b-4605-aee6-58388026a2fb",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/sheila-nelson-AaHK54umQO03r5KVfK0E7/"
       }
     },
     "131": {
       "name": "Rob Clifton",
       "party": "R",
+      "openstates": "ocd-person/84eb7371-a332-4534-b3b3-542500c798f8",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rob-clifton-42oaUNYVxUSHxKToCZOSIy/"
       }
     },
     "132": {
       "name": "Brian Prince",
       "party": "D",
+      "openstates": "ocd-person/a53e6bbd-a5b8-436b-94ae-bebf957c5b61",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/brian-prince-51oG8qfzpNNIAB1zpoaJJR/"
       }
     },
     "133": {
       "name": "Danny Mathis",
       "party": "R",
+      "openstates": "ocd-person/1a9598cc-056f-4725-a3fb-64c3f0fd26ed",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/danny-mathis-oAAJrsiwXFFHeDqinYd9Z/"
       }
     },
     "134": {
       "name": "Robert Dickey",
       "party": "R",
+      "openstates": "ocd-person/f863b50d-c865-463a-830a-e5648837d9f7",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/robert-dickey-7Yhf8DoLMayxaYasPlqPix/"
       }
     },
     "135": {
       "name": "Beth Camp",
       "party": "R",
+      "openstates": "ocd-person/e4e40f68-0970-4392-b739-3c68f749bcdc",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/beth-camp-6xuTPOBqSVJBY7LS67zfrQ/"
       }
     },
     "136": {
       "name": "David Jenkins",
       "party": "R",
+      "openstates": "ocd-person/0f288c5b-484a-4b70-8209-0a23f922edd1",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/david-jenkins-SbPlErIokooFKpDB614nh/"
       }
     },
     "137": {
       "name": "Debbie Buckner",
       "party": "D",
+      "openstates": "ocd-person/5061bc6b-83af-46d0-a78d-30ebe10a63db",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/debbie-buckner-2Rg3CVwR55GKM7o7ogpLb9/"
       }
     },
     "138": {
       "name": "Vance Smith",
       "party": "R",
+      "openstates": "ocd-person/9deeb60b-4d1e-42b8-8052-d2808a30ea9a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/vance-smith-4o0syA93myQpJxwWfh7014/"
       }
     },
     "139": {
       "name": "Carmen Rice",
       "party": "R",
+      "openstates": "ocd-person/3646e872-85a6-4383-97c5-36ff96ca7113",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/carmen-rice-1ePzQGBs5NzlYIoV3wymwd/"
       }
     },
     "140": {
       "name": "Teddy Reese",
       "party": "D",
+      "openstates": "ocd-person/9fe70ed7-31a0-4732-92b1-54d2a79a4654",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/teddy-reese-4rjNAnx98OLBffJIIoC0Fo/"
       }
     },
     "141": {
       "name": "Carolyn Hugley",
       "party": "D",
+      "openstates": "ocd-person/0f5a9273-2fc6-458f-af59-b75070a1dc76",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/carolyn-hugley-SyH8hKWYVbb9svDKFB6Ig/"
       }
     },
     "142": {
       "name": "Miriam Paris",
       "party": "D",
+      "openstates": "ocd-person/bad14891-c7bc-4ac4-b23a-fb5ae3878d67",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/miriam-paris-5gWDMtm3Wf5ID5X0ovQw6B/"
       }
     },
     "143": {
       "name": "Nissa Jones",
       "party": "D",
+      "openstates": "ocd-person/55074030-4d64-4da0-b68a-5e3945d00f25",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/nissa-jones-2aRf0NkArO8Qh90y2ZR8j7/"
       }
     },
     "144": {
       "name": "Dale Washburn",
       "party": "R",
+      "openstates": "ocd-person/ec6cf250-ebcc-4dda-89a5-12da9ebbe51a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/dale-washburn-7C7ycyD2FgZTPvDagOMHiU/"
       }
     },
     "145": {
       "name": "Tangie Herring",
       "party": "D",
+      "openstates": "ocd-person/c5766526-3a5a-4d33-b5ff-a0d1d358d7ae",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/tangie-herring-60bathK2q78CoAr8DxAjiI/"
       }
     },
     "146": {
       "name": "Shaw Blackmon",
       "party": "R",
+      "openstates": "ocd-person/ee145624-3295-4db4-b3ce-9d1583e4ef6e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/shaw-blackmon-7FFSzY32Vnp8U4mKCx5Gbm/"
       }
     },
     "147": {
       "name": "Bethany Ballard",
       "party": "R",
+      "openstates": "ocd-person/8b4b00cb-6f78-4b69-b788-796b19d94752",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bethany-ballard-4EqD16fcoGsNBzDTwuXWr4/"
       }
     },
     "148": {
       "name": "Noel Williams",
       "party": "R",
+      "openstates": "ocd-person/3252da04-a17e-4298-b19d-9dd2fbf29ded",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/noel-williams-1WxTjmNvf6hcURgroLRSSz/"
       }
     },
     "149": {
       "name": "Floyd Griffin",
       "party": "D",
+      "openstates": "ocd-person/b261086c-7b16-4a8e-82a6-22df4445af84",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/floyd-griffin-5Qayepq8kAJNABz57kgZdM/"
       }
     },
     "150": {
       "name": "Patty Marie Stinson",
       "party": "D",
+      "openstates": "ocd-person/af51c2db-8871-45a4-803d-314fa2b9d18d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/patty-marie-stinson-5Kp1NFhdYKHkZm3AMIFyyj/"
       }
     },
     "151": {
       "name": "Mike Cheokas",
       "party": "R",
+      "openstates": "ocd-person/1831cc73-e694-4cea-83a4-b55c3495f76a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/mike-cheokas-jeZa2Nh6ivN9L8ZTkpAio/"
       }
     },
     "152": {
       "name": "Bill Yearta",
       "party": "R",
+      "openstates": "ocd-person/23dfc274-73d1-45df-b381-67e597cf0b84",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bill-yearta-15gzN1zw53eXddzgvm5l8W/"
       }
     },
     "153": {
       "name": "David Sampson",
       "party": "D",
+      "openstates": "ocd-person/9a8e7b0c-3c19-473f-b04a-d3a17037af0a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/david-sampson-4hdvnMl3cSCCmLJiHb0b3C/"
       }
     },
     "154": {
       "name": "Gerald Greene",
       "party": "R",
+      "openstates": "ocd-person/570a213a-a475-4fd3-ac36-23e1bd1190be",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/gerald-greene-2eExd54QzpRtTuIG93pDw6/"
       }
     },
     "155": {
       "name": "Matt Hatchett",
       "party": "R",
+      "openstates": "ocd-person/c81779f3-65bf-4714-b295-79cac3b0da28",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/matt-hatchett-65ZC2EFy784rhH3tVuPWZM/"
       }
     },
     "156": {
       "name": "Leesa Hagan",
       "party": "R",
+      "openstates": "ocd-person/df874c28-6403-42c1-9cbb-0855508cda85",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/leesa-hagan-6nn7RRvyHTrlqfmrvJntzR/"
       }
     },
     "157": {
       "name": "Bill Werkheiser",
       "party": "R",
+      "openstates": "ocd-person/adefd0ba-43cd-4aae-9321-12f67e57ac8a",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bill-werkheiser-5IDGe3p00v6PyDFc68FzcQ/"
       }
     },
     "158": {
       "name": "Butch Parrish",
       "party": "R",
+      "openstates": "ocd-person/842218b5-88ae-4ba8-8395-756bf3340e16",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/butch-parrish-41KZIRo1XyFsEHQPuPf8lC/"
       }
     },
     "159": {
       "name": "Jon Burns",
       "party": "R",
+      "openstates": "ocd-person/64012657-d026-411c-9525-3232524a5145",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jon-burns-32hl0JzkV68yVZJd4Yel7t/"
       }
     },
     "160": {
       "name": "Lehman Franklin",
       "party": "R",
+      "openstates": "ocd-person/6971bb34-9ea4-4bdc-971e-c1a2c5de344c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/lehman-franklin-3CyAWD7CMhyySMaHaCEp1o/"
       }
     },
     "161": {
       "name": "Bill Hitchens",
       "party": "R",
+      "openstates": "ocd-person/4a9ef816-9130-4510-a19e-3124e3f2aeed",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/bill-hitchens-2Go52QO994ILZs7oi52Zm1/"
       }
     },
     "162": {
       "name": "Carl Gilliard",
       "party": "D",
+      "openstates": "ocd-person/562e162f-2a60-441c-956b-11db12eef266",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/carl-gilliard-2ccOuRudxaYC0pO6sBv0Rq/"
       }
     },
     "163": {
       "name": "Anne Westbrook",
       "party": "D",
+      "openstates": "ocd-person/e16d6516-badc-4682-9e3a-84f30a44b060",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/anne-westbrook-6rNGZ0KeoQWh2t2ZjPlx0y/"
       }
     },
     "164": {
       "name": "Ron Stephens",
       "party": "R",
+      "openstates": "ocd-person/aeaeb854-ff9c-47cb-8069-395b60ba05b2",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/ron-stephens-5JcVkouRWPBI6pbzUYxyUs/"
       }
     },
     "165": {
       "name": "Edna Jackson",
       "party": "D",
+      "openstates": "ocd-person/18427775-e3e7-4730-bb6f-722616e6aebe",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/edna-jackson-jmBqvVq47Oi4UVCHp3Uqs/"
       }
     },
     "166": {
       "name": "Jesse Petrea",
       "party": "R",
+      "openstates": "ocd-person/38c596a4-df69-4a56-9329-be73f26bc7d5",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jesse-petrea-1j7rqSiKXMCTUIk6upuu05/"
       }
     },
     "167": {
       "name": "Buddy DeLoach",
       "party": "R",
+      "openstates": "ocd-person/d40576ac-fbc0-4b42-98ee-f6362063784d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/buddy-deloach-6S4rwywAKduNNSLlHQpvgL/"
       }
     },
     "168": {
       "name": "Al Williams",
       "party": "D",
+      "openstates": "ocd-person/a5a0998b-3837-4c4e-a66b-a567dc2f9d77",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/al-williams-52X7x1OCerscb5DHp65obX/"
       }
     },
     "169": {
       "name": "Angie O'Steen",
       "party": "R",
+      "openstates": "ocd-person/1d0deded-daaa-425b-b6aa-3612492dca5b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/angie-o-steen-sp8scLzHXd2l0z0r5A8kt/"
       }
     },
     "170": {
       "name": "Jaclyn Ford",
       "party": "R",
+      "openstates": "ocd-person/37602f7b-947e-4067-8f2e-b2fec620643e",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/jaclyn-ford-1gUXA2mvMAsGGc4Anw0UeM/"
       }
     },
     "171": {
       "name": "Joe Campbell",
       "party": "R",
+      "openstates": "ocd-person/c862c17f-ed00-41d7-97e5-1138f451a96c",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/joe-campbell-667b0g3z3utQQ0mAkbd0Ae/"
       }
     },
     "172": {
       "name": "Chas Cannon",
       "party": "R",
+      "openstates": "ocd-person/cba2f06c-773c-49d3-949c-b1a2db377c21",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/chas-cannon-6CFu9onh2QzEQTS8OUhaGf/"
       }
     },
     "173": {
       "name": "Darlene Taylor",
       "party": "R",
+      "openstates": "ocd-person/d00eb950-0fb6-41ab-ae22-8e9ce84d7cf0",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/darlene-taylor-6Kb8EeUyL3uYPl7OKD2O3M/"
       }
     },
     "174": {
       "name": "John Corbett",
       "party": "R",
+      "openstates": "ocd-person/a34c9a5a-f307-4c07-b766-3b3b1148d7b1",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/john-corbett-4y8kvhAssAGkfIjeboRRGz/"
       }
     },
     "175": {
       "name": "John LaHood",
       "party": "R",
+      "openstates": "ocd-person/9249be26-54d2-467a-88ec-2588b886148d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/john-lahood-4S2ZybGNqXrK22famnUSUv/"
       }
     },
     "176": {
       "name": "James Burchett",
       "party": "R",
+      "openstates": "ocd-person/dbce462d-74e3-42d3-bd6c-3b9f8eeb69fe",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/james-burchett-6glaP0dQMf5s5DbjpAPvOI/"
       }
     },
     "177": {
       "name": "Alvin Payton",
       "party": "D",
+      "openstates": "ocd-person/8aa7ee05-bf64-4c51-8821-ad905d25741b",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/alvin-payton-4DdgU5I04VzRL668J41txT/"
       }
     },
     "178": {
       "name": "Steven Meeks",
       "party": "R",
+      "openstates": "ocd-person/3194a8e0-aaf8-4686-b2c9-a22521f85fff",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/steven-meeks-1VYYp7ISoM0U7UtkRyVij1/"
       }
     },
     "179": {
       "name": "Rick Townsend",
       "party": "R",
+      "openstates": "ocd-person/1da20ad9-1a05-42ab-addb-7fbf295a0e5d",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/rick-townsend-tupWZgmhg2FlNMwe45L1p/"
       }
     },
     "180": {
       "name": "Steven Sainz",
       "party": "R",
+      "openstates": "ocd-person/99082062-acd6-4c6b-bb45-2cfa071f19fc",
       "source": {
         "label": "Open States",
-        "url": "https://github.com/openstates/people/tree/main/data/ga/legislature"
+        "url": "https://openstates.org/person/steven-sainz-4elXTBwsF3aig4GhhfosRw/"
       }
     }
   }

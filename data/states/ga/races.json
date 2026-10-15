@@ -47,7 +47,8 @@
             "ballotpedia": "https://ballotpedia.org/Jon_Ossoff"
           },
           "ids": {
-            "bioguide": "O000174"
+            "bioguide": "O000174",
+            "fec": "S8GA00180"
           }
         },
         {
@@ -87,7 +88,8 @@
             "ballotpedia": "https://ballotpedia.org/Mike_Collins_(Georgia)"
           },
           "ids": {
-            "bioguide": "C001129"
+            "bioguide": "C001129",
+            "fec": "S6GA00390"
           }
         }
       ]
@@ -742,6 +744,9 @@
           "links": {
             "campaign": "https://www.amandaforga.com/",
             "ballotpedia": "https://ballotpedia.org/Amanda_Hollowell"
+          },
+          "ids": {
+            "fec": "H6GA01158"
           }
         },
         {
@@ -751,7 +756,10 @@
           "bio": {
             "text": "Insurance salesman."
           },
-          "links": {}
+          "links": {},
+          "ids": {
+            "fec": "H6GA01109"
+          }
         }
       ],
       "note": "Buddy Carter, who has this seat now, is running for U.S. Senate instead."
@@ -794,7 +802,8 @@
             "ballotpedia": "https://ballotpedia.org/Sanford_Bishop"
           },
           "ids": {
-            "bioguide": "B000490"
+            "bioguide": "B000490",
+            "fec": "H2GA02031"
           }
         },
         {
@@ -806,6 +815,9 @@
           },
           "links": {
             "campaign": "https://votemattday.com/"
+          },
+          "ids": {
+            "fec": "H6GA01182"
           }
         }
       ]
@@ -842,6 +854,9 @@
           "links": {
             "campaign": "https://www.maura4ga3.com/",
             "ballotpedia": "https://ballotpedia.org/Maura_Keller"
+          },
+          "ids": {
+            "fec": "H4GA03100"
           }
         },
         {
@@ -889,7 +904,8 @@
             "ballotpedia": "https://ballotpedia.org/Brian_Jack"
           },
           "ids": {
-            "bioguide": "J000311"
+            "bioguide": "J000311",
+            "fec": "H4GA03126"
           }
         }
       ]
@@ -923,7 +939,8 @@
             "official": "https://hankjohnson.house.gov"
           },
           "ids": {
-            "bioguide": "J000288"
+            "bioguide": "J000288",
+            "fec": "H6GA04129"
           }
         },
         {
@@ -940,6 +957,9 @@
           "links": {
             "campaign": "https://jimduffie.com/",
             "ballotpedia": "https://ballotpedia.org/James_Duffie"
+          },
+          "ids": {
+            "fec": "H6GA04194"
           }
         }
       ]
@@ -972,7 +992,8 @@
             "official": "https://nikemawilliams.house.gov"
           },
           "ids": {
-            "bioguide": "W000788"
+            "bioguide": "W000788",
+            "fec": "H0GA05301"
           }
         },
         {
@@ -998,6 +1019,9 @@
           "links": {
             "campaign": "https://www.bongo4congress.com/",
             "ballotpedia": "https://ballotpedia.org/John_Salvesen"
+          },
+          "ids": {
+            "fec": "H4GA05063"
           }
         }
       ]
@@ -1036,7 +1060,8 @@
             "official": "https://mcbath.house.gov"
           },
           "ids": {
-            "bioguide": "M001208"
+            "bioguide": "M001208",
+            "fec": "H8GA06393"
           }
         },
         {
@@ -1053,6 +1078,9 @@
           "links": {
             "campaign": "https://kevinmartinforcongress.com/",
             "ballotpedia": "https://ballotpedia.org/Kevin_Martin_(Georgia)"
+          },
+          "ids": {
+            "fec": "H6GA06181"
           }
         }
       ]
@@ -1068,6 +1096,9 @@
           },
           "links": {
             "campaign": "https://kozyckiforcongress.com/"
+          },
+          "ids": {
+            "fec": "H6GA07221"
           }
         },
         {
@@ -1115,7 +1146,8 @@
             "ballotpedia": "https://ballotpedia.org/Rich_McCormick"
           },
           "ids": {
-            "bioguide": "M001218"
+            "bioguide": "M001218",
+            "fec": "H0GA07273"
           }
         }
       ]
@@ -1136,6 +1168,9 @@
           "links": {
             "campaign": "https://kellyesti4congress.com/",
             "ballotpedia": "https://ballotpedia.org/Kelly_Esti"
+          },
+          "ids": {
+            "fec": "H6GA08138"
           }
         },
         {
@@ -1184,7 +1219,8 @@
             "ballotpedia": "https://ballotpedia.org/Austin_Scott"
           },
           "ids": {
-            "bioguide": "S001189"
+            "bioguide": "S001189",
+            "fec": "H0GA08099"
           }
         }
       ]
@@ -1205,6 +1241,9 @@
           "links": {
             "campaign": "https://www.caitlynforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Caitlyn_Gegen"
+          },
+          "ids": {
+            "fec": "H6GA09284"
           }
         },
         {
@@ -1251,7 +1290,8 @@
             "ballotpedia": "https://ballotpedia.org/Andrew_Clyde"
           },
           "ids": {
-            "bioguide": "C001116"
+            "bioguide": "C001116",
+            "fec": "H0GA09246"
           }
         }
       ]
@@ -1281,6 +1321,9 @@
           "links": {
             "campaign": "https://votepamdelancy.com/",
             "ballotpedia": "https://ballotpedia.org/Pamela_DeLancy"
+          },
+          "ids": {
+            "fec": "H6GA10183"
           }
         },
         {
@@ -1297,6 +1340,9 @@
           "links": {
             "campaign": "https://houstongaines.com/",
             "ballotpedia": "https://ballotpedia.org/Houston_Gaines"
+          },
+          "ids": {
+            "fec": "H6GA10175"
           }
         }
       ],
@@ -1327,6 +1373,9 @@
           "links": {
             "campaign": "https://chrishardenforcongress.com/",
             "ballotpedia": "https://ballotpedia.org/Chris_Harden"
+          },
+          "ids": {
+            "fec": "H6GA11116"
           }
         },
         {
@@ -1359,6 +1408,9 @@
           "links": {
             "campaign": "https://www.cowanforcongress.com/",
             "ballotpedia": "https://ballotpedia.org/John_Cowan"
+          },
+          "ids": {
+            "fec": "H0GA14048"
           }
         }
       ],

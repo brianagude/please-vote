@@ -1,0 +1,807 @@
+{
+  "B000490": {
+    "name": "Sanford D. Bishop, Jr.",
+    "ids": {
+      "fec": [
+        "H2GA02031"
+      ],
+      "wikidata": "Q983428",
+      "wikipedia": "Sanford Bishop"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1993-01-05",
+        "end": "1995-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1995-01-04",
+        "end": "1997-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 2,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "J000288": {
+    "name": "Henry C. \"Hank\" Johnson, Jr.",
+    "ids": {
+      "fec": [
+        "H6GA04129"
+      ],
+      "wikidata": "Q983537",
+      "wikipedia": "Hank Johnson"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 4,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S001189": {
+    "name": "Austin Scott",
+    "ids": {
+      "fec": [
+        "H0GA08099"
+      ],
+      "wikidata": "Q781167",
+      "wikipedia": "Austin Scott"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 8,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Agriculture",
+        "title": "Vice Chair"
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Rules",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "A000372": {
+    "name": "Rick W. Allen",
+    "ids": {
+      "fec": [
+        "H2GA12121"
+      ],
+      "wikidata": "Q18683976",
+      "wikipedia": "Rick Allen (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "GA",
+        "district": 12,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "GA",
+        "district": 12,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "GA",
+        "district": 12,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 12,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 12,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 12,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001208": {
+    "name": "Lucy McBath",
+    "ids": {
+      "fec": [
+        "H8GA06393"
+      ],
+      "wikidata": "Q54358424",
+      "wikipedia": "Lucy McBath"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "GA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 6,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "W000788": {
+    "name": "Nikema Williams",
+    "ids": {
+      "fec": [
+        "H0GA05301"
+      ],
+      "wikidata": "Q56486570",
+      "wikipedia": "Nikema Williams"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 5,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001116": {
+    "name": "Andrew S. Clyde",
+    "ids": {
+      "fec": [
+        "H0GA09246"
+      ],
+      "wikidata": "Q102277679",
+      "wikipedia": "Andrew Clyde"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "GA",
+        "district": 9,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 9,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 9,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "O000174": {
+    "name": "Jon Ossoff",
+    "ids": {
+      "fec": [
+        "H8GA06195",
+        "S8GA00180"
+      ],
+      "wikidata": "Q28839536",
+      "wikipedia": "Jon Ossoff"
+    },
+    "terms": [
+      {
+        "type": "sen",
+        "start": "2021-01-20",
+        "end": "2027-01-03",
+        "state": "GA",
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "Senate Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "Senate Committee on Rules and Administration",
+        "title": null
+      },
+      {
+        "committee": "Senate Select Committee on Intelligence",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001218": {
+    "name": "Richard McCormick",
+    "ids": {
+      "fec": [
+        "H0GA07273"
+      ],
+      "wikidata": "Q115474083",
+      "wikipedia": "Rich McCormick"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 6,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 7,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001129": {
+    "name": "Mike Collins",
+    "ids": {
+      "fec": [
+        "H4GA10071",
+        "S6GA00390"
+      ],
+      "wikidata": "Q115806750",
+      "wikipedia": "Mike Collins (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "GA",
+        "district": 10,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 10,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Natural Resources",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "J000311": {
+    "name": "Brian Jack",
+    "ids": {
+      "fec": [
+        "H4GA03126"
+      ],
+      "wikidata": "Q86493775",
+      "wikipedia": "Brian Jack"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 3,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Rules",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "F000485": {
+    "name": "Clay Fuller",
+    "ids": {
+      "fec": [
+        "H0GA14030"
+      ],
+      "wikidata": "Q138355765",
+      "wikipedia": "Clay Fuller"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2026-04-14",
+        "end": "2027-01-03",
+        "state": "GA",
+        "district": 14,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  }
+}
