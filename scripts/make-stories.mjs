@@ -1,9 +1,11 @@
-// Instagram story cards (1080x1920) for one voter's ballot, styled like the site.
+// Instagram story cards (1080x1920) or a feed carousel (1080x1350) for one
+// voter's ballot, styled like the site.
 // These are for the owner's personal account, not the site: they pick which
 // offices to show and list Democrats first. The site itself stays neutral.
 //
-//   node scripts/make-stories.mjs "<street address, city, GA ZIP>"
-//   -> exports/stories/01-intro.png, 02-..., ...
+//   node scripts/make-stories.mjs "<street address, city, GA ZIP>"          -> exports/stories/
+//   node scripts/make-stories.mjs "<street address, city, GA ZIP>" feed        -> exports/feed-ballot/
+//   node scripts/make-stories.mjs "<street address, city, GA ZIP>" feed-women  -> exports/feed-women/
 //
 // Edit COPY and OFFICES below.
 import fs from "node:fs";
@@ -27,8 +29,29 @@ const COPY = {
 
 // Which races to show, in order. "@house", "@upper", "@lower" are the voter's districts.
 const OFFICES = ["@house", "governor", "sos", "ag", "agr", "ins", "labor", "schools", "@upper", "@lower"];
-const PER_SLIDE = 5;
+// Sizes per format. "safe" keeps text clear of Instagram's own buttons and labels.
+const FORMATS = {
+  story: { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 5, out: "exports/stories", outroNote: "" },
+  feed: { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 4, out: "exports/feed-ballot", outroNote: "Link in bio" },
+  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 4, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
+};
+const F = FORMATS[process.argv[3] ?? "story"];
+if (!F) throw new Error('Format must be "story", "feed", or "feed-women"');
 const PARTY_ORDER = ["D", "R", "L", "I"]; // Democrats first
+
+// The feed carousel features these candidates (owner's list), each with her own card.
+const FEATURED = [
+  "Lucy McBath",
+  "Keisha Lance Bottoms",
+  "Penny Brown Reynolds",
+  "Tanya Miller",
+  "Katherine E. Juhan-Arnold",
+  "Keisha Sean Waites",
+  "Nikki Porcher",
+  "Lydia Powell",
+  "Kenya Wicks",
+  "Debra Bazemore",
+];
 
 // Photos for candidates the site doesn't have one for (state legislators).
 const EXTRA_PHOTOS = {
@@ -67,8 +90,26 @@ const blocks = OFFICES.map((k) => {
   if (k === "@lower") return { title: `State House · District ${dist.lower}`, cands: running.lower[dist.lower] ?? [] };
   return { title: offices[k].title, cands: races.statewide[k].candidates };
 });
-const slides = [];
-for (let i = 0; i < blocks.length; i += PER_SLIDE) slides.push(blocks.slice(i, i + PER_SLIDE));
+// Split items evenly across as few slides as fit (e.g. 10 items, 4 max -> 4, 3, 3).
+const split = (items, max) => {
+  const count = Math.ceil(items.length / max);
+  const out = [];
+  for (let i = 0, start = 0; i < count; i++) {
+    const size = Math.ceil((items.length - start) / (count - i));
+    out.push(items.slice(start, start + size));
+    start += size;
+  }
+  return out;
+};
+const slides = split(blocks, F.perSlide);
+// Featured people for the feed carousel, with the office each is running for.
+const featured = FEATURED.map((name) => {
+  for (const b of blocks) {
+    const c = b.cands.find((x) => x.name === name);
+    if (c) return { ...c, office: b.title };
+  }
+  throw new Error(`${name} isn't on this ballot`);
+});
 
 const noise =
   "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .17 0 0 0 0 .15 0 0 0 0 .12 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E";
@@ -79,8 +120,8 @@ const page = (inner) => `<!doctype html><html><head><meta charset="utf-8">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html{--s:1}
-body{width:1080px;height:1920px;background:#f2eee3 url("${noise}");color:#2b2824;font-family:"Instrument Sans",sans-serif;position:relative;overflow:hidden}
-.safe{position:absolute;left:60px;right:60px;top:250px;bottom:250px;display:flex;flex-direction:column;justify-content:center;gap:calc(22px*var(--s))}
+body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b2824;font-family:"Instrument Sans",sans-serif;position:relative;overflow:hidden}
+.safe{position:absolute;left:60px;right:60px;top:${F.safeTop}px;bottom:${F.safeBottom}px;display:flex;flex-direction:column;justify-content:center;gap:calc(22px*var(--s))}
 .lbl{font-family:Archivo;font-stretch:115%;font-weight:500;font-size:24px;letter-spacing:.2em;text-transform:uppercase;color:rgba(43,40,36,.68)}
 .disp{font-family:Archivo;font-stretch:68%;font-weight:700;text-transform:uppercase;line-height:.95}
 .sheet{border:4px solid #2b2824;background:#f7f4ec}
@@ -99,7 +140,14 @@ body{width:1080px;height:1920px;background:#f2eee3 url("${noise}");color:#2b2824
 .small{font-size:42px;line-height:1.3;color:#2b2824;text-wrap:pretty}
 .big{text-wrap:pretty}
 .urlbox{align-self:flex-start;font-family:Archivo;font-stretch:110%;font-weight:600;font-size:46px;letter-spacing:.06em;color:#ad3f2c;border:4px solid #ad3f2c;padding:16px 26px 12px;transform:rotate(-2deg)}
-.people{position:absolute;left:0;right:0;height:250px;background-repeat:repeat-x;background-size:auto 250px;opacity:.35}
+.grid{display:grid;grid-template-columns:1fr 1fr;border:4px solid #2b2824;background:#f7f4ec}
+.feat{display:flex;flex-direction:column;align-items:flex-start;gap:calc(8px*var(--s));padding:calc(26px*var(--s)) 26px;border-top:3px solid #2b2824;min-width:0}
+.feat:nth-child(-n+2){border-top:0}
+.feat:nth-child(even){border-left:3px solid #2b2824}
+.feat .pin{width:calc(220px*var(--s));height:calc(220px*var(--s));margin-bottom:calc(8px*var(--s))}
+.feat .office{border:0;font-family:Archivo;font-stretch:115%;font-weight:500;font-size:calc(20px*var(--s));letter-spacing:.16em;text-transform:uppercase;color:rgba(43,40,36,.68);line-height:1.35}
+.feat .name{font-size:calc(46px*var(--s))}
+.people{position:absolute;left:0;right:0;height:${F.people}px;background-repeat:repeat-x;background-size:auto ${F.people}px;opacity:.35}
 .people.top{top:0;background-position:-180px 0}
 .people.bottom{bottom:0;background-position:-520px 0}
 </style></head><body>${people("top", "top")}${people("bottom", "bottom")}<div class="safe">${inner}</div></body></html>`;
@@ -111,10 +159,20 @@ const candHTML = (c) => {
     <span class="who"><span class="name">${esc(c.name)}</span><span class="party">${esc(PARTY[c.party] ?? c.party)}</span>${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}</span>
   </div>`;
 };
+const featHTML = (c) => {
+  const ph = photoOf(c);
+  return `<div class="feat">
+    <span class="pin">${ph ? `<img src="${ph}">` : esc(initials(c.name))}</span>
+    <span class="office">${esc(c.office)}</span>
+    <span class="name">${esc(c.name)}</span>
+    <span class="party">${esc(PARTY[c.party] ?? c.party)}</span>
+    ${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}
+  </div>`;
+};
 const officeHTML = (b) => `<div class="office"><h2 class="disp otitle">${esc(b.title)}</h2><div class="cands">${order(b.cands).map(candHTML).join("")}</div></div>`;
 
 // ---- render ----
-const out = "exports/stories";
+const out = F.out;
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "pv-stories-"));
@@ -122,7 +180,7 @@ const browser = await chromium.launch();
 const shoot = async (html, file) => {
   const f = path.join(tmp, "card.html");
   fs.writeFileSync(f, html);
-  const p = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+  const p = await browser.newPage({ viewport: { width: F.w, height: F.h } });
   await p.goto("file://" + f, { waitUntil: "networkidle" });
   await p.evaluate(() => document.fonts.ready);
   // Shrink a little at a time until everything fits inside Instagram's safe area.
@@ -141,9 +199,15 @@ const shoot = async (html, file) => {
 const pad = (n) => String(n).padStart(2, "0");
 let n = 1;
 await shoot(page(`<span class="lbl">${esc(COPY.intro.kicker)}</span><h1 class="disp big">${esc(COPY.intro.big)}</h1><p class="small">${esc(COPY.intro.small)}</p>`), `${pad(n++)}-intro.png`);
-for (const [i, s] of slides.entries())
+if (F.featured) {
+  // Full rows of two in a 2-column grid: groups of 4, then whatever's left (10 -> 4, 4, 2).
+  const groups = [];
+  for (let i = 0; i < featured.length; i += F.perSlide) groups.push(featured.slice(i, i + F.perSlide));
+  for (const [i, g] of groups.entries())
+    await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${groups.length}</span></div><div class="grid">${g.map(featHTML).join("")}</div><span class="lbl">More on every candidate: vote.brianagude.com</span>`), `${pad(n++)}-women-${i + 1}.png`);
+} else for (const [i, s] of slides.entries())
   await shoot(page(`<div style="display:flex;justify-content:space-between"><span class="lbl">On my ballot</span><span class="lbl">${i + 1} / ${slides.length}</span></div><div class="sheet">${s.map(officeHTML).join("")}</div><span class="lbl">More on every candidate: vote.brianagude.com</span>`), `${pad(n++)}-ballot-${i + 1}.png`);
-await shoot(page(`<span class="lbl">${esc(COPY.outro.kicker)}</span><h1 class="disp big" style="font-size:136px">${esc(COPY.outro.big)}</h1><span class="urlbox">${esc(COPY.outro.url)}</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:20px">${COPY.outro.dates.map((d) => `<p class="small" style="font-size:40px">${esc(d)}</p>`).join("")}</div><div style="height:220px"></div>`), `${pad(n++)}-go-learn.png`);
+await shoot(page(`<span class="lbl">${esc(COPY.outro.kicker)}</span><h1 class="disp big" style="font-size:136px">${esc(COPY.outro.big)}</h1><span class="urlbox">${esc(COPY.outro.url)}</span><div style="display:flex;flex-direction:column;gap:10px;margin-top:20px">${COPY.outro.dates.map((d) => `<p class="small" style="font-size:40px">${esc(d)}</p>`).join("")}</div>${F.outroNote ? `<p class="lbl" style="margin-top:16px">${esc(F.outroNote)}</p>` : `<div style="height:220px"></div>`}`), `${pad(n++)}-go-learn.png`);
 
 await browser.close();
 fs.rmSync(tmp, { recursive: true, force: true });
