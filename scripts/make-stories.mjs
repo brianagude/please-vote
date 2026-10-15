@@ -3,7 +3,8 @@
 // These are for the owner's personal account, not the site: they pick which
 // offices to show and list Democrats first. The site itself stays neutral.
 //
-//   node scripts/make-stories.mjs "<street address, city, GA ZIP>"          -> exports/stories/
+//   node scripts/make-stories.mjs "<street address, city, GA ZIP>"              -> exports/stories/ (featured women)
+//   node scripts/make-stories.mjs "<street address, city, GA ZIP>" story-ballot -> exports/stories-ballot/
 //   node scripts/make-stories.mjs "<street address, city, GA ZIP>" feed        -> exports/feed-ballot/
 //   node scripts/make-stories.mjs "<street address, city, GA ZIP>" feed-women  -> exports/feed-women/
 //
@@ -32,12 +33,13 @@ const COPY = {
 const OFFICES = ["@house", "governor", "sos", "ag", "agr", "ins", "labor", "schools", "@upper", "@lower"];
 // Sizes per format. "safe" keeps text clear of Instagram's own buttons and labels.
 const FORMATS = {
-  story: { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 5, out: "exports/stories", outroNote: "" },
+  story: { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 2, out: "exports/stories", outroNote: "", featured: true },
+  "story-ballot": { w: 1080, h: 1920, safeTop: 250, safeBottom: 250, people: 250, perSlide: 5, out: "exports/stories-ballot", outroNote: "" },
   feed: { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 4, out: "exports/feed-ballot", outroNote: "Link in bio" },
-  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 4, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
+  "feed-women": { w: 1080, h: 1350, safeTop: 175, safeBottom: 185, people: 160, perSlide: 2, out: "exports/feed-women", outroNote: "Link in bio", featured: true },
 };
 const F = FORMATS[process.argv[3] ?? "story"];
-if (!F) throw new Error('Format must be "story", "feed", or "feed-women"');
+if (!F) throw new Error('Format must be "story", "story-ballot", "feed", or "feed-women"');
 const PARTY_ORDER = ["D", "R", "L", "I"]; // Democrats first
 
 // The feed carousel features these candidates (owner's list), each with her own card.
@@ -70,6 +72,8 @@ const read = (f) => JSON.parse(fs.readFileSync(path.join(D, f), "utf8"));
 const races = read("races.json");
 const offices = read("offices.json");
 const photos = read("generated/photos.json");
+const congress = read("generated/congress.json");
+const bills = read("generated/bills.json");
 const running = read("legislature-races.json");
 const PARTY = { D: "Democrat", R: "Republican", L: "Libertarian", I: "Independent" };
 
@@ -146,17 +150,35 @@ body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b
 .line{font-size:calc(24px*var(--s));line-height:1.3;color:#2b2824;text-wrap:pretty}
 .big{text-wrap:pretty}
 .urlbox{align-self:flex-start;font-family:Archivo;font-stretch:110%;font-weight:600;font-size:46px;letter-spacing:.06em;color:#ad3f2c;border:4px solid #ad3f2c;padding:16px 26px 12px;transform:rotate(-2deg)}
-.grid{display:grid;grid-template-columns:1fr 1fr;border:4px solid #2b2824;background:#f7f4ec}
-.feat{display:flex;flex-direction:column;align-items:flex-start;gap:calc(8px*var(--s));padding:calc(26px*var(--s)) 26px;border-top:3px solid #2b2824;min-width:0}
-.feat:nth-child(-n+2){border-top:0}
-.feat:nth-child(even){border-left:3px solid #2b2824}
-.feat .pin{width:calc(220px*var(--s));height:calc(220px*var(--s));margin-bottom:calc(8px*var(--s))}
+.grid{display:flex;flex-direction:column;border:4px solid #2b2824;background:#f7f4ec}
+.feat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:calc(28px*var(--s));padding:calc(30px*var(--s)) 30px;border-top:3px solid #2b2824;align-items:start}
+.feat:first-child{border-top:0}
+.feat .pin{width:calc(230px*var(--s));height:calc(230px*var(--s))}
+.feat .info{display:flex;flex-direction:column;align-items:flex-start;gap:calc(8px*var(--s));min-width:0}
+.feat .bio{font-size:calc(30px*var(--s));line-height:1.3;font-weight:500;text-wrap:pretty}
+.feat ul{list-style:none;display:flex;flex-direction:column;gap:calc(8px*var(--s));border-top:2px dashed #cfc8b8;padding-top:calc(10px*var(--s));margin-top:calc(4px*var(--s));align-self:stretch}
+.feat li{font-size:calc(26px*var(--s));line-height:1.3;padding-left:22px;position:relative;text-wrap:pretty}
+.feat li::before{content:"";position:absolute;left:2px;top:.55em;width:9px;height:9px;border:2px solid #a39d91;border-radius:50%}
 .feat .office{border:0;font-family:Archivo;font-stretch:115%;font-weight:500;font-size:calc(20px*var(--s));letter-spacing:.16em;text-transform:uppercase;color:rgba(43,40,36,.68);line-height:1.35}
 .feat .name{font-size:calc(46px*var(--s))}
 .people{position:absolute;left:0;right:0;height:${F.people}px;background-repeat:repeat-x;background-size:auto ${F.people}px;opacity:.35}
 .people.top{top:0;background-position:-180px 0}
 .people.bottom{bottom:0;background-position:-520px 0}
 </style></head><body>${people("top", "top")}${people("bottom", "bottom")}<div class="safe">${inner}</div></body></html>`;
+
+/** A few more sourced facts: career items, then congressional roles and bills (same data as the site). */
+function moreFacts(c) {
+  const out = (c.career ?? []).filter((f) => f.source).map((f) => f.text);
+  const m = c.ids?.bioguide && congress[c.ids.bioguide];
+  if (m)
+    for (const r of m.committees.filter((r) => r.title)) {
+      const what = r.parent ? `the ${r.committee} subcommittee` : `the ${r.committee}`;
+      out.push(/ranking/i.test(r.title) ? `Top ${PARTY[c.party]} on ${what}` : /^chair/i.test(r.title) ? `Leads ${what}` : `${r.title}, ${what}`);
+    }
+  const b = c.id && bills[c.id];
+  if (b) out.push(`Wrote ${b.wrote} ${b.wrote === 1 ? "bill" : "bills"} since 2023; ${b.becameLaw ? `${b.becameLaw} became law` : "none became law yet"}`);
+  return out.slice(0, 4);
+}
 
 /** The candidate's one-line background from the site (sourced only), or "Running unopposed". */
 const lineFor = (c, othersInRace) => (othersInRace === 1 ? "Running unopposed." : c.bio?.source ? c.bio.text : "");
@@ -170,13 +192,17 @@ const candHTML = (c, n) => {
 };
 const featHTML = (c) => {
   const ph = photoOf(c);
+  const facts = moreFacts(c);
   return `<div class="feat">
     <span class="pin">${ph ? `<img src="${ph}">` : esc(initials(c.name))}</span>
-    <span class="office">${esc(c.office)}</span>
-    <span class="name">${esc(c.name)}</span>
-    <span class="party">${esc(PARTY[c.party] ?? c.party)}</span>
-    ${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}
-    ${lineFor(c, c.inRace) ? `<span class="line">${esc(lineFor(c, c.inRace))}</span>` : ""}
+    <div class="info">
+      <span class="office">${esc(c.office)}</span>
+      <span class="name">${esc(c.name)}</span>
+      <span class="party">${esc(PARTY[c.party] ?? c.party)}</span>
+      ${c.incumbent ? `<span class="stamp">Incumbent</span>` : ""}
+      ${lineFor(c, c.inRace) ? `<p class="bio">${esc(lineFor(c, c.inRace))}</p>` : ""}
+      ${facts.length ? `<ul>${facts.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+    </div>
   </div>`;
 };
 const officeHTML = (b) => `<div class="office"><h2 class="disp otitle">${esc(b.title)}</h2><div class="cands">${order(b.cands).map((c) => candHTML(c, b.cands.length)).join("")}</div></div>`;
