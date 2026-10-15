@@ -30,7 +30,7 @@ h1{font-size:150px}
   <div><span class="lbl">Georgia general election</span><h1 class="disp">Please Vote</h1></div>
   <div><span class="lbl">Election day</span><span class="n">NOV 3</span><span style="font-size:24px">Polls 7 a.m. – 7 p.m.</span></div>
 </div>
-<div class="row">When to vote, what's on your ballot, and who's running. Nonpartisan.</div>
+<div class="row">When to vote, what's on your ballot, and who's running.</div>
 <div class="people"></div>
 </body></html>`;
 
