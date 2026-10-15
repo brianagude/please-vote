@@ -22,16 +22,17 @@
       "end": "2026-10-30"
     },
     {
-      "what": "Mail ballot request",
-      "when": "Oct 23",
-      "start": "2026-10-23",
-      "sub": "Ballot due back by 7 p.m. Nov 3"
+      "what": "Request a mail ballot",
+      "when": "By Oct 23",
+      "start": "2026-08-17",
+      "end": "2026-10-23",
+      "sub": "Then return it by 7 p.m. Nov 3."
     },
     {
       "what": "Election day",
       "when": "Nov 3",
       "start": "2026-11-03",
-      "sub": "7 a.m. – 7 p.m."
+      "sub": "7 a.m. – 7 p.m."
     },
     {
       "what": "Runoff, if needed",

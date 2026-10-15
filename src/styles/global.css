@@ -226,3 +226,10 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   .race .head{grid-template-columns:1fr}
   .race .head>.cell+.cell{border-left:0;border-top:1px solid var(--rule)}
 }
+
+/* "Open now" dot: a slow blink for about 5 seconds when the page loads, then solid.
+   (Blinking longer than 5 seconds would need a pause control, per WCAG 2.2.2.) */
+.st .dot{display:inline-block}
+@media (prefers-reduced-motion:no-preference){.st .dot{animation:blink 1.2s ease-in-out 4}}
+@keyframes blink{50%{opacity:.15}}
+.d.is-open .sub{color:#5a554c}
