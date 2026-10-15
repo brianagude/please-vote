@@ -65,6 +65,12 @@ export interface Seat {
   source: Source;
 }
 
+export interface RunningFor {
+  name: string;
+  party: string;
+  incumbent?: boolean;
+}
+
 export interface KeyDate {
   what: string;
   when: string;
@@ -102,7 +108,13 @@ export interface StateData {
   config: StateConfig;
   offices: Record<string, Office>;
   races: { statewide: Record<string, Race>; house: Record<string, Race> };
-  legislature: { asOf: string; upper: Record<string, Seat>; lower: Record<string, Seat> };
+  legislature: {
+    asOf: string;
+    upper: Record<string, Seat>;
+    lower: Record<string, Seat>;
+    /** Who's running for each seat, from the Secretary of State's list. */
+    running: { source: Source; upper: Record<string, RunningFor[]>; lower: Record<string, RunningFor[]> };
+  };
   sources: { what: string; label: string; url: string }[];
   zipToHouse: Record<string, number[]>;
 }

@@ -66,6 +66,7 @@ export async function photos(code: string) {
   const out: Record<string, any> = {};
 
   for (const { c } of candidates(races)) {
+    if (c.photo) continue; // set by hand in races.json
     try {
       let p = c.ids?.bioguide ? await fromCongress(c.id, c.ids.bioguide, dir) : undefined;
       const title = c.ids?.wikipedia ?? (c.ids?.bioguide && congress[c.ids.bioguide]?.ids?.wikipedia);

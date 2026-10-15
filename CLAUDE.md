@@ -1,6 +1,6 @@
 # Please Vote
 
-The project is named "Please Vote". The page title stays "Election Day Need-to-Know", with a small "Please Vote" kicker above the masthead (owner's call, Oct 14, 2026).
+The project is named "Please Vote". The page title stays "Election Day Need-to-Know" (owner's call, Oct 14, 2026). The live site is https://vote.brianagude.com.
 
 This is a nonpartisan voter guide for people who don't usually vote. It covers Georgia first, and the code is organized by state so others can be added.
 

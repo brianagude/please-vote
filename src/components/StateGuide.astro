@@ -1,6 +1,7 @@
 ---
 import type { StateData } from "../lib/types";
-import { partyName } from "../lib/names";
+import { byLastName, partyName } from "../lib/names";
+import CandidateRow from "./CandidateRow.astro";
 import Masthead from "./Masthead.astro";
 import DateCards from "./DateCards.astro";
 import AddressForm from "./AddressForm.astro";
@@ -21,7 +22,7 @@ const short = (k: string) => {
   if (k === "@lower") return { text: D.lower.label };
   return { text: O[k.replace("?", "")].title.replace("Public Service Commission", "PSC") };
 };
-const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k] });
+const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L.running[k] });
 ---
 <div class="wrap">
   <Masthead config={config} />
@@ -61,21 +62,32 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k] });
                         <span class="lbl">Has the seat now</span>
                         <p class="rnote">Pick your {ch.label} district in step 02.</p>
                       </div>
-                      {Object.entries(ch.seats).map(([n, p]) => (
-                        <div class="cell seat" data-seat={n} hidden>
-                          <span class="lbl">Has the seat now</span>
-                          {p.vacant ? (
-                            <strong>Vacant</strong>
-                          ) : (
-                            <>
-                              <strong>{p.name}</strong>
-                              <span class="p" style="font-size:.85rem;color:var(--soft)">{partyName(p.party)}</span>
-                            </>
-                          )}
-                          <p class="rnote">Who's running: see your voter page. We're still adding these races.</p>
-                          <a class="src" href={p.source.url} target="_blank" rel="noopener">Source: {p.source.label}</a>
-                        </div>
-                      ))}
+                      {Array.from({ length: ch.count }, (_, i) => String(i + 1)).map((n) => {
+                        const p = ch.seats[n];
+                        const running = byLastName(ch.running[n] ?? []);
+                        return (
+                          <div class="cell seat-race" data-seat={n} hidden>
+                            {running.length > 0 && (
+                              <>
+                                <span class="lbl">Candidates</span>
+                                <ul class="cands">
+                                  {running.map((c) => (
+                                    <CandidateRow c={{ id: `${ch.k}-${n}-${c.name}`, name: c.name, party: c.party, incumbent: c.incumbent, links: {} }} />
+                                  ))}
+                                </ul>
+                                {running.length === 1 && <p class="rnote">Only one person is running for this seat.</p>}
+                                <a class="src" href={L.running.source.url} target="_blank" rel="noopener">Candidate list: {L.running.source.label}</a>
+                              </>
+                            )}
+                            {p && !running.some((c) => c.incumbent) && (
+                              <p class="holder">
+                                <span class="lbl">Has the seat now</span>
+                                {p.vacant ? "No one" : `${p.name}, ${partyName(p.party)}.`} <a class="src" href={p.source.url} target="_blank" rel="noopener">Source: {p.source.label}</a>
+                              </p>
+                            )}
+                          </div>
+                        );
+                      })}
                       <div class="cell" data-seat="unknown" hidden>
                         <span class="lbl">Has the seat now</span>
                         <p class="rnote">We couldn't confirm who has this seat. Check your voter page.</p>

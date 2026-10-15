@@ -251,6 +251,14 @@
           "links": {
             "campaign": "https://www.pennyforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Penny_Brown_Reynolds"
+          },
+          "photo": {
+            "src": "/photos/manual/penny-brown-reynolds.jpg",
+            "credit": "Krimson PAC",
+            "source": {
+              "label": "Krimson PAC",
+              "url": "https://krimsonpac.org/Candidates/penny-brown-reynolds/"
+            }
           }
         },
         {
@@ -364,7 +372,7 @@
       "candidates": [
         {
           "id": "katherine-juhan-arnold",
-          "name": "Katherine Juhan-Arnold",
+          "name": "Katherine E. Juhan-Arnold",
           "party": "D",
           "bio": {
             "text": "Nonprofit founder.",
@@ -392,6 +400,14 @@
           "links": {
             "campaign": "https://katherineforgeorgia.com/",
             "ballotpedia": "https://ballotpedia.org/Katherine_Juhan-Arnold"
+          },
+          "photo": {
+            "src": "/photos/manual/katherine-juhan-arnold.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Katherine_Juhan-Arnold"
+            }
           }
         },
         {
@@ -436,7 +452,7 @@
       "candidates": [
         {
           "id": "keisha-waites",
-          "name": "Keisha Waites",
+          "name": "Keisha Sean Waites",
           "party": "D",
           "bio": {
             "text": "Former Atlanta City Council member.",
@@ -539,6 +555,14 @@
           "links": {
             "campaign": "https://www.voteporcher4ga.com/",
             "ballotpedia": "https://ballotpedia.org/Nikki_Porcher"
+          },
+          "photo": {
+            "src": "/photos/manual/nikki-porcher.jpg",
+            "credit": "Campowerment",
+            "source": {
+              "label": "Campowerment",
+              "url": "https://campowerment.com/experts/nikki-porcher/"
+            }
           }
         },
         {
@@ -579,6 +603,14 @@
           "links": {
             "campaign": "https://www.drlydiapowell.com/",
             "ballotpedia": "https://ballotpedia.org/Lydia_Powell"
+          },
+          "photo": {
+            "src": "/photos/manual/lydia-powell.jpg",
+            "credit": "Northwest Georgia News",
+            "source": {
+              "label": "Northwest Georgia News",
+              "url": "https://www.northwestgeorgianews.com/catoosa_walker_news/news/woods-powell-clash-over-georgia-educations-future/article_d4a4f0d1-b9e9-4fd3-b8a2-29b5c68e4f41.html"
+            }
           }
         },
         {
@@ -726,6 +758,14 @@
           "links": {
             "campaign": "https://shelia4psc.com/",
             "ballotpedia": "https://ballotpedia.org/Shelia_Edwards"
+          },
+          "photo": {
+            "src": "/photos/manual/shelia-edwards.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Shelia_Edwards"
+            }
           }
         },
         {
@@ -752,15 +792,6 @@
             "campaign": "https://teamtolbert.com/",
             "ballotpedia": "https://ballotpedia.org/Josh_Tolbert"
           }
-        },
-        {
-          "id": "thomas-blooming",
-          "name": "Thomas Blooming",
-          "party": "L",
-          "bio": {
-            "text": "Libertarian nominee. We couldn't find more about his background."
-          },
-          "links": {}
         }
       ]
     }
@@ -798,7 +829,7 @@
         },
         {
           "id": "jim-kingston",
-          "name": "Jim Kingston",
+          "name": "James \"Jim\" Kingston",
           "party": "R",
           "bio": {
             "text": "Insurance salesman."
@@ -815,7 +846,7 @@
       "candidates": [
         {
           "id": "sanford-d-bishop-jr",
-          "name": "Sanford D. Bishop, Jr.",
+          "name": "Sanford Bishop",
           "party": "D",
           "incumbent": true,
           "bio": {
@@ -961,7 +992,7 @@
       "candidates": [
         {
           "id": "henry-c-johnson-jr",
-          "name": "Henry C. \"Hank\" Johnson, Jr.",
+          "name": "Henry \"Hank\" Johnson Jr.",
           "party": "D",
           "incumbent": true,
           "bio": {
@@ -992,7 +1023,7 @@
         },
         {
           "id": "james-duffie",
-          "name": "James Duffie",
+          "name": "Jim Duffie",
           "party": "R",
           "bio": {
             "text": "Retired nonprofit director and veteran.",
@@ -1045,7 +1076,7 @@
         },
         {
           "id": "john-salvesen",
-          "name": "John Salvesen",
+          "name": "John \"Bongo\" Salvesen",
           "party": "R",
           "bio": {
             "text": "Handyman who works in construction.",
@@ -1113,7 +1144,7 @@
         },
         {
           "id": "kevin-martin",
-          "name": "Kevin Martin",
+          "name": "Kevin E. Martin",
           "party": "R",
           "bio": {
             "text": "Company controller with 35 years in accounting and finance.",
@@ -1136,7 +1167,7 @@
       "candidates": [
         {
           "id": "anthony-kozycki",
-          "name": "Anthony Kozycki",
+          "name": "Tony Kozycki",
           "party": "D",
           "bio": {
             "text": "Attorney."
@@ -1150,7 +1181,7 @@
         },
         {
           "id": "richard-mccormick",
-          "name": "Richard McCormick",
+          "name": "Rich McCormick",
           "party": "R",
           "incumbent": true,
           "bio": {
@@ -1295,7 +1326,7 @@
         },
         {
           "id": "andrew-s-clyde",
-          "name": "Andrew S. Clyde",
+          "name": "Andrew Clyde",
           "party": "R",
           "incumbent": true,
           "bio": {
@@ -1347,7 +1378,7 @@
       "candidates": [
         {
           "id": "pamela-delancy",
-          "name": "Pamela DeLancy",
+          "name": "Pamela \"Pam\" Delancy",
           "party": "D",
           "bio": {
             "text": "Registered nurse and retired Army colonel.",

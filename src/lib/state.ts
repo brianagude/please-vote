@@ -21,7 +21,7 @@ export function loadState(code: string): StateData {
     config: read(code, "state.json"),
     offices: read(code, "offices.json"),
     races: read(code, "races.json"),
-    legislature: read(code, "legislature.json"),
+    legislature: { ...read(code, "legislature.json"), running: read(code, "legislature-races.json") },
     sources: read(code, "sources.json"),
     zipToHouse: read(code, "zip-to-house.json"),
   };
@@ -34,7 +34,8 @@ export function loadState(code: string): StateData {
   };
   const cycle = data.config.election.date.slice(0, 4);
   for (const c of allCandidates(data)) {
-    if (photos?.[c.id]) c.photo = photos[c.id];
+    // A photo set by hand in races.json wins over the nightly one.
+    if (!c.photo && photos?.[c.id]) c.photo = photos[c.id];
     c.record = buildRecord(c, gen, cycle, data.config.name);
   }
   return data;

@@ -1,6 +1,6 @@
 # Please Vote
 
-A nonpartisan guide to Georgia's November 3, 2026 election. It covers the dates, which districts you're in, every race on the ballot, what each office does, and who's running. The page itself is titled "Election Day Need-to-Know"; "Please Vote" is the project name and the small kicker above the title.
+A nonpartisan guide to Georgia's November 3, 2026 election. It covers the dates, which districts you're in, every race on the ballot, what each office does, and who's running. The page itself is titled "Election Day Need-to-Know". Live at https://vote.brianagude.com.
 
 ## How it works
 
@@ -29,6 +29,8 @@ A nonpartisan guide to Georgia's November 3, 2026 election. It covers the dates,
 | What an office does | `data/states/ga/offices.json` |
 | Candidates, their facts, and sources | `data/states/ga/races.json` |
 | Footer sources list | `data/states/ga/sources.json` |
+| Who's running for State Senate / State House | Save the new SoS list in `data/states/ga/sources/`, then run `node pipeline/import-sos.ts "<file>"` |
+| A candidate's photo, by hand | Put it in `public/photos/manual/` and add a `photo` entry (with credit and source) in `races.json` |
 
 Don't edit files in `data/states/ga/generated/` or `legislature.json` by hand; the nightly job overwrites them.
 

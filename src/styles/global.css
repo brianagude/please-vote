@@ -117,7 +117,6 @@ footer ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;ga
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
 /* ---- additions for the live site ---- */
-.kicker{margin-bottom:-44px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .addr{display:flex;gap:10px 14px;align-items:flex-end;flex-wrap:wrap}
 .addr input{flex:1 1 260px}
@@ -136,3 +135,6 @@ footer ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;ga
 .laws summary{cursor:pointer;font-size:.85rem;text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:3px}
 .laws ul{margin-top:4px}
 @media (max-width:560px){.rec>div{grid-template-columns:1fr}}
+.seat-race{padding:10px 0 8px}
+.seat-race>.lbl,.seat-race>.rnote,.seat-race>.src,.seat-race>.holder{padding-left:14px;padding-right:14px}
+.holder{font-size:.9rem;border-top:1px dashed var(--hair);padding-top:8px;margin-top:6px}

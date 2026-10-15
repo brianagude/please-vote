@@ -26,6 +26,7 @@ Settled October 14, 2026, before handoff to Claude Code. Change these only with 
 
 - Federal candidates come from the FEC. The 2026 nominees are already in the snapshot.
 - State legislative seats show the **current officeholder only**, plus a note that the full candidate list is on the voter's My Voter Page.
+- **Updated Oct 14, 2026:** the owner supplied the Secretary of State's certified list, so State Senate and State House races now show every candidate's name, party, and whether they hold the seat. No other facts about them yet.
 - In parallel, the owner requests quotes from Ballotpedia, BallotReady, and Democracy Works for full candidate data. The code should accept a paid candidate feed later without a rewrite.
 
 ## 4. Which votes appear: a fixed, published rule
@@ -51,6 +52,7 @@ Show only **final-passage votes** on bills and joint resolutions that passed at 
 - Everyone else uses Wikimedia Commons images, **only** if licensed CC0, public domain, CC BY, or CC BY-SA, with a credit line on the site.
 - If no photo is available, show initials.
 - Photos are shown for whoever has one. The owner chose this knowing incumbents are more likely to have photos than challengers.
+- **Changed Oct 14, 2026 (owner):** the owner may add photos by hand from other public pages (campaign, PAC, Ballotpedia, news) to fill gaps. Each gets a credit line and a link to where it came from. These aren't free-licensed, so the owner accepts the copyright risk; prefer a campaign's own photo when one exists.
 
 ## 7. v1 features, beyond the current prototype
 

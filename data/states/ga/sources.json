@@ -1,5 +1,10 @@
 [
   {
+    "what": "Who's on the ballot",
+    "label": "Georgia Secretary of State candidate list",
+    "url": "https://sos.ga.gov/november-3-2026-general-election"
+  },
+  {
     "what": "Dates, ID, poll hours",
     "label": "Georgia Election Guide",
     "url": "https://georgia.gov/georgia-election-guide"
@@ -128,11 +133,6 @@
     "what": "Career facts and profiles",
     "label": "Ballotpedia candidate profiles",
     "url": "https://ballotpedia.org/"
-  },
-  {
-    "what": "PSC District 5 ballot",
-    "label": "Ballotpedia News",
-    "url": "https://news.ballotpedia.org/2026/08/10/partisan-control-of-georgia-public-service-commission-at-stake-in-november-election/"
   },
   {
     "what": "Andrew Clyde, Clay Fuller",

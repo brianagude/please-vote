@@ -55,8 +55,8 @@ Status as researched October 13–14, 2026. Verify each source before relying on
 - **No Ballotpedia profile found:** Jim Kingston and Thomas Blooming.
 - **No campaign site found:** Thomas Blooming and Jim Kingston.
 - **GA-14:** Andrew Underwood (L) and Rob Ruszkowski (I) were removed. They ran in the March 2026 special election, and Branch and The Ballot Brief list only Fuller and Harris for November.
-- **PSC District 5:** Thomas Blooming (L) is confirmed on the ballot by Ballotpedia News (Aug 10, 2026).
-- **Snapshot age:** candidate lists were assembled from Wikipedia, WABE, Branch, and Ballotpedia. Re-verify against the Georgia Secretary of State's certified candidate list.
+- **PSC District 5:** Thomas Blooming (L) was reported by Ballotpedia News (Aug 10, 2026) but is **not** on the Secretary of State's certified list, so he was removed (Oct 14, 2026).
+- **Snapshot age:** checked Oct 14, 2026 against the Secretary of State's certified list (`data/states/ga/sources/`). All statewide and U.S. candidates, parties, and incumbents match; names now use the ballot spelling. The list has no ballot questions, so the farm and timber amendment is still unconfirmed.
 
 ## Verified by calling them (Oct 14, 2026)
 
