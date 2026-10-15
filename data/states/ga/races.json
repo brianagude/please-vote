@@ -259,37 +259,7 @@
               "label": "Krimson PAC",
               "url": "https://krimsonpac.org/Candidates/penny-brown-reynolds/"
             }
-          },
-          "career": [
-            {
-              "text": "Fulton County Superior Court judge, 2000–2008",
-              "source": {
-                "label": "Wikipedia",
-                "url": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election"
-              }
-            },
-            {
-              "text": "First Black executive counsel to a Georgia governor",
-              "source": {
-                "label": "Penny Brown Reynolds campaign",
-                "url": "https://www.pennyforgeorgia.com/meet-judge-penny"
-              }
-            },
-            {
-              "text": "Led civil rights work at the U.S. Department of Agriculture under President Biden",
-              "source": {
-                "label": "Penny Brown Reynolds campaign",
-                "url": "https://www.pennyforgeorgia.com/meet-judge-penny"
-              }
-            },
-            {
-              "text": "Taught at Georgia State University’s school of public policy",
-              "source": {
-                "label": "Penny Brown Reynolds campaign",
-                "url": "https://www.pennyforgeorgia.com/meet-judge-penny"
-              }
-            }
-          ]
+          }
         },
         {
           "id": "tim-fleming",
@@ -632,10 +602,10 @@
           "name": "Lydia Powell",
           "party": "D",
           "bio": {
-            "text": "Assistant principal and longtime teacher.",
+            "text": "Educator.",
             "source": {
-              "label": "Branch",
-              "url": "https://www.branch.vote/races/2026-georgia-general-election-ga-state-state-superintendent-ga/candidates/lydia-catalina-powell"
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Lydia_Powell"
             }
           },
           "links": {
@@ -649,37 +619,7 @@
               "label": "Northwest Georgia News",
               "url": "https://www.northwestgeorgianews.com/catoosa_walker_news/news/woods-powell-clash-over-georgia-educations-future/article_d4a4f0d1-b9e9-4fd3-b8a2-29b5c68e4f41.html"
             }
-          },
-          "career": [
-            {
-              "text": "Over 26 years as a teacher, including 11 in school leadership",
-              "source": {
-                "label": "The Ballot Brief",
-                "url": "https://theballotbrief.com/candidate/lydia-powell-ga"
-              }
-            },
-            {
-              "text": "Taught in DeKalb, Henry, Clayton, and Fayette County schools",
-              "source": {
-                "label": "The Ballot Brief",
-                "url": "https://theballotbrief.com/candidate/lydia-powell-ga"
-              }
-            },
-            {
-              "text": "Doctorate in educational leadership",
-              "source": {
-                "label": "Branch",
-                "url": "https://www.branch.vote/races/2026-georgia-general-election-ga-state-state-superintendent-ga/candidates/lydia-catalina-powell"
-              }
-            },
-            {
-              "text": "Chairs the City of Fayetteville Ethics Committee",
-              "source": {
-                "label": "The Ballot Brief",
-                "url": "https://theballotbrief.com/candidate/lydia-powell-ga"
-              }
-            }
-          ]
+          }
         },
         {
           "id": "richard-woods",

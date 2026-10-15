@@ -18,14 +18,18 @@ const COPY = {
   intro: {
     kicker: "Georgia · Nov 3, 2026",
     big: "Did you know?",
-    sub: "A lot of the Democratic candidates running for office this year are Black women (((((:",
+    sub: "So many of the Democrats running in Georgia's midterms this year are Black women ((:",
     small: "So I built a site to help me learn about who's on my ballot.",
   },
   outro: {
     kicker: "Georgia voters",
     big: "Please learn who you're voting for.",
     url: "vote.brianagude.com",
-    dates: ["Early voting: now through Oct 30", "Election Day: Nov 3, 7 a.m. – 7 p.m."],
+    dates: [
+      "Early voting: now through Oct 30",
+      "Mail ballot: request by Oct 23, return by 7 p.m. Nov 3",
+      "Election Day: Nov 3, 7 a.m. – 7 p.m.",
+    ],
   },
 };
 
@@ -45,7 +49,28 @@ const PARTY_ORDER = ["D", "R", "L", "I"]; // Democrats first
 // The feed carousel features these candidates (owner's list), each with her own card.
 const FOOTER = "More on every candidate<br>@ vote.brianagude.com";
 // Wording changes for the posts only (the site keeps its full sourced text).
-const POST_BIO = { "Penny Brown Reynolds": "Attorney, former judge, and professor." };
+const POST_BIO = {
+  "Penny Brown Reynolds": "Attorney, former judge, and professor.",
+  "Lydia Powell": "Assistant principal and longtime teacher.",
+};
+// Extra facts for the posts only (owner's call: not on the site). Sources:
+//   Reynolds: Wikipedia (2026 Georgia Secretary of State election) for the judge dates;
+//             pennyforgeorgia.com/meet-judge-penny for the rest.
+//   Powell:   branch.vote and theballotbrief.com candidate pages (from her campaign site).
+const POST_FACTS = {
+  "Penny Brown Reynolds": [
+    "Fulton County Superior Court judge, 2000–2008",
+    "First Black executive counsel to a Georgia governor",
+    "Led civil rights work at the U.S. Department of Agriculture under President Biden",
+    "Taught at Georgia State University’s school of public policy",
+  ],
+  "Lydia Powell": [
+    "Over 26 years as a teacher, including 11 in school leadership",
+    "Taught in DeKalb, Henry, Clayton, and Fayette County schools",
+    "Doctorate in educational leadership",
+    "Chairs the City of Fayetteville Ethics Committee",
+  ],
+};
 
 const FEATURED = [
   "Lucy McBath",
@@ -173,7 +198,7 @@ body{width:${F.w}px;height:${F.h}px;background:#f2eee3 url("${noise}");color:#2b
 
 /** A few more sourced facts: career items, then congressional roles and bills (same data as the site). */
 function moreFacts(c) {
-  const out = (c.career ?? []).filter((f) => f.source).map((f) => f.text);
+  const out = [...(c.career ?? []).filter((f) => f.source).map((f) => f.text), ...(POST_FACTS[c.name] ?? [])];
   const m = c.ids?.bioguide && congress[c.ids.bioguide];
   if (m)
     for (const r of m.committees.filter((r) => r.title)) {
