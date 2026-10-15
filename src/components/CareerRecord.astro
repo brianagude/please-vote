@@ -1,18 +1,18 @@
 ---
 // A candidate's career record: facts only, each line with its source.
 import type { CareerRecord } from "../lib/types";
+import { moneyLines } from "../lib/money";
 interface Props {
   r: CareerRecord;
 }
 const { r } = Astro.props;
 
-const money = (n: number) =>
-  n >= 1e6 ? `$${(n / 1e6).toFixed(n >= 1e7 ? 0 : 1)} million` : `$${(Math.round(n / 100) * 100).toLocaleString("en-US")}`;
 const pct = (part: number, whole: number) => (whole > 0 ? Math.round((part / whole) * 100) : 0);
 const year = (d?: string) => d?.slice(0, 4);
 const monthYear = (d?: string) => (d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", year: "numeric" }) : "");
 const longDate = (d?: string) => (d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }) : "");
 const m = r.money && !("none" in r.money) ? r.money : undefined;
+const lines = m ? moneyLines(m) : undefined;
 ---
 <dl class="rec">
   {
@@ -69,20 +69,23 @@ const m = r.money && !("none" in r.money) ? r.money : undefined;
       <div>
         <dt class="lbl">Campaign money</dt>
         <dd>
-          {m ? (
-            <>
-              <p>
-                Raised {money(m.raised)} and spent {money(m.spent)} since {monthYear(m.from)}. Had {money(m.cashOnHand)} left as of {longDate(m.through)}.
-              </p>
-              <p>
-                {pct(m.fromIndividuals, m.raised)}% came from individual donors and {pct(m.fromPACs, m.raised)}% from PACs (groups that collect money to give to
-                candidates).
-              </p>
-            </>
+          {m && lines ? (
+            <ul>
+              <li>Raised {lines.raised} and spent {lines.spent} since {monthYear(m.from)}.</li>
+              <li>
+                Had {lines.left} left as of {longDate(m.through)}{lines.start ? ", including money left over from earlier campaigns." : "."}
+              </li>
+              {m.donations ? (
+                <li>
+                  Of the money donors gave, {pct(m.fromIndividuals, m.donations)}% came from individual people and {pct(m.fromPACs, m.donations)}% from PACs
+                  (groups that collect money to give to candidates).
+                </li>
+              ) : null}
+            </ul>
           ) : (
             <p>No totals yet. The FEC only lists a candidate after they raise or spend more than $5,000.</p>
           )}
-          <a class="src" href={r.money.source.url} target="_blank" rel="noopener">Source: {r.money.source.label}</a>
+          <a class="src" href={r.money.source.url} target="_blank" rel="noopener">Source and every donor: {r.money.source.label}</a>
         </dd>
       </div>
     )

@@ -28,6 +28,10 @@ export async function fec(code: string) {
       fromPACs: t.other_political_committee_contributions,
       fromParty: t.political_party_committee_contributions,
       fromSelf: (t.candidate_contribution ?? 0) + (t.loans_made_by_candidate ?? 0),
+      // Donations only (not transfers, loans, or refunds): the base for "where donations came from".
+      donations: t.contributions,
+      // Money moved in from the candidate's other campaign accounts. Counts as "raised" but isn't new donations.
+      transfersIn: t.transfers_from_other_authorized_committee ?? 0,
       from: day(t.coverage_start_date),
       through: day(t.coverage_end_date),
       source: { label: "FEC", url: `https://www.fec.gov/data/candidate/${id}/?cycle=${cycle}&election_full=true` },

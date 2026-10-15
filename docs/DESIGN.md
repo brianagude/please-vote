@@ -17,11 +17,11 @@ The page should feel like a vintage printed form or label: ruled cells, small sp
 | race header shade | `#e8e2d4` | Race header rows |
 | ink | `#2b2824` | Text and rules |
 | soft | `#6d675d` | Secondary text |
-| red | `#b3412e` | Accent only |
+| red | `#ad3f2c` | Accent only (darkened slightly from `#b3412e` on Oct 14, 2026 to pass contrast on the pink and header backgrounds) |
 | red wash | `#efe0d6` | "Open now" date card |
-| faded | `#a39d91` | Passed dates |
+| faded | `#857f73` | Passed dates, large text only (was `#a39d91`, which failed contrast). The small "Passed" label uses soft. |
 
-Labels are ink at 55% opacity.
+Labels are ink at 68% opacity (raised from 55% on Oct 14, 2026 to meet 4.5:1 contrast).
 
 **Type**
 
@@ -67,6 +67,12 @@ Everything else is ink.
 - Long fine print under the date cards and wordy intros.
 - Links to voting-record websites as a substitute for showing records.
 - Coloring candidates by party.
+
+## Interaction
+
+- Everything clickable shows a pointer cursor.
+- Hover feedback is small: buttons lift 1px, link underlines drop slightly, "Campaign site →" links nudge right, and section headers shade. Movement is turned off when the device asks for reduced motion.
+- `npm run test:a11y` checks WCAG 2.2 AA at desktop and 360px on every push.
 
 ## Copy rules
 

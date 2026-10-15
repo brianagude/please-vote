@@ -41,7 +41,18 @@ export interface CareerRecord {
   roles?: { items: string[]; source: Source };
   bills?: { since: string; wrote: number; becameLaw: number; laws: { id: string; title: string; url: string; date?: string }[]; source: Source };
   money?:
-    | { raised: number; spent: number; cashOnHand: number; fromIndividuals: number; fromPACs: number; from?: string; through?: string; source: Source }
+    | {
+        raised: number;
+        spent: number;
+        cashOnHand: number;
+        fromIndividuals: number;
+        fromPACs: number;
+        donations?: number;
+        transfersIn?: number;
+        from?: string;
+        through?: string;
+        source: Source;
+      }
     | { none: true; source: Source };
 }
 

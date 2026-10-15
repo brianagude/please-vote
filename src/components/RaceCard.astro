@@ -16,7 +16,7 @@ const list = byLastName(candidates);
 ---
 <article class="race" hidden={hidden} {...data}>
   <div class="row head" style={o.term ? undefined : "grid-template-columns:1fr"}>
-    <div class="cell"><span class="lbl">{question ? "Question" : "Office"}</span><h3 class="disp" data-title>{title ?? o.title}</h3></div>
+    <div class="cell"><span class="lbl">{question ? "Question" : "Office"}</span><h4 class="disp" data-title>{title ?? o.title}</h4></div>
     {o.term && <div class="cell"><span class="lbl">Term</span><span>{o.term.replace("-year term", " years")}</span></div>}
   </div>
   <div class="row why">

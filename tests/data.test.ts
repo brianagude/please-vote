@@ -4,6 +4,7 @@ import { describe, expect, it } from "vitest";
 import { allCandidates, loadState, stateCodes } from "../src/lib/state";
 import { byLastName, lastName } from "../src/lib/names";
 import { parseCensus } from "../worker/index";
+import { moneyLines } from "../src/lib/money";
 
 for (const code of stateCodes()) {
   const d = loadState(code);
@@ -84,5 +85,30 @@ describe("address lookup", () => {
 
   it("reports no match", () => {
     expect(parseCensus({ result: { addressMatches: [] } })).toEqual({ match: false });
+  });
+});
+
+describe("campaign money", () => {
+  const n = (s?: string) => (s ? Number(s.replace(/[$,]|\smillion/g, "")) * (s.includes("million") ? 1e6 : 1) : 0);
+  it("lines always add up: started + raised − spent = left", () => {
+    for (const code of stateCodes())
+      for (const c of allCandidates(loadState(code))) {
+        const m = c.record?.money;
+        if (!m || "none" in m) continue;
+        const l = moneyLines(m);
+        if (!l.addsUp) continue; // shown with a plain note instead
+        expect(Math.round(n(l.start) + n(l.raised) - n(l.spent)), c.name).toBe(Math.round(n(l.left)));
+        expect(l.raised + l.spent + l.left, c.name).not.toMatch(/\.0 /);
+      }
+  });
+  it("matches the example", () => {
+    expect(moneyLines({ raised: 7471304, spent: 6015387, cashOnHand: 2059087, transfersIn: 2437476 })).toEqual({
+      start: "$0.6 million",
+      raised: "$7.5 million",
+      transfers: "$2.4 million",
+      spent: "$6 million",
+      left: "$2.1 million",
+      addsUp: true,
+    });
   });
 });

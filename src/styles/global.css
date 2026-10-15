@@ -2,7 +2,7 @@
 :root{
   color-scheme:light;
   --paper:#f2eee3; --card:#f7f4ec; --ink:#2b2824; --soft:#6d675d; --rule:#2b2824; --hair:#cfc8b8;
-  --red:#b3412e; --red-wash:#efe0d6; --faded:#a39d91;
+  --red:#ad3f2c; --red-wash:#efe0d6; --faded:#857f73;
   --label:"Archivo",system-ui,sans-serif;
   --type:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
 }
@@ -11,11 +11,11 @@ body{margin:0;color:var(--ink);font-family:var(--type);font-size:16px;line-heigh
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .17 0 0 0 0 .15 0 0 0 0 .12 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 72px}
 .wrap{max-width:740px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
-h1,h2,h3,p{margin:0}
-h1,h2,h3{text-wrap:balance;font-weight:400}
+h1,h2,h3,h4,p{margin:0}
+h1,h2,h3,h4{text-wrap:balance;font-weight:400}
 a{color:var(--ink);text-decoration-color:var(--red);text-underline-offset:3px;text-decoration-thickness:1.5px}
 :focus-visible{outline:2px solid var(--red);outline-offset:2px}
-.lbl{font-family:var(--label);font-stretch:115%;font-weight:500;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(43,40,36,.55);display:block}
+.lbl{font-family:var(--label);font-stretch:115%;font-weight:500;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(43,40,36,.68);display:block}
 .disp{font-family:var(--label);font-stretch:68%;font-weight:700;text-transform:uppercase;letter-spacing:.005em;line-height:.92}
 
 /* ruled grid primitives */
@@ -52,8 +52,8 @@ section{display:flex;flex-direction:column;gap:18px}
 .d .when{font-family:var(--label);font-stretch:68%;font-weight:700;font-size:1.9rem;line-height:.95;text-transform:uppercase}
 .d .sub{font-size:.82rem;color:var(--soft);line-height:1.35}
 .st{font-family:var(--type);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
-.st.open,.st.soon{color:var(--red)} .st.later{color:var(--soft)} .st.passed{color:var(--faded)}
-.d.is-passed .lbl,.d.is-passed .when{color:var(--faded)} .d.is-passed .when{text-decoration:line-through;text-decoration-thickness:2px}
+.st.open,.st.soon{color:var(--red)} .st.later{color:var(--soft)} .st.passed{color:var(--soft)}
+.d.is-passed .when{color:var(--faded)} .d.is-passed .when{text-decoration:line-through;text-decoration-thickness:2px}
 .d.is-open{background:var(--red-wash)}
 @media (max-width:560px){.dates{grid-template-columns:1fr 1fr}.d,.d:nth-child(n+4){grid-column:span 1}.d:last-child{grid-column:1/-1}}
 .reg{display:flex;justify-content:space-between;align-items:center;gap:12px 20px;flex-wrap:wrap;padding:14px}
@@ -90,7 +90,7 @@ details.grp[open]>summary{border-bottom:1.5px solid var(--rule)}
 .race+.race{border-top:1.5px solid var(--rule)}
 .race .head{background:#e8e2d4}
 .race .head{grid-template-columns:minmax(0,1fr) 140px}
-.race h3{font-size:1.8rem}
+.race h4{font-size:1.8rem}
 .race .why .w{font-weight:700;font-size:1.02rem}
 .cands{list-style:none;margin:0;padding:0}
 .cand{display:grid;grid-template-columns:52px minmax(0,1fr);gap:14px;padding:12px 14px;border-top:1px dashed var(--hair)}
@@ -100,7 +100,7 @@ details.grp[open]>summary{border-bottom:1.5px solid var(--rule)}
 .cn{display:flex;align-items:baseline;gap:6px 10px;flex-wrap:wrap}
 .cn strong{font-family:var(--label);font-stretch:75%;font-weight:700;font-size:1.25rem;text-transform:uppercase;letter-spacing:.01em}
 .cn .p{font-size:.85rem;color:var(--soft)}
-.stamp{font-family:var(--label);font-stretch:110%;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red);border:1.5px solid var(--red);padding:2px 6px 1px;transform:rotate(-2deg);display:inline-block;opacity:.9}
+.stamp{font-family:var(--label);font-stretch:110%;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red);border:1.5px solid var(--red);padding:2px 6px 1px;transform:rotate(-2deg);display:inline-block}
 .bio{font-size:.95rem;margin-top:2px}
 .works{font-size:.88rem;color:var(--soft);margin-top:4px}
 .career{margin:6px 0 0;padding-left:16px;font-size:.88rem;display:flex;flex-direction:column;gap:2px}
@@ -138,3 +138,27 @@ footer ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;ga
 .seat-race{padding:10px 0 8px}
 .seat-race>.lbl,.seat-race>.rnote,.seat-race>.src,.seat-race>.holder{padding-left:14px;padding-right:14px}
 .holder{font-size:.9rem;border-top:1px dashed var(--hair);padding-top:8px;margin-top:6px}
+
+/* ---- accessibility & interaction ---- */
+a,button,summary,select,label[for]{cursor:pointer}
+.skip{position:absolute;left:16px;top:-60px;z-index:10;background:var(--ink);color:var(--card);padding:10px 14px;font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+a{transition:text-underline-offset .15s ease,text-decoration-thickness .15s ease}
+a:hover{text-underline-offset:5px;text-decoration-thickness:2px}
+.btn{transition:background-color .15s ease,border-color .15s ease,transform .15s ease,box-shadow .15s ease}
+.form select:hover,.form input:hover{border-bottom-style:solid}
+details.grp>summary{transition:background-color .15s ease}
+details.grp>summary:hover{background:#efeadf}
+details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,transform .15s ease}
+details.grp>summary:hover .pm{background:var(--ink);color:var(--card)}
+.laws summary:hover,footer details summary:hover{text-decoration:underline;text-decoration-color:var(--red);text-underline-offset:4px}
+@media (prefers-reduced-motion:no-preference){
+  .btn:hover{transform:translateY(-1px);box-shadow:0 2px 0 var(--ink)}
+  .btn:active{transform:translateY(0);box-shadow:none}
+  a.site{transition:transform .15s ease,text-underline-offset .15s ease}
+  a.site:hover{transform:translateX(2px)}
+  details.grp>summary:hover .pm{transform:translateY(-1px)}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+/* At least 24px tall tap targets for the candidate links (WCAG 2.2). */
+.links .site{min-height:24px;display:inline-flex;align-items:center}

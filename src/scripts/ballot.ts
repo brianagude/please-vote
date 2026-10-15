@@ -32,7 +32,8 @@ function dateCards() {
     d.classList.add(`is-${k}`);
     const st = $(".st", d);
     st.classList.add(k);
-    st.textContent = t;
+    st.textContent = t.replace("● ", "");
+    if (t.startsWith("●")) st.insertAdjacentHTML("afterbegin", '<span aria-hidden="true">● </span>');
     if (k === "passed") d.querySelector(".sub")?.remove();
   }
 }

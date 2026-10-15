@@ -22,6 +22,16 @@ const { title, description } = Astro.props;
     />
   </head>
   <body>
+    <a class="skip" href="#s3">Skip to your ballot</a>
     <slot />
+    <script>
+      // Tell screen reader users when a link opens a new tab.
+      for (const a of document.querySelectorAll('a[target="_blank"]')) {
+        const s = document.createElement("span");
+        s.className = "sr";
+        s.textContent = " (opens in a new tab)";
+        a.append(s);
+      }
+    </script>
   </body>
 </html>

@@ -7,6 +7,8 @@
     "fromPACs": 1043665.39,
     "fromParty": 13318.85,
     "fromSelf": 0,
+    "donations": 87603239.28,
+    "transfersIn": 8502164.4,
     "from": "2021-01-01",
     "through": "2026-06-30",
     "source": {
@@ -22,6 +24,8 @@
     "fromPACs": 495631.55,
     "fromParty": 0,
     "fromSelf": 65000,
+    "donations": 5016724.54,
+    "transfersIn": 2437476.23,
     "from": "2025-01-01",
     "through": "2026-09-30",
     "source": {
@@ -37,6 +41,8 @@
     "fromPACs": 1000,
     "fromParty": 0,
     "fromSelf": 32512.39,
+    "donations": 129987.47,
+    "transfersIn": 0,
     "from": "2025-07-01",
     "through": "2026-06-30",
     "source": {
@@ -52,6 +58,8 @@
     "fromPACs": 202450,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 1944528.39,
+    "transfersIn": 0,
     "from": "2025-04-01",
     "through": "2026-06-30",
     "source": {
@@ -67,6 +75,8 @@
     "fromPACs": 738750.01,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 1116468.15,
+    "transfersIn": 3500,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -82,6 +92,8 @@
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 191334.85,
+    "donations": 152097.35,
+    "transfersIn": 14808.38,
     "from": "2025-07-01",
     "through": "2026-09-30",
     "source": {
@@ -97,6 +109,8 @@
     "fromPACs": 4000,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 145513.84,
+    "transfersIn": 5000,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -112,6 +126,8 @@
     "fromPACs": 836639.53,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 1716115.72,
+    "transfersIn": 322297.15,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -127,6 +143,8 @@
     "fromPACs": 316750,
     "fromParty": 779.17,
     "fromSelf": 0,
+    "donations": 395231.67,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -142,6 +160,8 @@
     "fromPACs": 402755,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 582889.96,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -157,6 +177,8 @@
     "fromPACs": 343437.48,
     "fromParty": 779.17,
     "fromSelf": 0,
+    "donations": 877657.06,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -172,6 +194,8 @@
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 10320,
+    "donations": 0,
+    "transfersIn": 0,
     "from": "2026-01-01",
     "through": "2026-03-31",
     "source": {
@@ -187,6 +211,8 @@
     "fromPACs": 6000,
     "fromParty": 0,
     "fromSelf": 716702.32,
+    "donations": 161784.74,
+    "transfersIn": 0,
     "from": "2026-03-02",
     "through": "2026-09-30",
     "source": {
@@ -202,6 +228,8 @@
     "fromPACs": 435500,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 817597.92,
+    "transfersIn": 747019.83,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -217,6 +245,8 @@
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 1000,
+    "donations": 19342.58,
+    "transfersIn": 0,
     "from": "2026-01-01",
     "through": "2026-06-30",
     "source": {
@@ -232,6 +262,8 @@
     "fromPACs": 703250,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 1090151.05,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -247,6 +279,8 @@
     "fromPACs": 2000,
     "fromParty": 0,
     "fromSelf": 6181,
+    "donations": 43387.42,
+    "transfersIn": 0,
     "from": "2026-01-01",
     "through": "2026-06-30",
     "source": {
@@ -262,6 +296,8 @@
     "fromPACs": 118710.97,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 671072.43,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -277,6 +313,8 @@
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 7600,
+    "donations": 15980,
+    "transfersIn": 0,
     "from": "2026-01-01",
     "through": "2026-06-30",
     "source": {
@@ -292,6 +330,8 @@
     "fromPACs": 214510.25,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 2265682.25,
+    "transfersIn": 15471.21,
     "from": "2025-07-01",
     "through": "2026-06-30",
     "source": {
@@ -307,6 +347,8 @@
     "fromPACs": 2000,
     "fromParty": 0,
     "fromSelf": 87,
+    "donations": 74577.25,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-06-30",
     "source": {
@@ -322,6 +364,8 @@
     "fromPACs": 120000,
     "fromParty": 0,
     "fromSelf": 1750020,
+    "donations": 584917.88,
+    "transfersIn": 12833.33,
     "from": "2026-01-01",
     "through": "2026-06-30",
     "source": {
@@ -337,6 +381,8 @@
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 1752.87,
+    "donations": 26695.6,
+    "transfersIn": 0,
     "from": "2025-07-01",
     "through": "2026-06-30",
     "source": {
@@ -352,6 +398,8 @@
     "fromPACs": 621850,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 1205389,
+    "transfersIn": 0,
     "from": "2025-01-01",
     "through": "2026-09-30",
     "source": {
@@ -367,6 +415,8 @@
     "fromPACs": 55173.18,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 1617404.57,
+    "transfersIn": 0,
     "from": "2025-06-01",
     "through": "2026-06-30",
     "source": {
@@ -382,6 +432,8 @@
     "fromPACs": 13688.18,
     "fromParty": 0,
     "fromSelf": 0,
+    "donations": 8098513.75,
+    "transfersIn": 0,
     "from": "2025-04-01",
     "through": "2026-06-30",
     "source": {
@@ -397,6 +449,8 @@
     "fromPACs": 305480.74,
     "fromParty": 0,
     "fromSelf": 450000,
+    "donations": 1386272.94,
+    "transfersIn": 10619.35,
     "from": "2025-10-01",
     "through": "2026-06-30",
     "source": {

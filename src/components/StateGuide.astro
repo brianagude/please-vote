@@ -30,7 +30,7 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
   <AddressForm config={config} />
 
   <section aria-labelledby="s3">
-    <div class="shead"><span class="no">03</span><h2 class="disp" id="s3">Who's on your ballot</h2></div>
+    <div class="shead"><span class="no">03</span><h2 class="disp" id="s3" tabindex="-1">Who's on your ballot</h2></div>
     <p class="note">See the races, who's running, and what they do.</p>
     <div class="groups" id="ballot">
       {
