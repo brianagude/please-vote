@@ -214,8 +214,11 @@ details.grp>summary .pm{transition:background-color .15s ease,color .15s ease,tr
   .count .n{font-size:3.6rem}
 }
 @media (max-width:420px){
-  /* Candidates: photo above, everything else uses the full width */
-  .cand{grid-template-columns:1fr;gap:10px}
+  /* Candidates: photo and name side by side; everything else folds under at full width */
+  .cand{grid-template-columns:52px minmax(0,1fr);gap:6px 12px;align-items:center}
+  .cand>div{display:contents}
+  .cand>div>*{grid-column:1/-1}
+  .cand>div>.cn{grid-column:2}
 }
 @media (max-width:375px){
   /* Race header: Office over Term */
