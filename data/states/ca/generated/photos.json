@@ -1,4 +1,94 @@
 {
+  "xavier-becerra": {
+    "src": "/photos/xavier-becerra.jpg",
+    "credit": "United States Department of Health and Human Services",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:HHS_Xavier_Becerra.jpg"
+    }
+  },
+  "fiona-ma": {
+    "src": "/photos/fiona-ma.jpg",
+    "credit": "California Treasurer's Office",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Fiona_Ma_official2.jpg"
+    }
+  },
+  "gloria-romero": {
+    "src": "/photos/gloria-romero.jpg",
+    "credit": "State of California",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Gloria_Romero,_c._2007.jpg"
+    }
+  },
+  "shirley-n-weber": {
+    "src": "/photos/shirley-n-weber.jpg",
+    "credit": "California Secretary of State's office",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Shirley_Weber.jpg"
+    }
+  },
+  "malia-m-cohen": {
+    "src": "/photos/malia-m-cohen.jpg",
+    "credit": "California Government",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Malia_Cohen_State_Controller_portrait.jpg"
+    }
+  },
+  "rob-bonta": {
+    "src": "/photos/rob-bonta.jpg",
+    "credit": "Douglas Despres, California Attorney General's Office",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rob_Bonta_official_portrait_(cropped).jpg"
+    }
+  },
+  "ben-allen": {
+    "src": "/photos/ben-allen.jpg",
+    "credit": "California State Senate",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ben_Allen,_2021.jpg"
+    }
+  },
+  "jane-kim": {
+    "src": "/photos/jane-kim.png",
+    "credit": "Jane Kim",
+    "license": "CC BY 2.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:SupervisorJaneKim.png"
+    }
+  },
+  "mike-mcguire": {
+    "src": "/photos/mike-mcguire.jpg",
+    "credit": "State of California",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:State_Senator_Mike_McGuire.jpg"
+    }
+  },
+  "james-gallagher": {
+    "src": "/photos/james-gallagher.jpg",
+    "credit": "U.S. House of Representatives",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Gallagher,_official_portrait_(119th_Congress).jpg"
+    }
+  },
   "jared-huffman": {
     "src": "/photos/jared-huffman.jpg",
     "license": "Public domain",
@@ -31,6 +121,15 @@
       "url": "https://github.com/unitedstates/images"
     }
   },
+  "richard-pan": {
+    "src": "/photos/richard-pan.jpg",
+    "credit": "Dr. Richard Pan from Sacramento, CA, USA",
+    "license": "CC BY-SA 2.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_Pan_2010.jpg"
+    }
+  },
   "kevin-kiley": {
     "src": "/photos/kevin-kiley.jpg",
     "license": "Public domain",
@@ -45,6 +144,15 @@
     "source": {
       "label": "unitedstates/images",
       "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "mai-vang": {
+    "src": "/photos/mai-vang.jpg",
+    "credit": "Sacramento City Council",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacramento_City_Councilmember_Mai_Vang.jpg"
     }
   },
   "john-garamendi": {
@@ -71,6 +179,15 @@
       "url": "https://github.com/unitedstates/images"
     }
   },
+  "scott-wiener": {
+    "src": "/photos/scott-wiener.jpg",
+    "credit": "California State Senate",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Scott_Wiener_Official_Biography_Portrait.jpg"
+    }
+  },
   "lateefah-simon": {
     "src": "/photos/lateefah-simon.jpg",
     "license": "Public domain",
@@ -85,6 +202,15 @@
     "source": {
       "label": "unitedstates/images",
       "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "kevin-lincoln": {
+    "src": "/photos/kevin-lincoln.jpg",
+    "credit": "City of Stockton",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:KevinLincoln.jpg"
     }
   },
   "aisha-wahab": {
@@ -184,6 +310,15 @@
       "url": "https://github.com/unitedstates/images"
     }
   },
+  "jacqui-irwin": {
+    "src": "/photos/jacqui-irwin.jpg",
+    "credit": "California National Guard",
+    "license": "CC BY 2.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:150302-Z-WQ610-_(16698067641)_(cropped).jpg"
+    }
+  },
   "george-whitesides": {
     "src": "/photos/george-whitesides.jpg",
     "license": "Public domain",
@@ -272,6 +407,15 @@
       "url": "https://github.com/unitedstates/images"
     }
   },
+  "hilda-solis": {
+    "src": "/photos/hilda-solis.jpg",
+    "credit": "Los Angeles County Board of Supervisors",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hilda_Solis,_2025.jpg"
+    }
+  },
   "mark-takano": {
     "src": "/photos/mark-takano.jpg",
     "license": "Public domain",
@@ -350,6 +494,24 @@
     "source": {
       "label": "unitedstates/images",
       "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "marni-von-wilpert": {
+    "src": "/photos/marni-von-wilpert.jpg",
+    "credit": "City of San Diego",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Marni_von_Wilpert.jpg"
+    }
+  },
+  "jim-desmond": {
+    "src": "/photos/jim-desmond.jpg",
+    "credit": "County of San Diego",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Jim_Desmond_Official_Portrait.jpg"
     }
   },
   "mike-levin": {

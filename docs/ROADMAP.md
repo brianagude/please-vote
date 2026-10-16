@@ -35,7 +35,7 @@ Question: Could the page layout be automated? like, if there is currently an ele
 
 ## To do now
 
-1. **Photos** for candidates without one (owner): Georgia is done; 17 left in New York.
+1. **Photos** for candidates without one (owner): Georgia is done; 17 left in New York; 54 in California (mostly U.S. House challengers).
 2. **Check the first nightly run with New York**, including that the bills step (now on bulk downloads) regenerates everything correctly.
 3. **Submit the sitemap** to Google Search Console (owner, with Claude's help).
 4. **Testing and tooling** (branch `cleanup-and-optimize`):
@@ -43,7 +43,8 @@ Question: Could the page layout be automated? like, if there is currently an ele
    - Run one state at a time (`npm run data -- bills --state ny`).
    - Test the data logic against small saved samples instead of live runs.
    - A GitHub check on every pull request: tests, build, and the accessibility check.
-5. **Next state:** California, then Texas, Indiana, and Illinois. One at a time, each with certified candidates, dates, bios, and records, checked like New York.
+5. **Replace Wikipedia-sourced facts** (owner, Oct 16: Wikipedia is fine for photos, never for facts). 45 bio and career lines in Georgia (13) and New York (32) cite Wikipedia. Re-source each from an official page, Congress.gov, a legislature site, a news outlet, or Ballotpedia, or remove it. Georgia's footer sources list also has 7 Wikipedia entries.
+6. **Next state:** California, then Texas, Indiana, and Illinois. One at a time, each with certified candidates, dates, bios, and records, checked like New York.
 
 ## Bigger picture (after the election)
 
@@ -56,6 +57,7 @@ Question: Could the page layout be automated? like, if there is currently an ele
 ## Later
 
 **Records:**
+- **Bios for California's U.S. House challengers** (owner, Oct 16: later, possibly hand-sourced). About 55 challengers show only their ballot job title. Ballotpedia blocks automated reading and Branch has no California bios yet, so these need hand sourcing or reading Ballotpedia through a browser.
 - **Seven hidden candidate facts** (Kingston, Day, Kozycki, Harris, McBath career line, Blooming) stay hidden until each has a source.
 - **Bills for former state legislators** (Harper, Waites). Open States only lists current members.
 - **Spot-check other "became law" counts** against Congress.gov.
