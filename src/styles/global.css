@@ -332,3 +332,4 @@ body{min-height:100vh;min-height:100dvh}
 .footrow a{min-height:24px;display:inline-flex;align-items:center}
 .footrow .motion{align-self:center}
 .statepick:hover{border-bottom-style:solid}
+.vlist .vloading{display:block;color:var(--soft);font-size:.9rem}

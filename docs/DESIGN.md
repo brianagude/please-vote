@@ -74,6 +74,7 @@ Added Oct 15, 2026. Only candidates with bills they wrote or a voting record get
 5. **How they voted** (officeholders only): the rule in one sentence (plus a note when a bill can sit under more than one topic), a votes-shown cell and an attendance cell, then "By topic".
    - Topics are quiet rows inside the same sheet (bold body text, a count, +/–), not big display boxes. They're less important than the ballot sections on the main page and shouldn't look as important.
    - Each vote: date, chamber, and kind of vote; the bill number linked to the official page with its title; passed or became law; their vote in small caps on the right. Votes are not colored.
+   - Each topic's votes load when it's first opened (`/person/<id>/votes.json`), so long records stay fast: Peter Oberacker's page went from 3 MB to 92 KB. Without JavaScript, a topic says to turn it on.
    - Georgia's "Excused" is shown apart from "Didn't vote": "They had permission to be away (excused) for 148 of them."
 6. Later sections (what they're doing now, etc.) go after these.
 

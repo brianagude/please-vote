@@ -78,4 +78,5 @@ What's next, in three lists. Last updated Oct 15, 2026.
 - **Oct 14–15:** the Georgia guide (dates, address lookup, every race, candidates with sourced facts, campaign money, bills, nightly data job). Sample ballot and Ossoff's "none became law" checked.
 - **Oct 15, `states-and-voting-records`:** voting records and attendance; person pages with contact info, every bill and how far it got, PACs, and outside spending.
 - **Oct 15, `more-states`:** New York (certified candidates, bios, records, legislature votes, state campaign money), the state picker, per-state crowds and link previews, site directory, 404 page, sitemap, and robots.txt.
+- **Oct 15:** vote lists on person pages load per topic when opened (both terms kept, owner); the longest page went from 3 MB to 92 KB.
 - **Oct 15:** the bills step moved to Open States' bulk downloads (one API request per state per night), with Georgia's sponsor order and vetoes fixed.
