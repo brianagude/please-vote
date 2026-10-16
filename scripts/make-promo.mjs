@@ -114,7 +114,7 @@ if (kind === "added") {
   const slides = [
     `<span class="lbl">${esc(cfg.name)} · Nov 3, 2026</span>
      <h1 class="disp big">Know who's on your ballot</h1>
-     <p class="body">A free guide to every race on your ballot, in plain words. No ads. No picks. Just the facts, with sources.</p>
+     <p class="body">A free guide to every race on your ballot.</p>
      <span class="urlbox">${esc(urlText)}</span>`,
     `<span class="step">01</span>
      <h2 class="disp mid">Mark your calendar</h2>
@@ -123,11 +123,11 @@ if (kind === "added") {
     `<span class="step">02</span>
      <h2 class="disp mid">Type in your address</h2>
      <div class="shot"><img src="${form}"></div>
-     <p class="body">The site finds your districts and shows only the races on <i>your</i> ballot. Your address isn't saved.</p>`,
+     <p class="body">The site finds your districts and shows only the races on <i>your</i> ballot.</p>`,
     `<span class="step">03</span>
      <h2 class="disp mid">See who's running</h2>
      <div class="shot" style="width:82%"><img src="${ballot}"></div>
-     <p class="body">Open a section to see what each office does, and every candidate in A-to-Z order.</p>`,
+     <p class="body">Open a section to see what each office does, and every candidate running for it.</p>`,
     `<span class="step">04</span>
      <h2 class="disp mid">Check their record</h2>
      <div class="shot"><img src="${voted}"></div>
@@ -149,7 +149,7 @@ if (kind === "added") {
       S,
       `<span class="lbl">${esc(cfg.name)} · Nov 3, 2026</span>
        <h1 class="disp big">Who's on your ballot?</h1>
-       <p class="body">Type in your address and see every race, what each office does, and every candidate's record. Free, plain words, nonpartisan.</p>
+       <p class="body">Type in your address to see every race, what each office does, and every candidate's record. A free guide to every race on your ballot.</p>
        <div class="sheet dates">${datesHtml}</div>
        <span class="urlbox">${esc(urlText)}</span>`,
     ),
