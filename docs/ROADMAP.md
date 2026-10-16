@@ -50,6 +50,11 @@ The long-term goal: a place to check in any time, not just before one election.
 - **Bills for former state legislators** (Harper, Waites). Open States v3 only lists current members.
 - **Spot-check other "became law" counts** against Congress.gov.
 - **Past election results on the person pages.** The owner downloads official results from the Georgia Secretary of State by hand (the site blocks automated downloads) into `data/states/ga/sources/results/`: the Nov 2020 general, Jan 2021 runoff, Nov 2022 general, Dec 2022 runoff, and Nov 2024 general, then each new election. A script turns them into each person's past races, checked against totals we've already confirmed (Ossoff 2020: 2,374,519). Automatic sources were checked and rejected: OpenElections is missing counties in some files, MIT's House data requires agreeing to terms, and the FEC's 2024 file is blocked.
+- **Maybe later: things that aren't a simple pull from a data source** (owner, Oct 15, 2026: if it can't be pulled from an API and easily checked, leave it out for now):
+  - Local ballot questions and races (city, county, school board), e.g. the 5 New York City Charter questions. They differ by city, so they'd need ballot data for every city and county (paid services like Ballotpedia or BallotReady).
+  - Judicial races (State Supreme Court, Civil Court, Surrogate's Court, etc.).
+  - Campaign money for Georgia's statewide candidates: Georgia's Ethics Commission has no API or download.
+  - Outside spending in state races (super PACs spending on state candidates). The FEC only covers federal races.
 - **More for the person pages** (owner: maybe later):
   - All their committees, not just the ones where they hold a title.
   - Bills they co-signed (cosponsored).
