@@ -20,12 +20,21 @@ const opposed = m?.outside?.reduce((n, o) => n + o.against, 0) ?? 0;
   m && lines ? (
     <ul>
       <li>Raised {lines.raised} and spent {lines.spent} since {monthYear(m.from)}.</li>
-      {m.donations ? (
+      {m.donations && m.fromCompanies != null ? (
+        <li>
+          Of the money donors gave, {pct(m.fromIndividuals, m.donations)}% came from individual people, {pct(m.fromCompanies, m.donations)}% from companies
+          (corporations, LLCs, and partnerships), and {pct(m.fromPACs, m.donations)}% from PACs, unions, and political committees.
+        </li>
+      ) : m.donations ? (
         <li>
           Of the money donors gave, {pct(m.fromIndividuals, m.donations)}% came from individual people and {pct(m.fromPACs, m.donations)}% from PACs (groups that
           collect money to give to candidates).
         </li>
       ) : null}
+      {m.publicFunds ? (
+        <li>Also got {usd(m.publicFunds)} in public matching funds. The state matches small donations from people who live in New York.</li>
+      ) : null}
+      {m.state && m.transfersIn ? <li>Also moved in {usd(m.transfersIn)} from party committees and the candidate's other campaign accounts.</li> : null}
       {m.pacs && m.pacs.length > 0 ? (
         <li>
           Since {year}, {m.pacs.length === 1 ? "1 PAC" : `${m.pacs.length} PACs`} gave {usd(pacTotal)} to their campaign.

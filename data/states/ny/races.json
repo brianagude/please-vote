@@ -40,7 +40,8 @@
             }
           ],
           "ids": {
-            "wikipedia": "Kathy Hochul"
+            "wikipedia": "Kathy Hochul",
+            "nysboe": "16851"
           }
         },
         {
@@ -73,7 +74,8 @@
             }
           ],
           "ids": {
-            "wikipedia": "Bruce Blakeman"
+            "wikipedia": "Bruce Blakeman",
+            "nysboe": "580499"
           }
         }
       ]
@@ -110,7 +112,8 @@
             }
           ],
           "ids": {
-            "wikipedia": "Tom DiNapoli"
+            "wikipedia": "Tom DiNapoli",
+            "nysboe": "308716"
           }
         },
         {
@@ -140,7 +143,10 @@
                 "url": "https://ny1.com/nyc/all-boroughs/politics/2025/11/20/joseph-hernandez-running-for-new-york-state-comptroller-in-2026"
               }
             }
-          ]
+          ],
+          "ids": {
+            "nysboe": "569719"
+          }
         }
       ]
     },
@@ -183,7 +189,8 @@
             }
           ],
           "ids": {
-            "wikipedia": "Letitia James"
+            "wikipedia": "Letitia James",
+            "nysboe": "308810"
           }
         },
         {
@@ -199,7 +206,8 @@
             }
           },
           "ids": {
-            "wikipedia": "Saritha Komatireddy"
+            "wikipedia": "Saritha Komatireddy",
+            "nysboe": "580355"
           }
         }
       ]

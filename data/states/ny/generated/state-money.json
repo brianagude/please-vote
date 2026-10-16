@@ -1,0 +1,104 @@
+{
+  "kathy-c-hochul": {
+    "raised": 40103916,
+    "spent": 30649190,
+    "donations": 40103916,
+    "fromIndividuals": 28816403,
+    "fromCompanies": 7972265,
+    "fromPACs": 3315248,
+    "publicFunds": 0,
+    "transfersIn": 10000000,
+    "from": "2023-01-01",
+    "through": "2026-09-28",
+    "state": true,
+    "source": {
+      "label": "New York State Board of Elections",
+      "url": "https://data.ny.gov/Transparency/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+    }
+  },
+  "bruce-a-blakeman": {
+    "raised": 10368012,
+    "spent": 16690401,
+    "donations": 10368012,
+    "fromIndividuals": 9768204,
+    "fromCompanies": 519808,
+    "fromPACs": 80000,
+    "publicFunds": 2369604,
+    "transfersIn": 4488150,
+    "from": "2023-01-01",
+    "through": "2026-09-28",
+    "state": true,
+    "source": {
+      "label": "New York State Board of Elections",
+      "url": "https://data.ny.gov/Transparency/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+    }
+  },
+  "thomas-p-dinapoli": {
+    "raised": 4066654,
+    "spent": 6643351,
+    "donations": 4066654,
+    "fromIndividuals": 1662992,
+    "fromCompanies": 665535,
+    "fromPACs": 1738127,
+    "publicFunds": 3003996,
+    "transfersIn": 9329,
+    "from": "2023-01-01",
+    "through": "2026-09-28",
+    "state": true,
+    "source": {
+      "label": "New York State Board of Elections",
+      "url": "https://data.ny.gov/Transparency/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+    }
+  },
+  "joseph-hernandez": {
+    "raised": 218971,
+    "spent": 184321,
+    "donations": 218971,
+    "fromIndividuals": 190171,
+    "fromCompanies": 28800,
+    "fromPACs": 0,
+    "publicFunds": 0,
+    "transfersIn": 0,
+    "from": "2023-01-01",
+    "through": "2026-09-28",
+    "state": true,
+    "source": {
+      "label": "New York State Board of Elections",
+      "url": "https://data.ny.gov/Transparency/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+    }
+  },
+  "letitia-a-james": {
+    "raised": 10076182,
+    "spent": 6702841,
+    "donations": 10076182,
+    "fromIndividuals": 9084632,
+    "fromCompanies": 858500,
+    "fromPACs": 133050,
+    "publicFunds": 3499995,
+    "transfersIn": 898,
+    "from": "2023-01-01",
+    "through": "2026-09-28",
+    "state": true,
+    "source": {
+      "label": "New York State Board of Elections",
+      "url": "https://data.ny.gov/Transparency/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+    }
+  },
+  "saritha-komatireddy": {
+    "raised": 1680069,
+    "spent": 1965983,
+    "donations": 1680069,
+    "fromIndividuals": 1174711,
+    "fromCompanies": 439208,
+    "fromPACs": 66150,
+    "publicFunds": 763276,
+    "transfersIn": 250,
+    "from": "2023-01-01",
+    "through": "2027-05-06",
+    "state": true,
+    "source": {
+      "label": "New York State Board of Elections",
+      "url": "https://data.ny.gov/Transparency/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a"
+    }
+  }
+}

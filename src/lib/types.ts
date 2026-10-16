@@ -32,7 +32,7 @@ export interface Candidate {
   career?: Fact[];
   committees?: { items: string[]; source?: Source };
   links: { campaign?: string; official?: string; ballotpedia?: string };
-  ids?: { bioguide?: string; fec?: string; openstates?: string };
+  ids?: { bioguide?: string; fec?: string; openstates?: string; /** New York State Board of Elections filer ID */ nysboe?: string };
   photo?: Photo;
   /** Filled from data/states/<code>/generated/ by the nightly job. */
   record?: CareerRecord;
@@ -54,7 +54,14 @@ export interface CareerRecord {
     | {
         raised: number;
         spent: number;
-        cashOnHand: number;
+        /** Federal only; state data doesn't give a balance. */
+        cashOnHand?: number;
+        /** State races: share from corporations, LLCs, and partnerships (New York allows these). */
+        fromCompanies?: number;
+        /** State races: matching money from the state's public campaign finance program. */
+        publicFunds?: number;
+        /** True for state (not FEC) money. */
+        state?: boolean;
         fromIndividuals: number;
         fromPACs: number;
         donations?: number;

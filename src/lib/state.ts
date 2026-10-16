@@ -40,7 +40,8 @@ export function loadState(code: string): StateData {
   const photos: Record<string, Candidate["photo"]> | undefined = readIfExists(code, "generated/photos.json");
   const gen = {
     congress: readIfExists(code, "generated/congress.json"),
-    money: readIfExists(code, "generated/money.json"),
+    // Federal (FEC) and state campaign money, keyed by candidate id.
+    money: { ...(readIfExists(code, "generated/money.json") ?? {}), ...(readIfExists(code, "generated/state-money.json") ?? {}) },
     bills: readIfExists(code, "generated/bills.json"),
     votes: readIfExists(code, "generated/votes.json"),
     contact: readIfExists(code, "generated/contact.json"),
