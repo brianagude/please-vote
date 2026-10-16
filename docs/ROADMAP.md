@@ -56,6 +56,7 @@ The long-term goal: a place to check in any time, not just before one election.
   - Campaign money for Georgia's statewide candidates: Georgia's Ethics Commission has no API or download.
   - Outside spending in state races (super PACs spending on state candidates). The FEC only covers federal races.
   - Kept anyway (owner, Oct 15): statewide ballot questions (the same for every voter in the state, checked against a sample ballot) and hand-written candidate bios (each line sourced). Certified candidate lists, dates, and office descriptions are core to the site.
+- **Legislature rosters from Open States' public GitHub data** (`github.com/openstates/people`, no key, no limit) instead of the API. The roster is the biggest remaining API use (one request per 50 legislators). Switching would bring each state down to about 4 requests a night, enough for all 50 states. Not needed for the next few states (now about 8–12 requests per state per night; the limit is 250 a day).
 - **More for the person pages** (owner: maybe later):
   - All their committees, not just the ones where they hold a title.
   - Bills they co-signed (cosponsored).
