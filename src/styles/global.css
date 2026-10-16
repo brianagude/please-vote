@@ -319,3 +319,8 @@ details.topic .vlist{background:var(--paper)}
 .pbar-run{font-size:.82rem;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 @media (prefers-reduced-motion:reduce){.pbar{transition:none}}
 .goodtoknow p{font-size:.95rem}.goodtoknow .row:first-child .cell{padding-bottom:6px}
+/* /all/: plain list of every page */
+.allpages{list-style:none;margin:4px 0 10px;padding:0;display:flex;flex-direction:column;gap:2px;font-size:.92rem}
+.allpages li{min-height:24px}
+.allgroup{font-weight:700;font-size:.9rem;margin-top:8px}
+.allpages .amt{white-space:normal}.allpages li{overflow-wrap:anywhere}

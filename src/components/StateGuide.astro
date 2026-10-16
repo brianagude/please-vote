@@ -133,6 +133,7 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
       <ul>{data.sources.map((s) => <li>{s.what}: <a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}</ul>
     </details>
     <PhotoCredits people={allCandidates(data)} />
+    <p><a href="/all/">Every page on this site</a></p>
     <button class="motion" type="button" id="motion" aria-pressed="false">Pause motion</button>
   </footer>
   <div class="strip strip-bottom" aria-hidden="true"></div>

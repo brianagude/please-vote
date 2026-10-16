@@ -59,6 +59,23 @@ export function allCandidates(d: StateData): Candidate[] {
   return [...Object.values(d.races.statewide), ...Object.values(d.races.house)].flatMap((r) => r.candidates);
 }
 
+/** Every person page on the site, with the race they're in. Used by the pages, /all/, and the sitemap. */
+export function personPages() {
+  // Only people with bills or votes get a page (see src/lib/votes.ts hasPage).
+  const has = (c: Candidate) => !!(c.record?.bills || c.record?.votes);
+  return stateCodes().flatMap((code) => {
+    const d = loadState(code);
+    return [
+      ...Object.entries(d.races.statewide).flatMap(([k, r]) => r.candidates.map((c) => ({ c, code, running: d.offices[k].title, group: "Statewide" }))),
+      ...Object.entries(d.races.house).flatMap(([n, r]) =>
+        r.candidates.map((c) => ({ c, code, running: `${d.config.districts.house.label}, District ${n}`, group: d.config.districts.house.label })),
+      ),
+    ]
+      .filter(({ c }) => has(c))
+      .map((p) => ({ ...p, path: `/person/${p.c.id}/`, asOf: d.config.asOf, sinceYear: d.config.records.sinceLabel }));
+  });
+}
+
 /** Every vote for one person, with the bill details filled in (for their own page). */
 export function loadVotes(code: string, id: string) {
   const f: VotesFile | undefined = readIfExists(code, "generated/votes.json");

@@ -9,25 +9,16 @@ import CareerRecord from "../../components/CareerRecord.astro";
 import Money from "../../components/Money.astro";
 import PhotoCredits from "../../components/PhotoCredits.astro";
 import { orgName, usd } from "../../lib/money";
-import { loadState, loadVotes, sourced, stateCodes, statePath } from "../../lib/state";
+import { loadVotes, personPages, sourced, statePath } from "../../lib/state";
 import { initials, partyName } from "../../lib/names";
-import { attendanceLine, countLine, hasPage, ruleLine } from "../../lib/votes";
+import { attendanceLine, countLine, ruleLine } from "../../lib/votes";
 import type { Candidate, Source } from "../../lib/types";
 
 export function getStaticPaths() {
-  return stateCodes().flatMap((code) => {
-    const d = loadState(code);
-    const seats: { c: Candidate; running: string }[] = [
-      ...Object.entries(d.races.statewide).flatMap(([k, r]) => r.candidates.map((c) => ({ c, running: d.offices[k].title }))),
-      ...Object.entries(d.races.house).flatMap(([n, r]) => r.candidates.map((c) => ({ c, running: `${d.config.districts.house.label}, District ${n}` }))),
-    ];
-    return seats
-      .filter(({ c }) => hasPage(c))
-      .map(({ c, running }) => ({
-        params: { id: c.id },
-        props: { c, running, code, guide: statePath(code), asOf: d.config.asOf, sinceYear: d.config.records.sinceLabel },
-      }));
-  });
+  return personPages().map(({ c, code, running, asOf, sinceYear }) => ({
+    params: { id: c.id },
+    props: { c, running, code, guide: statePath(code), asOf, sinceYear },
+  }));
 }
 
 interface Props {
