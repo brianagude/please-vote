@@ -1,9 +1,12 @@
 // Draws the background people: small, loose marker sketches of ordinary
 // people standing around, scattered down the page margins. Original drawings
-// made by this script; generic people only (no signs, flags, or symbols).
+// made by this script; ordinary people with nonpartisan signs (no parties, issues, or flags).
 //
 //   node scripts/make-people.mjs
-//   -> public/people/left-{0,1,2}.svg, public/people/right-{0,1,2}.svg
+//   -> public/people/{left,right,top,bottom}-{0,1,2}.svg   (generic, used on person pages)
+//   -> public/people/<state>/...                            (each state's guide: the same crowd,
+//                                                            with some signs and banners showing
+//                                                            the state's name, like "NEW YORK")
 //
 // Some pairs hold a PLEASE VOTE or VOTE banner between them.
 // Each side has 3 "frames": the same people, redrawn with slightly different
@@ -59,6 +62,32 @@ function layout(seed, { w = W, h: th = H, count = 64, band = false } = {}) {
   return { people: spots.sort((a, b) => a.y - b.y), banners }; // people in front drawn last
 }
 
+/**
+ * A state's guide: the same crowd, plus a few more people who hold a sign with the
+ * state's name ("GEORGIA", "NEW / YORK"). They stand in open spots, away from other
+ * signs, so nothing in the crowd moves or changes.
+ */
+function addStatePeople(people, seed, { w = W, h: th = H, band = false } = {}) {
+  const r = rng(seed * 7 + 11);
+  // In the narrow strips a tall two-line board would crowd its neighbors; use the short form ("NY").
+  const text = band && STATE.includes(" ") ? CODE : STATE;
+  const want = band ? 2 : 6;
+  let added = 0;
+  for (let tries = 0; added < want && tries < 4000; tries++) {
+    const x = 30 + r() * (w - 60);
+    const y = band ? th - 4 - r() * 14 : 160 + r() * (th - 200);
+    const h = band ? 38 + r() * 8 : 54 + r() * 20;
+    // Room to stand, and no other sign nearby that the board could cover.
+    const near = (p, dx, dy) => Math.abs(p.x - x) < dx && Math.abs(p.y - y) < dy;
+    if (people.some((p) => near(p, band ? 26 : 34, band ? 10 : Math.max(p.h, h)) || ((p.sign || p.bannerSide) && near(p, 70, h * 1.6)))) continue;
+    const t = traits(r);
+    Object.assign(t, { sign: "state", text, wave: false, horn: false, bag: false });
+    people.push({ x, y, h, ...t });
+    added++;
+  }
+  people.sort((a, b) => a.y - b.y);
+}
+
 /** What kind of person: build, pose, and what they're holding. Fixed across frames. */
 function traits(r) {
   const t = {
@@ -87,23 +116,41 @@ function traits(r) {
   return t;
 }
 
-// Hand-lettered capitals: each letter is a few marker strokes in a 0..1 box.
+// Hand-lettered capitals: each letter is a few marker strokes in a 0..1 box. The full alphabet,
+// so any state's name can go on a sign.
+const ROUND = [[1, 0.15], [0.7, 0], [0.3, 0], [0, 0.3], [0, 0.7], [0.3, 1], [0.7, 1], [1, 0.85]];
 const LETTERS = {
   A: [[[0, 1], [0.5, 0], [1, 1]], [[0.22, 0.62], [0.78, 0.62]]],
+  B: [[[0, 0], [0, 1], [0.7, 1], [0.98, 0.78], [0.7, 0.52], [0, 0.5]], [[0, 0], [0.62, 0], [0.88, 0.22], [0.62, 0.48]]],
+  C: [ROUND],
   D: [[[0, 0], [0, 1], [0.55, 1], [0.92, 0.78], [1, 0.5], [0.92, 0.22], [0.55, 0], [0, 0]]],
   E: [[[1, 0], [0, 0], [0, 1], [1, 1]], [[0, 0.5], [0.75, 0.5]]],
+  F: [[[1, 0], [0, 0], [0, 1]], [[0, 0.5], [0.75, 0.5]]],
+  G: [[...ROUND.slice(0, -1), [1, 0.75], [1, 0.55], [0.58, 0.55]]],
+  H: [[[0, 0], [0, 1]], [[1, 0], [1, 1]], [[0, 0.5], [1, 0.5]]],
   I: [[[0.5, 0], [0.5, 1]]],
+  J: [[[0.85, 0], [0.85, 0.75], [0.62, 1], [0.25, 1], [0, 0.8]]],
+  K: [[[0, 0], [0, 1]], [[1, 0], [0, 0.62]], [[0.32, 0.4], [1, 1]]],
   L: [[[0, 0], [0, 1], [1, 1]]],
+  M: [[[0, 1], [0, 0], [0.5, 0.62], [1, 0], [1, 1]]],
+  N: [[[0, 1], [0, 0], [1, 1], [1, 0]]],
   O: "ellipse",
   P: [[[0, 1], [0, 0], [0.75, 0], [1, 0.22], [0.75, 0.48], [0, 0.48]]],
+  Q: [[[0.5, 0], [0.12, 0.15], [0, 0.5], [0.12, 0.85], [0.5, 1], [0.88, 0.85], [1, 0.5], [0.88, 0.15], [0.5, 0]], [[0.6, 0.7], [1, 1.05]]],
+  R: [[[0, 1], [0, 0], [0.75, 0], [1, 0.22], [0.75, 0.48], [0, 0.48]], [[0.4, 0.48], [1, 1]]],
   S: [[[1, 0.12], [0.75, 0], [0.25, 0], [0, 0.2], [0.2, 0.44], [0.8, 0.56], [1, 0.8], [0.75, 1], [0.25, 1], [0, 0.88]]],
   T: [[[0, 0], [1, 0]], [[0.5, 0], [0.5, 1]]],
+  U: [[[0, 0], [0, 0.75], [0.25, 1], [0.75, 1], [1, 0.75], [1, 0]]],
   V: [[[0, 0], [0.5, 1], [1, 0]]],
+  W: [[[0, 0], [0.25, 1], [0.5, 0.4], [0.75, 1], [1, 0]]],
+  X: [[[0, 0], [1, 1]], [[1, 0], [0, 1]]],
+  Y: [[[0, 0], [0.5, 0.5], [1, 0]], [[0.5, 0.5], [0.5, 1]]],
+  Z: [[[0, 0], [1, 0], [0, 1], [1, 1]]],
 };
 
 /** Write text in marker strokes inside a box (x0, y0, w, h). Narrow letters take less room. */
 function lettering(text, x0, y0, w, h, lw, J) {
-  const width = (ch) => (ch === "I" ? 0.35 : ch === " " ? 0.55 : 1);
+  const width = (ch) => (ch === "I" ? 0.35 : ch === " " ? 0.55 : ch === "M" || ch === "W" ? 1.2 : 1);
   const total = [...text].reduce((n, ch) => n + width(ch), 0) + (text.length - 1) * 0.18;
   const lwid = w / total;
   let u = x0;
@@ -121,8 +168,11 @@ function lettering(text, x0, y0, w, h, lw, J) {
 /** A sign on a stick, held up from (hx, hy). Board is paper-colored so it covers what's behind. */
 function sign(p, hx, hy, J) {
   const h = p.h;
-  const bw = h * ({ vote: 0.5, please: 0.56, ivoted: 0.62 }[p.sign] ?? 0.4);
-  const bh = h * (p.sign === "please" ? 0.38 : 0.26);
+  // A state sign: one line for one word ("TEXAS"), two lines for two ("NEW / YORK").
+  const words = p.sign === "state" ? p.text.split(" ") : [];
+  const longest = Math.max(0, ...words.map((w) => w.length));
+  const bw = p.sign === "state" ? h * (0.16 + 0.075 * Math.max(longest, 4)) : h * ({ vote: 0.5, please: 0.56, ivoted: 0.62 }[p.sign] ?? 0.4);
+  const bh = h * (p.sign === "please" || words.length > 1 ? 0.38 : 0.26);
   const top = hy - h * 0.34; // stick top = board bottom
   const cx = hx + J(1.5);
   const tilt = f(J(6));
@@ -134,7 +184,14 @@ function sign(p, hx, hy, J) {
   inner.push(`<path d="M${P(0, 0)}L${P(1, 0)}L${P(1, 1)}L${P(0, 1)}Z" class="board" stroke-width="${f(1 + h * 0.008)}"/>`);
   const lw = f(h * 0.02);
   const pad = bw * 0.12;
-  if (p.sign === "vote") inner.push(lettering("VOTE", x0 + pad, y0 + bh * 0.26, bw - pad * 2, bh * 0.5, lw, J));
+  if (p.sign === "state") {
+    if (words.length > 1)
+      words.slice(0, 2).forEach((w, i) => {
+        const ww = (bw - pad * 2) * (w.length / longest);
+        inner.push(lettering(w, x0 + (bw - ww) / 2, y0 + bh * (i ? 0.56 : 0.14), ww, bh * 0.3, f(lw * 0.85), J));
+      });
+    else inner.push(lettering(p.text, x0 + pad, y0 + bh * 0.26, bw - pad * 2, bh * 0.5, lw, J));
+  } else if (p.sign === "vote") inner.push(lettering("VOTE", x0 + pad, y0 + bh * 0.26, bw - pad * 2, bh * 0.5, lw, J));
   else if (p.sign === "ivoted") inner.push(lettering("I VOTED", x0 + pad * 0.8, y0 + bh * 0.28, bw - pad * 1.6, bh * 0.46, f(lw * 0.9), J));
   else if (p.sign === "please") {
     inner.push(lettering("PLEASE", x0 + pad, y0 + bh * 0.14, bw - pad * 2, bh * 0.3, f(lw * 0.85), J));
@@ -255,25 +312,37 @@ function person(p, j) {
 function tile(layoutSeed, frame, opts = {}) {
   const w = opts.w ?? W, th = opts.h ?? H;
   const { people, banners } = layout(layoutSeed, opts);
+  if (STATE) addStatePeople(people, layoutSeed, opts);
   const j = rng(layoutSeed * 31 + frame * 977 + 7);
   const body = people.map((p) => person(p, j)).join("") + banners.map((bn) => banner(bn, j)).join("");
   // A little turbulence roughens every edge like a felt-tip marker on paper.
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${th}" width="${w}" height="${th}"><defs><filter id="m" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="1" seed="${frame + 3}"/><feDisplacementMap in="SourceGraphic" scale="1.8"/></filter><style>path,ellipse{stroke:#2b2824;fill:none;stroke-linecap:round;stroke-linejoin:round}.fill{fill:#2b2824;stroke-width:.8}.board{fill:#f2eee3}</style></defs><g filter="url(#m)">${body}</g></svg>\n`;
 }
 
-fs.mkdirSync("public/people", { recursive: true });
+// Generic set (no state name), then one set per state with a data folder.
+let STATE = "", CODE = "";
+const sets = [["public/people", "", ""]];
+for (const code of fs.readdirSync("data/states")) {
+  const f = `data/states/${code}/state.json`;
+  if (fs.existsSync(f)) sets.push([`public/people/${code}`, JSON.parse(fs.readFileSync(f, "utf8")).name.toUpperCase(), code.toUpperCase()]);
+}
 let total = 0;
 const save = (file, svg) => {
   fs.writeFileSync(file, svg);
   total += fs.statSync(file).size;
 };
-for (let fr = 0; fr < FRAMES; fr++) {
-  // Side margins on wide screens.
-  save(`public/people/left-${fr}.svg`, tile(1964, fr));
-  save(`public/people/right-${fr}.svg`, tile(2026, fr));
-  // Short strips above and below the content on narrower screens.
-  const strip = { w: 900, h: 96, count: 22, band: true };
-  save(`public/people/top-${fr}.svg`, tile(311, fr, strip));
-  save(`public/people/bottom-${fr}.svg`, tile(1103, fr, strip));
+for (const [dir, name, code] of sets) {
+  STATE = name;
+  CODE = code;
+  fs.mkdirSync(dir, { recursive: true });
+  for (let fr = 0; fr < FRAMES; fr++) {
+    // Side margins on wide screens.
+    save(`${dir}/left-${fr}.svg`, tile(1964, fr));
+    save(`${dir}/right-${fr}.svg`, tile(2026, fr));
+    // Short strips above and below the content on narrower screens.
+    const strip = { w: 900, h: 96, count: 22, band: true };
+    save(`${dir}/top-${fr}.svg`, tile(311, fr, strip));
+    save(`${dir}/bottom-${fr}.svg`, tile(1103, fr, strip));
+  }
 }
-console.log(`people: ${FRAMES * 4} files, ${Math.round(total / 1024)}KB total`);
+console.log(`people: ${sets.length} sets of ${FRAMES * 4} files, ${Math.round(total / 1024)}KB total`);

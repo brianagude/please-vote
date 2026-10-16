@@ -1,6 +1,6 @@
 {
   "v": 4,
-  "fetched": "2026-10-15",
+  "fetched": "2026-10-16",
   "people": [
     "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
     "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -594,17 +594,17 @@
     },
     "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a": {
       "House#5": "Nay",
-      "House#6": "Yea",
       "House#8": "Nay",
-      "House#13": "Nay",
+      "House#6": "Yea",
       "House#9": "Nay",
       "House#10": "Nay",
+      "House#13": "Nay",
       "House#14": "Nay",
       "House#16": "Nay",
       "House#15": "Nay",
+      "House#19": "Nay",
       "House#17": "Nay",
-      "House#18": "Nay",
-      "House#19": "Nay"
+      "House#18": "Nay"
     }
   }
 }

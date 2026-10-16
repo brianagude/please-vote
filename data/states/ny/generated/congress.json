@@ -1,0 +1,1353 @@
+{
+  "C001067": {
+    "name": "Yvette D. Clarke",
+    "ids": {
+      "fec": [
+        "H4NY11138"
+      ],
+      "wikidata": "Q461679",
+      "wikipedia": "Yvette Clarke"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "NY",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "NY",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "NY",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 9,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "Oversight and Investigations",
+        "parent": "House Committee on Energy and Commerce",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001137": {
+    "name": "Gregory W. Meeks",
+    "ids": {
+      "fec": [
+        "H8NY06048"
+      ],
+      "wikidata": "Q1545391",
+      "wikipedia": "Gregory Meeks"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 5,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000469": {
+    "name": "Paul Tonko",
+    "ids": {
+      "fec": [
+        "H8NY21203"
+      ],
+      "wikidata": "Q1373548",
+      "wikipedia": "Paul Tonko"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "NY",
+        "district": 21,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "NY",
+        "district": 21,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 20,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      },
+      {
+        "committee": "Environment",
+        "parent": "House Committee on Energy and Commerce",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001188": {
+    "name": "Grace Meng",
+    "ids": {
+      "fec": [
+        "H2NY06116"
+      ],
+      "wikidata": "Q5591303",
+      "wikipedia": "Grace Meng"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 6,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "Commerce, Justice, Science, and Related Agencies",
+        "parent": "House Committee on Appropriations",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "J000294": {
+    "name": "Hakeem S. Jeffries",
+    "ids": {
+      "fec": [
+        "H2NY10092"
+      ],
+      "wikidata": "Q5640425",
+      "wikipedia": "Hakeem Jeffries"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 8,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [
+      {
+        "title": "House Democratic Caucus Chair",
+        "chamber": "house",
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "title": "House Democratic Caucus Chair",
+        "chamber": "house",
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "title": "House Minority Leader",
+        "chamber": "house",
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "title": "House Minority Leader",
+        "chamber": "house",
+        "start": "2025-01-03"
+      }
+    ],
+    "committees": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001206": {
+    "name": "Joseph D. Morelle",
+    "ids": {
+      "fec": [
+        "H8NY25105"
+      ],
+      "wikidata": "Q6285623",
+      "wikipedia": "Joseph Morelle"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2018-11-13",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 25,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 25,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 25,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 25,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 25,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "Joint Committee on Printing",
+        "title": null
+      },
+      {
+        "committee": "Joint Committee of Congress on the Library",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on House Administration",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "O000172": {
+    "name": "Alexandria Ocasio-Cortez",
+    "ids": {
+      "fec": [
+        "H8NY15148"
+      ],
+      "wikidata": "Q55223040",
+      "wikipedia": "Alexandria Ocasio-Cortez"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 14,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 14,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 14,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 14,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000597": {
+    "name": "Andrew R. Garbarino",
+    "ids": {
+      "fec": [
+        "H0NY02234"
+      ],
+      "wikidata": "Q21257859",
+      "wikipedia": "Andrew Garbarino"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 2,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 2,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 2,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Homeland Security",
+        "title": "Chair"
+      },
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Ethics",
+        "title": null
+      },
+      {
+        "committee": "Capital Markets",
+        "parent": "House Committee on Financial Services",
+        "title": "Vice Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M000317": {
+    "name": "Nicole Malliotakis",
+    "ids": {
+      "fec": [
+        "H0NY11078"
+      ],
+      "wikidata": "Q7030112",
+      "wikipedia": "Nicole Malliotakis"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 11,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 11,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 11,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "Joint Economic Committee",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000486": {
+    "name": "Ritchie Torres",
+    "ids": {
+      "fec": [
+        "H0NY15160"
+      ],
+      "wikidata": "Q16205227",
+      "wikipedia": "Ritchie Torres"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 15,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 15,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 15,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000478": {
+    "name": "Claudia Tenney",
+    "ids": {
+      "fec": [
+        "H4NY22051"
+      ],
+      "wikidata": "Q5129263",
+      "wikipedia": "Claudia Tenney"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 22,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-02-11",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 22,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 24,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 24,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "R000579": {
+    "name": "Patrick Ryan",
+    "ids": {
+      "fec": [
+        "H8NY19223"
+      ],
+      "wikidata": "Q113587887",
+      "wikipedia": "Pat Ryan (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2022-09-13",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 18,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 18,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000598": {
+    "name": "Nick LaLota",
+    "ids": {
+      "fec": [
+        "H2NY01190"
+      ],
+      "wikidata": "Q115168182",
+      "wikipedia": "Nick LaLota"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 1,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 1,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Homeland Security",
+        "title": null
+      },
+      {
+        "committee": "Financial Services and General Government",
+        "parent": "House Committee on Appropriations",
+        "title": "Vice Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000599": {
+    "name": "Michael Lawler",
+    "ids": {
+      "fec": [
+        "H2NY17162"
+      ],
+      "wikidata": "Q105179052",
+      "wikipedia": "Mike Lawler"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 17,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 17,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "Middle East and North Africa",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000600": {
+    "name": "Nicholas A. Langworthy",
+    "ids": {
+      "fec": [
+        "H2NY23228"
+      ],
+      "wikidata": "Q55356856",
+      "wikipedia": "Nick Langworthy"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 23,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 23,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Rules",
+        "title": null
+      },
+      {
+        "committee": "Legislative and Budget Process",
+        "parent": "House Committee on Rules",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S001201": {
+    "name": "Thomas R. Suozzi",
+    "ids": {
+      "fec": [
+        "H6NY03247"
+      ],
+      "wikidata": "Q7794276",
+      "wikipedia": "Tom Suozzi"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "NY",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "NY",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "NY",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2024-02-13",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 3,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "K000402": {
+    "name": "Timothy M. Kennedy",
+    "ids": {
+      "fec": [
+        "H4NY26078"
+      ],
+      "wikidata": "Q7807373",
+      "wikipedia": "Tim Kennedy (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2024-05-06",
+        "end": "2025-01-03",
+        "state": "NY",
+        "district": 26,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 26,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Homeland Security",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Veterans' Affairs",
+        "title": null
+      },
+      {
+        "committee": "Emergency Management and Technology",
+        "parent": "House Committee on Homeland Security",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000602": {
+    "name": "Laura Gillen",
+    "ids": {
+      "fec": [
+        "H4NY04158",
+        "H2NY04244"
+      ],
+      "wikidata": "Q131105202",
+      "wikipedia": "Laura Gillen"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 4,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000606": {
+    "name": "George Latimer",
+    "ids": {
+      "fec": [
+        "H4NY16087"
+      ],
+      "wikidata": "Q5544169",
+      "wikipedia": "George Latimer (New York politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 16,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "R000622": {
+    "name": "Josh Riley",
+    "ids": {
+      "fec": [
+        "H8NY22177"
+      ],
+      "wikidata": "Q113988129",
+      "wikipedia": "Josh Riley"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 19,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001231": {
+    "name": "John W. Mannion",
+    "ids": {
+      "fec": [
+        "H4NY22085"
+      ],
+      "wikidata": "Q106089566",
+      "wikipedia": "John Mannion (American politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "NY",
+        "district": 22,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  }
+}

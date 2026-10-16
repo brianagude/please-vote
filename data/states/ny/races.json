@@ -1,93 +1,1842 @@
 {
   "statewide": {
     "governor": {
-      "candidates": []
-    },
-    "ag": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "kathy-c-hochul",
+          "name": "Kathy C. Hochul",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "runningMate": "Adrienne E. Adams",
+          "links": {},
+          "bio": {
+            "text": "Governor of New York since 2021, the state's first woman governor.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+            }
+          },
+          "career": [
+            {
+              "text": "Lieutenant governor before becoming governor",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+              }
+            },
+            {
+              "text": "U.S. representative for western New York, 2011–2013",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+              }
+            },
+            {
+              "text": "Erie County clerk",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+              }
+            }
+          ],
+          "ids": {
+            "wikipedia": "Kathy Hochul"
+          }
+        },
+        {
+          "id": "bruce-a-blakeman",
+          "name": "Bruce A. Blakeman",
+          "party": "Republican, Conservative, Vote Affordable",
+          "runningMate": "Todd Hood",
+          "links": {},
+          "bio": {
+            "text": "Nassau County executive, first elected in 2021, and a lawyer.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Bruce_Blakeman"
+            }
+          },
+          "career": [
+            {
+              "text": "Former commissioner of the Port Authority of New York and New Jersey",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Bruce_Blakeman"
+              }
+            },
+            {
+              "text": "Former Nassau County legislator and Hempstead town council member",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Bruce_Blakeman"
+              }
+            }
+          ],
+          "ids": {
+            "wikipedia": "Bruce Blakeman"
+          }
+        }
+      ]
     },
     "comptroller": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "thomas-p-dinapoli",
+          "name": "Thomas P. DiNapoli",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {},
+          "bio": {
+            "text": "New York State comptroller since 2007.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Tom_DiNapoli"
+            }
+          },
+          "career": [
+            {
+              "text": "Chosen by the legislature in 2007, then elected by voters in 2010, 2014, 2018, and 2022",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Tom_DiNapoli"
+              }
+            },
+            {
+              "text": "State Assembly member from Nassau County for 20 years",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Tom_DiNapoli"
+              }
+            }
+          ],
+          "ids": {
+            "wikipedia": "Tom DiNapoli"
+          }
+        },
+        {
+          "id": "joseph-hernandez",
+          "name": "Joseph Hernandez",
+          "party": "Republican, Conservative",
+          "links": {},
+          "bio": {
+            "text": "Runs a biotech investment firm, Blue Water Venture Partners.",
+            "source": {
+              "label": "NY1",
+              "url": "https://ny1.com/nyc/all-boroughs/politics/2025/11/20/joseph-hernandez-running-for-new-york-state-comptroller-in-2026"
+            }
+          },
+          "career": [
+            {
+              "text": "Came to the U.S. from Cuba with his family at age 7",
+              "source": {
+                "label": "NY1",
+                "url": "https://ny1.com/nyc/all-boroughs/politics/2025/11/20/joseph-hernandez-running-for-new-york-state-comptroller-in-2026"
+              }
+            },
+            {
+              "text": "Ran for New York City mayor in 2025 as an independent",
+              "source": {
+                "label": "NY1",
+                "url": "https://ny1.com/nyc/all-boroughs/politics/2025/11/20/joseph-hernandez-running-for-new-york-state-comptroller-in-2026"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ag": {
+      "candidates": [
+        {
+          "id": "letitia-a-james",
+          "name": "Letitia A. James",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {},
+          "bio": {
+            "text": "New York attorney general since 2019, the first Black person in the job.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Letitia_James"
+            }
+          },
+          "career": [
+            {
+              "text": "New York City public advocate before that",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Letitia_James"
+              }
+            },
+            {
+              "text": "New York City Council member, 2004–2013",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Letitia_James"
+              }
+            },
+            {
+              "text": "Former public defender",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Letitia_James"
+              }
+            }
+          ],
+          "ids": {
+            "wikipedia": "Letitia James"
+          }
+        },
+        {
+          "id": "saritha-komatireddy",
+          "name": "Saritha Komatireddy",
+          "party": "Republican, Conservative",
+          "links": {},
+          "bio": {
+            "text": "Federal prosecutor and former chief of staff of the Drug Enforcement Administration (DEA).",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Saritha_Komatireddy"
+            }
+          },
+          "ids": {
+            "wikipedia": "Saritha Komatireddy"
+          }
+        }
+      ]
     }
   },
   "house": {
     "1": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "christopher-j-gallant",
+          "name": "Christopher J. Gallant",
+          "party": "Democrat",
+          "links": {
+            "campaign": "https://gallantny.com/"
+          },
+          "ids": {
+            "fec": "H6NY01159"
+          },
+          "bio": {
+            "text": "Army National Guard Black Hawk helicopter pilot and volunteer firefighter.",
+            "source": {
+              "label": "East Hampton Star",
+              "url": "https://www.easthamptonstar.com/government/2026115/dems-turn-to-new-face-cd-1"
+            }
+          },
+          "career": [
+            {
+              "text": "Served two tours overseas with the National Guard",
+              "source": {
+                "label": "East Hampton Star",
+                "url": "https://www.easthamptonstar.com/government/2026115/dems-turn-to-new-face-cd-1"
+              }
+            },
+            {
+              "text": "Air traffic controller for the Federal Aviation Administration and a union leader; resigned to run for Congress",
+              "source": {
+                "label": "East Hampton Star",
+                "url": "https://www.easthamptonstar.com/government/2026115/dems-turn-to-new-face-cd-1"
+              }
+            },
+            {
+              "text": "Has not held elected office",
+              "source": {
+                "label": "East Hampton Star",
+                "url": "https://www.easthamptonstar.com/government/2026115/dems-turn-to-new-face-cd-1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nicholas-j-lalota",
+          "name": "Nicholas J. Lalota",
+          "party": "Republican, Conservative",
+          "incumbent": true,
+          "links": {
+            "official": "https://lalota.house.gov"
+          },
+          "ids": {
+            "bioguide": "L000598",
+            "fec": "H2NY01190",
+            "wikipedia": "Nick LaLota"
+          },
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000598"
+            }
+          }
+        }
+      ]
     },
     "2": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "patrick-halpin",
+          "name": "Patrick Halpin",
+          "party": "Democrat, Working Families",
+          "links": {},
+          "ids": {
+            "fec": "H6NY02140",
+            "wikipedia": "Patrick G. Halpin"
+          },
+          "bio": {
+            "text": "Chair of the Suffolk County Water Authority since 2018.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Patrick_G._Halpin"
+            }
+          },
+          "career": [
+            {
+              "text": "Suffolk County executive, 1988–1991",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Patrick_G._Halpin"
+              }
+            }
+          ]
+        },
+        {
+          "id": "andrew-r-garbarino",
+          "name": "Andrew R. Garbarino",
+          "party": "Republican, Conservative",
+          "incumbent": true,
+          "links": {
+            "official": "https://garbarino.house.gov"
+          },
+          "ids": {
+            "bioguide": "G000597",
+            "fec": "H0NY02234",
+            "wikipedia": "Andrew Garbarino"
+          },
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000597"
+            }
+          }
+        }
+      ]
     },
     "3": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "thomas-r-suozzi",
+          "name": "Thomas R. Suozzi",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://suozzi.house.gov"
+          },
+          "ids": {
+            "bioguide": "S001201",
+            "fec": "H6NY03247",
+            "wikipedia": "Tom Suozzi"
+          },
+          "bio": {
+            "text": "U.S. representative since 2024.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/S001201"
+            }
+          }
+        },
+        {
+          "id": "michael-j-lipetri-jr",
+          "name": "Michael J. LiPetri Jr",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H0NY02267",
+            "wikipedia": "Mike LiPetri"
+          },
+          "bio": {
+            "text": "Lawyer and former New York State Assembly member (District 9, 2019–2021).",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Mike_LiPetri"
+            }
+          },
+          "career": [
+            {
+              "text": "Former lawyer for the New York City Law Department",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Mike_LiPetri"
+              }
+            }
+          ]
+        }
+      ]
     },
     "4": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "laura-a-gillen",
+          "name": "Laura A. Gillen",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://gillen.house.gov"
+          },
+          "ids": {
+            "bioguide": "G000602",
+            "fec": "H2NY04244",
+            "wikipedia": "Laura Gillen"
+          },
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000602"
+            }
+          }
+        },
+        {
+          "id": "jeanine-c-driscoll",
+          "name": "Jeanine C. Driscoll",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://driscoll4congress.com/"
+          },
+          "ids": {
+            "fec": "H6NY04211"
+          },
+          "bio": {
+            "text": "Hempstead Town receiver of taxes, and a lawyer.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-4/candidates/jeanine-c-driscoll"
+            }
+          },
+          "career": [
+            {
+              "text": "First elected Hempstead receiver of taxes in 2019, re-elected in 2023",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-4/candidates/jeanine-c-driscoll"
+              }
+            },
+            {
+              "text": "Former village justice in Bellerose",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-4/candidates/jeanine-c-driscoll"
+              }
+            }
+          ]
+        },
+        {
+          "id": "blay-tarnoff",
+          "name": "Blay Tarnoff",
+          "party": "Libertarian",
+          "links": {},
+          "ids": {
+            "fec": "H6NY04237"
+          },
+          "bio": {
+            "text": "Computer systems analyst who has supported financial analysts on Wall Street.",
+            "source": {
+              "label": "Libertarian Party of New York",
+              "url": "https://lpny.org/candidate/2026-blay-tarnoff/"
+            }
+          },
+          "career": [
+            {
+              "text": "Chair of the Nassau County Libertarian Party",
+              "source": {
+                "label": "Libertarian Party of New York",
+                "url": "https://lpny.org/candidate/2026-blay-tarnoff/"
+              }
+            },
+            {
+              "text": "Law degree from Pace University and a math degree from Brown University",
+              "source": {
+                "label": "Libertarian Party of New York",
+                "url": "https://lpny.org/candidate/2026-blay-tarnoff/"
+              }
+            }
+          ]
+        }
+      ]
     },
     "5": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "gregory-w-meeks",
+          "name": "Gregory W. Meeks",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://meeks.house.gov"
+          },
+          "ids": {
+            "bioguide": "M001137",
+            "fec": "H8NY06048",
+            "wikipedia": "Gregory Meeks"
+          },
+          "bio": {
+            "text": "U.S. representative since 1997.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001137"
+            }
+          }
+        },
+        {
+          "id": "george-marsh",
+          "name": "George Marsh",
+          "party": "Republican, Queens United",
+          "links": {},
+          "ids": {
+            "fec": "H6NY05127"
+          },
+          "bio": {
+            "text": "Lifelong New Yorker who grew up in the Astoria Houses and once worked in the New York City mayor's office.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-5/candidates/george-marsh"
+            }
+          }
+        }
+      ]
     },
     "6": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "grace-meng",
+          "name": "Grace Meng",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://meng.house.gov"
+          },
+          "ids": {
+            "bioguide": "M001188",
+            "fec": "H2NY06116",
+            "wikipedia": "Grace Meng"
+          },
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001188"
+            }
+          }
+        },
+        {
+          "id": "joseph-chou",
+          "name": "Joseph Chou",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://josephforny.com/"
+          },
+          "ids": {
+            "fec": "H4NY06047"
+          },
+          "bio": {
+            "text": "Runs his own car repair business.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-6/candidates/joseph-chou"
+            }
+          },
+          "career": [
+            {
+              "text": "Came to the U.S. from Taiwan in 1974",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-6/candidates/joseph-chou"
+              }
+            },
+            {
+              "text": "Ran for this seat in 2024",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-6/candidates/joseph-chou"
+              }
+            }
+          ]
+        }
+      ]
     },
     "7": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "claire-valdez",
+          "name": "Claire Valdez",
+          "party": "Democrat, Working Families",
+          "links": {},
+          "ids": {
+            "fec": "H6NY07214",
+            "wikipedia": "Claire Valdez",
+            "openstates": "ocd-person/9147362c-8b83-49ff-8fab-4d48a77eebc9"
+          },
+          "bio": {
+            "text": "New York State Assembly member for District 37 (part of Queens) since 2025.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Claire_Valdez"
+            }
+          },
+          "career": [
+            {
+              "text": "Member of the Democratic Socialists of America",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Claire_Valdez"
+              }
+            }
+          ]
+        },
+        {
+          "id": "melvin-rivera",
+          "name": "Melvin Rivera",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://melvinforcongress.com/"
+          },
+          "ids": {
+            "fec": "H6NY07271"
+          },
+          "bio": {
+            "text": "Community activist and tenant organizer from Bushwick, Brooklyn.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-7/candidates/melvin-rivera"
+            }
+          },
+          "career": [
+            {
+              "text": "Worked in the New York City mayor's Public Engagement Unit",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-7/candidates/melvin-rivera"
+              }
+            }
+          ]
+        },
+        {
+          "id": "priscilla-ghaznavi",
+          "name": "Priscilla Ghaznavi",
+          "party": "Our Future",
+          "links": {
+            "campaign": "https://priscillaghaznaviforcongress.com/"
+          },
+          "ids": {
+            "fec": "H6NY07255"
+          },
+          "bio": {
+            "text": "Designer who has held business and creative leadership jobs at seven public companies.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-7/candidates/priscilla-ghaznavi"
+            }
+          }
+        }
+      ]
     },
     "8": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "hakeem-s-jeffries",
+          "name": "Hakeem S. Jeffries",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://jeffries.house.gov"
+          },
+          "ids": {
+            "bioguide": "J000294",
+            "fec": "H2NY10092",
+            "wikipedia": "Hakeem Jeffries"
+          },
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/J000294"
+            }
+          }
+        },
+        {
+          "id": "lewis-mizrahi",
+          "name": "Lewis Mizrahi",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY08188"
+          },
+          "bio": {
+            "text": "Criminal justice data analyst and wildfire firefighter.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-8/candidates/lewis-mizrahi"
+            }
+          },
+          "career": [
+            {
+              "text": "Studied at John Jay College of Criminal Justice (CUNY)",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-8/candidates/lewis-mizrahi"
+              }
+            }
+          ]
+        }
+      ]
     },
     "9": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "yvette-d-clarke",
+          "name": "Yvette D. Clarke",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://clarke.house.gov"
+          },
+          "ids": {
+            "bioguide": "C001067",
+            "fec": "H4NY11138",
+            "wikipedia": "Yvette Clarke"
+          },
+          "bio": {
+            "text": "U.S. representative since 2007.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001067"
+            }
+          }
+        },
+        {
+          "id": "joel-azumah",
+          "name": "Joel Azumah",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://joelazumah.com/"
+          },
+          "ids": {
+            "fec": "H6NY09145"
+          },
+          "bio": {
+            "text": "Founder and owner of TransportAzumah, a New York City-area bus company.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-9/candidates/joel-azumah"
+            }
+          },
+          "career": [
+            {
+              "text": "Civil engineering degree from Union College, 2005",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-9/candidates/joel-azumah"
+              }
+            },
+            {
+              "text": "Volleyball coach, including at the Fashion Institute of Technology",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-9/candidates/joel-azumah"
+              }
+            }
+          ]
+        }
+      ]
     },
     "10": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "brad-lander",
+          "name": "Brad Lander",
+          "party": "Democrat, Working Families",
+          "links": {},
+          "ids": {
+            "fec": "H6NY10176",
+            "wikipedia": "Brad Lander"
+          },
+          "bio": {
+            "text": "New York City comptroller, 2022–2025.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Brad_Lander"
+            }
+          },
+          "career": [
+            {
+              "text": "New York City Council member from Brooklyn, 2010–2021",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Brad_Lander"
+              }
+            },
+            {
+              "text": "Ran for New York City mayor in 2025, placing third in the Democratic primary",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Brad_Lander"
+              }
+            },
+            {
+              "text": "Beat Rep. Dan Goldman in the June primary",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Brad_Lander"
+              }
+            }
+          ]
+        },
+        {
+          "id": "jennifer-e-moore",
+          "name": "Jennifer E. Moore",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://mooreforny.com/"
+          },
+          "ids": {
+            "fec": "H6NY10218"
+          },
+          "bio": {
+            "text": "Lifelong Brooklyn resident.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-10/candidates/jennifer-e-moore"
+            }
+          }
+        }
+      ]
     },
     "11": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "mike-decillis",
+          "name": "Mike DeCillis",
+          "party": "Democrat",
+          "links": {
+            "campaign": "https://www.decillisforcongress.com/"
+          },
+          "ids": {
+            "fec": "H6NY11265"
+          },
+          "bio": {
+            "text": "Civil litigation lawyer and former New York City police officer.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-11/candidates/mike-decillis"
+            }
+          },
+          "career": [
+            {
+              "text": "Police officer for 10 years, and earlier an EMS paramedic",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-11/candidates/mike-decillis"
+              }
+            },
+            {
+              "text": "Special education teacher in New York City public schools",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-11/candidates/mike-decillis"
+              }
+            },
+            {
+              "text": "Chief of staff for the Assembly member from District 46",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-11/candidates/mike-decillis"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nicole-malliotakis",
+          "name": "Nicole Malliotakis",
+          "party": "Republican, Conservative",
+          "incumbent": true,
+          "links": {
+            "official": "https://malliotakis.house.gov"
+          },
+          "ids": {
+            "bioguide": "M000317",
+            "fec": "H0NY11078",
+            "wikipedia": "Nicole Malliotakis"
+          },
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M000317"
+            }
+          }
+        }
+      ]
     },
     "12": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "micah-c-lasher",
+          "name": "Micah C. Lasher",
+          "party": "Democrat",
+          "links": {
+            "campaign": "https://micahlasher.com/"
+          },
+          "ids": {
+            "fec": "H6NY12172",
+            "wikipedia": "Micah Lasher",
+            "openstates": "ocd-person/bb46f499-d77e-4863-9269-6a04d5ba3f7e"
+          },
+          "bio": {
+            "text": "New York State Assembly member for District 65, first elected in 2024.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/micah-c-lasher"
+            }
+          },
+          "career": [
+            {
+              "text": "Former policy director for New York State and chief of staff to the state attorney general",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/micah-c-lasher"
+              }
+            },
+            {
+              "text": "Former aide to Rep. Jerry Nadler",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/micah-c-lasher"
+              }
+            }
+          ]
+        },
+        {
+          "id": "caroline-shinkle",
+          "name": "Caroline Shinkle",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://carolinefornewyork.com/"
+          },
+          "ids": {
+            "fec": "H6NY12404"
+          },
+          "bio": {
+            "text": "Lawyer at the New York law firm Cravath, Swaine & Moore.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/caroline-shinkle"
+            }
+          },
+          "career": [
+            {
+              "text": "Earlier worked at the European Central Bank, the Bank of Israel, and the Federal Reserve Board",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/caroline-shinkle"
+              }
+            },
+            {
+              "text": "Economics degree from MIT and a law degree from Harvard",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/caroline-shinkle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wilneida-negron",
+          "name": "Wilneida Negron",
+          "party": "For All of Us",
+          "links": {
+            "campaign": "https://www.wilneidany12.com/"
+          },
+          "ids": {
+            "fec": "H6NY12313"
+          },
+          "bio": {
+            "text": "Federal policy advisor on how employers monitor workers.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/wilneida-negron"
+            }
+          },
+          "career": [
+            {
+              "text": "Started out in public service at juvenile detention centers, jails, and senior centers",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/wilneida-negron"
+              }
+            }
+          ]
+        },
+        {
+          "id": "karen-ortiz",
+          "name": "Karen Ortiz",
+          "party": "Independent",
+          "links": {
+            "campaign": "https://ko4congress.com/"
+          },
+          "ids": {
+            "fec": "H6NY12297"
+          },
+          "bio": {
+            "text": "Lawyer and former administrative judge at the U.S. Equal Employment Opportunity Commission.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/karen-ortiz"
+            }
+          },
+          "career": [
+            {
+              "text": "Worked for New York City Parks, the Social Security Administration, the Taxi & Limousine Commission, and NYC Transit",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/karen-ortiz"
+              }
+            },
+            {
+              "text": "Law degree from Fordham",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/karen-ortiz"
+              }
+            }
+          ]
+        }
+      ]
     },
     "13": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "darializa-avila-chevalier",
+          "name": "Darializa Avila Chevalier",
+          "party": "Democrat, Working Families",
+          "links": {
+            "campaign": "https://darializaforcongress.com/"
+          },
+          "ids": {
+            "fec": "H6NY13279",
+            "wikipedia": "Darializa Avila Chevalier"
+          },
+          "bio": {
+            "text": "Investigator at a public defenders' office in Harlem.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/darializa-avila-chevalier"
+            }
+          },
+          "career": [
+            {
+              "text": "Former organizer with Families for Freedom, an immigrant-rights group",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/darializa-avila-chevalier"
+              }
+            },
+            {
+              "text": "Degree from Columbia University; working on a PhD",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/darializa-avila-chevalier"
+              }
+            },
+            {
+              "text": "Beat Rep. Adriano Espaillat in the June primary",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Darializa_Avila_Chevalier"
+              }
+            }
+          ]
+        },
+        {
+          "id": "jomo-m-williams",
+          "name": "Jomo M. Williams",
+          "party": "Republican",
+          "links": {
+            "campaign": "https://www.jmw4congress.com/"
+          },
+          "ids": {
+            "fec": "H6NY13303"
+          },
+          "bio": {
+            "text": "U.S. Army veteran and business owner.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/jomo-m-williams"
+            }
+          },
+          "career": [
+            {
+              "text": "Has worked as a paralegal and a cable industry contractor",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/jomo-m-williams"
+              }
+            },
+            {
+              "text": "Has run for New York City Council",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/jomo-m-williams"
+              }
+            }
+          ]
+        }
+      ]
     },
     "14": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "alexandria-ocasio-cortez",
+          "name": "Alexandria Ocasio-Cortez",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {
+            "official": "https://ocasio-cortez.house.gov"
+          },
+          "ids": {
+            "bioguide": "O000172",
+            "fec": "H8NY15148",
+            "wikipedia": "Alexandria Ocasio-Cortez"
+          },
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/O000172"
+            }
+          }
+        },
+        {
+          "id": "diamant-hysenaj",
+          "name": "Diamant Hysenaj",
+          "party": "Republican, Conservative",
+          "links": {
+            "campaign": "https://votefordiamant.com/"
+          },
+          "ids": {
+            "fec": "H6NY14251"
+          },
+          "bio": {
+            "text": "Founder of DCG New York, a construction and development company.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-14/candidates/diamant-hysenaj"
+            }
+          }
+        }
+      ]
     },
     "15": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "ritchie-torres",
+          "name": "Ritchie Torres",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://ritchietorres.house.gov"
+          },
+          "ids": {
+            "bioguide": "T000486",
+            "fec": "H0NY15160",
+            "wikipedia": "Ritchie Torres"
+          },
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000486"
+            }
+          }
+        },
+        {
+          "id": "stylo-sapaskis",
+          "name": "Stylo Sapaskis",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6NY16140"
+          },
+          "bio": {
+            "text": "Film production graduate of the City College of New York, now studying for a master's in film.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/stylo-sapaskis"
+            }
+          }
+        },
+        {
+          "id": "gonzalo-duran",
+          "name": "Gonzalo Duran",
+          "party": "Conservative",
+          "links": {
+            "campaign": "https://www.gonzaloduran.nyc/"
+          },
+          "ids": {
+            "fec": "H4NY15154"
+          },
+          "bio": {
+            "text": "Founder and CEO of Devil Dog USA, and a U.S. Marine Corps veteran.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/gonzalo-duran"
+            }
+          },
+          "career": [
+            {
+              "text": "Sergeant in the Marine Corps for eight years",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/gonzalo-duran"
+              }
+            },
+            {
+              "text": "Ran for this seat in 2024",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/gonzalo-duran"
+              }
+            }
+          ]
+        },
+        {
+          "id": "andre-easton",
+          "name": "Andre Easton",
+          "party": "Socialism PSL",
+          "links": {
+            "campaign": "https://andreforthebronx.nyc/"
+          },
+          "ids": {
+            "fec": "H6NY15167"
+          },
+          "bio": {
+            "text": "English teacher in Bronx public schools.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/andre-easton"
+            }
+          },
+          "career": [
+            {
+              "text": "Has worked in after-school programs in the Bronx and Queens",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/andre-easton"
+              }
+            }
+          ]
+        },
+        {
+          "id": "jose-vega",
+          "name": "Jose Vega",
+          "party": "Speak The Truth",
+          "links": {
+            "campaign": "https://votevega.nyc/"
+          },
+          "ids": {
+            "fec": "H4NY15147"
+          },
+          "bio": {
+            "text": "Political organizer with the LaRouche movement for 11 years.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/jose-vega"
+            }
+          },
+          "career": [
+            {
+              "text": "Ran for this seat in 2024 as an independent",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/jose-vega"
+              }
+            }
+          ]
+        }
+      ]
     },
     "16": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "george-s-latimer",
+          "name": "George S. Latimer",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://latimer.house.gov"
+          },
+          "ids": {
+            "bioguide": "L000606",
+            "fec": "H4NY16087",
+            "wikipedia": "George Latimer"
+          },
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000606"
+            }
+          }
+        },
+        {
+          "id": "joseph-j-cinquemani",
+          "name": "Joseph J. Cinquemani",
+          "party": "Republican",
+          "links": {
+            "campaign": "https://www.cinquemaniforcongress.com/"
+          },
+          "ids": {
+            "fec": "H4NY07052"
+          },
+          "bio": {
+            "text": "Lawyer with his own practice.",
+            "source": {
+              "label": "Branch",
+              "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-16/candidates/joseph-cinquemani"
+            }
+          },
+          "career": [
+            {
+              "text": "First run for public office",
+              "source": {
+                "label": "Branch",
+                "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-16/candidates/joseph-cinquemani"
+              }
+            }
+          ]
+        }
+      ]
     },
     "17": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "cait-conley",
+          "name": "Cait Conley",
+          "party": "Democrat, Working Families",
+          "links": {
+            "campaign": "https://caitconley.com/"
+          },
+          "ids": {
+            "fec": "H6NY17171",
+            "wikipedia": "Cait Conley"
+          },
+          "bio": {
+            "text": "Former Army officer who served 16 years, with deployments to Iraq and Afghanistan.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cait_Conley"
+            }
+          },
+          "career": [
+            {
+              "text": "Led election security at the Cybersecurity and Infrastructure Security Agency (CISA) during the 2024 elections",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Cait_Conley"
+              }
+            },
+            {
+              "text": "Former director for counterterrorism on the White House National Security Council",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Cait_Conley"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mike-lawler",
+          "name": "Mike Lawler",
+          "party": "Republican, Conservative",
+          "incumbent": true,
+          "links": {
+            "official": "https://lawler.house.gov"
+          },
+          "ids": {
+            "bioguide": "L000599",
+            "fec": "H2NY17162",
+            "wikipedia": "Mike Lawler"
+          },
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000599"
+            }
+          }
+        }
+      ]
     },
     "18": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "pat-ryan",
+          "name": "Pat Ryan",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {
+            "official": "https://patryan.house.gov"
+          },
+          "ids": {
+            "bioguide": "R000579",
+            "fec": "H8NY19223",
+            "wikipedia": "Pat Ryan (politician)"
+          },
+          "bio": {
+            "text": "U.S. representative since 2022.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/R000579"
+            }
+          }
+        },
+        {
+          "id": "jackie-mary-auringer",
+          "name": "Jackie Mary Auringer",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY18252"
+          },
+          "bio": {
+            "text": "Kingston native who helps run her family's construction company, Urban Precast.",
+            "source": {
+              "label": "Spectrum News",
+              "url": "https://spectrumlocalnews.com/nys/hudson-valley/politics/2026/04/13/republican-businesswoman-jackie-auringer-enters-race-for-ny-18-seat"
+            }
+          },
+          "career": [
+            {
+              "text": "Has not held elected office",
+              "source": {
+                "label": "Spectrum News",
+                "url": "https://spectrumlocalnews.com/nys/hudson-valley/politics/2026/04/13/republican-businesswoman-jackie-auringer-enters-race-for-ny-18-seat"
+              }
+            }
+          ]
+        }
+      ]
     },
     "19": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "josh-riley",
+          "name": "Josh Riley",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {
+            "official": "https://riley.house.gov"
+          },
+          "ids": {
+            "bioguide": "R000622",
+            "fec": "H8NY22177",
+            "wikipedia": "Josh Riley"
+          },
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/R000622"
+            }
+          }
+        },
+        {
+          "id": "peter-k-oberacker",
+          "name": "Peter K. Oberacker",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY19268",
+            "wikipedia": "Peter Oberacker",
+            "openstates": "ocd-person/fe80b36a-56ba-49d6-a14c-05f35ba6f610"
+          },
+          "bio": {
+            "text": "New York State senator for District 51 since 2021.",
+            "source": {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Peter_Oberacker"
+            }
+          },
+          "career": [
+            {
+              "text": "Helped start the company FormTech Solutions",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Peter_Oberacker"
+              }
+            },
+            {
+              "text": "Held several local offices before the State Senate",
+              "source": {
+                "label": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Peter_Oberacker"
+              }
+            }
+          ]
+        }
+      ]
     },
     "20": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "paul-d-tonko",
+          "name": "Paul D. Tonko",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {
+            "official": "https://tonko.house.gov"
+          },
+          "ids": {
+            "bioguide": "T000469",
+            "fec": "H8NY21203",
+            "wikipedia": "Paul Tonko"
+          },
+          "bio": {
+            "text": "U.S. representative since 2009.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000469"
+            }
+          }
+        },
+        {
+          "id": "ralph-f-ambrosio",
+          "name": "Ralph F. Ambrosio",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY20225"
+          },
+          "bio": {
+            "text": "Navy veteran and lawyer from Delmar.",
+            "source": {
+              "label": "Spectrum News",
+              "url": "https://spectrumlocalnews.com/nys/capital-region/news/2026/01/20/republican-announces-plans-to-challenge-tonko"
+            }
+          },
+          "career": [
+            {
+              "text": "Lawyer for the State Police, and a state assistant attorney general under Republican AG Dennis Vacco",
+              "source": {
+                "label": "Spectrum News",
+                "url": "https://spectrumlocalnews.com/nys/capital-region/news/2026/01/20/republican-announces-plans-to-challenge-tonko"
+              }
+            },
+            {
+              "text": "Ran for Albany County district attorney in 2024 and lost",
+              "source": {
+                "label": "Spectrum News",
+                "url": "https://spectrumlocalnews.com/nys/capital-region/news/2026/01/20/republican-announces-plans-to-challenge-tonko"
+              }
+            }
+          ]
+        }
+      ]
     },
     "21": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "blake-gendebien",
+          "name": "Blake Gendebien",
+          "party": "Democrat",
+          "links": {
+            "campaign": "https://blakegendebienforcongress.com/"
+          },
+          "ids": {
+            "fec": "H6NY21199"
+          },
+          "bio": {
+            "text": "Dairy farmer in Lisbon, St. Lawrence County, with about 500 cows.",
+            "source": {
+              "label": "WAMC",
+              "url": "https://www.wamc.org/news/2026-06-10/ny-21-candidate-profile-democrat-blake-gendebien"
+            }
+          },
+          "career": [
+            {
+              "text": "President of the Lisbon school board",
+              "source": {
+                "label": "WAMC",
+                "url": "https://www.wamc.org/news/2026-06-10/ny-21-candidate-profile-democrat-blake-gendebien"
+              }
+            },
+            {
+              "text": "Vice chair of Agri-Mark, the Northeast's largest dairy co-op",
+              "source": {
+                "label": "WAMC",
+                "url": "https://www.wamc.org/news/2026-06-10/ny-21-candidate-profile-democrat-blake-gendebien"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anthony-constantino",
+          "name": "Anthony Constantino",
+          "party": "Republican, Taxpayer Rights",
+          "links": {},
+          "ids": {
+            "fec": "H6NY21157"
+          },
+          "bio": {
+            "text": "CEO of Sticker Mule, a custom sticker company based in Amsterdam, N.Y.",
+            "source": {
+              "label": "Spectrum News",
+              "url": "https://spectrumlocalnews.com/nys/capital-region/politics/2026/06/23/anthony-constantino-wins-republican-nomination-in-ny-21"
+            }
+          },
+          "career": [
+            {
+              "text": "Has not held elected office",
+              "source": {
+                "label": "Spectrum News",
+                "url": "https://spectrumlocalnews.com/nys/capital-region/politics/2026/06/23/anthony-constantino-wins-republican-nomination-in-ny-21"
+              }
+            }
+          ]
+        }
+      ]
     },
     "22": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "john-w-mannion",
+          "name": "John W. Mannion",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {
+            "official": "https://mannion.house.gov"
+          },
+          "ids": {
+            "bioguide": "M001231",
+            "fec": "H4NY22085",
+            "wikipedia": "John Mannion (American politician)"
+          },
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001231"
+            }
+          }
+        },
+        {
+          "id": "kailee-buller",
+          "name": "Kailee Buller",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY22213"
+          },
+          "bio": {
+            "text": "Former chief of staff to U.S. Agriculture Secretary Brooke Rollins, from Auburn.",
+            "source": {
+              "label": "Spectrum News",
+              "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/03/05/former-department-of-agriculture-official-to-run-for-cny-u-s--house-seat"
+            }
+          },
+          "career": [
+            {
+              "text": "Former president and CEO of the National Oilseed Processors Association",
+              "source": {
+                "label": "Spectrum News",
+                "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/03/05/former-department-of-agriculture-official-to-run-for-cny-u-s--house-seat"
+              }
+            }
+          ]
+        }
+      ]
     },
     "23": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "aaron-gies",
+          "name": "Aaron Gies",
+          "party": "Democrat, Working Families",
+          "links": {},
+          "ids": {
+            "fec": "H6NY23559"
+          },
+          "bio": {
+            "text": "Professor at St. Bonaventure University.",
+            "source": {
+              "label": "Spectrum News",
+              "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/06/24/gies-wins-democratic-nomination-for-ny-23-seat--will-face-rep--nick-langworthy"
+            }
+          },
+          "career": [
+            {
+              "text": "First run for public office",
+              "source": {
+                "label": "Spectrum News",
+                "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/06/24/gies-wins-democratic-nomination-for-ny-23-seat--will-face-rep--nick-langworthy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nicholas-a-langworthy",
+          "name": "Nicholas A. Langworthy",
+          "party": "Republican, Conservative",
+          "incumbent": true,
+          "links": {
+            "official": "https://langworthy.house.gov"
+          },
+          "ids": {
+            "bioguide": "L000600",
+            "fec": "H2NY23228",
+            "wikipedia": "Nick Langworthy"
+          },
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000600"
+            }
+          }
+        }
+      ]
     },
     "24": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "alissa-j-ellman",
+          "name": "Alissa J. Ellman",
+          "party": "Democrat, Working Families",
+          "links": {},
+          "ids": {
+            "fec": "H6NY24219"
+          },
+          "bio": {
+            "text": "Army combat veteran and cancer survivor from western New York.",
+            "source": {
+              "label": "WRVO",
+              "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
+            }
+          },
+          "career": [
+            {
+              "text": "Lost her job at the Buffalo VA in the 2025 federal job cuts",
+              "source": {
+                "label": "WRVO",
+                "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
+              }
+            }
+          ]
+        },
+        {
+          "id": "claudia-tenney",
+          "name": "Claudia Tenney",
+          "party": "Republican, Conservative",
+          "incumbent": true,
+          "links": {
+            "official": "https://tenney.house.gov"
+          },
+          "ids": {
+            "bioguide": "T000478",
+            "fec": "H4NY22051",
+            "wikipedia": "Claudia Tenney"
+          },
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000478"
+            }
+          }
+        }
+      ]
     },
     "25": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "joseph-d-morelle",
+          "name": "Joseph D. Morelle",
+          "party": "Democrat, Working Families",
+          "incumbent": true,
+          "links": {
+            "official": "https://morelle.house.gov"
+          },
+          "ids": {
+            "bioguide": "M001206",
+            "fec": "H8NY25105",
+            "wikipedia": "Joseph Morelle"
+          },
+          "bio": {
+            "text": "U.S. representative since 2018.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001206"
+            }
+          }
+        },
+        {
+          "id": "virginia-e-mcintyre",
+          "name": "Virginia E. McIntyre",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY25208"
+          },
+          "bio": {
+            "text": "Monroe County legislator since 2024.",
+            "source": {
+              "label": "WHEC",
+              "url": "https://www.whec.com/top-news/monroe-county-legislator-virginia-mcintyre-enters-race-against-rep-joe-morelle/"
+            }
+          }
+        }
+      ]
     },
     "26": {
-      "candidates": []
+      "candidates": [
+        {
+          "id": "timothy-m-kennedy",
+          "name": "Timothy M. Kennedy",
+          "party": "Democrat",
+          "incumbent": true,
+          "links": {
+            "official": "https://kennedy.house.gov"
+          },
+          "ids": {
+            "bioguide": "K000402",
+            "fec": "H4NY26078",
+            "wikipedia": "Tim Kennedy (politician)"
+          },
+          "bio": {
+            "text": "U.S. representative since 2024.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/K000402"
+            }
+          }
+        },
+        {
+          "id": "dennis-e-hannon",
+          "name": "Dennis E. Hannon",
+          "party": "Republican, Conservative",
+          "links": {},
+          "ids": {
+            "fec": "H6NY26131"
+          },
+          "bio": {
+            "text": "Grew up working in his father's construction business.",
+            "source": {
+              "label": "Spectrum News",
+              "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/04/12/dennis-hannon-announces-campaign-for-ny-26"
+            }
+          }
+        }
+      ]
     }
   }
 }

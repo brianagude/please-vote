@@ -1,13 +1,20 @@
-// Renders the link-preview image (public/share.png, 1200x630) used when the
-// site is shared in messages and social posts. Same look as the masthead.
+// Renders the link-preview images (1200x630) used when the site is shared in
+// messages and social posts. Same look as the masthead. One per state:
+//   Georgia -> public/share.png (the main address), others -> public/share-<code>.png
 //
 //   node scripts/make-share-image.mjs    (needs the people drawings and internet for fonts)
 import fs from "node:fs";
 import path from "node:path";
 import { chromium } from "@playwright/test";
 
-const strip = fs.readFileSync("public/people/top-0.svg", "utf8");
+const states = fs.readdirSync("data/states").filter((c) => fs.existsSync(`data/states/${c}/state.json`));
+const browser = await chromium.launch();
+for (const code of states) {
+const cfg = JSON.parse(fs.readFileSync(`data/states/${code}/state.json`, "utf8"));
+// Georgia keeps its original image; other states use their own crowd (signs with the state's name).
+const strip = fs.readFileSync(code === "ga" ? "public/people/top-0.svg" : `public/people/${code}/top-0.svg`, "utf8");
 const stripData = `data:image/svg+xml;base64,${Buffer.from(strip).toString("base64")}`;
+const out = code === "ga" ? "public/share.png" : `public/share-${code}.png`;
 const noise =
   "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .17 0 0 0 0 .15 0 0 0 0 .12 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E";
 
@@ -27,17 +34,18 @@ h1{font-size:150px}
 .people{position:absolute;left:0;right:0;bottom:-6px;height:118px;background:url("${stripData}") repeat-x 0 0/auto 118px;opacity:.38}
 </style></head><body>
 <div class="sheet">
-  <div><span class="lbl">Georgia general election</span><h1 class="disp">Please Vote</h1></div>
-  <div><span class="lbl">Election day</span><span class="n">NOV 3</span><span style="font-size:24px">Polls 7 a.m. – 7 p.m.</span></div>
+  <div><span class="lbl">${cfg.name} general election</span><h1 class="disp">Please Vote</h1></div>
+  <div><span class="lbl">Election day</span><span class="n">NOV 3</span><span style="font-size:24px">Polls ${cfg.election.polls}</span></div>
 </div>
 <div class="row">When to vote, what's on your ballot, and who's running.</div>
 <div class="people"></div>
 </body></html>`;
 
-const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1200, height: 630 } });
 await page.setContent(html, { waitUntil: "networkidle" });
 await page.evaluate(() => document.fonts.ready);
-await page.screenshot({ path: "public/share.png" });
+await page.screenshot({ path: out });
+await page.close();
+console.log(out, Math.round(fs.statSync(out).size / 1024) + "KB");
+}
 await browser.close();
-console.log("public/share.png", Math.round(fs.statSync("public/share.png").size / 1024) + "KB");

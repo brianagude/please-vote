@@ -177,7 +177,9 @@ function motionToggle() {
 async function startBoil() {
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const sides = matchMedia("(min-width: 1120px)").matches ? ["left", "right"] : ["top", "bottom"];
-  const frames = sides.flatMap((s) => [0, 1, 2].map((n) => `/people/${s}-${n}.svg`));
+  // Each state's guide has its own drawings (some signs show the state's name).
+  const dir = document.querySelector<HTMLElement>("[data-people]")?.dataset.people ?? "/people/";
+  const frames = sides.flatMap((s) => [0, 1, 2].map((n) => `${dir}${s}-${n}.svg`));
   try {
     await Promise.all(
       frames.map((src) => {

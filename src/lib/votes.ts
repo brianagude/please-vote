@@ -22,8 +22,8 @@ export function attendanceLine(a: { missed: number; excused: number; total: numb
 export function ruleLine(chamber: string, sinceYear: string) {
   // Federal votes are "House"/"Senate"; state ones carry the state's name ("Georgia House").
   const state = chamber.match(/^(.+) (House|Senate|Assembly)$/)?.[1];
-  const where = state ? `the ${state} House or Senate` : "the U.S. House or Senate";
-  return `Final votes on bills that passed ${where}, since ${sinceYear}. Votes on amendments and procedure are left out.`;
+  const where = state ? `either chamber of the ${state} legislature` : "the U.S. House or Senate";
+  return `Final votes on bills that passed ${where}, since ${sinceYear}. Votes on amendments, committees, and procedure are left out.`;
 }
 
 export const countLine = (listed: number) => `${n(listed)} ${listed === 1 ? "vote" : "votes"} on bills that passed at least one chamber.`;

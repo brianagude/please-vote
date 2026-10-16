@@ -26,6 +26,8 @@ export interface Candidate {
   /** D, R, L, I, or a full party name. Shown as text only. */
   party: string;
   incumbent?: boolean;
+  /** Lieutenant governor on the same ticket, where the two are elected together (New York). */
+  runningMate?: string;
   bio?: Fact;
   career?: Fact[];
   committees?: { items: string[]; source?: Source };
@@ -149,6 +151,8 @@ export interface StateConfig {
   };
   groups: Group[];
   footerNote: string;
+  /** Short "Good to know" notes above the ballot, for things that work differently in this state. */
+  notes?: { title: string; text: string; link?: Source }[];
   records: { since: string; sinceLabel: string };
 }
 

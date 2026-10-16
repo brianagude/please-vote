@@ -7,6 +7,7 @@
 import Base from "../../layouts/Base.astro";
 import CareerRecord from "../../components/CareerRecord.astro";
 import Money from "../../components/Money.astro";
+import PhotoCredits from "../../components/PhotoCredits.astro";
 import { orgName, usd } from "../../lib/money";
 import { loadState, loadVotes, sourced, stateCodes, statePath } from "../../lib/state";
 import { initials, partyName } from "../../lib/names";
@@ -124,6 +125,15 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
       }
     </header>
 
+    {/* Once the header scrolls away, a slim bar keeps who this page is about in view. Decorative: the header says the same. */}
+    <div class="pbar" id="pbar" aria-hidden="true">
+      <div class="pbar-in">
+        {c.photo ? <span class="pin sm"><img src={c.photo.src} alt="" width="32" height="32" /></span> : <span class="pin sm">{initials(c.name)}</span>}
+        <span class="pbar-name">{c.name}</span>
+        <span class="pbar-run">{partyName(c.party)} · {running}</span>
+      </div>
+    </div>
+
     <section aria-labelledby="overview">
       <div class="shead"><h2 class="disp" id="overview" tabindex="-1">Overview</h2></div>
       <div class="sheet">
@@ -141,10 +151,9 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
             )
           }
           {
-            (factSources.length > 0 || c.photo?.credit) && (
+            factSources.length > 0 && (
               <p class="src">
                 {factSources.length > 0 && <>Facts from {factSources.map((s, i) => <>{i > 0 && ", "}<a class="src" href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}.</>}
-                {c.photo?.credit && <> Photo: <a class="src" href={c.photo.source.url} target="_blank" rel="noopener">{c.photo.credit}</a>{c.photo.license && `, ${c.photo.license}`}.</>}
               </p>
             )
           }
@@ -224,7 +233,11 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
               <div class="cell"><span class="lbl">Wrote</span><p>{bills.wrote} {bills.wrote === 1 ? "bill" : "bills"}</p></div>
               <div class="cell">
                 <span class="lbl">Became law</span>
-                <p>{bills.becameLaw === 0 ? "None" : bills.becameLaw} became law.{further > 0 && ` Another ${further} passed the House or Senate but didn't.`}</p>
+                <p>
+                  {bills.becameLaw === 0
+                    ? `None became law.${further > 0 ? ` ${further} passed the House or Senate but didn't become law.` : ""}`
+                    : `${bills.becameLaw} became law.${further > 0 ? ` Another ${further} passed the House or Senate but didn't.` : ""}`}
+                </p>
               </div>
             </div>
             {bills.all && bills.all.length > 0 && (
@@ -295,9 +308,17 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
 
     <footer>
       <p>Info as of {asOfLong}. Records update every night.</p>
+      <PhotoCredits people={[c]} />
       <p><a href={`${guide}#s3`}>← Back to the guide</a></p>
     </footer>
   </div>
+  <script>
+    // Show the slim name bar once the header is out of view.
+    const bar = document.getElementById("pbar");
+    const head = document.querySelector(".person > header");
+    if (bar && head && "IntersectionObserver" in window)
+      new IntersectionObserver(([e]) => bar.classList.toggle("show", !e.isIntersecting && e.boundingClientRect.top < 0)).observe(head);
+  </script>
   <script>
     // Long lists show the first few, with a Show more / Show less button. Without JavaScript, everything shows.
     for (const ul of document.querySelectorAll<HTMLUListElement>("ul[data-cap]")) {

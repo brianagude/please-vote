@@ -1,0 +1,27 @@
+---
+// Where each photo on the page came from, in its own dropdown in the footer, kept apart
+// from the fact sources (owner, Oct 15, 2026). This also gives the visible credit that
+// Creative Commons "BY" licenses require.
+import type { Candidate } from "../lib/types";
+interface Props {
+  people: Candidate[];
+}
+const withPhoto = Astro.props.people
+  .filter((c) => c.photo)
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+{
+  withPhoto.length > 0 && (
+    <details>
+      <summary>Photo credits</summary>
+      <ul>
+        {withPhoto.map((c) => (
+          <li>
+            {c.name}: <a href={c.photo!.source.url} target="_blank" rel="noopener">{c.photo!.credit ?? c.photo!.source.label}</a>
+            {c.photo!.license && `, ${c.photo!.license}`}
+          </li>
+        ))}
+      </ul>
+    </details>
+  )
+}
