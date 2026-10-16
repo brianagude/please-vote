@@ -5,9 +5,12 @@ This turns it into a plain, readable list of every race, which pipeline/import-c
 then uses.
 
     pip install pypdf      # once
-    python3 scripts/ca-certification.py data/states/ca/sources/cert-list-candidates.pdf
+    python3 scripts/ca-certification.py data/states/ca/sources/cert-list-candidates.pdf [data/states/ca/sources/contact-list.pdf]
 
 Writes data/states/ca/sources/certification.json next to the PDF.
+
+The optional second PDF is the Official Candidate Contact List from the same election page.
+Only each candidate's campaign website is taken from it (not addresses, phones, or emails).
 
 Each candidate has a name, party preference, ballot designation (the short job title
 printed under their name on the ballot), and whether the list marks them as the
@@ -61,13 +64,48 @@ for l in lines[start + 1 :]:
         continue
     raise SystemExit(f"Couldn't read this line: {l!r}")
 
+contacts_dated = None
+# Campaign websites from the Official Candidate Contact List, matched by name.
+if len(sys.argv) > 2:
+    ctext = "\n".join(p.extract_text() for p in PdfReader(sys.argv[2]).pages)
+    cd = re.search(r"(\d+)/(\d+)/(\d{2,4})", ctext)
+    contacts_dated = f"{cd.group(1)}/{cd.group(2)}/{cd.group(3)}" if cd else None
+    clines = [l.strip() for l in ctext.split("\n")]
+    # The PDF's text sometimes comes out of order, so a website can land next to the wrong
+    # person. Only keep a website whose address contains that person's first or last name
+    # ("votemikemcguire.com" for Mike McGuire); otherwise leave the link off.
+    letters = lambda x: re.sub(r"[^a-z]", "", x.lower())
+    def fits(url, name):
+        host = letters(re.sub(r"^https?://(www\.)?", "", url).split("/")[0].rsplit(".", 1)[0])
+        words = [letters(w) for w in re.sub(r"\(([^)]*)\)", r" \1 ", name).split()]
+        return any(len(w) >= 3 and w in host for w in words if w not in ("jr", "sr", "iii"))
+    sites, who = {}, None
+    for i, l in enumerate(clines):
+        m = PERSON.match(l)
+        if m:
+            who = m.group(1).strip()
+            continue
+        if who and l.startswith("WEBSITE:"):
+            url = l[len("WEBSITE:") :].strip() or (clines[i + 1] if i + 1 < len(clines) else "")
+            if re.match(r"^(https?://)?[\w-]+(\.[\w-]+)+(/\S*)?$", url) and fits(url, who):
+                sites.setdefault(who, url if url.startswith("http") else "https://" + url)
+    names = [c["name"] for r in races for c in r["candidates"]]
+    found = 0
+    for r in races:
+        for c in r["candidates"]:
+            url = sites.get(c["name"])
+            if url and names.count(c["name"]) == 1:
+                c["website"] = url
+                found += 1
+    print(f"Campaign websites for {found} candidates from the contact list")
+
 for r in races:
     if len(r["candidates"]) != 2:
         print(f"  check: {r['office']} {r['district'] or ''} has {len(r['candidates'])} candidates")
 
 out = os.path.join(os.path.dirname(pdf), "certification.json")
 with open(out, "w") as f:
-    json.dump({"source": os.path.basename(pdf), "dated": dated, "races": races}, f, indent=1, ensure_ascii=False)
+    json.dump({"source": os.path.basename(pdf), "dated": dated, "contactsDated": contacts_dated, "races": races}, f, indent=1, ensure_ascii=False)
     f.write("\n")
 count = {}
 for r in races:

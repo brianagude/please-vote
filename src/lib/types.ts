@@ -127,6 +127,8 @@ export interface RunningFor {
   party: string;
   incumbent?: boolean;
   ballotAs?: Fact;
+  /** Campaign website, from the state's official candidate contact list. */
+  campaign?: string;
 }
 
 export interface KeyDate {

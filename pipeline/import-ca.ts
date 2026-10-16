@@ -11,6 +11,7 @@
 // but not U.S. House members (the districts were redrawn for 2026, and some members run in a
 // new district number), so those come from Congress's own records. Candidate details added
 // by hand later (bio, career, links, photo) are kept when this runs again.
+// Campaign websites come from the Secretary of State's Official Candidate Contact List.
 // Each candidate's ballot designation (the job title printed under their name) is shown as "On the ballot as".
 // Board of Equalization races and judges are left out for now (see docs/ROADMAP.md).
 import fs from "node:fs";
@@ -112,7 +113,7 @@ for (const r of cert.races) {
           party: party(p.party),
           ...(p.incumbent ? { incumbent: true } : {}),
           ...ballotAs(p),
-          links: old.links ?? {},
+          links: { ...(p.website ? { campaign: p.website } : {}), ...(old.links ?? {}) },
           ...(Object.keys(ids).length ? { ids } : {}),
         };
       }),
@@ -155,14 +156,14 @@ for (const r of cert.races) {
           ...(rep ? { incumbent: true } : {}),
           ...ballotAs(p),
           ...(bio ? { bio } : {}),
-          links: { ...(rep?.terms.at(-1).url ? { official: rep.terms.at(-1).url } : {}), ...(old.links ?? {}) },
+          links: { ...(p.website ? { campaign: p.website } : {}), ...(rep?.terms.at(-1).url ? { official: rep.terms.at(-1).url } : {}), ...(old.links ?? {}) },
           ...(Object.keys(ids).length ? { ids } : {}),
         };
       }),
     };
   } else if (r.office === "State Senate" || r.office === "State Assembly Member") {
     const ch = r.office === "State Senate" ? "upper" : "lower";
-    legislature[ch][r.district] = r.candidates.map((p: any) => ({ name: p.name, party: party(p.party), ...(p.incumbent ? { incumbent: true } : {}), ...ballotAs(p) }));
+    legislature[ch][r.district] = r.candidates.map((p: any) => ({ name: p.name, party: party(p.party), ...(p.incumbent ? { incumbent: true } : {}), ...ballotAs(p), ...(p.website ? { campaign: p.website } : {}) }));
   }
 }
 

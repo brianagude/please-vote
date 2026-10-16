@@ -23,7 +23,7 @@ Create `data/states/<code>/` with:
 | `state.json` | Name, time zone, election date, key dates, poll hours, voter lookup link |
 | `offices.json` | A plain-language description of each office on the ballot |
 | `sources.json` | Where each fact came from (the sources list in the footer) |
-| `zip-to-house.json` | Which ZIP codes are in which U.S. House district |
+| `zip-to-house.json` | Which ZIP codes are in which U.S. House district. If the state has new district maps, build it with `scripts/zip-districts.py` (California did) |
 
 Copy New York's files as a starting point (`data/states/ny/`). Every date and hour must match the state's official page.
 

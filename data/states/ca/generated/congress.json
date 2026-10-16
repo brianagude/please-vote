@@ -1,0 +1,3707 @@
+{
+  "C000059": {
+    "name": "Ken Calvert",
+    "ids": {
+      "fec": [
+        "H2CA37023"
+      ],
+      "wikidata": "Q538978",
+      "wikipedia": "Ken Calvert"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1993-01-05",
+        "end": "1995-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "1995-01-04",
+        "end": "1997-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "Defense",
+        "parent": "House Committee on Appropriations",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001080": {
+    "name": "Judy Chu",
+    "ids": {
+      "fec": [
+        "H0CA32101"
+      ],
+      "wikidata": "Q460035",
+      "wikipedia": "Judy Chu"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2009-07-16",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 32,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 32,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 28,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001059": {
+    "name": "Jim Costa",
+    "ids": {
+      "fec": [
+        "H4CA20082"
+      ],
+      "wikidata": "Q675869",
+      "wikipedia": "Jim Costa"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 21,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 21,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "Livestock, Dairy, and Poultry",
+        "parent": "House Committee on Agriculture",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000559": {
+    "name": "John Garamendi",
+    "ids": {
+      "fec": [
+        "H0CA10149"
+      ],
+      "wikidata": "Q1340268",
+      "wikipedia": "John Garamendi"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2009-11-03",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 10,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 10,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 8,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 8,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "Readiness",
+        "parent": "House Committee on Armed Services",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000397": {
+    "name": "Zoe Lofgren",
+    "ids": {
+      "fec": [
+        "H4CA16049"
+      ],
+      "wikidata": "Q218217",
+      "wikipedia": "Zoe Lofgren"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1995-01-04",
+        "end": "1997-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 18,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 18,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001163": {
+    "name": "Doris O. Matsui",
+    "ids": {
+      "fec": [
+        "H6CA05195"
+      ],
+      "wikidata": "Q399561",
+      "wikipedia": "Doris Matsui"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2005-03-10",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "Communications and Technology",
+        "parent": "House Committee on Energy and Commerce",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001177": {
+    "name": "Tom McClintock",
+    "ids": {
+      "fec": [
+        "H8CA04152",
+        "H6CA21135"
+      ],
+      "wikidata": "Q535887",
+      "wikipedia": "Tom McClintock"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Natural Resources",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      },
+      {
+        "committee": "Immigration Integrity, Security, and Enforcement",
+        "parent": "House Committee on the Judiciary",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S000344": {
+    "name": "Brad Sherman",
+    "ids": {
+      "fec": [
+        "H6CA24113"
+      ],
+      "wikidata": "Q672919",
+      "wikipedia": "Brad Sherman"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 30,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 30,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 30,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 30,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 30,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 32,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 32,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "Capital Markets",
+        "parent": "House Committee on Financial Services",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "Middle East and North Africa",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S001156": {
+    "name": "Linda T. Sánchez",
+    "ids": {
+      "fec": [
+        "H2CA39078"
+      ],
+      "wikidata": "Q291143",
+      "wikipedia": "Linda Sánchez"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 38,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "Trade",
+        "parent": "House Committee on Ways and Means",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000460": {
+    "name": "Mike Thompson",
+    "ids": {
+      "fec": [
+        "H8CA01109"
+      ],
+      "wikidata": "Q1323196",
+      "wikipedia": "Mike Thompson"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 5,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 4,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "Tax",
+        "parent": "House Committee on Ways and Means",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "W000187": {
+    "name": "Maxine Waters",
+    "ids": {
+      "fec": [
+        "H4CA23011"
+      ],
+      "wikidata": "Q461727",
+      "wikipedia": "Maxine Waters"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1991-01-03",
+        "end": "1993-01-03",
+        "state": "CA",
+        "district": 29,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1993-01-05",
+        "end": "1995-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1995-01-04",
+        "end": "1997-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 43,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "H001068": {
+    "name": "Jared Huffman",
+    "ids": {
+      "fec": [
+        "H2CA06259"
+      ],
+      "wikidata": "Q3276717",
+      "wikipedia": "Jared Huffman"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 2,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Natural Resources",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "B001287": {
+    "name": "Ami Bera",
+    "ids": {
+      "fec": [
+        "H0CA03078"
+      ],
+      "wikidata": "Q3389105",
+      "wikipedia": "Ami Bera"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 6,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "East Asia and Pacific",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "R000599": {
+    "name": "Raul Ruiz",
+    "ids": {
+      "fec": [
+        "H2CA36439"
+      ],
+      "wikidata": "Q3701994",
+      "wikipedia": "Raul Ruiz (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 25,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 25,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000472": {
+    "name": "Mark Takano",
+    "ids": {
+      "fec": [
+        "H2CA43245"
+      ],
+      "wikidata": "Q399593",
+      "wikipedia": "Mark Takano"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 41,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Veterans' Affairs",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "V000130": {
+    "name": "Juan Vargas",
+    "ids": {
+      "fec": [
+        "H2CA50026"
+      ],
+      "wikidata": "Q3791701",
+      "wikipedia": "Juan Vargas"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "P000608": {
+    "name": "Scott H. Peters",
+    "ids": {
+      "fec": [
+        "H2CA52089"
+      ],
+      "wikidata": "Q3791514",
+      "wikipedia": "Scott Peters (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 52,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 50,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 50,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "D000623": {
+    "name": "Mark DeSaulnier",
+    "ids": {
+      "fec": [
+        "H0CA10073"
+      ],
+      "wikidata": "Q6767311",
+      "wikipedia": "Mark DeSaulnier"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 11,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 10,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 10,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Ethics",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "Health, Employment, Labor, and Pensions",
+        "parent": "House Committee on Education and Workforce",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "A000371": {
+    "name": "Pete Aguilar",
+    "ids": {
+      "fec": [
+        "H2CA31125"
+      ],
+      "wikidata": "Q7171821",
+      "wikipedia": "Pete Aguilar"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 31,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 31,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 31,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 31,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 33,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 33,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [
+      {
+        "title": "House Democratic Caucus Vice Chair",
+        "chamber": "house",
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "title": "House Democratic Caucus Chair",
+        "chamber": "house",
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "title": "House Democratic Caucus Chair",
+        "chamber": "house",
+        "start": "2025-01-03"
+      }
+    ],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000582": {
+    "name": "Ted Lieu",
+    "ids": {
+      "fec": [
+        "H4CA33119"
+      ],
+      "wikidata": "Q7693450",
+      "wikipedia": "Ted Lieu"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 33,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 33,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 33,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 33,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 36,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [
+      {
+        "title": "House Democratic Caucus Vice Chair",
+        "chamber": "house",
+        "start": "2025-01-03"
+      }
+    ],
+    "committees": [
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000474": {
+    "name": "Norma J. Torres",
+    "ids": {
+      "fec": [
+        "H4CA35031"
+      ],
+      "wikidata": "Q3343727",
+      "wikipedia": "Norma Torres"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 35,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on House Administration",
+        "title": null
+      },
+      {
+        "committee": "Modernization and Innovation",
+        "parent": "House Committee on House Administration",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "K000389": {
+    "name": "Ro Khanna",
+    "ids": {
+      "fec": [
+        "H4CA12055"
+      ],
+      "wikidata": "Q7339221",
+      "wikipedia": "Ro Khanna"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 17,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 17,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 17,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 17,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 17,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "Cyber, Information Technologies, and Innovation",
+        "parent": "House Committee on Armed Services",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "P000613": {
+    "name": "Jimmy Panetta",
+    "ids": {
+      "fec": [
+        "H6CA20152"
+      ],
+      "wikidata": "Q27733776",
+      "wikipedia": "Jimmy Panetta"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 19,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001112": {
+    "name": "Salud O. Carbajal",
+    "ids": {
+      "fec": [
+        "H6CA24303"
+      ],
+      "wikidata": "Q27805429",
+      "wikipedia": "Salud Carbajal"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 24,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "Coast Guard and Maritime Transportation",
+        "parent": "House Committee on Transportation and Infrastructure",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "B001300": {
+    "name": "Nanette Diaz Barragán",
+    "ids": {
+      "fec": [
+        "H6CA44103"
+      ],
+      "wikidata": "Q21662745",
+      "wikipedia": "Nanette Barragán"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 44,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001110": {
+    "name": "J. Luis Correa",
+    "ids": {
+      "fec": [
+        "H6CA46116"
+      ],
+      "wikidata": "Q6685454",
+      "wikipedia": "Lou Correa"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 46,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 46,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 46,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 46,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 46,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Homeland Security",
+        "title": null
+      },
+      {
+        "committee": "Border Security and Enforcement",
+        "parent": "House Committee on Homeland Security",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000585": {
+    "name": "Jimmy Gomez",
+    "ids": {
+      "fec": [
+        "H8CA34266"
+      ],
+      "wikidata": "Q6200205",
+      "wikipedia": "Jimmy Gomez"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-07-11",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 34,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 34,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 34,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 34,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 34,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      },
+      {
+        "committee": "Central Intelligence Agency",
+        "parent": "House Permanent Select Committee on Intelligence",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "H001090": {
+    "name": "Josh Harder",
+    "ids": {
+      "fec": [
+        "H8CA10126"
+      ],
+      "wikidata": "Q58494468",
+      "wikipedia": "Josh Harder"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 10,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 10,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 9,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 9,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000593": {
+    "name": "Mike Levin",
+    "ids": {
+      "fec": [
+        "H8CA49058"
+      ],
+      "wikidata": "Q55424854",
+      "wikipedia": "Mike Levin"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 49,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 49,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 49,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 49,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "V000129": {
+    "name": "David G. Valadao",
+    "ids": {
+      "fec": [
+        "H2CA20094"
+      ],
+      "wikidata": "Q3528567",
+      "wikipedia": "David Valadao"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "CA",
+        "district": 21,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "CA",
+        "district": 21,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "CA",
+        "district": 21,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 21,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 22,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 22,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "Joint Committee of Congress on the Library",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "Legislative Branch",
+        "parent": "House Committee on Appropriations",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "O000019": {
+    "name": "Jay Obernolte",
+    "ids": {
+      "fec": [
+        "H0CA08135"
+      ],
+      "wikidata": "Q16849797",
+      "wikipedia": "Jay Obernolte"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 8,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 23,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 23,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      },
+      {
+        "committee": "Research and Technology",
+        "parent": "House Committee on Science, Space, and Technology",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "K000397": {
+    "name": "Young Kim",
+    "ids": {
+      "fec": [
+        "H8CA39240"
+      ],
+      "wikidata": "Q19662859",
+      "wikipedia": "Young Kim"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 40,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 40,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+        "title": null
+      },
+      {
+        "committee": "East Asia and Pacific",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "J000305": {
+    "name": "Sara Jacobs",
+    "ids": {
+      "fec": [
+        "H8CA49074"
+      ],
+      "wikidata": "Q50825637",
+      "wikipedia": "Sara Jacobs"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "CA",
+        "district": 53,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 51,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "Africa",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "K000401": {
+    "name": "Kevin Kiley",
+    "ids": {
+      "fec": [
+        "H2CA03157"
+      ],
+      "wikidata": "Q27987136",
+      "wikipedia": "Kevin Kiley (politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 3,
+        "party": "Independent"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      },
+      {
+        "committee": "Early Childhood, Elementary, and Secondary Education",
+        "parent": "House Committee on Education and Workforce",
+        "title": "Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001225": {
+    "name": "Kevin Mullin",
+    "ids": {
+      "fec": [
+        "H2CA14162"
+      ],
+      "wikidata": "Q6397046",
+      "wikipedia": "Kevin Mullin"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 15,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 15,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "K000400": {
+    "name": "Sydney Kamlager-Dove",
+    "ids": {
+      "fec": [
+        "H2CA37304"
+      ],
+      "wikidata": "Q20177418",
+      "wikipedia": "Sydney Kamlager-Dove"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 37,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 37,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "South and Central Asia",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000598": {
+    "name": "Robert Garcia",
+    "ids": {
+      "fec": [
+        "H2CA47188"
+      ],
+      "wikidata": "Q16204904",
+      "wikipedia": "Robert Garcia (California congressman)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 42,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "F000480": {
+    "name": "Vince Fong",
+    "ids": {
+      "fec": [
+        "H4CA20181"
+      ],
+      "wikidata": "Q27916201",
+      "wikipedia": "Vince Fong"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2024-06-03",
+        "end": "2025-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 20,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Homeland Security",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001123": {
+    "name": "Gilbert Ray Cisneros, Jr.",
+    "ids": {
+      "fec": [
+        "H8CA39174",
+        "H4CA31170"
+      ],
+      "wikidata": "Q54958760",
+      "wikipedia": "Gil Cisneros"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "CA",
+        "district": 39,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 31,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      },
+      {
+        "committee": "Contracting and Infrastructure",
+        "parent": "House Committee on Small Business",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S001231": {
+    "name": "Lateefah Simon",
+    "ids": {
+      "fec": [
+        "H4CA12154"
+      ],
+      "wikidata": "Q6495426",
+      "wikipedia": "Lateefah Simon"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 12,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000605": {
+    "name": "Adam Gray",
+    "ids": {
+      "fec": [
+        "H2CA13115"
+      ],
+      "wikidata": "Q3000097",
+      "wikipedia": "Adam Gray"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 13,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Natural Resources",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "L000607": {
+    "name": "Sam T. Liccardo",
+    "ids": {
+      "fec": [
+        "H4CA16197"
+      ],
+      "wikidata": "Q16731481",
+      "wikipedia": "Sam Liccardo"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 16,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "W000830": {
+    "name": "George Whitesides",
+    "ids": {
+      "fec": [
+        "H4CA27111"
+      ],
+      "wikidata": "Q3511804",
+      "wikipedia": "George T. Whitesides"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 27,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "R000620": {
+    "name": "Luz M. Rivas",
+    "ids": {
+      "fec": [
+        "H4CA29141"
+      ],
+      "wikidata": "Q54861699",
+      "wikipedia": "Luz Rivas"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 29,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Natural Resources",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "F000483": {
+    "name": "Laura Friedman",
+    "ids": {
+      "fec": [
+        "H4CA30149"
+      ],
+      "wikidata": "Q6498920",
+      "wikipedia": "Laura Friedman"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 30,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "T000491": {
+    "name": "Derek Tran",
+    "ids": {
+      "fec": [
+        "H4CA45170"
+      ],
+      "wikidata": "Q131339671",
+      "wikipedia": "Derek Tran"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 45,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      },
+      {
+        "committee": "Oversight, Investigations, and Regulations",
+        "parent": "House Committee on Small Business",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001241": {
+    "name": "Dave Min",
+    "ids": {
+      "fec": [
+        "H4CA47085"
+      ],
+      "wikidata": "Q31213321",
+      "wikipedia": "Dave Min"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 47,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "Joint Economic Committee",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Natural Resources",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000607": {
+    "name": "James Gallagher",
+    "ids": {
+      "fec": [
+        "H6CA01285"
+      ]
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2026-06-10",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 1,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "W000832": {
+    "ids": {
+      "fec": [
+        "H0CA15213"
+      ],
+      "wikidata": "Q115794283",
+      "wikipedia": "Aisha Wahab"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2026-09-02",
+        "end": "2027-01-03",
+        "state": "CA",
+        "district": 14,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  }
+}
