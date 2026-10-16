@@ -18,9 +18,13 @@ const STATES = fs.readdirSync(stateDir("")).filter((d) => fs.existsSync(`${state
 // Order matters: photos uses congress output; bills reads the Georgia vote files that votes writes.
 const STEPS: Record<string, (code: string) => Promise<void>> = { congress, legislature, photos, fec, nymoney, votes, bills, contact };
 
-const only = process.argv.slice(2);
+// npm run data -- [step ...] [--state ga]   (no steps = all; no --state = every state)
+const args = process.argv.slice(2);
+const si = args.indexOf("--state");
+const onlyState = si >= 0 ? args.splice(si, 2)[1] : null;
+const only = args;
 let failed = 0;
-for (const code of STATES) {
+for (const code of STATES.filter((c) => !onlyState || c === onlyState)) {
   for (const [name, step] of Object.entries(STEPS)) {
     if (only.length && !only.includes(name)) continue;
     try {

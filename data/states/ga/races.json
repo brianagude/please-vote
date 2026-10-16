@@ -849,6 +849,14 @@
           },
           "ids": {
             "fec": "H6GA01158"
+          },
+          "photo": {
+            "src": "/photos/manual/amanda-hollowell.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Amanda_Hollowell"
+            }
           }
         },
         {
@@ -861,6 +869,14 @@
           "links": {},
           "ids": {
             "fec": "H6GA01109"
+          },
+          "photo": {
+            "src": "/photos/manual/jim-kingston.jpg",
+            "credit": "BallotReady",
+            "source": {
+              "label": "BallotReady",
+              "url": "https://www.ballotready.org/people/jim-kingston"
+            }
           }
         }
       ],
@@ -920,6 +936,14 @@
           },
           "ids": {
             "fec": "H6GA01182"
+          },
+          "photo": {
+            "src": "/photos/manual/matt-day.jpg",
+            "credit": "LocalCandidates.org",
+            "source": {
+              "label": "LocalCandidates.org",
+              "url": "https://www.localcandidates.org/politicians/matt-day"
+            }
           }
         }
       ]
@@ -959,6 +983,14 @@
           },
           "ids": {
             "fec": "H4GA03100"
+          },
+          "photo": {
+            "src": "/photos/manual/maura-keller.jpg",
+            "credit": "BallotReady",
+            "source": {
+              "label": "BallotReady",
+              "url": "https://www.ballotready.org/people/maura-k-keller"
+            }
           }
         },
         {
@@ -1062,6 +1094,14 @@
           },
           "ids": {
             "fec": "H6GA04194"
+          },
+          "photo": {
+            "src": "/photos/manual/james-duffie.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jim_Duffie"
+            }
           }
         }
       ]
@@ -1124,6 +1164,14 @@
           },
           "ids": {
             "fec": "H4GA05063"
+          },
+          "photo": {
+            "src": "/photos/manual/john-salvesen.jpg",
+            "credit": "Branch",
+            "source": {
+              "label": "Branch",
+              "url": "https://www.branch.vote/questionnaire-response/66f2335967d12a20c62f7b13"
+            }
           }
         }
       ]
@@ -1209,6 +1257,14 @@
           },
           "ids": {
             "fec": "H6GA07221"
+          },
+          "photo": {
+            "src": "/photos/manual/anthony-kozycki.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Tony_Kozycki"
+            }
           }
         },
         {
@@ -1281,6 +1337,14 @@
           },
           "ids": {
             "fec": "H6GA08138"
+          },
+          "photo": {
+            "src": "/photos/manual/kelly-esti.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Kelly_Esti"
+            }
           }
         },
         {
@@ -1354,6 +1418,14 @@
           },
           "ids": {
             "fec": "H6GA09284"
+          },
+          "photo": {
+            "src": "/photos/manual/caitlyn-gegen.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Caitlyn_Gegen"
+            }
           }
         },
         {
@@ -1434,6 +1506,14 @@
           },
           "ids": {
             "fec": "H6GA10183"
+          },
+          "photo": {
+            "src": "/photos/manual/pamela-delancy.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Pamela_DeLancy"
+            }
           }
         },
         {
@@ -1488,6 +1568,14 @@
           },
           "ids": {
             "fec": "H6GA11116"
+          },
+          "photo": {
+            "src": "/photos/manual/chris-harden.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Chris_Harden"
+            }
           }
         },
         {
@@ -1523,6 +1611,14 @@
           },
           "ids": {
             "fec": "H0GA14048"
+          },
+          "photo": {
+            "src": "/photos/manual/john-cowan.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/John_Cowan"
+            }
           }
         }
       ],
@@ -1547,6 +1643,14 @@
           },
           "ids": {
             "fec": "H6GA12080"
+          },
+          "photo": {
+            "src": "/photos/manual/ceretta-smith.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Ceretta_Smith"
+            }
           }
         },
         {
@@ -1657,6 +1761,14 @@
           },
           "ids": {
             "fec": "H2GA04201"
+          },
+          "photo": {
+            "src": "/photos/manual/jonathan-chavez.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jonathan_Chavez"
+            }
           }
         }
       ],
@@ -1681,6 +1793,14 @@
           },
           "ids": {
             "fec": "H4GA14057"
+          },
+          "photo": {
+            "src": "/photos/manual/shawn-harris.jpg",
+            "credit": "GPB News",
+            "source": {
+              "label": "GPB News",
+              "url": "https://www.gpb.org/news/2026/04/08/analysis-democrat-shawn-harris-overperformed-in-14th-district-runoff-some-voters"
+            }
           }
         },
         {

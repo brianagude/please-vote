@@ -11,7 +11,7 @@ import PhotoCredits from "../../components/PhotoCredits.astro";
 import { orgName, usd } from "../../lib/money";
 import { loadVotes, personPages, sourced, statePath } from "../../lib/state";
 import { initials, partyName } from "../../lib/names";
-import { attendanceLine, countLine, ruleLine } from "../../lib/votes";
+import { attendanceLine, countLine, ruleLine, voteTopics } from "../../lib/votes";
 import type { Candidate, Source } from "../../lib/types";
 
 export function getStaticPaths() {
@@ -58,11 +58,8 @@ const hasRecord = !!record && Object.values(record).some(Boolean);
 // Votes, by topic: most votes first; "Other" and local laws at the end.
 const v = loadVotes(code, c.id);
 const summary = c.record?.votes;
-const groups = new Map<string, NonNullable<typeof v>["votes"]>();
-for (const x of v?.votes ?? []) for (const t of x.topics) groups.set(t, [...(groups.get(t) ?? []), x]);
+const topics = voteTopics(v?.votes ?? []);
 const multi = !!v?.votes.some((x) => x.topics.length > 1);
-const last = (t: string) => (/^Other|^Local/.test(t) ? 1 : 0);
-const topics = [...groups].sort((a, b) => last(a[0]) - last(b[0]) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
 
 const sections = [
   { id: "overview", label: "Overview" },
@@ -263,28 +260,17 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
               <div class="cell"><span class="lbl">Attendance</span><p>{attendanceLine(v.attendance)}</p></div>
             </div>
             <div class="row">
-              <div class="topics">
+              <div class="topics" data-votes={`/person/${c.id}/votes.json`}>
                 <span class="lbl">By topic</span>
                 {topics.map(([topic, list]) => (
-                  <details class="topic">
+                  <details class="topic" data-topic={topic}>
                     <summary>
                       <span class="tname">{topic}</span>
                       <span class="tcount">{list.length} {list.length === 1 ? "vote" : "votes"}</span>
                     </summary>
-                    <ul class="vlist">
-                      {list.map((x) => (
-                        <li>
-                          <div class="vmain">
-                            <span class="vmeta">{date(x.date)} · {x.chamber}{x.what !== "Passage" && ` · ${x.what}`}</span>
-                            <span>
-                              {x.url ? <a href={x.url} target="_blank" rel="noopener">{x.bill}</a> : x.bill}: {x.title}
-                            </span>
-                            <span class="vmeta">{x.passed ? "Passed" : "Didn't pass"}{x.law && " · Became law"}</span>
-                          </div>
-                          <span class="vcast"><span class="sr">Their vote: </span>{x.vote}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    {/* Filled in when opened, from votes.json (see the script below). */}
+                    <ul class="vlist"></ul>
+                    <noscript><p class="rnote pad">Turn on JavaScript to see each vote.</p></noscript>
                   </details>
                 ))}
               </div>
@@ -303,6 +289,33 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
       <p><a href={`${guide}#s3`}>← Back to the guide</a></p>
     </footer>
   </div>
+  <script>
+    // Vote lists load when a topic is first opened, so long records don't slow the page.
+    const box = document.querySelector<HTMLElement>("[data-votes]");
+    let data: Promise<{ topics: [string, any[][]][] }> | null = null;
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+    const day = (d: string) => new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    const row = ([date, chamber, what, bill, title, url, passed, law, vote]: any[]) =>
+      `<li><div class="vmain"><span class="vmeta">${day(date)} · ${esc(chamber)}${what !== "Passage" ? ` · ${esc(what)}` : ""}</span>` +
+      `<span>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(bill)}<span class="sr"> (opens in a new tab)</span></a>` : esc(bill)}: ${esc(title)}</span>` +
+      `<span class="vmeta">${passed ? "Passed" : "Didn't pass"}${law ? " · Became law" : ""}</span></div>` +
+      `<span class="vcast"><span class="sr">Their vote: </span>${esc(vote)}</span></li>`;
+    for (const d of document.querySelectorAll<HTMLDetailsElement>("details[data-topic]")) {
+      d.addEventListener("toggle", async () => {
+        const ul = d.querySelector("ul.vlist")!;
+        if (!d.open || ul.childElementCount) return;
+        ul.innerHTML = '<li class="vloading">Loading…</li>';
+        try {
+          data ??= fetch(box!.dataset.votes!).then((r) => r.json());
+          const list = (await data).topics.find(([t]) => t === d.dataset.topic)?.[1] ?? [];
+          ul.innerHTML = list.map(row).join("");
+        } catch {
+          ul.innerHTML = '<li class="vloading">Couldn\'t load the votes. Try again in a moment.</li>';
+          data = null;
+        }
+      });
+    }
+  </script>
   <script>
     // Show the slim name bar once the header is out of view.
     const bar = document.getElementById("pbar");

@@ -42,6 +42,14 @@
           "ids": {
             "wikipedia": "Kathy Hochul",
             "nysboe": "16851"
+          },
+          "photo": {
+            "src": "/photos/manual/kathy-c-hochul.jpg",
+            "credit": "Berkeley College",
+            "source": {
+              "label": "Berkeley College",
+              "url": "https://berkeleycollege.edu/newsroom/2020/09/we2020-khochulbio.html"
+            }
           }
         },
         {
@@ -146,6 +154,14 @@
           ],
           "ids": {
             "nysboe": "569719"
+          },
+          "photo": {
+            "src": "/photos/manual/joseph-hernandez.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Joseph_Hernandez_(New_York)"
+            }
           }
         }
       ]
@@ -208,6 +224,14 @@
           "ids": {
             "wikipedia": "Saritha Komatireddy",
             "nysboe": "580355"
+          },
+          "photo": {
+            "src": "/photos/manual/saritha-komatireddy.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Saritha_Komatireddy"
+            }
           }
         }
       ]
@@ -255,7 +279,15 @@
                 "url": "https://www.easthamptonstar.com/government/2026115/dems-turn-to-new-face-cd-1"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/christopher-j-gallant.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Christopher_Gallant"
+            }
+          }
         },
         {
           "id": "nicholas-j-lalota",
@@ -437,7 +469,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-4/candidates/jeanine-c-driscoll"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/jeanine-c-driscoll.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jeanine_Driscoll"
+            }
+          }
         },
         {
           "id": "blay-tarnoff",
@@ -469,7 +509,15 @@
                 "url": "https://lpny.org/candidate/2026-blay-tarnoff/"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/blay-tarnoff.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Blay_Tarnoff"
+            }
+          }
         }
       ]
     },
@@ -509,6 +557,14 @@
             "source": {
               "label": "Branch",
               "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-5/candidates/george-marsh"
+            }
+          },
+          "photo": {
+            "src": "/photos/manual/george-marsh.jpg",
+            "credit": "Queens Village Republican Club",
+            "source": {
+              "label": "Queens Village Republican Club",
+              "url": "https://qvgop.org/event/next-general-club-meeting-republican-candidates-night/"
             }
           }
         }
@@ -569,7 +625,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-6/candidates/joseph-chou"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/joseph-chou.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Joseph_Chou"
+            }
+          }
         }
       ]
     },
@@ -627,7 +691,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-7/candidates/melvin-rivera"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/melvin-rivera.jpg",
+            "credit": "Inside Elections",
+            "source": {
+              "label": "Inside Elections",
+              "url": "https://insideelections.com/person/melvin-rivera-manual/"
+            }
+          }
         },
         {
           "id": "priscilla-ghaznavi",
@@ -644,6 +716,14 @@
             "source": {
               "label": "Branch",
               "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-7/candidates/priscilla-ghaznavi"
+            }
+          },
+          "photo": {
+            "src": "/photos/manual/priscilla-ghaznavi.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Priscilla_Ghaznavi"
             }
           }
         }
@@ -695,7 +775,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-8/candidates/lewis-mizrahi"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/lewis-mizrahi.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Lewis_Mizrahi"
+            }
+          }
         }
       ]
     },
@@ -754,7 +842,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-9/candidates/joel-azumah"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/joel-azumah.jpg",
+            "credit": "iVoterGuide",
+            "source": {
+              "label": "iVoterGuide",
+              "url": "https://ivoterguide.com/candidate/32217/race/2157/election/626"
+            }
+          }
         }
       ]
     },
@@ -861,7 +957,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-11/candidates/mike-decillis"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/mike-decillis.jpg",
+            "credit": "DeCillis for Congress",
+            "source": {
+              "label": "DeCillis for Congress",
+              "url": "https://www.decillisforcongress.com/"
+            }
+          }
         },
         {
           "id": "nicole-malliotakis",
@@ -956,7 +1060,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/caroline-shinkle"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/caroline-shinkle.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Caroline_Shinkle"
+            }
+          }
         },
         {
           "id": "wilneida-negron",
@@ -983,7 +1095,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/wilneida-negron"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/wilneida-negron.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Wilneida_Negron"
+            }
+          }
         },
         {
           "id": "karen-ortiz",
@@ -1017,7 +1137,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-12/candidates/karen-ortiz"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/karen-ortiz.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Karen_Ortiz"
+            }
+          }
         }
       ]
     },
