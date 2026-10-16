@@ -59,7 +59,7 @@ export function allCandidates(d: StateData): Candidate[] {
   return [...Object.values(d.races.statewide), ...Object.values(d.races.house)].flatMap((r) => r.candidates);
 }
 
-/** Every person page on the site, with the race they're in. Used by the pages, /all/, and the sitemap. */
+/** Every person page on the site, with the race they're in. Used by the pages, /directory/, and the sitemap. */
 export function personPages() {
   // Only people with bills or votes get a page (see src/lib/votes.ts hasPage).
   const has = (c: Candidate) => !!(c.record?.bills || c.record?.votes);

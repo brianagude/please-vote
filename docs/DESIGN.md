@@ -120,6 +120,6 @@ Long official bill titles are a known issue; plain-language summaries (DECISIONS
 
 ## Other pages
 
-- **`/all/`:** every page on the site in a plain list: each state's guide, then every candidate page by state and race. Not in a menu; linked from each guide's footer ("Every page on this site") and from the 404 page.
-- **404 page** (`src/pages/404.astro`): "Nothing here", with a link to each state's guide and to `/all/`. Cloudflare serves it for any missing address (`not_found_handling: "404-page"`).
-- **SEO:** `/sitemap.xml` (built from the same list as `/all/`, with each state's "as of" date) and `/robots.txt` (everything allowed except `/api/`, pointing to the sitemap).
+- **`/directory/`:** every page on the site in a plain list: each state's guide, then every candidate page by state and race. Not in a menu; linked from each guide's footer ("Site directory") and from the 404 page.
+- **404 page** (`src/pages/404.astro`): "Nothing here", with a link to each state's guide and to `/directory/`. Cloudflare serves it for any missing address (`not_found_handling: "404-page"`).
+- **SEO:** `/sitemap.xml` (built from the same list as `/directory/`, with each state's "as of" date) and `/robots.txt` (everything allowed except `/api/`, pointing to the sitemap).
