@@ -55,6 +55,7 @@ The long-term goal: a place to check in any time, not just before one election.
   - Judicial races (State Supreme Court, Civil Court, Surrogate's Court, etc.).
   - Campaign money for Georgia's statewide candidates: Georgia's Ethics Commission has no API or download.
   - Outside spending in state races (super PACs spending on state candidates). The FEC only covers federal races.
+  - Kept anyway (owner, Oct 15): statewide ballot questions (the same for every voter in the state, checked against a sample ballot) and hand-written candidate bios (each line sourced). Certified candidate lists, dates, and office descriptions are core to the site.
 - **More for the person pages** (owner: maybe later):
   - All their committees, not just the ones where they hold a title.
   - Bills they co-signed (cosponsored).
