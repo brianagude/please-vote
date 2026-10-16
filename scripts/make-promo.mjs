@@ -45,6 +45,8 @@ body{width:${S.w}px;height:${S.h}px;background:#f2eee3 url("${noise}");color:#2b
 .shot{align-self:stretch}
 /* Screenshots already have the site's own border, so no second frame here. */
 .shot img{display:block;width:100%}
+/* In the square-ish feed post the ballot screenshot is narrower so the text clears the carousel dots; stories have room for full width. */
+.fmt-feed .ballot{width:82%}
 .dates{display:flex;flex-direction:column}
 .dates div{display:flex;justify-content:space-between;gap:20px;padding:20px 26px;border-top:2px solid #2b2824;font-size:38px}
 .dates div:first-child{border-top:0}
@@ -54,7 +56,7 @@ body{width:${S.w}px;height:${S.h}px;background:#f2eee3 url("${noise}");color:#2b
 .people.bottom{bottom:0;background-image:url('${strip("bottom")}');background-position:-520px 0}
 .dots{position:absolute;bottom:${S.people + 14}px;left:0;right:0;display:flex;justify-content:center;gap:12px}
 .dots i{width:14px;height:14px;border-radius:50%;border:2px solid #2b2824}.dots i.on{background:#2b2824}
-</style></head><body><div class="people top"></div><div class="people bottom"></div><div class="safe">${inner}</div></body></html>`;
+</style></head><body class="fmt-${S.h > 1500 ? "story" : "feed"}"><div class="people top"></div><div class="people bottom"></div><div class="safe">${inner}</div></body></html>`;
 
 const browser = await chromium.launch();
 async function render(S, html, file) {
@@ -114,19 +116,19 @@ if (kind === "added") {
   const slides = [
     `<span class="lbl">${esc(cfg.name)} · Nov 3, 2026</span>
      <h1 class="disp big">Know who's on your ballot</h1>
-     <p class="body">A free guide to every race on your ballot.</p>
+     <p class="body">A free guide to every race on your ballot for ${esc(cfg.name)}'s 2026 midterm elections.</p>
      <span class="urlbox">${esc(urlText)}</span>`,
     `<span class="step">01</span>
      <h2 class="disp mid">Mark your calendar</h2>
      <div class="sheet dates">${datesHtml}</div>
-     <p class="body soft">Polls are open ${esc(cfg.election.polls)} on Election Day.</p>`,
+     <p class="body soft">Polls are open ${esc(cfg.election.polls)}<br>on Election Day.</p>`,
     `<span class="step">02</span>
      <h2 class="disp mid">Type in your address</h2>
      <div class="shot"><img src="${form}"></div>
      <p class="body">The site finds your districts and shows only the races on <i>your</i> ballot.</p>`,
     `<span class="step">03</span>
      <h2 class="disp mid">See who's running</h2>
-     <div class="shot" style="width:82%"><img src="${ballot}"></div>
+     <div class="shot ballot"><img src="${ballot}"></div>
      <p class="body">Open a section to see what each office does, and every candidate running for it.</p>`,
     `<span class="step">04</span>
      <h2 class="disp mid">Check their record</h2>
