@@ -897,15 +897,15 @@
     }
   },
   "mike-collins": {
-    "raised": 7471304.01,
-    "spent": 6015387.55,
-    "cashOnHand": 2059087,
-    "fromIndividuals": 4456092.99,
-    "fromPACs": 495631.55,
+    "raised": 10249716.29,
+    "spent": 9693572.36,
+    "cashOnHand": 1159314.47,
+    "fromIndividuals": 6674984.41,
+    "fromPACs": 660574.59,
     "fromParty": 0,
     "fromSelf": 65000,
-    "donations": 5016724.54,
-    "transfersIn": 2437476.23,
+    "donations": 7400559,
+    "transfersIn": 2805712.44,
     "pacs": [
       {
         "name": "SENATE CONSERVATIVES FUND",
@@ -1582,14 +1582,14 @@
     }
   },
   "jim-kingston": {
-    "raised": 1944528.39,
-    "spent": 1650435.78,
-    "cashOnHand": 294092.61,
-    "fromIndividuals": 1742078.39,
-    "fromPACs": 202450,
+    "raised": 2301848.34,
+    "spent": 1902288.6,
+    "cashOnHand": 399559.74,
+    "fromIndividuals": 1906823.39,
+    "fromPACs": 394950,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1944528.39,
+    "donations": 2301773.39,
     "transfersIn": 0,
     "pacs": [
       {
@@ -1904,22 +1904,22 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-04-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA01109/?cycle=2026&election_full=true"
     }
   },
   "sanford-d-bishop-jr": {
-    "raised": 1126529.96,
-    "spent": 861582.99,
-    "cashOnHand": 447807.95,
-    "fromIndividuals": 377718.14,
-    "fromPACs": 738750.01,
+    "raised": 1309237.48,
+    "spent": 1103208.52,
+    "cashOnHand": 388889.94,
+    "fromIndividuals": 435425.66,
+    "fromPACs": 860250.01,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1116468.15,
-    "transfersIn": 3500,
+    "donations": 1295675.67,
+    "transfersIn": 7000,
     "pacs": [
       {
         "name": "AFLAC POLITICAL ACTION COMMITTEE (AFLAC PAC)",
@@ -2850,7 +2850,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H2GA02031/?cycle=2026&election_full=true"
@@ -2877,14 +2877,14 @@
     }
   },
   "maura-keller": {
-    "raised": 150513.84,
-    "spent": 65893.8,
-    "cashOnHand": 87575.61,
-    "fromIndividuals": 141513.84,
-    "fromPACs": 9000,
+    "raised": 237865.68,
+    "spent": 126058.76,
+    "cashOnHand": 114762.49,
+    "fromIndividuals": 227865.68,
+    "fromPACs": 10000,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 150513.84,
+    "donations": 237865.68,
     "transfersIn": 0,
     "pacs": [
       {
@@ -2896,22 +2896,22 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4GA03100/?cycle=2026&election_full=true"
     }
   },
   "brian-jack": {
-    "raised": 2045912.87,
-    "spent": 1143464.28,
-    "cashOnHand": 1142624.92,
-    "fromIndividuals": 879476.19,
-    "fromPACs": 836639.53,
+    "raised": 2408372.54,
+    "spent": 1436115.06,
+    "cashOnHand": 1212291.17,
+    "fromIndividuals": 1023090.31,
+    "fromPACs": 1002639.53,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1716115.72,
-    "transfersIn": 322297.15,
+    "donations": 2025729.84,
+    "transfersIn": 375142.7,
     "pacs": [
       {
         "name": "MAJORITY COMMITTEE PAC",
@@ -4201,21 +4201,21 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4GA03126/?cycle=2026&election_full=true"
     }
   },
   "henry-c-johnson-jr": {
-    "raised": 402314.84,
-    "spent": 396085.24,
-    "cashOnHand": 117905.6,
-    "fromIndividuals": 77702.5,
-    "fromPACs": 316750,
+    "raised": 494345.1,
+    "spent": 461352.93,
+    "cashOnHand": 144668.17,
+    "fromIndividuals": 100613,
+    "fromPACs": 384750,
     "fromParty": 779.17,
     "fromSelf": 0,
-    "donations": 395231.67,
+    "donations": 486142.17,
     "transfersIn": 0,
     "pacs": [
       {
@@ -4737,7 +4737,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA04129/?cycle=2026&election_full=true"
@@ -5390,14 +5390,14 @@
     }
   },
   "lucy-mcbath": {
-    "raised": 896855.83,
-    "spent": 1173781.4,
-    "cashOnHand": 676348.88,
-    "fromIndividuals": 533440.41,
-    "fromPACs": 343437.48,
+    "raised": 1150020.48,
+    "spent": 1449475.43,
+    "cashOnHand": 653819.5,
+    "fromIndividuals": 675302.54,
+    "fromPACs": 452937.48,
     "fromParty": 779.17,
     "fromSelf": 0,
-    "donations": 877657.06,
+    "donations": 1129019.19,
     "transfersIn": 0,
     "pacs": [
       {
@@ -5979,7 +5979,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H8GA06393/?cycle=2026&election_full=true"
@@ -6026,15 +6026,15 @@
     }
   },
   "richard-mccormick": {
-    "raised": 1642412.73,
-    "spent": 1332251.26,
-    "cashOnHand": 1007984.38,
-    "fromIndividuals": 382097.92,
-    "fromPACs": 435500,
+    "raised": 2160872.99,
+    "spent": 1541006.17,
+    "cashOnHand": 1317689.73,
+    "fromIndividuals": 457918.95,
+    "fromPACs": 542000,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 817597.92,
-    "transfersIn": 747019.83,
+    "donations": 999918.95,
+    "transfersIn": 1074732.49,
     "pacs": [
       {
         "name": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
@@ -6645,41 +6645,41 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0GA07273/?cycle=2026&election_full=true"
     }
   },
   "kelly-esti": {
-    "raised": 19342.58,
-    "spent": 24002.84,
-    "cashOnHand": 1687.58,
-    "fromIndividuals": 18342.58,
+    "raised": 27962.9,
+    "spent": 28913.89,
+    "cashOnHand": 3709.27,
+    "fromIndividuals": 20962.9,
     "fromPACs": 0,
     "fromParty": 0,
-    "fromSelf": 1000,
-    "donations": 19342.58,
+    "fromSelf": 7000,
+    "donations": 27962.9,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2026-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA08138/?cycle=2026&election_full=true"
     }
   },
   "austin-scott": {
-    "raised": 1124951.95,
-    "spent": 755665.34,
-    "cashOnHand": 1349452.16,
-    "fromIndividuals": 386901.05,
-    "fromPACs": 703250,
+    "raised": 1408555.71,
+    "spent": 972368.64,
+    "cashOnHand": 1416352.62,
+    "fromIndividuals": 491591.4,
+    "fromPACs": 876750,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1090151.05,
+    "donations": 1368341.4,
     "transfersIn": 0,
     "pacs": [
       {
@@ -7538,7 +7538,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0GA08099/?cycle=2026&election_full=true"
@@ -7565,14 +7565,14 @@
     }
   },
   "andrew-s-clyde": {
-    "raised": 671072.43,
-    "spent": 590803.96,
-    "cashOnHand": 176252.58,
-    "fromIndividuals": 552361.46,
-    "fromPACs": 118710.97,
+    "raised": 728208.43,
+    "spent": 671071.65,
+    "cashOnHand": 153120.89,
+    "fromIndividuals": 587997.46,
+    "fromPACs": 140210.97,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 671072.43,
+    "donations": 728208.43,
     "transfersIn": 0,
     "pacs": [
       {
@@ -7764,42 +7764,42 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0GA09246/?cycle=2026&election_full=true"
     }
   },
   "pamela-delancy": {
-    "raised": 23080,
-    "spent": 11121.45,
-    "cashOnHand": 8705,
-    "fromIndividuals": 15480,
+    "raised": 77054.2,
+    "spent": 41602.38,
+    "cashOnHand": 58493.27,
+    "fromIndividuals": 69179.2,
     "fromPACs": 0,
-    "fromParty": 0,
+    "fromParty": 275,
     "fromSelf": 7600,
-    "donations": 15980,
+    "donations": 69954.2,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2026-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA10183/?cycle=2026&election_full=true"
     }
   },
   "houston-gaines": {
-    "raised": 2303879.9,
-    "spent": 1600460.26,
-    "cashOnHand": 703419.64,
-    "fromIndividuals": 2051172,
-    "fromPACs": 214510.25,
+    "raised": 2744323.92,
+    "spent": 1734193.27,
+    "cashOnHand": 1010130.65,
+    "fromIndividuals": 2277481.97,
+    "fromPACs": 347010.25,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 2265682.25,
-    "transfersIn": 15471.21,
+    "donations": 2624492.22,
+    "transfersIn": 92079.4,
     "pacs": [
       {
         "name": "AMERICAN REVIVAL PAC",
@@ -8125,21 +8125,21 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA10175/?cycle=2026&election_full=true"
     }
   },
   "chris-harden": {
-    "raised": 74664.25,
-    "spent": 72427.09,
-    "cashOnHand": 2237.16,
-    "fromIndividuals": 72577.25,
-    "fromPACs": 2000,
+    "raised": 128402.15,
+    "spent": 115159.79,
+    "cashOnHand": 13242.36,
+    "fromIndividuals": 123315.15,
+    "fromPACs": 5000,
     "fromParty": 0,
     "fromSelf": 87,
-    "donations": 74577.25,
+    "donations": 128315.15,
     "transfersIn": 0,
     "pacs": [
       {
@@ -8151,22 +8151,22 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA11116/?cycle=2026&election_full=true"
     }
   },
   "john-cowan": {
-    "raised": 2347796.21,
-    "spent": 2330166.55,
-    "cashOnHand": 17629.66,
-    "fromIndividuals": 464917.88,
-    "fromPACs": 120000,
+    "raised": 2786282.02,
+    "spent": 2520427.68,
+    "cashOnHand": 265854.34,
+    "fromIndividuals": 613241.33,
+    "fromPACs": 299000,
     "fromParty": 0,
     "fromSelf": 1750020,
-    "donations": 584917.88,
-    "transfersIn": 12833.33,
+    "donations": 912241.33,
+    "transfersIn": 123995.69,
     "pacs": [
       {
         "name": "AMERICAN ASSOCIATION OF NEUROLOGICAL SURGEONS PAC (NEUROSURGERYPAC)",
@@ -8313,27 +8313,27 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2026-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0GA14048/?cycle=2026&election_full=true"
     }
   },
   "ceretta-smith": {
-    "raised": 26695.6,
-    "spent": 23290.75,
-    "cashOnHand": 3502.42,
-    "fromIndividuals": 24942.73,
-    "fromPACs": 0,
+    "raised": 44713.16,
+    "spent": 34210.17,
+    "cashOnHand": 10600.56,
+    "fromIndividuals": 37960.29,
+    "fromPACs": 5000,
     "fromParty": 0,
     "fromSelf": 1752.87,
-    "donations": 26695.6,
+    "donations": 44713.16,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA12080/?cycle=2026&election_full=true"
@@ -8353,6 +8353,26 @@
       {
         "name": "AFLAC INCORPORATED PAC",
         "id": "C00034157",
+        "amount": 10000
+      },
+      {
+        "name": "NATIONAL AUTOMOBILE DEALERS ASSOCIATION POLITICAL ACTION COMMITTEE (NADA PAC)",
+        "id": "C00040998",
+        "amount": 10000
+      },
+      {
+        "name": "THE HOME DEPOT INC. POLITICAL ACTION COMMITTEE",
+        "id": "C00284885",
+        "amount": 10000
+      },
+      {
+        "name": "ASSOCIATED BUILDERS & CONTRACTORS PAC",
+        "id": "C00010421",
+        "amount": 10000
+      },
+      {
+        "name": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE PAC",
+        "id": "C00797670",
         "amount": 10000
       },
       {
@@ -8386,9 +8406,39 @@
         "amount": 10000
       },
       {
+        "name": "KOCH INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (KOCHPAC)",
+        "id": "C00236489",
+        "amount": 10000
+      },
+      {
+        "name": "BRETTPAC",
+        "id": "C00483487",
+        "amount": 10000
+      },
+      {
+        "name": "DELTA AIRLINES POLITICAL ACTION COMMITTEE",
+        "id": "C00104802",
+        "amount": 10000
+      },
+      {
+        "name": "INSURED RETIREMENT INSTITUTE PAC (IRI PAC)",
+        "id": "C00490474",
+        "amount": 10000
+      },
+      {
+        "name": "AMERICAN INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS PAC (AICPA PAC)",
+        "id": "C00077321",
+        "amount": 10000
+      },
+      {
         "name": "TEXTRON INC. POLITICAL ACTION COMMITTEE",
         "id": "C00123612",
         "amount": 9500
+      },
+      {
+        "name": "NATIONAL ASSOCIATION OF REALTORS PAC (RPAC)",
+        "id": "C00030718",
+        "amount": 9000
       },
       {
         "name": "T-MOBILE POLITICAL ACTION COMMITTEE (T-PAC)",
@@ -8396,13 +8446,18 @@
         "amount": 9000
       },
       {
+        "name": "CTIA - THE WIRELESS ASSOCIATION PAC",
+        "id": "C00262295",
+        "amount": 8500
+      },
+      {
         "name": "AT&T INC. FEDERAL PAC",
         "id": "C00109017",
         "amount": 8000
       },
       {
-        "name": "THE HOME DEPOT INC. POLITICAL ACTION COMMITTEE",
-        "id": "C00284885",
+        "name": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION PAC (SKINPAC)",
+        "id": "C00359539",
         "amount": 7500
       },
       {
@@ -8416,16 +8471,6 @@
         "amount": 7500
       },
       {
-        "name": "BRETTPAC",
-        "id": "C00483487",
-        "amount": 7500
-      },
-      {
-        "name": "DELTA AIRLINES POLITICAL ACTION COMMITTEE",
-        "id": "C00104802",
-        "amount": 7500
-      },
-      {
         "name": "NATIONAL ELECTRICAL CONTRACTORS ASSOCIATION, PAC",
         "id": "C00113811",
         "amount": 7500
@@ -8436,23 +8481,18 @@
         "amount": 7500
       },
       {
-        "name": "INSURED RETIREMENT INSTITUTE PAC (IRI PAC)",
-        "id": "C00490474",
-        "amount": 7500
-      },
-      {
         "name": "NATIONAL COMMUNITY PHARMACISTS ASSOCIATION POLITICAL ACTION COMMITTEE",
         "id": "C00030809",
         "amount": 7500
       },
       {
-        "name": "KOCH INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (KOCHPAC)",
-        "id": "C00236489",
+        "name": "LIBERTY MUTUAL INSURANCE CO POLITICAL ACTION COMMITTEE",
+        "id": "C00171843",
         "amount": 7000
       },
       {
-        "name": "LIBERTY MUTUAL INSURANCE CO POLITICAL ACTION COMMITTEE",
-        "id": "C00171843",
+        "name": "AMERICAN OPTOMETRIC ASSOCIATION POLITICAL ACTION COMMITTEE (AOA-PAC)",
+        "id": "C00024968",
         "amount": 7000
       },
       {
@@ -8466,13 +8506,28 @@
         "amount": 6000
       },
       {
+        "name": "BAKER-HOSTETLER PAC",
+        "id": "C00174227",
+        "amount": 5500
+      },
+      {
+        "name": "NATIONAL BEER WHOLESALERS ASSOCIATION PAC (NBWA PAC)",
+        "id": "C00144766",
+        "amount": 5500
+      },
+      {
         "name": "AMERICAN COUNCIL OF ENGINEERING COMPANIES (ACEC PAC)",
         "id": "C00010868",
         "amount": 5500
       },
       {
-        "name": "NATIONAL AUTOMOBILE DEALERS ASSOCIATION POLITICAL ACTION COMMITTEE (NADA PAC)",
-        "id": "C00040998",
+        "name": "THE LOOSE GROUP",
+        "id": "C00010793",
+        "amount": 5000
+      },
+      {
+        "name": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+        "id": "C00411116",
         "amount": 5000
       },
       {
@@ -8486,18 +8541,8 @@
         "amount": 5000
       },
       {
-        "name": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE PAC",
-        "id": "C00797670",
-        "amount": 5000
-      },
-      {
         "name": "ASSOCIATION OF KENTUCKY FRIED CHICKEN FRANCHISEES POLITICAL ACTION COMMITTEE",
         "id": "C00412098",
-        "amount": 5000
-      },
-      {
-        "name": "ASSOCIATED BUILDERS & CONTRACTORS PAC",
-        "id": "C00010421",
         "amount": 5000
       },
       {
@@ -8526,6 +8571,11 @@
         "amount": 5000
       },
       {
+        "name": "BWX TECHNOLOGIES, INC. POLITICAL ACTION COMMITTEE",
+        "id": "C00365502",
+        "amount": 5000
+      },
+      {
         "name": "AGC POLITICAL ACTION COMMITTEE",
         "id": "C00082917",
         "amount": 5000
@@ -8546,18 +8596,13 @@
         "amount": 5000
       },
       {
-        "name": "AMERICAN INSTITUTE OF CERTIFIED PUBLIC ACCOUNTANTS PAC (AICPA PAC)",
-        "id": "C00077321",
-        "amount": 5000
-      },
-      {
         "name": "PRIMERICA POLITICAL ACTION COMMITTEE",
         "id": "C00521914",
         "amount": 5000
       },
       {
-        "name": "AMERICAN OPTOMETRIC ASSOCIATION POLITICAL ACTION COMMITTEE (AOA-PAC)",
-        "id": "C00024968",
+        "name": "WAL-MART STORES, INC. POLITICAL ACTION COMMITTEE FOR RESPONSIBLE GOVERNMENT (WALPAC)",
+        "id": "C00093054",
         "amount": 4500
       },
       {
@@ -8566,8 +8611,13 @@
         "amount": 4000
       },
       {
-        "name": "NATIONAL ASSOCIATION OF REALTORS PAC (RPAC)",
-        "id": "C00030718",
+        "name": "AMERICAN BAKERS ASSOCIATION AMERICAN BAKERS PAC",
+        "id": "C00016386",
+        "amount": 4000
+      },
+      {
+        "name": "AMERICAN BANKERS ASSOCIATION PAC (BANKPAC)",
+        "id": "C00004275",
         "amount": 4000
       },
       {
@@ -8591,6 +8641,11 @@
         "amount": 3500
       },
       {
+        "name": "UPSPAC",
+        "id": "C00064766",
+        "amount": 3500
+      },
+      {
         "name": "AMERIPRISE FINANCIAL POLITICAL ACTION COMMITTEE",
         "id": "C00414474",
         "amount": 3500
@@ -8598,11 +8653,6 @@
       {
         "name": "COMPETITIVE CARRIERS ASSOCIATION PAC (CCA PAC)",
         "id": "C00490698",
-        "amount": 3500
-      },
-      {
-        "name": "CTIA - THE WIRELESS ASSOCIATION PAC",
-        "id": "C00262295",
         "amount": 3500
       },
       {
@@ -8616,8 +8666,18 @@
         "amount": 3500
       },
       {
+        "name": "JOBS, ENERGY AND OUR FOUNDING FATHERS PAC",
+        "id": "C00516724",
+        "amount": 3000
+      },
+      {
         "name": "AMERICAN SUGAR CANE LEAGUE POLITICAL ACTION COMMITTEE",
         "id": "C00081414",
+        "amount": 3000
+      },
+      {
+        "name": "THE COCA-COLA COMPANY NONPARTISAN COMMITTEE FOR GOOD GOVERNMENT",
+        "id": "C00012468",
         "amount": 3000
       },
       {
@@ -8626,23 +8686,18 @@
         "amount": 3000
       },
       {
-        "name": "AMERICAN BANKERS ASSOCIATION PAC (BANKPAC)",
-        "id": "C00004275",
+        "name": "JOHNSON & JOHNSON PAC",
+        "id": "C00010983",
         "amount": 3000
-      },
-      {
-        "name": "NATIONAL BEER WHOLESALERS ASSOCIATION PAC (NBWA PAC)",
-        "id": "C00144766",
-        "amount": 3000
-      },
-      {
-        "name": "BAKER & HOSTETLER PAC",
-        "id": "C00174227",
-        "amount": 2500
       },
       {
         "name": "UNITED HEALTH SERVICES PAC, INC.",
         "id": "C00400135",
+        "amount": 2500
+      },
+      {
+        "name": "MILLIKEN & COMPANY PAC",
+        "id": "C00697375",
         "amount": 2500
       },
       {
@@ -8653,11 +8708,6 @@
       {
         "name": "NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION PAC (NEMA PAC)",
         "id": "C00331173",
-        "amount": 2500
-      },
-      {
-        "name": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION PAC (SKINPAC)",
-        "id": "C00359539",
         "amount": 2500
       },
       {
@@ -8731,6 +8781,16 @@
         "amount": 2500
       },
       {
+        "name": "PHILLIPS 66 PAC",
+        "id": "C00513549",
+        "amount": 2500
+      },
+      {
+        "name": "ENERGY MARKETERS OF AMERICA SMALL BUSINESS COMMITTEE PAC (EMA SBC PAC)",
+        "id": "C00035204",
+        "amount": 2500
+      },
+      {
         "name": "AMERICAN COUNCIL OF LIFE INSURERS PAC",
         "id": "C00147066",
         "amount": 2500
@@ -8746,8 +8806,28 @@
         "amount": 2500
       },
       {
+        "name": "AMERICAN HOTEL AND LODGING ASSOCIATION PAC ('HOTELPAC')",
+        "id": "C00001198",
+        "amount": 2500
+      },
+      {
+        "name": "NFIB FEDERAL POLITICAL ACTION COMMITTEE",
+        "id": "C00101105",
+        "amount": 2500
+      },
+      {
         "name": "ENTERGY CORPORATION EMPLOYEE PAC (ENPAC)",
         "id": "C00363879",
+        "amount": 2000
+      },
+      {
+        "name": "AMERICAN CLEANING INSTITUTE PAC",
+        "id": "C00652537",
+        "amount": 2000
+      },
+      {
+        "name": "NATERA, INC. PAC (NATERA PAC)",
+        "id": "C00897355",
         "amount": 2000
       },
       {
@@ -8811,8 +8891,28 @@
         "amount": 2000
       },
       {
-        "name": "NFIB FEDERAL POLITICAL ACTION COMMITTEE",
-        "id": "C00101105",
+        "name": "FGS GLOBAL (US) LLC PAC",
+        "id": "C00466094",
+        "amount": 2000
+      },
+      {
+        "name": "BALCH AND BINGHAM LLP FEDERAL POLITICAL COMMITTEE",
+        "id": "C00358440",
+        "amount": 2000
+      },
+      {
+        "name": "ABBVIE PAC",
+        "id": "C00536573",
+        "amount": 2000
+      },
+      {
+        "name": "AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE",
+        "id": "C00000422",
+        "amount": 2000
+      },
+      {
+        "name": "TYSON FOODS INC PAC (TYPAC)",
+        "id": "C00169821",
         "amount": 2000
       },
       {
@@ -8826,11 +8926,6 @@
         "amount": 2000
       },
       {
-        "name": "WAL-MART STORES, INC. POLITICAL ACTION COMMITTEE FOR RESPONSIBLE GOVERNMENT (WALPAC)",
-        "id": "C00093054",
-        "amount": 2000
-      },
-      {
         "name": "GILEAD SCIENCES INC HEALTHCARE POLICY PAC",
         "id": "C00396895",
         "amount": 2000
@@ -8838,11 +8933,6 @@
       {
         "name": "NRA-POLITICAL VICTORY FUND",
         "id": "C00053553",
-        "amount": 2000
-      },
-      {
-        "name": "AMERICAN BAKERS ASSOCIATION AMERICAN BAKERS PAC",
-        "id": "C00016386",
         "amount": 2000
       },
       {
@@ -8876,11 +8966,6 @@
         "amount": 1500
       },
       {
-        "name": "JOHNSON & JOHNSON PAC",
-        "id": "C00010983",
-        "amount": 1500
-      },
-      {
         "name": "AMERICAN COLLEGE OF RADIOLOGY ASSOCIATION PAC",
         "id": "C00343459",
         "amount": 1500
@@ -8891,33 +8976,13 @@
         "amount": 1500
       },
       {
-        "name": "AMERICAN HOTEL AND LODGING ASSOCIATION PAC ('HOTELPAC')",
-        "id": "C00001198",
-        "amount": 1500
-      },
-      {
         "name": "NOVARTIS CORPORATION PAC",
         "id": "C00033969",
         "amount": 1500
       },
       {
-        "name": "BWX TECHNOLOGIES, INC. POLITICAL ACTION COMMITTEE",
-        "id": "C00365502",
-        "amount": 1000
-      },
-      {
-        "name": "UPSPAC",
-        "id": "C00064766",
-        "amount": 1000
-      },
-      {
         "name": "THE BOEING COMPANY POLITICAL ACTION COMMITTEE",
         "id": "C00142711",
-        "amount": 1000
-      },
-      {
-        "name": "BALCH AND BINGHAM LLP FEDERAL POLITICAL COMMITTEE",
-        "id": "C00358440",
         "amount": 1000
       },
       {
@@ -8931,23 +8996,53 @@
         "amount": 1000
       },
       {
-        "name": "ABBVIE PAC",
-        "id": "C00536573",
-        "amount": 1000
-      },
-      {
         "name": "SQUIRE PATTON BOGGS POLITICAL ACTION COMMITTEE",
         "id": "C00401083",
         "amount": 1000
       },
       {
-        "name": "THRIVENT FINANCIAL FOR LUTHERANS PAC",
-        "id": "C00121319",
+        "name": "AIR CONDITIONING CONTRACTORS OF AMERICA PAC",
+        "id": "C00100974",
         "amount": 1000
       },
       {
-        "name": "ENERGY MARKETERS OF AMERICA SMALL BUSINESS COMMITTEE PAC (EMA SBC PAC)",
-        "id": "C00035204",
+        "name": "HEARTDOCPAC",
+        "id": "C00523381",
+        "amount": 1000
+      },
+      {
+        "name": "FMR LLC PAC - FEDERAL (FIDELITY PAC)",
+        "id": "C00380550",
+        "amount": 1000
+      },
+      {
+        "name": "NEXSTAR MEDIA GROUP, INC. PAC (NEXSTAR PAC)",
+        "id": "C00567388",
+        "amount": 1000
+      },
+      {
+        "name": "INVESCO HOLDING COMPANY (US), INC. EMPLOYEE PAC",
+        "id": "C00253369",
+        "amount": 1000
+      },
+      {
+        "name": "SANOFI US SERVICES INC. EMPLOYEES' PAC",
+        "id": "C00144345",
+        "amount": 1000
+      },
+      {
+        "name": "NATIONAL FISHERIES INSTITUTE (FISHPAC)",
+        "id": "C00101204",
+        "amount": 1000
+      },
+      {
+        "name": "ELEVANCE HEALTH, INC. PAC (ELEVANCE HEALTH PAC)",
+        "id": "C00197228",
+        "amount": 1000
+      },
+      {
+        "name": "THRIVENT FINANCIAL FOR LUTHERANS PAC",
+        "id": "C00121319",
         "amount": 1000
       },
       {
@@ -8991,11 +9086,6 @@
         "amount": 1000
       },
       {
-        "name": "PHILLIPS 66 PAC",
-        "id": "C00513549",
-        "amount": 1000
-      },
-      {
         "name": "GEORGIA MINING ASSOCIATION POLITICAL ACTION COMMITTEE",
         "id": "C00100289",
         "amount": 1000
@@ -9003,11 +9093,6 @@
       {
         "name": "POWERPAC OF THE EDISON ELECTRIC INSTITUTE",
         "id": "C00095869",
-        "amount": 1000
-      },
-      {
-        "name": "THE COCA-COLA COMPANY NONPARTISAN COMMITTEE FOR GOOD GOVERNMENT",
-        "id": "C00012468",
         "amount": 1000
       },
       {
@@ -9071,18 +9156,8 @@
         "amount": 1000
       },
       {
-        "name": "AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE",
-        "id": "C00000422",
-        "amount": 1000
-      },
-      {
         "name": "THOROUGHBRED PAC",
         "id": "C00425439",
-        "amount": 1000
-      },
-      {
-        "name": "TYSON FOODS INC PAC (TYPAC)",
-        "id": "C00169821",
         "amount": 1000
       },
       {
@@ -9161,11 +9236,6 @@
         "amount": 500
       },
       {
-        "name": "FGS GLOBAL (US) LLC PAC",
-        "id": "C00466094",
-        "amount": 500
-      },
-      {
         "name": "SHEEDER LEADERSHIP COMMITTEE",
         "id": "C00711051",
         "amount": 500
@@ -9186,14 +9256,14 @@
     }
   },
   "jasmine-clark": {
-    "raised": 1619079.3,
-    "spent": 1389934.64,
-    "cashOnHand": 229144.66,
-    "fromIndividuals": 1562231.39,
-    "fromPACs": 55173.18,
+    "raised": 2308127.41,
+    "spent": 1926415.68,
+    "cashOnHand": 381711.73,
+    "fromIndividuals": 2190890.86,
+    "fromPACs": 115273.18,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1617404.57,
+    "donations": 2306164.04,
     "transfersIn": 0,
     "pacs": [
       {
@@ -9310,21 +9380,21 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-06-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA13070/?cycle=2026&election_full=true"
     }
   },
   "shawn-harris": {
-    "raised": 8098513.75,
-    "spent": 8080283.63,
-    "cashOnHand": 18230.12,
-    "fromIndividuals": 8084825.57,
-    "fromPACs": 13688.18,
+    "raised": 8381978.2,
+    "spent": 8325531.68,
+    "cashOnHand": 56446.52,
+    "fromIndividuals": 8368040.02,
+    "fromPACs": 13938.18,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 8098513.75,
+    "donations": 8381978.2,
     "transfersIn": 0,
     "pacs": [
       {
@@ -9364,22 +9434,22 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-04-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4GA14057/?cycle=2026&election_full=true"
     }
   },
   "clay-fuller": {
-    "raised": 1846892.29,
-    "spent": 1776374.19,
-    "cashOnHand": 70518.1,
-    "fromIndividuals": 1080792.2,
-    "fromPACs": 305480.74,
+    "raised": 2088582.67,
+    "spent": 1891141.55,
+    "cashOnHand": 197441.12,
+    "fromIndividuals": 1225468.87,
+    "fromPACs": 368080.74,
     "fromParty": 0,
     "fromSelf": 450000,
-    "donations": 1386272.94,
-    "transfersIn": 10619.35,
+    "donations": 1593549.61,
+    "transfersIn": 45033.06,
     "pacs": [
       {
         "name": "THE GUARDIAN FUND",
@@ -9780,7 +9850,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-10-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0GA14030/?cycle=2026&election_full=true"

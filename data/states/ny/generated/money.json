@@ -1168,15 +1168,15 @@
     }
   },
   "patrick-halpin": {
-    "raised": 461848.14,
-    "spent": 372439.66,
-    "cashOnHand": 89408.48,
-    "fromIndividuals": 444898.14,
+    "raised": 576578.04,
+    "spent": 530425.3,
+    "cashOnHand": 46152.74,
+    "fromIndividuals": 546128.04,
     "fromPACs": 9950,
     "fromParty": 0,
     "fromSelf": 7000,
-    "donations": 461848.14,
-    "transfersIn": 0,
+    "donations": 563078.04,
+    "transfersIn": 13500,
     "pacs": [
       {
         "name": "DEMOCRACY SUMMER LEADERSHIP PAC",
@@ -1187,7 +1187,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-07-15",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY02140/?cycle=2026&election_full=true"
@@ -3365,15 +3365,15 @@
     }
   },
   "thomas-r-suozzi": {
-    "raised": 5456697.74,
-    "spent": 1811088.67,
-    "cashOnHand": 5679950.24,
-    "fromIndividuals": 3675610.56,
-    "fromPACs": 1579043.69,
-    "fromParty": 4999.13,
+    "raised": 7157707.68,
+    "spent": 4204206.64,
+    "cashOnHand": 4987842.21,
+    "fromIndividuals": 4784999.89,
+    "fromPACs": 1956569.69,
+    "fromParty": 5175.74,
     "fromSelf": 0,
-    "donations": 5259653.38,
-    "transfersIn": 196937.6,
+    "donations": 6746745.32,
+    "transfersIn": 229233.42,
     "pacs": [
       {
         "name": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE",
@@ -5425,22 +5425,22 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY03247/?cycle=2026&election_full=true"
     }
   },
   "michael-j-lipetri-jr": {
-    "raised": 1666542.06,
-    "spent": 959805.52,
-    "cashOnHand": 723056.14,
-    "fromIndividuals": 461044.19,
-    "fromPACs": 201300,
+    "raised": 2315701.64,
+    "spent": 1414316.43,
+    "cashOnHand": 917704.81,
+    "fromIndividuals": 788177.42,
+    "fromPACs": 299800,
     "fromParty": 8200,
     "fromSelf": 0,
-    "donations": 670544.19,
-    "transfersIn": 994148.29,
+    "donations": 1096177.42,
+    "transfersIn": 1217674.64,
     "pacs": [
       {
         "name": "THE EYE OF THE TIGER PAC",
@@ -5625,15 +5625,15 @@
     }
   },
   "laura-a-gillen": {
-    "raised": 5097222.15,
-    "spent": 1276601.72,
-    "cashOnHand": 3843823.75,
-    "fromIndividuals": 3004110.1,
-    "fromPACs": 1027036.67,
-    "fromParty": 5022.48,
+    "raised": 6021060.81,
+    "spent": 2103344.21,
+    "cashOnHand": 3940919.92,
+    "fromIndividuals": 3629309.53,
+    "fromPACs": 1270786.67,
+    "fromParty": 5634.19,
     "fromSelf": 0,
-    "donations": 4036169.25,
-    "transfersIn": 1015446.56,
+    "donations": 4905730.39,
+    "transfersIn": 1065305.44,
     "pacs": [
       {
         "name": "ALLIED PILOTS ASSOCIATION POLITICAL ACTION COMMITTEE",
@@ -7053,22 +7053,22 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H2NY04244/?cycle=2026&election_full=true"
     }
   },
   "jeanine-c-driscoll": {
-    "raised": 264824.04,
-    "spent": 38549.98,
-    "cashOnHand": 226274.06,
-    "fromIndividuals": 71913.27,
-    "fromPACs": 66250,
-    "fromParty": 0,
+    "raised": 664551.92,
+    "spent": 393668.04,
+    "cashOnHand": 270883.88,
+    "fromIndividuals": 133791.09,
+    "fromPACs": 190409.87,
+    "fromParty": 5000,
     "fromSelf": 0,
-    "donations": 138163.27,
-    "transfersIn": 126660.77,
+    "donations": 329200.96,
+    "transfersIn": 335095.66,
     "pacs": [
       {
         "name": "FIGHT ON PAC",
@@ -7104,7 +7104,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2026-04-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY04211/?cycle=2026&election_full=true"
@@ -7131,15 +7131,15 @@
     }
   },
   "gregory-w-meeks": {
-    "raised": 1744887.54,
-    "spent": 1963090.06,
-    "cashOnHand": 2010349.55,
-    "fromIndividuals": 580263.47,
-    "fromPACs": 928255,
+    "raised": 2243646.24,
+    "spent": 2343531.68,
+    "cashOnHand": 2128666.63,
+    "fromIndividuals": 801743.75,
+    "fromPACs": 1131255,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1508518.47,
-    "transfersIn": 236260.02,
+    "donations": 1932998.75,
+    "transfersIn": 310505.15,
     "pacs": [
       {
         "name": "NEW YORK LIFE INSURANCE COMPANY PAC",
@@ -8312,21 +8312,21 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H8NY06048/?cycle=2026&election_full=true"
     }
   },
   "grace-meng": {
-    "raised": 2034044.64,
-    "spent": 1972862,
-    "cashOnHand": 1030068.45,
-    "fromIndividuals": 1343717.32,
-    "fromPACs": 575800,
+    "raised": 2171034.16,
+    "spent": 2370761.9,
+    "cashOnHand": 769158.07,
+    "fromIndividuals": 1370328.52,
+    "fromPACs": 682300,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1919517.32,
+    "donations": 2052628.52,
     "transfersIn": 114175,
     "pacs": [
       {
@@ -9155,7 +9155,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H2NY06116/?cycle=2026&election_full=true"
@@ -9163,8 +9163,8 @@
   },
   "joseph-chou": {
     "raised": 2578.08,
-    "spent": 549.93,
-    "cashOnHand": 4149.39,
+    "spent": 591.6,
+    "cashOnHand": 4107.72,
     "fromIndividuals": 2578.08,
     "fromPACs": 0,
     "fromParty": 0,
@@ -9175,7 +9175,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-04-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4NY06047/?cycle=2026&election_full=true"
@@ -12332,35 +12332,35 @@
     }
   },
   "mike-decillis": {
-    "raised": 67615.81,
-    "spent": 32325.69,
-    "cashOnHand": 35290.12,
-    "fromIndividuals": 67615.8,
+    "raised": 155510.01,
+    "spent": 69401.1,
+    "cashOnHand": 86108.91,
+    "fromIndividuals": 155508.42,
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 67615.8,
+    "donations": 155508.42,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2026-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY11265/?cycle=2026&election_full=true"
     }
   },
   "nicole-malliotakis": {
-    "raised": 2750505.08,
-    "spent": 1329411.37,
-    "cashOnHand": 2767340.17,
-    "fromIndividuals": 1096872.23,
-    "fromPACs": 1072300,
+    "raised": 3271123.86,
+    "spent": 1768350.09,
+    "cashOnHand": 2849020.23,
+    "fromIndividuals": 1338545.54,
+    "fromPACs": 1314800,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 2169172.23,
-    "transfersIn": 478728.26,
+    "donations": 2653345.54,
+    "transfersIn": 490506.24,
     "pacs": [
       {
         "name": "ALLIANCE FOR PHYSICAL THERAPY QUALITY AND INNOVATION INC PAC",
@@ -13763,7 +13763,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0NY11078/?cycle=2026&election_full=true"
@@ -13904,14 +13904,14 @@
     }
   },
   "darializa-avila-chevalier": {
-    "raised": 1354601.68,
-    "spent": 1132514.27,
-    "cashOnHand": 222087.41,
-    "fromIndividuals": 1254162.47,
-    "fromPACs": 26602.65,
+    "raised": 1563644.5,
+    "spent": 1417187.48,
+    "cashOnHand": 146457.02,
+    "fromIndividuals": 1428523.86,
+    "fromPACs": 56602.65,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1280765.12,
+    "donations": 1485126.51,
     "transfersIn": 73102.35,
     "pacs": [
       {
@@ -14008,22 +14008,22 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-10-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY13279/?cycle=2026&election_full=true"
     }
   },
   "alexandria-ocasio-cortez": {
-    "raised": 32607753.66,
-    "spent": 20381468.84,
-    "cashOnHand": 15960931.7,
-    "fromIndividuals": 31963298.55,
-    "fromPACs": 28050,
+    "raised": 37429335.4,
+    "spent": 23783780.19,
+    "cashOnHand": 17380202.09,
+    "fromIndividuals": 36656215.26,
+    "fromPACs": 35550,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 31991348.55,
-    "transfersIn": 91000,
+    "donations": 36691765.26,
+    "transfersIn": 111000,
     "pacs": [
       {
         "name": "AMERICAN FEDERATION OF TEACHERS COPE",
@@ -14081,7 +14081,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H8NY15148/?cycle=2026&election_full=true"
@@ -14118,15 +14118,15 @@
     }
   },
   "ritchie-torres": {
-    "raised": 6908654.83,
-    "spent": 4345915.84,
-    "cashOnHand": 13986720.96,
-    "fromIndividuals": 2310384.33,
-    "fromPACs": 700550,
+    "raised": 7127507.73,
+    "spent": 4680358.8,
+    "cashOnHand": 13871130.9,
+    "fromIndividuals": 2415944.89,
+    "fromPACs": 897350,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 3010934.33,
-    "transfersIn": 2990170.03,
+    "donations": 3313294.89,
+    "transfersIn": 3000543.43,
     "pacs": [
       {
         "name": "THE COUNCIL OF INSURANCE AGENTS & BROKERS POLITICAL ACTION COMMITTEE",
@@ -15023,41 +15023,41 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0NY15160/?cycle=2026&election_full=true"
     }
   },
   "andre-easton": {
-    "raised": 73041.42,
-    "spent": 57738.02,
-    "cashOnHand": 6303.64,
-    "fromIndividuals": 73041.42,
+    "raised": 88543.55,
+    "spent": 79062.55,
+    "cashOnHand": -5822.4,
+    "fromIndividuals": 85275.55,
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 73041.42,
+    "donations": 85275.55,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY15167/?cycle=2026&election_full=true"
     }
   },
   "jose-vega": {
-    "raised": 290836.98,
-    "spent": 280261.35,
-    "cashOnHand": 11849.06,
-    "fromIndividuals": 289336.98,
+    "raised": 333526.22,
+    "spent": 332244.15,
+    "cashOnHand": 2555.5,
+    "fromIndividuals": 332026.22,
     "fromPACs": 1500,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 290836.98,
+    "donations": 333526.22,
     "transfersIn": 0,
     "pacs": [
       {
@@ -15069,21 +15069,21 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4NY15147/?cycle=2026&election_full=true"
     }
   },
   "george-s-latimer": {
-    "raised": 513967.38,
-    "spent": 605959,
-    "cashOnHand": 100662.37,
-    "fromIndividuals": 314059.13,
-    "fromPACs": 189650,
+    "raised": 662166.03,
+    "spent": 713995.76,
+    "cashOnHand": 140824.26,
+    "fromIndividuals": 388943.34,
+    "fromPACs": 261150,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 503709.13,
+    "donations": 650093.34,
     "transfersIn": 0,
     "pacs": [
       {
@@ -15440,22 +15440,22 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4NY16087/?cycle=2026&election_full=true"
     }
   },
   "cait-conley": {
-    "raised": 4317457.32,
+    "raised": 4318477.22,
     "spent": 2998300.85,
-    "cashOnHand": 1319156.47,
-    "fromIndividuals": 3706160.25,
-    "fromPACs": 422990.43,
+    "cashOnHand": 1320176.37,
+    "fromIndividuals": 3751245.81,
+    "fromPACs": 225750.01,
     "fromParty": 0,
     "fromSelf": 7000,
-    "donations": 4136150.68,
-    "transfersIn": 178517,
+    "donations": 3983995.82,
+    "transfersIn": 331691.76,
     "pacs": [
       {
         "name": "NY17 2026 DEMOCRATIC NOMINEE FUND",
@@ -15778,15 +15778,15 @@
     }
   },
   "mike-lawler": {
-    "raised": 8172045.6,
-    "spent": 3500108.5,
-    "cashOnHand": 4841305.62,
-    "fromIndividuals": 3186004.97,
-    "fromPACs": 1920804.94,
-    "fromParty": 5270,
+    "raised": 10001205.96,
+    "spent": 7317027.48,
+    "cashOnHand": 2853547,
+    "fromIndividuals": 3782709.64,
+    "fromPACs": 2389784.73,
+    "fromParty": 10270,
     "fromSelf": 0,
-    "donations": 5112079.91,
-    "transfersIn": 2958195.72,
+    "donations": 6182764.37,
+    "transfersIn": 3692854.36,
     "pacs": [
       {
         "name": "STRONG COUNTRY FOR TODAY AND TOMORROW",
@@ -17834,7 +17834,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H2NY17162/?cycle=2026&election_full=true"
@@ -19548,15 +19548,15 @@
     }
   },
   "peter-k-oberacker": {
-    "raised": 1237178.98,
-    "spent": 844311.42,
-    "cashOnHand": 392867.56,
-    "fromIndividuals": 455096.53,
-    "fromPACs": 249000,
-    "fromParty": 10000,
+    "raised": 1409090.37,
+    "spent": 1365660.09,
+    "cashOnHand": 43430.28,
+    "fromIndividuals": 543148.37,
+    "fromPACs": 283500,
+    "fromParty": 17000,
     "fromSelf": 130000,
-    "donations": 714096.53,
-    "transfersIn": 385188.46,
+    "donations": 843648.37,
+    "transfersIn": 427548.01,
     "pacs": [
       {
         "name": "ANTI-WOKE FUND",
@@ -19814,21 +19814,21 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-10-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY19268/?cycle=2026&election_full=true"
     }
   },
   "paul-d-tonko": {
-    "raised": 957586.69,
-    "spent": 1152761.13,
-    "cashOnHand": 404327.47,
-    "fromIndividuals": 338374.26,
-    "fromPACs": 616955,
+    "raised": 1208216.63,
+    "spent": 1340293.36,
+    "cashOnHand": 467425.18,
+    "fromIndividuals": 397115.6,
+    "fromPACs": 808555,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 955329.26,
+    "donations": 1205670.6,
     "transfersIn": 0,
     "pacs": [
       {
@@ -20787,7 +20787,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H8NY21203/?cycle=2026&election_full=true"
@@ -20974,15 +20974,15 @@
     }
   },
   "john-w-mannion": {
-    "raised": 2694738.65,
-    "spent": 979982.66,
-    "cashOnHand": 1842997.29,
-    "fromIndividuals": 1703048.58,
-    "fromPACs": 826310.66,
-    "fromParty": 5309.87,
+    "raised": 3140968.13,
+    "spent": 1882439.59,
+    "cashOnHand": 1386769.84,
+    "fromIndividuals": 2034241.41,
+    "fromPACs": 937660.66,
+    "fromParty": 7509.87,
     "fromSelf": 0,
-    "donations": 2534669.11,
-    "transfersIn": 106119.86,
+    "donations": 2979411.94,
+    "transfersIn": 107606.51,
     "pacs": [
       {
         "name": "INTERNATIONAL ASSOCIATION OF SHEET METAL, AIR, RAIL AND TRANSPORTATION WORKERS POLITICAL ACTION LEAGUE",
@@ -22218,21 +22218,21 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4NY22085/?cycle=2026&election_full=true"
     }
   },
   "kailee-buller": {
-    "raised": 267338.61,
-    "spent": 80751.33,
-    "cashOnHand": 186587.28,
-    "fromIndividuals": 217988.61,
-    "fromPACs": 27350,
-    "fromParty": 0,
+    "raised": 428967.95,
+    "spent": 228670.25,
+    "cashOnHand": 200297.7,
+    "fromIndividuals": 356617.95,
+    "fromPACs": 45850,
+    "fromParty": 4500,
     "fromSelf": 22000,
-    "donations": 245338.61,
+    "donations": 406967.95,
     "transfersIn": 0,
     "pacs": [
       {
@@ -22309,21 +22309,21 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2026-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY22213/?cycle=2026&election_full=true"
     }
   },
   "aaron-gies": {
-    "raised": 227174.36,
-    "spent": 203234.62,
-    "cashOnHand": 17795.38,
-    "fromIndividuals": 221174.36,
-    "fromPACs": 0,
+    "raised": 584417.4,
+    "spent": 347472.11,
+    "cashOnHand": 230800.93,
+    "fromIndividuals": 563417.4,
+    "fromPACs": 15000,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 221174.36,
+    "donations": 578417.4,
     "transfersIn": 6000,
     "pacs": [],
     "outside": [
@@ -22336,7 +22336,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY23559/?cycle=2026&election_full=true"
@@ -23782,14 +23782,14 @@
     }
   },
   "alissa-j-ellman": {
-    "raised": 193087.81,
-    "spent": 180237.51,
-    "cashOnHand": 12850.3,
-    "fromIndividuals": 157890.41,
-    "fromPACs": 7500,
-    "fromParty": 100,
-    "fromSelf": 27597.4,
-    "donations": 175490.41,
+    "raised": 416431.77,
+    "spent": 316623.91,
+    "cashOnHand": 99807.86,
+    "fromIndividuals": 364224.75,
+    "fromPACs": 14200,
+    "fromParty": 5000,
+    "fromSelf": 33007.020000000004,
+    "donations": 393424.75,
     "transfersIn": 0,
     "pacs": [
       {
@@ -23806,22 +23806,22 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6NY24219/?cycle=2026&election_full=true"
     }
   },
   "claudia-tenney": {
-    "raised": 2763138.81,
-    "spent": 1745054.58,
-    "cashOnHand": 1373086.59,
-    "fromIndividuals": 1058433.42,
-    "fromPACs": 1220160,
+    "raised": 3067819.23,
+    "spent": 2310671.76,
+    "cashOnHand": 1112149.83,
+    "fromIndividuals": 1161255.72,
+    "fromPACs": 1418160,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 2278593.42,
-    "transfersIn": 478905.47,
+    "donations": 2579415.72,
+    "transfersIn": 482229.39,
     "pacs": [
       {
         "name": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
@@ -25589,22 +25589,22 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H4NY22051/?cycle=2026&election_full=true"
     }
   },
   "joseph-d-morelle": {
-    "raised": 1786903.54,
-    "spent": 1759069.53,
-    "cashOnHand": 408038.29,
-    "fromIndividuals": 735140.1,
-    "fromPACs": 853475,
+    "raised": 2210667.28,
+    "spent": 2058816.45,
+    "cashOnHand": 532055.11,
+    "fromIndividuals": 893552.05,
+    "fromPACs": 1081975,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 1588615.1,
-    "transfersIn": 188000,
+    "donations": 1975527.05,
+    "transfersIn": 224000,
     "pacs": [
       {
         "name": "L3HARRIS TECHNOLOGIES INC PAC",
@@ -26772,7 +26772,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H8NY25105/?cycle=2026&election_full=true"
