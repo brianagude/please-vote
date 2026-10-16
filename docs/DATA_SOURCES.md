@@ -138,3 +138,14 @@ Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
 - **Amendments:** the dataset keeps only the amended version of an amended report (`r_amend = Y`, with no original rows), and the code also keeps only amended rows when both exist.
 - **Checked:** Hochul's July 2026 periodic report adds up to $5.88M; news reported "$5.8 million since January." City & State's ~$11.4M for Blakeman by July likely includes public funds and transfers, which we show separately.
 - **Data quirk:** one transaction is dated 2027 (Komatireddy); dates in the future are ignored.
+
+## Bills they wrote, from bulk downloads (checked Oct 15, 2026)
+
+- **State legislators' bills now come from the Open States bulk CSV** (`pipeline/osbulk.ts`, shared with the votes step), not the API. That's one API request per state per night (the session list) instead of paging through every person's bills.
+- **Author:** the bulk CSV has no sponsor order. New York marks exactly one primary sponsor per bill (0 of 25,518 bills have more), so that's used directly. Georgia marks every sponsor "primary", and the CSV's row order doesn't always match the official order (SB 135, 2023: Kay Kirkpatrick is first, not Brian Strickland). So for Georgia the author is sponsor #1 ("Sequence" 1) from the General Assembly's `GetLegislationSearchResultsPaged`. That's matched to Open States people through the `legis.ga.gov/members/...` link Open States keeps for each legislator.
+- **How far it got:**
+  - New York: the bill's actions in the bulk CSV ("passage" by chamber, "executive-veto", "became-law"/"executive-signature"). Checked S 8938 against nysenate.gov.
+  - Georgia: recorded passage votes (as before), because Open States marks some Georgia actions as "passage" that weren't (SB 28, 2025, was reported out of committee and then recommitted).
+  - Georgia laws vs. vetoes: Georgia's own `ActVetoNumber` ("631" = became law; "V12" = vetoed). Open States labels a Georgia veto as an "executive-signature" (SB 569, 2026, was vetoed).
+- Checked against the old API results for every Georgia legislator, both sessions: the same bills and counts, with three statuses now more accurate (SB 569 Vetoed, SB 572 Became law, SB 371 Passed the Senate).
+- New status: **"Vetoed"** (passed both chambers; the governor rejected it).

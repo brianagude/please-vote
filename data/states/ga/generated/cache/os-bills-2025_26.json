@@ -1,0 +1,785 @@
+{
+  "v": 2,
+  "fetched": "2026-10-16",
+  "people": [
+    "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
+    "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
+    "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe",
+    "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d",
+    "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
+    "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607",
+    "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a"
+  ],
+  "by": {
+    "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1": [
+      {
+        "id": "SB 227",
+        "title": "Labor and Industrial Relations; protections for freelance workers; provide",
+        "url": "https://www.legis.ga.gov/legislation/70605",
+        "introduced": "2025-02-20",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 173",
+        "title": "Pleadings and Motions; movants to file notices of uncontested motions in superior courts and state courts; authorize",
+        "url": "https://www.legis.ga.gov/legislation/70341",
+        "introduced": "2025-02-13",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 174",
+        "title": "Conduct of Proceedings in Criminal Trials; legislative intent; provide",
+        "url": "https://www.legis.ga.gov/legislation/70342",
+        "introduced": "2025-02-13",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 379",
+        "title": "\"Georgia Health Insurance Affordability and Consumer Protection Act\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/72150",
+        "introduced": "2026-01-12",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 25",
+        "title": "Pardons and Paroles; procedures when a person is denied parole after completing certain prerequisites; provide",
+        "url": "https://www.legis.ga.gov/legislation/69479",
+        "introduced": "2025-01-17",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 363",
+        "title": "Electors; restrictions of voting rights for judicially incompetent persons; provide",
+        "url": "https://www.legis.ga.gov/legislation/71729",
+        "introduced": "2025-03-27",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 396",
+        "title": "Labor and Industrial Relations; retaliatory actions by certain employers against certain employees for disclosing potentially unlawful activities; prohibit",
+        "url": "https://www.legis.ga.gov/legislation/72203",
+        "introduced": "2026-01-13",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 397",
+        "title": "Torts; remedies for deprivation of constitutional rights of state citizens by civil immigration enforcement officers; provide",
+        "url": "https://www.legis.ga.gov/legislation/72202",
+        "introduced": "2026-01-13",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 541",
+        "title": "Property; the placement of wheel restraints on trespassing motor vehicles; prohibit",
+        "url": "https://www.legis.ga.gov/legislation/73466",
+        "introduced": "2026-02-20",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a": [
+      {
+        "id": "HB 960",
+        "title": "Gwinnett Judicial Circuit; superior courts; provide twelfth judge",
+        "url": "https://www.legis.ga.gov/legislation/72209",
+        "introduced": "2026-01-14",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 670",
+        "title": "Georgia Civil Rights Act of 2025; enact",
+        "url": "https://www.legis.ga.gov/legislation/70965",
+        "introduced": "2025-02-27",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 496",
+        "title": "Criminal procedure; scent of marijuana, cannabis, or hemp; provide imitations on stops, searches, seizures, or arrests",
+        "url": "https://www.legis.ga.gov/legislation/70420",
+        "introduced": "2025-02-18",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 497",
+        "title": "Penal institutions; inmate be allowed to dress in plain clothes during trial proceedings; provide",
+        "url": "https://www.legis.ga.gov/legislation/70421",
+        "introduced": "2025-02-18",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 761",
+        "title": "Lilburn, City of; ad valorem tax; provide additional homestead exemption",
+        "url": "https://www.legis.ga.gov/legislation/71307",
+        "introduced": "2025-03-11",
+        "law": "2025-05-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 721",
+        "title": "Motor vehicles; transportation referral service providers and ride share network services; provisions",
+        "url": "https://www.legis.ga.gov/legislation/71130",
+        "introduced": "2025-03-04",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1468",
+        "title": "Georgia Property Tax Fairness Fund; create",
+        "url": "https://www.legis.ga.gov/legislation/73704",
+        "introduced": "2026-02-25",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 681",
+        "title": "Domestic relations; sealing of name change petitions upon request; provide",
+        "url": "https://www.legis.ga.gov/legislation/71002",
+        "introduced": "2025-02-27",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1506",
+        "title": "Contracts; payment terms for business to business transactions; provide",
+        "url": "https://www.legis.ga.gov/legislation/73875",
+        "introduced": "2026-03-04",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607": [
+      {
+        "id": "HB 1586",
+        "title": "Bogart, Town of; provide new charter",
+        "url": "https://www.legis.ga.gov/legislation/74267",
+        "introduced": "2026-03-19",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 370",
+        "title": "Ad valorem tax; school districts; state-wide base year homestead exemption; provisions",
+        "url": "https://www.legis.ga.gov/legislation/70132",
+        "introduced": "2025-02-10",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 246",
+        "title": "Courts; office of sheriff and training of peace officers; revise qualification requirements",
+        "url": "https://www.legis.ga.gov/legislation/69851",
+        "introduced": "2025-02-04",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 296",
+        "title": "Motor vehicles; presentation of a driver's license in a certain electronic format; provisions",
+        "url": "https://www.legis.ga.gov/legislation/69970",
+        "introduced": "2025-02-05",
+        "law": "2025-05-14",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 851",
+        "title": "Athens-Clarke County; Board of Elections and Registration; provide for abolition on a date certain",
+        "url": "https://www.legis.ga.gov/legislation/71653",
+        "introduced": "2025-03-25",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 852",
+        "title": "Athens-Clarke County; Board of Elections and Registration; reconstitute and reestablish",
+        "url": "https://www.legis.ga.gov/legislation/71654",
+        "introduced": "2025-03-25",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 1573",
+        "title": "Statham, City of; ad valorem tax for municipal purposes; provide homestead exemption",
+        "url": "https://www.legis.ga.gov/legislation/74198",
+        "introduced": "2026-03-18",
+        "law": "2026-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 295",
+        "title": "Local government; procedures for real property owners to make claims for compensation for loss of property value or expenses incurred; provisions",
+        "url": "https://www.legis.ga.gov/legislation/69969",
+        "introduced": "2025-02-05",
+        "law": "2026-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1578",
+        "title": "Arcade, Town of; municipality; clarify name",
+        "url": "https://www.legis.ga.gov/legislation/74214",
+        "introduced": "2026-03-18",
+        "law": "2026-05-11",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1437",
+        "title": "Notaries public; notarial acts to be performed using electronic means when certain requirements are satisfied; provide",
+        "url": "https://www.legis.ga.gov/legislation/73556",
+        "introduced": "2026-02-24",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 1379",
+        "title": "Foreign Funding Transparency and Accountability Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/73368",
+        "introduced": "2026-02-18",
+        "law": "2026-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 417",
+        "title": "Education; tuition equalization grants at private colleges and universities; revise definition of approved school",
+        "url": "https://www.legis.ga.gov/legislation/70258",
+        "introduced": "2025-02-12",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 577",
+        "title": "Georgia Nicotine Vapor Products Directory Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/70664",
+        "introduced": "2025-02-21",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 288",
+        "title": "Appeal and error; declaratory judgments in instances involving accusations made by a prosecuting attorney regarding credibility of a peace officer; provide",
+        "url": "https://www.legis.ga.gov/legislation/69956",
+        "introduced": "2025-02-05",
+        "law": "2025-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 454",
+        "title": "Vince Dooley Battlefield Trust Fund Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/70326",
+        "introduced": "2025-02-13",
+        "law": "2025-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 839",
+        "title": "Jackson County; board of commissioners; filling vacancies; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/71641",
+        "introduced": "2025-03-25",
+        "law": "2025-05-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1436",
+        "title": "Georgia Keep Violent Criminals Off Our Streets Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/73555",
+        "introduced": "2026-02-24",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 558",
+        "title": "State Board of the Technical College System of Georgia; establish adult workforce high school diploma program",
+        "url": "https://www.legis.ga.gov/legislation/70608",
+        "introduced": "2025-02-20",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c": [
+      {
+        "id": "SB 463",
+        "title": "Specialized Land Transactions; business enterprises or business enterprises controlled by natural born persons from owning an interest in more than 500 single-family residential properties; prohibit",
+        "url": "https://www.legis.ga.gov/legislation/72849",
+        "introduced": "2026-02-04",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 486",
+        "title": "Laws and Statutes; provisions relating to the effect and enforcement of foreign laws; revise",
+        "url": "https://www.legis.ga.gov/legislation/73053",
+        "introduced": "2026-02-10",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 4",
+        "title": "Education; fundamental roles of local boards of education and local school superintendents; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/69277",
+        "introduced": "2025-01-13",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 140",
+        "title": "Optometrists; doctors of optometry to dispense and sell pharmaceutical agents to patients under certain conditions; provide",
+        "url": "https://www.legis.ga.gov/legislation/70106",
+        "introduced": "2025-02-10",
+        "law": "2025-05-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 28",
+        "title": "\"Red Tape Rollback Act of 2025\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/69523",
+        "introduced": "2025-01-27",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 31",
+        "title": "Income Taxes; all income received as retirement benefits derived from service in the armed forces of the United States or the reserve components; exempt from taxation",
+        "url": "https://www.legis.ga.gov/legislation/69543",
+        "introduced": "2025-01-27",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 61",
+        "title": "Delinquency; additional offenses over which superior courts are authorized to exercise exclusive original jurisdiction; provide",
+        "url": "https://www.legis.ga.gov/legislation/69639",
+        "introduced": "2025-01-29",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 2",
+        "title": "State Income Tax; exclude tips from taxation",
+        "url": "https://www.legis.ga.gov/legislation/69275",
+        "introduced": "2025-01-13",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 152",
+        "title": "\"Georgia Promise Scholarship Act\"; the biological or adopted children of individuals who are foster parents and who meet certain conditions shall qualify for promise scholarship accounts; provide",
+        "url": "https://www.legis.ga.gov/legislation/70245",
+        "introduced": "2025-02-12",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 178",
+        "title": "State Depository Board; allow the state treasurer to invest in Bitcoin; provide",
+        "url": "https://www.legis.ga.gov/legislation/70371",
+        "introduced": "2025-02-13",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 3",
+        "title": "Prosecuting Attorneys; convictions for district attorneys, assistant district attorneys, deputy district attorneys; provide additional qualifications",
+        "url": "https://www.legis.ga.gov/legislation/69276",
+        "introduced": "2025-01-13",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 1",
+        "title": "'Fair and Safe Athletic Opportunities Act'; enact",
+        "url": "https://www.legis.ga.gov/legislation/69274",
+        "introduced": "2025-01-13",
+        "law": "2025-04-28",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 370",
+        "title": "Elections and Primaries; closed primaries; provide",
+        "url": "https://www.legis.ga.gov/legislation/71941",
+        "introduced": "2025-03-31",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 445",
+        "title": "\"Georgia Promise Scholarship Act\"; public schools with a state-wide attendance zone and certain charter schools shall not be included in the separate list of public schools annually reported by the Office of Student Achievement; provide",
+        "url": "https://www.legis.ga.gov/legislation/72665",
+        "introduced": "2026-02-02",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 38",
+        "title": "Development Impact Fees; provide for education",
+        "url": "https://www.legis.ga.gov/legislation/69559",
+        "introduced": "2025-01-28",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 568",
+        "title": "Elections and Primaries; the list of eligible voters is posted and made public prior to each primary or election; require",
+        "url": "https://www.legis.ga.gov/legislation/73566",
+        "introduced": "2026-02-24",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 471",
+        "title": "Education; requires a student to wear a face mask or face covering while present on school property; eliminate automatic repeal provision",
+        "url": "https://www.legis.ga.gov/legislation/72949",
+        "introduced": "2026-02-06",
+        "law": null,
+        "house": false,
+        "senate": true
+      }
+    ],
+    "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe": [
+      {
+        "id": "HB 1467",
+        "title": "Elections; motor-voter applications shall be opt-in instead of opt-out; provide",
+        "url": "https://www.legis.ga.gov/legislation/73702",
+        "introduced": "2026-02-25",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 397",
+        "title": "Elections; allow municipalities to opt in to providing advance voting on Saturdays for municipal elections",
+        "url": "https://www.legis.ga.gov/legislation/70198",
+        "introduced": "2025-02-11",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1503",
+        "title": "Covington, City of; ad valorem tax for municipal purposes; provide homestead exemption",
+        "url": "https://www.legis.ga.gov/legislation/73869",
+        "introduced": "2026-03-03",
+        "law": "2026-05-11",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 743",
+        "title": "Social Circle, City of; ad valorem tax; provide homestead exemption",
+        "url": "https://www.legis.ga.gov/legislation/71268",
+        "introduced": "2025-03-10",
+        "law": "2025-05-09",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1391",
+        "title": "Specialty license plates; honor public safety officers; establish",
+        "url": "https://www.legis.ga.gov/legislation/73429",
+        "introduced": "2026-02-19",
+        "law": "2026-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 150",
+        "title": "Combating Threats from China Act of 2025 - Higher Education; enact",
+        "url": "https://www.legis.ga.gov/legislation/69587",
+        "introduced": "2025-01-28",
+        "law": "2025-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 913",
+        "title": "Administrative Service, Department of; prohibit a governmental entity from entering into contracts for the licensing of certain software applications",
+        "url": "https://www.legis.ga.gov/legislation/72004",
+        "introduced": "2025-04-02",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 602",
+        "title": "Education; denial of state funds for loans, grants, and scholarships for any student convicted of a criminal offense; provisions",
+        "url": "https://www.legis.ga.gov/legislation/70728",
+        "introduced": "2025-02-24",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 390",
+        "title": "HALO Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/70191",
+        "introduced": "2025-02-11",
+        "law": null,
+        "house": true,
+        "senate": false
+      }
+    ],
+    "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d": [
+      {
+        "id": "HB 293",
+        "title": "Education; Protect Students First Act; repeal various provisions",
+        "url": "https://www.legis.ga.gov/legislation/69963",
+        "introduced": "2025-02-05",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 294",
+        "title": "Quality Basic Education Act; require State Board of Education to review and update policies, guidelines, and processes for awarding units of high school credit to students based on a demonstration of subject area competency",
+        "url": "https://www.legis.ga.gov/legislation/69964",
+        "introduced": "2025-02-05",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 733",
+        "title": "Georgia Insurance Consumer and Policyholder Advocacy Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/71186",
+        "introduced": "2025-03-06",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 729",
+        "title": "Georgia Maternity Care Desert Reduction Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/71169",
+        "introduced": "2025-03-04",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 306",
+        "title": "Labor and industrial relations; cause of action for workplace harassment and retaliation; provide",
+        "url": "https://www.legis.ga.gov/legislation/70017",
+        "introduced": "2025-02-06",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 826",
+        "title": "Overtime Income Tax Exemption Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/71616",
+        "introduced": "2025-03-25",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1520",
+        "title": "Rental Pricing Integrity Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/73933",
+        "introduced": "2026-03-06",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1521",
+        "title": "Ponzi Scheme Prevention Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/73934",
+        "introduced": "2026-03-06",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9": [
+      {
+        "id": "SB 547",
+        "title": "Offenses of Pimping and Pandering; modify the penalties",
+        "url": "https://www.legis.ga.gov/legislation/73482",
+        "introduced": "2026-02-20",
+        "law": "2026-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 132",
+        "title": "Insanity and Mental Incapacity; hearing before a court orders an evaluation of the mental competency of an accused person to stand trial; require",
+        "url": "https://www.legis.ga.gov/legislation/70088",
+        "introduced": "2025-02-10",
+        "law": "2025-05-14",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 329",
+        "title": "Flint Judicial Circuit; chief judge; annual stipend in addition to county compensation to superior court judges; provide",
+        "url": "https://www.legis.ga.gov/legislation/71263",
+        "introduced": "2025-03-10",
+        "law": "2025-05-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 328",
+        "title": "State Court of Henry County; additional judge; provide",
+        "url": "https://www.legis.ga.gov/legislation/71262",
+        "introduced": "2025-03-10",
+        "law": "2025-05-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 482",
+        "title": "Law Enforcement Officers and Agencies; persons requesting booking photographs to provide the first and last names of the individuals in the photographs; require",
+        "url": "https://www.legis.ga.gov/legislation/73034",
+        "introduced": "2026-02-09",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 374",
+        "title": "Buildings; local fire ordinances requiring fire sprinklers in certain multifamily dwellings; authorize",
+        "url": "https://www.legis.ga.gov/legislation/72065",
+        "introduced": "2025-04-04",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 433",
+        "title": "\"Rio's Law\"",
+        "url": "https://www.legis.ga.gov/legislation/72533",
+        "introduced": "2026-01-28",
+        "law": "2026-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 237",
+        "title": "Newton County Public Facilities Authority; contracts and borrowing of funds; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/70661",
+        "introduced": "2025-02-21",
+        "law": "2025-05-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 89",
+        "title": "Income Taxes; amount of a tax credit based on the federal tax credit for certain child and dependent care expenses; increase",
+        "url": "https://www.legis.ga.gov/legislation/69886",
+        "introduced": "2025-02-04",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 371",
+        "title": "Mental Health and Penal Institutions; grant program to create peer support programs in hospitals; establish",
+        "url": "https://www.legis.ga.gov/legislation/71979",
+        "introduced": "2025-04-02",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 207",
+        "title": "Professions and Businesses; a preclearance process in the licensing of individuals with criminal records who make application to or are investigated by certain licensing boards and commissions; create",
+        "url": "https://www.legis.ga.gov/legislation/70493",
+        "introduced": "2025-02-19",
+        "law": "2026-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 279",
+        "title": "\"Daniel D. Podsiadly, Jr. Act\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/70922",
+        "introduced": "2025-02-26",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 569",
+        "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
+        "url": "https://www.legis.ga.gov/legislation/73567",
+        "introduced": "2026-02-24",
+        "law": "2026-05-12",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 572",
+        "title": "Criminal Prosecutions; an additional justification for use of force in defense of self or others; provide",
+        "url": "https://www.legis.ga.gov/legislation/73568",
+        "introduced": "2026-02-24",
+        "law": null,
+        "house": true,
+        "senate": true
+      }
+    ]
+  }
+}

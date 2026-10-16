@@ -1,0 +1,677 @@
+{
+  "v": 2,
+  "fetched": "2026-10-16",
+  "people": [
+    "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
+    "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
+    "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe",
+    "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d",
+    "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9",
+    "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607",
+    "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a"
+  ],
+  "by": {
+    "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c": [
+      {
+        "id": "SB 242",
+        "title": "Statute of Frauds; agreements with a value in excess of $10,000.00 shall be in writing; provide",
+        "url": "https://www.legis.ga.gov/legislation/64774",
+        "introduced": "2023-02-23",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 2",
+        "title": "Torts; certain immunities from liability claims regarding COVID-19; provisions; revise",
+        "url": "https://www.legis.ga.gov/legislation/63504",
+        "introduced": "2023-01-11",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 154",
+        "title": "Sale or Distribution of Harmful Materials to Minors; provisions of Code Section 16-12-103 shall be applicable to libraries operated by schools; provide",
+        "url": "https://www.legis.ga.gov/legislation/64318",
+        "introduced": "2023-02-13",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 361",
+        "title": "Meetings Open to the Public; authorized nonemergency teleconference meetings in which members of nonstatewide agencies participate;  increase the number",
+        "url": "https://www.legis.ga.gov/legislation/66110",
+        "introduced": "2024-01-22",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 261",
+        "title": "Education; postsecondary educational institutions, local school systems; prohibit the use of political litmus tests",
+        "url": "https://www.legis.ga.gov/legislation/64870",
+        "introduced": "2023-02-27",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 208",
+        "title": "'Georgia Development Impact Fee Act'; provide for fees for education",
+        "url": "https://www.legis.ga.gov/legislation/64509",
+        "introduced": "2023-02-16",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1",
+        "title": "State Government; automatic repealer on the prohibition on state and local governments from requiring  proof of COVID vaccination for government services; remove",
+        "url": "https://www.legis.ga.gov/legislation/63490",
+        "introduced": "2023-01-09",
+        "law": "2023-05-02",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 183",
+        "title": "Ticket Brokers; exception permitting certain resale restrictions; remove",
+        "url": "https://www.legis.ga.gov/legislation/64422",
+        "introduced": "2023-02-14",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 99",
+        "title": "Certificate of Need Requirements; exemption for acute care hospitals established in rural counties that meet certain criteria; provide",
+        "url": "https://www.legis.ga.gov/legislation/64040",
+        "introduced": "2023-02-06",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 204",
+        "title": "Education Accountability; recognition of certain accrediting agencies as evaluators of the quality of education offered in public schools in this state; provide",
+        "url": "https://www.legis.ga.gov/legislation/64506",
+        "introduced": "2023-02-16",
+        "law": "2023-05-02",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 233",
+        "title": "'The Georgia Promise Scholarship Act'; establishment of promise scholarship accounts",
+        "url": "https://www.legis.ga.gov/legislation/64762",
+        "introduced": "2023-02-22",
+        "law": "2024-04-23",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 186",
+        "title": "\"Georgia Landowners Protection Act\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/64446",
+        "introduced": "2023-02-15",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 365",
+        "title": "Education; notification to parents and legal guardians of public school students of the right to receive email notification each time their child obtains school library materials; provide",
+        "url": "https://www.legis.ga.gov/legislation/66131",
+        "introduced": "2024-01-22",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 353",
+        "title": "Highways, Bridges, and Ferries; duties when death results from an accident upon a highway in certain instances; allow for delegation",
+        "url": "https://www.legis.ga.gov/legislation/66061",
+        "introduced": "2024-01-11",
+        "law": "2024-03-04",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 429",
+        "title": "\"Small Business Protection Act of 2024\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/66503",
+        "introduced": "2024-01-30",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 452",
+        "title": "Banking and Finance and Property; regulations of motor vehicle title pawn transactions; provide",
+        "url": "https://www.legis.ga.gov/legislation/66668",
+        "introduced": "2024-02-01",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 26",
+        "title": "State Government; meetings and public hearings of development authorities and community improvement districts to be held by teleconference; permit",
+        "url": "https://www.legis.ga.gov/legislation/63660",
+        "introduced": "2023-01-26",
+        "law": "2024-02-13",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 430",
+        "title": "COVID-19 Pandemic Business Safety; provisions for rebuttable presumptions of risk by claimants in certain COVID-19 liability claims; revise",
+        "url": "https://www.legis.ga.gov/legislation/66506",
+        "introduced": "2024-01-30",
+        "law": "2024-04-22",
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/cf955c60-cbda-4414-9266-3d8dca3553fe": [
+      {
+        "id": "HB 306",
+        "title": "Education; energy cost savings measures; revise definition",
+        "url": "https://www.legis.ga.gov/legislation/64152",
+        "introduced": "2023-02-08",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 347",
+        "title": "Alternative ad valorem tax; rental motor vehicle; revise definition",
+        "url": "https://www.legis.ga.gov/legislation/64241",
+        "introduced": "2023-02-09",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 840",
+        "title": "Torts; right of action against any person who knowingly or negligently engages in sexually explicit conduct in the presence of a minor; provide",
+        "url": "https://www.legis.ga.gov/legislation/65773",
+        "introduced": "2023-03-27",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 1224",
+        "title": "Postsecondary education; revise definition of approved school; provisions",
+        "url": "https://www.legis.ga.gov/legislation/66896",
+        "introduced": "2024-02-09",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 1477",
+        "title": "Oxford, City of; change corporate limits",
+        "url": "https://www.legis.ga.gov/legislation/68804",
+        "introduced": "2024-03-13",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1207",
+        "title": "Elections; proofing of ballots by local superintendents in certain races; provide",
+        "url": "https://www.legis.ga.gov/legislation/66838",
+        "introduced": "2024-02-08",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1475",
+        "title": "Covington, City of; change corporate limits",
+        "url": "https://www.legis.ga.gov/legislation/68802",
+        "introduced": "2024-03-13",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1": [
+      {
+        "id": "SB 115",
+        "title": "Georgia National Guard; the adjutant general to be the official sponsor of the state sponsored life insurance program; provide",
+        "url": "https://www.legis.ga.gov/legislation/64123",
+        "introduced": "2023-02-08",
+        "law": "2023-05-01",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 179",
+        "title": "Electors; restrictions of voting rights for judicially incompetent persons; provide",
+        "url": "https://www.legis.ga.gov/legislation/64410",
+        "introduced": "2023-02-14",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 586",
+        "title": "Grants of Pardons, Paroles, and Other Relief; procedures when a person is denied parole after completing certain prerequisites; provide",
+        "url": "https://www.legis.ga.gov/legislation/68975",
+        "introduced": "2024-03-20",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 245",
+        "title": "Proceedings in Criminal Trials; legislative intent; exceptions to rulings or orders of the court; provide",
+        "url": "https://www.legis.ga.gov/legislation/64787",
+        "introduced": "2023-02-23",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 247",
+        "title": "Removal of Improperly Parked Cars; a towing and storage firm from placing an instrument designed to restrict movement of a motor vehicle; prohibit",
+        "url": "https://www.legis.ga.gov/legislation/64800",
+        "introduced": "2023-02-23",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 516",
+        "title": "Unfair or Deceptive Practices in Consumer Transactions; making of false or misleading statements regarding the limited supply of or the duration of discounted purchase prices for consumer goods; add example",
+        "url": "https://www.legis.ga.gov/legislation/67138",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 521",
+        "title": "Labor and Industrial Relations; protections for freelance workers; provide",
+        "url": "https://www.legis.ga.gov/legislation/67170",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 506",
+        "title": "Pleadings and Motions; movants to file notices of uncontested motions in superior courts and state courts; authorize",
+        "url": "https://www.legis.ga.gov/legislation/67135",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/3a5721a0-d848-40d0-a48a-66b797e7d7d9": [
+      {
+        "id": "SB 282",
+        "title": "Labor and Industrial Relations; private employers from preventing an employee from engaging in certain protected activities; prohibit",
+        "url": "https://www.legis.ga.gov/legislation/64997",
+        "introduced": "2023-03-01",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 157",
+        "title": "Professions and Businesses; preclearance process in the licensing of individuals with criminal records who make an application to or are investigated by certain licensing boards and commissions; create",
+        "url": "https://www.legis.ga.gov/legislation/64316",
+        "introduced": "2023-02-13",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 454",
+        "title": "Alimony and Child Support;  guidelines for child support award calculations; provide",
+        "url": "https://www.legis.ga.gov/legislation/66676",
+        "introduced": "2024-02-06",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 573",
+        "title": "Magistrate Court of Morgan County; the assessment and collection of a technology fee; authorize",
+        "url": "https://www.legis.ga.gov/legislation/68615",
+        "introduced": "2024-03-05",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 574",
+        "title": "Alcovy Judicial Circuit; counties that make up said judicial circuit to provide additional investigators to the district attorney; authorize",
+        "url": "https://www.legis.ga.gov/legislation/68628",
+        "introduced": "2024-03-05",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 572",
+        "title": "Probate Court of Morgan County; assessment and collection of a technology fee; authorize",
+        "url": "https://www.legis.ga.gov/legislation/68614",
+        "introduced": "2024-03-05",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 371",
+        "title": "\"Daniel D. Podsiadly, Jr. Act\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/66198",
+        "introduced": "2024-01-22",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 61",
+        "title": "Sick Leave for Care of Immediate Family Members; sunset provision relating to such sick leave requirements; repeal",
+        "url": "https://www.legis.ga.gov/legislation/63803",
+        "introduced": "2023-01-31",
+        "law": "2023-05-01",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 133",
+        "title": "Juvenile Code; a uniform process to assume custody of children as a result of disposition orders; create",
+        "url": "https://www.legis.ga.gov/legislation/64207",
+        "introduced": "2023-02-09",
+        "law": "2023-05-02",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 580",
+        "title": "City of Madison; mayor's vote when the city council is electing a mayor pro tempore; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/68799",
+        "introduced": "2024-03-13",
+        "law": "2024-04-22",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 569",
+        "title": "Criminal Procedure; requirements for bail hearings for illegal aliens and removable or inadmissible aliens charged with a felony; provide",
+        "url": "https://www.legis.ga.gov/legislation/67592",
+        "introduced": "2024-03-01",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 533",
+        "title": "Proceedings; jail-based competency restoration programs; provide",
+        "url": "https://www.legis.ga.gov/legislation/67278",
+        "introduced": "2024-02-20",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 375",
+        "title": "Behavioral Health Coordinating Council; add commissioner of veterans service",
+        "url": "https://www.legis.ga.gov/legislation/66203",
+        "introduced": "2024-01-23",
+        "law": "2024-04-22",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 143",
+        "title": "Appellate Court Judges; eligibility for retirement benefits; decrease the age",
+        "url": "https://www.legis.ga.gov/legislation/64234",
+        "introduced": "2023-02-09",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 283",
+        "title": "\"Pregnancy Protection Act\"; enact",
+        "url": "https://www.legis.ga.gov/legislation/64999",
+        "introduced": "2023-03-01",
+        "law": null,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 456",
+        "title": "Central Caregiver Registry; disabled persons to the registry; add",
+        "url": "https://www.legis.ga.gov/legislation/66679",
+        "introduced": "2024-02-06",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 455",
+        "title": "Medical Assistance; provisions to comply with federal law; revise",
+        "url": "https://www.legis.ga.gov/legislation/66678",
+        "introduced": "2024-02-06",
+        "law": null,
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/e73cb2a6-bf3e-4211-a386-142c18a4f607": [
+      {
+        "id": "HB 88",
+        "title": "Coleman-Baker Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/63672",
+        "introduced": "2023-01-26",
+        "law": "2023-04-28",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1452",
+        "title": "Education; annually increasing maximum age of eligibility for certain state funded special education programs to 30 years; provisions",
+        "url": "https://www.legis.ga.gov/legislation/68633",
+        "introduced": "2024-03-05",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 92",
+        "title": "Public utilities and public transportation; percentage limitation as to amount of investments an electric membership corporation may make and maintain in a gas affiliate; modify",
+        "url": "https://www.legis.ga.gov/legislation/63691",
+        "introduced": "2023-01-26",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 528",
+        "title": "Georgia Online Automatic Renewal Transparency Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/64646",
+        "introduced": "2023-02-21",
+        "law": "2023-05-03",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1260",
+        "title": "Georgia Nicotine Vapor Products Directory Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/66973",
+        "introduced": "2024-02-12",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 229",
+        "title": "Courts; grounds for recall of district attorneys of judicial circuits and solicitors-general of state courts; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/63983",
+        "introduced": "2023-02-02",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1461",
+        "title": "Jackson County; ad valorem tax; homestead exemption; provisions",
+        "url": "https://www.legis.ga.gov/legislation/68676",
+        "introduced": "2024-03-07",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1460",
+        "title": "Commerce, City of; ad valorem tax for educational purposes; homestead exemption; revise",
+        "url": "https://www.legis.ga.gov/legislation/68675",
+        "introduced": "2024-03-07",
+        "law": "2024-05-06",
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 185",
+        "title": "Education; provide for HOPE Inclusive Postsecondary Education (IPSE) grants",
+        "url": "https://www.legis.ga.gov/legislation/63877",
+        "introduced": "2023-02-01",
+        "law": null,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "HB 1359",
+        "title": "Ad valorem tax; refund for loss of property value or expenses due to failure of local governments to enforce certain laws; provisions",
+        "url": "https://www.legis.ga.gov/legislation/67325",
+        "introduced": "2024-02-21",
+        "law": null,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "HB 1415",
+        "title": "Law enforcement officers; cooperate with federal authorities on enforcement of immigration laws; provisions",
+        "url": "https://www.legis.ga.gov/legislation/67467",
+        "introduced": "2024-02-26",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1201",
+        "title": "Criminal procedure; vacating of sentences of victims of trafficking; provisions",
+        "url": "https://www.legis.ga.gov/legislation/66822",
+        "introduced": "2024-02-08",
+        "law": "2024-04-24",
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/0461f02b-df18-4984-8b3b-ada287879d0a": [
+      {
+        "id": "HB 2",
+        "title": "Primaries and elections; advanced voting; runoffs; provisions",
+        "url": "https://www.legis.ga.gov/legislation/63470",
+        "introduced": "2022-12-13",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 209",
+        "title": "State holidays; March 10 as Harriet Tubman Day; designate",
+        "url": "https://www.legis.ga.gov/legislation/63946",
+        "introduced": "2023-02-02",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 513",
+        "title": "Quality Basic Education Act; prescribed course of study in sex education and HIV prevention instruction is age appropriate; provide",
+        "url": "https://www.legis.ga.gov/legislation/64628",
+        "introduced": "2023-02-21",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 177",
+        "title": "Quality Basic Education Act; prescribed course of study in sex education and HIV prevention instruction is age appropriate; provide",
+        "url": "https://www.legis.ga.gov/legislation/63844",
+        "introduced": "2023-01-31",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1306",
+        "title": "Health; provide patients with information regarding risks of physical and psychological dependence from opioids; require prescribers",
+        "url": "https://www.legis.ga.gov/legislation/67155",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1309",
+        "title": "Evidence; creative or artistic expression evidence is inadmissible at trial; provide",
+        "url": "https://www.legis.ga.gov/legislation/67162",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1305",
+        "title": "Elections; advance voting; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/67152",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1304",
+        "title": "Elections; advance voting on certain Saturdays in run-off elections; revise provisions",
+        "url": "https://www.legis.ga.gov/legislation/67151",
+        "introduced": "2024-02-16",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/6e5432a3-09ed-4813-b11d-e97222bb7e4d": [
+      {
+        "id": "HB 325",
+        "title": "Transparency in Policing Act; enact",
+        "url": "https://www.legis.ga.gov/legislation/64171",
+        "introduced": "2023-02-08",
+        "law": null,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 1164",
+        "title": "Crimes and offenses; offense of criminal trespass involving a wild animal; provide",
+        "url": "https://www.legis.ga.gov/legislation/66747",
+        "introduced": "2024-02-06",
+        "law": null,
+        "house": false,
+        "senate": false
+      }
+    ]
+  }
+}

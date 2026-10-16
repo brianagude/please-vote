@@ -16,11 +16,10 @@
 //
 // "Didn't vote" = not voting, excused, or absent. Attendance counts every recorded
 // vote in the window, not just the ones listed.
-import { execFileSync } from "node:child_process";
 import fs from "node:fs";
-import os from "node:os";
 import path from "node:path";
 import { candidates, get, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
+import { bulk } from "./osbulk.ts";
 
 export type Cast = "Yes" | "No" | "Present" | "Excused" | "Didn't vote";
 
@@ -322,7 +321,7 @@ async function federal(code: string, since: string, people: { id: string; biogui
 // ---------- Georgia General Assembly ----------
 
 const GA_SVC = "http://webservices.legis.ga.gov/GGAServices";
-async function gaSoap(service: string, action: string, body: string) {
+export async function gaSoap(service: string, action: string, body: string) {
   const res = await get(`${GA_SVC}/${service}/Service.svc`, {
     method: "POST",
     headers: { "Content-Type": "text/xml; charset=utf-8", SOAPAction: `"${action}"` },
@@ -453,13 +452,9 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
   }
 
   // 2. Open States bulk CSVs: votes, who voted how, bill titles and subjects.
-  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "pv-os-"));
-  try {
-    const zip = path.join(tmp, "s.zip");
-    const res = await get(zipUrl);
-    if (!res.ok) throw new Error(`Open States bulk ${s.identifier}: HTTP ${res.status}`);
-    fs.writeFileSync(zip, Buffer.from(await res.arrayBuffer()));
-    const csv = (name: string) => parseCSV(execFileSync("unzip", ["-p", zip, `*_${name}.csv`], { maxBuffer: 1 << 30 }).toString("utf8"));
+  // Shared with the bills step, so each session's zip is downloaded once per run.
+  const csv = await bulk(zipUrl);
+  {
 
     const bills = new Map(csv("bills").map((b) => [b.id, b]));
     const gaSubj = await gaSubjects(sid);
@@ -504,8 +499,6 @@ async function gaSession(s: any, gaIds: Record<string, number>, people: GaPerson
     const out: GaSession = { v: 4, fetched: today, people: people.map((p) => p.openstates), votes, cast: castBy };
     writeJSON(file, out);
     return out;
-  } finally {
-    fs.rmSync(tmp, { recursive: true, force: true });
   }
 }
 
@@ -616,13 +609,9 @@ async function nySession(s: any, people: string[], cacheDir: string): Promise<Ny
   const zipUrl = s.downloads?.find((d: any) => /csv/.test(d.url))?.url;
   if (!zipUrl) return old;
 
-  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "pv-os-"));
-  try {
-    const zip = path.join(tmp, "s.zip");
-    const res = await get(zipUrl);
-    if (!res.ok) throw new Error(`Open States bulk ${s.identifier}: HTTP ${res.status}`);
-    fs.writeFileSync(zip, Buffer.from(await res.arrayBuffer()));
-    const csv = (name: string) => parseCSV(execFileSync("unzip", ["-p", zip, `*_${name}.csv`], { maxBuffer: 1 << 30 }).toString("utf8"));
+  // Shared with the bills step, so each session's zip is downloaded once per run.
+  const csv = await bulk(zipUrl);
+  {
 
     const bills = new Map(csv("bills").map((b) => [b.id, b]));
     const orgs = new Map(csv("organizations").map((o) => [o.id, o.name]));
@@ -659,8 +648,6 @@ async function nySession(s: any, people: string[], cacheDir: string): Promise<Ny
     const out: NySession = { v: 3, fetched: today, people, votes, cast: castBy };
     writeJSON(file, out);
     return out;
-  } finally {
-    fs.rmSync(tmp, { recursive: true, force: true });
   }
 }
 

@@ -1,19 +1,21 @@
 // Bills each candidate wrote, and which became law (DECISIONS #7).
 //   Federal: Congress.gov /member/{bioguide}/sponsored-legislation
-//   State:   Open States v3 /bills?sponsor=... (first-listed sponsor only)
+//   State:   Open States bulk CSV per session (first-listed primary sponsor only; no API calls
+//            beyond the session list, so it doesn't use up the 250-a-day limit)
 // Only measures that can become law count (bills and joint resolutions),
 // introduced on or after records.since in state.json.
 import fs from "node:fs";
 import path from "node:path";
 import { candidates, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
-import { billInfo, gaPassage, type BillInfo } from "./votes.ts";
+import { billInfo, gaPassage, gaSoap, type BillInfo } from "./votes.ts";
+import { bulk } from "./osbulk.ts";
 
-/** How far a bill got. */
-export type Status = "Became law" | "Passed both chambers" | "Passed the House" | "Passed the Senate" | "Introduced";
-const statusOf = (house: boolean, senate: boolean, law: boolean): Status =>
-  law ? "Became law" : house && senate ? "Passed both chambers" : house ? "Passed the House" : senate ? "Passed the Senate" : "Introduced";
+/** How far a bill got. "Lower" is the House in Congress and Georgia, the Assembly in New York. */
+export type Status = string;
+const statusOf = (house: boolean, senate: boolean, law: boolean, lower = "House", vetoed = false): Status =>
+  law ? "Became law" : vetoed ? "Vetoed" : house && senate ? "Passed both chambers" : house ? `Passed the ${lower}` : senate ? "Passed the Senate" : "Introduced";
 // Laws first, then the ones that got furthest.
-const RANK: Record<Status, number> = { "Became law": 0, "Passed both chambers": 1, "Passed the House": 2, "Passed the Senate": 2, Introduced: 3 };
+const RANK = (s: Status) => (s === "Became law" ? 0 : s === "Vetoed" || s === "Passed both chambers" ? 1 : s === "Introduced" ? 3 : 2);
 interface Bill {
   id: string;
   title: string;
@@ -21,7 +23,7 @@ interface Bill {
   introduced?: string;
   status: Status;
 }
-const sortBills = (b: Bill[]) => b.sort((x, y) => RANK[x.status] - RANK[y.status] || (y.introduced ?? "").localeCompare(x.introduced ?? ""));
+const sortBills = (b: Bill[]) => b.sort((x, y) => RANK(x.status) - RANK(y.status) || (y.introduced ?? "").localeCompare(x.introduced ?? ""));
 
 const CONGRESS_TYPES: Record<string, string> = {
   HR: "house-bill",
@@ -94,70 +96,164 @@ async function federal(bioguide: string, since: string, statusCache: { [k: strin
 
 // --- state ---
 
-type SessionCache = { [session: string]: { fetched: string; bills: any[] } };
+// --- state ---
 
-async function osGet(params: Record<string, string | string[]>) {
-  const key = process.env.OPENSTATES_API_KEY;
-  if (!key) throw new Error("OPENSTATES_API_KEY is not set");
-  const u = new URL("https://v3.openstates.org/bills");
-  for (const [k, v] of Object.entries(params)) for (const x of [v].flat()) u.searchParams.append(k, x);
-  // The free tier is rate-limited; pace requests.
-  await new Promise((r) => setTimeout(r, 6500));
-  return getJSON(u, { headers: { "X-API-KEY": key } });
+type StateBill = { id: string; title: string; url: string; introduced?: string; law: string | null; vetoed?: boolean; house: boolean; senate: boolean };
+type SessionBills = { v: number; fetched: string; people: string[]; by: Record<string, StateBill[]> };
+
+/**
+ * Georgia marks every sponsor "primary"; the author is the one listed first. The bulk CSV has
+ * no sponsor order, so read it from the General Assembly's own service ("Sequence" 1), by bill
+ * ("SB 135" -> Georgia member ID).
+ */
+export async function gaAuthors(sessionName: string): Promise<Map<string, { author: string; act: string }>> {
+  const ns = "http://www.legis.ga.gov/2009/01/01/services/";
+  const sx = await gaSoap("Session", "GetSessions", `<GetSessions xmlns="${ns}"/>`);
+  const sid = [...sx.matchAll(/<a:Session>([\s\S]*?)<\/a:Session>/g)].map((m) => m[1]).find((x) => x.includes(`<a:Description>${sessionName}</a:Description>`))?.match(/<a:Id>(\d+)/)?.[1];
+  // By bill: the author's Georgia member ID, and the act number ("244" = became law; "V12" = vetoed).
+  const out = new Map<string, { author: string; act: string }>();
+  if (!sid) return out;
+  for (let start = 0; ; start += 250) {
+    const xml = await gaSoap("Legislation", ns.replace(/\/$/, "") + "/LegislationSearch/GetLegislationSearchResultsPaged",
+      `<GetLegislationSearchResultsPaged xmlns="${ns}"><Constraints xmlns:a="http://www.legis.ga.gov/2009/01/01/data/"><a:Session><a:Id>${sid}</a:Id></a:Session></Constraints>` +
+      `<PageSize>250</PageSize><StartIndex>${start}</StartIndex></GetLegislationSearchResultsPaged>`);
+    const rows = [...xml.matchAll(/<a:LegislationSearchResult>([\s\S]*?)<\/a:LegislationSearchResult>/g)].map((m) => m[1]);
+    for (const r of rows) {
+      const num = r.match(/<a:Id>\d+<\/a:Id><a:Number>(\d+)<\/a:Number>/)?.[1];
+      const type = r.match(/<a:DocumentType>([^<]*)/)?.[1];
+      const first = r.match(/<a:MemberId>(\d+)<\/a:MemberId><a:Sequence>1<\/a:Sequence>/)?.[1];
+      const act = r.match(/<a:ActVetoNumber>([^<]*)/)?.[1]?.trim() ?? "";
+      if (num && type && first) out.set(`${type} ${num}`, { author: first, act });
+    }
+    if (rows.length < 250) break;
+  }
+  return out;
 }
 
-async function state(code: string, personId: string, since: string, cacheFile: string): Promise<Record> {
+/** One session's bills by each tracked person, from the bulk CSV. */
+export function sessionBills(
+  read: (name: string) => Record<string, string>[],
+  people: Set<string>,
+  // Georgia: author by bill number, as a Georgia member ID, plus Georgia member ID -> Open States ID,
+  // and which chamber passed each bill ("House|SB 28"), from Georgia's recorded passage votes.
+  ga?: { authors: Map<string, { author: string; act: string }>; member: Map<string, string>; passed: Set<string> },
+): Record<string, StateBill[]> {
+  const bills = new Map(read("bills").map((b) => [b.id, b]));
+  const orgs = new Map(read("organizations").map((o) => [o.id, o.classification]));
+  // The author. Most states mark exactly one primary sponsor (New York does); Georgia uses its own sponsor order.
+  const author = new Map<string, string>();
+  if (ga) {
+    for (const [id, b] of bills) {
+      const m = ga.authors.get(b.identifier);
+      const pid = m && ga.member.get(m.author);
+      if (pid) author.set(id, pid);
+    }
+  } else for (const r of read("bill_sponsorships")) if (r.primary === "True" && !author.has(r.bill_id)) author.set(r.bill_id, r.person_id);
+  const sources = new Map<string, string>();
+  for (const r of read("bill_sources")) if (!sources.has(r.bill_id) && /^https?:/.test(r.url) && !/wsdl|Service\.svc/i.test(r.url)) sources.set(r.bill_id, r.url);
+  // From each bill's official history: when it started, which chamber passed it, and whether it became law.
+  const hist = new Map<string, { first?: string; house: boolean; senate: boolean; law: string | null; vetoed?: boolean }>();
+  for (const a of read("bill_actions")) {
+    if (!people.has(author.get(a.bill_id) ?? "")) continue;
+    const h = hist.get(a.bill_id) ?? { house: false, senate: false, law: null };
+    const date = a.date.slice(0, 10);
+    if (!h.first || date < h.first) h.first = date;
+    const cls = a.classification;
+    if (cls.includes("passage")) {
+      if (orgs.get(a.organization_id) === "lower") h.house = true;
+      if (orgs.get(a.organization_id) === "upper") h.senate = true;
+    }
+    if ((cls.includes("became-law") || cls.includes("executive-signature")) && !h.law) h.law = date;
+    if (cls.includes("executive-veto")) h.vetoed = true;
+    hist.set(a.bill_id, h);
+  }
+  const by: Record<string, StateBill[]> = {};
+  for (const [id, pid] of author) {
+    if (!people.has(pid)) continue;
+    const b = bills.get(id);
+    if (!b || !(b.classification.includes("'bill'") || b.classification.includes("joint resolution"))) continue;
+    const h = hist.get(id) ?? { house: false, senate: false, law: null };
+    // Open States marks some Georgia actions as "passage" that weren't (e.g. a bill reported out of
+    // committee, then recommitted), so in Georgia only a recorded passage vote counts.
+    if (ga) [h.house, h.senate] = [ga.passed.has(`House|${b.identifier}`), ga.passed.has(`Senate|${b.identifier}`)];
+    // Georgia records a veto as a "signature" in Open States; its own act number says which it was.
+    if (ga) {
+      const act = ga.authors.get(b.identifier)?.act ?? "";
+      if (/^V/i.test(act)) [h.law, h.vetoed] = [null, true];
+      else if (/^\d+$/.test(act)) h.law ??= h.first ?? "";
+      else h.law = null;
+    }
+    if (h.vetoed) h.law = null;
+    (by[pid] ??= []).push({ id: b.identifier, title: b.title, url: sources.get(id) ?? "", introduced: h.first, law: h.law, vetoed: !!h.vetoed, house: h.house, senate: h.senate });
+  }
+  return by;
+}
+
+async function stateBills(code: string, since: string, people: { id: string; openstates: string }[], lower: string): Promise<Record<string, Record>> {
+  const key = process.env.OPENSTATES_API_KEY;
+  if (!key) throw new Error("OPENSTATES_API_KEY is not set");
+  const sd = stateDir(code);
   const today = new Date().toISOString().slice(0, 10);
   const recent = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
-  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, {
-    headers: { "X-API-KEY": process.env.OPENSTATES_API_KEY ?? "" },
-  });
+  // One API request: the list of sessions and their bulk download links.
+  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
   const sessions = juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since);
-  const cache: SessionCache = fs.existsSync(cacheFile) ? readJSON(cacheFile) : {};
-
-  for (const s of sessions) {
-    // A session that ended more than 30 days ago won't change; reuse it.
-    if (cache[s.identifier] && s.end_date && s.end_date < recent) continue;
-    const bills: any[] = [];
-    for (let page = 1; ; page++) {
-      const d = await osGet({ jurisdiction: code, session: s.identifier, sponsor: personId, per_page: "20", page: String(page), include: ["sponsorships", "actions"] });
-      for (const b of d.results) {
-        // Georgia lists many "primary" sponsors; the first one listed is the author.
-        const lead = b.sponsorships?.find((x: any) => x.primary) ?? b.sponsorships?.[0];
-        if (lead?.person?.id !== personId) continue;
-        if (!b.classification?.includes("bill") && !b.classification?.includes("joint resolution")) continue;
-        const law = b.actions?.find((a: any) => a.classification?.some((c: string) => c === "became-law" || c === "executive-signature"));
-        bills.push({ id: b.identifier, title: b.title, url: b.openstates_url, introduced: b.first_action_date, law: law?.date?.slice(0, 10) ?? null });
+  const ids = people.map((p) => p.openstates);
+  // Georgia: each tracked legislator's Georgia member ID, from the legis.ga.gov link Open States keeps (one request).
+  let member: Map<string, string> | undefined;
+  if (code === "ga") {
+    const u = new URL("https://v3.openstates.org/people");
+    for (const id of ids) u.searchParams.append("id", id);
+    u.searchParams.append("include", "links");
+    u.searchParams.set("per_page", "50");
+    member = new Map();
+    for (const p of (await getJSON(u, { headers: { "X-API-KEY": key } })).results ?? [])
+      for (const l of p.links ?? []) {
+        const m = l.url.match(/legis\.ga\.gov\/members\/(?:house|senate)\/(\d+)/i)?.[1];
+        if (m) member.set(m, p.id);
       }
-      if (page >= d.pagination.max_page) break;
-    }
-    cache[s.identifier] = { fetched: today, bills };
   }
-  writeJSON(cacheFile, cache);
+  const data: SessionBills[] = [];
+  for (const s of sessions) {
+    const file = path.join(sd, `generated/cache/os-bills-${s.identifier}.json`);
+    const old: SessionBills | null = fs.existsSync(file) ? readJSON(file) : null;
+    // A session that ended over 30 days ago won't change, unless we now track someone new.
+    if (old?.v === 4 && s.end_date && s.end_date < recent && ids.every((p) => old.people.includes(p))) {
+      data.push(old);
+      continue;
+    }
+    const url = s.downloads?.find((d: any) => /csv/.test(d.url))?.url;
+    if (!url) {
+      if (old) data.push(old);
+      continue;
+    }
+    let ga;
+    if (member) {
+      const passed = new Set<string>();
+      const vf = path.join(sd, `generated/cache/ga-votes-${s.identifier}.json`);
+      if (fs.existsSync(vf))
+        for (const v of Object.values<any>(readJSON(vf).votes)) if (v.result === "pass" && gaPassage(v.caption)) passed.add(`${v.chamber}|${v.bill}`);
+      ga = { authors: await gaAuthors(s.name), member, passed };
+    }
+    const got: SessionBills = { v: 4, fetched: today, people: ids, by: sessionBills(await bulk(url), new Set(ids), ga) };
+    writeJSON(file, got);
+    data.push(got);
+  }
 
-  const person = (await getJSON(`https://v3.openstates.org/people?id=${encodeURIComponent(personId)}`, { headers: { "X-API-KEY": process.env.OPENSTATES_API_KEY ?? "" } })).results?.[0];
-  const bills = Object.values(cache).flatMap((s) => s.bills).filter((b) => !b.introduced || b.introduced >= since);
-  const laws = bills.filter((b) => b.law).map((b) => ({ id: b.id, title: b.title, url: b.url, date: b.law }));
-  // Which chamber passed each bill, from the Georgia vote files the votes step saves.
-  const all: Bill[] = [];
-  for (const [session, s] of Object.entries(cache)) {
-    const vf = path.join(path.dirname(cacheFile), `ga-votes-${session}.json`);
-    const passed = new Set<string>();
-    if (fs.existsSync(vf))
-      for (const v of Object.values<any>(readJSON(vf).votes)) if (v.result === "pass" && gaPassage(v.caption)) passed.add(`${v.chamber}|${v.bill}`);
-    for (const b of s.bills) {
-      if (b.introduced && b.introduced < since) continue;
-      all.push({ id: b.id, title: b.title, url: b.url, introduced: b.introduced, status: statusOf(passed.has(`House|${b.id}`), passed.has(`Senate|${b.id}`), !!b.law) });
-    }
+  const out: Record<string, Record> = {};
+  for (const p of people) {
+    const mine = data.flatMap((d) => d.by[p.openstates] ?? []).filter((b) => !b.introduced || b.introduced >= since);
+    const laws = mine.filter((b) => b.law).map((b) => ({ id: b.id, title: b.title, url: b.url, date: b.law! }));
+    out[p.id] = {
+      since,
+      wrote: mine.length,
+      becameLaw: laws.length,
+      laws,
+      all: sortBills(mine.map((b) => ({ id: b.id, title: b.title, url: b.url, introduced: b.introduced, status: statusOf(b.house, b.senate, !!b.law, lower, b.vetoed) }))),
+      source: { label: "Open States", url: `https://openstates.org/person/${p.openstates.replace("ocd-person/", "")}/` },
+    };
   }
-  return {
-    since,
-    wrote: bills.length,
-    becameLaw: laws.length,
-    laws,
-    all: sortBills(all),
-    source: { label: "Open States", url: person?.openstates_url ?? "https://openstates.org/ga/" },
-  };
+  return out;
 }
 
 export async function bills(code: string) {
@@ -171,14 +267,25 @@ export async function bills(code: string) {
   const statusCache: { [k: string]: BillInfo } = fs.existsSync(statusFile) ? readJSON(statusFile) : {};
   let errors = 0;
 
-  for (const { c } of candidates(races)) {
+  const all = candidates(races).map(({ c }) => c);
+  for (const c of all.filter((c) => c.ids?.bioguide)) {
     try {
-      if (c.ids?.bioguide) out[c.id] = await federal(c.ids.bioguide, since, statusCache);
-      else if (c.ids?.openstates) out[c.id] = await state(code, c.ids.openstates, since, path.join(sd, `generated/cache/openstates-bills-${c.id}.json`));
+      out[c.id] = await federal(c.ids.bioguide, since, statusCache);
     } catch (e) {
       // Keep yesterday's numbers for this person.
       errors++;
       log("bills", `${c.id}: ${e instanceof Error ? e.message : e}`);
+    }
+  }
+  // State legislators, all at once per session from the bulk download.
+  const st = all.filter((c) => !c.ids?.bioguide && c.ids?.openstates).map((c) => ({ id: c.id, openstates: c.ids.openstates }));
+  if (st.length) {
+    try {
+      const lower = readJSON(path.join(sd, "state.json")).districts.lower.label.replace(/^State /, "");
+      Object.assign(out, await stateBills(code, since, st, lower));
+    } catch (e) {
+      errors++;
+      log("bills", `state legislators: ${e instanceof Error ? e.message : e}`);
     }
   }
   writeJSON(statusFile, statusCache);
