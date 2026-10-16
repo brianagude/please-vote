@@ -13,6 +13,7 @@ What's next, in three lists. Last updated Oct 15, 2026.
 - **Elections:** show upcoming elections for each state. No past election results. The most recent election's data can stay up for a short while afterward, then come down.
 
 **Site layout (to build after Nov 3):**
+Question: Could the page layout be automated? like, if there is currently an election show x, if an election is coming up soon show y, if no election prioritize z. 
 - **A header or top link bar** on every page: Home, States, Upcoming elections, Find your officials, How elections work, Glossary.
 - **Home page:** a section pointing to everything you can do on the site: state pages, upcoming elections, finding your officials, how elections work, and the glossary.
 - **State pages:** everyone in office now (U.S. senators and representatives, statewide officials, state legislators), and who's up for re-election. Same style of cards as today. The current ballot guide becomes part of this, shown when an election is coming up.
@@ -33,7 +34,7 @@ What's next, in three lists. Last updated Oct 15, 2026.
 
 ## To do now
 
-1. **Photos** for candidates without one (owner): 15 in Georgia, 33 in New York.
+1. **Photos** for candidates without one (owner): Georgia is done; 17 left in New York.
 2. **Check the first nightly run with New York**, including that the bills step (now on bulk downloads) regenerates everything correctly.
 3. **Submit the sitemap** to Google Search Console (owner, with Claude's help).
 4. **Testing and tooling** (branch `cleanup-and-optimize`):
