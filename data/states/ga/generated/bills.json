@@ -1538,7 +1538,7 @@
   "brian-strickland": {
     "since": "2023-01-01",
     "wrote": 31,
-    "becameLaw": 18,
+    "becameLaw": 17,
     "laws": [
       {
         "id": "SB 375",
@@ -1619,12 +1619,6 @@
         "date": "2026-05-06"
       },
       {
-        "id": "SB 569",
-        "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
-        "url": "https://openstates.org/ga/bills/2025_26/SB569/",
-        "date": "2026-05-12"
-      },
-      {
         "id": "SB 132",
         "title": "Insanity and Mental Incapacity; hearing before a court orders an evaluation of the mental competency of an accused person to stand trial; require",
         "url": "https://openstates.org/ga/bills/2025_26/SB132/",
@@ -1650,13 +1644,6 @@
       }
     ],
     "all": [
-      {
-        "id": "SB 569",
-        "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
-        "url": "https://openstates.org/ga/bills/2025_26/SB569/",
-        "introduced": "2026-02-24",
-        "status": "Became law"
-      },
       {
         "id": "SB 547",
         "title": "Offenses of Pimping and Pandering; modify the penalties",
@@ -1775,6 +1762,13 @@
         "url": "https://openstates.org/ga/bills/2023_24/SB61/",
         "introduced": "2023-01-31",
         "status": "Became law"
+      },
+      {
+        "id": "SB 569",
+        "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
+        "url": "https://openstates.org/ga/bills/2025_26/SB569/",
+        "introduced": "2026-02-24",
+        "status": "Vetoed"
       },
       {
         "id": "SB 455",
