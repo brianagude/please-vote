@@ -149,7 +149,7 @@ if (kind === "added") {
       S,
       `<span class="lbl">${esc(cfg.name)} · Nov 3, 2026</span>
        <h1 class="disp big">Who's on your ballot?</h1>
-       <p class="body">Type in your address to see every race, what each office does, and every candidate's record. A free guide to every race on your ballot.</p>
+       <p class="body">Type in your address to see every race on your ballot, what each office does, and every candidate's record.</p>
        <div class="sheet dates">${datesHtml}</div>
        <span class="urlbox">${esc(urlText)}</span>`,
     ),
