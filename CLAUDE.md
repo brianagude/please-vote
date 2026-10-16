@@ -29,6 +29,7 @@ This is a nonpartisan voter guide for people who don't usually vote. It covers G
 ## Working style
 
 - **The owner handles all git.** Never create or switch branches, commit, push, or merge. When work is ready, write the commit message for the owner to use. Read-only git (status, diff, log) is fine.
+- **Build modular.** Reuse shared styles (tokens and classes in one stylesheet) and shared components instead of restyling or rewriting per page. Keep the structure easy for a new developer to find their way around (see `docs/REDESIGN.md`, principle 6).
 - Ask the owner before any decision that's expensive to undo, such as stack, hosting, or paid data.
 - Keep the owner informed in plain language. They are not a developer by trade.
 - Verify claims about APIs by calling them. Don't rely on memory.

@@ -17,6 +17,15 @@ These come first in every choice on the branch, ahead of features.
 3. **Small and fast.** The cleanest, smallest, quickest build possible. Plain pages first, as little JavaScript as possible, nothing loaded until it's needed (like today's vote lists), and no heavy libraries. Measure page sizes and load times before and after each step.
 4. **Easy to digest.** Lead with what a visitor came for, keep each section short, and fold the details away until someone asks for them.
 5. **Thoughtful with APIs.** Ask each source only for what changed, as rarely as possible. Cache everything that can be cached, prefer free bulk downloads over API calls, never retry a "limit reached" answer, and keep testing runs to a minimum.
+6. **Modular and easy to change** (owner, Oct 16). Styles and pages are built from shared pieces, never rewritten per page:
+   - **Shared styles:** colors, type, spacing, and common blocks (sheets, rows, cells, labels, buttons, fields, section headings) are defined once as tokens and classes in one stylesheet, and every page reuses them. No one-off restyling of something that already exists. (The site uses plain CSS today, not Tailwind; if Tailwind is ever added, these become Tailwind tokens and component classes.)
+   - **Shared components:** one Astro component per repeated piece (header, footer, address box, date cards, person row, officials list, collapsible section, race card), used everywhere it appears. Changing the component changes it on every page.
+   - **Use what Astro gives us** (owner, Oct 16): each component keeps its markup, its small bit of logic, and its own styles in the same `.astro` file (Astro scopes a component's `<style>` to that component, so it can't leak onto other pages). Only the shared tokens and base styles live in the one global stylesheet.
+   - **State differences, in this order** (owner, Oct 16):
+     1. **Data first.** Most differences come from the state's own files, not code: how many key dates, which offices and notes, propositions vs. amendments, New York's party lines, California's ballot job titles. Shared components read these and adapt (like today's date cards fitting 4 or 5 dates).
+     2. **Small switches next.** A component can take an option for a known variation (for example, a race card that shows running mates), set in the state's data.
+     3. **An override only when a state truly needs its own look or block.** It lives in one place, `src/states/<code>/` (for example `src/states/ca/Propositions.astro`). The shared page uses a state's override if one exists and the shared component if not. Overrides reuse the shared tokens and classes, so they still match the rest of the site.
+   - **Clear structure:** a new developer should be able to find anything quickly. Pages in `src/pages/`, components in `src/components/`, styles in `src/styles/`, data in `data/states/<state>/`, the nightly job in `pipeline/`, with a short map in `README.md` of what lives where and which file to edit for what.
 
 ## What we know (decided)
 
@@ -68,15 +77,16 @@ These come first in every choice on the branch, ahead of features.
 | Person page | `/person/<id>/` | As today: overview, how to reach them, campaign money, bills they wrote, how they voted. |
 | How elections work | `/how-elections-work/` | Kinds of elections (general, primary, runoff, special), what each decides, why primaries and midterms matter. |
 | Glossary | `/glossary/` | Real terms with one-line plain definitions. Terms used on other pages link here. |
+| Sources and photo credits | `/sources/` | Every source the site uses and every photo credit, grouped in one place (owner, Oct 16). Replaces the footer's Sources and Photo credits dropdowns; every page's footer links here. Facts on cards still name their own source right where they appear. When built, update DECISIONS #6 (credits move from the footer dropdown to this page, which still gives the visible credit CC BY licenses need). |
 | Site directory, 404, sitemap | as today | Updated for the new pages. |
 
 ### The page changes with the calendar
 
 Each state page puts first what matters most right now, worked out each night when the site rebuilds:
 
-1. **Election coming up (60 days ahead; owner, Oct 16):** "Your ballot" first, with the dates, the address box, and the races, as today. Officials come after.
+1. **Election coming up (60 days ahead; owner, Oct 16):** the page is today's ballot guide, as it is now (masthead, 01 Mark your calendar, 02 Where do you live?, 03 Who's on your ballot), with the new header on top. The only addition is a short **04 Who represents you now** section at the end: a minimal list, "In Washington" (U.S. senators, your House member) and "In the state capital" (statewide officials, your state senator and representative), using the districts from step 02. No second address box, and no link to a page that doesn't exist during an election (owner, Oct 16).
 2. **Election just happened (until a set date; owner, Oct 16):** a short note that the election happened and a link to the state's official results page. We don't show results ourselves. Officials first. Each election in the data gets a hard **take-down date**: the day the state certifies its results, from the state's official calendar (California: Dec 11, 2026, when the Secretary of State certifies the Statement of Vote). If no date has been entered, it comes down 30 days after the election. Upcoming take-down dates go on the owner's to-do list (`OWNER-TODO.md`, at the top of the project).
-3. **No election soon:** officials first, then "Next election" with its date.
+3. **No election soon:** 01 Where do you live? (the same address box and district pickers as the ballot guide), then one numbered section per level, matching the ballot guide: 02 Federal (both U.S. senators, then your House member), 03 State (statewide officials), 04 State lawmakers (your state senator and representative). Each level shows yours first, then an "All 14 / All 56 / All 180" list that opens underneath, so no one is listed twice (owner, Oct 16). Then 05 Next election.
 
 ### Which elections count (owner, Oct 16)
 
@@ -95,6 +105,22 @@ Not covered: elections with only local offices or measures (city, county, school
 - **Races stay separate** from officials. A race lists candidates; an official is a person in office. Someone can be both (an incumbent).
 - **One ID per person** (official IDs first: Congress's bioguide ID, Open States' ID), so the page address never changes and records follow the person.
 - **Records for every legislator,** not just candidates. The nightly job already downloads the bulk files with everyone in them.
+
+### Design rules from the mockup review (owner, Oct 16)
+
+- **One page width everywhere** (owner, Oct 16): every page, including state pages and the ballot guide inside them, uses the same width as the header (960px), instead of today's narrower 740px guide.
+- **Header links line up with the page edges:** the first and last link sit flush with the edges, in line with the "Please Vote" title; only the space between links stays.
+- **No missing lines.** Every box in a grid is fully ruled, including the last row: an unfilled spot at the end is closed in by the lines around it, never left open.
+- **The state list is a multi-column grid** (owner, Oct 16), so 50 states stay short: each box has the state's name with its next election on the line under it.
+- **Home page headline says plainly why you're here:** "Know your representatives" (the owner's choice; it works year round, not just at election time), with one line under it (the owner's edit): "Please Vote helps you keep track of who represents you in Washington and your state capital, and how they vote on the issues you care about."
+- **No tacked-on, fragmented extra sentences** (like "Every fact links to where it came from."). Say the main thing once, plainly; sources show where the facts are.
+- **Don't explain the site's own timing to visitors** (owner, Oct 16): no "this note comes down on..." lines. Things just appear and come down on schedule.
+- **Every address box is the same component** (owner, Oct 16): the home page's "Find your officials" and each state page's "Where do you live?" look and work the same: the address with its button beside it, "We don't save your address.", a shaded "Your districts" bar, the district pickers, a note that the ZIP code sets the U.S. House member, and "Check my voter page". On the home page the district row starts with a State picker, and the voter page link goes to that state's page.
+- **Address is never required** (owner, Oct 16): every "who represents you" box also lets people pick it themselves (ZIP code for U.S. House, dropdowns for the State Senate and State House districts), and links to the state's official voter page, where they can find their districts and sample ballot.
+- **Every official listed gets their links** (owner, Oct 16): one row per person, with their page here ("Votes and bills", if they have one), official site, and campaign site, each only when a source gives it. The name itself isn't a link, so there's one link per destination.
+- **No abbreviations in labels** (owner, Oct 16): "State Senate district", not "State Senate dist.". Today's guide uses "dist." and changes with the redesign.
+- **Fields in a row line up:** inputs and dropdowns are the same height, and notes about one field go on their own line below the row so boxes stay even.
+- **Runoffs and other state-specific details live on that state's page,** not the home page. The home page's upcoming elections list stays to the main elections.
 
 ### Copy
 
@@ -132,7 +158,7 @@ Answered Oct 16, 2026:
 
 Still open:
 
-8. **Look of the new pages.** Recommendation: a quick mockup of the home page and a state page first (like the original prototype), approved before building.
+8. **Look of the new pages:** mockups first, approved before building (owner, Oct 16: yes). Draft mockups of the home page and a state page in both modes (election coming up, between elections): https://claude.ai/artifact/HsBbyfSNagG9XrASQH3e1f. Waiting on the owner's review.
 
 ### Things to prepare
 
