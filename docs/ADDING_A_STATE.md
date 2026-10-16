@@ -1,6 +1,6 @@
 # Adding a state
 
-How a new state goes from nothing to live, based on how New York was added (Oct 2026). Order on the roadmap: California, then Texas, Indiana, Illinois.
+How a new state goes from nothing to live, based on how New York was added (Oct 2026). Order on the roadmap: California, then Florida, Texas, Indiana, Illinois. After those, adding states pauses while the hub layout is built (see `docs/ROADMAP.md`).
 
 **The short version:** the site and the nightly job already work for any state. A folder `data/states/<code>/` with a `state.json` in it is all it takes for the state to appear in the state picker, get its own page at `/<code>/`, and be included in the nightly job. Most of the work is gathering and checking the data.
 

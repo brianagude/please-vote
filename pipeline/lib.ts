@@ -56,10 +56,13 @@ async function fetchRetry(url: string | URL, init: RequestInit = {}, tries = 4):
   for (let i = 0; i < tries; i++) {
     try {
       const res = await fetch(url, { ...init, headers: { "user-agent": UA, ...init.headers }, signal: AbortSignal.timeout(timeout) });
+      // Open States' daily limit: every retry counts against it too, so stop right away.
+      if (res.status === 429 && String(url).includes("openstates.org")) throw Object.assign(new Error("HTTP 429 (Open States daily limit)"), { final: true });
       if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
       return res;
     } catch (e) {
       last = e;
+      if ((e as { final?: boolean }).final) break;
       await sleep(2000 * 2 ** i);
     }
   }

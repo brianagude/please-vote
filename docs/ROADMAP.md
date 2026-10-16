@@ -44,11 +44,13 @@ Question: Could the page layout be automated? like, if there is currently an ele
    - Test the data logic against small saved samples instead of live runs.
    - A GitHub check on every pull request: tests, build, and the accessibility check.
 5. **Replace Wikipedia-sourced facts** (owner, Oct 16: Wikipedia is fine for photos, never for facts). 45 bio and career lines in Georgia (13) and New York (32) cite Wikipedia. Re-source each from an official page, Congress.gov, a legislature site, a news outlet, or Ballotpedia, or remove it. Georgia's footer sources list also has 7 Wikipedia entries.
-6. **Next state:** California, then Texas, Indiana, and Illinois. One at a time, each with certified candidates, dates, bios, and records, checked like New York.
+6. **Finish California** (on the `california` branch): state legislature votes, bills, and contact info once the Open States limit resets; spot-check against official sites; photos.
+7. **Then four more states, in this order (owner, Oct 16): Florida, Texas, Indiana, Illinois.** Chosen because the owner knows people there who will use and share the site. One at a time, each with certified candidates, dates, bios, records, and photos (owner sends photos as each state goes), checked like New York and California.
+8. **Then pause adding states** and build the next phase of the site (the hub layout below) on its own branch and pull request. New states after that are added into the hub. The other states wait until after the election.
 
 ## Bigger picture (after the election)
 
-- **The hub layout above:** header, home page, state pages, upcoming elections, find your officials, person pages for everyone who writes and votes on laws.
+- **The hub layout above** (owner, Oct 16: start right after the four states above): header, home page, state pages, upcoming elections, find your officials, person pages for everyone who writes and votes on laws.
 - **How elections work** page and the **glossary**.
 - **Clean up the git history** (with the new layout): squash main's older one-off commits into a few clear ones, so the history reads as one commit per finished piece of work plus the nightly refreshes. It overwrites main (a force push, which redeploys the live site), so do it after Nov 3, and only after any open branches are merged or restarted from the new main. Claude writes the steps; the owner runs them. From Oct 16 on, pull requests are squash-merged, so new history is already clean.
 - **Dec 1 runoff:** decide whether to cover it if any race goes to a runoff.

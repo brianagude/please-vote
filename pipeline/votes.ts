@@ -19,7 +19,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { candidates, get, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
-import { bulk } from "./osbulk.ts";
+import { bulk, osSessions } from "./osbulk.ts";
 
 export type Cast = "Yes" | "No" | "Present" | "Excused" | "Didn't vote";
 
@@ -508,8 +508,7 @@ async function georgia(code: string, since: string, people: { id: string; openst
   const key = process.env.OPENSTATES_API_KEY;
   if (!key) throw new Error("OPENSTATES_API_KEY is not set");
   const today = new Date().toISOString().slice(0, 10);
-  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
-  const sessions = juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since);
+  const sessions = (await osSessions(code)).filter((s: any) => (s.end_date || today) >= since);
 
   const sx = await gaSoap("Session", "GetSessions", `<GetSessions xmlns="http://www.legis.ga.gov/2009/01/01/services/"/>`);
   const gaIds: Record<string, number> = {};
@@ -656,10 +655,9 @@ async function newYork(code: string, since: string, people: { id: string; openst
   if (!key) throw new Error("OPENSTATES_API_KEY is not set");
   const cacheDir = path.join(stateDir(code), "generated/cache");
   const today = new Date().toISOString().slice(0, 10);
-  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
   const ids = people.map((p) => p.openstates);
   const data: (NySession & { session: string })[] = [];
-  for (const s of juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since)) {
+  for (const s of (await osSessions(code)).filter((s: any) => (s.end_date || today) >= since)) {
     const d = await nySession(s, ids, cacheDir);
     if (d) data.push({ ...d, session: s.identifier });
   }

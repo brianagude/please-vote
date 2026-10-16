@@ -108,6 +108,9 @@ Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
 
 - **The free API key allows 250 requests a day** (`{"detail":"exceeded limit of 250/day"}`). Testing used it up on Oct 15. With more states, the nightly job has to stay under it. Lean on the bulk downloads instead (`data.openstates.org/csv/latest/...`, no key, not counted) wherever possible.
 
+- **Keeping requests down (Oct 16):** a 429 from Open States is never retried (each retry counted against the limit too). Each state's session list, with its bulk download links, is saved in `generated/cache/os-sessions.json` and shared by the votes and bills steps: the nightly run refreshes it once (one request per state), a laptop run reuses it for 7 days, and if the API fails the saved copy is used. The legislature roster comes from the free `people/current/<state>.csv` file. What's left on the API each night: the session list, Georgia's two people lookups, and the contact step (one request per state).
+- **Testing:** test as rarely as possible against Open States (owner, Oct 16). Work-session runs reuse `.cache/http/` for 24 hours. A second key just for testing is possible, but check Open States' terms first.
+
 ## New York (checked Oct 15, 2026)
 
 - **Certified candidates:** the State Board of Elections' "Certification for the November 3, 2026 General Election" PDF (Sept 17, 2026, 136 pages), linked from `elections.ny.gov/ballot-certifications-elections`. **elections.ny.gov blocks automated access (HTTP 403)**, like Georgia's site, so the owner downloads it by hand into `data/states/ny/sources/`. The Board can issue amended certifications; check for a newer one.
@@ -166,3 +169,7 @@ Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
 - **Campaign websites:** the Secretary of State's Official Candidate Contact List PDF (same election page, updated Sept 23). `scripts/ca-certification.py` takes only each candidate's website (no addresses, phones, or emails). The PDF's text sometimes comes out of order, so a website is kept only if its address contains the candidate's first or last name; otherwise the link is left off. 212 of 324 candidates have one.
 - **Statewide bios (Oct 16):** official state pages for current and former officeholders (Treasurer, Secretary of State, Attorney General, Lieutenant Governor, Franchise Tax Board for the Controller, State Senate, Orange County, San Francisco Board of Supervisors archive, two school districts), plus Spectrum News (Romero) and Voice of OC (Gates). No Wikipedia. Steve Hilton, Herb Morgan, and Jennifer Hawks have no bio: none has held office, so their cards show only the ballot job title.
 - **Ballotpedia blocks automated reading** (it returns HTTP 202 with no article), and Branch has California candidates' websites but no bios yet. House challengers' bios would need another source.
+- **Spot-checks (Oct 16):**
+  - House votes: H.R. 1 (2025), agreeing to the Senate's changes in July 2025. All 40 California Democrats on the ballot show No; all 7 who were Republicans then show Yes (Kiley is listed as No Party Preference now). Gallagher and Wahab joined in 2026 and correctly have no vote. Matches the official result.
+  - Bills that became law, since 2023, against the Congress.gov API (`api.congress.gov/v3/member/<id>/sponsored-legislation`): Zoe Lofgren 0, Ro Khanna 2 (H.R. 4405, H.R. 5887), Young Kim 1 (H.R. 3608). All match.
+  - Campaign money: Eric Jones (CA-4) raised $8,378,928.57, matching the FEC's 2026 totals for H6CA04222.
