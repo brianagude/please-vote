@@ -21,7 +21,7 @@
       "what": "Your ballot comes in the mail",
       "when": "By Oct 5",
       "start": "2026-10-05",
-      "sub": "Every registered voter gets one. Mail it back postmarked by Nov 3, or drop it off by 8 p.m. that day."
+      "sub": "Every registered voter gets one. Didn't get yours? Ask your county elections office for a new one."
     },
     {
       "what": "Early voting",
@@ -29,6 +29,12 @@
       "start": "2026-10-05",
       "end": "2026-11-02",
       "sub": "Places and hours vary by county. Many counties open more vote centers on Oct 24."
+    },
+    {
+      "what": "Return your ballot",
+      "when": "By Nov 3",
+      "start": "2026-11-03",
+      "sub": "Mail it postmarked by Nov 3 (it must arrive by Nov 10), or drop it off by 8 p.m. that day."
     },
     {
       "what": "Election day",
@@ -89,7 +95,7 @@
     {
       "id": "q",
       "title": "Propositions",
-      "sub": "Yes-or-no questions. A YES or NO from you decides each one.",
+      "sub": "Yes-or-no questions that change California's laws or constitution.",
       "races": [
         "?prop1",
         "?prop2",

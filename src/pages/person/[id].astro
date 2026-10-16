@@ -9,7 +9,7 @@ import CareerRecord from "../../components/CareerRecord.astro";
 import Money from "../../components/Money.astro";
 import PhotoCredits from "../../components/PhotoCredits.astro";
 import { orgName, usd } from "../../lib/money";
-import { loadVotes, personPages, sourced, statePath } from "../../lib/state";
+import { loadVotes, personPages, sourced, stateList, statePath } from "../../lib/state";
 import { initials, partyName } from "../../lib/names";
 import { attendanceLine, countLine, ruleLine, voteTopics } from "../../lib/votes";
 import type { Candidate, Source } from "../../lib/types";
@@ -31,6 +31,7 @@ interface Props {
   sinceYear: string;
 }
 const { c, running, code, guide, asOf, sinceYear } = Astro.props;
+const stateName = stateList().find((s) => s.code === code)?.name;
 
 // Overview: the same sourced facts as their card.
 const bio = sourced(c.bio) ? c.bio : undefined;
@@ -77,7 +78,7 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
   skip={{ href: "#overview", label: "Skip to the overview" }}
 >
   <div class="wrap person">
-    <a class="back" href={`${guide}#s3`}>← Back to the guide</a>
+    <a class="back" href={`${guide}#s3`}>← Back to the {stateName} guide</a>
 
     <header class="sheet">
       <div class="row">
@@ -286,7 +287,7 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
     <footer>
       <p>Info as of {asOfLong}. Records update every night.</p>
       <PhotoCredits people={[c]} />
-      <p><a href={`${guide}#s3`}>← Back to the guide</a></p>
+      <p><a href={`${guide}#s3`}>← Back to the {stateName} guide</a></p>
     </footer>
   </div>
   <script>
