@@ -53,7 +53,7 @@ export async function nymoney(code: string) {
       const companies = donations - individuals - groups; // corporations, LLCs, partnerships, other
       // Latest transaction date, ignoring typos dated in the future.
       const today = new Date().toISOString().slice(0, 10);
-      const through = kept.reduce((m, r) => (r.last.slice(0, 10) <= today && r.last > m ? r.last : m), "").slice(0, 10);
+      const through = kept.reduce((m, r) => (r.last && r.last.slice(0, 10) <= today && r.last > m ? r.last : m), "").slice(0, 10);
 
       out[c.id] = {
         raised: Math.round(donations),

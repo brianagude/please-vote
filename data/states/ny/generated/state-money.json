@@ -8,7 +8,7 @@
     "fromPACs": 3315248,
     "publicFunds": 0,
     "transfersIn": 10000000,
-    "from": "2023-01-01",
+    "from": "2023-01-14",
     "through": "2026-09-28",
     "state": true,
     "source": {
@@ -25,7 +25,7 @@
     "fromPACs": 80000,
     "publicFunds": 2369604,
     "transfersIn": 4488150,
-    "from": "2023-01-01",
+    "from": "2025-11-01",
     "through": "2026-09-28",
     "state": true,
     "source": {
@@ -42,7 +42,7 @@
     "fromPACs": 1738127,
     "publicFunds": 3003996,
     "transfersIn": 9329,
-    "from": "2023-01-01",
+    "from": "2023-01-18",
     "through": "2026-09-28",
     "state": true,
     "source": {
@@ -59,7 +59,7 @@
     "fromPACs": 0,
     "publicFunds": 0,
     "transfersIn": 0,
-    "from": "2023-01-01",
+    "from": "2024-04-13",
     "through": "2026-09-28",
     "state": true,
     "source": {
@@ -76,7 +76,7 @@
     "fromPACs": 133050,
     "publicFunds": 3499995,
     "transfersIn": 898,
-    "from": "2023-01-01",
+    "from": "2023-01-26",
     "through": "2026-09-28",
     "state": true,
     "source": {
@@ -93,8 +93,8 @@
     "fromPACs": 66150,
     "publicFunds": 763276,
     "transfersIn": 250,
-    "from": "2023-01-01",
-    "through": "2027-05-06",
+    "from": "2025-10-09",
+    "through": "2026-09-28",
     "state": true,
     "source": {
       "label": "New York State Board of Elections",
