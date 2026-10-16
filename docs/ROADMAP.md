@@ -64,12 +64,13 @@ Question: Could the page layout be automated? like, if there is currently an ele
 - Not planned, because they turn into ratings: ideology scores, interest-group ratings, "votes with their party" percentages.
 
 **Data plumbing:**
-- **Legislature rosters from Open States' public GitHub data** (`github.com/openstates/people`, no key, no limit) instead of the API. The roster is the biggest remaining API use (one request per 50 legislators). Switching would bring each state to about 4 requests a night, enough for all 50 states. Now each state uses about 8–12 a night, and the limit is 250 a day.
+- **Contact info for state legislators without the API.** Done for rosters (Oct 16): the legislature step now reads Open States' free current-legislators file (`data.openstates.org/people/current/<state>.csv`), no key and no limit. The contact step still uses the API (one request per state), because that file is missing some Capitol office phones and addresses (Claire Valdez's, for one).
 
 **Maybe later: not a simple pull from a data source** (owner, Oct 15, 2026: if it can't be pulled from an API and easily checked, leave it out for now):
 - Mayors of state capitals (their races and a card for each). No free data feed, so they'd be hand-entered.
 - Local ballot questions and races (city, county, school board), e.g. the 5 New York City Charter questions. They differ by city, so they'd need ballot data for every city and county (paid services like Ballotpedia or BallotReady).
-- Judge races.
+- Judge races, including California's yes/no votes on keeping appellate and Supreme Court justices.
+- **California's Board of Equalization** (owner, Oct 16): 4 races, one per district. Left out for now because the address lookup can't tell which BOE district someone lives in (the Census doesn't publish those districts).
 - Campaign money for Georgia's statewide candidates. Georgia's Ethics Commission has no API or download.
 - Outside spending in state races. The FEC only covers federal races.
 - Kept anyway (owner, Oct 15): statewide ballot questions (the same for every voter in the state, checked against a sample ballot) and hand-written candidate bios (each line sourced). Certified candidate lists, dates, and office descriptions are core to the site.

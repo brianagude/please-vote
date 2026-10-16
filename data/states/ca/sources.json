@@ -1,0 +1,37 @@
+[
+  {
+    "what": "Who's on the ballot",
+    "label": "California Secretary of State: Certified List of Candidates",
+    "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+  },
+  {
+    "what": "Dates and deadlines",
+    "label": "California Secretary of State: key dates and deadlines",
+    "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026/key-dates-deadlines"
+  },
+  {
+    "what": "Poll hours and how to return your ballot",
+    "label": "California Secretary of State: Quick Facts",
+    "url": "https://elections.cdn.sos.ca.gov/pdfs/quick-facts-2026-general.pdf"
+  },
+  {
+    "what": "Propositions",
+    "label": "California Official Voter Information Guide",
+    "url": "https://voterguide.sos.ca.gov/propositions/"
+  },
+  {
+    "what": "Address to districts",
+    "label": "U.S. Census Bureau Geocoder (2026 districts)",
+    "url": "https://geocoding.geo.census.gov/"
+  },
+  {
+    "what": "Members of Congress, photos, committees",
+    "label": "unitedstates project",
+    "url": "https://github.com/unitedstates/congress-legislators"
+  },
+  {
+    "what": "State legislators",
+    "label": "Open States",
+    "url": "https://openstates.org/ca/"
+  }
+]

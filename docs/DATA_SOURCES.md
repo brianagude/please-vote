@@ -149,3 +149,17 @@ Built by `pipeline/votes.ts` into `generated/votes.json`. Rule: DECISIONS #4.
   - Georgia laws vs. vetoes: Georgia's own `ActVetoNumber` ("631" = became law; "V12" = vetoed). Open States labels a Georgia veto as an "executive-signature" (SB 569, 2026, was vetoed).
 - Checked against the old API results for every Georgia legislator, both sessions: the same bills and counts, with three statuses now more accurate (SB 569 Vetoed, SB 572 Became law, SB 371 Passed the Senate).
 - New status: **"Vetoed"** (passed both chambers; the governor rejected it).
+
+## California (checked Oct 16, 2026)
+
+- **Candidates:** the Secretary of State's Certified List of Candidates PDF (`elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf`, about 15 MB, downloads without a block). `scripts/ca-certification.py` reads it into `certification.json`; `pipeline/import-ca.ts` turns that into the race files. Neither file is kept in the repo (owner, Oct 16): download the PDF again to re-run.
+  - The list stars statewide and legislature incumbents, but not U.S. House members, because the districts were redrawn for 2026 (Prop 50). House incumbents are matched to Congress's records by FEC ID, then first and last name. Name-only matching gets it wrong: "Larry Thompson" isn't Rep. Mike Thompson, and Assemblymember Robert Garcia isn't Rep. Robert Garcia.
+  - 49 of 52 members are running. Pelosi (11), Brownley (26), and Issa (48) aren't. District 40 has two members facing each other (Calvert and Young Kim).
+  - Each candidate's ballot designation (job title on the ballot) is shown as "On the ballot as" (owner, Oct 16).
+  - FEC's district filter missed three candidates; their IDs were added by hand in `races.json` (Eric Jones H6CA04222, Mitch Clemmons H6CA41380, Chuong V. Vo H6CA45191). Clemmons has two FEC IDs with the same totals; the 2026 one is used.
+- **Dates and poll hours:** the Secretary of State's key dates page and Quick Facts PDF.
+- **Propositions:** the Official Voter Information Guide (`voterguide.sos.ca.gov/propositions/<n>/`). The cards use the guide's own title, summary, and "A YES/NO vote on this measure means" text, word for word. Watch for bold words in the page: Prop 40's NO text has a bold "not".
+- **New district maps (Prop 50):** the Census geocoder's "120th Congressional Districts" layer already has them (Palm Springs city hall returns District 48, as under the new map). The ZIP fallback list used for Georgia and New York is on the old maps, so California's needs building from the new map's block file and the Census ZIP-to-block file.
+- **State Senate:** only the 20 even-numbered seats are up in 2026. The other districts say the seat isn't on the ballot this year.
+- **Board of Equalization:** left out; no source maps an address to a BOE district.
+- **Open States API limit:** ran out on Oct 16 during testing, so the legislature step moved to the free `data.openstates.org/people/current/<state>.csv` file. Same output for Georgia and New York.

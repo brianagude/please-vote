@@ -9,3 +9,6 @@ dist/
 exports/
 .cache/
 photos-inbox/
+# Each state's original candidate lists (PDFs, spreadsheets) and what's read out of them. Only the
+# import scripts use these; the site doesn't. Download them again from the link in sources.json.
+data/states/*/sources/

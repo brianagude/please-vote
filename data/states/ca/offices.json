@@ -1,0 +1,244 @@
+{
+  "governor": {
+    "title": "Governor",
+    "term": "4-year term",
+    "one": "Runs the state, writes the first draft of the state budget each January, and signs or vetoes every bill the legislature passes.",
+    "why": "Shapes how California spends its money on schools, housing, health care, and wildfire response.",
+    "also": [
+      "Can veto single spending items out of the budget",
+      "Appoints judges and fills many state jobs",
+      "Limited to two terms"
+    ]
+  },
+  "ltgov": {
+    "title": "Lieutenant Governor",
+    "term": "4-year term",
+    "one": "Takes over if the governor can't serve, and fills in as acting governor whenever the governor is out of the state.",
+    "why": "Next in line for the state's top job. Also casts the deciding vote if the State Senate ties.",
+    "also": [
+      "You vote for this office separately from governor",
+      "Sits on the boards that run the University of California and Cal State"
+    ]
+  },
+  "sos": {
+    "title": "Secretary of State",
+    "term": "4-year term",
+    "one": "California's top elections official. Oversees how elections are run and certifies the results.",
+    "why": "Runs the statewide voter list and the tools you use to check your registration and track your ballot.",
+    "also": [
+      "Registers businesses",
+      "Posts who gives money to state campaigns and lobbyists"
+    ]
+  },
+  "controller": {
+    "title": "Controller",
+    "term": "4-year term",
+    "one": "The state's chief money officer. Pays the state's bills and checks how state money is spent.",
+    "why": "Audits state and local spending to catch waste and fraud with your tax dollars.",
+    "also": [
+      "Returns lost or forgotten money (old bank accounts, uncashed checks) to its owners",
+      "Sits on the boards of the state worker and teacher pension funds"
+    ]
+  },
+  "treasurer": {
+    "title": "Treasurer",
+    "term": "4-year term",
+    "one": "The state's banker. Invests the state's money and sells the bonds the state uses to borrow for big projects.",
+    "why": "Handles the borrowing that pays for schools, roads, and other projects voters approve.",
+    "also": [
+      "Sits on the boards of the state worker and teacher pension funds"
+    ]
+  },
+  "ag": {
+    "title": "Attorney General",
+    "term": "4-year term",
+    "one": "California's top lawyer. Runs the state Department of Justice and represents the state in court.",
+    "why": "Goes after scams, companies that mislead customers, and other lawbreaking that hurts Californians.",
+    "also": [
+      "Writes the official title and summary for each proposition"
+    ]
+  },
+  "ins": {
+    "title": "Insurance Commissioner",
+    "term": "4-year term",
+    "one": "Runs the state Department of Insurance, which oversees insurance companies in California.",
+    "why": "Must approve rate changes for home and car insurance before companies can charge them.",
+    "also": [
+      "Investigates insurance fraud",
+      "Handles complaints against insurance companies"
+    ]
+  },
+  "schools": {
+    "title": "Superintendent of Public Instruction",
+    "term": "4-year term",
+    "one": "Leads the state Department of Education, which oversees California's public schools.",
+    "why": "Carries out state school policy, including testing, standards, and help for struggling schools.",
+    "also": [
+      "A nonpartisan office: candidates aren't listed with a party"
+    ]
+  },
+  "house": {
+    "title": "U.S. House",
+    "term": "2-year term",
+    "one": "Votes on national laws, and speaks for your district in Washington.",
+    "why": "Your closest voice in Washington, and you get to keep or replace them every two years.",
+    "also": []
+  },
+  "sen": {
+    "title": "State Senate",
+    "term": "4-year term",
+    "one": "Writes California's laws and passes the state budget. There are 40 state senators.",
+    "why": "State laws cover schools, housing, criminal law, the environment, and state taxes.",
+    "also": [
+      "Half the seats are up every two years. This year it's the even-numbered districts",
+      "Approves many of the governor's appointments"
+    ]
+  },
+  "asm": {
+    "title": "State Assembly",
+    "term": "2-year term",
+    "one": "The other half of the legislature. There are 80 Assembly members, each with a smaller district than a senator's.",
+    "why": "Every bill has to pass here and in the State Senate before the governor can sign it.",
+    "also": []
+  },
+  "prop1": {
+    "title": "Prop 1: Authorizes bonds for housing affordability programs",
+    "one": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+    "why": "A YES vote means: The state could borrow $11.25 billion to support veterans and affordable housing.\nA NO vote means: The state could not borrow $11.25 billion to support veterans and affordable housing.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 1",
+      "url": "https://voterguide.sos.ca.gov/propositions/1/"
+    }
+  },
+  "prop2": {
+    "title": "Prop 2: Increases state's Rainy Day Fund",
+    "one": "Increases California's Rainy Day Fund, approved by voters in 2014, to provide funding for education, health care, public safety, and other essential services during economic downturns.",
+    "why": "A YES vote means: Rules for building state budget reserves and paying down extra state debts would change. As a result, state budget reserves would be higher. The state also would be required to make extra debt payments for longer.\nA NO vote means: Rules for building state budget reserves and paying down extra state debts would not change.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 2",
+      "url": "https://voterguide.sos.ca.gov/propositions/2/"
+    }
+  },
+  "prop3": {
+    "title": "Prop 3: Provides permanent funding for schools and health care by extending existing tax on high incomes",
+    "one": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation). Allocates tax revenues to public education.",
+    "why": "A YES vote means: An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.\nA NO vote means: An income tax increase on high-income earners in place since 2012 would expire in 2031.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 3",
+      "url": "https://voterguide.sos.ca.gov/propositions/3/"
+    }
+  },
+  "prop4": {
+    "title": "Prop 4: Repeals prohibition against public funding of election campaigns",
+    "one": "Repeals prohibition on state and local governments offering public funding of candidate election campaigns. Public funding programs may not use funds earmarked for education, transportation, or public safety.",
+    "why": "A YES vote means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.\nA NO vote means: State and most local governments would remain unable to create public campaign finance programs for public office candidates.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 4",
+      "url": "https://voterguide.sos.ca.gov/propositions/4/"
+    }
+  },
+  "prop5": {
+    "title": "Prop 5: Changes recall election process for statewide officers",
+    "one": "Under current law, voters elect replacement candidates at the same time as the recall election. This measure instead fills recall vacancies by subsequent special election or appointment.",
+    "why": "A YES vote means: Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.\nA NO vote means: Voters would continue to be asked who should fill the vacancy as part of recall elections.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 5",
+      "url": "https://voterguide.sos.ca.gov/propositions/5/"
+    }
+  },
+  "prop37": {
+    "title": "Prop 37: Creates loan program for middle-income buyers of qualified new homes",
+    "one": "Authorizes $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of purchase price of a newly constructed home priced below about $1.5 million. Borrowers must be California residents, occupy the home, meet income limits, and pay at least 3% down. Bonds repaid by mortgage payments, not State.",
+    "why": "A YES vote means: The state would create a new homebuying assistance program. The state could sell up to $25 billion in revenue bonds to fund the program. Bonds would be paid back by homeowners’ payments on their home loans.\nA NO vote means: The state would not be required to create a new homebuying assistance program.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 37",
+      "url": "https://voterguide.sos.ca.gov/propositions/37/"
+    }
+  },
+  "prop38": {
+    "title": "Prop 38: Authorizes bonds for immunology medical research",
+    "one": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+    "why": "A YES vote means: The state could borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.\nA NO vote means: The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 38",
+      "url": "https://voterguide.sos.ca.gov/propositions/38/"
+    }
+  },
+  "prop39": {
+    "title": "Prop 39: Prohibits citizens from voting unless they present government-issued identification",
+    "one": "Invalidates mail ballots that do not have last four digits of designated government-issued identification number written on envelope. Prohibits in-person voting without presenting government-issued identification.",
+    "why": "A YES vote means: Voters would be required to present additional identifying information to elections officials each time they vote.\nA NO vote means: A voter’s identity would continue to be established with the voter’s signature.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 39",
+      "url": "https://voterguide.sos.ca.gov/propositions/39/"
+    }
+  },
+  "prop40": {
+    "title": "Prop 40: Imposes one-time tax on certain taxpayers",
+    "one": "Imposes 5% tax on certain taxpayers with assets over $1 billion; revenue primarily for health care. Exempts revenues from constitutional requirements for school funding and spending limit.",
+    "why": "A YES vote means: The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.\nA NO vote means: The state would not collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 40",
+      "url": "https://voterguide.sos.ca.gov/propositions/40/"
+    }
+  },
+  "prop41": {
+    "title": "Prop 41: Prohibits new state taxes that exclude revenues from state spending limit. Requires audits for new state special taxes",
+    "one": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.",
+    "why": "A YES vote means: When special taxes are proposed by voter initiatives, the California State Auditor would review programs funded by the tax before the initiative appears on the ballot. The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature. In addition, the state might not be able to exclude any new special tax spending from its spending limit.\nA NO vote means: The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 41",
+      "url": "https://voterguide.sos.ca.gov/propositions/41/"
+    }
+  },
+  "prop42": {
+    "title": "Prop 42: Prohibits new state personal property taxes and certain retroactive state taxes",
+    "one": "Prohibits any new state tax (1) imposed on the ownership of personal property (all things people own other than real estate), or (2) that applies retroactively based on taxpayer’s past activities. Nullifies taxes enacted after January 1, 2026 that conflict with this measure.",
+    "why": "A YES vote means: The state could not establish new taxes on the ownership of financial assets or other personal property.\nA NO vote means: The state would continue to have the option to establish new taxes on the ownership of financial assets or other personal property.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 42",
+      "url": "https://voterguide.sos.ca.gov/propositions/42/"
+    }
+  },
+  "prop43": {
+    "title": "Prop 43: Limits voters' ability to raise revenues for local government services",
+    "one": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+    "why": "A YES vote means: Certain local government taxes would require two-thirds approval by voters.\nA NO vote means: Certain local government taxes could continue to be approved by voters with a majority vote.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 43",
+      "url": "https://voterguide.sos.ca.gov/propositions/43/"
+    }
+  },
+  "prop44": {
+    "title": "Prop 44: Requires community health clinics spend 90% of revenue on program services",
+    "one": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
+    "why": "A YES vote means: Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.\nA NO vote means: The new requirement on health care clinic spending would not go into effect.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 44",
+      "url": "https://voterguide.sos.ca.gov/propositions/44/"
+    }
+  },
+  "prop45": {
+    "title": "Prop 45: Modifies environmental review for certain projects",
+    "one": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.",
+    "why": "A YES vote means: Certain public and private projects would be eligible for new project review and court challenge procedures. For example, new procedures would tighten time limits for environmental review and reduce the scope of what courts can consider when reviewing legal challenges.\nA NO vote means: Public and private projects would continue to use existing project review and court challenge procedures.",
+    "also": [],
+    "source": {
+      "label": "California Official Voter Information Guide, Prop 45",
+      "url": "https://voterguide.sos.ca.gov/propositions/45/"
+    }
+  }
+}

@@ -93,13 +93,14 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
                                 <span class="lbl">Candidates</span>
                                 <ul class="cands">
                                   {running.map((c) => (
-                                    <CandidateRow c={{ id: `${ch.k}-${n}-${c.name}`, name: c.name, party: c.party, incumbent: c.incumbent, links: {} }} />
+                                    <CandidateRow c={{ id: `${ch.k}-${n}-${c.name}`, name: c.name, party: c.party, incumbent: c.incumbent, ballotAs: c.ballotAs, links: {} }} />
                                   ))}
                                 </ul>
-                                {running.length === 1 && <p class="rnote">Only one person is running for this seat.</p>}
+                                {running.length === 1 && <p class="rnote">This person is running unopposed.</p>}
                                 <a class="src" href={L.running.source.url} target="_blank" rel="noopener">Candidate list: {L.running.source.label}</a>
                               </>
                             )}
+                            {running.length === 0 && L.running[ch.k] && Object.keys(L.running[ch.k]).length > 0 && <p class="rnote">This seat isn't on the ballot this year.</p>}
                             {p && !running.some((c) => c.incumbent) && (
                               <p class="holder">
                                 <span class="lbl">Has the seat now</span>

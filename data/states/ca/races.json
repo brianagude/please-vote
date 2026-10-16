@@ -1,0 +1,2659 @@
+{
+  "statewide": {
+    "governor": {
+      "candidates": [
+        {
+          "id": "xavier-becerra",
+          "name": "Xavier Becerra",
+          "party": "Democrat",
+          "links": {},
+          "ballotAs": {
+            "text": "Voting Rights Attorney",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "steve-hilton",
+          "name": "Steve Hilton",
+          "party": "Republican",
+          "links": {},
+          "ballotAs": {
+            "text": "Small Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "ltgov": {
+      "candidates": [
+        {
+          "id": "fiona-ma",
+          "name": "Fiona Ma",
+          "party": "Democrat",
+          "links": {},
+          "ballotAs": {
+            "text": "State Treasurer/CPA",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "gloria-romero",
+          "name": "Gloria Romero",
+          "party": "Republican",
+          "links": {},
+          "ballotAs": {
+            "text": "Educator/Businesswoman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "sos": {
+      "candidates": [
+        {
+          "id": "shirley-n-weber",
+          "name": "Shirley N. Weber",
+          "party": "Democrat",
+          "links": {},
+          "incumbent": true,
+          "ballotAs": {
+            "text": "California Secretary of State",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "donald-p-wagner",
+          "name": "Donald P. (Don) Wagner",
+          "party": "Republican",
+          "links": {},
+          "ballotAs": {
+            "text": "Orange County Supervisor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "controller": {
+      "candidates": [
+        {
+          "id": "malia-m-cohen",
+          "name": "Malia M. Cohen",
+          "party": "Democrat",
+          "links": {},
+          "incumbent": true,
+          "ballotAs": {
+            "text": "State Controller/Mother",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "herb-w-morgan",
+          "name": "Herb W Morgan",
+          "party": "Republican",
+          "links": {},
+          "ballotAs": {
+            "text": "Chief Investment Officer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "treasurer": {
+      "candidates": [
+        {
+          "id": "eleni-kounalakis",
+          "name": "Eleni Kounalakis",
+          "party": "Democrat",
+          "links": {},
+          "ballotAs": {
+            "text": "Lieutenant Governor of California",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jennifer-hawks",
+          "name": "Jennifer Hawks",
+          "party": "Republican",
+          "links": {},
+          "ballotAs": {
+            "text": "Retired Business Executive",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "ag": {
+      "candidates": [
+        {
+          "id": "rob-bonta",
+          "name": "Rob Bonta",
+          "party": "Democrat",
+          "links": {},
+          "incumbent": true,
+          "ballotAs": {
+            "text": "California Attorney General",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "michael-e-gates",
+          "name": "Michael E. Gates",
+          "party": "Republican",
+          "links": {},
+          "ballotAs": {
+            "text": "Deputy United States Attorney",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "ins": {
+      "candidates": [
+        {
+          "id": "ben-allen",
+          "name": "Ben Allen",
+          "party": "Democrat",
+          "links": {},
+          "ballotAs": {
+            "text": "California State Senator",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          },
+          "ids": {
+            "openstates": "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3"
+          }
+        },
+        {
+          "id": "jane-kim",
+          "name": "Jane Kim",
+          "party": "Democrat",
+          "links": {},
+          "ballotAs": {
+            "text": "Attorney/Consumer Advocate",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "schools": {
+      "candidates": [
+        {
+          "id": "richard-barrera",
+          "name": "Richard Barrera",
+          "party": "Nonpartisan",
+          "links": {},
+          "ballotAs": {
+            "text": "State Superintendent Advisor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "sonja-shaw",
+          "name": "Sonja Shaw",
+          "party": "Nonpartisan",
+          "links": {},
+          "ballotAs": {
+            "text": "School District President",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "house": {
+    "1": {
+      "candidates": [
+        {
+          "id": "mike-mcguire",
+          "name": "Mike McGuire",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA01269",
+            "openstates": "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0"
+          },
+          "ballotAs": {
+            "text": "California State Senator",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "james-gallagher",
+          "name": "James Gallagher",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000607"
+            }
+          },
+          "links": {
+            "official": "https://gallagher.house.gov/"
+          },
+          "ids": {
+            "fec": "H6CA01285",
+            "bioguide": "G000607"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative/Farmer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "2": {
+      "candidates": [
+        {
+          "id": "jared-huffman",
+          "name": "Jared Huffman",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/H001068"
+            }
+          },
+          "links": {
+            "official": "https://huffman.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA06259",
+            "bioguide": "H001068"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "robin-littau",
+          "name": "Robin Littau",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA02309"
+          },
+          "ballotAs": {
+            "text": "Enterprise Elementary School Board Member",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "3": {
+      "candidates": [
+        {
+          "id": "ami-bera",
+          "name": "Ami Bera",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013. Represents District 6 now; the district lines changed for 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/B001287"
+            }
+          },
+          "links": {
+            "official": "https://bera.house.gov"
+          },
+          "ids": {
+            "fec": "H0CA03078",
+            "bioguide": "B001287"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congressman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "robb-tucker",
+          "name": "Robb Tucker",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA03174"
+          },
+          "ballotAs": {
+            "text": "County Supervisor/Businessman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "4": {
+      "candidates": [
+        {
+          "id": "eric-jones",
+          "name": "Eric Jones",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA04222"
+          },
+          "ballotAs": {
+            "text": "Businessman/Nonprofit Executive",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "mike-thompson",
+          "name": "Mike Thompson",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 1999.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000460"
+            }
+          },
+          "links": {
+            "official": "https://mikethompson.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA01109",
+            "bioguide": "T000460"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Member of Congress",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "5": {
+      "candidates": [
+        {
+          "id": "michael-masuda",
+          "name": "Michael Masuda",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA05377"
+          },
+          "ballotAs": {
+            "text": "Foreign Affairs Officer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "tom-mcclintock",
+          "name": "Tom McClintock",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2009.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001177"
+            }
+          },
+          "links": {
+            "official": "https://mcclintock.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA04152",
+            "bioguide": "M001177"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "6": {
+      "candidates": [
+        {
+          "id": "richard-pan",
+          "name": "Richard Pan",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA03158"
+          },
+          "ballotAs": {
+            "text": "Doctor/Health Advocate",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "kevin-kiley",
+          "name": "Kevin Kiley",
+          "party": "No party preference",
+          "bio": {
+            "text": "U.S. representative since 2023. Represents District 3 now; the district lines changed for 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/K000401"
+            }
+          },
+          "links": {
+            "official": "https://kiley.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA03157",
+            "bioguide": "K000401"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "7": {
+      "candidates": [
+        {
+          "id": "doris-matsui",
+          "name": "Doris Matsui",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2005.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001163"
+            }
+          },
+          "links": {
+            "official": "https://matsui.house.gov"
+          },
+          "ids": {
+            "fec": "H6CA05195",
+            "bioguide": "M001163"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "mai-vang",
+          "name": "Mai Vang",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA07175"
+          },
+          "ballotAs": {
+            "text": "Teacher/City Councilmember",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "8": {
+      "candidates": [
+        {
+          "id": "john-garamendi",
+          "name": "John Garamendi",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2009.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000559"
+            }
+          },
+          "links": {
+            "official": "https://garamendi.house.gov"
+          },
+          "ids": {
+            "fec": "H0CA10149",
+            "bioguide": "G000559"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Member of Congress",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "rudy-recile",
+          "name": "Rudy Recile",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H2CA00153"
+          },
+          "ballotAs": {
+            "text": "Business Owner/Consultant",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "9": {
+      "candidates": [
+        {
+          "id": "josh-harder",
+          "name": "Josh Harder",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/H001090"
+            }
+          },
+          "links": {
+            "official": "https://harder.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA10126",
+            "bioguide": "H001090"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Father/Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "john-mcbride",
+          "name": "John McBride",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4CA09101"
+          },
+          "ballotAs": {
+            "text": "Athletic Performance Coach",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "10": {
+      "candidates": [
+        {
+          "id": "mark-desaulnier",
+          "name": "Mark DeSaulnier",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2015.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/D000623"
+            }
+          },
+          "links": {
+            "official": "https://desaulnier.house.gov"
+          },
+          "ids": {
+            "fec": "H0CA10073",
+            "bioguide": "D000623"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congressman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jeff-frese",
+          "name": "Jeff Frese",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA10187"
+          },
+          "ballotAs": {
+            "text": "Small Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "11": {
+      "candidates": [
+        {
+          "id": "connie-chan",
+          "name": "Connie Chan",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA11268"
+          },
+          "ballotAs": {
+            "text": "San Francisco Supervisor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "scott-wiener",
+          "name": "Scott Wiener",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H8CA11116",
+            "openstates": "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e"
+          },
+          "ballotAs": {
+            "text": "State Senator",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "12": {
+      "candidates": [
+        {
+          "id": "jamie-joyce",
+          "name": "Jamie Joyce",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA12209"
+          },
+          "ballotAs": {
+            "text": "Nonprofit Executive Director",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "lateefah-simon",
+          "name": "Lateefah Simon",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/S001231"
+            }
+          },
+          "links": {
+            "official": "https://simon.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA12154",
+            "bioguide": "S001231"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "13": {
+      "candidates": [
+        {
+          "id": "adam-gray",
+          "name": "Adam Gray",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000605"
+            }
+          },
+          "links": {
+            "official": "https://gray.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA13115",
+            "bioguide": "G000605"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative/Educator",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "kevin-lincoln",
+          "name": "Kevin Lincoln",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4CA09093"
+          },
+          "ballotAs": {
+            "text": "Small Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "14": {
+      "candidates": [
+        {
+          "id": "melissa-hernandez",
+          "name": "Melissa Hernandez",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA14163"
+          },
+          "ballotAs": {
+            "text": "Healthcare Services Director",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "aisha-wahab",
+          "name": "Aisha Wahab",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/W000832"
+            }
+          },
+          "links": {
+            "official": "https://wahab.house.gov/"
+          },
+          "ids": {
+            "fec": "H0CA15213",
+            "bioguide": "W000832"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "State Senator",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "15": {
+      "candidates": [
+        {
+          "id": "kevin-mullin",
+          "name": "Kevin Mullin",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001225"
+            }
+          },
+          "links": {
+            "official": "https://kevinmullin.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA14162",
+            "bioguide": "M001225"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "charles-hoelter",
+          "name": "Charles Hoelter",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA15194"
+          },
+          "ballotAs": {
+            "text": "Retired Training Supervisor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "16": {
+      "candidates": [
+        {
+          "id": "sam-liccardo",
+          "name": "Sam Liccardo",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000607"
+            }
+          },
+          "links": {
+            "official": "https://liccardo.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA16197",
+            "bioguide": "L000607"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "peter-sundin-soule",
+          "name": "Peter Sundin Soulé",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA16176"
+          },
+          "ballotAs": {
+            "text": "Investor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "17": {
+      "candidates": [
+        {
+          "id": "ro-khanna",
+          "name": "Ro Khanna",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/K000389"
+            }
+          },
+          "links": {
+            "official": "https://khanna.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA12055",
+            "bioguide": "K000389"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congressmember",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "ritesh-tandon",
+          "name": "Ritesh Tandon",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H0CA17193"
+          },
+          "ballotAs": {
+            "text": "CEO/Entrepreneur/Researcher",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "18": {
+      "candidates": [
+        {
+          "id": "zoe-lofgren",
+          "name": "Zoe Lofgren",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 1995.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000397"
+            }
+          },
+          "links": {
+            "official": "https://lofgren.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA16049",
+            "bioguide": "L000397"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Congresswoman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "shane-lewis",
+          "name": "Shane Lewis",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA18172"
+          },
+          "ballotAs": {
+            "text": "Electrical Test Engineer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "19": {
+      "candidates": [
+        {
+          "id": "jimmy-panetta",
+          "name": "Jimmy Panetta",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/P000613"
+            }
+          },
+          "links": {
+            "official": "https://panetta.house.gov"
+          },
+          "ids": {
+            "fec": "H6CA20152",
+            "bioguide": "P000613"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "peter-coe-verbica",
+          "name": "Peter Coe Verbica",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA19154"
+          },
+          "ballotAs": {
+            "text": "Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "20": {
+      "candidates": [
+        {
+          "id": "sandra-van-scotter",
+          "name": "Sandra Van Scotter",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA20228"
+          },
+          "ballotAs": {
+            "text": "Disability Community Advocate",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "vince-fong",
+          "name": "Vince Fong",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2024.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/F000480"
+            }
+          },
+          "links": {
+            "official": "https://fong.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA20181",
+            "bioguide": "F000480"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "21": {
+      "candidates": [
+        {
+          "id": "jim-costa",
+          "name": "Jim Costa",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2005.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001059"
+            }
+          },
+          "links": {
+            "official": "https://costa.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA20082",
+            "bioguide": "C001059"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Farmer/Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "kyle-kirkland",
+          "name": "Kyle Kirkland",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA13199"
+          },
+          "ballotAs": {
+            "text": "Entrepreneur/Nonprofit CEO",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "22": {
+      "candidates": [
+        {
+          "id": "randy-villegas",
+          "name": "Randy Villegas",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA22190"
+          },
+          "ballotAs": {
+            "text": "Teacher/Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "david-g-valadao",
+          "name": "David G. Valadao",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/V000129"
+            }
+          },
+          "links": {
+            "official": "https://valadao.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA20094",
+            "bioguide": "V000129"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Congressman/Dairy Farmer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "23": {
+      "candidates": [
+        {
+          "id": "tessa-lynn-hodge",
+          "name": "Tessa Lynn Hodge",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA23230"
+          },
+          "ballotAs": {
+            "text": "Social Worker/Businesswoman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jay-obernolte",
+          "name": "Jay Obernolte",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/O000019"
+            }
+          },
+          "links": {
+            "official": "https://obernolte.house.gov"
+          },
+          "ids": {
+            "fec": "H0CA08135",
+            "bioguide": "O000019"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Congressman/Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "24": {
+      "candidates": [
+        {
+          "id": "salud-carbajal",
+          "name": "Salud Carbajal",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001112"
+            }
+          },
+          "links": {
+            "official": "https://carbajal.house.gov"
+          },
+          "ids": {
+            "fec": "H6CA24303",
+            "bioguide": "C001112"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Member of Congress",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "bob-smith",
+          "name": "Bob Smith",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA24345"
+          },
+          "ballotAs": {
+            "text": "Defense Systems Engineer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "25": {
+      "candidates": [
+        {
+          "id": "raul-ruiz",
+          "name": "Raul Ruiz",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/R000599"
+            }
+          },
+          "links": {
+            "official": "https://ruiz.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA36439",
+            "bioguide": "R000599"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Emergency Physician/Congressman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "joe-males",
+          "name": "Joe Males",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA25219"
+          },
+          "ballotAs": {
+            "text": "Mayor Pro Tem",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "26": {
+      "candidates": [
+        {
+          "id": "jacqui-irwin",
+          "name": "Jacqui Irwin",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA26266",
+            "openstates": "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+          },
+          "ballotAs": {
+            "text": "California State Assemblymember",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "sam-gallucci",
+          "name": "Sam Gallucci",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA26241"
+          },
+          "ballotAs": {
+            "text": "Business Executive/Pastor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "27": {
+      "candidates": [
+        {
+          "id": "george-whitesides",
+          "name": "George Whitesides",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/W000830"
+            }
+          },
+          "links": {
+            "official": "https://whitesides.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA27111",
+            "bioguide": "W000830"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative/Father",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jason-gibbs",
+          "name": "Jason Gibbs",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA27306"
+          },
+          "ballotAs": {
+            "text": "City Councilmember/Engineer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "28": {
+      "candidates": [
+        {
+          "id": "judy-chu",
+          "name": "Judy Chu",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2009.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001080"
+            }
+          },
+          "links": {
+            "official": "https://chu.house.gov"
+          },
+          "ids": {
+            "fec": "H0CA32101",
+            "bioguide": "C001080"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "april-a-verlato",
+          "name": "April A. Verlato",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4CA28127"
+          },
+          "ballotAs": {
+            "text": "Small Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "29": {
+      "candidates": [
+        {
+          "id": "angelica-maria-duenas",
+          "name": "Angélica María Dueñas",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H8CA29100"
+          },
+          "ballotAs": {
+            "text": "Mother/Community Organizer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "luz-maria-rivas",
+          "name": "Luz Maria Rivas",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/R000620"
+            }
+          },
+          "links": {
+            "official": "https://rivas.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA29141",
+            "bioguide": "R000620"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Congresswoman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "30": {
+      "candidates": [
+        {
+          "id": "laura-friedman",
+          "name": "Laura Friedman",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/F000483"
+            }
+          },
+          "links": {
+            "official": "https://friedman.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA30149",
+            "bioguide": "F000483"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Member, United States House of Representatives",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "scott-alan-meyers",
+          "name": "Scott Alan Meyers",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA30250"
+          },
+          "ballotAs": {
+            "text": "Small Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "31": {
+      "candidates": [
+        {
+          "id": "gil-cisneros",
+          "name": "Gil Cisneros",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001123"
+            }
+          },
+          "links": {
+            "official": "https://cisneros.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA39174",
+            "bioguide": "C001123"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Congressman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "eric-ching",
+          "name": "Eric Ching",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H2CA39151"
+          },
+          "ballotAs": {
+            "text": "Entrepreneur",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "32": {
+      "candidates": [
+        {
+          "id": "brad-sherman",
+          "name": "Brad Sherman",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 1997.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/S000344"
+            }
+          },
+          "links": {
+            "official": "https://sherman.house.gov"
+          },
+          "ids": {
+            "fec": "H6CA24113",
+            "bioguide": "S000344"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congressman/Dad",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "larry-thompson",
+          "name": "Larry Thompson",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4CA32137"
+          },
+          "ballotAs": {
+            "text": "Attorney/Film Producer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "33": {
+      "candidates": [
+        {
+          "id": "pete-aguilar",
+          "name": "Pete Aguilar",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2015.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/A000371"
+            }
+          },
+          "links": {
+            "official": "https://aguilar.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA31125",
+            "bioguide": "A000371"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "stephanie-m-vargas",
+          "name": "Stephanie M. Vargas",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA33114"
+          },
+          "ballotAs": {
+            "text": "Chief Deputy Clerk",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "34": {
+      "candidates": [
+        {
+          "id": "jimmy-gomez",
+          "name": "Jimmy Gomez",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000585"
+            }
+          },
+          "links": {
+            "official": "https://gomez.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA34266",
+            "bioguide": "G000585"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative/Parent",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "angela-gonzales-torres",
+          "name": "Angela Gonzales-Torres",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA34286"
+          },
+          "ballotAs": {
+            "text": "Advocate For Justice",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "35": {
+      "candidates": [
+        {
+          "id": "norma-j-torres",
+          "name": "Norma J. Torres",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2015.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000474"
+            }
+          },
+          "links": {
+            "official": "https://torres.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA35031",
+            "bioguide": "T000474"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "mike-cargile",
+          "name": "Mike Cargile",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H0CA35146"
+          },
+          "ballotAs": {
+            "text": "Small Businessman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "36": {
+      "candidates": [
+        {
+          "id": "ted-w-lieu",
+          "name": "Ted W. Lieu",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2015.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000582"
+            }
+          },
+          "links": {
+            "official": "https://lieu.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA33119",
+            "bioguide": "L000582"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative, 36th District",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "houston-brignano",
+          "name": "Houston Brignano",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA36208"
+          },
+          "ballotAs": {
+            "text": "Technology Executive",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "37": {
+      "candidates": [
+        {
+          "id": "sydney-kamlager-dove",
+          "name": "Sydney Kamlager-Dove",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/K000400"
+            }
+          },
+          "links": {
+            "official": "https://kamlager-dove.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA37304",
+            "bioguide": "K000400"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative, 37th District",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "samantha-mota",
+          "name": "Samantha Mota",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA37339"
+          },
+          "ballotAs": {
+            "text": "Community Advocate",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "38": {
+      "candidates": [
+        {
+          "id": "hilda-solis",
+          "name": "Hilda Solis",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA38139"
+          },
+          "ballotAs": {
+            "text": "County Supervisor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "pedro-antonio-casas",
+          "name": "Pedro Antonio Casas",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4CA31212"
+          }
+        }
+      ]
+    },
+    "39": {
+      "candidates": [
+        {
+          "id": "mark-takano",
+          "name": "Mark Takano",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000472"
+            }
+          },
+          "links": {
+            "official": "https://takano.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA43245",
+            "bioguide": "T000472"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Congressman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "steve-manos",
+          "name": "Steve Manos",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA39145"
+          },
+          "ballotAs": {
+            "text": "Mayor/Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "40": {
+      "candidates": [
+        {
+          "id": "ken-calvert",
+          "name": "Ken Calvert",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 1993. Represents District 41 now; the district lines changed for 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C000059"
+            }
+          },
+          "links": {
+            "official": "https://calvert.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA37023",
+            "bioguide": "C000059"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "young-kim",
+          "name": "Young Kim",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/K000397"
+            }
+          },
+          "links": {
+            "official": "https://youngkim.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA39240",
+            "bioguide": "K000397"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative, 40th District",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "41": {
+      "candidates": [
+        {
+          "id": "linda-sanchez",
+          "name": "Linda Sánchez",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2003. Represents District 38 now; the district lines changed for 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/S001156"
+            }
+          },
+          "links": {
+            "official": "https://lindasanchez.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA39078",
+            "bioguide": "S001156"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Congresswoman/Mom",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "mitch-clemmons",
+          "name": "Mitch Clemmons",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA41380"
+          },
+          "ballotAs": {
+            "text": "Plumbing Contractor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "42": {
+      "candidates": [
+        {
+          "id": "robert-garcia",
+          "name": "Robert Garcia",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000598"
+            }
+          },
+          "links": {
+            "official": "https://robertgarcia.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA47188",
+            "bioguide": "G000598"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congressman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "brian-burley",
+          "name": "Brian Burley",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H0CA48172"
+          },
+          "ballotAs": {
+            "text": "Trustee, Huntington Beach City School District",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "43": {
+      "candidates": [
+        {
+          "id": "maxine-waters",
+          "name": "Maxine Waters",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 1991.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/W000187"
+            }
+          },
+          "links": {
+            "official": "https://waters.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA23011",
+            "bioguide": "W000187"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congresswoman",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "cristian-morales",
+          "name": "Cristian Morales",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA43188"
+          },
+          "ballotAs": {
+            "text": "Manufacturing Executive",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "44": {
+      "candidates": [
+        {
+          "id": "nanette-diaz-barragan",
+          "name": "Nanette Diaz Barragan",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/B001300"
+            }
+          },
+          "links": {
+            "official": "https://barragan.house.gov"
+          },
+          "ids": {
+            "fec": "H6CA44103",
+            "bioguide": "B001300"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative, 44th District",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "genevieve-angel",
+          "name": "Genevieve Angel",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA44210"
+          },
+          "ballotAs": {
+            "text": "Family Nurse Practitioner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "45": {
+      "candidates": [
+        {
+          "id": "derek-tran",
+          "name": "Derek Tran",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/T000491"
+            }
+          },
+          "links": {
+            "official": "https://tran.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA45170",
+            "bioguide": "T000491"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Representative/Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "chuong-v-vo",
+          "name": "Chuong V. Vo",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA45191"
+          },
+          "ballotAs": {
+            "text": "Retired Police Officer",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "46": {
+      "candidates": [
+        {
+          "id": "lou-correa",
+          "name": "Lou Correa",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001110"
+            }
+          },
+          "links": {
+            "official": "https://correa.house.gov"
+          },
+          "ids": {
+            "fec": "H6CA46116",
+            "bioguide": "C001110"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Congressmember",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "david-pan",
+          "name": "David Pan",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4CA46137"
+          },
+          "ballotAs": {
+            "text": "Professor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "47": {
+      "candidates": [
+        {
+          "id": "dave-min",
+          "name": "Dave Min",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001241"
+            }
+          },
+          "links": {
+            "official": "https://min.house.gov"
+          },
+          "ids": {
+            "fec": "H4CA47085",
+            "bioguide": "M001241"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "United States Representative/Father",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jenny-rae-le-roux",
+          "name": "Jenny Rae Le Roux",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA47114"
+          },
+          "ballotAs": {
+            "text": "Entrepreneur/Investor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "48": {
+      "candidates": [
+        {
+          "id": "marni-von-wilpert",
+          "name": "Marni von Wilpert",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6CA48310"
+          },
+          "ballotAs": {
+            "text": "Councilwoman/Health Advocate",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jim-desmond",
+          "name": "Jim Desmond",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA49128"
+          },
+          "ballotAs": {
+            "text": "San Diego County Supervisor",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "49": {
+      "candidates": [
+        {
+          "id": "mike-levin",
+          "name": "Mike Levin",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/L000593"
+            }
+          },
+          "links": {
+            "official": "https://levin.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA49058",
+            "bioguide": "L000593"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative, 49th District",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "armen-kurdian",
+          "name": "Armen Kurdian",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA49169"
+          },
+          "ballotAs": {
+            "text": "Retired Navy Captain",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "50": {
+      "candidates": [
+        {
+          "id": "scott-peters",
+          "name": "Scott Peters",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/P000608"
+            }
+          },
+          "links": {
+            "official": "https://scottpeters.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA52089",
+            "bioguide": "P000608"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Member of Congress",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "steve-cohen",
+          "name": "Steve Cohen",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA50324"
+          },
+          "ballotAs": {
+            "text": "Television News Consultant",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "51": {
+      "candidates": [
+        {
+          "id": "sara-jacobs",
+          "name": "Sara Jacobs",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/J000305"
+            }
+          },
+          "links": {
+            "official": "https://sarajacobs.house.gov"
+          },
+          "ids": {
+            "fec": "H8CA49074",
+            "bioguide": "J000305"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "U.S. Representative",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "ricardo-cabrera",
+          "name": "Ricardo Cabrera",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA51140"
+          },
+          "ballotAs": {
+            "text": "Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    },
+    "52": {
+      "candidates": [
+        {
+          "id": "juan-vargas",
+          "name": "Juan Vargas",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/V000130"
+            }
+          },
+          "links": {
+            "official": "https://vargas.house.gov"
+          },
+          "ids": {
+            "fec": "H2CA50026",
+            "bioguide": "V000130"
+          },
+          "incumbent": true,
+          "ballotAs": {
+            "text": "Member of Congress",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        },
+        {
+          "id": "jeff-belle",
+          "name": "Jeff Belle",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6CA52163"
+          },
+          "ballotAs": {
+            "text": "Business Owner",
+            "source": {
+              "label": "California Secretary of State, Certified List of Candidates (August 27, 2026)",
+              "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

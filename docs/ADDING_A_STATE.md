@@ -29,7 +29,7 @@ Copy New York's files as a starting point (`data/states/ny/`). Every date and ho
 
 ### 3. Candidates (Claude; the most hands-on step)
 
-- Download the certified candidate list by hand into `data/states/<code>/sources/`. Each state publishes it differently:
+- Download the certified candidate list into `data/states/<code>/sources/`. That folder isn't kept in the repo (the site doesn't use it), so record the download link in `sources.json` and `docs/DATA_SOURCES.md`. Each state publishes it differently:
   - Georgia: an .xlsx from the Secretary of State, read by `pipeline/import-sos.ts`.
   - New York: a PDF from the State Board of Elections. `scripts/ny-certification.py` turns it into `certification.json`, and `pipeline/import-ny.ts` turns that into `races.json`.
 - A new state usually needs its own short import script (`pipeline/import-<code>.ts`). It must keep anything added by hand (bios, links, photos) when it runs again.

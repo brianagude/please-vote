@@ -1,38 +1,46 @@
 // Who holds each state legislative seat right now.
-// Source: Open States API v3 (https://docs.openstates.org/api-v3/), /people.
+// Source: Open States' list of current legislators, one file per state
+// (https://data.openstates.org/people/current/<state>.csv). It's a plain download, so it
+// doesn't count against the Open States API's 250-requests-a-day limit.
 import path from "node:path";
-import { getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
+import { get, log, readJSON, stateDir, writeJSON } from "./lib.ts";
+import { parseCSV } from "./votes.ts";
 
-const API = "https://v3.openstates.org";
 const PARTY: Record<string, string> = { Democratic: "D", Republican: "R", Libertarian: "L", Independent: "I" };
 
-export async function openstatesPeople(code: string, chamber: "upper" | "lower") {
-  const key = process.env.OPENSTATES_API_KEY;
-  if (!key) throw new Error("OPENSTATES_API_KEY is not set");
-  const people: any[] = [];
-  for (let page = 1; ; page++) {
-    const u = new URL(`${API}/people`);
-    u.search = new URLSearchParams({ jurisdiction: code, org_classification: chamber, per_page: "50", page: String(page) }).toString();
-    const d = await getJSON(u, { headers: { "X-API-KEY": key } });
-    people.push(...d.results);
-    if (page >= d.pagination.max_page) break;
+/** A person's page on openstates.org: their name, then their ID written in base 62. */
+export function openstatesUrl(id: string, name: string) {
+  const A = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+  let n = BigInt("0x" + id.replace(/^ocd-person\//, "").replace(/-/g, ""));
+  let s = "";
+  while (n > 0n) {
+    s = A[Number(n % 62n)] + s;
+    n /= 62n;
   }
-  return people;
+  const slug = name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `https://openstates.org/person/${slug}-${s}/`;
+}
+
+export async function openstatesPeople(code: string) {
+  const res = await get(`https://data.openstates.org/people/current/${code}.csv`);
+  if (!res.ok) throw new Error(`Open States people file for ${code}: HTTP ${res.status}`);
+  return parseCSV(await res.text());
 }
 
 export async function legislature(code: string) {
   const config = readJSON(path.join(stateDir(code), "state.json"));
   const out: any = { asOf: new Date().toISOString().slice(0, 10), upper: {}, lower: {} };
 
+  const people = await openstatesPeople(code);
   for (const ch of ["upper", "lower"] as const) {
-    for (const p of await openstatesPeople(code, ch)) {
-      const d = p.current_role?.district;
+    for (const p of people.filter((x) => x.current_chamber === ch)) {
+      const d = p.current_district;
       if (!d) continue;
       out[ch][d] = {
         name: p.name,
-        party: PARTY[p.party] ?? p.party,
+        party: PARTY[p.current_party] ?? p.current_party,
         openstates: p.id,
-        source: { label: "Open States", url: p.openstates_url },
+        source: { label: "Open States", url: openstatesUrl(p.id, p.name) },
       };
     }
     out[ch] = Object.fromEntries(Object.entries(out[ch]).sort((a, b) => Number(a[0]) - Number(b[0])));
