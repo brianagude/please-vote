@@ -12,7 +12,7 @@ What's next, in three lists. Last updated Oct 15, 2026.
   - Everyone else (governors, other statewide officials, challengers) gets a card on their state's page.
 - **Elections:** show upcoming elections for each state. No past election results. The most recent election's data can stay up for a short while afterward, then come down.
 
-**Site layout (to build after Nov 3):**
+**Site layout (to build after Nov 3):** the full plan, with decisions still to make, is in `docs/REDESIGN.md`.
 Question: Could the page layout be automated? like, if there is currently an election show x, if an election is coming up soon show y, if no election prioritize z. 
 - **A header or top link bar** on every page: Home, States, Upcoming elections, Find your officials, How elections work, Glossary.
 - **Home page:** a section pointing to everything you can do on the site: state pages, upcoming elections, finding your officials, how elections work, and the glossary.
@@ -46,11 +46,11 @@ Question: Could the page layout be automated? like, if there is currently an ele
 5. **Replace Wikipedia-sourced facts** (owner, Oct 16: Wikipedia is fine for photos, never for facts). 45 bio and career lines in Georgia (13) and New York (32) cite Wikipedia. Re-source each from an official page, Congress.gov, a legislature site, a news outlet, or Ballotpedia, or remove it. Georgia's footer sources list also has 7 Wikipedia entries.
 6. **Finish California** (on the `california` branch): state legislature votes, bills, and contact info once the Open States limit resets; spot-check against official sites; photos.
 7. **Then four more states, in this order (owner, Oct 16): Florida, Texas, Indiana, Illinois.** Chosen because the owner knows people there who will use and share the site. One at a time, each with certified candidates, dates, bios, records, and photos (owner sends photos as each state goes), checked like New York and California.
-8. **Then pause adding states** and build the next phase of the site (the hub layout below) on its own branch and pull request. New states after that are added into the hub. The other states wait until after the election.
+8. **Then pause adding states** and build the next phase of the site (the hub layout below, planned in `docs/REDESIGN.md`) on its own branch and pull request, after the election. New states after that are added into the hub. The other states wait until after the election.
 
 ## Bigger picture (after the election)
 
-- **The hub layout above** (owner, Oct 16: start right after the four states above): header, home page, state pages, upcoming elections, find your officials, person pages for everyone who writes and votes on laws.
+- **The hub layout above** (owner, Oct 16: after the election, once the four states above are done; plan in `docs/REDESIGN.md`): header, home page, state pages, upcoming elections, find your officials, person pages for everyone who writes and votes on laws.
 - **How elections work** page and the **glossary**.
 - **Clean up the git history** (with the new layout): squash main's older one-off commits into a few clear ones, so the history reads as one commit per finished piece of work plus the nightly refreshes. It overwrites main (a force push, which redeploys the live site), so do it after Nov 3, and only after any open branches are merged or restarted from the new main. Claude writes the steps; the owner runs them. From Oct 16 on, pull requests are squash-merged, so new history is already clean.
 - **Dec 1 runoff:** decide whether to cover it if any race goes to a runoff.
