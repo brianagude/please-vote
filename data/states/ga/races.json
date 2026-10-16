@@ -849,6 +849,14 @@
           },
           "ids": {
             "fec": "H6GA01158"
+          },
+          "photo": {
+            "src": "/photos/manual/amanda-hollowell.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Amanda_Hollowell"
+            }
           }
         },
         {
@@ -861,6 +869,14 @@
           "links": {},
           "ids": {
             "fec": "H6GA01109"
+          },
+          "photo": {
+            "src": "/photos/manual/jim-kingston.jpg",
+            "credit": "BallotReady",
+            "source": {
+              "label": "BallotReady",
+              "url": "https://www.ballotready.org/people/jim-kingston"
+            }
           }
         }
       ],
@@ -920,6 +936,14 @@
           },
           "ids": {
             "fec": "H6GA01182"
+          },
+          "photo": {
+            "src": "/photos/manual/matt-day.jpg",
+            "credit": "LocalCandidates.org",
+            "source": {
+              "label": "LocalCandidates.org",
+              "url": "https://www.localcandidates.org/politicians/matt-day"
+            }
           }
         }
       ]
@@ -959,6 +983,14 @@
           },
           "ids": {
             "fec": "H4GA03100"
+          },
+          "photo": {
+            "src": "/photos/manual/maura-keller.jpg",
+            "credit": "BallotReady",
+            "source": {
+              "label": "BallotReady",
+              "url": "https://www.ballotready.org/people/maura-k-keller"
+            }
           }
         },
         {
@@ -1062,6 +1094,14 @@
           },
           "ids": {
             "fec": "H6GA04194"
+          },
+          "photo": {
+            "src": "/photos/manual/james-duffie.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jim_Duffie"
+            }
           }
         }
       ]
@@ -1124,6 +1164,14 @@
           },
           "ids": {
             "fec": "H4GA05063"
+          },
+          "photo": {
+            "src": "/photos/manual/john-salvesen.jpg",
+            "credit": "Branch",
+            "source": {
+              "label": "Branch",
+              "url": "https://www.branch.vote/questionnaire-response/66f2335967d12a20c62f7b13"
+            }
           }
         }
       ]
