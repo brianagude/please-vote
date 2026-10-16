@@ -1,0 +1,25 @@
+---
+// Shown for any address that doesn't exist (Cloudflare serves /404.html; see wrangler.jsonc).
+import Base from "../layouts/Base.astro";
+import { stateList } from "../lib/state";
+const states = stateList();
+---
+<Base title="Page not found · Please Vote" description="This page doesn't exist." skip={{ href: "#main", label: "Skip to the page" }}>
+  <div class="wrap person centered">
+    <header class="sheet">
+      <div class="row">
+        <div class="cell">
+          <span class="lbl">Page not found</span>
+          <h1 class="disp" id="main" tabindex="-1">Nothing here</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cell">
+          <p>This page doesn't exist, or it moved. Pick your state to get back to your ballot:</p>
+          <p class="links">{states.map((s) => <a class="site" href={s.path}>{s.name} →</a>)}</p>
+          <p class="src"><a class="src" href="/directory/">Site directory</a></p>
+        </div>
+      </div>
+    </header>
+  </div>
+</Base>

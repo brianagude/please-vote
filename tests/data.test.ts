@@ -6,6 +6,14 @@ import { byLastName, lastName } from "../src/lib/names";
 import { parseCensus } from "../worker/index";
 import { moneyLines } from "../src/lib/money";
 
+// Person pages live at /person/<id>/, so ids must be unique across every state.
+describe("all states", () => {
+  it("candidate ids are unique across states", () => {
+    const ids = stateCodes().flatMap((code) => allCandidates(loadState(code)).map((c) => c.id));
+    expect(ids.filter((id, i) => ids.indexOf(id) !== i)).toEqual([]);
+  });
+});
+
 for (const code of stateCodes()) {
   const d = loadState(code);
   describe(`${code}: data`, () => {
@@ -97,7 +105,8 @@ describe("campaign money", () => {
         if (!m || "none" in m) continue;
         const l = moneyLines(m);
         if (!l.addsUp) continue; // shown with a plain note instead
-        expect(Math.round(n(l.start) + n(l.raised) - n(l.spent)), c.name).toBe(Math.round(n(l.left)));
+        // "|| 0" so -0 and 0 count as the same (a campaign that raised and spent almost nothing).
+        expect(Math.round(n(l.start) + n(l.raised) - n(l.spent)) || 0, c.name).toBe(Math.round(n(l.left)) || 0);
         expect(l.raised + l.spent + l.left, c.name).not.toMatch(/\.0 /);
       }
   });

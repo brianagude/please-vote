@@ -52,6 +52,7 @@ Show only **final-passage votes** on bills and joint resolutions that passed at 
 - Everyone else uses Wikimedia Commons images, **only** if licensed CC0, public domain, CC BY, or CC BY-SA, with a credit line on the site.
 - If no photo is available, show initials.
 - Photos are shown for whoever has one. The owner chose this knowing incumbents are more likely to have photos than challengers.
+- **Changed Oct 15, 2026 (owner):** photo credits are no longer on the candidate cards. Each page lists them in a separate "Photo credits" dropdown in the footer, apart from the fact sources. That still gives the visible credit Creative Commons "BY" licenses require.
 - **Changed Oct 14, 2026 (owner):** the owner may add photos by hand from other public pages (campaign, PAC, Ballotpedia, news) to fill gaps. Each gets a credit line and a link to where it came from. These aren't free-licensed, so the owner accepts the copyright risk; prefer a campaign's own photo when one exists.
 
 ## 7. v1 features, beyond the current prototype

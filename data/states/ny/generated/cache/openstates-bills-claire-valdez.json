@@ -1,0 +1,193 @@
+{
+  "2023-2024": {
+    "fetched": "2026-10-16",
+    "bills": []
+  },
+  "2025-2026": {
+    "fetched": "2026-10-16",
+    "bills": [
+      {
+        "id": "A 8931",
+        "title": "Requires just cause for employment termination and restricts the use of electronic monitoring for disciplinary purposes",
+        "url": "https://openstates.org/ny/bills/2025-2026/A8931/",
+        "introduced": "2025-07-16",
+        "law": null
+      },
+      {
+        "id": "A 11160",
+        "title": "Repeals the tax exempt status of private universities that receive real property tax exemptions of one hundred million dollars or more",
+        "url": "https://openstates.org/ny/bills/2025-2026/A11160/",
+        "introduced": "2026-04-28",
+        "law": null
+      },
+      {
+        "id": "A 10740",
+        "title": "Relates to owner liability for construction industry wage theft",
+        "url": "https://openstates.org/ny/bills/2025-2026/A10740/",
+        "introduced": "2026-03-27",
+        "law": null
+      },
+      {
+        "id": "A 8084",
+        "title": "Relates to placing limitations on initial regulated rents",
+        "url": "https://openstates.org/ny/bills/2025-2026/A8084/",
+        "introduced": "2025-04-24",
+        "law": null
+      },
+      {
+        "id": "A 9166",
+        "title": "Creates a private right of action for improper debt collection procedures",
+        "url": "https://openstates.org/ny/bills/2025-2026/A9166/",
+        "introduced": "2025-10-17",
+        "law": null
+      },
+      {
+        "id": "A 10928",
+        "title": "Requires gas and electric corporations to provide thirty days' notice to customers whenever there is a service rate or charge increase",
+        "url": "https://openstates.org/ny/bills/2025-2026/A10928/",
+        "introduced": "2026-04-09",
+        "law": null
+      },
+      {
+        "id": "A 9071",
+        "title": "Includes certain persons engaged in a professional or teaching capacity in or for a religious, charitable or educational institution as employees for purposes of eligibility for paid family leave",
+        "url": "https://openstates.org/ny/bills/2025-2026/A9071/",
+        "introduced": "2025-09-05",
+        "law": null
+      },
+      {
+        "id": "A 5860",
+        "title": "Relates to the right to unemployment benefits based on employment with certain educational institutions; repealer",
+        "url": "https://openstates.org/ny/bills/2025-2026/A5860/",
+        "introduced": "2025-02-24",
+        "law": null
+      },
+      {
+        "id": "A 11270",
+        "title": "Enacts the \"advancing rights for talent, independence, services and tenure (ARTIST) act\"",
+        "url": "https://openstates.org/ny/bills/2025-2026/A11270/",
+        "introduced": "2026-05-04",
+        "law": null
+      },
+      {
+        "id": "A 9643",
+        "title": "Authorizes a claimant to receive a dependent allowance in addition to unemployment insurance benefits",
+        "url": "https://openstates.org/ny/bills/2025-2026/A9643/",
+        "introduced": "2026-01-21",
+        "law": null
+      },
+      {
+        "id": "A 11037",
+        "title": "Relates to registration fees for certain motor vehicles; repealer",
+        "url": "https://openstates.org/ny/bills/2025-2026/A11037/",
+        "introduced": "2026-04-23",
+        "law": null
+      },
+      {
+        "id": "A 11038",
+        "title": "Directs the department of labor to post on its internet website and annually update the names of employers who employ 50 or more employees who receive public assistance",
+        "url": "https://openstates.org/ny/bills/2025-2026/A11038/",
+        "introduced": "2026-04-23",
+        "law": null
+      },
+      {
+        "id": "A 5427",
+        "title": "Protects tenants displaced due to fire",
+        "url": "https://openstates.org/ny/bills/2025-2026/A5427/",
+        "introduced": "2025-02-14",
+        "law": null
+      },
+      {
+        "id": "A 10970",
+        "title": "Relates to authorization for boycott-based adverse actions by affected state entities and public retirement systems",
+        "url": "https://openstates.org/ny/bills/2025-2026/A10970/",
+        "introduced": "2026-04-14",
+        "law": null
+      },
+      {
+        "id": "A 9582",
+        "title": "Relates to requiring delivery network company workers have access to paid sick leave",
+        "url": "https://openstates.org/ny/bills/2025-2026/A9582/",
+        "introduced": "2026-01-21",
+        "law": null
+      },
+      {
+        "id": "A 10222",
+        "title": "Relates to workers' compensation benefits for delivery network company workers",
+        "url": "https://openstates.org/ny/bills/2025-2026/A10222/",
+        "introduced": "2026-02-12",
+        "law": null
+      },
+      {
+        "id": "A 10048",
+        "title": "Increases the unemployment insurance minimum weekly benefit amount",
+        "url": "https://openstates.org/ny/bills/2025-2026/A10048/",
+        "introduced": "2026-01-30",
+        "law": null
+      },
+      {
+        "id": "A 9555",
+        "title": "Extends the duration of unemployment insurance benefits",
+        "url": "https://openstates.org/ny/bills/2025-2026/A9555/",
+        "introduced": "2026-01-14",
+        "law": null
+      },
+      {
+        "id": "A 10304",
+        "title": "Relates to the calculation of a claimant's weekly unemployment insurance benefit",
+        "url": "https://openstates.org/ny/bills/2025-2026/A10304/",
+        "introduced": "2026-02-20",
+        "law": null
+      },
+      {
+        "id": "A 8803",
+        "title": "Exempts certain property from the prohibition of alcohol sales within a certain distance from a place of worship",
+        "url": "https://openstates.org/ny/bills/2025-2026/A8803/",
+        "introduced": "2025-06-08",
+        "law": null
+      },
+      {
+        "id": "A 6326",
+        "title": "Requires gas and electric corporations to provide forty-five days' notice to customers whenever there is a service rate or charge increase",
+        "url": "https://openstates.org/ny/bills/2025-2026/A6326/",
+        "introduced": "2025-03-04",
+        "law": null
+      },
+      {
+        "id": "A 8078",
+        "title": "Relates to requiring landlords to return security deposits within a reasonable time",
+        "url": "https://openstates.org/ny/bills/2025-2026/A8078/",
+        "introduced": "2025-04-24",
+        "law": null
+      },
+      {
+        "id": "A 8478",
+        "title": "Relates extending provisions of law relating to physical therapy assistant services in public and private primary and secondary schools",
+        "url": "https://openstates.org/ny/bills/2025-2026/A8478/",
+        "introduced": "2025-05-16",
+        "law": "2025-06-18"
+      },
+      {
+        "id": "A 6320",
+        "title": "Permits New York city voters to sign designating petitions for multiple candidates for the same New York city municipal public office or party position",
+        "url": "https://openstates.org/ny/bills/2025-2026/A6320/",
+        "introduced": "2025-03-04",
+        "law": null
+      },
+      {
+        "id": "A 6348",
+        "title": "Establishes the University of the State of New York environmental sustainability office",
+        "url": "https://openstates.org/ny/bills/2025-2026/A6348/",
+        "introduced": "2025-03-04",
+        "law": null
+      },
+      {
+        "id": "A 8917",
+        "title": "Prohibits employers from using workplace surveillance tools to surveil employees in private, off-duty areas or a worker's residence, vehicle or property",
+        "url": "https://openstates.org/ny/bills/2025-2026/A8917/",
+        "introduced": "2025-07-16",
+        "law": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+---
+// Every page on the site in one plain list: each state's guide, then every person page,
+// grouped by state and race. Not in any menu; linked from the footer.
+import Base from "../layouts/Base.astro";
+import { personPages, stateList } from "../lib/state";
+import { lastName, partyName } from "../lib/names";
+const states = stateList();
+const people = personPages();
+const num = (s: string) => parseInt(s.match(/\d+$/)?.[0] ?? "0");
+const byState = states.map((s) => {
+  const mine = people.filter((p) => p.code === s.code);
+  const groups = [...new Set(mine.map((p) => p.group))].map((g) => ({
+    group: g,
+    // District order for House races, then A-to-Z within each race.
+    people: mine
+      .filter((p) => p.group === g)
+      .sort((a, b) => num(a.running) - num(b.running) || a.running.localeCompare(b.running) || lastName(a.c.name).localeCompare(lastName(b.c.name))),
+  }));
+  return { ...s, count: mine.length, groups };
+});
+---
+<Base title="Site directory · Please Vote" description="Every page on Please Vote: each state's guide and every candidate page." skip={{ href: "#main", label: "Skip to the list" }}>
+  <div class="wrap person">
+    <a class="back" href="/">← Back to the guide</a>
+    <section aria-labelledby="main">
+      <div class="shead"><h1 class="disp" id="main" tabindex="-1">Site directory</h1></div>
+      <p class="note">Each state's guide, and every candidate with their own page. Candidates get a page when they have bills they wrote or a voting record.</p>
+      <div class="sheet">
+        <div class="row"><div class="cell"><span class="lbl">State guides</span>
+          <ul class="allpages">{states.map((s) => <li><a href={s.path}>{s.name}</a> <span class="amt">{s.path}</span></li>)}</ul>
+        </div></div>
+        {
+          byState.map((s) => (
+            <div class="row">
+              <div class="cell">
+                <span class="lbl">{s.name}: {s.count} candidate pages</span>
+                {s.groups.map((g) => (
+                  <>
+                    <p class="allgroup">{g.group}</p>
+                    <ul class="allpages">
+                      {g.people.map((p) => (
+                        <li>
+                          <a href={p.path}>{p.c.name}</a> <span class="amt">{partyName(p.c.party)} · {p.running}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                ))}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</Base>

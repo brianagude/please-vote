@@ -1,0 +1,32 @@
+[
+  {
+    "what": "Who's on the ballot",
+    "label": "New York State Board of Elections certification",
+    "url": "https://elections.ny.gov/ballot-certifications-elections"
+  },
+  {
+    "what": "Dates and deadlines",
+    "label": "New York Attorney General: election key dates",
+    "url": "https://ag.ny.gov/election-key-dates"
+  },
+  {
+    "what": "Poll hours",
+    "label": "New York State Board of Elections",
+    "url": "https://elections.ny.gov/"
+  },
+  {
+    "what": "ZIP to U.S. House district",
+    "label": "us-zipcodes-congress (Census data)",
+    "url": "https://github.com/OpenSourceActivismTech/us-zipcodes-congress"
+  },
+  {
+    "what": "Members of Congress, photos, committees",
+    "label": "unitedstates project",
+    "url": "https://github.com/unitedstates/congress-legislators"
+  },
+  {
+    "what": "State legislators",
+    "label": "Open States",
+    "url": "https://openstates.org/ny/"
+  }
+]

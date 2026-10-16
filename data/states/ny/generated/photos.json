@@ -1,0 +1,269 @@
+{
+  "bruce-a-blakeman": {
+    "src": "/photos/bruce-a-blakeman.jpg",
+    "credit": "Arthur Raslich",
+    "license": "CC BY-SA 4.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Blakeman_Profile_Picture.jpg"
+    }
+  },
+  "thomas-p-dinapoli": {
+    "src": "/photos/thomas-p-dinapoli.jpg",
+    "credit": "Office of NYS Comptroller",
+    "license": "CC BY-SA 4.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:TPD%27s_Headshot_(cropped).jpg"
+    }
+  },
+  "letitia-a-james": {
+    "src": "/photos/letitia-a-james.png",
+    "credit": "WBLS",
+    "license": "CC BY 3.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Letitia_James_Interview_Feb_2020.png"
+    }
+  },
+  "nicholas-j-lalota": {
+    "src": "/photos/nicholas-j-lalota.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "patrick-halpin": {
+    "src": "/photos/patrick-halpin.jpg",
+    "credit": "Suffolk County Water Authority",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Patrick_Halpin_(cropped).jpg"
+    }
+  },
+  "andrew-r-garbarino": {
+    "src": "/photos/andrew-r-garbarino.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "thomas-r-suozzi": {
+    "src": "/photos/thomas-r-suozzi.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "michael-j-lipetri-jr": {
+    "src": "/photos/michael-j-lipetri-jr.jpg",
+    "credit": "ComplexRational",
+    "license": "CC BY-SA 4.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mike_LiPetri_(2024_Italian_Heritage_Street_Festival)_(cropped).jpg"
+    }
+  },
+  "laura-a-gillen": {
+    "src": "/photos/laura-a-gillen.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "gregory-w-meeks": {
+    "src": "/photos/gregory-w-meeks.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "grace-meng": {
+    "src": "/photos/grace-meng.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "claire-valdez": {
+    "src": "/photos/claire-valdez.jpg",
+    "credit": "Metropolitan Transportation Authority",
+    "license": "CC BY 4.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Queens_Bus_Network_Redesign_Claire_Valdez_(cropped).jpg"
+    }
+  },
+  "hakeem-s-jeffries": {
+    "src": "/photos/hakeem-s-jeffries.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "yvette-d-clarke": {
+    "src": "/photos/yvette-d-clarke.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "brad-lander": {
+    "src": "/photos/brad-lander.jpg",
+    "credit": "Tessa Bury",
+    "license": "CC BY 4.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Brad_Lander.jpg"
+    }
+  },
+  "nicole-malliotakis": {
+    "src": "/photos/nicole-malliotakis.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "micah-c-lasher": {
+    "src": "/photos/micah-c-lasher.jpg",
+    "credit": "Lance Cpl. Steven Wells",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:FWNY25;_U.S._Marines_and_Sailors_hold_wreath_laying_ceremony_Micah_Lasher_(cropped).jpg"
+    }
+  },
+  "darializa-avila-chevalier": {
+    "src": "/photos/darializa-avila-chevalier.jpg",
+    "credit": "A LO CLARO and Indhira Baez",
+    "license": "CC BY 4.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Darializa_Avila_Chevalier_during_interview_on_Secretos_CEO.jpg"
+    }
+  },
+  "alexandria-ocasio-cortez": {
+    "src": "/photos/alexandria-ocasio-cortez.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "ritchie-torres": {
+    "src": "/photos/ritchie-torres.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "george-s-latimer": {
+    "src": "/photos/george-s-latimer.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "cait-conley": {
+    "src": "/photos/cait-conley.jpg",
+    "credit": "DHSgov",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:DHS_Secretary_Alejandro_Mayorkas_Gives_Opening_Remarks_During_CISA_National_Election_Exercise_in_Arlington,_Virginia_on_22_August_2024_-_6_Cait_Conley_(cropped).jpg"
+    }
+  },
+  "mike-lawler": {
+    "src": "/photos/mike-lawler.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "pat-ryan": {
+    "src": "/photos/pat-ryan.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "josh-riley": {
+    "src": "/photos/josh-riley.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "peter-k-oberacker": {
+    "src": "/photos/peter-k-oberacker.jpg",
+    "credit": "NY Senate Photo",
+    "license": "CC BY 2.0",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:(05-12-25)_NYS_Senator_Peter_Oberacker_(cropped).jpg"
+    }
+  },
+  "paul-d-tonko": {
+    "src": "/photos/paul-d-tonko.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "john-w-mannion": {
+    "src": "/photos/john-w-mannion.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "nicholas-a-langworthy": {
+    "src": "/photos/nicholas-a-langworthy.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "claudia-tenney": {
+    "src": "/photos/claudia-tenney.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "joseph-d-morelle": {
+    "src": "/photos/joseph-d-morelle.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  },
+  "timothy-m-kennedy": {
+    "src": "/photos/timothy-m-kennedy.jpg",
+    "license": "Public domain",
+    "source": {
+      "label": "unitedstates/images",
+      "url": "https://github.com/unitedstates/images"
+    }
+  }
+}

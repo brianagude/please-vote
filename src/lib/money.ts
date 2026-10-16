@@ -12,8 +12,9 @@ export interface MoneyLines {
   addsUp: boolean;
 }
 
-export function moneyLines(m: { raised: number; spent: number; cashOnHand: number; transfersIn?: number }): MoneyLines {
-  const big = Math.max(m.raised, m.spent, m.cashOnHand) >= 1e6;
+export function moneyLines(m: { raised: number; spent: number; cashOnHand?: number; transfersIn?: number }): MoneyLines {
+  const cash = m.cashOnHand ?? 0;
+  const big = Math.max(m.raised, m.spent, cash) >= 1e6;
   // Work in whole display units: tenths of a million, or hundreds of dollars.
   const unit = big ? 1e5 : 100;
   const r = (n: number) => Math.round(n / unit);
@@ -22,7 +23,7 @@ export function moneyLines(m: { raised: number; spent: number; cashOnHand: numbe
 
   const raised = r(m.raised);
   const spent = r(m.spent);
-  const left = r(m.cashOnHand);
+  const left = r(cash);
   const start = left - raised + spent;
   const transfers = r(m.transfersIn ?? 0);
   return {

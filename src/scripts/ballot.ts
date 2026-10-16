@@ -4,8 +4,12 @@
 const $ = <T extends Element = HTMLElement>(s: string, root: ParentNode = document) => root.querySelector<T>(s)!;
 const $$ = <T extends Element = HTMLElement>(s: string, root: ParentNode = document) => [...root.querySelectorAll<T>(s)];
 
-// Dates are judged in Georgia's time zone, whatever the reader's clock says.
-const TZ = "America/New_York";
+// Which state this page is for, from the page itself (StateGuide's wrapper).
+const page = document.querySelector<HTMLElement>("[data-state]")!.dataset;
+const STATE = page.state!; // "GA"
+const STATE_NAME = page.stateName!; // "Georgia"
+// Dates are judged in the state's own time zone, whatever the reader's clock says.
+const TZ = page.tz || "America/New_York";
 const todayISO = () => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
 const dayNum = (iso: string) => Date.UTC(+iso.slice(0, 4), +iso.slice(5, 7) - 1, +iso.slice(8, 10)) / 864e5;
 
@@ -40,7 +44,7 @@ function dateCards() {
 
 // ---- districts ----
 type Picks = { house: string; upper: string; lower: string; zip: string; via?: "address" | "zip" };
-const KEY = "please-vote:ga";
+const KEY = `please-vote:${STATE.toLowerCase()}`;
 const picks: Picks = { house: "", upper: "", lower: "", zip: "" };
 try {
   Object.assign(picks, JSON.parse(localStorage.getItem(KEY) || "{}"));
@@ -90,7 +94,7 @@ function zipUpdate(fromUser: boolean) {
   picks.zip = z;
   picks.via = "zip";
   if (!ds) {
-    hint.textContent = "Not a Georgia ZIP we know.";
+    hint.textContent = `Not a ${STATE_NAME} ZIP we know.`;
     picks.house = "";
     return finish();
   }
@@ -136,7 +140,7 @@ async function lookup(e: SubmitEvent) {
     const r = await res.json();
     if (!res.ok) throw new Error(r.error || "lookup failed");
     if (!r.match) return void (hint.textContent = "We couldn't find that address. Check it, or use your ZIP code below.");
-    if (r.state !== "GA") return void (hint.textContent = "That address isn't in Georgia.");
+    if (r.state !== STATE) return void (hint.textContent = `That address isn't in ${STATE_NAME}.`);
     Object.assign(picks, { house: r.house ?? "", upper: r.upper ?? "", lower: r.lower ?? "", via: "address" });
     const zip = /\b(\d{5})(?:-\d{4})?\s*$/.exec(r.matched || "")?.[1];
     if (zip) $<HTMLInputElement>("#zip").value = picks.zip = zip;
@@ -173,7 +177,9 @@ function motionToggle() {
 async function startBoil() {
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const sides = matchMedia("(min-width: 1120px)").matches ? ["left", "right"] : ["top", "bottom"];
-  const frames = sides.flatMap((s) => [0, 1, 2].map((n) => `/people/${s}-${n}.svg`));
+  // Each state's guide has its own drawings (some signs show the state's name).
+  const dir = document.querySelector<HTMLElement>("[data-people]")?.dataset.people ?? "/people/";
+  const frames = sides.flatMap((s) => [0, 1, 2].map((n) => `${dir}${s}-${n}.svg`));
   try {
     await Promise.all(
       frames.map((src) => {
@@ -188,7 +194,14 @@ async function startBoil() {
   }
 }
 
+/** The State box in the masthead: picking a state goes to its guide. */
+function statePicker() {
+  const sel = document.querySelector<HTMLSelectElement>("#state-pick");
+  sel?.addEventListener("change", () => (location.href = sel.value));
+}
+
 export function start() {
+  statePicker();
   motionToggle();
   startBoil();
   countdown();

@@ -1,0 +1,103 @@
+{
+  "code": "NY",
+  "name": "New York",
+  "asOf": "2026-10-15",
+  "timeZone": "America/New_York",
+  "election": {
+    "kind": "General election",
+    "date": "2026-11-03",
+    "label": "Tuesday, Nov. 3, 2026",
+    "polls": "6 a.m. – 9 p.m."
+  },
+  "voterPage": "https://voterlookup.elections.ny.gov/",
+  "dates": [
+    {
+      "what": "Register",
+      "when": "Oct 24",
+      "start": "2026-10-24",
+      "sub": "That day you can register and vote early at the same time."
+    },
+    {
+      "what": "Early voting",
+      "when": "Oct 24–Nov 1",
+      "start": "2026-10-24",
+      "end": "2026-11-01",
+      "sub": "Hours vary by county."
+    },
+    {
+      "what": "Request a mail ballot",
+      "when": "By Oct 24",
+      "start": "2026-10-15",
+      "end": "2026-10-24",
+      "sub": "Online or by mail. In person at your county board by Nov 2."
+    },
+    {
+      "what": "Return your mail ballot",
+      "when": "By Nov 3",
+      "start": "2026-11-03",
+      "sub": "Postmarked by Nov 3 and received by Nov 10."
+    },
+    {
+      "what": "Election day",
+      "when": "Nov 3",
+      "start": "2026-11-03",
+      "sub": "6 a.m. – 9 p.m."
+    }
+  ],
+  "districts": {
+    "house": {
+      "label": "U.S. House",
+      "count": 26
+    },
+    "upper": {
+      "label": "State Senate",
+      "count": 63,
+      "office": "sen"
+    },
+    "lower": {
+      "label": "State Assembly",
+      "count": 150,
+      "office": "asm"
+    }
+  },
+  "groups": [
+    {
+      "id": "fed",
+      "title": "Federal",
+      "sub": "They make laws for the entire country.",
+      "races": [
+        "@house"
+      ]
+    },
+    {
+      "id": "state",
+      "title": "State",
+      "sub": "They run New York. Everyone in the state votes on these.",
+      "races": [
+        "governor",
+        "ag",
+        "comptroller"
+      ]
+    },
+    {
+      "id": "leg",
+      "title": "State lawmakers",
+      "sub": "They write New York's laws. Your district decides who's on your ballot.",
+      "races": [
+        "@upper",
+        "@lower"
+      ]
+    }
+  ],
+  "footerNote": "If your address can't be matched, we fall back to ZIP code. ZIP codes can cross district lines, so double-check yours on your voter page.",
+  "records": {
+    "since": "2023-01-01",
+    "sinceLabel": "2023"
+  },
+  "notes": [
+    {
+      "title": "Why some names show up twice.",
+      "text": "In New York, a candidate can run on more than one party's line, like Democrat and Working Families, or Republican and Conservative. Pick them on any one of their lines and it counts the same."
+    }
+  ]
+}

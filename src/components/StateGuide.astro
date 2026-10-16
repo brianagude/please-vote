@@ -7,10 +7,15 @@ import DateCards from "./DateCards.astro";
 import AddressForm from "./AddressForm.astro";
 import BallotGroup from "./BallotGroup.astro";
 import RaceCard from "./RaceCard.astro";
+import { peopleCss } from "../lib/people";
+import PhotoCredits from "./PhotoCredits.astro";
+import { allCandidates } from "../lib/state";
 interface Props {
   data: StateData;
+  /** Every state with a guide, for the state picker in the masthead. */
+  states: { code: string; name: string; path: string }[];
 }
-const { data } = Astro.props;
+const { data, states } = Astro.props;
 const { config, offices: O, races: R, legislature: L } = data;
 const D = config.districts;
 const asOf = new Date(config.asOf + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
@@ -24,15 +29,30 @@ const short = (k: string) => {
 };
 const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L.running[k] });
 ---
-<div class="wrap">
+<style is:inline set:html={peopleCss(config.code.toLowerCase())}></style>
+<div class="wrap" data-state={config.code} data-state-name={config.name} data-tz={config.timeZone} data-people={`/people/${config.code.toLowerCase()}/`}>
   <div class="strip strip-top" aria-hidden="true"></div>
-  <Masthead config={config} />
+  <Masthead config={config} states={states} />
   <DateCards config={config} />
   <AddressForm config={config} />
 
   <section aria-labelledby="s3">
     <div class="shead"><span class="no">03</span><h2 class="disp" id="s3" tabindex="-1">Who's on your ballot</h2></div>
     <p class="note">See the races, who's running, and what they do.</p>
+    {
+      config.notes && config.notes.length > 0 && (
+        <div class="sheet goodtoknow">
+          <div class="row"><div class="cell"><span class="lbl">Good to know</span></div></div>
+          {config.notes.map((n) => (
+            <div class="row">
+              <div class="cell">
+                <p><strong>{n.title}</strong> {n.text}{n.link && <> <a href={n.link.url} target="_blank" rel="noopener">{n.link.label} →</a></>}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )
+    }
     <div class="groups" id="ballot">
       {
         config.groups.map((g) => (
@@ -112,7 +132,11 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
       <summary>Sources</summary>
       <ul>{data.sources.map((s) => <li>{s.what}: <a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}</ul>
     </details>
-    <button class="motion" type="button" id="motion" aria-pressed="false">Pause motion</button>
+    <PhotoCredits people={allCandidates(data)} />
+    <div class="footrow">
+      <a href="/directory/">Site directory</a>
+      <button class="motion" type="button" id="motion" aria-pressed="false">Pause motion</button>
+    </div>
   </footer>
   <div class="strip strip-bottom" aria-hidden="true"></div>
 </div>

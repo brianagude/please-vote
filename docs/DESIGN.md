@@ -100,6 +100,7 @@ Long official bill titles are a known issue; plain-language summaries (DECISIONS
 
 - Everything clickable shows a pointer cursor.
 - Hover feedback is small: buttons lift 1px, link underlines drop slightly, "Campaign site →" links nudge right, and section headers shade. Movement is turned off when the device asks for reduced motion.
+- Background people: each state's guide uses its own set (`public/people/<code>/`), the same crowd with some signs and banners showing the state's name. A two-word name gets a two-line sign ("NEW / YORK"), or the short form ("NY") in the narrow phone strips. Only signs with room around them get the name, so it isn't hidden. Person pages use the generic set. Rebuild with `node scripts/make-people.mjs` after adding a state.
 - Motion (the background people's line boil and a slow, soft "Open now" dot blink) runs continuously. A "Pause motion" text button in the footer toggles it and remembers the choice (WCAG 2.2.2). Everything is off, and the button hidden, for reduced motion.
 - Running text uses `text-wrap: pretty` so lines don't end with a single orphaned word.
 - `npm run test:a11y` checks WCAG 2.2 AA at desktop and 360px on every push.
@@ -116,3 +117,9 @@ Long official bill titles are a known issue; plain-language summaries (DECISIONS
 - **Candidates are listed alphabetically by last name.** Party is shown as text only.
 - **Office explanations** say what the job does and why it matters to you, in one combined block.
 - **Don't** use emoji as markers.
+
+## Other pages
+
+- **`/directory/`:** every page on the site in a plain list: each state's guide, then every candidate page by state and race. Not in a menu; linked from each guide's footer ("Site directory") and from the 404 page.
+- **404 page** (`src/pages/404.astro`): "Nothing here", with a link to each state's guide and to `/directory/`. Cloudflare serves it for any missing address (`not_found_handling: "404-page"`).
+- **SEO:** `/sitemap.xml` (built from the same list as `/directory/`, with each state's "as of" date) and `/robots.txt` (everything allowed except `/api/`, pointing to the sitemap).

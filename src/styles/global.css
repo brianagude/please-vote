@@ -306,3 +306,28 @@ details.topic .vlist{background:var(--paper)}
   .capped .vcast{text-align:left}
 }
 .vlist li[hidden]{display:none}
+/* State picker in the masthead: looks like a typed value with a caret */
+.statepick{font-family:var(--type);color:var(--ink);background:transparent;border:0;border-bottom:1px dashed var(--soft);border-radius:0;padding:0 22px 2px 0;width:100%;min-height:28px;appearance:none;-webkit-appearance:none;cursor:pointer;
+  background-image:linear-gradient(45deg,transparent 50%,var(--ink) 50%),linear-gradient(135deg,var(--ink) 50%,transparent 50%);background-position:calc(100% - 10px) 55%,calc(100% - 5px) 55%;background-size:5px 5px;background-repeat:no-repeat}
+.mate{font-size:.9rem;color:var(--soft);margin-top:2px}
+/* Person page: slim bar with the person's name, shown once the header scrolls away */
+.pbar{position:fixed;top:0;left:0;right:0;z-index:5;background:var(--card);border-bottom:1.5px solid var(--rule);transform:translateY(-110%);transition:transform .2s ease;pointer-events:none}
+.pbar.show{transform:none}
+.pbar-in{max-width:740px;margin:0 auto;padding:8px max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;min-width:0}
+.pin.sm{width:32px;height:32px;font-size:.85rem;flex:none}
+.pbar-name{font-family:var(--label);font-stretch:75%;font-weight:700;font-size:1.1rem;text-transform:uppercase;white-space:nowrap}
+.pbar-run{font-size:.82rem;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+@media (prefers-reduced-motion:reduce){.pbar{transition:none}}
+.goodtoknow p{font-size:.95rem}.goodtoknow .row:first-child .cell{padding-bottom:6px}
+/* /directory/: plain list of every page */
+.allpages{list-style:none;margin:4px 0 10px;padding:0;display:flex;flex-direction:column;gap:2px;font-size:.92rem}
+.allpages li{min-height:24px}
+.allgroup{font-weight:700;font-size:.9rem;margin-top:8px}
+.allpages .amt{white-space:normal}.allpages li{overflow-wrap:anywhere}
+/* Every page fills at least the window; the 404 box sits in the middle of it. */
+body{min-height:100vh;min-height:100dvh}
+.wrap.centered{min-height:calc(100vh - 104px);min-height:calc(100dvh - 104px);justify-content:center}
+/* Footer links side by side on every screen size */
+.footrow{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px 24px}
+.footrow a{min-height:24px;display:inline-flex;align-items:center}
+.footrow .motion{align-self:center}

@@ -4,11 +4,20 @@ interface Props {
   title: string;
   description: string;
   skip?: { href: string; label: string };
+  imageAlt?: string;
+  /** Link-preview image, e.g. "/share-ny.png?v=1". Georgia's is the default. */
+  image?: string;
 }
-const { title, description, skip = { href: "#s3", label: "Skip to your ballot" } } = Astro.props;
+const {
+  title,
+  description,
+  skip = { href: "#s3", label: "Skip to your ballot" },
+  imageAlt = "Please Vote: Georgia general election, Nov 3. When to vote, what's on your ballot, and who's running.",
+  image: imagePath = "/share.png?v=2",
+} = Astro.props;
 const url = new URL(Astro.url.pathname, Astro.site);
 // Bump ?v= when share.png changes, so apps that cache previews fetch the new one.
-const image = new URL("/share.png?v=2", Astro.site);
+const image = new URL(imagePath, Astro.site);
 ---
 <!doctype html>
 <html lang="en">
@@ -36,7 +45,7 @@ const image = new URL("/share.png?v=2", Astro.site);
     <meta property="og:image" content={image} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Please Vote: Georgia general election, Nov 3. When to vote, what's on your ballot, and who's running." />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />

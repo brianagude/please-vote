@@ -1,0 +1,51 @@
+{
+  "governor": {
+    "title": "Governor and Lieutenant Governor",
+    "term": "4-year term",
+    "one": "The governor runs the state, writes the first draft of the state budget, and signs or vetoes every bill the legislature passes. The lieutenant governor takes over if the governor can't serve and leads the State Senate.",
+    "why": "Shapes how New York spends its money on schools, transit, housing, and health care.",
+    "also": [
+      "You vote for the governor and lieutenant governor together, as a pair",
+      "Can veto single items out of the budget"
+    ]
+  },
+  "ag": {
+    "title": "Attorney General",
+    "term": "4-year term",
+    "one": "New York's top lawyer. Represents the state in court.",
+    "why": "Goes after scams, landlords and employers who break the law, and companies that mislead customers.",
+    "also": [
+      "Can win refunds for people who got ripped off"
+    ]
+  },
+  "comptroller": {
+    "title": "Comptroller",
+    "term": "4-year term",
+    "one": "The state's money watchdog. Checks how state agencies and local governments spend money, and runs the state workers' pension fund.",
+    "why": "Catches waste and fraud with your tax dollars.",
+    "also": [
+      "Reviews big state contracts before they can be signed"
+    ]
+  },
+  "house": {
+    "title": "U.S. House",
+    "term": "2-year term",
+    "one": "Votes on national laws, and speaks for your district in Washington.",
+    "why": "Your closest voice in Washington, and you get to keep or replace them every two years.",
+    "also": []
+  },
+  "sen": {
+    "title": "State Senate",
+    "term": "2-year term",
+    "one": "Writes New York's laws and passes the state budget. There are 63 state senators.",
+    "why": "State laws cover schools, rent rules, voting rules, criminal law, and state taxes.",
+    "also": []
+  },
+  "asm": {
+    "title": "State Assembly",
+    "term": "2-year term",
+    "one": "The other half of the legislature. There are 150 Assembly members, each with a smaller district than a senator's.",
+    "why": "Every bill has to pass here and in the State Senate before the governor can sign it.",
+    "also": []
+  }
+}

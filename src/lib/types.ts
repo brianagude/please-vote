@@ -26,11 +26,13 @@ export interface Candidate {
   /** D, R, L, I, or a full party name. Shown as text only. */
   party: string;
   incumbent?: boolean;
+  /** Lieutenant governor on the same ticket, where the two are elected together (New York). */
+  runningMate?: string;
   bio?: Fact;
   career?: Fact[];
   committees?: { items: string[]; source?: Source };
   links: { campaign?: string; official?: string; ballotpedia?: string };
-  ids?: { bioguide?: string; fec?: string; openstates?: string };
+  ids?: { bioguide?: string; fec?: string; openstates?: string; /** New York State Board of Elections filer ID */ nysboe?: string };
   photo?: Photo;
   /** Filled from data/states/<code>/generated/ by the nightly job. */
   record?: CareerRecord;
@@ -52,7 +54,14 @@ export interface CareerRecord {
     | {
         raised: number;
         spent: number;
-        cashOnHand: number;
+        /** Federal only; state data doesn't give a balance. */
+        cashOnHand?: number;
+        /** State races: share from corporations, LLCs, and partnerships (New York allows these). */
+        fromCompanies?: number;
+        /** State races: matching money from the state's public campaign finance program. */
+        publicFunds?: number;
+        /** True for state (not FEC) money. */
+        state?: boolean;
         fromIndividuals: number;
         fromPACs: number;
         donations?: number;
@@ -138,6 +147,8 @@ export interface StateConfig {
   name: string;
   asOf: string;
   election: { kind: string; date: string; label: string; polls: string };
+  /** IANA time zone for judging dates ("America/New_York"). */
+  timeZone: string;
   voterPage: string;
   dates: KeyDate[];
   districts: {
@@ -147,6 +158,8 @@ export interface StateConfig {
   };
   groups: Group[];
   footerNote: string;
+  /** Short "Good to know" notes above the ballot, for things that work differently in this state. */
+  notes?: { title: string; text: string; link?: Source }[];
   records: { since: string; sinceLabel: string };
 }
 

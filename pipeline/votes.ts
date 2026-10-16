@@ -167,7 +167,8 @@ type Cache = { [n: string]: FedVote };
 
 const VV_CAST: Record<string, string> = { "1": "Yea", "2": "Yea", "3": "Yea", "4": "Nay", "5": "Nay", "6": "Nay", "7": "Present", "8": "Present", "9": "Not Voting" };
 
-async function voteview(chamber: "House" | "Senate", congress: number, cacheDir: string, done: boolean): Promise<Cache> {
+/** One Congress's roll calls, keeping only this state's members (state: "GA", "NY"). */
+async function voteview(chamber: "House" | "Senate", congress: number, state: string, cacheDir: string, done: boolean): Promise<Cache> {
   const file = path.join(cacheDir, `${chamber.toLowerCase()}-votes-${congress}.json`);
   const cache: { complete?: boolean; votes: Cache } = fs.existsSync(file) ? readJSON(file) : { votes: {} };
   if (cache.complete) return cache.votes;
@@ -178,7 +179,7 @@ async function voteview(chamber: "House" | "Senate", congress: number, cacheDir:
     return parseCSV(body);
   };
   const ga: Record<string, string> = {};
-  for (const m of await csv("members")) if (m.chamber === chamber && m.state_abbrev === "GA" && m.bioguide_id) ga[m.icpsr] = m.bioguide_id;
+  for (const m of await csv("members")) if (m.chamber === chamber && m.state_abbrev === state && m.bioguide_id) ga[m.icpsr] = m.bioguide_id;
   const votes: Cache = {};
   const byRoll: Record<string, FedVote> = {};
   for (const r of await csv("rollcalls")) {
@@ -248,7 +249,7 @@ async function federal(code: string, since: string, people: { id: string; biogui
   const rolls: { chamber: "House" | "Senate"; congress: number; n: string; v: FedVote; ga: Record<string, string> }[] = [];
   for (let c = congressOf(start); c <= congressOf(year); c++)
     for (const chamber of ["House", "Senate"] as const) {
-      const got = await voteview(chamber, c, cacheDir, c < congressOf(year));
+      const got = await voteview(chamber, c, code.toUpperCase(), cacheDir, c < congressOf(year));
       for (const [n, v] of Object.entries(got)) rolls.push({ chamber, congress: c, n, v, ga: v.ga });
     }
   log("votes", `federal: ${rolls.length} roll calls since ${since}`);
@@ -588,6 +589,132 @@ async function georgia(code: string, since: string, people: { id: string; openst
   return out;
 }
 
+// ---------- New York State Legislature ----------
+// Open States bulk CSV per session. New York labels its votes well enough to use directly:
+//   Senate "Floor Vote" (and "Floor Vote - Version: A") and Assembly "Assembly Vote" are
+//   final votes on the floor; "Health Vote", "Rules Vote", etc. are committee votes and
+//   "MOTION:..." are procedural, so those are left out.
+// "Excused" and "absent" come apart already. New York's bills have no subject list, so the
+// topic is the committee each bill was first sent to ("REFERRED TO HEALTH" -> "Health").
+
+type NyVote = { chamber: string; date: string; bill: string; title: string; topics: string[]; url: string; result: string };
+type NySession = { v: number; fetched: string; people: string[]; votes: Record<string, NyVote>; cast: Record<string, Record<string, string>> };
+
+// A few New York committee names that don't say what they cover.
+const NY_PLAIN: Record<string, string> = {
+  Codes: "Criminal Law (Codes)",
+  "Ways and Means": "Taxes and Budget (Ways and Means)",
+};
+const nyFloor = (motion: string) => /^(Floor Vote|Assembly Vote)\b/.test(motion);
+
+async function nySession(s: any, people: string[], cacheDir: string): Promise<NySession | null> {
+  const file = path.join(cacheDir, `ny-votes-${s.identifier}.json`);
+  const today = new Date().toISOString().slice(0, 10);
+  const recent = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
+  const old: NySession | null = fs.existsSync(file) ? readJSON(file) : null;
+  if (old && old.v === 3 && s.end_date && s.end_date < recent && people.every((p) => old.people.includes(p))) return old;
+  const zipUrl = s.downloads?.find((d: any) => /csv/.test(d.url))?.url;
+  if (!zipUrl) return old;
+
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "pv-os-"));
+  try {
+    const zip = path.join(tmp, "s.zip");
+    const res = await get(zipUrl);
+    if (!res.ok) throw new Error(`Open States bulk ${s.identifier}: HTTP ${res.status}`);
+    fs.writeFileSync(zip, Buffer.from(await res.arrayBuffer()));
+    const csv = (name: string) => parseCSV(execFileSync("unzip", ["-p", zip, `*_${name}.csv`], { maxBuffer: 1 << 30 }).toString("utf8"));
+
+    const bills = new Map(csv("bills").map((b) => [b.id, b]));
+    const orgs = new Map(csv("organizations").map((o) => [o.id, o.name]));
+    const sources = new Map<string, string>();
+    for (const r of csv("bill_sources")) if (!sources.has(r.bill_id) && /^https?:/.test(r.url)) sources.set(r.bill_id, r.url);
+    // The first committee each bill was sent to. Many bills also go to Rules near the end of
+    // session, which says nothing about the topic, so a policy committee wins over Rules.
+    const committee = new Map<string, string>();
+    for (const a of csv("bill_actions").sort((x, y) => x.date.localeCompare(y.date) || Number(x.order) - Number(y.order))) {
+      const m = a.description.match(/^referred to\s+(.+)$/i);
+      if (!m) continue;
+      const name = titleCase(m[1].trim());
+      const cur = committee.get(a.bill_id);
+      if (!cur || (cur === "Rules" && name !== "Rules")) committee.set(a.bill_id, name);
+    }
+    const votes: Record<string, NyVote> = {};
+    for (const v of csv("votes")) {
+      if (!nyFloor(v.motion_text)) continue;
+      const b = bills.get(v.bill_id);
+      if (!b || !JSON.parse(b.classification.replace(/'/g, '"')).includes("bill")) continue;
+      votes[v.id] = {
+        chamber: /assembly/i.test(orgs.get(v.organization_id) ?? "") ? "New York Assembly" : "New York Senate",
+        date: v.start_date.slice(0, 10),
+        bill: b.identifier,
+        title: b.title,
+        topics: [NY_PLAIN[committee.get(v.bill_id) ?? ""] ?? committee.get(v.bill_id) ?? "Other"],
+        url: sources.get(v.bill_id) ?? "",
+        result: v.result,
+      };
+    }
+    const want = new Set(people);
+    const castBy: Record<string, Record<string, string>> = {};
+    for (const r of csv("vote_people")) if (want.has(r.voter_id) && votes[r.vote_event_id]) (castBy[r.voter_id] ??= {})[r.vote_event_id] = r.option;
+    const out: NySession = { v: 3, fetched: today, people, votes, cast: castBy };
+    writeJSON(file, out);
+    return out;
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+}
+
+async function newYork(code: string, since: string, people: { id: string; openstates: string }[]) {
+  const key = process.env.OPENSTATES_API_KEY;
+  if (!key) throw new Error("OPENSTATES_API_KEY is not set");
+  const cacheDir = path.join(stateDir(code), "generated/cache");
+  const today = new Date().toISOString().slice(0, 10);
+  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
+  const ids = people.map((p) => p.openstates);
+  const data: (NySession & { session: string })[] = [];
+  for (const s of juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since)) {
+    const d = await nySession(s, ids, cacheDir);
+    if (d) data.push({ ...d, session: s.identifier });
+  }
+  log("votes", `new york: ${data.reduce((n, d) => n + Object.keys(d.votes).length, 0)} floor votes in ${data.length} sessions`);
+
+  const out: VotesFile = { bills: {}, people: {} };
+  for (const p of people) {
+    let total = 0, missed = 0, excused = 0;
+    const rows: Row[] = [];
+    for (const d of data) {
+      for (const [k, opt] of Object.entries(d.cast[p.openstates] ?? {})) {
+        const v = d.votes[k];
+        if (!v || v.date < since) continue;
+        const c = cast(opt);
+        total++;
+        if (c === "Didn't vote" || c === "Excused") missed++;
+        if (c === "Excused") excused++;
+        rows.push({
+          key: `${code}-${d.session}-${v.bill}`,
+          ref: { bill: v.bill, title: v.title, url: v.url, topics: v.topics },
+          date: v.date,
+          chamber: v.chamber,
+          what: "Passage",
+          vote: c,
+          passed: v.result === "pass",
+        });
+      }
+    }
+    if (!total) continue;
+    out.people[p.id] = {
+      since,
+      attendance: { missed, excused, total },
+      votes: pack(rows, out.bills),
+      source: [
+        { label: "Open States", url: `https://openstates.org/person/${p.openstates.replace("ocd-person/", "")}/` },
+        { label: "New York State Senate and Assembly", url: "https://www.nysenate.gov/legislation" },
+      ],
+    };
+  }
+  return out;
+}
+
 /** One line per bill and per person, so nightly changes show up as small diffs. */
 function writeVotes(file: string, d: VotesFile): boolean {
   const block = (o: Record<string, unknown>) =>
@@ -613,7 +740,7 @@ export async function votes(code: string) {
   // Each source is independent: if one fails, keep yesterday's records for its people.
   for (const [name, ids, run] of [
     ["federal", fed.map((p) => p.id), () => federal(code, since, fed)],
-    ["state", st.map((p) => p.id), () => (code === "ga" ? georgia(code, since, st) : Promise.resolve({ bills: {}, people: {} }))],
+    ["state", st.map((p) => p.id), () => (code === "ga" ? georgia(code, since, st) : code === "ny" ? newYork(code, since, st) : Promise.resolve({ bills: {}, people: {} }))],
   ] as const) {
     try {
       const got = await run();

@@ -11,5 +11,8 @@
   "routes": [{ "pattern": "vote.brianagude.com", "custom_domain": true }],
   "observability": { "enabled": true },
   // Lets Cloudflare build a preview of non-main branches (wrangler preview). The live site still deploys only from main.
-  "previews": {}
+  "previews": {},
+  // A workers.dev address, needed for the per-branch and per-PR preview links. The custom domain above stays the live site.
+  "workers_dev": true,
+  "preview_urls": true
 }

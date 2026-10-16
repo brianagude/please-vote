@@ -22,3 +22,4 @@ export const byLastName = <T extends { name: string }>(list: T[]) =>
 
 const PARTY: Record<string, string> = { D: "Democrat", R: "Republican", L: "Libertarian", I: "Independent" };
 export const partyName = (p?: string) => (p ? PARTY[p] ?? p : "");
+
