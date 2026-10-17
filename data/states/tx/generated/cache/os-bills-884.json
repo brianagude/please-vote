@@ -1,0 +1,192 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf",
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f",
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0",
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21",
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60",
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b",
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+  ],
+  "by": {
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9": [
+      {
+        "id": "HB 36",
+        "title": "Relating to abortion, including civil liability for distribution of abortion-inducing drugs and duties of Internet service providers; creating a criminal offense; authorizing a private civil right of action.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB36",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 53",
+        "title": "Relating to the enforcement of certain federal laws regulating gas appliance, vehicle, and tool usage within the State of Texas.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB53",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 38",
+        "title": "Relating to the appointment by the governor of a conservator of certain counties.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB38",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 50",
+        "title": "Relating to the purchase of or acquisition of title to real property by certain aliens or foreign entities.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB50",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 42",
+        "title": "Relating to requiring the Department of Public Safety to maintain an office in Liberty County.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB42",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 63",
+        "title": "Relating to a requirement that an election for a member of a board of trustees of an independent school district is partisan.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB63",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 52",
+        "title": "Relating to an employee's right to privacy of personal health information; providing a civil penalty.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB52",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 39",
+        "title": "Relating to making an appropriation for the construction, operation, and maintenance of a Department of Public Safety office in Liberty County.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB39",
+        "introduced": "2023-11-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0": [
+      {
+        "id": "SB 29",
+        "title": "Relating to the use, possession, delivery, or manufacture of testing equipment that identifies the presence of a substance listed in Penalty Group 1-B.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB29",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SJR 6",
+        "title": "Proposing a constitutional amendment establishing an individual's right to personal reproductive autonomy.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SJR6",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 24",
+        "title": "Relating to air conditioning requirements at facilities operated by the Texas Department of Criminal Justice.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB24",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 28",
+        "title": "Relating to paid rest breaks for construction employees of construction contractors and subcontractors; providing an administrative penalty.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB28",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 25",
+        "title": "Relating to the period for which an applicant for admission as an undergraduate student to a public institution of higher education is entitled to an academic fresh start.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB25",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 26",
+        "title": "Relating to the eligibility of a person employed by a school district as a teacher to serve on the appraisal review board of an appraisal district.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB26",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 30",
+        "title": "Relating to the defense to prosecution for certain offenses involving possession of small amounts of controlled substances, marihuana, dangerous drugs, or abusable volatile chemicals, or possession of drug paraphernalia for defendants seeking assistance for a suspected overdose.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB30",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 27",
+        "title": "Relating to a cost-of-living adjustment applicable to certain benefits paid by the Employees Retirement System of Texas and a biennial study on providing additional adjustments based on the effects of increased inflation.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB27",
+        "introduced": "2023-11-08",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60": [
+      {
+        "id": "HB 90",
+        "title": "Relating to a bonus payment for certain public school employees and to the public school finance system.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=HB90",
+        "introduced": "2023-11-09",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ]
+  }
+}

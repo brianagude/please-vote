@@ -1,0 +1,271 @@
+{
+  "fetched": "2026-10-17T16:37:03.332Z",
+  "sessions": [
+    {
+      "identifier": "81",
+      "name": "81st Legislature (2009)",
+      "start_date": "2009-01-13",
+      "end_date": "2009-06-01",
+      "downloads": []
+    },
+    {
+      "identifier": "811",
+      "name": "81st Legislature, 1st Called Session (2009)",
+      "start_date": "2009-07-01",
+      "end_date": "2009-07-02",
+      "downloads": []
+    },
+    {
+      "identifier": "82",
+      "name": "82nd Legislature (2011)",
+      "start_date": "2011-01-11",
+      "end_date": "2011-05-30",
+      "downloads": []
+    },
+    {
+      "identifier": "821",
+      "name": "82nd Legislature, 1st Called Session (2011)",
+      "start_date": "2011-05-31",
+      "end_date": "2011-06-29",
+      "downloads": []
+    },
+    {
+      "identifier": "83",
+      "name": "83rd Legislature (2013)",
+      "start_date": "2013-01-08",
+      "end_date": "2013-05-27",
+      "downloads": []
+    },
+    {
+      "identifier": "831",
+      "name": "83nd Legislature, 1st Called Session (2013)",
+      "start_date": "2013-05-27",
+      "end_date": "2013-06-25",
+      "downloads": []
+    },
+    {
+      "identifier": "832",
+      "name": "83nd Legislature, 2st Called Session (2013)",
+      "start_date": "2013-07-01",
+      "end_date": "2013-07-30",
+      "downloads": []
+    },
+    {
+      "identifier": "833",
+      "name": "83nd Legislature, 3rd Called Session (2013)",
+      "start_date": "2013-07-30",
+      "end_date": "2013-08-05",
+      "downloads": []
+    },
+    {
+      "identifier": "84",
+      "name": "84th Legislature (2015)",
+      "start_date": "2015-01-13",
+      "end_date": "2015-06-01",
+      "downloads": []
+    },
+    {
+      "identifier": "85",
+      "name": "85th Legislature (2017)",
+      "start_date": "2017-01-13",
+      "end_date": "2017-06-01",
+      "downloads": []
+    },
+    {
+      "identifier": "851",
+      "name": "85nd Legislature, 1st Called Session (2017)",
+      "start_date": "2017-07-18",
+      "end_date": "2017-08-25",
+      "downloads": [
+        {
+          "created_at": "2020-02-24T23:22:07.276333+00:00",
+          "updated_at": "2021-02-01T01:26:58.244649+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_851_csv_62qGNRRrhW9CZ4Fusv1XO0.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "87",
+      "name": "87th Legislature (2021)",
+      "start_date": "2019-01-08",
+      "end_date": "2021-05-27",
+      "downloads": [
+        {
+          "created_at": "2020-12-10T18:03:59.838412+00:00",
+          "updated_at": "2021-10-01T00:54:45.997983+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_87_csv_3wrWNiCXXVYVSFcOSTGZ7J.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "86",
+      "name": "86th Legislature (2019)",
+      "start_date": "2019-01-10",
+      "end_date": "2019-05-29",
+      "downloads": [
+        {
+          "created_at": "2020-02-24T23:23:05.028597+00:00",
+          "updated_at": "2021-02-01T01:27:56.913155+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_86_csv_5Kx2No9PXyNSTZiVEDRsV4.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "871",
+      "name": "87th Legislature, 1st Called Session (2021)",
+      "start_date": "2021-07-08",
+      "end_date": "2021-08-06",
+      "downloads": [
+        {
+          "created_at": "2021-08-01T00:41:30.651335+00:00",
+          "updated_at": "2021-10-01T00:55:13.372714+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_871_csv_12ToYLbUe3eugdc2SXZzBm.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "872",
+      "name": "87th Legislature, 2nd Called Session (2021)",
+      "start_date": "2021-08-07",
+      "end_date": "2021-09-02",
+      "downloads": [
+        {
+          "created_at": "2021-09-01T00:55:28.487241+00:00",
+          "updated_at": "2021-11-01T00:38:45.386959+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_872_csv_4Q7STaD7O2K6D5fvP1pJVV.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "873",
+      "name": "87th Legislature, 3rd Called Session (2021)",
+      "start_date": "2021-09-20",
+      "end_date": "2021-10-19",
+      "downloads": [
+        {
+          "created_at": "2021-10-01T00:55:43.866295+00:00",
+          "updated_at": "2022-10-06T07:08:58.550723+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_873_csv_XFcK8R2zwwHR7ZpAbihQd.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "88",
+      "name": "88th Legislature (2023)",
+      "start_date": "2023-01-10",
+      "end_date": "2023-05-29",
+      "downloads": [
+        {
+          "created_at": "2022-11-16T07:09:32.573336+00:00",
+          "updated_at": "2023-06-27T00:12:16.949494+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_88_csv_770AhBtio32avpumoYCWQM.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "881",
+      "name": "88th Legislature, 1st Called Session (2023)",
+      "start_date": "2023-05-29",
+      "end_date": "2023-06-27",
+      "downloads": [
+        {
+          "created_at": "2023-05-31T23:09:29.949933+00:00",
+          "updated_at": "2023-07-19T00:44:04.266331+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_881_csv_1RVW67ZNz3tBC5LHXfN6tC.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "882",
+      "name": "88th Legislature, 2nd Called Session (2023)",
+      "start_date": "2023-06-27",
+      "end_date": "2023-07-13",
+      "downloads": [
+        {
+          "created_at": "2023-06-28T23:09:16.057859+00:00",
+          "updated_at": "2023-08-25T23:11:18.671865+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_882_csv_1oayEZtAtbfpMBTBoO5Rk1.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "883",
+      "name": "88th Legislature, 3rd Called Session (2023)",
+      "start_date": "2023-10-09",
+      "end_date": "2023-11-08",
+      "downloads": [
+        {
+          "created_at": "2023-10-12T20:24:31.109254+00:00",
+          "updated_at": "2024-11-18T23:13:20.324648+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_883_csv_19Mo03d6Ij90mWGds0dKhc.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "884",
+      "name": "88th Legislature, 4th Called Session (2023)",
+      "start_date": "2023-11-08",
+      "end_date": "2023-11-17",
+      "downloads": [
+        {
+          "created_at": "2023-11-08T23:07:31.940935+00:00",
+          "updated_at": "2024-11-18T23:13:21.629779+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_884_csv_1YOCUcALpUD1IIQzWVkUiE.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "89R",
+      "name": "89th Legislature (2025)",
+      "start_date": "2025-01-10",
+      "end_date": "2025-06-02",
+      "downloads": [
+        {
+          "created_at": "2024-11-12T23:13:51.448174+00:00",
+          "updated_at": "2025-08-05T23:11:34.623298+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_89R_csv_25vquaTbZyZZC8TASUWlTr.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "891",
+      "name": "89th Legislature, 1st Called Session (2025)",
+      "start_date": "2025-07-21",
+      "end_date": "2025-08-15",
+      "downloads": [
+        {
+          "created_at": "2025-07-14T23:21:40.602769+00:00",
+          "updated_at": "2026-06-17T23:27:35.454535+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_891_csv_4M2l9nf84zwoHGuj822YXw.zip"
+        }
+      ]
+    },
+    {
+      "identifier": "892",
+      "name": "89th Legislature, 2nd Called Session (2025)",
+      "start_date": "2025-08-18",
+      "end_date": "2025-09-18",
+      "downloads": [
+        {
+          "created_at": "2025-08-18T23:20:11.614376+00:00",
+          "updated_at": "2026-10-09T23:19:48.480459+00:00",
+          "data_type": "csv",
+          "url": "https://data.openstates.org/csv/latest/TX_892_csv_X81ajKyRe2L62D6jmtYZR.zip"
+        }
+      ]
+    }
+  ]
+}

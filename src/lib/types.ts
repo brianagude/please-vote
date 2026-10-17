@@ -177,7 +177,13 @@ export interface StateData {
     upper: Record<string, Seat>;
     lower: Record<string, Seat>;
     /** Who's running for each seat, from the Secretary of State's list. */
-    running: { source: Source; upper: Record<string, RunningFor[]>; lower: Record<string, RunningFor[]> };
+    running: {
+      source: Source;
+      upper: Record<string, RunningFor[]>;
+      lower: Record<string, RunningFor[]>;
+      /** A sourced note under one district's race, like a special election for the same seat. */
+      notes?: { upper?: Record<string, Fact>; lower?: Record<string, Fact> };
+    };
   };
   sources: { what: string; label: string; url: string }[];
   zipToHouse: Record<string, number[]>;

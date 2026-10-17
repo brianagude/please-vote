@@ -254,7 +254,7 @@ const asOfLong = new Date(asOf + "T12:00:00").toLocaleDateString("en-US", { mont
       v && summary && (
         <section aria-labelledby="votes">
           <div class="shead"><h2 class="disp" id="votes" tabindex="-1">How they voted</h2></div>
-          <p class="note">{ruleLine(summary.chamber, sinceYear)}{multi && " A bill can show up under more than one topic."}</p>
+          <p class="note">{ruleLine(summary.chamber, summary.since.slice(0, 4))}{multi && " A bill can show up under more than one topic."}</p>
           <div class="sheet">
             <div class="row stack tallies">
               <div class="cell"><span class="lbl">Votes shown</span><p>{countLine(v.votes.length)}</p></div>

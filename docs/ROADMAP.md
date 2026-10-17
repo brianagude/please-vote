@@ -44,8 +44,8 @@ Question: Could the page layout be automated? like, if there is currently an ele
    - Test the data logic against small saved samples instead of live runs.
    - A GitHub check on every pull request: tests, build, and the accessibility check.
 5. **Replace Wikipedia-sourced facts** (owner, Oct 16: Wikipedia is fine for photos, never for facts). 45 bio and career lines in Georgia (13) and New York (32) cite Wikipedia. Re-source each from an official page, Congress.gov, a legislature site, a news outlet, or Ballotpedia, or remove it. Georgia's footer sources list also has 7 Wikipedia entries.
-6. **Finish California** (on the `california` branch): state legislature votes, bills, and contact info once the Open States limit resets; spot-check against official sites; photos.
-7. **Then four more states, in this order (owner, Oct 16): Florida, Texas, Indiana, Illinois.** Chosen because the owner knows people there who will use and share the site. One at a time, each with certified candidates, dates, bios, records, and photos (owner sends photos as each state goes), checked like New York and California.
+6. **California:** done and merged (pull request #4, Oct 17). Photos still to come.
+7. **Then four more states (owner, Oct 16): Florida, Texas, Indiana, Illinois.** Texas went first (owner, Oct 17) and is done on the `Texas` branch; Florida is next. Chosen because the owner knows people there who will use and share the site. One at a time, each with certified candidates, dates, bios, records, and photos (owner sends photos as each state goes), checked like New York and California.
 8. **Then pause adding states** and build the next phase of the site (the hub layout below, planned in `docs/REDESIGN.md`) on its own branch and pull request, after the election. New states after that are added into the hub. The other states wait until after the election.
 
 ## Bigger picture (after the election)
@@ -59,6 +59,9 @@ Question: Could the page layout be automated? like, if there is currently an ele
 ## Later
 
 **Records:**
+- **Texas State Senate voting records.** The Senate journal names only the senators who voted no or were absent, so most votes (every unanimous one) have no names. Only Texas House votes are shown. Filling the Senate in would mean reading each journal and treating everyone not named as a yes, which is a guess, not a record.
+- **Texas 2023 voting records.** Open States' 2023 Texas files have no votes, so Texas House records start in 2025. Bills they wrote still go back to 2023.
+- **Texas races left out for now:** the State Board of Education (no source maps an address to its districts), judges, and county offices.
 - **Bios for California's U.S. House challengers** (owner, Oct 16: later, possibly hand-sourced). About 55 challengers show only their ballot job title. Ballotpedia blocks automated reading and Branch has no California bios yet, so these need hand sourcing or reading Ballotpedia through a browser.
 - **Seven hidden candidate facts** (Kingston, Day, Kozycki, Harris, McBath career line, Blooming) stay hidden until each has a source.
 - **Bills for former state legislators** (Harper, Waites). Open States only lists current members.

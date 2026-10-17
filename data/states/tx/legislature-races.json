@@ -1,0 +1,1775 @@
+{
+  "source": {
+    "label": "Texas Secretary of State, 2026 Ballot Certification (August 28, 2026)",
+    "url": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml"
+  },
+  "upper": {
+    "1": [
+      {
+        "name": "Bryan Hughes",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Laticia Ambroz",
+        "party": "Democrat"
+      }
+    ],
+    "2": [
+      {
+        "name": "Bob Hall",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Keenen Colbert",
+        "party": "Democrat"
+      }
+    ],
+    "3": [
+      {
+        "name": "Trent Ashby",
+        "party": "Republican"
+      },
+      {
+        "name": "Bobby Tillman",
+        "party": "Democrat"
+      }
+    ],
+    "4": [
+      {
+        "name": "Brett Ligon",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Ron C. Angeletti",
+        "party": "Democrat"
+      }
+    ],
+    "5": [
+      {
+        "name": "Charles Schwertner",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Paul Thomasson",
+        "party": "Democrat"
+      }
+    ],
+    "9": [
+      {
+        "name": "Leigh Wambsganss",
+        "party": "Republican"
+      },
+      {
+        "name": "Taylor Rehmet",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "11": [
+      {
+        "name": "Dennis Paul",
+        "party": "Republican"
+      },
+      {
+        "name": "Shannon Dicely",
+        "party": "Democrat"
+      }
+    ],
+    "13": [
+      {
+        "name": "Borris Miles",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "18": [
+      {
+        "name": "Lois Kolkhorst",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Erica Gillum",
+        "party": "Democrat"
+      }
+    ],
+    "19": [
+      {
+        "name": "Marcus Cardenas",
+        "party": "Republican"
+      },
+      {
+        "name": "Roland Gutierrez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "21": [
+      {
+        "name": "Julie Dahlberg",
+        "party": "Republican"
+      },
+      {
+        "name": "Judith Zaffirini",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "22": [
+      {
+        "name": "David Cook",
+        "party": "Republican"
+      },
+      {
+        "name": "Amy Martinez-Salas",
+        "party": "Democrat"
+      }
+    ],
+    "24": [
+      {
+        "name": "Pete Flores",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Joe Paz Herrera",
+        "party": "Democrat"
+      }
+    ],
+    "26": [
+      {
+        "name": "José Menéndez",
+        "party": "Democrat",
+        "incumbent": true
+      },
+      {
+        "name": "Julián Villarreal",
+        "party": "Green"
+      }
+    ],
+    "28": [
+      {
+        "name": "Charles Perry",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Riley Rodriquez",
+        "party": "Democrat"
+      }
+    ],
+    "31": [
+      {
+        "name": "Kevin Sparks",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "John Betancourt",
+        "party": "Democrat"
+      }
+    ]
+  },
+  "lower": {
+    "1": [
+      {
+        "name": "Chris Spencer",
+        "party": "Republican"
+      },
+      {
+        "name": "Sean Huffman",
+        "party": "Democrat"
+      }
+    ],
+    "2": [
+      {
+        "name": "Brent Money",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Fatima La'juan Muse",
+        "party": "Democrat"
+      }
+    ],
+    "3": [
+      {
+        "name": "Kristen Plaisance",
+        "party": "Republican"
+      },
+      {
+        "name": "Nicole King",
+        "party": "Democrat"
+      }
+    ],
+    "4": [
+      {
+        "name": "Keith Bell",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Mark A. Moseley",
+        "party": "Democrat"
+      }
+    ],
+    "5": [
+      {
+        "name": "Cole Hefner",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Hector Garza",
+        "party": "Democrat"
+      }
+    ],
+    "6": [
+      {
+        "name": "Daniel Alders",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Lorenzo Johnson",
+        "party": "Democrat"
+      }
+    ],
+    "7": [
+      {
+        "name": "Jay Dean",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Fantasha Allen",
+        "party": "Democrat"
+      }
+    ],
+    "8": [
+      {
+        "name": "Cody Harris",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Jeff Chavez",
+        "party": "Democrat"
+      }
+    ],
+    "9": [
+      {
+        "name": "Rocky Thigpen",
+        "party": "Republican"
+      },
+      {
+        "name": "Shelley Tatum",
+        "party": "Democrat"
+      }
+    ],
+    "10": [
+      {
+        "name": "Brian Harrison",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Michael Myers",
+        "party": "Democrat"
+      }
+    ],
+    "11": [
+      {
+        "name": "Joanne Shofner",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Roxanne Lathan",
+        "party": "Democrat"
+      }
+    ],
+    "12": [
+      {
+        "name": "Trey Wharton",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Andie Ho",
+        "party": "Democrat"
+      }
+    ],
+    "13": [
+      {
+        "name": "Angelia Orr",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Albert Hunter",
+        "party": "Democrat"
+      }
+    ],
+    "14": [
+      {
+        "name": "Paul Dyson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Janet Tycelia Dudding",
+        "party": "Democrat"
+      },
+      {
+        "name": "Jeff Miller",
+        "party": "Libertarian"
+      }
+    ],
+    "15": [
+      {
+        "name": "Brad Bailey",
+        "party": "Republican"
+      },
+      {
+        "name": "Moniqua' S. Scott",
+        "party": "Democrat"
+      },
+      {
+        "name": "Jessi Cowart",
+        "party": "Libertarian"
+      }
+    ],
+    "16": [
+      {
+        "name": "Will Metcalf",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Bobbie Clayton",
+        "party": "Democrat"
+      }
+    ],
+    "17": [
+      {
+        "name": "Stan Gerdes",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Mary Elizabeth Klenz",
+        "party": "Democrat"
+      }
+    ],
+    "18": [
+      {
+        "name": "Janis Holt",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Valorie Barton",
+        "party": "Democrat"
+      }
+    ],
+    "19": [
+      {
+        "name": "Ellen Troxclair",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Tom Luck",
+        "party": "Democrat"
+      }
+    ],
+    "20": [
+      {
+        "name": "Terry Wilson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Matthias-Jonah Early",
+        "party": "Democrat"
+      }
+    ],
+    "21": [
+      {
+        "name": "Ray Callas",
+        "party": "Republican"
+      },
+      {
+        "name": "Jacqueline \"Jacky\" Hernandez",
+        "party": "Democrat"
+      }
+    ],
+    "22": [
+      {
+        "name": "Christian Manuel",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "23": [
+      {
+        "name": "Terri Leo-Wilson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Cheryl Lynn Clark",
+        "party": "Democrat"
+      }
+    ],
+    "24": [
+      {
+        "name": "Greg Bonnen",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Frank N Carr",
+        "party": "Democrat"
+      }
+    ],
+    "25": [
+      {
+        "name": "Cody Vasut",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Mike Meadors",
+        "party": "Democrat"
+      }
+    ],
+    "26": [
+      {
+        "name": "Matt Morgan",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Elizabeth \"Eliz\" Markowitz",
+        "party": "Democrat"
+      }
+    ],
+    "27": [
+      {
+        "name": "Max Alalibo",
+        "party": "Republican"
+      },
+      {
+        "name": "Ron Reynolds",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "28": [
+      {
+        "name": "Gary Gates",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Sandy Ibanez",
+        "party": "Democrat"
+      }
+    ],
+    "29": [
+      {
+        "name": "Jeff Barry",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Karen Reeder",
+        "party": "Democrat"
+      }
+    ],
+    "30": [
+      {
+        "name": "A.J. Louderback",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Crystal Sedillo",
+        "party": "Democrat"
+      }
+    ],
+    "31": [
+      {
+        "name": "Ryan Guillen",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Jennifer \"JJ\" Dominguez",
+        "party": "Democrat"
+      }
+    ],
+    "32": [
+      {
+        "name": "Todd Hunter",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Gabriel \"Gabe\" Lozano Marroquin",
+        "party": "Democrat"
+      }
+    ],
+    "33": [
+      {
+        "name": "Katrina Pierson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Orlando Lopez",
+        "party": "Democrat"
+      }
+    ],
+    "34": [
+      {
+        "name": "Denise Villalobos",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Stephanie Guerrero Saenz",
+        "party": "Democrat"
+      }
+    ],
+    "35": [
+      {
+        "name": "Oscar Rosa",
+        "party": "Republican"
+      },
+      {
+        "name": "Oscar Longoria",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "36": [
+      {
+        "name": "Sergio Muñoz",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "37": [
+      {
+        "name": "Janie Lopez",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Oziel \"Ozzie\" Ochoa, Jr",
+        "party": "Democrat"
+      }
+    ],
+    "38": [
+      {
+        "name": "Laura E. Cisneros",
+        "party": "Republican"
+      },
+      {
+        "name": "Erin Gámez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "39": [
+      {
+        "name": "Mando Martinez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "40": [
+      {
+        "name": "Celeste Cabrera-Huff",
+        "party": "Republican"
+      },
+      {
+        "name": "Terry Canales",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "41": [
+      {
+        "name": "Gary Groves",
+        "party": "Republican"
+      },
+      {
+        "name": "Julio Salinas",
+        "party": "Democrat"
+      }
+    ],
+    "42": [
+      {
+        "name": "Teresa Johnson-Hernandez",
+        "party": "Republican"
+      },
+      {
+        "name": "Richard Raymond",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "43": [
+      {
+        "name": "J.M. Lozano",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Jeffrey T Jackson",
+        "party": "Democrat"
+      }
+    ],
+    "44": [
+      {
+        "name": "Alan Schoolcraft",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Eric Norman",
+        "party": "Democrat"
+      }
+    ],
+    "45": [
+      {
+        "name": "Tennyson G. Moreno",
+        "party": "Republican"
+      },
+      {
+        "name": "Erin Zwiener",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "46": [
+      {
+        "name": "Sheryl Cole",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "47": [
+      {
+        "name": "Jennifer Mushtaler",
+        "party": "Republican"
+      },
+      {
+        "name": "Pooja Sethi",
+        "party": "Democrat"
+      }
+    ],
+    "48": [
+      {
+        "name": "Anthony Gupta",
+        "party": "Republican"
+      },
+      {
+        "name": "Donna Howard",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "49": [
+      {
+        "name": "Montserrat Garibay",
+        "party": "Democrat"
+      },
+      {
+        "name": "Arshia Papari",
+        "party": "Green"
+      }
+    ],
+    "50": [
+      {
+        "name": "Howard Olsen",
+        "party": "Republican"
+      },
+      {
+        "name": "Samantha Lopez-Resendez",
+        "party": "Democrat"
+      }
+    ],
+    "51": [
+      {
+        "name": "Jessica Martinez",
+        "party": "Republican"
+      },
+      {
+        "name": "Lulu Flores",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "52": [
+      {
+        "name": "Caroline Harris Davila",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Chris Jimenez",
+        "party": "Democrat"
+      }
+    ],
+    "53": [
+      {
+        "name": "Wes Virdell",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Kathryn Hartmann",
+        "party": "Democrat"
+      }
+    ],
+    "54": [
+      {
+        "name": "Brad Buckley",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Dawn Richardson",
+        "party": "Democrat"
+      }
+    ],
+    "55": [
+      {
+        "name": "Hillary Hickland",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Amelia Rabroker",
+        "party": "Democrat"
+      }
+    ],
+    "56": [
+      {
+        "name": "Pat Curry",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Ashley Bean Thornton",
+        "party": "Democrat"
+      }
+    ],
+    "57": [
+      {
+        "name": "Richard Hayes",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Ray Stith",
+        "party": "Democrat"
+      },
+      {
+        "name": "Darren Hamilton",
+        "party": "Libertarian"
+      }
+    ],
+    "58": [
+      {
+        "name": "Helen Kerwin",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Chris Oldham",
+        "party": "Democrat"
+      }
+    ],
+    "59": [
+      {
+        "name": "Shelby Slawson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Andrew Turner",
+        "party": "Democrat"
+      }
+    ],
+    "60": [
+      {
+        "name": "Mike Olcott",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Krissy Guess",
+        "party": "Democrat"
+      }
+    ],
+    "61": [
+      {
+        "name": "Keresa Richardson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Brittany Black",
+        "party": "Democrat"
+      },
+      {
+        "name": "Anissa Chilmeran",
+        "party": "Green"
+      }
+    ],
+    "62": [
+      {
+        "name": "Shelley Luther",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Catherine Thorne",
+        "party": "Democrat"
+      }
+    ],
+    "63": [
+      {
+        "name": "Ben Bumgarner",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Denise Wooten",
+        "party": "Democrat"
+      }
+    ],
+    "64": [
+      {
+        "name": "Andy Hopper",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Julie Evans",
+        "party": "Democrat"
+      }
+    ],
+    "65": [
+      {
+        "name": "Mitch Little",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Detrick Deburr",
+        "party": "Democrat"
+      }
+    ],
+    "66": [
+      {
+        "name": "Matt Shaheen",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Sandeep Srivastava",
+        "party": "Democrat"
+      }
+    ],
+    "67": [
+      {
+        "name": "Jeff Leach",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Jordan Wheatley",
+        "party": "Democrat"
+      }
+    ],
+    "68": [
+      {
+        "name": "David Spiller",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Jasmine Henderson",
+        "party": "Democrat"
+      }
+    ],
+    "69": [
+      {
+        "name": "James Frank",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Leilani Barnett",
+        "party": "Democrat"
+      }
+    ],
+    "70": [
+      {
+        "name": "George Flint",
+        "party": "Republican"
+      },
+      {
+        "name": "Mihaela Pleșa",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "71": [
+      {
+        "name": "Jay Hardaway",
+        "party": "Republican"
+      },
+      {
+        "name": "Diana Luna",
+        "party": "Democrat"
+      }
+    ],
+    "72": [
+      {
+        "name": "Drew Darby",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Shiloh Salazar",
+        "party": "Democrat"
+      }
+    ],
+    "73": [
+      {
+        "name": "Carrie Isaac",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Merrie Fox",
+        "party": "Democrat"
+      }
+    ],
+    "74": [
+      {
+        "name": "Robert Garza",
+        "party": "Republican"
+      },
+      {
+        "name": "Eddie Morales",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "75": [
+      {
+        "name": "Mary González",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "76": [
+      {
+        "name": "Linda Howell",
+        "party": "Republican"
+      },
+      {
+        "name": "Suleman Lalani",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "77": [
+      {
+        "name": "Humberto Perez",
+        "party": "Republican"
+      },
+      {
+        "name": "Vince Perez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "78": [
+      {
+        "name": "Joe Moody",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "79": [
+      {
+        "name": "Jesse Romero",
+        "party": "Republican"
+      },
+      {
+        "name": "Claudia Ordaz",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "80": [
+      {
+        "name": "Don McLaughlin",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Cecilia Castellano",
+        "party": "Democrat"
+      }
+    ],
+    "81": [
+      {
+        "name": "Brooks Landgraf",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Ceasar Sanchez",
+        "party": "Democrat"
+      }
+    ],
+    "82": [
+      {
+        "name": "Tom Craddick",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Cathy Broadrick",
+        "party": "Democrat"
+      }
+    ],
+    "83": [
+      {
+        "name": "Dustin Burrows",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Malik Williams",
+        "party": "Democrat"
+      }
+    ],
+    "84": [
+      {
+        "name": "Carl Tepper",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Margaret Durham",
+        "party": "Democrat"
+      }
+    ],
+    "85": [
+      {
+        "name": "Dennis \"Goose\" Geesaman",
+        "party": "Republican"
+      },
+      {
+        "name": "Lawrence Brandyburg",
+        "party": "Democrat"
+      }
+    ],
+    "86": [
+      {
+        "name": "Holly Jeffreys",
+        "party": "Republican"
+      },
+      {
+        "name": "Cullin Knutson",
+        "party": "Democrat"
+      }
+    ],
+    "87": [
+      {
+        "name": "Caroline Fairly",
+        "party": "Republican"
+      },
+      {
+        "name": "Diana Loya",
+        "party": "Democrat"
+      }
+    ],
+    "88": [
+      {
+        "name": "Ken King",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Heather J. Wallace",
+        "party": "Democrat"
+      }
+    ],
+    "89": [
+      {
+        "name": "Candy Noble",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Angie Carraway",
+        "party": "Democrat"
+      }
+    ],
+    "90": [
+      {
+        "name": "Ramon Romero",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "91": [
+      {
+        "name": "David Lowe",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Yisak Worku",
+        "party": "Democrat"
+      }
+    ],
+    "92": [
+      {
+        "name": "Jp Woodruff",
+        "party": "Republican"
+      },
+      {
+        "name": "Salman Bhojani",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "93": [
+      {
+        "name": "Alan Blaylock",
+        "party": "Republican"
+      },
+      {
+        "name": "Ericka Lomick",
+        "party": "Democrat"
+      }
+    ],
+    "94": [
+      {
+        "name": "Cheryl Bean",
+        "party": "Republican"
+      },
+      {
+        "name": "Katie O'Brien Duzan",
+        "party": "Democrat"
+      }
+    ],
+    "95": [
+      {
+        "name": "Nicole Collier",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "96": [
+      {
+        "name": "Ellen Fleischmann",
+        "party": "Republican"
+      },
+      {
+        "name": "Ebony M. Turner",
+        "party": "Democrat"
+      }
+    ],
+    "97": [
+      {
+        "name": "John McQueeney",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Beth Llewellyn McLaughlin",
+        "party": "Democrat"
+      }
+    ],
+    "98": [
+      {
+        "name": "Armin Mizani",
+        "party": "Republican"
+      },
+      {
+        "name": "Cate Brennan",
+        "party": "Democrat"
+      }
+    ],
+    "99": [
+      {
+        "name": "Charlie Geren",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Michelle Winder",
+        "party": "Democrat"
+      }
+    ],
+    "100": [
+      {
+        "name": "Jordan Scott Hoffnagle",
+        "party": "Republican"
+      },
+      {
+        "name": "Venton Jones",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "101": [
+      {
+        "name": "Junior Ezeonu",
+        "party": "Democrat"
+      }
+    ],
+    "102": [
+      {
+        "name": "Bonnie Abadie",
+        "party": "Republican"
+      },
+      {
+        "name": "Ana-Maria Rodriguez Ramos",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "103": [
+      {
+        "name": "Melanie Medley-Thomas",
+        "party": "Republican"
+      },
+      {
+        "name": "Rafael Anchía",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "104": [
+      {
+        "name": "Jessica González",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "105": [
+      {
+        "name": "Terry Meza",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "106": [
+      {
+        "name": "Jared Patterson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Joe Mayes",
+        "party": "Democrat"
+      }
+    ],
+    "107": [
+      {
+        "name": "Linda Garcia",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "108": [
+      {
+        "name": "Morgan Meyer",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Allison Mitchell",
+        "party": "Democrat"
+      }
+    ],
+    "109": [
+      {
+        "name": "Will Campbell",
+        "party": "Republican"
+      },
+      {
+        "name": "Aicha Davis",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "110": [
+      {
+        "name": "Toni Rose",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "111": [
+      {
+        "name": "Yvonne Davis",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "112": [
+      {
+        "name": "Angie Button",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Zach Herbert",
+        "party": "Democrat"
+      }
+    ],
+    "113": [
+      {
+        "name": "Stephen W. Stanley",
+        "party": "Republican"
+      },
+      {
+        "name": "Rhetta Bowers",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "114": [
+      {
+        "name": "Tim McDonough",
+        "party": "Republican"
+      },
+      {
+        "name": "John Bryant",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "115": [
+      {
+        "name": "Danny Rosellini",
+        "party": "Republican"
+      },
+      {
+        "name": "Cas Garcia Hernandez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "116": [
+      {
+        "name": "Rhett Rosenquest Smith",
+        "party": "Republican"
+      },
+      {
+        "name": "Trey Martinez Fischer",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "117": [
+      {
+        "name": "Ben Mostyn",
+        "party": "Republican"
+      },
+      {
+        "name": "Philip Cortez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "118": [
+      {
+        "name": "Jorge Borrego",
+        "party": "Republican"
+      },
+      {
+        "name": "Kristian Carranza",
+        "party": "Democrat"
+      }
+    ],
+    "119": [
+      {
+        "name": "Melva Perez",
+        "party": "Republican"
+      },
+      {
+        "name": "Liz Campos",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "120": [
+      {
+        "name": "Barbara Gervin-Hawkins",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "121": [
+      {
+        "name": "Marc LaHood",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Zack Dunn",
+        "party": "Democrat"
+      }
+    ],
+    "122": [
+      {
+        "name": "Mark Dorazio",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Shelly Nickels",
+        "party": "Democrat"
+      }
+    ],
+    "123": [
+      {
+        "name": "Diego Bernal",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "124": [
+      {
+        "name": "Sylvia Soto",
+        "party": "Republican"
+      },
+      {
+        "name": "Josey Garcia",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "125": [
+      {
+        "name": "Ricardo 'Rick' Martinez",
+        "party": "Republican"
+      },
+      {
+        "name": "Adrian Reyna",
+        "party": "Democrat"
+      }
+    ],
+    "126": [
+      {
+        "name": "Stan Stanart",
+        "party": "Republican"
+      },
+      {
+        "name": "Stefanie Bord",
+        "party": "Democrat"
+      }
+    ],
+    "127": [
+      {
+        "name": "Charles Cunningham",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Michelle Williams",
+        "party": "Democrat"
+      }
+    ],
+    "128": [
+      {
+        "name": "Tom Butler",
+        "party": "Republican"
+      },
+      {
+        "name": "Desiree Klaus",
+        "party": "Democrat"
+      }
+    ],
+    "129": [
+      {
+        "name": "Scott Bowen",
+        "party": "Republican"
+      },
+      {
+        "name": "Albert Wittliff",
+        "party": "Democrat"
+      }
+    ],
+    "130": [
+      {
+        "name": "Tom Oliverson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Brett Robinson",
+        "party": "Democrat"
+      }
+    ],
+    "131": [
+      {
+        "name": "Scott Whitmarsh",
+        "party": "Republican"
+      },
+      {
+        "name": "Staci Childs",
+        "party": "Democrat"
+      }
+    ],
+    "132": [
+      {
+        "name": "Mike Schofield",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Sara McGee",
+        "party": "Democrat"
+      }
+    ],
+    "133": [
+      {
+        "name": "Mano DeAyala",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Josh Wallenstein",
+        "party": "Democrat"
+      }
+    ],
+    "134": [
+      {
+        "name": "Mike Michna",
+        "party": "Republican"
+      },
+      {
+        "name": "Ann Johnson",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "135": [
+      {
+        "name": "Liz Ramos",
+        "party": "Republican"
+      },
+      {
+        "name": "Odus E. Evbagharu",
+        "party": "Democrat"
+      }
+    ],
+    "136": [
+      {
+        "name": "Theodore Schramm",
+        "party": "Republican"
+      },
+      {
+        "name": "John Bucy",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "137": [
+      {
+        "name": "Helen Zhou",
+        "party": "Republican"
+      },
+      {
+        "name": "Gene Wu",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "138": [
+      {
+        "name": "Lacey Hull",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "Tyler Smith",
+        "party": "Democrat"
+      }
+    ],
+    "139": [
+      {
+        "name": "Kyle Harding",
+        "party": "Republican"
+      },
+      {
+        "name": "Charlene Ward Johnson",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "140": [
+      {
+        "name": "Laura Garcia Deleon",
+        "party": "Republican"
+      },
+      {
+        "name": "Armando Walle",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "141": [
+      {
+        "name": "Julie Hunt",
+        "party": "Republican"
+      },
+      {
+        "name": "Senfronia Thompson",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "142": [
+      {
+        "name": "Heidi Hall",
+        "party": "Republican"
+      },
+      {
+        "name": "Harold Dutton",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "143": [
+      {
+        "name": "Frank Salazar",
+        "party": "Republican"
+      },
+      {
+        "name": "Ana Hernandez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "144": [
+      {
+        "name": "David Flores",
+        "party": "Republican"
+      },
+      {
+        "name": "Mary Ann Perez",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "145": [
+      {
+        "name": "Inocensia Moreno",
+        "party": "Republican"
+      },
+      {
+        "name": "Christina Morales",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "146": [
+      {
+        "name": "Alexandria Nicole Butler",
+        "party": "Republican"
+      },
+      {
+        "name": "Lauren Simmons",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "147": [
+      {
+        "name": "Theodis Daniel",
+        "party": "Republican"
+      },
+      {
+        "name": "Jo Jones",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "148": [
+      {
+        "name": "Amanda Labrie",
+        "party": "Republican"
+      },
+      {
+        "name": "Penny Morales Shaw",
+        "party": "Democrat",
+        "incumbent": true
+      }
+    ],
+    "149": [
+      {
+        "name": "Dave Bennett",
+        "party": "Republican"
+      },
+      {
+        "name": "Darlene Breaux",
+        "party": "Democrat"
+      }
+    ],
+    "150": [
+      {
+        "name": "Valoree Swanson",
+        "party": "Republican",
+        "incumbent": true
+      },
+      {
+        "name": "A'yonna Kellum",
+        "party": "Democrat"
+      }
+    ]
+  },
+  "notes": {
+    "upper": {
+      "22": {
+        "text": "This seat is empty right now, so it's on your ballot twice: once to finish the current term (until January), and once for the next full term. The same candidates are running in both.",
+        "source": {
+          "label": "Texas Secretary of State, special election ballot certification for State Senate, District 22 (August 26, 2026)",
+          "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/notices/ballot_certification/SD22_Ballot-Certification-final.pdf"
+        }
+      }
+    },
+    "lower": {
+      "93": {
+        "text": "This seat is empty right now, so it's on your ballot twice: once to finish the current term (until January), and once for the next full term. The same candidates are running in both.",
+        "source": {
+          "label": "Texas Secretary of State, special election ballot certification for State House, District 93 (August 26, 2026)",
+          "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/notices/ballot_certification/HD93_Ballot-Certification-final.pdf"
+        }
+      }
+    }
+  }
+}

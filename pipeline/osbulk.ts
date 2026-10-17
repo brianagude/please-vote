@@ -26,7 +26,10 @@ export async function bulk(url: string) {
       })(),
     );
   const zip = await zips.get(url)!;
-  return (name: string) => parseCSV(execFileSync("unzip", ["-p", zip, `*_${name}.csv`], { maxBuffer: 1 << 30 }).toString("utf8"));
+  const files = execFileSync("unzip", ["-Z1", zip]).toString("utf8").split("\n");
+  // A session with no recorded votes (a short special session) has no vote files at all.
+  return (name: string) =>
+    files.some((f) => f.endsWith(`_${name}.csv`)) ? parseCSV(execFileSync("unzip", ["-p", zip, `*_${name}.csv`], { maxBuffer: 1 << 30 }).toString("utf8")) : [];
 }
 
 process.on("exit", () => {

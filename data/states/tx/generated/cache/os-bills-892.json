@@ -1,0 +1,164 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf",
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f",
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0",
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21",
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60",
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b",
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+  ],
+  "by": {
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9": [
+      {
+        "id": "HB 94",
+        "title": "Relating to creating a grant program administered by the Texas Division of Emergency Management.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB94",
+        "introduced": "2025-08-15",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 92",
+        "title": "Relating to the repeal of or limitations on certain state and local taxes, including school district maintenance and operations ad valorem taxes, the enactment of state and local value added taxes, and related school finance reform; imposing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB92",
+        "introduced": "2025-08-15",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HJR 11",
+        "title": "Proposing a constitutional amendment concerning the limitation on the rate of growth in state and local appropriations with the return of over-collected taxpayer money by reducing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HJR11",
+        "introduced": "2025-08-15",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 93",
+        "title": "Relating to a limitation on the rate of growth in state and local appropriations with the return of over-collected taxpayer money by reducing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB93",
+        "introduced": "2025-08-15",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0": [
+      {
+        "id": "SB 45",
+        "title": "Relating to the authority of a county to establish drainage utilities, impose drainage fees, and regulate land use for the purpose of flood management.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB45",
+        "introduced": "2025-08-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 33",
+        "title": "Relating to emergency warning systems operated by municipalities and counties.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB33",
+        "introduced": "2025-08-15",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 44",
+        "title": "Relating to a study by the Department of Public Safety on emergency alert notification systems in this state.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB44",
+        "introduced": "2025-08-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 47",
+        "title": "Relating to flood projects financed through the flood infrastructure fund.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB47",
+        "introduced": "2025-08-20",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf": [
+      {
+        "id": "SB 48",
+        "title": "Relating to a vacancy in the office of senator or representative due to excessive absence.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB48",
+        "introduced": "2025-08-21",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 52",
+        "title": "Relating to disclosures required to record an instrument conveying real property.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB52",
+        "introduced": "2025-09-02",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 51",
+        "title": "Relating to election procedures regarding accepting a voter with a residence address that is not current and the immediate effect of a voter's registration after the registrar's receipt of certain change of address notices.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB51",
+        "introduced": "2025-08-25",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 49",
+        "title": "Relating to making an appropriation to Galveston County for certain legal expenses incurred by the county.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB49",
+        "introduced": "2025-08-21",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b": [
+      {
+        "id": "HJR 26",
+        "title": "Proposing a constitutional amendment establishing the Independent Citizen Redistricting Commission to redistrict the Texas Legislature, Texas congressional districts, and State Board of Education districts and revising procedures for redistricting.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HJR26",
+        "introduced": "2025-08-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 259",
+        "title": "Relating to the Independent Citizen Redistricting Commission and the redistricting of the districts used to elect members of the United States House of Representatives, the Texas Legislature, and the State Board of Education.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB259",
+        "introduced": "2025-08-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ]
+  }
+}

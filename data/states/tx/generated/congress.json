@@ -1,0 +1,1706 @@
+{
+  "C001051": {
+    "name": "John R. Carter",
+    "ids": {
+      "fec": [
+        "H2TX31044"
+      ],
+      "wikidata": "Q369814",
+      "wikipedia": "John Carter (Texas politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 31,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "Military Construction, Veterans Affairs, and Related Agencies",
+        "parent": "House Committee on Appropriations",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001063": {
+    "name": "Henry Cuellar",
+    "ids": {
+      "fec": [
+        "H2TX23082"
+      ],
+      "wikidata": "Q539562",
+      "wikipedia": "Henry Cuellar"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 28,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "Homeland Security",
+        "parent": "House Committee on Appropriations",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "W000814": {
+    "name": "Randy K. Weber, Sr.",
+    "ids": {
+      "fec": [
+        "H2TX14149"
+      ],
+      "wikidata": "Q4014569",
+      "wikipedia": "Randy Weber"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 14,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "Energy",
+        "parent": "House Committee on Science, Space, and Technology",
+        "title": "Chair"
+      },
+      {
+        "committee": "Energy",
+        "parent": "House Committee on Energy and Commerce",
+        "title": "Vice Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001091": {
+    "name": "Joaquin Castro",
+    "ids": {
+      "fec": [
+        "H2TX35011"
+      ],
+      "wikidata": "Q1167934",
+      "wikipedia": "Joaquin Castro"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 20,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "Western Hemisphere",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Ranking Member"
+      },
+      {
+        "committee": "Oversight and Investigations",
+        "parent": "House Permanent Select Committee on Intelligence",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "W000816": {
+    "name": "Roger Williams",
+    "ids": {
+      "fec": [
+        "H2TX33040",
+        "S2TX00270"
+      ],
+      "wikidata": "Q4014560",
+      "wikipedia": "Roger Williams (Texas politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 25,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "B001291": {
+    "name": "Brian Babin",
+    "ids": {
+      "fec": [
+        "H6TX02079"
+      ],
+      "wikidata": "Q16979824",
+      "wikipedia": "Brian Babin"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 36,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 36,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 36,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 36,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 36,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 36,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Transportation and Infrastructure",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000581": {
+    "name": "Vicente Gonzalez",
+    "ids": {
+      "fec": [
+        "H6TX15162"
+      ],
+      "wikidata": "Q27924921",
+      "wikipedia": "Vicente Gonzalez (American politician)"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 15,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 15,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 15,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 34,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 34,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001115": {
+    "name": "Michael Cloud",
+    "ids": {
+      "fec": [
+        "H8TX27049"
+      ],
+      "wikidata": "Q55313952",
+      "wikipedia": "Michael Cloud"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2018-07-10",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 27,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 27,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 27,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 27,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 27,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "Energy and Water Development and Related Agencies",
+        "parent": "House Committee on Appropriations",
+        "title": "Vice Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000589": {
+    "name": "Lance Gooden",
+    "ids": {
+      "fec": [
+        "H8TX05144"
+      ],
+      "wikidata": "Q6483406",
+      "wikipedia": "Lance Gooden"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "F000468": {
+    "name": "Lizzie Fletcher",
+    "ids": {
+      "fec": [
+        "H8TX07140"
+      ],
+      "wikidata": "Q58324313",
+      "wikipedia": "Lizzie Fletcher"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 7,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 7,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "E000299": {
+    "name": "Veronica Escobar",
+    "ids": {
+      "fec": [
+        "H8TX16109"
+      ],
+      "wikidata": "Q52274267",
+      "wikipedia": "Veronica Escobar"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 16,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 16,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000587": {
+    "name": "Sylvia R. Garcia",
+    "ids": {
+      "fec": [
+        "H8TX29052"
+      ],
+      "wikidata": "Q13562489",
+      "wikipedia": "Sylvia Garcia"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2019-01-03",
+        "end": "2021-01-03",
+        "state": "TX",
+        "district": 29,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 29,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 29,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 29,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Ethics",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S000250": {
+    "name": "Pete Sessions",
+    "ids": {
+      "fec": [
+        "H2TX03126"
+      ],
+      "wikidata": "Q437852",
+      "wikipedia": "Pete Sessions"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "1997-01-07",
+        "end": "1999-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "1999-01-06",
+        "end": "2001-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2001-01-03",
+        "end": "2003-01-03",
+        "state": "TX",
+        "district": 5,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2003-01-07",
+        "end": "2005-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2005-01-04",
+        "end": "2007-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2007-01-04",
+        "end": "2009-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2009-01-06",
+        "end": "2011-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2011-01-05",
+        "end": "2013-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2013-01-03",
+        "end": "2015-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2015-01-06",
+        "end": "2017-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2017-01-03",
+        "end": "2019-01-03",
+        "state": "TX",
+        "district": 32,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 17,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 17,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 17,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "Government Operations",
+        "parent": "House Committee on Oversight and Government Reform",
+        "title": "Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "F000246": {
+    "name": "Pat Fallon",
+    "ids": {
+      "fec": [
+        "H0TX04219"
+      ],
+      "wikidata": "Q16196923",
+      "wikipedia": "Pat Fallon"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 4,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 4,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      },
+      {
+        "committee": "Military Personnel",
+        "parent": "House Committee on Armed Services",
+        "title": "Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "P000048": {
+    "name": "August Pfluger",
+    "ids": {
+      "fec": [
+        "H0TX11230"
+      ],
+      "wikidata": "Q101196462",
+      "wikipedia": "August Pfluger"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 11,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 11,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 11,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Homeland Security",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      },
+      {
+        "committee": "Counterterrorism and Intelligence",
+        "parent": "House Committee on Homeland Security",
+        "title": "Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "J000304": {
+    "name": "Ronny Jackson",
+    "ids": {
+      "fec": [
+        "H0TX13228"
+      ],
+      "wikidata": "Q47270118",
+      "wikipedia": "Ronny Jackson"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 13,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 13,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 13,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Armed Services",
+        "title": null
+      },
+      {
+        "committee": "House Permanent Select Committee on Intelligence",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "Intelligence and Special Operations",
+        "parent": "House Committee on Armed Services",
+        "title": "Chairman"
+      },
+      {
+        "committee": "Oversight and Investigations",
+        "parent": "House Permanent Select Committee on Intelligence",
+        "title": "Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "V000134": {
+    "name": "Beth Van Duyne",
+    "ids": {
+      "fec": [
+        "H0TX24209"
+      ],
+      "wikidata": "Q66309702",
+      "wikipedia": "Beth Van Duyne"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-01-03",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 24,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 24,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 24,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      },
+      {
+        "committee": "Economic Growth, Tax, and Capital Access",
+        "parent": "House Committee on Small Business",
+        "title": "Chairman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "E000071": {
+    "name": "Jake Ellzey",
+    "ids": {
+      "fec": [
+        "H8TX06266"
+      ],
+      "wikidata": "Q105061782",
+      "wikipedia": "Jake Ellzey"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2021-07-30",
+        "end": "2023-01-03",
+        "state": "TX",
+        "district": 6,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 6,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 6,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Appropriations",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Small Business",
+        "title": null
+      },
+      {
+        "committee": "Rural Development, Energy, and Supply Chains",
+        "parent": "House Committee on Small Business",
+        "title": "Chairman"
+      },
+      {
+        "committee": "Defense",
+        "parent": "House Committee on Appropriations",
+        "title": "Vice Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001224": {
+    "name": "Nathaniel Moran",
+    "ids": {
+      "fec": [
+        "H2TX01112"
+      ],
+      "wikidata": "Q115137468",
+      "wikipedia": "Nathaniel Moran"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 1,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 1,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Ways and Means",
+        "title": null
+      },
+      {
+        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Ethics",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "S001224": {
+    "name": "Keith Self",
+    "ids": {
+      "fec": [
+        "H2TX03290",
+        "H2TX00064"
+      ],
+      "wikidata": "Q115137462",
+      "wikipedia": "Keith Self"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 3,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 3,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Foreign Affairs",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Veterans' Affairs",
+        "title": null
+      },
+      {
+        "committee": "Europe",
+        "parent": "House Committee on Foreign Affairs",
+        "title": "Chair"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "D000594": {
+    "name": "Monica De La Cruz",
+    "ids": {
+      "fec": [
+        "H0TX15124"
+      ],
+      "wikidata": "Q115496109",
+      "wikipedia": "Monica De La Cruz"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 15,
+        "party": "Republican"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 15,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Agriculture",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Financial Services",
+        "title": null
+      },
+      {
+        "committee": "Nutrition and Foreign Agriculture",
+        "parent": "House Committee on Agriculture",
+        "title": "Vice Chair"
+      },
+      {
+        "committee": "Housing and Insurance",
+        "parent": "House Committee on Financial Services",
+        "title": "Vice Chairwoman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "C001131": {
+    "name": "Greg Casar",
+    "ids": {
+      "fec": [
+        "H2TX35144"
+      ],
+      "wikidata": "Q104148369",
+      "wikipedia": "Greg Casar"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2023-01-03",
+        "end": "2025-01-03",
+        "state": "TX",
+        "district": 35,
+        "party": "Democrat"
+      },
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 35,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Education and Workforce",
+        "title": null
+      },
+      {
+        "committee": "Federal Law Enforcement",
+        "parent": "House Committee on Oversight and Government Reform",
+        "title": "Ranking Member"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000601": {
+    "name": "Craig A. Goldman",
+    "ids": {
+      "fec": [
+        "H4TX12065"
+      ],
+      "wikidata": "Q16199453",
+      "wikipedia": "Craig Goldman"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 12,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "G000603": {
+    "name": "Brandon Gill",
+    "ids": {
+      "fec": [
+        "H4TX26149"
+      ],
+      "wikidata": "Q124753679",
+      "wikipedia": "Brandon Gill"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2025-01-03",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 26,
+        "party": "Republican"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on the Judiciary",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      },
+      {
+        "committee": "House Committee on the Budget",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "M001245": {
+    "name": "Christian D. Menefee",
+    "ids": {
+      "fec": [
+        "H6TX18232"
+      ],
+      "wikidata": "Q114397549",
+      "wikipedia": "Christian Menefee"
+    },
+    "terms": [
+      {
+        "type": "rep",
+        "start": "2026-02-02",
+        "end": "2027-01-03",
+        "state": "TX",
+        "district": 18,
+        "party": "Democrat"
+      }
+    ],
+    "leadership": [],
+    "committees": [
+      {
+        "committee": "House Committee on Science, Space, and Technology",
+        "title": null
+      },
+      {
+        "committee": "House Committee on Oversight and Government Reform",
+        "title": null
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  }
+}

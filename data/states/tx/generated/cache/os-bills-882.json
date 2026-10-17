@@ -1,0 +1,80 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf",
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f",
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0",
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21",
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60",
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b",
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+  ],
+  "by": {
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9": [
+      {
+        "id": "HB 20",
+        "title": "Relating to the employment and licensing of border security officers employed by the Department of Public Safety.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=882&Bill=HB20",
+        "introduced": "2023-06-27",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 22",
+        "title": "Relating to abortion, including civil liability for distribution of abortion-inducing drugs and duties of Internet service providers; creating a criminal offense; authorizing a private civil right of action.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=882&Bill=HB22",
+        "introduced": "2023-06-28",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 52",
+        "title": "Relating to the repeal of or limitations on certain state and local taxes, including school district maintenance and operations ad valorem taxes, the enactment of state and local value added taxes, and related school finance reform; imposing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=882&Bill=HB52",
+        "introduced": "2023-06-28",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 21",
+        "title": "Relating to civil liability for the sterilization, castration, or genital mutilation of children.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=882&Bill=HB21",
+        "introduced": "2023-06-27",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 18",
+        "title": "Relating to reducing school district maintenance and operations ad valorem taxes through the use of certain surplus state revenue.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=882&Bill=HB18",
+        "introduced": "2023-06-27",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60": [
+      {
+        "id": "HB 71",
+        "title": "Relating to the temperature at which a facility operated by the Texas Department of Criminal Justice is maintained.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=882&Bill=HB71",
+        "introduced": "2023-07-11",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ]
+  }
+}

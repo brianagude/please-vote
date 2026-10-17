@@ -1,0 +1,172 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf",
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f",
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0",
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21",
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60",
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b",
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+  ],
+  "by": {
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf": [
+      {
+        "id": "SB 14",
+        "title": "Relating to a period of prayer and reading of the Bible or other religious text in public schools.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=SB14",
+        "introduced": "2023-10-06",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 13",
+        "title": "Relating to informed consent before provision of certain medical treatments and exemptions from COVID-19 vaccination requirements.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=SB13",
+        "introduced": "2023-10-06",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 12",
+        "title": "Relating to the use by a political subdivision of public funds for lobbying and certain other activities.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=SB12",
+        "introduced": "2023-10-06",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 79",
+        "title": "Relating to the appointment of an inspector general for education and the creation of a division of inspector general for education in the governor's office to investigate the administration of public education.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=SB79",
+        "introduced": "2023-11-02",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9": [
+      {
+        "id": "HB 123",
+        "title": "Relating to an employee's right to privacy of personal health information; providing a civil penalty.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB123",
+        "introduced": "2023-10-11",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 125",
+        "title": "Relating to a public school classroom safety review and referral program for students who engage in violent criminal conduct; creating a criminal offense.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB125",
+        "introduced": "2023-10-11",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 142",
+        "title": "Relating to requiring the Department of Public Safety to maintain an office in Liberty County.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB142",
+        "introduced": "2023-10-12",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 124",
+        "title": "Relating to the purchase of or acquisition of title to real property by certain aliens or foreign entities.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB124",
+        "introduced": "2023-10-11",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 143",
+        "title": "Relating to a requirement that an election for a member of a board of trustees of an independent school district is partisan.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB143",
+        "introduced": "2023-10-12",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 158",
+        "title": "Relating to a prohibition on the sale, production, or distribution of lab-grown meat; authorizing a civil penalty.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB158",
+        "introduced": "2023-10-16",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 180",
+        "title": "Relating to the appointment by the governor of a conservator of certain counties.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB180",
+        "introduced": "2023-10-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 111",
+        "title": "Relating to abortion, including civil liability for distribution of abortion-inducing drugs and duties of Internet service providers; creating a criminal offense; authorizing a private civil right of action.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB111",
+        "introduced": "2023-10-10",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 197",
+        "title": "Relating to making an appropriation for the construction, operation, and maintenance of a Department of Public Safety office in Liberty County.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB197",
+        "introduced": "2023-10-25",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 116",
+        "title": "Relating to the enforcement of certain federal laws regulating gas appliance, vehicle, and tool usage within the State of Texas.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB116",
+        "introduced": "2023-10-10",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b": [
+      {
+        "id": "HB 177",
+        "title": "Relating to a bonus payment for certain public school employees and to the public school finance system.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=883&Bill=HB177",
+        "introduced": "2023-10-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ]
+  }
+}

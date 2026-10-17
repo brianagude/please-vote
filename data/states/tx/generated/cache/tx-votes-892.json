@@ -1,0 +1,642 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf",
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f",
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0",
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21",
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60",
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b",
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+  ],
+  "votes": {
+    "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": {
+      "chamber": "Texas House",
+      "date": "2025-08-20",
+      "bill": "HB 4",
+      "title": "Relating to the composition of the districts for the election of members of the United States House of Representatives from the State of Texas.",
+      "topics": [
+        "Congressional Redistricting, Select"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB4",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": {
+      "chamber": "Texas House",
+      "date": "2025-08-21",
+      "bill": "HB 20",
+      "title": "Relating to measures to prevent and reduce fraudulent charitable solicitations and theft during declared disasters, including establishing a designation program for disaster relief nonprofit organizations and financial institutions; creating a criminal offense; increasing a criminal penalty.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB20",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": {
+      "chamber": "Texas House",
+      "date": "2025-08-21",
+      "bill": "HB 1",
+      "title": "Relating to youth camp emergency plans and preparedness; authorizing penalties.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": {
+      "chamber": "Texas House",
+      "date": "2025-08-21",
+      "bill": "HB 3",
+      "title": "Relating to the interoperability of emergency communication equipment and infrastructure in this state, including the creation and operation of the Texas Interoperability Council, a grant program administered by the council, and the purchase of certain public safety radio communication systems.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB3",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": {
+      "chamber": "Texas House",
+      "date": "2025-08-21",
+      "bill": "HB 22",
+      "title": "Relating to the authority of the comptroller to provide funding for the deployment and operation of certain emergency communication equipment.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB22",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": {
+      "chamber": "Texas House",
+      "date": "2025-08-21",
+      "bill": "SB 5",
+      "title": "Relating to making supplemental appropriations for disaster relief and preparedness and giving direction and adjustment authority regarding those appropriations.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB5",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": {
+      "chamber": "Texas House",
+      "date": "2025-08-25",
+      "bill": "HB 23",
+      "title": "Relating to the exemption from ad valorem taxation of property owned by certain nonprofit corporations, located in a populous county, and used to promote agriculture, support youth, and provide educational support in the community.",
+      "topics": [
+        "Taxes (Ways and Means)"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB23",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": {
+      "chamber": "Texas House",
+      "date": "2025-08-25",
+      "bill": "HB 17",
+      "title": "Relating to the requirements regarding notice of certain property tax-related information to be provided by taxing units and appraisal districts.",
+      "topics": [
+        "Taxes (Ways and Means)"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB17",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": {
+      "chamber": "Texas House",
+      "date": "2025-08-25",
+      "bill": "HB 27",
+      "title": "Relating to a groundwater study of certain aquifers underlying the territory of the Neches and Trinity Valleys Groundwater Conservation District by the Texas Water Development Board before the issuance of permits or permit amendments by the district.",
+      "topics": [
+        "Natural Resources"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB27",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": {
+      "chamber": "Texas House",
+      "date": "2025-08-25",
+      "bill": "HB 16",
+      "title": "Relating to the operation and administration of and practices and procedures related to proceedings in the judicial branch of state government, including court security, court documents and arrest warrants, document delivery, juvenile boards, constitutional amendment election challenges, record retention, youth diversion, court-ordered mental health services, the powers of the Texas Supreme Court, jurors, and the special prosecution unit; increasing a criminal penalty; authorizing fees.",
+      "topics": [
+        "Courts and Civil Law (Judiciary and Civil Jurisprudence)"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB16",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": {
+      "chamber": "Texas House",
+      "date": "2025-08-25",
+      "bill": "SB 18",
+      "title": "Relating to an exemption from the requirement to obtain a permit from the Texas Commission on Environmental Quality for certain dams or reservoirs operated and maintained for the purposes of erosion, floodwater, and sediment control.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB18",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": {
+      "chamber": "Texas House",
+      "date": "2025-08-25",
+      "bill": "SB 10",
+      "title": "Relating to the calculation of the voter-approval tax rate for certain taxing units.",
+      "topics": [
+        "Taxes (Ways and Means)"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB10",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": {
+      "chamber": "Texas House",
+      "date": "2025-08-26",
+      "bill": "SB 11",
+      "title": "Relating to an affirmative defense to prosecution for certain victims of trafficking of persons or compelling prostitution.",
+      "topics": [
+        "State Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB11",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": {
+      "chamber": "Texas House",
+      "date": "2025-08-26",
+      "bill": "SB 3",
+      "title": "Relating to outdoor warning sirens in flash flood-prone areas.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB3",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": {
+      "chamber": "Texas House",
+      "date": "2025-08-26",
+      "bill": "SB 14",
+      "title": "Relating to the provision by a political subdivision of credits against impact fees to builders and developers for certain water conservation and reuse projects.",
+      "topics": [
+        "Intergovernmental Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB14",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": {
+      "chamber": "Texas House",
+      "date": "2025-08-26",
+      "bill": "SB 16",
+      "title": "Relating to real property theft and real property fraud; establishing recording requirements for certain documents concerning real property; creating the criminal offenses of real property theft and real property fraud and establishing a statute of limitations, restitution, and certain procedures with respect to those offenses.",
+      "topics": [
+        "Criminal Law (Criminal Jurisprudence)"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB16",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": {
+      "chamber": "Texas House",
+      "date": "2025-08-26",
+      "bill": "SB 12",
+      "title": "Relating to the duty of the attorney general to prosecute criminal offenses prescribed by the election laws of this state.",
+      "topics": [
+        "State Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB12",
+      "result": "fail",
+      "what": "Passage"
+    },
+    "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": {
+      "chamber": "Texas House",
+      "date": "2025-08-27",
+      "bill": "HB 26",
+      "title": "Relating to contracting with law enforcement agencies in certain counties.",
+      "topics": [
+        "Intergovernmental Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB26",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": {
+      "chamber": "Texas House",
+      "date": "2025-08-27",
+      "bill": "HB 48",
+      "title": "Relating to the creation of a working group to study alert notification systems.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB48",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": {
+      "chamber": "Texas House",
+      "date": "2025-08-27",
+      "bill": "HB 149",
+      "title": "Relating to the governor's review of purchases by political subdivisions of public safety radio communication systems.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB149",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": {
+      "chamber": "Texas House",
+      "date": "2025-08-27",
+      "bill": "HB 25",
+      "title": "Relating to a pharmacist's authority to dispense ivermectin without a prescription.",
+      "topics": [
+        "Public Health"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB25",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": {
+      "chamber": "Texas House",
+      "date": "2025-08-27",
+      "bill": "HB 254",
+      "title": "Relating to eligibility of a political subdivision for a grant from the Rural Infrastructure Disaster Recovery Program.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB254",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": {
+      "chamber": "Texas House",
+      "date": "2025-08-27",
+      "bill": "HB 192",
+      "title": "Relating to the funding of law enforcement agencies in certain counties.",
+      "topics": [
+        "Intergovernmental Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB192",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": {
+      "chamber": "Texas House",
+      "date": "2025-08-28",
+      "bill": "HB 15",
+      "title": "Relating to certain files maintained by a law enforcement agency regarding certain employees of the agency.",
+      "topics": [
+        "Homeland Security, Public Safety and Veterans' Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB15",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": {
+      "chamber": "Texas House",
+      "date": "2025-08-28",
+      "bill": "HB 265",
+      "title": "Relating to governmental oversight of youth camps, including youth camp rules, duties, and the advisory committee.",
+      "topics": [
+        "Public Health"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB265",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": {
+      "chamber": "Texas House",
+      "date": "2025-08-28",
+      "bill": "HB 7",
+      "title": "Relating to prohibitions on the manufacture and provision of abortion-inducing drugs, including the jurisdiction of and effect of certain judgments by courts within and outside this state with respect to the manufacture and provision of those drugs, and to protections from certain counteractions under the laws of other states and jurisdictions; authorizing qui tam actions.",
+      "topics": [
+        "State Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB7",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": {
+      "chamber": "Texas House",
+      "date": "2025-08-28",
+      "bill": "SB 8",
+      "title": "Relating to the designation and use of certain spaces and facilities according to sex; authorizing a civil penalty and a private civil right of action.",
+      "topics": [
+        "State Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB8",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": {
+      "chamber": "Texas House",
+      "date": "2025-09-02",
+      "bill": "HB 18",
+      "title": "Relating to a restriction on the acceptance of political contributions and the making of certain political expenditures by a member of the legislature and certain political committees during certain periods in which a member is absent from a legislative session; authorizing a civil penalty.",
+      "topics": [
+        "Elections"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB18",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": {
+      "chamber": "Texas House",
+      "date": "2025-09-02",
+      "bill": "SB 54",
+      "title": "Relating to election procedures regarding accepting a voter with a residence address that is not current and the immediate effect of a voter's registration after the registrar's receipt of certain change of address notices.",
+      "topics": [
+        "State Affairs"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB54",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": {
+      "chamber": "Texas House",
+      "date": "2025-09-03",
+      "bill": "SB 5",
+      "title": "Relating to making supplemental appropriations for disaster relief and preparedness and giving direction and adjustment authority regarding those appropriations.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB5",
+      "result": "pass",
+      "what": "Approve the final version worked out with the Senate"
+    },
+    "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": {
+      "chamber": "Texas House",
+      "date": "2025-09-03",
+      "bill": "HB 20",
+      "title": "Relating to measures to prevent and reduce fraudulent charitable solicitations and theft during declared disasters, including establishing a designation program for disaster relief nonprofit organizations and financial institutions; creating a criminal offense; increasing a criminal penalty.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB20",
+      "result": "pass",
+      "what": "Agree to the other chamber's changes"
+    },
+    "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": {
+      "chamber": "Texas House",
+      "date": "2025-09-03",
+      "bill": "HB 1",
+      "title": "Relating to youth camp emergency plans and preparedness; authorizing penalties.",
+      "topics": [
+        "Disaster Preparedness and Flooding"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB1",
+      "result": "pass",
+      "what": "Agree to the other chamber's changes"
+    },
+    "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": {
+      "chamber": "Texas House",
+      "date": "2025-09-03",
+      "bill": "HB 8",
+      "title": "Relating to public school accountability and transparency, including the implementation of an instructionally supportive assessment program and the adoption and administration of assessment instruments in public schools, indicators of achievement, public school performance ratings, and interventions and sanctions under the public school accountability system, a grant program for school district local accountability plans, and actions challenging Texas Education Agency decisions related to public school accountability.",
+      "topics": [
+        "Public Education"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB8",
+      "result": "pass",
+      "what": "Agree to the other chamber's changes"
+    },
+    "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": {
+      "chamber": "Texas House",
+      "date": "2025-09-03",
+      "bill": "SB 1",
+      "title": "Relating to campground and youth camp safety.",
+      "topics": [
+        "Disaster Preparedness and Flooding, Select"
+      ],
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB1",
+      "result": "pass",
+      "what": "Passage"
+    }
+  },
+  "cast": {
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f": {
+      "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": "yes",
+      "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": "no",
+      "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": "yes",
+      "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": "yes",
+      "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": "absent",
+      "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": "absent",
+      "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": "absent",
+      "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": "no",
+      "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": "yes",
+      "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": "absent",
+      "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": "absent",
+      "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": "yes",
+      "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": "yes",
+      "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": "yes",
+      "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": "yes",
+      "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": "absent",
+      "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": "yes",
+      "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": "yes",
+      "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": "yes",
+      "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": "not voting",
+      "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": "yes",
+      "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": "yes",
+      "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": "absent",
+      "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": "yes",
+      "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": "yes",
+      "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": "yes",
+      "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": "absent",
+      "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": "absent",
+      "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": "yes",
+      "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": "no",
+      "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": "yes",
+      "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": "yes",
+      "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": "no",
+      "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": "absent"
+    },
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21": {
+      "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": "yes",
+      "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": "no",
+      "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": "yes",
+      "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": "yes",
+      "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": "no",
+      "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": "yes",
+      "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": "yes",
+      "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": "no",
+      "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": "yes",
+      "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": "no",
+      "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": "no",
+      "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": "yes",
+      "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": "yes",
+      "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": "yes",
+      "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": "yes",
+      "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": "no",
+      "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": "yes",
+      "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": "yes",
+      "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": "yes",
+      "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": "no",
+      "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": "yes",
+      "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": "yes",
+      "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": "yes",
+      "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": "yes",
+      "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": "yes",
+      "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": "yes",
+      "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": "yes",
+      "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": "no",
+      "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": "yes",
+      "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": "no",
+      "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": "yes",
+      "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": "yes",
+      "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": "no",
+      "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": "no"
+    },
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49": {
+      "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": "yes",
+      "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": "yes",
+      "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": "yes",
+      "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": "yes",
+      "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": "no",
+      "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": "yes",
+      "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": "yes",
+      "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": "no",
+      "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": "yes",
+      "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": "no",
+      "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": "no",
+      "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": "absent",
+      "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": "yes",
+      "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": "yes",
+      "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": "yes",
+      "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": "no",
+      "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": "yes",
+      "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": "yes",
+      "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": "yes",
+      "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": "no",
+      "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": "yes",
+      "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": "yes",
+      "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": "yes",
+      "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": "yes",
+      "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": "yes",
+      "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": "yes",
+      "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": "yes",
+      "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": "no",
+      "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": "yes",
+      "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": "no",
+      "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": "yes",
+      "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": "yes",
+      "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": "no",
+      "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": "no"
+    },
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60": {
+      "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": "yes",
+      "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": "no",
+      "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": "yes",
+      "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": "yes",
+      "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": "yes",
+      "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": "yes",
+      "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": "yes",
+      "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": "no",
+      "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": "yes",
+      "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": "yes",
+      "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": "no",
+      "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": "no",
+      "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": "yes",
+      "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": "yes",
+      "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": "yes",
+      "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": "no",
+      "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": "yes",
+      "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": "yes",
+      "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": "yes",
+      "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": "no",
+      "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": "yes",
+      "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": "yes",
+      "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": "yes",
+      "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": "yes",
+      "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": "yes",
+      "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": "yes",
+      "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": "yes",
+      "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": "no",
+      "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": "no",
+      "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": "yes",
+      "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": "yes",
+      "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": "yes",
+      "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": "no",
+      "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": "yes"
+    },
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b": {
+      "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": "yes",
+      "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": "yes",
+      "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": "yes",
+      "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": "yes",
+      "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": "no",
+      "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": "yes",
+      "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": "yes",
+      "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": "no",
+      "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": "yes",
+      "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": "yes",
+      "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": "no",
+      "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": "no",
+      "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": "yes",
+      "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": "yes",
+      "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": "yes",
+      "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": "no",
+      "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": "yes",
+      "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": "yes",
+      "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": "yes",
+      "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": "no",
+      "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": "yes",
+      "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": "yes",
+      "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": "yes",
+      "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": "yes",
+      "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": "yes",
+      "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": "yes",
+      "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": "yes",
+      "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": "no",
+      "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": "no",
+      "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": "yes",
+      "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": "yes",
+      "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": "yes",
+      "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": "no",
+      "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": "no"
+    },
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9": {
+      "ocd-vote/c3317ef9-90b6-4564-b752-de23c23ccf5a": "yes",
+      "ocd-vote/5dfeb561-004c-4c8d-ba6a-7c68cdc584f1": "absent",
+      "ocd-vote/016506df-51e7-4472-b66d-e98abff95f8a": "no",
+      "ocd-vote/30f212c9-12c9-4692-95f6-3491a827059d": "yes",
+      "ocd-vote/ae3c60c7-7044-4af4-90d8-523be4cb6305": "yes",
+      "ocd-vote/1e129382-661d-43b7-b8c7-fb1c7ff14f4c": "yes",
+      "ocd-vote/5800f63e-3294-400c-ad14-76c6a31236e8": "yes",
+      "ocd-vote/1230a46b-f6ea-4701-be9d-547b57569240": "absent",
+      "ocd-vote/67f22290-4d16-4743-af44-c005e268c313": "absent",
+      "ocd-vote/e6de3ad2-0f31-4488-9626-f085cd0cff7f": "yes",
+      "ocd-vote/af430be8-473d-4d4c-9f29-22e6bd0e5330": "yes",
+      "ocd-vote/f7521718-9565-4126-b888-9f772d5da7fa": "yes",
+      "ocd-vote/5751f9f2-13ad-4958-acf6-a38776a96909": "yes",
+      "ocd-vote/7ff0c27d-7fa8-45f9-9484-7e043042d98e": "yes",
+      "ocd-vote/446ae236-51d7-4cab-9052-7fb74b112a81": "yes",
+      "ocd-vote/f03288d6-4e48-4797-8bd4-b4b94bc35eb9": "yes",
+      "ocd-vote/a2c47215-cde0-46e4-a563-3a590554ab09": "yes",
+      "ocd-vote/d3302bbb-dd78-4ae1-b5b5-b14a148bc6c6": "no",
+      "ocd-vote/75fe3071-0512-460f-9cb9-d6f6be0d6cf3": "yes",
+      "ocd-vote/c971eff5-7a33-491d-8771-435beded7813": "yes",
+      "ocd-vote/fbfc721c-3f8e-41ed-8d3a-a5b4276dcc11": "yes",
+      "ocd-vote/171296b9-f30a-4a88-b74e-0ea940b8b9ac": "yes",
+      "ocd-vote/44b86260-e273-42ea-9740-3943ec02375c": "absent",
+      "ocd-vote/28ad3d83-7b1e-45e6-bbf7-d4a0357fe20b": "absent",
+      "ocd-vote/1ee5e53b-9cbd-4a7c-a0bc-8cb7cc4126ab": "yes",
+      "ocd-vote/8cb6a773-6712-4907-b944-e5a13012650e": "absent",
+      "ocd-vote/1a268434-130a-4320-9275-2fc15678eac0": "yes",
+      "ocd-vote/0d63fcdb-ce0a-459e-a2bc-1871075e92cd": "yes",
+      "ocd-vote/b8087ad9-47bd-49ba-a80a-6b4a6ab51e0d": "yes",
+      "ocd-vote/a53784fe-b511-4db5-9ee5-be79938c0a4e": "yes",
+      "ocd-vote/9c822bec-00af-4439-a45a-5e2e5df90e8b": "yes",
+      "ocd-vote/3e22f000-62b7-4546-a23e-50af5b1db6c2": "yes",
+      "ocd-vote/4f3178d2-03f5-43d6-8c31-7b7b530bc319": "yes",
+      "ocd-vote/557a1967-7cba-4669-83c2-d268da0151ea": "yes"
+    }
+  }
+}

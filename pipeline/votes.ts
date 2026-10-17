@@ -605,6 +605,11 @@ interface StateRules {
   source: { label: string; url: string };
   /** A plain line after the attendance count, when the state records not voting in a way worth saying. */
   attendanceNote?: string;
+  /** For states whose vote labels don't say which vote was final: the final votes, by ID, with what each
+   *  was for, worked out from the bill's actions. Only these count (still filtered by isFloor). */
+  /** The first day the state's vote files have names in them, when that's later than the guide's start. */
+  votesFrom?: string;
+  final?: (csv: (name: string) => Record<string, string>[], orgs: Map<string, Record<string, string>>) => Map<string, string>;
 }
 
 // New York labels its votes well enough to use directly: Senate "Floor Vote" (and "Floor Vote -
@@ -673,6 +678,65 @@ const CALIFORNIA: StateRules = {
   attendanceNote: "California counts being absent and choosing not to vote the same way.",
 };
 
+// Texas labels every House roll call "passage", including the vote that only moves a bill to its
+// final reading, so the final ones come from what happened to the bill that day: "Passed" (final
+// passage), "House concurs in Senate amendment(s)", or "House adopts conference committee report".
+// When there were several roll calls on the bill that day, the last one is the final one.
+// The Texas Senate is left out: its journal names only the senators who voted no or were absent,
+// so most votes (every unanimous one) have no names, and no senator's record can be shown honestly.
+// Committee names use "&" and some legal terms, so those get plain names.
+const TX_PLAIN: Record<string, string> = {
+  "Ways & Means": "Taxes (Ways and Means)",
+  "Criminal Jurisprudence": "Criminal Law (Criminal Jurisprudence)",
+  "Judiciary & Civil Jurisprudence": "Courts and Civil Law (Judiciary and Civil Jurisprudence)",
+  Jurisprudence: "Courts and Civil Law (Jurisprudence)",
+  "Vet Affairs": "Veterans' Affairs",
+  "Delivery of Government Efficiency": "Government Efficiency",
+};
+const TX_FINAL: [RegExp, string][] = [
+  [/^House adopts conference committee report/, "Approve the final version worked out with the Senate"],
+  [/^House concurs in Senate amendment/, "Agree to the other chamber's changes"],
+  [/^Passed$/, "Passage"],
+];
+const TEXAS: StateRules = {
+  chamber: () => "Texas House",
+  isFloor: (_, voters, cls) => cls === "lower" && voters >= 100,
+  what: () => "Passage",
+  final: (csv, orgs) => {
+    const isLower = (r: Record<string, string>) => orgs.get(r.organization_id)?.classification === "lower";
+    const rank = (w: string) => TX_FINAL.findIndex(([, x]) => x === w);
+    const what = new Map<string, string>(); // bill + day -> what the final vote was for
+    for (const a of csv("bill_actions")) {
+      if (!isLower(a)) continue;
+      const hit = TX_FINAL.find(([rx]) => rx.test(a.description.trim()));
+      const k = `${a.bill_id} ${a.date.slice(0, 10)}`;
+      if (hit && (!what.has(k) || rank(hit[1]) < rank(what.get(k)!))) what.set(k, hit[1]); // conference report first
+    }
+    // The file isn't in time order, but each roll call links the House Journal day it's printed in
+    // ("...89C2DAY09CFINAL.HTM", then "...89C2DAY10FINAL.HTM"), and those sort in order.
+    const journal = new Map(csv("vote_sources").map((r) => [r.vote_event_id, r.url]));
+    const last = new Map<string, { id: string; at: string }>(); // bill + day -> the day's last roll call
+    for (const v of csv("votes")) {
+      if (!isLower(v)) continue;
+      const k = `${v.bill_id} ${v.start_date.slice(0, 10)}`;
+      const at = journal.get(v.id) ?? "";
+      if (!last.has(k) || at >= last.get(k)!.at) last.set(k, { id: v.id, at });
+    }
+    return new Map([...last].filter(([k]) => what.has(k)).map(([k, { id }]) => [id, what.get(k)!]));
+  },
+  referral: (d) => {
+    const m = d.match(/^Referred to (.+)$/);
+    if (!m) return null;
+    const name = m[1].replace(/^s\/c on (.+) by (Speaker|chair)$/, "$1").trim();
+    return TX_PLAIN[name] ?? name.replace(/ & /g, " and ").replace(/, & /g, ", and ");
+  },
+  skip: ["Appropriations", "Finance", "Local and Consent Calendars", "Administration", "House Administration"],
+  source: { label: "Texas Legislature Online", url: "https://capitol.texas.gov" },
+  votesFrom: "2025-01-01", // Open States' 2023 Texas files have no votes
+  // The House Journal marks some absences "excused" (approved by the House), but the vote files don't.
+  attendanceNote: "Some of these may be excused absences, approved by the House ahead of time. The vote records we use don't say which.",
+};
+
 async function bulkSession(code: string, rules: StateRules, s: any, people: string[], cacheDir: string): Promise<BulkSession | null> {
   const file = path.join(cacheDir, `${code}-votes-${s.identifier}.json`);
   const today = new Date().toISOString().slice(0, 10);
@@ -706,9 +770,11 @@ async function bulkSession(code: string, rules: StateRules, s: any, people: stri
   const voters: Record<string, number> = {};
   for (const r of people_) voters[r.vote_event_id] = (voters[r.vote_event_id] ?? 0) + 1;
   const votes: Record<string, BulkVote> = {};
+  const final = rules.final?.(csv, orgs);
   for (const v of csv("votes")) {
     const org = orgs.get(v.organization_id);
     if (!rules.isFloor(v, voters[v.id] ?? 0, org?.classification ?? "")) continue;
+    if (final && !final.has(v.id)) continue;
     const b = bills.get(v.bill_id);
     if (!b || !JSON.parse(b.classification.replace(/'/g, '"')).includes("bill")) continue;
     const topic = committee.get(v.bill_id);
@@ -720,7 +786,7 @@ async function bulkSession(code: string, rules: StateRules, s: any, people: stri
       topics: [topic ?? "Other"],
       url: sources.get(v.bill_id) ?? "",
       result: v.result,
-      what: rules.what(v),
+      what: final?.get(v.id) ?? rules.what(v),
     };
   }
   const want = new Set(people);
@@ -731,7 +797,8 @@ async function bulkSession(code: string, rules: StateRules, s: any, people: stri
   return out;
 }
 
-async function bulkState(code: string, rules: StateRules, since: string, people: { id: string; openstates: string }[]) {
+async function bulkState(code: string, rules: StateRules, from: string, people: { id: string; openstates: string }[]) {
+  const since = rules.votesFrom && rules.votesFrom > from ? rules.votesFrom : from;
   const cacheDir = path.join(stateDir(code), "generated/cache");
   const today = new Date().toISOString().slice(0, 10);
   const ids = people.map((p) => p.openstates);
@@ -777,7 +844,7 @@ async function bulkState(code: string, rules: StateRules, since: string, people:
 }
 
 /** Which states use the shared bulk-file reader, and with which rules. */
-const BULK_STATES: Record<string, StateRules> = { ny: NEW_YORK, ca: CALIFORNIA };
+const BULK_STATES: Record<string, StateRules> = { ny: NEW_YORK, ca: CALIFORNIA, tx: TEXAS };
 
 /** One line per bill and per person, so nightly changes show up as small diffs. */
 function writeVotes(file: string, d: VotesFile): boolean {

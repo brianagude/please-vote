@@ -15,7 +15,7 @@ let failed = 0;
 const browser = await chromium.launch();
 try {
   // The guide, plus person pages: a member of Congress, and a state lawmaker.
-  for (const path of ["", "ny/", "ca/", "directory/", "404.html", "person/lucy-mcbath/", "person/jasmine-clark/", "person/alexandria-ocasio-cortez/", "person/scott-wiener/"])
+  for (const path of ["", "ny/", "ca/", "tx/", "directory/", "404.html", "person/lucy-mcbath/", "person/jasmine-clark/", "person/alexandria-ocasio-cortez/", "person/scott-wiener/", "person/james-talarico/"])
   for (const width of [1100, 360]) {
     const ctx = await browser.newContext({ viewport: { width, height: 900 } });
     const page = await ctx.newPage();

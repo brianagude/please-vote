@@ -1,0 +1,1522 @@
+{
+  "statewide": {
+    "ag": {
+      "candidates": [
+        {
+          "id": "mayes-middleton",
+          "name": "Mayes Middleton",
+          "party": "Republican",
+          "links": {},
+          "bio": {
+            "text": "Texas state senator since 2023. Before that, a state representative.",
+            "source": {
+              "label": "Texas Senate: member page",
+              "url": "https://senate.texas.gov/member.php?d=11"
+            }
+          },
+          "ids": {
+            "wikipedia": "Mayes Middleton",
+            "openstates": "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf"
+          }
+        },
+        {
+          "id": "nathan-johnson",
+          "name": "Nathan Johnson",
+          "party": "Democrat",
+          "links": {},
+          "bio": {
+            "text": "Texas state senator since 2019.",
+            "source": {
+              "label": "Texas Senate: member page",
+              "url": "https://senate.texas.gov/member.php?d=16"
+            }
+          },
+          "ids": {
+            "wikipedia": "Nathan M. Johnson",
+            "openstates": "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f"
+          }
+        },
+        {
+          "id": "tom-oxford",
+          "name": "Tom Oxford",
+          "party": "Libertarian",
+          "links": {}
+        }
+      ]
+    },
+    "agr": {
+      "candidates": [
+        {
+          "id": "nate-sheets",
+          "name": "Nate Sheets",
+          "party": "Republican",
+          "links": {}
+        },
+        {
+          "id": "clayton-tucker",
+          "name": "Clayton Tucker",
+          "party": "Democrat",
+          "links": {}
+        },
+        {
+          "id": "austin-r-kelly",
+          "name": "Austin R. Kelly",
+          "party": "Libertarian",
+          "links": {}
+        }
+      ]
+    },
+    "comptroller": {
+      "candidates": [
+        {
+          "id": "don-huffines",
+          "name": "Don Huffines",
+          "party": "Republican",
+          "links": {},
+          "bio": {
+            "text": "Texas comptroller since August 2026, appointed by the governor. Before that, a state senator.",
+            "source": {
+              "label": "Texas Comptroller of Public Accounts: news release, Aug. 1, 2026",
+              "url": "https://comptroller.texas.gov/about/media-center/news/20260801-don-huffines-sworn-in-as-texas-comptroller-refuses-salary-calls-for-property-tax-relief-1785512488796"
+            }
+          },
+          "incumbent": true,
+          "ids": {
+            "wikipedia": "Don Huffines"
+          }
+        },
+        {
+          "id": "sarah-eckhardt",
+          "name": "Sarah Eckhardt",
+          "party": "Democrat",
+          "links": {},
+          "bio": {
+            "text": "Texas state senator since 2020. Before that, Travis County judge, the county's top elected official.",
+            "source": {
+              "label": "Texas Senate: member page",
+              "url": "https://senate.texas.gov/member.php?d=14"
+            }
+          },
+          "ids": {
+            "wikipedia": "Sarah Eckhardt",
+            "openstates": "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0"
+          }
+        },
+        {
+          "id": "v-alonzo-echavarria-garza",
+          "name": "V. Alonzo Echavarria-Garza",
+          "party": "Libertarian",
+          "links": {}
+        },
+        {
+          "id": "shehla-faizi",
+          "name": "Shehla Faizi",
+          "party": "Green",
+          "links": {}
+        }
+      ]
+    },
+    "governor": {
+      "candidates": [
+        {
+          "id": "greg-abbott",
+          "name": "Greg Abbott",
+          "party": "Republican",
+          "links": {},
+          "bio": {
+            "text": "Governor of Texas, first elected in 2014. Before that, Texas attorney general.",
+            "source": {
+              "label": "Office of the Texas Governor",
+              "url": "https://gov.texas.gov/governor-abbott"
+            }
+          },
+          "incumbent": true,
+          "ids": {
+            "wikipedia": "Greg Abbott"
+          }
+        },
+        {
+          "id": "gina-hinojosa",
+          "name": "Gina Hinojosa",
+          "party": "Democrat",
+          "links": {},
+          "bio": {
+            "text": "Texas state representative, first elected in 2016, and a civil rights and labor lawyer.",
+            "source": {
+              "label": "Texas House of Representatives: member biography",
+              "url": "https://house.texas.gov/members/3210/biography"
+            }
+          },
+          "ids": {
+            "wikipedia": "Gina Hinojosa",
+            "openstates": "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49"
+          }
+        },
+        {
+          "id": "pat-dixon",
+          "name": "Pat Dixon",
+          "party": "Libertarian",
+          "links": {}
+        }
+      ]
+    },
+    "land": {
+      "candidates": [
+        {
+          "id": "dawn-buckingham",
+          "name": "Dawn Buckingham",
+          "party": "Republican",
+          "links": {},
+          "bio": {
+            "text": "Texas land commissioner since 2023, the first woman to hold the job.",
+            "source": {
+              "label": "Texas General Land Office: news release, Jan. 10, 2023",
+              "url": "https://www.glo.texas.gov/es/node/16946"
+            }
+          },
+          "incumbent": true,
+          "ids": {
+            "wikipedia": "Dawn Buckingham"
+          }
+        },
+        {
+          "id": "benjamin-flores",
+          "name": "Benjamin Flores",
+          "party": "Democrat",
+          "links": {}
+        },
+        {
+          "id": "neill-snider",
+          "name": "Neill Snider",
+          "party": "Libertarian",
+          "links": {}
+        }
+      ]
+    },
+    "ltgov": {
+      "candidates": [
+        {
+          "id": "dan-patrick",
+          "name": "Dan Patrick",
+          "party": "Republican",
+          "links": {},
+          "bio": {
+            "text": "Lieutenant governor of Texas, first elected in 2014. Before that, a state senator for 8 years.",
+            "source": {
+              "label": "Texas Senate: Lieutenant Governor Dan Patrick",
+              "url": "https://www.senate.texas.gov/ltgov.php"
+            }
+          },
+          "incumbent": true,
+          "ids": {
+            "wikipedia": "Dan Patrick (politician)"
+          }
+        },
+        {
+          "id": "vikki-goodwin",
+          "name": "Vikki Goodwin",
+          "party": "Democrat",
+          "links": {},
+          "bio": {
+            "text": "Texas state representative, first elected in 2018.",
+            "source": {
+              "label": "Texas House of Representatives: member biography",
+              "url": "https://house.texas.gov/members/3820/biography"
+            }
+          },
+          "ids": {
+            "wikipedia": "Vikki Goodwin",
+            "openstates": "ocd-person/25157308-7474-4600-8b83-173d79e16a21"
+          }
+        },
+        {
+          "id": "anthony-cristo",
+          "name": "Anthony Cristo",
+          "party": "Libertarian",
+          "links": {}
+        },
+        {
+          "id": "kevin-mccormick",
+          "name": "Kevin McCormick",
+          "party": "Green",
+          "links": {}
+        }
+      ]
+    },
+    "rrc": {
+      "candidates": [
+        {
+          "id": "bo-french",
+          "name": "Bo French",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "wikipedia": "Bo French"
+          }
+        },
+        {
+          "id": "jon-rosenthal",
+          "name": "Jon Rosenthal",
+          "party": "Democrat",
+          "links": {},
+          "bio": {
+            "text": "Texas state representative, first elected in 2018, and a mechanical engineer.",
+            "source": {
+              "label": "Texas House of Representatives: member biography",
+              "url": "https://house.texas.gov/members/3635/biography"
+            }
+          },
+          "ids": {
+            "wikipedia": "Jon Rosenthal",
+            "openstates": "ocd-person/ab211984-06a9-447c-9ded-564d200bee60"
+          }
+        },
+        {
+          "id": "arthur-dibianca",
+          "name": "Arthur DiBianca",
+          "party": "Libertarian",
+          "links": {}
+        }
+      ]
+    },
+    "senate": {
+      "candidates": [
+        {
+          "id": "ken-paxton",
+          "name": "Ken Paxton",
+          "party": "Republican",
+          "links": {},
+          "bio": {
+            "text": "Texas attorney general since 2015. Before that, a state representative and a state senator.",
+            "source": {
+              "label": "Office of the Texas Attorney General",
+              "url": "https://www.texasattorneygeneral.gov/about-office"
+            }
+          },
+          "ids": {
+            "fec": "S6TX00388",
+            "wikipedia": "Ken Paxton"
+          }
+        },
+        {
+          "id": "james-talarico",
+          "name": "James Talarico",
+          "party": "Democrat",
+          "links": {},
+          "bio": {
+            "text": "Texas state representative, first elected in 2018, and a former public school teacher.",
+            "source": {
+              "label": "Texas House of Representatives: member biography",
+              "url": "https://house.texas.gov/members/3685/biography"
+            }
+          },
+          "ids": {
+            "fec": "S6TX00479",
+            "wikipedia": "James Talarico",
+            "openstates": "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b"
+          }
+        },
+        {
+          "id": "ted-brown",
+          "name": "Ted Brown",
+          "party": "Libertarian",
+          "links": {},
+          "ids": {
+            "fec": "S4TX00888"
+          }
+        }
+      ]
+    }
+  },
+  "house": {
+    "1": {
+      "candidates": [
+        {
+          "id": "nathaniel-moran",
+          "name": "Nathaniel Moran",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001224"
+            }
+          },
+          "links": {
+            "official": "https://moran.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX01112",
+            "bioguide": "M001224"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "yolanda-r-prince",
+          "name": "Yolanda R. Prince",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX01352"
+          }
+        }
+      ]
+    },
+    "2": {
+      "candidates": [
+        {
+          "id": "steve-toth",
+          "name": "Steve Toth",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX08175",
+            "wikipedia": "Steve Toth",
+            "openstates": "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+          }
+        },
+        {
+          "id": "shaun-finnie",
+          "name": "Shaun Finnie",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX02251"
+          }
+        }
+      ]
+    },
+    "3": {
+      "candidates": [
+        {
+          "id": "keith-self",
+          "name": "Keith Self",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/S001224"
+            }
+          },
+          "links": {
+            "official": "https://keithself.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX00064",
+            "bioguide": "S001224"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "evan-hunt",
+          "name": "Evan Hunt",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX03234"
+          }
+        }
+      ]
+    },
+    "4": {
+      "candidates": [
+        {
+          "id": "pat-fallon",
+          "name": "Pat Fallon",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/F000246"
+            }
+          },
+          "links": {
+            "official": "https://fallon.house.gov"
+          },
+          "ids": {
+            "fec": "H0TX04219",
+            "bioguide": "F000246"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "jason-pearce",
+          "name": "Jason Pearce",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX04174"
+          }
+        }
+      ]
+    },
+    "5": {
+      "candidates": [
+        {
+          "id": "lance-gooden",
+          "name": "Lance Gooden",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000589"
+            }
+          },
+          "links": {
+            "official": "https://gooden.house.gov"
+          },
+          "ids": {
+            "fec": "H8TX05144",
+            "bioguide": "G000589"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "chelsey-hockett",
+          "name": "Chelsey Hockett",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX05189"
+          }
+        }
+      ]
+    },
+    "6": {
+      "candidates": [
+        {
+          "id": "jake-ellzey",
+          "name": "Jake Ellzey",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/E000071"
+            }
+          },
+          "links": {
+            "official": "https://ellzey.house.gov"
+          },
+          "ids": {
+            "fec": "H8TX06266",
+            "bioguide": "E000071"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "danny-minton",
+          "name": "Danny Minton",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX25203"
+          }
+        }
+      ]
+    },
+    "7": {
+      "candidates": [
+        {
+          "id": "alexander-hale",
+          "name": "Alexander Hale",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX07151"
+          }
+        },
+        {
+          "id": "lizzie-fletcher",
+          "name": "Lizzie Fletcher",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/F000468"
+            }
+          },
+          "links": {
+            "official": "https://fletcher.house.gov"
+          },
+          "ids": {
+            "fec": "H8TX07140",
+            "bioguide": "F000468"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "espoir-ngabo",
+          "name": "Espoir Ngabo",
+          "party": "Green",
+          "links": {},
+          "ids": {
+            "fec": "H6TX07177"
+          }
+        }
+      ]
+    },
+    "8": {
+      "candidates": [
+        {
+          "id": "jessica-hart-steinmann",
+          "name": "Jessica Hart Steinmann",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX08209"
+          }
+        },
+        {
+          "id": "laura-jones",
+          "name": "Laura Jones",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H0TX08145"
+          }
+        }
+      ]
+    },
+    "9": {
+      "candidates": [
+        {
+          "id": "alex-mealer",
+          "name": "Alex Mealer",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX09140"
+          }
+        },
+        {
+          "id": "leticia-gutierrez",
+          "name": "Leticia Gutierrez",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX09231"
+          }
+        }
+      ]
+    },
+    "10": {
+      "candidates": [
+        {
+          "id": "chris-gober",
+          "name": "Chris Gober",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX10221"
+          }
+        },
+        {
+          "id": "caitlin-rourk",
+          "name": "Caitlin Rourk",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX31102"
+          }
+        }
+      ]
+    },
+    "11": {
+      "candidates": [
+        {
+          "id": "august-pfluger",
+          "name": "August Pfluger",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/P000048"
+            }
+          },
+          "links": {
+            "official": "https://pfluger.house.gov"
+          },
+          "ids": {
+            "fec": "H0TX11230",
+            "bioguide": "P000048"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "claire-reynolds",
+          "name": "Claire Reynolds",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX11112"
+          }
+        }
+      ]
+    },
+    "12": {
+      "candidates": [
+        {
+          "id": "craig-a-goldman",
+          "name": "Craig A. Goldman",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000601"
+            }
+          },
+          "links": {
+            "official": "https://craiggoldman.house.gov"
+          },
+          "ids": {
+            "fec": "H4TX12065",
+            "bioguide": "G000601"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "angela-heli-rodriguez-prilliman",
+          "name": "Angela \"Heli\" Rodriguez Prilliman",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX12169"
+          }
+        }
+      ]
+    },
+    "13": {
+      "candidates": [
+        {
+          "id": "ronny-jackson",
+          "name": "Ronny Jackson",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/J000304"
+            }
+          },
+          "links": {
+            "official": "https://jackson.house.gov"
+          },
+          "ids": {
+            "fec": "H0TX13228",
+            "bioguide": "J000304"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "mark-nair",
+          "name": "Mark Nair",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX13159"
+          }
+        }
+      ]
+    },
+    "14": {
+      "candidates": [
+        {
+          "id": "randy-k-weber-sr",
+          "name": "Randy K. Weber, Sr.",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/W000814"
+            }
+          },
+          "links": {
+            "official": "https://weber.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX14149",
+            "bioguide": "W000814"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "thurman-bill-bartie",
+          "name": "Thurman Bill Bartie",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX14181"
+          }
+        }
+      ]
+    },
+    "15": {
+      "candidates": [
+        {
+          "id": "monica-de-la-cruz",
+          "name": "Monica De La Cruz",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2023.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/D000594"
+            }
+          },
+          "links": {
+            "official": "https://delacruz.house.gov"
+          },
+          "ids": {
+            "fec": "H0TX15124",
+            "bioguide": "D000594"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "bobby-pulido",
+          "name": "Bobby Pulido",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX15246",
+            "wikipedia": "Bobby Pulido"
+          }
+        }
+      ]
+    },
+    "16": {
+      "candidates": [
+        {
+          "id": "adam-bauman",
+          "name": "Adam Bauman",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX16152"
+          }
+        },
+        {
+          "id": "veronica-escobar",
+          "name": "Veronica Escobar",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/E000299"
+            }
+          },
+          "links": {
+            "official": "https://escobar.house.gov"
+          },
+          "ids": {
+            "fec": "H8TX16109",
+            "bioguide": "E000299"
+          },
+          "incumbent": true
+        }
+      ]
+    },
+    "17": {
+      "candidates": [
+        {
+          "id": "pete-sessions",
+          "name": "Pete Sessions",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/S000250"
+            }
+          },
+          "links": {
+            "official": "https://sessions.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX03126",
+            "bioguide": "S000250"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "casey-shepard",
+          "name": "Casey Shepard",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX17168"
+          }
+        }
+      ]
+    },
+    "18": {
+      "candidates": [
+        {
+          "id": "ronald-dwayne-whitfield",
+          "name": "Ronald Dwayne Whitfield",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX18497"
+          }
+        },
+        {
+          "id": "christian-d-menefee",
+          "name": "Christian D. Menefee",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/M001245"
+            }
+          },
+          "links": {
+            "official": "https://menefee.house.gov"
+          },
+          "ids": {
+            "fec": "H6TX18232",
+            "bioguide": "M001245"
+          },
+          "incumbent": true
+        }
+      ]
+    },
+    "19": {
+      "candidates": [
+        {
+          "id": "tom-sell",
+          "name": "Tom Sell",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX19206"
+          }
+        },
+        {
+          "id": "kyle-rable",
+          "name": "Kyle Rable",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX19198"
+          }
+        }
+      ]
+    },
+    "20": {
+      "candidates": [
+        {
+          "id": "edgardo-rafael-baez",
+          "name": "Edgardo Rafael Baez",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX20113"
+          }
+        },
+        {
+          "id": "joaquin-castro",
+          "name": "Joaquin Castro",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001091"
+            }
+          },
+          "links": {
+            "official": "https://castro.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX35011",
+            "bioguide": "C001091"
+          },
+          "incumbent": true
+        }
+      ]
+    },
+    "21": {
+      "candidates": [
+        {
+          "id": "mark-teixeira",
+          "name": "Mark Teixeira",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX21301",
+            "wikipedia": "Mark Teixeira"
+          }
+        },
+        {
+          "id": "kristin-hook",
+          "name": "Kristin Hook",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H4TX21108"
+          }
+        }
+      ]
+    },
+    "22": {
+      "candidates": [
+        {
+          "id": "trever-nehls",
+          "name": "Trever Nehls",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX22283"
+          }
+        },
+        {
+          "id": "marquette-greene-scott",
+          "name": "Marquette Greene-Scott",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H4TX22197"
+          }
+        }
+      ]
+    },
+    "23": {
+      "candidates": [
+        {
+          "id": "brandon-herrera",
+          "name": "Brandon Herrera",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H4TX23120",
+            "wikipedia": "Brandon Herrera"
+          }
+        },
+        {
+          "id": "katy-padilla-stout",
+          "name": "Katy Padilla Stout",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX23273"
+          }
+        },
+        {
+          "id": "ben-mendoza",
+          "name": "Ben Mendoza",
+          "party": "Independent",
+          "links": {},
+          "ids": {
+            "fec": "H6TX16111"
+          }
+        }
+      ]
+    },
+    "24": {
+      "candidates": [
+        {
+          "id": "beth-van-duyne",
+          "name": "Beth Van Duyne",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2021.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/V000134"
+            }
+          },
+          "links": {
+            "official": "https://vanduyne.house.gov"
+          },
+          "ids": {
+            "fec": "H0TX24209",
+            "bioguide": "V000134"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "kevin-burge",
+          "name": "Kevin Burge",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX24172"
+          }
+        }
+      ]
+    },
+    "25": {
+      "candidates": [
+        {
+          "id": "roger-williams",
+          "name": "Roger Williams",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2013.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/W000816"
+            }
+          },
+          "links": {
+            "official": "https://williams.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX33040",
+            "bioguide": "W000816"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "dione-sims",
+          "name": "Dione Sims",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX25237"
+          }
+        }
+      ]
+    },
+    "26": {
+      "candidates": [
+        {
+          "id": "brandon-gill",
+          "name": "Brandon Gill",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2025.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000603"
+            }
+          },
+          "links": {
+            "official": "https://gill.house.gov"
+          },
+          "ids": {
+            "fec": "H4TX26149",
+            "bioguide": "G000603"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "steven-shook",
+          "name": "Steven Shook",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX26144"
+          }
+        },
+        {
+          "id": "phil-gray",
+          "name": "Phil Gray",
+          "party": "Libertarian",
+          "links": {},
+          "ids": {
+            "fec": "H6TX01261"
+          }
+        }
+      ]
+    },
+    "27": {
+      "candidates": [
+        {
+          "id": "michael-cloud",
+          "name": "Michael Cloud",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2018.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001115"
+            }
+          },
+          "links": {
+            "official": "https://cloud.house.gov"
+          },
+          "ids": {
+            "fec": "H8TX27049",
+            "bioguide": "C001115"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "tanya-lloyd",
+          "name": "Tanya Lloyd",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H4TX27089"
+          }
+        }
+      ]
+    },
+    "28": {
+      "candidates": [
+        {
+          "id": "tano-e-tijerina",
+          "name": "Tano E. Tijerina",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX28124"
+          }
+        },
+        {
+          "id": "henry-cuellar",
+          "name": "Henry Cuellar",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2005.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001063"
+            }
+          },
+          "links": {
+            "official": "https://cuellar.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX23082",
+            "bioguide": "C001063"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "marlon-duran",
+          "name": "Marlón Durán",
+          "party": "Green",
+          "links": {},
+          "ids": {
+            "fec": "H6TX28108"
+          }
+        }
+      ]
+    },
+    "29": {
+      "candidates": [
+        {
+          "id": "martha-fierro",
+          "name": "Martha Fierro",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX29122"
+          }
+        },
+        {
+          "id": "sylvia-r-garcia",
+          "name": "Sylvia R. Garcia",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2019.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000587"
+            }
+          },
+          "links": {
+            "official": "https://sylviagarcia.house.gov"
+          },
+          "ids": {
+            "fec": "H8TX29052",
+            "bioguide": "G000587"
+          },
+          "incumbent": true
+        }
+      ]
+    },
+    "30": {
+      "candidates": [
+        {
+          "id": "everett-jackson",
+          "name": "Everett Jackson",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX30211"
+          }
+        },
+        {
+          "id": "frederick-d-haynes-iii",
+          "name": "Frederick D. Haynes III",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX30245"
+          }
+        }
+      ]
+    },
+    "31": {
+      "candidates": [
+        {
+          "id": "john-r-carter",
+          "name": "John R. Carter",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2003.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001051"
+            }
+          },
+          "links": {
+            "official": "https://carter.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX31044",
+            "bioguide": "C001051"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "justin-early",
+          "name": "Justin Early",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX31094"
+          }
+        },
+        {
+          "id": "greg-stoker",
+          "name": "Greg Stoker",
+          "party": "Green",
+          "links": {},
+          "ids": {
+            "fec": "H6TX31169"
+          }
+        }
+      ]
+    },
+    "32": {
+      "candidates": [
+        {
+          "id": "jace-yarbrough",
+          "name": "Jace Yarbrough",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX32225"
+          }
+        },
+        {
+          "id": "dan-barrios",
+          "name": "Dan Barrios",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX32217"
+          }
+        }
+      ]
+    },
+    "33": {
+      "candidates": [
+        {
+          "id": "patrick-david-gillespie",
+          "name": "Patrick David Gillespie",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H2TX33248"
+          }
+        },
+        {
+          "id": "colin-allred",
+          "name": "Colin Allred",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H8TX32098",
+            "wikipedia": "Colin Allred"
+          }
+        }
+      ]
+    },
+    "34": {
+      "candidates": [
+        {
+          "id": "eric-flores",
+          "name": "Eric Flores",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX34080"
+          }
+        },
+        {
+          "id": "vicente-gonzalez",
+          "name": "Vicente Gonzalez",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2017.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/G000581"
+            }
+          },
+          "links": {
+            "official": "https://gonzalez.house.gov"
+          },
+          "ids": {
+            "fec": "H6TX15162",
+            "bioguide": "G000581"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "chris-royal",
+          "name": "Chris Royal",
+          "party": "Libertarian",
+          "links": {},
+          "ids": {
+            "fec": "H0TX34059"
+          }
+        },
+        {
+          "id": "eddie-espinoza",
+          "name": "Eddie Espinoza",
+          "party": "Green",
+          "links": {},
+          "ids": {
+            "fec": "H6TX34106"
+          }
+        }
+      ]
+    },
+    "35": {
+      "candidates": [
+        {
+          "id": "carlos-de-la-cruz",
+          "name": "Carlos De La Cruz",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX35087"
+          }
+        },
+        {
+          "id": "johnny-c-garcia",
+          "name": "Johnny C. Garcia",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H6TX35095"
+          }
+        }
+      ]
+    },
+    "36": {
+      "candidates": [
+        {
+          "id": "brian-babin",
+          "name": "Brian Babin",
+          "party": "Republican",
+          "bio": {
+            "text": "U.S. representative since 2015.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/B001291"
+            }
+          },
+          "links": {
+            "official": "https://babin.house.gov"
+          },
+          "ids": {
+            "fec": "H6TX02079",
+            "bioguide": "B001291"
+          },
+          "incumbent": true
+        },
+        {
+          "id": "rhonda-hart",
+          "name": "Rhonda Hart",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H4TX14111"
+          }
+        }
+      ]
+    },
+    "37": {
+      "candidates": [
+        {
+          "id": "lauren-b-pena",
+          "name": "Lauren B. Peña",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX35038"
+          }
+        },
+        {
+          "id": "greg-casar",
+          "name": "Greg Casar",
+          "party": "Democrat",
+          "bio": {
+            "text": "U.S. representative since 2023. Represents District 35 now; the district lines changed for 2026.",
+            "source": {
+              "label": "Congress.gov member profile",
+              "url": "https://bioguide.congress.gov/search/bio/C001131"
+            }
+          },
+          "links": {
+            "official": "https://casar.house.gov"
+          },
+          "ids": {
+            "fec": "H2TX35144",
+            "bioguide": "C001131"
+          },
+          "incumbent": true
+        }
+      ]
+    },
+    "38": {
+      "candidates": [
+        {
+          "id": "jon-bonck",
+          "name": "Jon Bonck",
+          "party": "Republican",
+          "links": {},
+          "ids": {
+            "fec": "H6TX02244"
+          }
+        },
+        {
+          "id": "melissa-mcdonough",
+          "name": "Melissa McDonough",
+          "party": "Democrat",
+          "links": {},
+          "ids": {
+            "fec": "H4TX38011"
+          }
+        },
+        {
+          "id": "alex-mcmenemy",
+          "name": "Alex McMenemy",
+          "party": "Green",
+          "links": {},
+          "ids": {
+            "fec": "H6TX38123"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "asOf": "2026-10-17",
+  "timeZone": "America/Chicago",
+  "election": {
+    "kind": "General election",
+    "date": "2026-11-03",
+    "label": "Tuesday, Nov. 3, 2026",
+    "polls": "7 a.m. – 7 p.m."
+  },
+  "voterPage": "https://goelect.txelections.civixapps.com/ivis-mvp-ui/#/login",
+  "dates": [
+    {
+      "what": "Register",
+      "when": "Oct 5",
+      "start": "2026-10-05"
+    },
+    {
+      "what": "Early voting",
+      "when": "Oct 19–30",
+      "start": "2026-10-19",
+      "end": "2026-10-30",
+      "sub": "Places and hours vary by county."
+    },
+    {
+      "what": "Request a mail ballot",
+      "when": "By Oct 23",
+      "start": "2026-01-01",
+      "end": "2026-10-23",
+      "sub": "Only if you're 65 or older, have a disability, or will be out of your county. It must arrive by Oct 23."
+    },
+    {
+      "what": "Return your mail ballot",
+      "when": "By Nov 3",
+      "start": "2026-11-03",
+      "sub": "It must arrive by 7 p.m. Nov 3, or by 5 p.m. Nov 4 if it's postmarked by Nov 3."
+    },
+    {
+      "what": "Election day",
+      "when": "Nov 3",
+      "start": "2026-11-03",
+      "sub": "7 a.m. – 7 p.m."
+    }
+  ],
+  "districts": {
+    "house": {
+      "label": "U.S. House",
+      "count": 38
+    },
+    "upper": {
+      "label": "State Senate",
+      "count": 31,
+      "office": "sen"
+    },
+    "lower": {
+      "label": "State House",
+      "count": 150,
+      "office": "rep"
+    }
+  },
+  "groups": [
+    {
+      "id": "fed",
+      "title": "Federal",
+      "sub": "They make laws for the entire country.",
+      "races": [
+        "senate",
+        "@house"
+      ]
+    },
+    {
+      "id": "state",
+      "title": "State",
+      "sub": "They run Texas. Everyone in the state votes on these.",
+      "races": [
+        "governor",
+        "ltgov",
+        "ag",
+        "comptroller",
+        "land",
+        "agr",
+        "rrc"
+      ]
+    },
+    {
+      "id": "leg",
+      "title": "State lawmakers",
+      "sub": "They write Texas's laws. Your district decides who's on your ballot.",
+      "races": [
+        "@upper",
+        "@lower"
+      ]
+    }
+  ],
+  "footerNote": "If your address can't be matched, we fall back to ZIP code. ZIP codes can cross district lines, so double-check yours on your voter page.",
+  "records": {
+    "since": "2023-01-01",
+    "sinceLabel": "2023"
+  },
+  "notes": [
+    {
+      "title": "Bring a photo ID.",
+      "text": "Texas asks for one of seven kinds of photo ID at the polls, like a Texas driver's license or a U.S. passport. If you don't have one and can't reasonably get one, you can still vote: you'll sign a form at the polls saying why, and show a document like a utility bill or bank statement."
+    },
+    {
+      "title": "New U.S. House districts this year.",
+      "text": "Texas redrew its U.S. House districts for 2026, so your district number may have changed. The address lookup uses the new lines."
+    }
+  ]
+}

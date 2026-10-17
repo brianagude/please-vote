@@ -1,0 +1,226 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf",
+    "ocd-person/dee454b1-6da0-4b1b-a232-033e7de8551f",
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0",
+    "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21",
+    "ocd-person/ab211984-06a9-447c-9ded-564d200bee60",
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b",
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9"
+  ],
+  "by": {
+    "ocd-person/6c80914d-b07b-4d27-95e2-0e5aa2b0c7d9": [
+      {
+        "id": "HB 44",
+        "title": "Relating to a limitation on the rate of growth in state and local appropriations with the return of over-collected taxpayer money by reducing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB44",
+        "introduced": "2025-07-14",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 66",
+        "title": "Relating to abortion, including civil liability for distribution of abortion-inducing drugs and duties of Internet service providers; creating a criminal offense; authorizing a private civil right of action.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB66",
+        "introduced": "2025-07-14",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HJR 9",
+        "title": "Proposing a constitutional amendment concerning the limitation on the rate of growth in state and local appropriations with the return of over-collected taxpayer money by reducing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HJR9",
+        "introduced": "2025-07-14",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 41",
+        "title": "Relating to the repeal of or limitations on certain state and local taxes, including school district maintenance and operations ad valorem taxes, the enactment of state and local value added taxes, and related school finance reform; imposing taxes.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB41",
+        "introduced": "2025-07-14",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 39",
+        "title": "Relating to reducing school district maintenance and operations ad valorem taxes through the use of certain surplus state revenue.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB39",
+        "introduced": "2025-07-14",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 136",
+        "title": "Relating to creating a grant program administered by the Texas Division of Emergency Management.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB136",
+        "introduced": "2025-07-21",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/1399b6ba-cbfa-45ca-bf91-6ba89fe777bf": [
+      {
+        "id": "SB 73",
+        "title": "Relating to disclosures required to record an instrument conveying real property.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=SB73",
+        "introduced": "2025-08-07",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 62",
+        "title": "Relating to a vacancy in the office of senator or representative due to excessive absence.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=SB62",
+        "introduced": "2025-08-04",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 45",
+        "title": "Relating to the dedication of money received from the federal government as reimbursement for border security costs for ad valorem tax relief.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=SB45",
+        "introduced": "2025-07-23",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/25157308-7474-4600-8b83-173d79e16a21": [
+      {
+        "id": "HJR 26",
+        "title": "Proposing a constitutional amendment establishing the Texas Redistricting Commission to redistrict the Texas Legislature, Texas congressional districts, and State Board of Education districts and revising procedures for redistricting.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HJR26",
+        "introduced": "2025-07-24",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HJR 23",
+        "title": "Proposing a constitutional amendment to reserve to the people the powers of initiative and referendum.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HJR23",
+        "introduced": "2025-07-22",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HJR 24",
+        "title": "Proposing a constitutional amendment establishing an individual's right to personal reproductive autonomy.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HJR24",
+        "introduced": "2025-07-22",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 196",
+        "title": "Relating to the Texas Redistricting Commission.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB196",
+        "introduced": "2025-07-24",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 224",
+        "title": "Relating to emergency warning systems operated by municipalities and counties.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB224",
+        "introduced": "2025-07-29",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 223",
+        "title": "Relating to flood safety requirements for youth camps located near rivers, creeks, and streams.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB223",
+        "introduced": "2025-07-29",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 241",
+        "title": "Relating to the establishment by the Railroad Commission of Texas of a policy to eliminate the routine flaring of natural gas from wells or other facilities regulated by the commission.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB241",
+        "introduced": "2025-07-31",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/20cda9bf-a1e6-4427-8115-e5655ddd8eb0": [
+      {
+        "id": "SB 25",
+        "title": "Relating to emergency warning systems operated by municipalities and counties.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=SB25",
+        "introduced": "2025-07-16",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 51",
+        "title": "Relating to the regulation of abortion and related matters, including infant supportive palliative care and exceptions to and the repeal of certain laws prohibiting abortion.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=SB51",
+        "introduced": "2025-07-28",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ],
+    "ocd-person/5e4e2fd2-e8a9-46f3-aab5-ffbc782afa8b": [
+      {
+        "id": "HJR 28",
+        "title": "Proposing a constitutional amendment establishing the Independent Citizen Redistricting Commission to redistrict the Texas Legislature, Texas congressional districts, and State Board of Education districts and revising procedures for redistricting.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HJR28",
+        "introduced": "2025-07-29",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "HB 221",
+        "title": "Relating to the Independent Citizen Redistricting Commission and the redistricting of the districts used to elect members of the United States House of Representatives, the Texas Legislature, and the State Board of Education.",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=891&Bill=HB221",
+        "introduced": "2025-07-29",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      }
+    ]
+  }
+}

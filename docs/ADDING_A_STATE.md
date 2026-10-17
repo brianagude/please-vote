@@ -1,6 +1,6 @@
 # Adding a state
 
-How a new state goes from nothing to live, based on how New York was added (Oct 2026). Order on the roadmap: California, then Florida, Texas, Indiana, Illinois. After those, adding states pauses while the hub layout is built (see `docs/ROADMAP.md`).
+How a new state goes from nothing to live, based on how New York was added (Oct 2026). Order on the roadmap: California and Texas (done), then Florida, Indiana, Illinois. After those, adding states pauses while the hub layout is built (see `docs/ROADMAP.md`).
 
 **The short version:** the site and the nightly job already work for any state. A folder `data/states/<code>/` with a `state.json` in it is all it takes for the state to appear in the state picker, get its own page at `/<code>/`, and be included in the nightly job. Most of the work is gathering and checking the data.
 
@@ -32,7 +32,10 @@ Copy New York's files as a starting point (`data/states/ny/`). Every date and ho
 - Download the certified candidate list into `data/states/<code>/sources/`. That folder isn't kept in the repo (the site doesn't use it), so record the download link in `sources.json` and `docs/DATA_SOURCES.md`. Each state publishes it differently:
   - Georgia: an .xlsx from the Secretary of State, read by `pipeline/import-sos.ts`.
   - New York: a PDF from the State Board of Elections. `scripts/ny-certification.py` turns it into `certification.json`, and `pipeline/import-ny.ts` turns that into `races.json`.
-- A new state usually needs its own short import script (`pipeline/import-<code>.ts`). It must keep anything added by hand (bios, links, photos) when it runs again.
+  - California: a PDF, read by `scripts/ca-certification.py`, then `pipeline/import-ca.ts`.
+  - Texas: a PDF listed county by county, in capital letters, read by `scripts/tx-certification.py` (with the statewide sample ballot for normal-case names), then `pipeline/import-tx.ts`.
+- A new state usually needs its own short import script (`pipeline/import-<code>.ts`). It must keep anything added by hand (bios, links, photos) when it runs again. The parts every state shares (matching members of Congress, FEC IDs, state legislators, House members' one-line bios, writing the files, the summary it prints) are in `pipeline/importlib.ts`, so a state's script only reads its own list. See `import-tx.ts` for a short example.
+- If the list doesn't mark incumbents (Texas doesn't), they come from Congress's records, the Open States roster, and each statewide office's own website.
 - For each candidate: party, incumbent or not, running mate if any, and FEC ID (for federal races).
 - Bios: short, plain, with a source for every line. If a fact has no source, leave it out.
 - List candidates alphabetically by last name. No party colors.
@@ -49,7 +52,7 @@ This runs every nightly step for just that state: members of Congress, state leg
 
 Every state has some. Places in the code that handle one state specially:
 
-- **State legislature votes:** `pipeline/votes.ts` reads Open States bulk files with one shared reader. A new state adds a small set of rules to `BULK_STATES` (how to tell floor votes from committee votes, how its committee referrals are written, plain names for committee abbreviations). See New York's and California's rules there. Georgia has its own reader because it also uses the General Assembly's vote service.
+- **State legislature votes:** `pipeline/votes.ts` reads Open States bulk files with one shared reader. A new state adds a small set of rules to `BULK_STATES` (how to tell floor votes from committee votes, how its committee referrals are written, plain names for committee abbreviations). See New York's, California's, and Texas's rules there. If a state's vote labels don't say which vote was final (Texas calls every roll call "passage"), its rules can pick the final ones from the bill's actions (`final`). If its files start later than the guide's start date, say so with `votesFrom`, and the person page shows the real start year. Georgia has its own reader because it also uses the General Assembly's vote service.
 - **Bills:** `pipeline/bills.ts` has Georgia-only fixes (sponsor order and vetoes from the General Assembly). Check a new state's bills against its legislature's website for author order, passage, vetoes, and laws.
 - **State campaign money:** New York's comes from data.ny.gov (`pipeline/nymoney.ts`). Georgia publishes nothing usable, so it's skipped. Check whether the new state has a free, official download.
 - **Statewide ballot questions:** check the wording against a sample ballot.

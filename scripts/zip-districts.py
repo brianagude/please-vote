@@ -8,6 +8,8 @@ used when an address can't be matched. Georgia and New York use a ready-made lis
   1. The new map as a block equivalency file: every Census block and its district.
      California's is AB 604 from the Statewide Database:
      https://statewidedatabase.org/pub/data/d25/AB604.zip
+     Texas's is PLANC2333 from the Texas Legislative Council (planc2333_blk.zip):
+     https://data.capitol.texas.gov/dataset/planc2333
   2. The Census Bureau's ZIP-to-block list (about 1 GB; read as it downloads, not saved):
      https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_tabblock20_natl.txt
 
@@ -25,7 +27,7 @@ import sys
 import urllib.request
 from collections import defaultdict
 
-FIPS = {"ca": "06"}
+FIPS = {"ca": "06", "tx": "48"}
 CENSUS = "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_tabblock20_natl.txt"
 
 state, bef = sys.argv[1], sys.argv[2]

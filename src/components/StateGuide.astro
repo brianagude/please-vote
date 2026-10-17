@@ -111,6 +111,11 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
                                   ))}
                                 </ul>
                                 {running.length === 1 && <p class="rnote">This person is running unopposed.</p>}
+                                {L.running.notes?.[ch.k]?.[n] && (
+                                  <p class="rnote">
+                                    {L.running.notes[ch.k]![n].text} <a class="src" href={L.running.notes[ch.k]![n].source.url} target="_blank" rel="noopener">Source: {L.running.notes[ch.k]![n].source.label}</a>
+                                  </p>
+                                )}
                                 <a class="src" href={L.running.source.url} target="_blank" rel="noopener">Candidate list: {L.running.source.label}</a>
                               </>
                             )}

@@ -11,12 +11,12 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 
 ### Before Nov 3, 2026 (election day)
 
-- [ ] **Merge `california`.** Claude finished it on Oct 17. Open the pull request, wait for the green check, and merge (squash). Then make a new `florida` branch from main for the next state. California's missing photos can come later; they don't block the merge.
+- [ ] **Merge `Texas`.** Claude finished it on Oct 17. Commit, open the pull request, wait for the green check, and merge (squash). Then make a new `florida` branch from main for the next state. Texas's missing photos can come later; they don't block the merge.
 - [ ] **Photos** (see the list below), as many as you can before people use the guides.
 
 ### Nov 4, 2026: the day after the election
 
-- [ ] **Look at each guide** (Georgia `/`, New York `/ny/`, California `/ca/`). The countdown should say "Done / Thanks for voting". Everything else stays up for now.
+- [ ] **Look at each guide** (Georgia `/`, New York `/ny/`, California `/ca/`, Texas `/tx/`). The countdown should say "Done / Thanks for voting". Everything else stays up for now.
 - [ ] **Georgia runoff:** check whether any Georgia race goes to a Dec 1 runoff (the Secretary of State posts results at https://results.sos.ga.gov). Then decide if the site covers it, and tell Claude.
 
 ### Nov 20, 2026: Georgia certifies its results
@@ -50,7 +50,7 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 
 ## Now
 
-- [ ] **Photos: 55 people.** Drag the image files into the chat, with the person's name and the page each one came from. Claude crops and adds them.
+- [ ] **Photos: 124 people** (55 from New York and California, 69 from Texas). Drag the image files into the chat, with the person's name and the page each one came from. Claude crops and adds them.
   - **New York (1):**
     - NY-10 Jennifer E. Moore (you couldn't find one yet)
   - **California, statewide (8):**
@@ -107,7 +107,78 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
     - CA-50 Steve Cohen
     - CA-51 Ricardo Cabrera
     - CA-52 Jeff Belle
-  - Florida, Texas, Indiana, and Illinois will be added here as each state goes in.
+  - Texas, statewide (15):
+    - Attorney General: Nathan Johnson
+    - Attorney General: Tom Oxford
+    - Agriculture Commissioner: Nate Sheets
+    - Agriculture Commissioner: Clayton Tucker
+    - Agriculture Commissioner: Austin R. Kelly
+    - Comptroller: V. Alonzo Echavarria-Garza
+    - Comptroller: Shehla Faizi
+    - Governor: Pat Dixon
+    - Land Commissioner: Benjamin Flores
+    - Land Commissioner: Neill Snider
+    - Lieutenant Governor: Anthony Cristo
+    - Lieutenant Governor: Kevin McCormick
+    - Railroad Commissioner: Bo French
+    - Railroad Commissioner: Arthur DiBianca
+    - U.S. Senate: Ted Brown
+  - Texas, U.S. House (54):
+    - TX-1 Yolanda R. Prince
+    - TX-2 Shaun Finnie
+    - TX-3 Evan Hunt
+    - TX-4 Jason Pearce
+    - TX-5 Chelsey Hockett
+    - TX-6 Danny Minton
+    - TX-7 Alexander Hale
+    - TX-7 Espoir Ngabo
+    - TX-8 Jessica Hart Steinmann
+    - TX-8 Laura Jones
+    - TX-9 Alex Mealer
+    - TX-9 Leticia Gutierrez
+    - TX-10 Chris Gober
+    - TX-10 Caitlin Rourk
+    - TX-11 Claire Reynolds
+    - TX-12 Angela "Heli" Rodriguez Prilliman
+    - TX-13 Mark Nair
+    - TX-14 Thurman Bill Bartie
+    - TX-16 Adam Bauman
+    - TX-17 Casey Shepard
+    - TX-18 Ronald Dwayne Whitfield
+    - TX-19 Tom Sell
+    - TX-19 Kyle Rable
+    - TX-20 Edgardo Rafael Baez
+    - TX-21 Kristin Hook
+    - TX-22 Trever Nehls
+    - TX-22 Marquette Greene-Scott
+    - TX-23 Katy Padilla Stout
+    - TX-23 Ben Mendoza
+    - TX-24 Kevin Burge
+    - TX-25 Dione Sims
+    - TX-26 Steven Shook
+    - TX-26 Phil Gray
+    - TX-27 Tanya Lloyd
+    - TX-28 Tano E. Tijerina
+    - TX-28 Marlón Durán
+    - TX-29 Martha Fierro
+    - TX-30 Everett Jackson
+    - TX-30 Frederick D. Haynes III
+    - TX-31 Justin Early
+    - TX-31 Greg Stoker
+    - TX-32 Jace Yarbrough
+    - TX-32 Dan Barrios
+    - TX-33 Patrick David Gillespie
+    - TX-34 Eric Flores
+    - TX-34 Chris Royal
+    - TX-34 Eddie Espinoza
+    - TX-35 Carlos De La Cruz
+    - TX-35 Johnny C. Garcia
+    - TX-36 Rhonda Hart
+    - TX-37 Lauren B. Peña
+    - TX-38 Jon Bonck
+    - TX-38 Melissa McDonough
+    - TX-38 Alex McMenemy
+  - Florida, Indiana, and Illinois will be added here as each state goes in.
 - [ ] **Submit the sitemap** (https://vote.brianagude.com/sitemap.xml) to Google Search Console, so search engines find every page. Claude can walk you through it.
 - [ ] **Open States second key (optional).** If you want a separate key just for testing, check Open States' terms first. If it's allowed, put it in your own `.env.local` file and leave the nightly job's key alone.
 
@@ -123,6 +194,7 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 
 ## Done
 
+- [x] **California merged** (pull request #4, Oct 17).
 - [x] **Georgia photos:** every candidate has one (Oct 15).
 - [x] **New York photos:** all but Jennifer Moore (Oct 17).
 - [x] **Redesign decisions 1–7** answered (Oct 16).

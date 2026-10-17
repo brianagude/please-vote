@@ -1,0 +1,97 @@
+{
+  "senate": {
+    "title": "U.S. Senate",
+    "term": "6-year term",
+    "one": "Votes on national laws, approves federal judges and cabinet members, and approves treaties. Texas has two senators.",
+    "why": "One of only 100 votes on every law in the country.",
+    "also": []
+  },
+  "house": {
+    "title": "U.S. House",
+    "term": "2-year term",
+    "one": "Votes on national laws, and speaks for your district in Washington.",
+    "why": "Your closest voice in Washington, and you get to keep or replace them every two years.",
+    "also": []
+  },
+  "governor": {
+    "title": "Governor",
+    "term": "4-year term",
+    "one": "Runs the state, signs or vetoes every bill the legislature passes, and appoints many state officials and judges.",
+    "why": "Shapes how Texas handles schools, the border, the power grid, and state spending.",
+    "also": [
+      "Can veto single spending items out of the budget",
+      "Can call the legislature back for a special session"
+    ]
+  },
+  "ltgov": {
+    "title": "Lieutenant Governor",
+    "term": "4-year term",
+    "one": "Leads the Texas Senate: decides which senators sit on which committees and which bills come up for a vote.",
+    "why": "One of the most powerful jobs in Texas, because so much of what passes runs through the Senate.",
+    "also": [
+      "You vote for this office separately from governor",
+      "Takes over if the governor can't serve"
+    ]
+  },
+  "ag": {
+    "title": "Attorney General",
+    "term": "4-year term",
+    "one": "Texas's top lawyer. Represents the state in court and gives legal advice to state agencies.",
+    "why": "Goes after scams and companies that mislead customers, and collects child support.",
+    "also": [
+      "Brings lawsuits for the state against the federal government and companies"
+    ]
+  },
+  "comptroller": {
+    "title": "Comptroller of Public Accounts",
+    "term": "4-year term",
+    "one": "Texas's tax collector and accountant. Collects state taxes and pays the state's bills.",
+    "why": "Tells the legislature how much money it can spend, so it can't pass a budget bigger than that estimate.",
+    "also": [
+      "Returns lost or forgotten money (old bank accounts, uncashed checks) to its owners"
+    ]
+  },
+  "land": {
+    "title": "Commissioner of the General Land Office",
+    "term": "4-year term",
+    "one": "Manages the land and minerals the state owns. Money from it goes to Texas public schools.",
+    "why": "Also runs programs for veterans' land and home loans, cares for the coast, and manages the Alamo.",
+    "also": [
+      "Handles some disaster rebuilding money"
+    ]
+  },
+  "agr": {
+    "title": "Commissioner of Agriculture",
+    "term": "4-year term",
+    "one": "Runs the Texas Department of Agriculture, which supports farms and ranches and oversees school lunch programs.",
+    "why": "Also checks that gas pumps and store scales give you what you pay for.",
+    "also": [
+      "Oversees pesticide use"
+    ]
+  },
+  "rrc": {
+    "title": "Railroad Commissioner",
+    "term": "6-year term",
+    "one": "Despite the name, the Railroad Commission doesn't oversee railroads. It regulates Texas's oil and gas industry.",
+    "why": "Its rules cover drilling, pipelines, and natural gas utilities, which affect jobs, land, and energy prices.",
+    "also": [
+      "Three commissioners, one elected every two years"
+    ]
+  },
+  "sen": {
+    "title": "State Senate",
+    "term": "4-year term",
+    "one": "Writes Texas's laws and passes the state budget. There are 31 state senators.",
+    "why": "State laws cover schools, property taxes, criminal law, and voting rules.",
+    "also": [
+      "About half the seats are up in each election"
+    ]
+  },
+  "rep": {
+    "title": "State House",
+    "term": "2-year term",
+    "one": "The other half of the legislature. There are 150 state representatives, each with a smaller district than a senator's.",
+    "why": "Every bill has to pass here and in the State Senate before the governor can sign it.",
+    "also": []
+  }
+}
