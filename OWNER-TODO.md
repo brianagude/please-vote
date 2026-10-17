@@ -11,7 +11,7 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 
 ### Before Nov 3, 2026 (election day)
 
-- [ ] **Merge `Texas`.** Claude finished it on Oct 17. Commit, open the pull request, wait for the green check, and merge (squash). Then make a new `florida` branch from main for the next state. Texas's missing photos can come later; they don't block the merge.
+- [ ] **Merge `Texas`.** Claude finished it on Oct 17. Commit, open the pull request, wait for the green check, and merge (squash). Then make a new `person-pages` branch from main (person page changes come before Florida, see `docs/PERSON_PAGES.md`). Texas's missing photos can come later; they don't block the merge.
 - [ ] **Photos** (see the list below), as many as you can before people use the guides.
 
 ### Nov 4, 2026: the day after the election

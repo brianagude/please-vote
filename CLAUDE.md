@@ -15,6 +15,7 @@ This is a nonpartisan voter guide for people who don't usually vote. It covers G
 - `README.md`: how the site, address lookup, and nightly job fit together, and which file to edit for what.
 - `docs/ADDING_A_STATE.md`: the step-by-step workflow for adding a new state.
 - `docs/REDESIGN.md`: the plan for turning the site into a hub after the election, with the owner's decisions.
+- `docs/PERSON_PAGES.md`: the plan for giving everyone on the ballot a person page, with 20-row lists.
 - `docs/ROADMAP.md`: what's left and what's next (more states, a "how elections work" page, a glossary).
 
 ## Hard rules

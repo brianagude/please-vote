@@ -43,7 +43,7 @@ Question: Could the page layout be automated? like, if there is currently an ele
    - Run one state at a time (`npm run data -- bills --state ny`).
    - Test the data logic against small saved samples instead of live runs.
    - A GitHub check on every pull request: tests, build, and the accessibility check.
-5. **Replace Wikipedia-sourced facts** (owner, Oct 16: Wikipedia is fine for photos, never for facts). 45 bio and career lines in Georgia (13) and New York (32) cite Wikipedia. Re-source each from an official page, Congress.gov, a legislature site, a news outlet, or Ballotpedia, or remove it. Georgia's footer sources list also has 7 Wikipedia entries.
+5. **Wikipedia backgrounds stay, cited** (owner, Oct 17: Wikipedia is fine for background copy, never for official information like offices, dates, votes, or money). The 45 Wikipedia-cited bio and career lines in Georgia and New York stay. Replacing them with official sources is on the funding wish list (the donate section below).
 6. **California:** done and merged (pull request #4, Oct 17). Photos still to come.
 7. **Then four more states (owner, Oct 16): Florida, Texas, Indiana, Illinois.** Texas went first (owner, Oct 17) and is done on the `Texas` branch; Florida is next. Chosen because the owner knows people there who will use and share the site. One at a time, each with certified candidates, dates, bios, records, and photos (owner sends photos as each state goes), checked like New York and California.
 8. **Then pause adding states** and build the next phase of the site (the hub layout below, planned in `docs/REDESIGN.md`) on its own branch and pull request, after the election. New states after that are added into the hub. The other states wait until after the election.
@@ -54,7 +54,7 @@ Question: Could the page layout be automated? like, if there is currently an ele
 - **How elections work** page and the **glossary**.
 - **Clean up the git history** (with the new layout): squash main's older one-off commits into a few clear ones, so the history reads as one commit per finished piece of work plus the nightly refreshes. It overwrites main (a force push, which redeploys the live site), so do it after Nov 3, and only after any open branches are merged or restarted from the new main. Claude writes the steps; the owner runs them. From Oct 16 on, pull requests are squash-merged, so new history is already clean.
 - **Dec 1 runoff:** decide whether to cover it if any race goes to a runoff.
-- **A donate section** (once the hub is live): ask readers to help pay for the paid data, and say plainly what it buys: full candidate data for every race and state (Ballotpedia, BallotReady), election dates and polling places for every state (Democracy Works), and the plain-language bill summaries (Anthropic API).
+- **A donate section** (once the hub is live): ask readers to help pay for the paid data, and say plainly what it buys: full candidate data for every race and state (Ballotpedia, BallotReady), election dates and polling places for every state (Democracy Works), the plain-language bill summaries (Anthropic API), and replacing Wikipedia-sourced backgrounds with official or verified ones.
 
 ## Later
 

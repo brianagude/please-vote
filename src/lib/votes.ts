@@ -28,10 +28,10 @@ export function ruleLine(chamber: string, sinceYear: string) {
 
 export const countLine = (listed: number) => `${n(listed)} ${listed === 1 ? "vote" : "votes"} on bills that passed at least one chamber.`;
 
-/** Votes grouped by topic: most votes first, "Other" and local laws last. A vote can sit under more than one topic. */
+/** Votes grouped by topic: A to Z, "Other" and local laws last. A vote can sit under more than one topic. */
 export function voteTopics<T extends { topics: string[] }>(votes: T[]): [string, T[]][] {
   const groups = new Map<string, T[]>();
   for (const x of votes) for (const t of x.topics) groups.set(t, [...(groups.get(t) ?? []), x]);
   const last = (t: string) => (/^Other|^Local/.test(t) ? 1 : 0);
-  return [...groups].sort((a, b) => last(a[0]) - last(b[0]) || b[1].length - a[1].length || a[0].localeCompare(b[0]));
+  return [...groups].sort((a, b) => last(a[0]) - last(b[0]) || a[0].localeCompare(b[0]));
 }

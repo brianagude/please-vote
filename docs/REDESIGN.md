@@ -38,7 +38,7 @@ These come first in every choice on the branch, ahead of features.
 - **Glossary changes the copy rules:** use the real terms ("Incumbent", not "Has the job now"), each with a one-line plain definition.
 - **Feedback starts as an email link.** A form needs email setup first.
 - **When a challenger wins,** switch to their new official photo and remove the one we sourced.
-- **Facts never come from Wikipedia.** Photos from Wikimedia Commons are fine (owner, Oct 16).
+- **Wikipedia is never the source for official information** (who holds an office, election dates and rules, votes, bills, money). Photos from Wikimedia Commons are fine (owner, Oct 16), and so is background copy (bio and career lines) cited as Wikipedia, so everyone has some background (owner, Oct 17).
 - **The owner handles all git.** The redesign is its own branch and pull request. Pull requests are squash-merged. The git history cleanup happens with or after this branch.
 - **More states come after this.** New states get added into the hub. The rest of the states wait until after the election.
 
@@ -177,7 +177,7 @@ Still open:
 A separate plan, made after the redesign, for how and when to use paid data, and why. It should cover:
 
 - **What each paid source would add**, checked with real quotes, not guesses. Candidates: Ballotpedia and BallotReady (full candidate data for every race, bios, possibly statewide officeholders), Democracy Works (election dates and polling places for every state), Cicero (officials at every level by address), and the Anthropic API (plain-language bill summaries, reviewed before publishing).
-- **What a paid key would make possible:** less hand entry (statewide officials, election dates), coverage for all 50 states, and fewer gaps (like challengers' bios).
+- **What a paid key would make possible:** less hand entry (statewide officials, election dates), coverage for all 50 states, and fewer gaps (like challengers' bios), and replacing Wikipedia-sourced backgrounds with official or verified sources.
 - **When it's worth it,** and how it would be paid for (the donate idea on the roadmap).
 - **Publishing it on the site:** a plain page saying what the site costs to run, what each paid source would buy, and how donations would be used.
 

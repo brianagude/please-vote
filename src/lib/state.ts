@@ -38,6 +38,7 @@ export function loadState(code: string): StateData {
   };
   // Nightly output, keyed by candidate id. Merged over the hand-checked files.
   const photos: Record<string, Candidate["photo"]> | undefined = readIfExists(code, "generated/photos.json");
+  const websites: Record<string, string> | undefined = readIfExists(code, "generated/websites.json");
   const gen = {
     congress: readIfExists(code, "generated/congress.json"),
     // Federal (FEC) and state campaign money, keyed by candidate id.
@@ -50,6 +51,8 @@ export function loadState(code: string): StateData {
   for (const c of allCandidates(data)) {
     // A photo set by hand in races.json wins over the nightly one.
     if (!c.photo && photos?.[c.id]) c.photo = photos[c.id];
+    // Same for campaign links: the FEC registration's website fills in only where none was set.
+    if (!c.links.campaign && websites?.[c.id]) c.links = { ...c.links, campaign: websites[c.id] };
     c.record = buildRecord(c, gen, cycle, data.config.name);
   }
   return data;
