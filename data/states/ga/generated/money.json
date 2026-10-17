@@ -1,14 +1,14 @@
 {
   "jon-ossoff": {
-    "raised": 97986263.04,
-    "spent": 59730545.53,
-    "cashOnHand": 42587451,
-    "fromIndividuals": 86546255.04,
-    "fromPACs": 1043665.39,
+    "raised": 131133034.31,
+    "spent": 109195705.41,
+    "cashOnHand": 26269062.39,
+    "fromIndividuals": 115894933.23,
+    "fromPACs": 1180752.04,
     "fromParty": 13318.85,
     "fromSelf": 0,
-    "donations": 87603239.28,
-    "transfersIn": 8502164.4,
+    "donations": 117089004.12,
+    "transfersIn": 11916090,
     "pacs": [
       {
         "name": "AMERICAN ASSOCIATION FOR JUSTICE POLITICAL ACTION COMMITTEE (AAJ PAC)",
@@ -864,6 +864,12 @@
         "against": 0
       },
       {
+        "name": "SURJ PAC",
+        "id": "C00742205",
+        "for": 1176.42,
+        "against": 0
+      },
+      {
         "name": "INDIGO PAC",
         "id": "C00909465",
         "for": 423.91,
@@ -890,7 +896,7 @@
     ],
     "groupsSince": "2025-01-01",
     "from": "2021-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/S8GA00180/?cycle=2026&election_full=true"
@@ -1562,20 +1568,20 @@
     }
   },
   "amanda-hollowell": {
-    "raised": 162499.86,
-    "spent": 155572.24,
-    "cashOnHand": 7388.62,
-    "fromIndividuals": 128987.47,
-    "fromPACs": 1000,
+    "raised": 250499.95,
+    "spent": 194098.23,
+    "cashOnHand": 56762.72,
+    "fromIndividuals": 207068.79,
+    "fromPACs": 6500,
     "fromParty": 0,
     "fromSelf": 32512.39,
-    "donations": 129987.47,
+    "donations": 213568.79,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA01158/?cycle=2026&election_full=true"
@@ -2857,20 +2863,20 @@
     }
   },
   "matt-day": {
-    "raised": 217005.73,
-    "spent": 217005.73,
+    "raised": 217631.83,
+    "spent": 217631.83,
     "cashOnHand": 0,
     "fromIndividuals": 10762.5,
     "fromPACs": 0,
     "fromParty": 0,
     "fromSelf": 191334.85,
     "donations": 152097.35,
-    "transfersIn": 14808.38,
+    "transfersIn": 15434.48,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-07-01",
-    "through": "2026-09-30",
+    "through": "2026-10-14",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA01182/?cycle=2026&election_full=true"
@@ -4744,14 +4750,14 @@
     }
   },
   "nikema-williams": {
-    "raised": 599714.8,
-    "spent": 536864.64,
-    "cashOnHand": 76091.81,
-    "fromIndividuals": 180134.96,
-    "fromPACs": 402755,
+    "raised": 745109.46,
+    "spent": 665645.52,
+    "cashOnHand": 92705.59,
+    "fromIndividuals": 238164.01,
+    "fromPACs": 488755,
     "fromParty": 0,
     "fromSelf": 0,
-    "donations": 582889.96,
+    "donations": 726919.01,
     "transfersIn": 0,
     "pacs": [
       {
@@ -5383,7 +5389,7 @@
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2025-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H0GA05301/?cycle=2026&election_full=true"
@@ -7545,20 +7551,20 @@
     }
   },
   "caitlyn-gegen": {
-    "raised": 43387.42,
-    "spent": 38717.75,
-    "cashOnHand": 4669.67,
-    "fromIndividuals": 35206.42,
+    "raised": 97534.35,
+    "spent": 71319.75,
+    "cashOnHand": 26214.6,
+    "fromIndividuals": 88768.35,
     "fromPACs": 2000,
     "fromParty": 0,
-    "fromSelf": 6181,
-    "donations": 43387.42,
+    "fromSelf": 6766,
+    "donations": 97534.35,
     "transfersIn": 0,
     "pacs": [],
     "outside": [],
     "groupsSince": "2025-01-01",
     "from": "2026-01-01",
-    "through": "2026-06-30",
+    "through": "2026-09-30",
     "source": {
       "label": "FEC",
       "url": "https://www.fec.gov/data/candidate/H6GA09284/?cycle=2026&election_full=true"

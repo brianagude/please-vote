@@ -15,6 +15,15 @@
       "url": "https://github.com/unitedstates/images"
     }
   },
+  "keisha-lance-bottoms": {
+    "src": "/photos/keisha-lance-bottoms.jpg",
+    "credit": "Executive Office of the President of the United States",
+    "license": "Public domain",
+    "source": {
+      "label": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Keisha_Lance_Bottoms.jpg"
+    }
+  },
   "rick-jackson": {
     "src": "/photos/rick-jackson.png",
     "credit": "Cherie Martin",

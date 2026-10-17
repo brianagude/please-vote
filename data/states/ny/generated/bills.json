@@ -8952,16 +8952,16 @@
         "status": "Introduced"
       },
       {
-        "id": "S 9118",
-        "title": "Relates to termination of service, deferred payment plans and quarterly billing",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9118?summary=&detail=",
+        "id": "S 9119",
+        "title": "Increases the time certain parties have to submit a notice of intent to be a party to the certification proceedings for the siting of major utility transmission facilities",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9119?summary=&detail=",
         "introduced": "2026-02-04",
         "status": "Introduced"
       },
       {
-        "id": "S 9119",
-        "title": "Increases the time certain parties have to submit a notice of intent to be a party to the certification proceedings for the siting of major utility transmission facilities",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9119?summary=&detail=",
+        "id": "S 9118",
+        "title": "Relates to termination of service, deferred payment plans and quarterly billing",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9118?summary=&detail=",
         "introduced": "2026-02-04",
         "status": "Introduced"
       },
@@ -9162,13 +9162,6 @@
         "status": "Introduced"
       },
       {
-        "id": "S 483",
-        "title": "Relates to membership on the state board of parole",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S483?summary=&detail=",
-        "introduced": "2025-01-08",
-        "status": "Introduced"
-      },
-      {
         "id": "S 480",
         "title": "Eliminates additional application fees and annual fees for special license plates issued to veterans of the armed forces of the United States",
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S480?summary=&detail=",
@@ -9186,6 +9179,13 @@
         "id": "S 485",
         "title": "Relates to a tax credit for employment of an individual who has successfully completed a judicial diversion substance abuse treatment program or graduated from drug court",
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S485?summary=&detail=",
+        "introduced": "2025-01-08",
+        "status": "Introduced"
+      },
+      {
+        "id": "S 483",
+        "title": "Relates to membership on the state board of parole",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S483?summary=&detail=",
         "introduced": "2025-01-08",
         "status": "Introduced"
       },
