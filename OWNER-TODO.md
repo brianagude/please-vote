@@ -11,7 +11,7 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 
 ### Before Nov 3, 2026 (election day)
 
-- [ ] **Merge `california`** once Claude says it's finished and the pull request check is green. Then make a new `florida` branch from main for the next state.
+- [ ] **Merge `california`.** Claude finished it on Oct 17. Open the pull request, wait for the green check, and merge (squash). Then make a new `florida` branch from main for the next state. California's missing photos can come later; they don't block the merge.
 - [ ] **Photos** (see the list below), as many as you can before people use the guides.
 
 ### Nov 4, 2026: the day after the election

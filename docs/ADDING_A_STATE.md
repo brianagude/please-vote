@@ -49,7 +49,7 @@ This runs every nightly step for just that state: members of Congress, state leg
 
 Every state has some. Places in the code that handle one state specially:
 
-- **State legislature votes:** `pipeline/votes.ts` has a function per state (`georgia`, `newYork`). A new state needs its own, working from the Open States bulk downloads (`pipeline/osbulk.ts`).
+- **State legislature votes:** `pipeline/votes.ts` reads Open States bulk files with one shared reader. A new state adds a small set of rules to `BULK_STATES` (how to tell floor votes from committee votes, how its committee referrals are written, plain names for committee abbreviations). See New York's and California's rules there. Georgia has its own reader because it also uses the General Assembly's vote service.
 - **Bills:** `pipeline/bills.ts` has Georgia-only fixes (sponsor order and vetoes from the General Assembly). Check a new state's bills against its legislature's website for author order, passage, vetoes, and laws.
 - **State campaign money:** New York's comes from data.ny.gov (`pipeline/nymoney.ts`). Georgia publishes nothing usable, so it's skipped. Check whether the new state has a free, official download.
 - **Statewide ballot questions:** check the wording against a sample ballot.

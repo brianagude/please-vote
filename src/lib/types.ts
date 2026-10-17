@@ -93,7 +93,7 @@ export interface CareerRecord {
   votes?: {
     since: string;
     listed: number;
-    attendance: { missed: number; excused: number; total: number };
+    attendance: { missed: number; excused: number; total: number; note?: string };
     chamber: string;
     source: Source[];
   };

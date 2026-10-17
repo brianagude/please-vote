@@ -1,0 +1,171 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0",
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e",
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+  ],
+  "votes": {
+    "ocd-vote/2d475053-d476-4416-b49c-1c8f6f1c9d9d": {
+      "chamber": "California Senate",
+      "date": "2025-01-23",
+      "bill": "SB 2",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB2",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/c3e8fc0f-a50e-4ef1-a251-ab35dee98264": {
+      "chamber": "California Senate",
+      "date": "2025-01-23",
+      "bill": "SB 1",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/9addfa97-c50f-46a4-818a-8316a0b46eb0": {
+      "chamber": "California Senate",
+      "date": "2025-01-23",
+      "bill": "SB 3",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB3",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/d46932c6-2b11-4b49-94d6-727c90a24448": {
+      "chamber": "California Assembly",
+      "date": "2025-01-23",
+      "bill": "AB 4",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261AB4",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/c0dac37b-8f86-4935-80bd-827a2f24e7d8": {
+      "chamber": "California Assembly",
+      "date": "2025-01-23",
+      "bill": "AB 4",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261AB4",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/1f417806-3259-4b1d-ac62-d06dd542f84c": {
+      "chamber": "California Assembly",
+      "date": "2025-01-23",
+      "bill": "SB 3",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB3",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/93442be4-1bc8-4500-8f74-6f692d270bd5": {
+      "chamber": "California Assembly",
+      "date": "2025-02-03",
+      "bill": "SB 1",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/c2d80557-69b5-4a6e-a147-42a6c8ffa9de": {
+      "chamber": "California Assembly",
+      "date": "2025-02-03",
+      "bill": "SB 1",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/0064ecb7-a5c2-479c-8726-1bd67dad2774": {
+      "chamber": "California Assembly",
+      "date": "2025-02-03",
+      "bill": "SB 1",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/07e3ce9c-30b5-4949-878e-ef2896165fa7": {
+      "chamber": "California Assembly",
+      "date": "2025-02-03",
+      "bill": "SB 2",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB2",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/2e950c83-da83-42a0-96cf-f3c8ece53435": {
+      "chamber": "California Assembly",
+      "date": "2025-02-04",
+      "bill": "SB 2",
+      "title": "Budget Act of 2024.",
+      "topics": [
+        "Budget"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB2",
+      "result": "pass",
+      "what": "Passage"
+    }
+  },
+  "cast": {
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3": {
+      "ocd-vote/9addfa97-c50f-46a4-818a-8316a0b46eb0": "yes",
+      "ocd-vote/c3e8fc0f-a50e-4ef1-a251-ab35dee98264": "yes",
+      "ocd-vote/2d475053-d476-4416-b49c-1c8f6f1c9d9d": "yes"
+    },
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e": {
+      "ocd-vote/9addfa97-c50f-46a4-818a-8316a0b46eb0": "yes",
+      "ocd-vote/c3e8fc0f-a50e-4ef1-a251-ab35dee98264": "yes",
+      "ocd-vote/2d475053-d476-4416-b49c-1c8f6f1c9d9d": "yes"
+    },
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0": {
+      "ocd-vote/9addfa97-c50f-46a4-818a-8316a0b46eb0": "yes",
+      "ocd-vote/c3e8fc0f-a50e-4ef1-a251-ab35dee98264": "yes",
+      "ocd-vote/2d475053-d476-4416-b49c-1c8f6f1c9d9d": "yes"
+    },
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c": {
+      "ocd-vote/c0dac37b-8f86-4935-80bd-827a2f24e7d8": "yes",
+      "ocd-vote/d46932c6-2b11-4b49-94d6-727c90a24448": "yes",
+      "ocd-vote/1f417806-3259-4b1d-ac62-d06dd542f84c": "yes",
+      "ocd-vote/0064ecb7-a5c2-479c-8726-1bd67dad2774": "yes",
+      "ocd-vote/93442be4-1bc8-4500-8f74-6f692d270bd5": "yes",
+      "ocd-vote/2e950c83-da83-42a0-96cf-f3c8ece53435": "yes",
+      "ocd-vote/07e3ce9c-30b5-4949-878e-ef2896165fa7": "yes",
+      "ocd-vote/c2d80557-69b5-4a6e-a147-42a6c8ffa9de": "yes"
+    }
+  }
+}

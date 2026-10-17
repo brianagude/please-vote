@@ -1,0 +1,102 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0",
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e",
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+  ],
+  "votes": {
+    "ocd-vote/778d7e74-455c-43cc-bdb1-9b632de04cec": {
+      "chamber": "California Assembly",
+      "date": "2024-10-01",
+      "bill": "AB 1",
+      "title": "Energy: transportation fuels: inventories: turnaround and maintenance.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320242AB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/78e5d8ae-ab2e-4bff-87d1-f69309701042": {
+      "chamber": "California Assembly",
+      "date": "2024-10-01",
+      "bill": "AB 1",
+      "title": "Energy: transportation fuels: inventories: turnaround and maintenance.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320242AB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/d24838b0-df17-49c7-aede-c99b1bb0e0c1": {
+      "chamber": "California Assembly",
+      "date": "2024-10-01",
+      "bill": "AB 9",
+      "title": "Transportation fuels: specifications: production enhancement strategies.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320242AB9",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/526d62d7-eb4c-4684-be8a-33b2b2446095": {
+      "chamber": "California Senate",
+      "date": "2024-10-11",
+      "bill": "AB 1",
+      "title": "Energy: transportation fuels: inventories: turnaround and maintenance.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320242AB1",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/9923c42f-9280-437f-8754-19a61abdd7b3": {
+      "chamber": "California Assembly",
+      "date": "2024-10-14",
+      "bill": "AB 1",
+      "title": "Energy: transportation fuels: inventories: turnaround and maintenance.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320242AB1",
+      "result": "fail",
+      "what": "Agree to the other chamber's changes"
+    },
+    "ocd-vote/9092022d-07e2-46cd-9087-dfb3140e8d21": {
+      "chamber": "California Assembly",
+      "date": "2024-10-14",
+      "bill": "AB 1",
+      "title": "Energy: transportation fuels: inventories: turnaround and maintenance.",
+      "topics": [
+        "Other"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320242AB1",
+      "result": "pass",
+      "what": "Agree to the other chamber's changes"
+    }
+  },
+  "cast": {
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c": {
+      "ocd-vote/78e5d8ae-ab2e-4bff-87d1-f69309701042": "other",
+      "ocd-vote/778d7e74-455c-43cc-bdb1-9b632de04cec": "yes",
+      "ocd-vote/d24838b0-df17-49c7-aede-c99b1bb0e0c1": "yes",
+      "ocd-vote/9923c42f-9280-437f-8754-19a61abdd7b3": "no",
+      "ocd-vote/9092022d-07e2-46cd-9087-dfb3140e8d21": "other"
+    },
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0": {
+      "ocd-vote/526d62d7-eb4c-4684-be8a-33b2b2446095": "yes"
+    },
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e": {
+      "ocd-vote/526d62d7-eb4c-4684-be8a-33b2b2446095": "yes"
+    },
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3": {
+      "ocd-vote/526d62d7-eb4c-4684-be8a-33b2b2446095": "yes"
+    }
+  }
+}

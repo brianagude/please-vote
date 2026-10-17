@@ -11,9 +11,9 @@ export const personPath = (id: string) => `/person/${id}/`;
 export const hasPage = (c: { record?: { bills?: unknown; votes?: unknown } }) => !!(c.record?.bills || c.record?.votes);
 
 /** "Didn't vote on 185 of 1,618 votes (11%). They had permission to be away (excused) for 148 of them." */
-export function attendanceLine(a: { missed: number; excused: number; total: number }) {
+export function attendanceLine(a: { missed: number; excused: number; total: number; note?: string }) {
   if (a.missed === 0) return `Voted on all ${n(a.total)} votes they could have.`;
-  const base = `Didn't vote on ${n(a.missed)} of ${n(a.total)} votes (${pct(a.missed, a.total)}).`;
+  const base = `Didn't vote on ${n(a.missed)} of ${n(a.total)} votes (${pct(a.missed, a.total)}).${a.note ? ` ${a.note}` : ""}`;
   if (!a.excused) return base;
   return `${base} They had permission to be away (excused) for ${a.excused === a.missed ? "all" : n(a.excused)} of them.`;
 }

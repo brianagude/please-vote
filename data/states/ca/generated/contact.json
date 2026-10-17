@@ -1,0 +1,1177 @@
+{
+  "james-gallagher": {
+    "phone": "202-225-3076",
+    "address": "408 Cannon House Office Building Washington DC 20515-0501",
+    "website": "https://gallagher.house.gov/",
+    "social": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "jared-huffman": {
+    "phone": "202-225-5161",
+    "address": "2330 Rayburn House Office Building Washington DC 20515-0502",
+    "website": "https://huffman.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepHuffman"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepHuffman"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/rephuffman"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rephuffman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "ami-bera": {
+    "phone": "202-225-5716",
+    "address": "172 Cannon House Office Building Washington DC 20515-0506",
+    "website": "https://bera.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepBera"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepAmiBera"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/repamibera"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repbera"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "mike-thompson": {
+    "phone": "202-225-3311",
+    "address": "268 Cannon House Office Building Washington DC 20515-0504",
+    "website": "https://mikethompson.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepThompson"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepMikeThompson"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/CongressmanMThompson"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "tom-mcclintock": {
+    "phone": "202-225-2511",
+    "address": "2256 Rayburn House Office Building Washington DC 20515-0505",
+    "website": "https://mcclintock.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepMcClintock"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/81125319109"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/McClintockCA04"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repmcclintock"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "kevin-kiley": {
+    "phone": "202-225-2523",
+    "address": "2445 Rayburn House Office Building Washington DC 20515-0503",
+    "website": "https://kiley.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepKiley"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/100089382125341"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/@repkevinkiley"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "doris-matsui": {
+    "phone": "202-225-7163",
+    "address": "2206 Rayburn House Office Building Washington DC 20515-0507",
+    "website": "https://matsui.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/DorisMatsui"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/doris.matsui"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepDorisMatsui"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repdorismatsui"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "john-garamendi": {
+    "phone": "202-225-1880",
+    "address": "2428 Rayburn House Office Building Washington DC 20515-0508",
+    "website": "https://garamendi.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepGaramendi"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/repgaramendi"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/garamendiCA10"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repgaramendi"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "josh-harder": {
+    "phone": "202-225-4540",
+    "address": "209 Cannon House Office Building Washington DC 20515-0509",
+    "website": "https://harder.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepJoshHarder"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "mark-desaulnier": {
+    "phone": "202-225-2095",
+    "address": "2134 Rayburn House Office Building Washington DC 20515-0510",
+    "website": "https://desaulnier.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepDeSaulnier"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepMarkDeSaulnier"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repdesaulnier"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "lateefah-simon": {
+    "phone": "202-225-2661",
+    "address": "1023 Longworth House Office Building Washington DC 20515-0512",
+    "website": "https://simon.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepLSimon"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepLSimon"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/RepLSimon"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "adam-gray": {
+    "phone": "202-225-1947",
+    "address": "1230 Longworth House Office Building Washington DC 20515-0513",
+    "website": "https://gray.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepAdamGrayCA"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/repadamgrayca"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repadamgrayca"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "aisha-wahab": {
+    "phone": "202-225-5065",
+    "address": "174 Cannon House Office Building Washington DC 20515-0514",
+    "website": "https://wahab.house.gov/",
+    "social": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "kevin-mullin": {
+    "phone": "202-225-3531",
+    "address": "1404 Longworth House Office Building Washington DC 20515-0515",
+    "website": "https://kevinmullin.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepKevinMullin"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/CongressmanKevinMullin"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repkevinmullin"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/UCAenuXjUZagZyD4HQL7_2ZA"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "sam-liccardo": {
+    "phone": "202-225-8104",
+    "address": "1117 Longworth House Office Building Washington DC 20515-0516",
+    "website": "https://liccardo.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/repliccardo"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repliccardo"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "ro-khanna": {
+    "phone": "202-225-2631",
+    "address": "306 Cannon House Office Building Washington DC 20515-0517",
+    "website": "https://khanna.house.gov",
+    "social": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepRoKhanna"
+      },
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepRoKhanna"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/reprokhanna"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCr4KOYv1o1oEQhy1jhhm3pQ"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "zoe-lofgren": {
+    "phone": "202-225-3072",
+    "address": "1401 Longworth House Office Building Washington DC 20515-0518",
+    "website": "https://lofgren.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepZoeLofgren"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/zoelofgren"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepZoeLofgren"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "jimmy-panetta": {
+    "phone": "202-225-2861",
+    "address": "200 Cannon House Office Building Washington DC 20515-0519",
+    "website": "https://panetta.house.gov",
+    "social": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepJimmyPanetta"
+      },
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepJimmyPanetta"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repjimmypanetta"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCmw-aERG51C96edMDPN7fXQ"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "vince-fong": {
+    "phone": "202-225-2915",
+    "address": "243 Cannon House Office Building Washington DC 20515-0520",
+    "website": "https://fong.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepVinceFong"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repvincefong"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "jim-costa": {
+    "phone": "202-225-3341",
+    "address": "2081 Rayburn House Office Building Washington DC 20515-0521",
+    "website": "https://costa.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepJimCosta"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepJimCosta"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepJimCostaCA20"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "david-g-valadao": {
+    "phone": "202-225-4695",
+    "address": "2465 Rayburn House Office Building Washington DC 20515-0522",
+    "website": "https://valadao.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepDavidValadao"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/CongressmanDavidValadao"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "jay-obernolte": {
+    "phone": "202-225-5861",
+    "address": "2433 Rayburn House Office Building Washington DC 20515-0523",
+    "website": "https://obernolte.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/JayObernolte"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "salud-carbajal": {
+    "phone": "202-225-3601",
+    "address": "2331 Rayburn House Office Building Washington DC 20515-0524",
+    "website": "https://carbajal.house.gov",
+    "social": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/repsaludcarbajal"
+      },
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepCarbajal"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repcarbajal"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/repcarbajal"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "raul-ruiz": {
+    "phone": "202-225-5330",
+    "address": "2342 Rayburn House Office Building Washington DC 20515-0525",
+    "website": "https://ruiz.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepRaulRuizMD"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/CongressmanRaulRuizMD"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/repraulruiz"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "george-whitesides": {
+    "phone": "202-225-1956",
+    "address": "1504 Longworth House Office Building Washington DC 20515-0527",
+    "website": "https://whitesides.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/Rep_Whitesides"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/repwhitesides"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repwhitesides"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "judy-chu": {
+    "phone": "202-225-5464",
+    "address": "2423 Rayburn House Office Building Washington DC 20515-0528",
+    "website": "https://chu.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepJudyChu"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepJudyChu"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepJudyChu"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repjudychu"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "luz-maria-rivas": {
+    "phone": "202-225-6131",
+    "address": "1319 Longworth House Office Building Washington DC 20515-0529",
+    "website": "https://rivas.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepLuzRivas"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/congresswomanluzrivas"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/RepLuzRivas"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "laura-friedman": {
+    "phone": "202-225-4176",
+    "address": "1517 Longworth House Office Building Washington DC 20515-0530",
+    "website": "https://friedman.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepFriedmanCA"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepLauraFriedman"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/RepLauraFriedman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "gil-cisneros": {
+    "phone": "202-225-5256",
+    "address": "2463 Rayburn House Office Building Washington DC 20515-0531",
+    "website": "https://cisneros.house.gov",
+    "social": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepGilCisneros"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repgilcisneros"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "brad-sherman": {
+    "phone": "202-225-5911",
+    "address": "2365 Rayburn House Office Building Washington DC 20515-0532",
+    "website": "https://sherman.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/BradSherman"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/63158229861"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/shermanca27"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/congressmansherman"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "pete-aguilar": {
+    "phone": "202-225-3201",
+    "address": "108 Cannon House Office Building Washington DC 20515-0533",
+    "website": "https://aguilar.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepPeteAguilar"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/reppeteaguilar"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCxwbFLOlKDsXrwizV5jah7g"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "jimmy-gomez": {
+    "phone": "202-225-6235",
+    "address": "506 Cannon House Office Building Washington DC 20515-0534",
+    "website": "https://gomez.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepJimmyGomez"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepJimmyGomez"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repjimmygomez"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/UCOmm091WM6D01xTdzsWNvbQ"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "norma-j-torres": {
+    "phone": "202-225-6161",
+    "address": "2227 Rayburn House Office Building Washington DC 20515-0535",
+    "website": "https://torres.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/NormaJTorres"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepNormaTorres"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCvWY4qKP6--o3pIJY7hhKDg"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repnormatorres"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "ted-w-lieu": {
+    "phone": "202-225-3976",
+    "address": "2454 Rayburn House Office Building Washington DC 20515-0536",
+    "website": "https://lieu.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepTedLieu"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepTedLieu"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/RepTedLieu"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UC9qcJxTqfDNBnVul1IojlFg"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "sydney-kamlager-dove": {
+    "phone": "202-225-7084",
+    "address": "144 Cannon House Office Building Washington DC 20515-0537",
+    "website": "https://kamlager-dove.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepKamlagerDove"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepKamlagerDove"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rep_kamlagerdove"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "mark-takano": {
+    "phone": "202-225-2305",
+    "address": "2078 Rayburn House Office Building Washington DC 20515-0539",
+    "website": "https://takano.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepMarkTakano"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepMarkTakano"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepMarkTakano"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repmarktakano"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "ken-calvert": {
+    "phone": "202-225-1986",
+    "address": "2205 Rayburn House Office Building Washington DC 20515-0541",
+    "website": "https://calvert.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/KenCalvert"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/70063393423"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepKenCalvert"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repkencalvert"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "young-kim": {
+    "phone": "202-225-4111",
+    "address": "2439 Rayburn House Office Building Washington DC 20515-0540",
+    "website": "https://youngkim.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepYoungKim"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepYoungKim"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repyoungkim"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/@RepYoungKim"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "linda-sanchez": {
+    "phone": "202-225-6676",
+    "address": "2309 Rayburn House Office Building Washington DC 20515-0538",
+    "website": "https://lindasanchez.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepLindaSanchez"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/CongresswomanLindaSanchez"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/LindaTSanchez"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/replindasanchez"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "robert-garcia": {
+    "phone": "202-225-7924",
+    "address": "109 Cannon House Office Building Washington DC 20515-0542",
+    "website": "https://robertgarcia.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepRobertGarcia"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/reprobertgarcia"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/RepRobertGarcia"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "maxine-waters": {
+    "phone": "202-225-2201",
+    "address": "2221 Rayburn House Office Building Washington DC 20515-0543",
+    "website": "https://waters.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepMaxineWaters"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/MaxineWaters"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/MaxineWaters"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repmaxinewaters"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "nanette-diaz-barragan": {
+    "phone": "202-225-8220",
+    "address": "2312 Rayburn House Office Building Washington DC 20515-0544",
+    "website": "https://barragan.house.gov",
+    "social": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/CongresswomanBarragan"
+      },
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepBarragan"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repbarragan"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "derek-tran": {
+    "phone": "202-225-2415",
+    "address": "1127 Longworth House Office Building Washington DC 20515-0545",
+    "website": "https://tran.house.gov",
+    "social": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "lou-correa": {
+    "phone": "202-225-2965",
+    "address": "2082 Rayburn House Office Building Washington DC 20515-0546",
+    "website": "https://correa.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepLouCorrea"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepLouCorrea"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCIKJJp4QJIDjnjodc23qKkw"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/reploucorrea"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "dave-min": {
+    "phone": "202-225-5611",
+    "address": "1034 Longworth House Office Building Washington DC 20515-0547",
+    "website": "https://min.house.gov",
+    "social": [],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "mike-levin": {
+    "phone": "202-225-3906",
+    "address": "2352 Rayburn House Office Building Washington DC 20515-0549",
+    "website": "https://levin.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepMikeLevin"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepMikeLevin"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/RepMikeLevin"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/UCYFDRohyZgoPy5rXOaVZO-A"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "scott-peters": {
+    "phone": "202-225-0508",
+    "address": "2369 Rayburn House Office Building Washington DC 20515-0550",
+    "website": "https://scottpeters.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepScottPeters"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepScottPeters"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/channel/UCQK77QJxW7Xr-S3zqeMd-0g"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repscottpeters"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "sara-jacobs": {
+    "phone": "202-225-2040",
+    "address": "2348 Rayburn House Office Building Washington DC 20515-0551",
+    "website": "https://sarajacobs.house.gov",
+    "social": [
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepSaraJacobs"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepSaraJacobs"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repsarajacobs"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "juan-vargas": {
+    "phone": "202-225-8045",
+    "address": "2467 Rayburn House Office Building Washington DC 20515-0552",
+    "website": "https://vargas.house.gov",
+    "social": [
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/RepJuanVargas"
+      },
+      {
+        "label": "X (Twitter)",
+        "url": "https://x.com/RepJuanVargas"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/RepJuanVargas"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/repjuanvargas"
+      }
+    ],
+    "source": {
+      "label": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators"
+    }
+  },
+  "ben-allen": {
+    "phone": "916-651-4024",
+    "address": "1021 O St. Suite 6610, Sacramento, CA 95814",
+    "email": "senator.allen@senate.ca.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/ben-allen-72ASxK9bXvDQwlApBfTC6N/"
+    }
+  },
+  "mike-mcguire": {
+    "phone": "916-651-4002",
+    "address": "1021 O St. Suite 8518, Sacramento, CA 95814",
+    "email": "senator.mcguire@senate.ca.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/mike-mcguire-4uDwk1u7mF3uNJSONooGWG/"
+    }
+  },
+  "scott-wiener": {
+    "phone": "916-651-4011",
+    "address": "1021 O St. Suite 8620, Sacramento, CA 95814",
+    "email": "senator.wiener@senate.ca.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/scott-wiener-6lsgrCgvjfspYcr3jpsa5e/"
+    }
+  },
+  "jacqui-irwin": {
+    "phone": "916-319-2042",
+    "address": "Room 6220, 1021 O St. P.O. Box 942849, Sacramento, CA 94249",
+    "email": "assemblymember.irwin@assembly.ca.gov",
+    "social": [],
+    "source": {
+      "label": "Open States",
+      "url": "https://openstates.org/person/jacqui-irwin-73AYwgwC83PVhmxChW8616/"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0",
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e",
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+  ],
+  "by": {
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e": [
+      {
+        "id": "SB 1",
+        "title": "Budget Act of 2024.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB1",
+        "introduced": "2024-12-02",
+        "law": "2025-02-07",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 3",
+        "title": "Budget Act of 2024.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB3",
+        "introduced": "2025-01-20",
+        "law": "2025-01-23",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 4",
+        "title": "Budget Act of 2024.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB4",
+        "introduced": "2025-01-20",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 2",
+        "title": "Budget Act of 2024.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520261SB2",
+        "introduced": "2025-01-08",
+        "law": "2025-02-07",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      }
+    ]
+  }
+}
