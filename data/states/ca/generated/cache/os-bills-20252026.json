@@ -1,0 +1,1280 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0",
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e",
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+  ],
+  "by": {
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3": [
+      {
+        "id": "SB 394",
+        "title": "Water theft: fire hydrants.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB394",
+        "introduced": "2025-02-14",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 615",
+        "title": "Vehicle traction batteries.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB615",
+        "introduced": "2025-02-20",
+        "law": "2026-09-20",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 894",
+        "title": "Wildfire resiliency: financial assistance.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB894",
+        "introduced": "2026-01-15",
+        "law": "2026-09-29",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 770",
+        "title": "Common interest developments: EV charging stations.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB770",
+        "introduced": "2025-02-21",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 749",
+        "title": "Mobilehome parks: closure, cessation, or change of use.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB749",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 630",
+        "title": "State parks: real property: acquisitions and leases.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB630",
+        "introduced": "2025-02-20",
+        "law": "2025-10-13",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 766",
+        "title": "California Combating Auto Retail Scams (CARS) Act.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB766",
+        "introduced": "2025-02-21",
+        "law": "2025-10-06",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 413",
+        "title": "Juveniles: case file inspection.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB413",
+        "introduced": "2025-02-14",
+        "law": "2025-10-01",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 495",
+        "title": "Insurance.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB495",
+        "introduced": "2025-02-19",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 760",
+        "title": "Behested payments: public appeal for payment.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB760",
+        "introduced": "2025-02-21",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 815",
+        "title": "Planning and zoning: very high fire hazard areas.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB815",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 220",
+        "title": "Los Angeles County Metropolitan Transportation Authority.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB220",
+        "introduced": "2025-01-23",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 501",
+        "title": "Responsible Battery Recycling Act of 2022: covered batteries.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB501",
+        "introduced": "2025-02-19",
+        "law": "2026-09-20",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 663",
+        "title": "Winter Fires of 2025: real property tax: exemptions and reassessment.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB663",
+        "introduced": "2025-02-20",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 799",
+        "title": "Joint powers authorities: South Bay Regional Housing Trust.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB799",
+        "introduced": "2025-02-21",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 682",
+        "title": "Environmental health: product safety: perfluoroalkyl and polyfluoroalkyl substances.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB682",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": true,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 367",
+        "title": "Mental health.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB367",
+        "introduced": "2025-02-13",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 601",
+        "title": "Water: waste discharge.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB601",
+        "introduced": "2025-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 812",
+        "title": "Qualified youth drop-in center health care coverage.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB812",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1297",
+        "title": "Regional wildfire partnerships.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1297",
+        "introduced": "2026-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 715",
+        "title": "Elections.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB715",
+        "introduced": "2025-02-21",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1092",
+        "title": "Mobilehome parks: resident organizations: option to purchase.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1092",
+        "introduced": "2026-02-13",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1365",
+        "title": "Price gouging.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1365",
+        "introduced": "2026-02-20",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1093",
+        "title": "Mobilehome parks: disaster assistance.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1093",
+        "introduced": "2026-02-13",
+        "law": "2026-09-29",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1233",
+        "title": "Public utilities: rates.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1233",
+        "introduced": "2026-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1209",
+        "title": "Insurance: examination of insurers.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1209",
+        "introduced": "2026-02-19",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1267",
+        "title": "Common interest developments: electric vehicle charging stations owned by members in common areas.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1267",
+        "introduced": "2026-02-19",
+        "law": "2026-09-20",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1229",
+        "title": "Coastal resources: coastal development permits: disaster exemption.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1229",
+        "introduced": "2026-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1180",
+        "title": "Plastic Pollution Prevention and Packaging Producer Responsibility Act: California Plastic Pollution Mitigation Fund.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1180",
+        "introduced": "2026-02-18",
+        "law": null,
+        "vetoed": true,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1182",
+        "title": "General plan: safety element: very high fire hazard severity zones: insurance.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1182",
+        "introduced": "2026-02-18",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 1318",
+        "title": "Coastal resources: local coastal program: coastal development permit: non-owner-occupied short-term rentals.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1318",
+        "introduced": "2026-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 1244",
+        "title": "Public Agency Benefits Intermediary Compensation Disclosure Act.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1244",
+        "introduced": "2026-02-19",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1301",
+        "title": "Residential property insurance: nonrenewals.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1301",
+        "introduced": "2026-02-20",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 832",
+        "title": "Upper Los Angeles River and Tributaries Working Group: membership: revitalization plan.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB832",
+        "introduced": "2025-02-21",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 549",
+        "title": "Heritage schools: enrollment and notice.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB549",
+        "introduced": "2025-02-20",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e": [
+      {
+        "id": "SB 59",
+        "title": "Change of name or gender and sex identifier.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB59",
+        "introduced": "2025-01-08",
+        "law": "2025-10-13",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 276",
+        "title": "City and County of San Francisco: merchandising sales.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB276",
+        "introduced": "2025-02-04",
+        "law": "2025-10-06",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 40",
+        "title": "Health care coverage: insulin.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB40",
+        "introduced": "2024-12-03",
+        "law": "2025-10-13",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 103",
+        "title": "Budget Acts of 2022, 2023, and 2024.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB103",
+        "introduced": "2025-01-23",
+        "law": "2025-06-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 102",
+        "title": "Budget Act of 2025.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB102",
+        "introduced": "2025-01-23",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 65",
+        "title": "Budget Act of 2025.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB65",
+        "introduced": "2025-01-10",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 336",
+        "title": "Real property tax: welfare exemption: moderate-income housing.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB336",
+        "introduced": "2025-02-12",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SJR 1",
+        "title": "Rescinding previous applications for a federal constitutional convention.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SJR1",
+        "introduced": "2024-12-16",
+        "law": "2025-09-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 378",
+        "title": "Online marketplaces: illicit cannabis: reporting and liability.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB378",
+        "introduced": "2025-02-13",
+        "law": "2025-10-06",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 79",
+        "title": "Housing development: transit-oriented development.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB79",
+        "introduced": "2025-01-15",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 53",
+        "title": "Artificial intelligence models: large developers.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+        "introduced": "2025-01-07",
+        "law": "2025-09-29",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 41",
+        "title": "Pharmacy benefits.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB41",
+        "introduced": "2024-12-03",
+        "law": "2025-10-11",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 395",
+        "title": "Alcoholic beverages: additional licenses: hospitality zone.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB395",
+        "introduced": "2025-02-14",
+        "law": "2025-10-06",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 895",
+        "title": "California Science and Health Research Bond Act.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB895",
+        "introduced": "2026-01-15",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 104",
+        "title": "Budget Act of 2025.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB104",
+        "introduced": "2025-01-23",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1074",
+        "title": "Covered provider: goods and services: self-preferencing conduct.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1074",
+        "introduced": "2026-02-13",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 829",
+        "title": "California Institute for Scientific Research: CalRx Initiative: vaccines.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB829",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 445",
+        "title": "High-speed rail: third-party agreements, permits, and approvals: regulations.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB445",
+        "introduced": "2025-02-18",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 63",
+        "title": "San Francisco Bay area: local revenue measure: public transit funding.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB63",
+        "introduced": "2025-01-09",
+        "law": "2025-10-13",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 627",
+        "title": "Law enforcement: masks.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB627",
+        "introduced": "2025-02-20",
+        "law": "2025-09-20",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 497",
+        "title": "Legally protected health care activity.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB497",
+        "introduced": "2025-02-19",
+        "law": "2025-10-13",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 105",
+        "title": "Budget Acts of 2021, 2023, 2024, and 2025.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB105",
+        "introduced": "2025-01-23",
+        "law": "2025-09-17",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 71",
+        "title": "California Environmental Quality Act: exemptions: transit projects.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB71",
+        "introduced": "2025-01-14",
+        "law": "2025-10-13",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 363",
+        "title": "Health care coverage: independent medical review.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB363",
+        "introduced": "2025-02-13",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 100",
+        "title": "Budget Acts of 2023 and 2024.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB100",
+        "introduced": "2025-01-23",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 908",
+        "title": "Residential windows: retrofitting: residential window replacement projects: California Building Code compliance.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB908",
+        "introduced": "2026-01-22",
+        "law": "2026-09-29",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 101",
+        "title": "Budget Act of 2025.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB101",
+        "introduced": "2025-01-23",
+        "law": "2025-06-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 222",
+        "title": "Residential heat pump water heater or heat pump HVAC systems.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB222",
+        "introduced": "2025-01-27",
+        "law": "2026-09-28",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 310",
+        "title": "Failure to pay wages: penalties.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB310",
+        "introduced": "2025-02-10",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 875",
+        "title": "Public utilities: eminent domain: just compensation.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB875",
+        "introduced": "2026-01-06",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 1097",
+        "title": "California Environmental Quality Act: electrical distribution: exemptions.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1097",
+        "introduced": "2026-02-13",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 934",
+        "title": "Sexual orientation or gender identity change efforts.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB934",
+        "introduced": "2026-01-29",
+        "law": "2026-09-26",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 944",
+        "title": "Medi-Cal: acupuncture.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB944",
+        "introduced": "2026-02-02",
+        "law": null,
+        "vetoed": true,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 282",
+        "title": "Residential heat pump systems: water heaters and HVAC: installations.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB282",
+        "introduced": "2025-02-05",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 868",
+        "title": "Electricity: portable solar generation devices.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB868",
+        "introduced": "2026-01-05",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 982",
+        "title": "Climate disasters: civil actions.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB982",
+        "introduced": "2026-02-04",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 1065",
+        "title": "Public works: apprenticeship.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1065",
+        "introduced": "2026-02-12",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 1123",
+        "title": "Administrative Procedure Act: major regulations.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1123",
+        "introduced": "2026-02-17",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 1004",
+        "title": "Law enforcement: masks.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1004",
+        "introduced": "2026-02-09",
+        "law": "2026-09-29",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1258",
+        "title": "Hazardous waste: site remediation: residential suitability guidelines.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1258",
+        "introduced": "2026-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": true
+      },
+      {
+        "id": "SB 607",
+        "title": "Golden Gate Bridge, Highway and Transportation District: contributions and loans.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB607",
+        "introduced": "2025-02-20",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 677",
+        "title": "Housing financing: joint powers agreements: bond approvals: subdivisions: tentative and final maps: appeals.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB677",
+        "introduced": "2025-02-21",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 747",
+        "title": "Civil rights: deprivation of federal constitutional rights, privileges, and immunities.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB747",
+        "introduced": "2025-02-21",
+        "law": "2026-09-29",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c": [
+      {
+        "id": "AB 523",
+        "title": "Metropolitan water districts: proxy vote authorizations.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB523",
+        "introduced": "2025-02-10",
+        "law": "2025-10-03",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 483",
+        "title": "Fixed term installment contracts: early termination fees.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB483",
+        "introduced": "2025-02-10",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 576",
+        "title": "Charitable giving: online fundraising.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB576",
+        "introduced": "2025-02-12",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 745",
+        "title": "School districts: reorganization: state board approval: qualified special taxes.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB745",
+        "introduced": "2025-02-18",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 710",
+        "title": "Electrical corporations: resiliency planning: microgrid projects.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB710",
+        "introduced": "2025-02-14",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1344",
+        "title": "Restrictions on firearm possession: pilot project.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1344",
+        "introduced": "2025-02-21",
+        "law": "2025-10-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 869",
+        "title": "State agencies: information security: Zero Trust architecture.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB869",
+        "introduced": "2025-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 810",
+        "title": "Local government: internet websites and email addresses.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB810",
+        "introduced": "2025-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 979",
+        "title": "California Cybersecurity Integration Center: artificial intelligence.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB979",
+        "introduced": "2025-02-20",
+        "law": "2025-10-03",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 992",
+        "title": "Peace officers.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB992",
+        "introduced": "2025-02-20",
+        "law": "2025-10-01",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1182",
+        "title": "State Energy Resources Conservation and Development Commission: report: electrical grid infrastructure manufacturing.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1182",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 1423",
+        "title": "Transportation electrification: electric vehicle charging stations: payment methods.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1423",
+        "introduced": "2025-02-21",
+        "law": "2025-10-01",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1175",
+        "title": "Accountants.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1175",
+        "introduced": "2025-02-21",
+        "law": "2025-10-03",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1408",
+        "title": "Electricity: interconnections.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1408",
+        "introduced": "2025-02-21",
+        "law": null,
+        "vetoed": true,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1534",
+        "title": "Federal Workforce Pell Grant program: local workforce development boards: participant training requirement.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1534",
+        "introduced": "2026-01-05",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1207",
+        "title": "Climate change: market-based compliance mechanism: extension.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1207",
+        "introduced": "2025-02-21",
+        "law": "2025-09-19",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2396",
+        "title": "Community choice aggregators: eligible transmission projects.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2396",
+        "introduced": "2026-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 452",
+        "title": "Coastal recreation: designated state surfing reserves.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB452",
+        "introduced": "2025-02-06",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 2779",
+        "title": "Food labeling: quality dates, safety dates, and sell-by dates.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2779",
+        "introduced": "2026-03-05",
+        "law": "2026-09-18",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 932",
+        "title": "Community youth athletics programs: sex or gender discrimination.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB932",
+        "introduced": "2025-02-19",
+        "law": "2025-10-11",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1850",
+        "title": "Real estate: wholesaling.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1850",
+        "introduced": "2026-02-11",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 762",
+        "title": "Disposable, battery-embedded vapor inhalation device: prohibition and penalties.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB762",
+        "introduced": "2025-02-18",
+        "law": "2026-09-28",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2531",
+        "title": "Public health: abortion services.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2531",
+        "introduced": "2026-02-20",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2143",
+        "title": "Invasive species: noxious weeds: online marketplaces.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2143",
+        "introduced": "2026-02-18",
+        "law": "2026-09-18",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1977",
+        "title": "Notaries public.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1977",
+        "introduced": "2026-02-13",
+        "law": "2026-09-18",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1938",
+        "title": "Coastal recreation: designated state surfing reserves.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1938",
+        "introduced": "2026-02-13",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 2589",
+        "title": "Public utilities: rates: changes to federal law.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2589",
+        "introduced": "2026-02-20",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2221",
+        "title": "Supervision of Trustees and Fundraisers for Charitable Purposes Act.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2221",
+        "introduced": "2026-02-19",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2298",
+        "title": "Pupil instruction: computer science: content standards.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2298",
+        "introduced": "2026-02-19",
+        "law": "2026-09-10",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2182",
+        "title": "Energy efficiency: financing options: custom agricultural and industrial efficiency projects.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2182",
+        "introduced": "2026-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2249",
+        "title": "Cannabis: labels, packaging, and advertising.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2249",
+        "introduced": "2026-02-19",
+        "law": "2026-08-31",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2103",
+        "title": "Office of Data and Innovation: Engaged California Program.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2103",
+        "introduced": "2026-02-18",
+        "law": "2026-09-19",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2389",
+        "title": "Property taxation: active solar energy systems: customer sited: extension.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2389",
+        "introduced": "2026-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": false
+      },
+      {
+        "id": "AB 2482",
+        "title": "School districts: reorganization.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2482",
+        "introduced": "2026-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "AB 2692",
+        "title": "Common interest developments: reinstatement of terminated declarations: County of Los Angeles.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2692",
+        "introduced": "2026-02-20",
+        "law": "2026-08-24",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 2532",
+        "title": "Cannabis: labels, packaging, and advertising.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2532",
+        "introduced": "2026-02-20",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "AB 1985",
+        "title": "Student health: athletic coaches and trainers: mental health training.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1985",
+        "introduced": "2026-02-13",
+        "law": "2026-09-30",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      }
+    ],
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0": [
+      {
+        "id": "SB 669",
+        "title": "Rural hospitals: standby perinatal services.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB669",
+        "introduced": "2025-02-20",
+        "law": "2025-10-11",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 581",
+        "title": "Department of Forestry and Fire Protection: employment: firefighters.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB581",
+        "introduced": "2025-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 727",
+        "title": "The Great Redwood Trail Agency.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB727",
+        "introduced": "2025-02-21",
+        "law": "2025-10-06",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1251",
+        "title": "Elementary and secondary education.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1251",
+        "introduced": "2026-02-19",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 1263",
+        "title": "Contractors: debris removal.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1263",
+        "introduced": "2026-02-19",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1152",
+        "title": "Fish and wildlife.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1152",
+        "introduced": "2026-02-18",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 1184",
+        "title": "California Environmental Quality Act.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1184",
+        "introduced": "2026-02-18",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 1163",
+        "title": "Agriculture.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1163",
+        "introduced": "2026-02-18",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 1421",
+        "title": "California Child and Family Service Review System: nonminor dependents.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1421",
+        "introduced": "2026-02-20",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      },
+      {
+        "id": "SB 1346",
+        "title": "California Coastal Commission: powers and duties.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1346",
+        "introduced": "2026-02-20",
+        "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "SB 1393",
+        "title": "Commercial fishing: steelhead trout: Dungeness crab.",
+        "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1393",
+        "introduced": "2026-02-20",
+        "law": "2026-09-27",
+        "vetoed": false,
+        "house": true,
+        "senate": true
+      }
+    ]
+  }
+}

@@ -55,7 +55,10 @@ section{display:flex;flex-direction:column;gap:18px}
 .st.open,.st.soon{color:var(--red)} .st.later{color:var(--soft)} .st.passed{color:var(--soft)}
 .d.is-passed .when{color:var(--faded)} .d.is-passed .when{text-decoration:line-through;text-decoration-thickness:2px}
 .d.is-open{background:var(--red-wash)}
-@media (max-width:560px){.dates{grid-template-columns:1fr 1fr}.d,.d:nth-child(n+4){grid-column:span 1}.d:last-child{grid-column:1/-1}}
+/* The layout above is for 5 dates (3 over 2). Other counts fill their rows evenly. */
+.dates[data-n="2"] .d,.dates[data-n="4"] .d{grid-column:span 3}
+.dates[data-n="3"] .d,.dates[data-n="6"] .d{grid-column:span 2}
+@media (max-width:560px){.dates{grid-template-columns:1fr 1fr}.dates[data-n] .d,.dates[data-n] .d:nth-child(n+4){grid-column:span 1}.dates[data-n] .d:last-child:nth-child(odd){grid-column:1/-1}}
 .reg{display:flex;justify-content:space-between;align-items:center;gap:12px 20px;flex-wrap:wrap;padding:14px}
 .reg p{font-size:1.05rem;font-weight:700}
 .btn{font-family:var(--label);font-stretch:110%;font-weight:600;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--card);background:var(--ink);border:1.5px solid var(--ink);padding:11px 16px;text-decoration:none;display:inline-block;cursor:pointer}
@@ -309,6 +312,7 @@ details.topic .vlist{background:var(--paper)}
 /* State picker in the masthead: looks like a typed value with a caret */
 .statepick{font-family:var(--type);color:var(--ink);background:transparent;border:0;border-bottom:1px dashed var(--soft);border-radius:0;padding:0 22px 2px 0;width:100%;min-height:28px;appearance:none;-webkit-appearance:none;cursor:pointer;
   background-image:linear-gradient(45deg,transparent 50%,var(--ink) 50%),linear-gradient(135deg,var(--ink) 50%,transparent 50%);background-position:calc(100% - 10px) 55%,calc(100% - 5px) 55%;background-size:5px 5px;background-repeat:no-repeat}
+.vote-means{margin-top:8px;white-space:pre-line}
 .mate{font-size:.9rem;color:var(--soft);margin-top:2px}
 /* Person page: slim bar with the person's name, shown once the header scrolls away */
 .pbar{position:fixed;top:0;left:0;right:0;z-index:5;background:var(--card);border-bottom:1.5px solid var(--rule);transform:translateY(-110%);transition:transform .2s ease;pointer-events:none}
@@ -333,3 +337,16 @@ body{min-height:100vh;min-height:100dvh}
 .footrow .motion{align-self:center}
 .statepick:hover{border-bottom-style:solid}
 .vlist .vloading{display:block;color:var(--soft);font-size:.9rem}
+/* Site directory: each state opens like the topic lists on person pages, with a heading like "State guides". */
+.dirstate{border-top:0;flex:1}
+.dirstate>summary{padding:14px}
+.dirstate>summary .tname{color:var(--ink)}
+.dirstate[open]>summary{border-bottom:0}
+.dirstate>.cell{padding-top:0}
+/* Moving between pages: the browser keeps the old page up until the new one is ready, then
+   fades between them, instead of flashing a blank page. Browsers without support just load
+   normally. Off for reduced motion and Pause motion. */
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.18s}
+@media (prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
+:root.still::view-transition-group(*),:root.still::view-transition-old(*),:root.still::view-transition-new(*){animation:none!important}

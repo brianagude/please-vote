@@ -61,6 +61,15 @@ const image = new URL(imagePath, Astro.site);
     <a class="skip" href={skip.href}>{skip.label}</a>
     <slot />
     <script>
+      // "Back to the guide" links marked data-guide go to the state guide this visitor used last.
+      try {
+        const g = JSON.parse(localStorage.getItem("please-vote:guide") || "null");
+        if (g && /^\/([a-z]{2}\/)?$/.test(g.path) && typeof g.name === "string")
+          for (const a of document.querySelectorAll<HTMLAnchorElement>("a[data-guide]")) {
+            a.href = g.path + (a.dataset.guide ?? "");
+            a.textContent = `← Back to the ${g.name} guide`;
+          }
+      } catch {}
       // Tell screen reader users when a link opens a new tab.
       for (const a of document.querySelectorAll('a[target="_blank"]')) {
         const s = document.createElement("span");

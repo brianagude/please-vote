@@ -18,7 +18,7 @@ A nonpartisan guide to Georgia's November 3, 2026 election. It covers the dates,
 | `pipeline/` | The nightly data job, one file per source |
 | `public/photos/` | Candidate photos saved by the nightly job |
 | `tests/` | Rule checks: sources, alphabetical order, completeness |
-| `docs/` | Decisions, data sources, and design spec |
+| `docs/` | Decisions, data sources, design spec, roadmap, and how to add a state (`ADDING_A_STATE.md`) |
 | `prototype/index.html` | The approved design prototype (reference only) |
 
 ## Which file to edit

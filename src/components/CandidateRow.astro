@@ -15,7 +15,8 @@ const bio = sourced(c.bio) ? c.bio : undefined;
 const career = (c.career ?? []).filter(sourced);
 const committees = c.committees?.source ? c.committees.items : [];
 // One short line listing where this candidate's facts came from.
-const used: Source[] = [bio?.source, ...career.map((f) => f.source), committees.length ? c.committees?.source : undefined].filter(
+const ballotAs = sourced(c.ballotAs) ? c.ballotAs : undefined;
+const used: Source[] = [ballotAs?.source, bio?.source, ...career.map((f) => f.source), committees.length ? c.committees?.source : undefined].filter(
   (s): s is Source => !!s,
 );
 const sources = [...new Map(used.map((s) => [s.url, s])).values()];
@@ -34,6 +35,7 @@ const { campaign, official, ballotpedia } = c.links;
       <strong>{c.name}</strong><span class="p">{partyName(c.party)}</span>
       {c.incumbent && <span class="stamp">Has the job now</span>}
     </div>
+    {ballotAs && <p class="mate">On the ballot as: {ballotAs.text}</p>}
     {c.runningMate && <p class="mate">Running with {c.runningMate} for lieutenant governor</p>}
     {bio && <p class="bio">{bio.text}</p>}
     {career.length > 0 && <ul class="career">{career.map((f) => <li>{f.text}</li>)}</ul>}

@@ -28,6 +28,8 @@ export interface Candidate {
   incumbent?: boolean;
   /** Lieutenant governor on the same ticket, where the two are elected together (New York). */
   runningMate?: string;
+  /** The short job title printed under their name on the ballot (California). */
+  ballotAs?: Fact;
   bio?: Fact;
   career?: Fact[];
   committees?: { items: string[]; source?: Source };
@@ -91,7 +93,7 @@ export interface CareerRecord {
   votes?: {
     since: string;
     listed: number;
-    attendance: { missed: number; excused: number; total: number };
+    attendance: { missed: number; excused: number; total: number; note?: string };
     chamber: string;
     source: Source[];
   };
@@ -124,6 +126,9 @@ export interface RunningFor {
   name: string;
   party: string;
   incumbent?: boolean;
+  ballotAs?: Fact;
+  /** Campaign website, from the state's official candidate contact list. */
+  campaign?: string;
 }
 
 export interface KeyDate {

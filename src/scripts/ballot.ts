@@ -201,6 +201,10 @@ function statePicker() {
 }
 
 export function start() {
+  // Remember which state's guide this is, so "Back to the guide" links elsewhere come back here.
+  try {
+    localStorage.setItem("please-vote:guide", JSON.stringify({ path: location.pathname, name: STATE_NAME }));
+  } catch {}
   statePicker();
   motionToggle();
   startBoil();

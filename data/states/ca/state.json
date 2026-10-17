@@ -1,0 +1,132 @@
+{
+  "code": "CA",
+  "name": "California",
+  "asOf": "2026-10-16",
+  "timeZone": "America/Los_Angeles",
+  "election": {
+    "kind": "General election",
+    "date": "2026-11-03",
+    "label": "Tuesday, Nov. 3, 2026",
+    "polls": "7 a.m. – 8 p.m."
+  },
+  "voterPage": "https://voterstatus.sos.ca.gov/",
+  "dates": [
+    {
+      "what": "Register",
+      "when": "By Oct 19",
+      "start": "2026-10-19",
+      "sub": "Missed it? You can still register and vote the same day at a vote center or your county elections office, through Nov 3."
+    },
+    {
+      "what": "Your ballot comes in the mail",
+      "when": "By Oct 5",
+      "start": "2026-10-05",
+      "sub": "Every registered voter gets one. Didn't get yours? Ask your county elections office for a new one."
+    },
+    {
+      "what": "Early voting",
+      "when": "Oct 5–Nov 2",
+      "start": "2026-10-05",
+      "end": "2026-11-02",
+      "sub": "Places and hours vary by county. Many counties open more vote centers on Oct 24."
+    },
+    {
+      "what": "Return your ballot",
+      "when": "By Nov 3",
+      "start": "2026-11-03",
+      "sub": "Mail it postmarked by Nov 3 (it must arrive by Nov 10), or drop it off by 8 p.m. that day."
+    },
+    {
+      "what": "Election day",
+      "when": "Nov 3",
+      "start": "2026-11-03",
+      "sub": "7 a.m. – 8 p.m."
+    }
+  ],
+  "districts": {
+    "house": {
+      "label": "U.S. House",
+      "count": 52
+    },
+    "upper": {
+      "label": "State Senate",
+      "count": 40,
+      "office": "sen"
+    },
+    "lower": {
+      "label": "State Assembly",
+      "count": 80,
+      "office": "asm"
+    }
+  },
+  "groups": [
+    {
+      "id": "fed",
+      "title": "Federal",
+      "sub": "They make laws for the entire country.",
+      "races": [
+        "@house"
+      ]
+    },
+    {
+      "id": "state",
+      "title": "State",
+      "sub": "They run California. Everyone in the state votes on these.",
+      "races": [
+        "governor",
+        "ltgov",
+        "sos",
+        "controller",
+        "treasurer",
+        "ag",
+        "ins",
+        "schools"
+      ]
+    },
+    {
+      "id": "leg",
+      "title": "State lawmakers",
+      "sub": "They write California's laws. Your district decides who's on your ballot.",
+      "races": [
+        "@upper",
+        "@lower"
+      ]
+    },
+    {
+      "id": "q",
+      "title": "Propositions",
+      "sub": "Yes-or-no questions that change California's laws or constitution.",
+      "races": [
+        "?prop1",
+        "?prop2",
+        "?prop3",
+        "?prop4",
+        "?prop5",
+        "?prop37",
+        "?prop38",
+        "?prop39",
+        "?prop40",
+        "?prop41",
+        "?prop42",
+        "?prop43",
+        "?prop44",
+        "?prop45"
+      ]
+    }
+  ],
+  "footerNote": "If your address can't be matched, we fall back to ZIP code. ZIP codes can cross district lines, so double-check yours on your voter page.",
+  "records": {
+    "since": "2023-01-01",
+    "sinceLabel": "2023"
+  },
+  "notes": [
+    {
+      "title": "Why two people from the same party can face off.",
+      "text": "In California's primary, everyone runs on one list and the top two go on to November, whatever their party. So some races have two Democrats or two Republicans."
+    },
+    {
+      "title": "New U.S. House districts this year.",
+      "text": "California redrew its U.S. House districts for 2026, so your district number may have changed. The address lookup uses the new lines."
+    }
+  ]
+}

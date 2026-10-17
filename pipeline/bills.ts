@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { candidates, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
 import { billInfo, gaPassage, gaSoap, type BillInfo } from "./votes.ts";
-import { bulk } from "./osbulk.ts";
+import { bulk, osSessions } from "./osbulk.ts";
 
 /** How far a bill got. "Lower" is the House in Congress and Georgia, the Assembly in New York. */
 export type Status = string;
@@ -195,9 +195,8 @@ async function stateBills(code: string, since: string, people: { id: string; ope
   const sd = stateDir(code);
   const today = new Date().toISOString().slice(0, 10);
   const recent = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
-  // One API request: the list of sessions and their bulk download links.
-  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
-  const sessions = juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since);
+  // The list of sessions and their bulk download links (saved; at most one API request a night).
+  const sessions = (await osSessions(code)).filter((s: any) => (s.end_date || today) >= since);
   const ids = people.map((p) => p.openstates);
   // Georgia: each tracked legislator's Georgia member ID, from the legis.ga.gov link Open States keeps (one request).
   let member: Map<string, string> | undefined;

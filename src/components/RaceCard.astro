@@ -21,7 +21,11 @@ const list = byLastName(candidates);
     {o.term && <div class="cell"><span class="lbl">Term</span><span>{o.term.replace("-year term", " years")}</span></div>}
   </div>
   <div class="row why">
-    <div class="cell"><span class="lbl">{question ? "What it is" : "What they do"}</span><p>{o.one} {o.why}</p></div>
+    <div class="cell">
+      <span class="lbl">{question ? "What it is" : "What they do"}</span>
+      {question ? (<><p>{o.one}</p><p class="vote-means">{o.why}</p></>) : <p>{o.one} {o.why}</p>}
+      {!o.ballot && o.source && <a class="src" href={o.source.url} target="_blank" rel="noopener">Source: {o.source.label}</a>}
+    </div>
   </div>
   {
     list.length > 0 && (

@@ -1,0 +1,42 @@
+{
+  "v": 4,
+  "fetched": "2026-10-17",
+  "people": [
+    "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+    "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0",
+    "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e",
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+  ],
+  "votes": {
+    "ocd-vote/f1a84a9f-b3c9-41ac-8e17-0fd3a62b1a64": {
+      "chamber": "California Assembly",
+      "date": "2023-03-27",
+      "bill": "SB 2",
+      "title": "Energy: transportation fuels: supply and pricing: maximum gross gasoline refining margin.",
+      "topics": [
+        "Utilities and Energy"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320241SB2",
+      "result": "pass",
+      "what": "Passage"
+    },
+    "ocd-vote/eecd66ee-a09e-451d-a0a4-40a8597a21cd": {
+      "chamber": "California Assembly",
+      "date": "2023-03-27",
+      "bill": "SB 2",
+      "title": "Energy: transportation fuels: supply and pricing: maximum gross gasoline refining margin.",
+      "topics": [
+        "Utilities and Energy"
+      ],
+      "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320241SB2",
+      "result": "pass",
+      "what": "Passage"
+    }
+  },
+  "cast": {
+    "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c": {
+      "ocd-vote/f1a84a9f-b3c9-41ac-8e17-0fd3a62b1a64": "yes",
+      "ocd-vote/eecd66ee-a09e-451d-a0a4-40a8597a21cd": "yes"
+    }
+  }
+}

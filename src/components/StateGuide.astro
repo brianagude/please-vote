@@ -25,7 +25,21 @@ const short = (k: string) => {
   if (k === "@house") return { text: D.house.label, key: "house" };
   if (k === "@upper") return { text: D.upper.label };
   if (k === "@lower") return { text: D.lower.label };
-  return { text: O[k.replace("?", "")].title.replace("Public Service Commission", "PSC").replace(/^Amendment (\d+):.*/, "Amendment $1") };
+  return { text: O[k.replace("?", "")].title.replace("Public Service Commission", "PSC").replace(/^Amendment (\d+):.*/, "Amendment $1").replace(/^Prop (\d+):.*/, "Prop $1") };
+};
+// A long list of propositions reads as one line with number ranges: "14 propositions: 1–5 and 37–45".
+const inside = (races: string[]) => {
+  const props = races.map((k) => k.match(/^\?prop(\d+)$/)?.[1]).filter(Boolean).map(Number);
+  if (props.length < 4 || props.length !== races.length) return races.map(short);
+  const runs: string[] = [];
+  for (let i = 0; i < props.length; ) {
+    let j = i;
+    while (j + 1 < props.length && props[j + 1] === props[j] + 1) j++;
+    runs.push(j > i ? `${props[i]}–${props[j]}` : String(props[i]));
+    i = j + 1;
+  }
+  const list = runs.length > 1 ? `${runs.slice(0, -1).join(", ")} and ${runs.at(-1)}` : runs[0];
+  return [{ text: `${props.length} propositions: ${list}` }];
 };
 const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L.running[k] });
 ---
@@ -56,7 +70,7 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
     <div class="groups" id="ballot">
       {
         config.groups.map((g) => (
-          <BallotGroup id={g.id} title={g.title} sub={g.sub} inside={g.races.map(short)}>
+          <BallotGroup id={g.id} title={g.title} sub={g.sub} inside={inside(g.races)}>
             {g.races.map((k) => {
               if (k === "@house")
                 return (
@@ -93,13 +107,14 @@ const chamber = (k: "upper" | "lower") => ({ k, ...D[k], seats: L[k], running: L
                                 <span class="lbl">Candidates</span>
                                 <ul class="cands">
                                   {running.map((c) => (
-                                    <CandidateRow c={{ id: `${ch.k}-${n}-${c.name}`, name: c.name, party: c.party, incumbent: c.incumbent, links: {} }} />
+                                    <CandidateRow c={{ id: `${ch.k}-${n}-${c.name}`, name: c.name, party: c.party, incumbent: c.incumbent, ballotAs: c.ballotAs, links: c.campaign ? { campaign: c.campaign } : {} }} />
                                   ))}
                                 </ul>
-                                {running.length === 1 && <p class="rnote">Only one person is running for this seat.</p>}
+                                {running.length === 1 && <p class="rnote">This person is running unopposed.</p>}
                                 <a class="src" href={L.running.source.url} target="_blank" rel="noopener">Candidate list: {L.running.source.label}</a>
                               </>
                             )}
+                            {running.length === 0 && L.running[ch.k] && Object.keys(L.running[ch.k]).length > 0 && <p class="rnote">This seat isn't on the ballot this year.</p>}
                             {p && !running.some((c) => c.incumbent) && (
                               <p class="holder">
                                 <span class="lbl">Has the seat now</span>

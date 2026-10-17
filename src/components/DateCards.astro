@@ -10,12 +10,12 @@ const { config } = Astro.props;
 <section aria-labelledby="s1">
   <div class="shead"><span class="no">01</span><h2 class="disp" id="s1">Mark your calendar</h2></div>
   <div class="sheet">
-    <div class="dates" id="dates">
+    <div class="dates" id="dates" data-n={config.dates.length}>
       {
         config.dates.map((d) => (
           <div class="d" data-start={d.start} data-end={d.end}>
             <span class="lbl">{d.what}</span>
-            <span class="when">{d.when}</span>
+            <span class="when">{d.when.replace(/ /g, "\u00a0")}</span>
             {d.sub && <span class="sub">{d.sub}</span>}
             <span class="st" />
           </div>

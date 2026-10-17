@@ -5,12 +5,18 @@ interface Props {
   states: { code: string; name: string; path: string }[];
 }
 const { config, states } = Astro.props;
+// Days to go as of the build, so the number takes its space right away instead of popping in
+// and pushing the page down. The browser corrects it for the day it's read.
+const today = new Date().toLocaleDateString("en-CA", { timeZone: config.timeZone });
+const days = Math.round((Date.parse(config.election.date) - Date.parse(today)) / 864e5);
+const n = days > 0 ? String(days) : days === 0 ? "Today" : "Done";
+const label = days > 1 ? "Days to go" : days === 1 ? "Day to go" : days === 0 ? "It's election day" : "Thanks for voting";
 ---
 <header class="sheet mast">
   <div class="row r1">
     <div class="cell"><span class="lbl">{config.election.kind}</span><h1 class="disp">Election Day Need-to-Know</h1></div>
     <div class="cell count" id="count" data-election={config.election.date}>
-      <span class="lbl" id="count-l">Days to go</span><span class="n" id="count-n"></span>
+      <span class="lbl" id="count-l">{label}</span><span class="n" id="count-n">{n}</span>
     </div>
   </div>
   <div class="row r2">

@@ -19,7 +19,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { candidates, get, getJSON, log, readJSON, stateDir, writeJSON } from "./lib.ts";
-import { bulk } from "./osbulk.ts";
+import { bulk, osSessions } from "./osbulk.ts";
 
 export type Cast = "Yes" | "No" | "Present" | "Excused" | "Didn't vote";
 
@@ -37,7 +37,8 @@ export type VoteTuple = [string, string, string, string, Cast, 0 | 1];
 export interface VoteRecord {
   since: string;
   /** missed counts every vote they didn't cast; excused is the part of that the chamber excused (Georgia only). */
-  attendance: { missed: number; excused: number; total: number };
+  /** note: a plain line about how this state records not voting, shown after the count. */
+  attendance: { missed: number; excused: number; total: number; note?: string };
   votes: VoteTuple[];
   source: { label: string; url: string }[];
 }
@@ -508,8 +509,7 @@ async function georgia(code: string, since: string, people: { id: string; openst
   const key = process.env.OPENSTATES_API_KEY;
   if (!key) throw new Error("OPENSTATES_API_KEY is not set");
   const today = new Date().toISOString().slice(0, 10);
-  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
-  const sessions = juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since);
+  const sessions = (await osSessions(code)).filter((s: any) => (s.end_date || today) >= since);
 
   const sx = await gaSoap("Session", "GetSessions", `<GetSessions xmlns="http://www.legis.ga.gov/2009/01/01/services/"/>`);
   const gaIds: Record<string, number> = {};
@@ -582,88 +582,165 @@ async function georgia(code: string, since: string, people: { id: string; openst
   return out;
 }
 
-// ---------- New York State Legislature ----------
-// Open States bulk CSV per session. New York labels its votes well enough to use directly:
-//   Senate "Floor Vote" (and "Floor Vote - Version: A") and Assembly "Assembly Vote" are
-//   final votes on the floor; "Health Vote", "Rules Vote", etc. are committee votes and
-//   "MOTION:..." are procedural, so those are left out.
-// "Excused" and "absent" come apart already. New York's bills have no subject list, so the
-// topic is the committee each bill was first sent to ("REFERRED TO HEALTH" -> "Health").
+// ---------- State legislatures from Open States bulk files (New York, California) ----------
+// One shared reader: each session's bulk CSV, with each state's own small rules (below) for
+// which votes are final floor votes and how to name the committee a bill was first sent to,
+// which stands in for its topic (these states' bills have no subject list).
 
-type NyVote = { chamber: string; date: string; bill: string; title: string; topics: string[]; url: string; result: string };
-type NySession = { v: number; fetched: string; people: string[]; votes: Record<string, NyVote>; cast: Record<string, Record<string, string>> };
+type BulkVote = { chamber: string; date: string; bill: string; title: string; topics: string[]; url: string; result: string; what: string };
+type BulkSession = { v: number; fetched: string; people: string[]; votes: Record<string, BulkVote>; cast: Record<string, Record<string, string>> };
 
-// A few New York committee names that don't say what they cover.
+interface StateRules {
+  /** "New York Senate" etc. */
+  chamber: (orgName: string, orgClass: string) => string;
+  /** A final vote on the floor, not a committee or procedural vote. */
+  isFloor: (v: Record<string, string>, voters: number, orgClass: string) => boolean;
+  /** What the vote was for, in plain words. */
+  what: (v: Record<string, string>) => string;
+  /** The committee named in a referral action ("REFERRED TO HEALTH"), or null. */
+  referral: (description: string) => string | null;
+  /** Committees that say nothing about the topic (Rules, Appropriations): a policy committee wins over these. */
+  skip: string[];
+  /** The legislature's own site, shown as a source. */
+  source: { label: string; url: string };
+  /** A plain line after the attendance count, when the state records not voting in a way worth saying. */
+  attendanceNote?: string;
+}
+
+// New York labels its votes well enough to use directly: Senate "Floor Vote" (and "Floor Vote -
+// Version: A") and Assembly "Assembly Vote" are final votes on the floor; "Health Vote", "Rules
+// Vote", etc. are committee votes and "MOTION:..." are procedural. "Excused" and "absent" come apart.
+// A few committee names that don't say what they cover get plain names.
 const NY_PLAIN: Record<string, string> = {
   Codes: "Criminal Law (Codes)",
   "Ways and Means": "Taxes and Budget (Ways and Means)",
 };
-const nyFloor = (motion: string) => /^(Floor Vote|Assembly Vote)\b/.test(motion);
+const NEW_YORK: StateRules = {
+  chamber: (name) => (/assembly/i.test(name) ? "New York Assembly" : "New York Senate"),
+  isFloor: (v) => /^(Floor Vote|Assembly Vote)\b/.test(v.motion_text),
+  what: () => "Passage",
+  referral: (d) => {
+    const m = d.match(/^referred to\s+(.+)$/i);
+    if (!m) return null;
+    const name = titleCase(m[1].trim());
+    return NY_PLAIN[name] ?? name;
+  },
+  skip: ["Rules"],
+  source: { label: "New York State Senate and Assembly", url: "https://www.nysenate.gov/legislation" },
+};
 
-async function nySession(s: any, people: string[], cacheDir: string): Promise<NySession | null> {
-  const file = path.join(cacheDir, `ny-votes-${s.identifier}.json`);
+// California files committee votes under the whole Senate or Assembly too, so a floor vote is told
+// apart by how many members voted (committees have a handful; the floor has most of the 40 or 80).
+// Of those, only final votes on a bill count: third reading, consent calendar, agreeing to the other
+// chamber's changes, and veto overrides. Each member votes yes, no, or "other" (absent, abstaining,
+// or not voting). Committee names come abbreviated ("Com. on PUB. S."), so each gets its full name.
+const CA_COMMITTEES: Record<string, string> = {
+  JUD: "Judiciary", HEALTH: "Health", PUBS: "Public Safety", ED: "Education", TRANS: "Transportation",
+  LGOV: "Local Government", NATRES: "Natural Resources", "H&CD": "Housing and Community Development",
+  "REV&TAX": "Taxes (Revenue and Taxation)", GO: "Governmental Organization", BUDGET: "Budget",
+  "P&CP": "Privacy and Consumer Protection", "U&E": "Utilities and Energy", HUMS: "Human Services",
+  HUMANS: "Human Services", HUMANSS: "Human Services", "B&P": "Business and Professions",
+  HIGHERED: "Higher Education", EQ: "Environmental Quality", "NR&W": "Natural Resources and Water",
+  HOUSING: "Housing", "L,PE&R": "Labor, Public Employment and Retirement", "L&E": "Labor and Employment",
+  INS: "Insurance", "W,P,&W": "Water, Parks, and Wildlife", ELECTIONS: "Elections", EM: "Emergency Management",
+  "E&CA": "Elections and Constitutional Amendments", "B&FR": "Budget", "BP&ED": "Business, Professions and Economic Development",
+  "B,P&ED": "Business, Professions and Economic Development", "GOV&F": "Governance and Finance", AGRI: "Agriculture",
+  "ES&TM": "Environmental Safety and Toxic Materials", "M&VA": "Military and Veterans Affairs",
+  "E,U&C": "Energy, Utilities and Communications", "B&F": "Banking and Finance", "C&C": "Communications and Conveyance",
+  "PE&R": "Public Employment and Retirement", "P,DT,&CP": "Privacy, Digital Technologies, and Consumer Protection",
+  "B&FI": "Banking and Financial Institutions", "AGING&LTC": "Aging and Long-Term Care",
+  "A,E,S,&T": "Arts, Entertainment, Sports, and Tourism", "A,E,S,T": "Arts, Entertainment, Sports, and Tourism",
+  "A&AR": "Accountability and Administrative Review", "J,ED,&E": "Jobs, Economic Development, and the Economy",
+  APPR: "Appropriations", RLS: "Rules",
+};
+const CALIFORNIA: StateRules = {
+  chamber: (_, cls) => (cls === "lower" ? "California Assembly" : "California Senate"),
+  isFloor: (v, voters, cls) =>
+    voters >= (cls === "lower" ? 50 : 25) &&
+    !/reconsider|W\/O REF/i.test(v.motion_text) &&
+    (v.motion_classification.includes("passage") || /concurrence|consent|override/i.test(v.motion_text)),
+  what: (v) =>
+    /override/i.test(v.motion_text) ? "Override the governor's veto" : /concurrence/i.test(v.motion_text) ? "Agree to the other chamber's changes" : "Passage",
+  referral: (d) => {
+    // "Referred to Com. on PUB. S." / "Re-referred to Coms. on TRANS. and JUD." -> the first one named.
+    const m = d.match(/referred to Coms?\. on ([A-Z][A-Z.,&' ]*[A-Z.])/i);
+    if (!m) return null;
+    const key = m[1].split(/,? and |, (?=[A-Z]+\.)/)[0].replace(/[.\s]/g, "");
+    return CA_COMMITTEES[key] ?? "Other";
+  },
+  skip: ["Appropriations", "Rules", "Other"],
+  source: { label: "California Legislative Information", url: "https://leginfo.legislature.ca.gov" },
+  attendanceNote: "California counts being absent and choosing not to vote the same way.",
+};
+
+async function bulkSession(code: string, rules: StateRules, s: any, people: string[], cacheDir: string): Promise<BulkSession | null> {
+  const file = path.join(cacheDir, `${code}-votes-${s.identifier}.json`);
   const today = new Date().toISOString().slice(0, 10);
   const recent = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
-  const old: NySession | null = fs.existsSync(file) ? readJSON(file) : null;
-  if (old && old.v === 3 && s.end_date && s.end_date < recent && people.every((p) => old.people.includes(p))) return old;
+  const old: BulkSession | null = fs.existsSync(file) ? readJSON(file) : null;
+  if (old && old.v === 4 && s.end_date && s.end_date < recent && people.every((p) => old.people.includes(p))) return old;
   const zipUrl = s.downloads?.find((d: any) => /csv/.test(d.url))?.url;
   if (!zipUrl) return old;
 
   // Shared with the bills step, so each session's zip is downloaded once per run.
   const csv = await bulk(zipUrl);
-  {
-
-    const bills = new Map(csv("bills").map((b) => [b.id, b]));
-    const orgs = new Map(csv("organizations").map((o) => [o.id, o.name]));
-    const sources = new Map<string, string>();
-    for (const r of csv("bill_sources")) if (!sources.has(r.bill_id) && /^https?:/.test(r.url)) sources.set(r.bill_id, r.url);
-    // The first committee each bill was sent to. Many bills also go to Rules near the end of
-    // session, which says nothing about the topic, so a policy committee wins over Rules.
-    const committee = new Map<string, string>();
-    for (const a of csv("bill_actions").sort((x, y) => x.date.localeCompare(y.date) || Number(x.order) - Number(y.order))) {
-      const m = a.description.match(/^referred to\s+(.+)$/i);
-      if (!m) continue;
-      const name = titleCase(m[1].trim());
-      const cur = committee.get(a.bill_id);
-      if (!cur || (cur === "Rules" && name !== "Rules")) committee.set(a.bill_id, name);
-    }
-    const votes: Record<string, NyVote> = {};
-    for (const v of csv("votes")) {
-      if (!nyFloor(v.motion_text)) continue;
-      const b = bills.get(v.bill_id);
-      if (!b || !JSON.parse(b.classification.replace(/'/g, '"')).includes("bill")) continue;
-      votes[v.id] = {
-        chamber: /assembly/i.test(orgs.get(v.organization_id) ?? "") ? "New York Assembly" : "New York Senate",
-        date: v.start_date.slice(0, 10),
-        bill: b.identifier,
-        title: b.title,
-        topics: [NY_PLAIN[committee.get(v.bill_id) ?? ""] ?? committee.get(v.bill_id) ?? "Other"],
-        url: sources.get(v.bill_id) ?? "",
-        result: v.result,
-      };
-    }
-    const want = new Set(people);
-    const castBy: Record<string, Record<string, string>> = {};
-    for (const r of csv("vote_people")) if (want.has(r.voter_id) && votes[r.vote_event_id]) (castBy[r.voter_id] ??= {})[r.vote_event_id] = r.option;
-    const out: NySession = { v: 3, fetched: today, people, votes, cast: castBy };
-    writeJSON(file, out);
-    return out;
+  const bills = new Map(csv("bills").map((b) => [b.id, b]));
+  const orgs = new Map(csv("organizations").map((o) => [o.id, o]));
+  // Each bill's link: a page people can read (not an /api/ address), and the same one every night
+  // (the file lists a bill's links in a different order from day to day).
+  const sources = new Map<string, string>();
+  for (const r of csv("bill_sources")) {
+    if (!/^https?:/.test(r.url) || /\/api\//.test(r.url)) continue;
+    const cur = sources.get(r.bill_id);
+    if (!cur || r.url < cur) sources.set(r.bill_id, r.url);
   }
+  // The first committee each bill was sent to; a policy committee wins over Rules and the like.
+  const committee = new Map<string, string>();
+  for (const a of csv("bill_actions").sort((x, y) => x.date.localeCompare(y.date) || Number(x.order) - Number(y.order))) {
+    const name = rules.referral(a.description);
+    if (!name) continue;
+    const cur = committee.get(a.bill_id);
+    if (!cur || (rules.skip.includes(cur) && !rules.skip.includes(name))) committee.set(a.bill_id, name);
+  }
+  const people_ = csv("vote_people");
+  const voters: Record<string, number> = {};
+  for (const r of people_) voters[r.vote_event_id] = (voters[r.vote_event_id] ?? 0) + 1;
+  const votes: Record<string, BulkVote> = {};
+  for (const v of csv("votes")) {
+    const org = orgs.get(v.organization_id);
+    if (!rules.isFloor(v, voters[v.id] ?? 0, org?.classification ?? "")) continue;
+    const b = bills.get(v.bill_id);
+    if (!b || !JSON.parse(b.classification.replace(/'/g, '"')).includes("bill")) continue;
+    const topic = committee.get(v.bill_id);
+    votes[v.id] = {
+      chamber: rules.chamber(org?.name ?? "", org?.classification ?? ""),
+      date: v.start_date.slice(0, 10),
+      bill: b.identifier,
+      title: b.title,
+      topics: [topic ?? "Other"],
+      url: sources.get(v.bill_id) ?? "",
+      result: v.result,
+      what: rules.what(v),
+    };
+  }
+  const want = new Set(people);
+  const castBy: Record<string, Record<string, string>> = {};
+  for (const r of people_) if (want.has(r.voter_id) && votes[r.vote_event_id]) (castBy[r.voter_id] ??= {})[r.vote_event_id] = r.option;
+  const out: BulkSession = { v: 4, fetched: today, people, votes, cast: castBy };
+  writeJSON(file, out);
+  return out;
 }
 
-async function newYork(code: string, since: string, people: { id: string; openstates: string }[]) {
-  const key = process.env.OPENSTATES_API_KEY;
-  if (!key) throw new Error("OPENSTATES_API_KEY is not set");
+async function bulkState(code: string, rules: StateRules, since: string, people: { id: string; openstates: string }[]) {
   const cacheDir = path.join(stateDir(code), "generated/cache");
   const today = new Date().toISOString().slice(0, 10);
-  const juris = await getJSON(`https://v3.openstates.org/jurisdictions/${code}?include=legislative_sessions`, { headers: { "X-API-KEY": key } });
   const ids = people.map((p) => p.openstates);
-  const data: (NySession & { session: string })[] = [];
-  for (const s of juris.legislative_sessions.filter((s: any) => (s.end_date || today) >= since)) {
-    const d = await nySession(s, ids, cacheDir);
+  const data: (BulkSession & { session: string })[] = [];
+  for (const s of (await osSessions(code)).filter((s: any) => (s.end_date || today) >= since)) {
+    const d = await bulkSession(code, rules, s, ids, cacheDir);
     if (d) data.push({ ...d, session: s.identifier });
   }
-  log("votes", `new york: ${data.reduce((n, d) => n + Object.keys(d.votes).length, 0)} floor votes in ${data.length} sessions`);
+  log("votes", `${code}: ${data.reduce((n, d) => n + Object.keys(d.votes).length, 0)} floor votes in ${data.length} sessions`);
 
   const out: VotesFile = { bills: {}, people: {} };
   for (const p of people) {
@@ -682,7 +759,7 @@ async function newYork(code: string, since: string, people: { id: string; openst
           ref: { bill: v.bill, title: v.title, url: v.url, topics: v.topics },
           date: v.date,
           chamber: v.chamber,
-          what: "Passage",
+          what: v.what,
           vote: c,
           passed: v.result === "pass",
         });
@@ -691,16 +768,16 @@ async function newYork(code: string, since: string, people: { id: string; openst
     if (!total) continue;
     out.people[p.id] = {
       since,
-      attendance: { missed, excused, total },
+      attendance: { missed, excused, total, ...(rules.attendanceNote && missed ? { note: rules.attendanceNote } : {}) },
       votes: pack(rows, out.bills),
-      source: [
-        { label: "Open States", url: `https://openstates.org/person/${p.openstates.replace("ocd-person/", "")}/` },
-        { label: "New York State Senate and Assembly", url: "https://www.nysenate.gov/legislation" },
-      ],
+      source: [{ label: "Open States", url: `https://openstates.org/person/${p.openstates.replace("ocd-person/", "")}/` }, rules.source],
     };
   }
   return out;
 }
+
+/** Which states use the shared bulk-file reader, and with which rules. */
+const BULK_STATES: Record<string, StateRules> = { ny: NEW_YORK, ca: CALIFORNIA };
 
 /** One line per bill and per person, so nightly changes show up as small diffs. */
 function writeVotes(file: string, d: VotesFile): boolean {
@@ -727,7 +804,7 @@ export async function votes(code: string) {
   // Each source is independent: if one fails, keep yesterday's records for its people.
   for (const [name, ids, run] of [
     ["federal", fed.map((p) => p.id), () => federal(code, since, fed)],
-    ["state", st.map((p) => p.id), () => (code === "ga" ? georgia(code, since, st) : code === "ny" ? newYork(code, since, st) : Promise.resolve({ bills: {}, people: {} }))],
+    ["state", st.map((p) => p.id), () => (code === "ga" ? georgia(code, since, st) : BULK_STATES[code] ? bulkState(code, BULK_STATES[code], since, st) : Promise.resolve({ bills: {}, people: {} }))],
   ] as const) {
     try {
       const got = await run();

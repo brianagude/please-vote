@@ -1,0 +1,1069 @@
+{
+  "asOf": "2026-10-16",
+  "upper": {
+    "1": {
+      "name": "Megan Dahle",
+      "party": "R",
+      "openstates": "ocd-person/1509d608-4d2b-4ebc-be73-b4cd6c06b7c6",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/megan-dahle-dhKhkAAkBDu5BE6xcltWY/"
+      }
+    },
+    "2": {
+      "name": "Mike McGuire",
+      "party": "D",
+      "openstates": "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/mike-mcguire-4uDwk1u7mF3uNJSONooGWG/"
+      }
+    },
+    "3": {
+      "name": "Christopher Cabaldon",
+      "party": "D",
+      "openstates": "ocd-person/8833976f-b95a-45bf-bbd9-ccdb66946d20",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/christopher-cabaldon-490X6D43Wsp9X7buUypaJE/"
+      }
+    },
+    "4": {
+      "name": "Marie Alvarado-Gil",
+      "party": "R",
+      "openstates": "ocd-person/b6907bd6-05e1-44a4-bfc6-db4b672ff8b4",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/marie-alvarado-gil-5YUdEL5RTIImGLmOCoFkJw/"
+      }
+    },
+    "5": {
+      "name": "Jerry McNerney",
+      "party": "D",
+      "openstates": "ocd-person/e9733632-df5d-48b4-b4a3-4768e7dcb5f7",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jerry-mcnerney-76VrZYQ8ooj9846wLQglbL/"
+      }
+    },
+    "6": {
+      "name": "Roger Niello",
+      "party": "R",
+      "openstates": "ocd-person/ee85bc79-20ee-4046-905e-ad797995fa41",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/roger-niello-7G5I4K8v0DsIbYyBU3Sz8D/"
+      }
+    },
+    "7": {
+      "name": "Jesse Arreguín",
+      "party": "D",
+      "openstates": "ocd-person/83a64401-d95d-42c5-8cfc-03bd29e4adc8",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jesse-arreguin-40PyfAIqIropoFpD071PgG/"
+      }
+    },
+    "8": {
+      "name": "Angelique Ashby",
+      "party": "D",
+      "openstates": "ocd-person/564f2203-7cae-4a40-bc93-5c05a935b98f",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/angelique-ashby-2crVF9NmcEHB0YxRhqpg9n/"
+      }
+    },
+    "9": {
+      "name": "Tim Grayson",
+      "party": "D",
+      "openstates": "ocd-person/972cffb0-32a6-4cef-8a0f-a8cd901395b0",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tim-grayson-4bGPABbsw6dFRBia5mPAC8/"
+      }
+    },
+    "11": {
+      "name": "Scott Wiener",
+      "party": "D",
+      "openstates": "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/scott-wiener-6lsgrCgvjfspYcr3jpsa5e/"
+      }
+    },
+    "12": {
+      "name": "Shannon Grove",
+      "party": "R",
+      "openstates": "ocd-person/b4b8e8fb-831b-4cae-9081-b8f75477fcd0",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/shannon-grove-5V17cpGtXDjzhb6z6Jxcky/"
+      }
+    },
+    "13": {
+      "name": "Josh Becker",
+      "party": "D",
+      "openstates": "ocd-person/c71137b2-3fc3-48bf-b0ad-6c29aff98268",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/josh-becker-63dLAnWBOBG5gYvlBbz1XU/"
+      }
+    },
+    "14": {
+      "name": "Anna Caballero",
+      "party": "D",
+      "openstates": "ocd-person/fe462917-df55-4a43-9fd8-970541544ca6",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/anna-caballero-7jo7693ZI31cwOmvvBsK0s/"
+      }
+    },
+    "15": {
+      "name": "Dave Cortese",
+      "party": "D",
+      "openstates": "ocd-person/0fa65d2c-6020-4586-a6f1-5dfd41db38ff",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/dave-cortese-TWudHoz3xWcpzCLnyfrEl/"
+      }
+    },
+    "16": {
+      "name": "Melissa Hurtado",
+      "party": "D",
+      "openstates": "ocd-person/ee9910a2-0b27-46e0-be87-43c800596b41",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/melissa-hurtado-7GE7jO4olKnoRqh4MaC5lh/"
+      }
+    },
+    "17": {
+      "name": "John Laird",
+      "party": "D",
+      "openstates": "ocd-person/7476789f-49a4-491a-b294-9d1486f24193",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/john-laird-3XlFaQLZB0DLk0mE9HAGoN/"
+      }
+    },
+    "18": {
+      "name": "Steve Padilla",
+      "party": "D",
+      "openstates": "ocd-person/eb745b9e-4ced-494a-a298-fdffa9207b0d",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/steve-padilla-7AIN63Z7hros7nhjbmWHdt/"
+      }
+    },
+    "19": {
+      "name": "Rosilicie Ochoa Bogh",
+      "party": "R",
+      "openstates": "ocd-person/cb5b9356-6798-44d2-8dc2-caf5651ac4e3",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/rosilicie-ochoa-bogh-6BjI8Qh4MYmJkO0oeoALcB/"
+      }
+    },
+    "20": {
+      "name": "Caroline Menjivar",
+      "party": "D",
+      "openstates": "ocd-person/b19c0361-ca41-4cba-bcf4-b7342a67f28b",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/caroline-menjivar-5P8wHnJzr2HVN2bDJGeYep/"
+      }
+    },
+    "21": {
+      "name": "Monique Limón",
+      "party": "D",
+      "openstates": "ocd-person/e924a3ec-c7c0-4094-8504-7611bcf8979f",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/monique-limon-75vxKC1syP4Km0kgWdlDzj/"
+      }
+    },
+    "22": {
+      "name": "Susan Rubio",
+      "party": "D",
+      "openstates": "ocd-person/cb0f6477-568f-49db-aba3-f88e7bccbefc",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/susan-rubio-6BATYbrTpWkxpvEmwVNgM8/"
+      }
+    },
+    "23": {
+      "name": "Suzette Valladares",
+      "party": "R",
+      "openstates": "ocd-person/fb1c2c06-108c-41bf-9f08-44a9f8e0cb08",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/suzette-valladares-7dpwonUHUBn45oHA9yAFlQ/"
+      }
+    },
+    "24": {
+      "name": "Ben Allen",
+      "party": "D",
+      "openstates": "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/ben-allen-72ASxK9bXvDQwlApBfTC6N/"
+      }
+    },
+    "25": {
+      "name": "Sasha Pérez",
+      "party": "D",
+      "openstates": "ocd-person/aa59bbc8-0f05-4974-a88a-2e805deb26b4",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/sasha-perez-5BRhdsEXMPiRJsEB0K5Rcy/"
+      }
+    },
+    "26": {
+      "name": "María Elena Durazo",
+      "party": "D",
+      "openstates": "ocd-person/b3f55460-f87b-4db4-b6a5-35a735f34076",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/maria-elena-durazo-5TZk24AveCVVjb7oFHaFbq/"
+      }
+    },
+    "27": {
+      "name": "Henry Stern",
+      "party": "D",
+      "openstates": "ocd-person/66bd4b32-5536-4bae-ab55-08c0b70ca5fd",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/henry-stern-37riwFn37s8mamsuhR7oTN/"
+      }
+    },
+    "28": {
+      "name": "Lola Smallwood-Cuevas",
+      "party": "D",
+      "openstates": "ocd-person/37f2dc9f-d788-4f71-b794-093c8816333b",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/lola-smallwood-cuevas-1hZZ6Fq6HMA3yCvTjy5WSx/"
+      }
+    },
+    "29": {
+      "name": "Eloise Reyes",
+      "party": "D",
+      "openstates": "ocd-person/19f694d8-b409-40e5-9f87-d8e3e84afc7f",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/eloise-reyes-mzUlPHDphYpi1OvP5KBlX/"
+      }
+    },
+    "30": {
+      "name": "Bob Archuleta",
+      "party": "D",
+      "openstates": "ocd-person/a76028df-5730-47b0-b617-1565621def41",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/bob-archuleta-55pf9Egd2B241p5C7tCvmD/"
+      }
+    },
+    "31": {
+      "name": "Sabrina Cervantes",
+      "party": "D",
+      "openstates": "ocd-person/61cc77e3-551f-40e6-bb6f-16edd89b04db",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/sabrina-cervantes-2yXhH6Omrc8HWh33A4zIoV/"
+      }
+    },
+    "32": {
+      "name": "Kelly Seyarto",
+      "party": "R",
+      "openstates": "ocd-person/d9462f08-2b27-4969-8436-9a1c21534a40",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/kelly-seyarto-6bzPMDM9yxMwPrHPAGHy9g/"
+      }
+    },
+    "33": {
+      "name": "Lena Gonzalez",
+      "party": "D",
+      "openstates": "ocd-person/cb6cc457-59f8-4dd8-aeb5-691c3795ffb7",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/lena-gonzalez-6Br9EouplEmSq5IrGp6l79/"
+      }
+    },
+    "34": {
+      "name": "Tom Umberg",
+      "party": "D",
+      "openstates": "ocd-person/cecabb81-51ab-46f5-9815-cc3486da0632",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tom-umberg-6ID4EiKp0yaDhEG3FSCAmg/"
+      }
+    },
+    "35": {
+      "name": "Laura Richardson",
+      "party": "D",
+      "openstates": "ocd-person/bd78b1b9-6d92-4c67-a1f4-0548575f3aa5",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/laura-richardson-5lWhqYPKmOZlLUEiuiPAAP/"
+      }
+    },
+    "36": {
+      "name": "Tony Strickland",
+      "party": "R",
+      "openstates": "ocd-person/3dae8bef-7fb2-40a0-afee-78d79212521b",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tony-strickland-1sOIb6fIy8pU8X2Yz0eB5P/"
+      }
+    },
+    "37": {
+      "name": "Steve Choi",
+      "party": "R",
+      "openstates": "ocd-person/8b61aa87-d573-47e2-b17b-bd0edd3c8cf2",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/steve-choi-4F0Z9XtX30FFRz4eczAfMw/"
+      }
+    },
+    "38": {
+      "name": "Catherine Blakespear",
+      "party": "D",
+      "openstates": "ocd-person/39e3ce0f-c2e2-4480-9e99-76e1e62f366d",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/catherine-blakespear-1lEfWddf1LJlVBr88LPROf/"
+      }
+    },
+    "39": {
+      "name": "Akilah Weber Pierson",
+      "party": "D",
+      "openstates": "ocd-person/6c2a35d5-c04c-44d0-8bd9-92a625e2b525",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/akilah-weber-pierson-3I6SbtllPGYw0iniA0ZeUP/"
+      }
+    },
+    "40": {
+      "name": "Brian Jones",
+      "party": "R",
+      "openstates": "ocd-person/ea5c3b3d-bbad-41f6-a912-69f60f1553a4",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/brian-jones-78ELyGR6tpqu9pwkzNKwnk/"
+      }
+    }
+  },
+  "lower": {
+    "1": {
+      "name": "Heather Hadwick",
+      "party": "R",
+      "openstates": "ocd-person/3b125433-5362-42e2-a2b5-b608962c9481",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/heather-hadwick-1nSvGQ5pk6KCzQcjV8r3c9/"
+      }
+    },
+    "2": {
+      "name": "Chris Rogers",
+      "party": "D",
+      "openstates": "ocd-person/84a80bdb-37d5-4f52-8f55-e116fb97ca58",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/chris-rogers-42JmdmOBIgsoDOoAGdDiTQ/"
+      }
+    },
+    "4": {
+      "name": "Cecilia Aguiar-Curry",
+      "party": "D",
+      "openstates": "ocd-person/434bcfb4-1279-40cc-916b-f89af5805a9c",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/cecilia-aguiar-curry-22z8AalOo8QsISWxTrruf6/"
+      }
+    },
+    "5": {
+      "name": "Joe Patterson",
+      "party": "R",
+      "openstates": "ocd-person/c7a404d9-03f7-4e82-b730-1623da31d4cc",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/joe-patterson-64iQefFynSk8D5MrZClWCy/"
+      }
+    },
+    "6": {
+      "name": "Maggy Krell",
+      "party": "D",
+      "openstates": "ocd-person/e8ac7b26-03a5-4818-b05d-0f379029bbdb",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/maggy-krell-7532ipUKoRZ2K7qxqJh8uJ/"
+      }
+    },
+    "7": {
+      "name": "Joshua Hoover",
+      "party": "R",
+      "openstates": "ocd-person/71aa54c0-3fad-499c-928e-ffbb692a970b",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/joshua-hoover-3STyPpHwhUuWRyRJDetQkN/"
+      }
+    },
+    "8": {
+      "name": "David Tangipa",
+      "party": "R",
+      "openstates": "ocd-person/748ce69c-a2bc-41a7-95e2-b09fba6e5ecd",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/david-tangipa-3XvV6sHKB12S3pQOThAtPZ/"
+      }
+    },
+    "9": {
+      "name": "Heath Flora",
+      "party": "R",
+      "openstates": "ocd-person/c830a90c-8964-4c0f-b31b-729cab1144fd",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/heath-flora-65khbFNdTi2aA3p0nCqsm5/"
+      }
+    },
+    "10": {
+      "name": "Stephanie Nguyen",
+      "party": "D",
+      "openstates": "ocd-person/62102f53-b531-4290-9699-05a0d7687cae",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/stephanie-nguyen-2z2dxeeS7Oi6uNxZ5WWhYc/"
+      }
+    },
+    "11": {
+      "name": "Lori Wilson",
+      "party": "D",
+      "openstates": "ocd-person/926d1337-0318-4c12-a291-178f10199b23",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/lori-wilson-4SIj5Ha9jZk6Kv6LRcSAlv/"
+      }
+    },
+    "12": {
+      "name": "Damon Connolly",
+      "party": "D",
+      "openstates": "ocd-person/32e06e60-77ac-4c5e-af1e-2110b602dc97",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/damon-connolly-1Y0BGMRp3E70goGtm534dT/"
+      }
+    },
+    "13": {
+      "name": "Rhodesia Ransom",
+      "party": "D",
+      "openstates": "ocd-person/86d18985-f35b-4e16-9fcc-663394a156ff",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/rhodesia-ransom-46OjIMhaTtKO5LKfvZoLKJ/"
+      }
+    },
+    "14": {
+      "name": "Buffy Wicks",
+      "party": "D",
+      "openstates": "ocd-person/8230907e-9ae3-4ae9-b52a-c8464a157f64",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/buffy-wicks-3xfCBPBFmuZG8N34eFwG28/"
+      }
+    },
+    "15": {
+      "name": "Anamarie Avila Farias",
+      "party": "D",
+      "openstates": "ocd-person/c3921173-9680-4387-a70e-ebba5c599846",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/anamarie-avila-farias-5x2FwIlCMDfORdxZpMQ4Fa/"
+      }
+    },
+    "16": {
+      "name": "Rebecca Bauer-Kahan",
+      "party": "D",
+      "openstates": "ocd-person/2918acca-40a2-4819-a79a-b2873c7895bc",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/rebecca-bauer-kahan-1FXxdWYlCINstFYRVYfxL2/"
+      }
+    },
+    "17": {
+      "name": "Matt Haney",
+      "party": "D",
+      "openstates": "ocd-person/cc6eb833-e16b-472a-83ec-31e7df1b1cd9",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/matt-haney-6Dl25SE2wdlEhblPIkLocb/"
+      }
+    },
+    "18": {
+      "name": "Mia Bonta",
+      "party": "D",
+      "openstates": "ocd-person/a467d09d-289d-4e5a-a2af-a0ce20af14e1",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/mia-bonta-50EBTmRDmKmdB7AitwPCiH/"
+      }
+    },
+    "19": {
+      "name": "Catherine Stefani",
+      "party": "D",
+      "openstates": "ocd-person/3864202e-3b40-430e-a218-cfe56d83cee5",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/catherine-stefani-1iPKKOXV08iC30j4g0B6rF/"
+      }
+    },
+    "20": {
+      "name": "Liz Ortega",
+      "party": "D",
+      "openstates": "ocd-person/54e48d10-22e1-43da-b114-c1d3f741faff",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/liz-ortega-2aBnoxDquV44LsgjYnpMXn/"
+      }
+    },
+    "21": {
+      "name": "Diane Papan",
+      "party": "D",
+      "openstates": "ocd-person/20c72bef-f518-4677-bbcb-83c502c36ede",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/diane-papan-zqm7WzD59uX5wjaTfg7VW/"
+      }
+    },
+    "22": {
+      "name": "Juan Alanis",
+      "party": "R",
+      "openstates": "ocd-person/dfb00d6c-1d0d-410f-8a06-d54841495a62",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/juan-alanis-6o5kCB6aolJBO3QUQY9EKw/"
+      }
+    },
+    "23": {
+      "name": "Marc Berman",
+      "party": "D",
+      "openstates": "ocd-person/24facf9e-7fb1-4475-9120-05cd0145c7c1",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/marc-berman-17mLN7UhRdWcQpFfpdR9RR/"
+      }
+    },
+    "24": {
+      "name": "Alex Lee",
+      "party": "D",
+      "openstates": "ocd-person/5d0057a2-e04d-44ca-b1d5-fc55e113351a",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/alex-lee-2pURSKdvhu27eA1Au6rqdW/"
+      }
+    },
+    "25": {
+      "name": "Ash Kalra",
+      "party": "D",
+      "openstates": "ocd-person/820619fd-d053-4915-b099-1d134a880228",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/ash-kalra-3xLn2H9yyE25Agsny9tcWu/"
+      }
+    },
+    "26": {
+      "name": "Patrick Ahrens",
+      "party": "D",
+      "openstates": "ocd-person/a86994f3-ffe3-4dc6-9e79-bcba7346f919",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/patrick-ahrens-57mxdp9Utr92Lfgx92A4Er/"
+      }
+    },
+    "27": {
+      "name": "Esmeralda Soria",
+      "party": "D",
+      "openstates": "ocd-person/d2a8e29a-5eac-4e2a-a686-d1bdb04927e7",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/esmeralda-soria-6PVZIn51uCteYNFo5KctZX/"
+      }
+    },
+    "28": {
+      "name": "Gail Pellerin",
+      "party": "D",
+      "openstates": "ocd-person/2944d19a-c288-4f32-b6a0-72e35f48e570",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/gail-pellerin-1Fs8PWF8ap986fP8vMKeZs/"
+      }
+    },
+    "29": {
+      "name": "Robert Rivas",
+      "party": "D",
+      "openstates": "ocd-person/68f5ee30-aa70-489b-84b7-6501e6188751",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/robert-rivas-3C3ajfqG87onDc0PwKAYBl/"
+      }
+    },
+    "30": {
+      "name": "Dawn Addis",
+      "party": "D",
+      "openstates": "ocd-person/eddfcfb5-2d07-4e5b-81a0-88e5703dc0bb",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/dawn-addis-7ErSjyICge36yuZGbXTBdL/"
+      }
+    },
+    "31": {
+      "name": "Joaquin Arambula",
+      "party": "D",
+      "openstates": "ocd-person/e2da0f08-1bd8-4ac2-95f1-002870238527",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/joaquin-arambula-6u3uyg9EulRo1VENeajVKx/"
+      }
+    },
+    "32": {
+      "name": "Stan Ellis",
+      "party": "R",
+      "openstates": "ocd-person/01fddc24-a5ac-40b7-a9e1-80e918fee609",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/stan-ellis-3l0PWm5XgrhksPLGJoV8z/"
+      }
+    },
+    "33": {
+      "name": "Ali Macedo",
+      "party": "R",
+      "openstates": "ocd-person/eb9c8103-ac9d-4342-9d95-5086d867a9bd",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/ali-macedo-7AaibBqvmyem75eq1dgRcT/"
+      }
+    },
+    "34": {
+      "name": "Tom Lackey",
+      "party": "R",
+      "openstates": "ocd-person/a8879d70-713c-4d0c-b723-77d0e96c18df",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tom-lackey-580gbRbwQRycc4I0Dsqffj/"
+      }
+    },
+    "35": {
+      "name": "Jasmeet Bains",
+      "party": "D",
+      "openstates": "ocd-person/b08199e4-63d9-4bd4-9be3-99e628fa7059",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jasmeet-bains-5N3sOrjqCIzQVvoubhQ2jh/"
+      }
+    },
+    "36": {
+      "name": "Jeff Gonzalez",
+      "party": "R",
+      "openstates": "ocd-person/552b5bf7-472d-48a4-bb9a-132c1f044737",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jeff-gonzalez-2aiA6etiuVMbbIVnu0TCkB/"
+      }
+    },
+    "37": {
+      "name": "Gregg Hart",
+      "party": "D",
+      "openstates": "ocd-person/57f76b8e-63ba-4aa7-93c9-0b0853ce2279",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/gregg-hart-2fzP25L7u8j8C4y29iZ6Hx/"
+      }
+    },
+    "38": {
+      "name": "Steve Bennett",
+      "party": "D",
+      "openstates": "ocd-person/1e0ccfc0-2d57-4e57-8d16-589d07c1bc72",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/steve-bennett-uhcjJviyv1mz9zIMu0Ox8/"
+      }
+    },
+    "39": {
+      "name": "Juan Carrillo",
+      "party": "D",
+      "openstates": "ocd-person/092bda0e-23a9-4d25-92a9-5808e996702b",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/juan-carrillo-HIyDWp1TyLOWBNwbhe5wx/"
+      }
+    },
+    "40": {
+      "name": "Pilar Schiavo",
+      "party": "D",
+      "openstates": "ocd-person/d12d3275-2086-4bf5-886b-c4de3823fbf9",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/pilar-schiavo-6Mi3BrLAZvmvGz93yfBHmT/"
+      }
+    },
+    "41": {
+      "name": "John Harabedian",
+      "party": "D",
+      "openstates": "ocd-person/0253bb3f-2fcb-49ed-a85d-578fee726be8",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/john-harabedian-4OFV68csDRS47x1slTI6a/"
+      }
+    },
+    "42": {
+      "name": "Jacqui Irwin",
+      "party": "D",
+      "openstates": "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jacqui-irwin-73AYwgwC83PVhmxChW8616/"
+      }
+    },
+    "43": {
+      "name": "Celeste Rodriguez",
+      "party": "D",
+      "openstates": "ocd-person/1dbf574d-4c03-40ce-8c30-a6727c4bd5ab",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/celeste-rodriguez-u8Dft6f2bJypLvsSkYiJH/"
+      }
+    },
+    "44": {
+      "name": "Nick Schultz",
+      "party": "D",
+      "openstates": "ocd-person/06ae0707-255b-4af9-8e3e-c940e8f29600",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/nick-schultz-CbU3IlEwRvkiRayenxdTc/"
+      }
+    },
+    "45": {
+      "name": "James Ramos",
+      "party": "D",
+      "openstates": "ocd-person/156660b1-4c3f-45e3-8384-53cda60d7ea5",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/james-ramos-eNcmq6IPdNVwqmhNbEkXl/"
+      }
+    },
+    "46": {
+      "name": "Jesse Gabriel",
+      "party": "D",
+      "openstates": "ocd-person/407f6fda-8638-4cca-9704-7aa8df7de26e",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jesse-gabriel-1xhkMPb2PaqZOKDuGmXGVq/"
+      }
+    },
+    "47": {
+      "name": "Greg Wallis",
+      "party": "R",
+      "openstates": "ocd-person/50e55c91-8b18-45ea-a074-bf500e7a299e",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/greg-wallis-2SeCgs1SIceutRcUuHVgDu/"
+      }
+    },
+    "48": {
+      "name": "Blanca Rubio",
+      "party": "D",
+      "openstates": "ocd-person/82cbb6e9-8486-44ec-8450-86d1e700f828",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/blanca-rubio-3yo6DXAsf2qMrNKwBKc8ee/"
+      }
+    },
+    "49": {
+      "name": "Mike Fong",
+      "party": "D",
+      "openstates": "ocd-person/3a7bde9c-8709-49c7-89e4-0835ea1f9eb6",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/mike-fong-1mMA8ZJ8jdy9cvd1Y7nk2Q/"
+      }
+    },
+    "50": {
+      "name": "Robert Garcia",
+      "party": "D",
+      "openstates": "ocd-person/8b2f37bc-65b7-40ed-af14-5d93cb765a5d",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/robert-garcia-4EdVkA20krliymrbdTNNrp/"
+      }
+    },
+    "51": {
+      "name": "Rick Zbur",
+      "party": "D",
+      "openstates": "ocd-person/6b7e3458-361f-4fce-8a8c-069282db2af7",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/rick-zbur-3Gpqz3CpoW51XtCwAvv6mt/"
+      }
+    },
+    "52": {
+      "name": "Jessica Caloza",
+      "party": "D",
+      "openstates": "ocd-person/81d9225e-7584-43c9-9e9b-f12b7e7dbd4e",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jessica-caloza-3x1EvgOG0ekJ8LpNy89dBG/"
+      }
+    },
+    "53": {
+      "name": "Michelle Rodriguez",
+      "party": "D",
+      "openstates": "ocd-person/c8e36b71-c739-4afb-b8e9-cbdd4d362693",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/michelle-rodriguez-674Oa7MtweNh1FlTlieIWh/"
+      }
+    },
+    "54": {
+      "name": "Mark González",
+      "party": "D",
+      "openstates": "ocd-person/4a6f5a5d-275e-4fb2-a8bf-bb1272d4dfbb",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/mark-gonzalez-2GSJsaYsUu9eLn9JSwRZAx/"
+      }
+    },
+    "55": {
+      "name": "Isaac Bryan",
+      "party": "D",
+      "openstates": "ocd-person/e9e56c3e-1c7d-4eab-a3ac-35cfc7c6a651",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/isaac-bryan-77M3dgSOND8AMgFmExhRJp/"
+      }
+    },
+    "56": {
+      "name": "Lisa Calderon",
+      "party": "D",
+      "openstates": "ocd-person/ed58ae30-ffe5-4395-9353-141e4018cbe3",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/lisa-calderon-7Drhvjae0S4US5VH5jw2eB/"
+      }
+    },
+    "57": {
+      "name": "Sade Elhawary",
+      "party": "D",
+      "openstates": "ocd-person/6d83a613-6815-48c9-bb31-94adb1ee92ea",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/sade-elhawary-3KeKI4DVszFjmhi73pY9so/"
+      }
+    },
+    "58": {
+      "name": "Leticia Castillo",
+      "party": "R",
+      "openstates": "ocd-person/06d4d543-2374-436f-978d-b924c7ec7d53",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/leticia-castillo-CtDZbaL4hJFpE6MJj6qmZ/"
+      }
+    },
+    "59": {
+      "name": "Phillip Chen",
+      "party": "R",
+      "openstates": "ocd-person/6ba768a4-2756-42b5-a5c5-f6b8b5db0491",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/phillip-chen-3H8gT9EkN35vhhhZHBNhmj/"
+      }
+    },
+    "60": {
+      "name": "Corey Jackson",
+      "party": "D",
+      "openstates": "ocd-person/e351eaa3-8aa1-4f26-a8ff-2a260a0ad383",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/corey-jackson-6uwh2Uin0xvh6Kqk49yjXX/"
+      }
+    },
+    "61": {
+      "name": "Tina McKinnor",
+      "party": "D",
+      "openstates": "ocd-person/1aa5dff4-3d71-4642-a5e6-e3d00a5b99f9",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tina-mckinnor-oHbXZ9lVE1tOp1IM5o9O5/"
+      }
+    },
+    "62": {
+      "name": "José Solache",
+      "party": "D",
+      "openstates": "ocd-person/b9c75c1e-6ea8-4fae-9efa-a7bf0a0cb2cc",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/jose-solache-5eYgfPqG3LRdR4Q6o4HjH2/"
+      }
+    },
+    "63": {
+      "name": "Natasha Johnson",
+      "party": "R",
+      "openstates": "ocd-person/0c47a1ba-99a2-44a9-8c65-fcad12aeee97",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/natasha-johnson-NAduU63pCS5qLmi2g53Hr/"
+      }
+    },
+    "64": {
+      "name": "Blanca Pacheco",
+      "party": "D",
+      "openstates": "ocd-person/f2ba8154-6bf3-4e5e-af05-9412e2a189f2",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/blanca-pacheco-7O1NKHCiplVUpeHDMBj86M/"
+      }
+    },
+    "65": {
+      "name": "Mike Gipson",
+      "party": "D",
+      "openstates": "ocd-person/404dbee4-6b74-4249-ab26-9644cab7c7d5",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/mike-gipson-1xL2P8scJyJmtynkdPcPOX/"
+      }
+    },
+    "66": {
+      "name": "Al Muratsuchi",
+      "party": "D",
+      "openstates": "ocd-person/78610d0e-c790-4fc9-ab8e-0887adbbe063",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/al-muratsuchi-3f9QlLdFSsonjDLkj9caGp/"
+      }
+    },
+    "67": {
+      "name": "Sharon Quirk-Silva",
+      "party": "D",
+      "openstates": "ocd-person/840aa009-3ae4-4484-b9f0-5c5f5060e7db",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/sharon-quirk-silva-419qFyN2B8ManVh0v6Fevb/"
+      }
+    },
+    "68": {
+      "name": "Avelino Valencia",
+      "party": "D",
+      "openstates": "ocd-person/87062971-b583-4983-8ac5-4af98bef354d",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/avelino-valencia-46mmMq6nyGgDmnVKC8leVZ/"
+      }
+    },
+    "69": {
+      "name": "Josh Lowenthal",
+      "party": "D",
+      "openstates": "ocd-person/b20254b0-437a-4d3d-9aa9-baa5db2bc5ef",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/josh-lowenthal-5PthMRwpBlOFmOrf44uGnH/"
+      }
+    },
+    "70": {
+      "name": "Tri Ta",
+      "party": "R",
+      "openstates": "ocd-person/75229920-399d-4216-9b76-c27ea398665a",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tri-ta-3Z1ue5czwsFWe0AVQqjBaU/"
+      }
+    },
+    "71": {
+      "name": "Kate Sanchez",
+      "party": "R",
+      "openstates": "ocd-person/76378b56-7ad9-463c-a4fd-47c665b26ee8",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/kate-sanchez-3b4TewxJp2XRxeNQdJjmTw/"
+      }
+    },
+    "72": {
+      "name": "Diane Dixon",
+      "party": "R",
+      "openstates": "ocd-person/0c4e1b43-c3d7-4a13-87c4-92e29903cb73",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/diane-dixon-NDbMlBFPyRC8bJq0jp5uN/"
+      }
+    },
+    "73": {
+      "name": "Cottie Petrie-Norris",
+      "party": "D",
+      "openstates": "ocd-person/c766abf8-06ca-4a98-9665-82b87149ca96",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/cottie-petrie-norris-64GORHAiJOn5TOA2yDc1GI/"
+      }
+    },
+    "74": {
+      "name": "Laurie Davies",
+      "party": "R",
+      "openstates": "ocd-person/1b3ac39e-7b50-4263-bd1d-add1e91d71b9",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/laurie-davies-pNeBLmhlY3QsdOZALyJhJ/"
+      }
+    },
+    "75": {
+      "name": "Carl DeMaio",
+      "party": "R",
+      "openstates": "ocd-person/053d119b-847e-43bf-9a22-18b5f309067f",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/carl-demaio-9srwpvjrafwNYfgGi85ap/"
+      }
+    },
+    "76": {
+      "name": "Darsh Patel",
+      "party": "D",
+      "openstates": "ocd-person/86218623-ea63-4b2a-ab5c-7694e3f4a18a",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/darsh-patel-456I7g8kL3QaiWhiodD19G/"
+      }
+    },
+    "77": {
+      "name": "Tasha Boerner",
+      "party": "D",
+      "openstates": "ocd-person/9e69729e-4383-410b-840e-ad4ea0f1ab4a",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/tasha-boerner-4ouybAAhbHOxQ8noMjFzRq/"
+      }
+    },
+    "78": {
+      "name": "Chris Ward",
+      "party": "D",
+      "openstates": "ocd-person/71590420-10d6-4deb-8d59-453256d625b6",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/chris-ward-3RsoQoWtEibUkTeq6KKh8w/"
+      }
+    },
+    "79": {
+      "name": "LaShae Sharp-Collins",
+      "party": "D",
+      "openstates": "ocd-person/895f777d-ae7b-429a-aa0f-1b2895c13945",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/lashae-sharp-collins-4BDZmrrOBTUYwUK5ZIgmeb/"
+      }
+    },
+    "80": {
+      "name": "David Alvarez",
+      "party": "D",
+      "openstates": "ocd-person/52f6ccc1-eb4a-4c09-8614-5e4022395605",
+      "source": {
+        "label": "Open States",
+        "url": "https://openstates.org/person/david-alvarez-2WY9prHCc38wpiRKA8ijC9/"
+      }
+    }
+  }
+}

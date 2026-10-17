@@ -12,7 +12,7 @@ What's next, in three lists. Last updated Oct 15, 2026.
   - Everyone else (governors, other statewide officials, challengers) gets a card on their state's page.
 - **Elections:** show upcoming elections for each state. No past election results. The most recent election's data can stay up for a short while afterward, then come down.
 
-**Site layout (to build after Nov 3):**
+**Site layout (to build after Nov 3):** the full plan, with decisions still to make, is in `docs/REDESIGN.md`.
 Question: Could the page layout be automated? like, if there is currently an election show x, if an election is coming up soon show y, if no election prioritize z. 
 - **A header or top link bar** on every page: Home, States, Upcoming elections, Find your officials, How elections work, Glossary.
 - **Home page:** a section pointing to everything you can do on the site: state pages, upcoming elections, finding your officials, how elections work, and the glossary.
@@ -31,10 +31,11 @@ Question: Could the page layout be automated? like, if there is currently an ele
 - **Governors and other statewide officials:** Open States' GitHub data (`data/<state>/executive/`, all 50 states, no key).
 - **Election dates:** no free official feed. Either hand-entered from each state's official page (a few dates per state, a few times a year) or Democracy Works (paid).
 - **Candidates for each election:** each state's certified list, downloaded by hand, as now.
+- Note: If a chalenger gets elected, use their new official photo and remove the one we sourced.
 
 ## To do now
 
-1. **Photos** for candidates without one (owner): Georgia is done; 17 left in New York.
+1. **Photos** for candidates without one (owner): Georgia is done; 1 left in New York (Jennifer Moore); 54 in California (mostly U.S. House challengers).
 2. **Check the first nightly run with New York**, including that the bills step (now on bulk downloads) regenerates everything correctly.
 3. **Submit the sitemap** to Google Search Console (owner, with Claude's help).
 4. **Testing and tooling** (branch `cleanup-and-optimize`):
@@ -42,18 +43,23 @@ Question: Could the page layout be automated? like, if there is currently an ele
    - Run one state at a time (`npm run data -- bills --state ny`).
    - Test the data logic against small saved samples instead of live runs.
    - A GitHub check on every pull request: tests, build, and the accessibility check.
-5. **Next state:** California, then Texas, Illinois, and Indiana. One at a time, each with certified candidates, dates, bios, and records, checked like New York.
+5. **Replace Wikipedia-sourced facts** (owner, Oct 16: Wikipedia is fine for photos, never for facts). 45 bio and career lines in Georgia (13) and New York (32) cite Wikipedia. Re-source each from an official page, Congress.gov, a legislature site, a news outlet, or Ballotpedia, or remove it. Georgia's footer sources list also has 7 Wikipedia entries.
+6. **Finish California** (on the `california` branch): state legislature votes, bills, and contact info once the Open States limit resets; spot-check against official sites; photos.
+7. **Then four more states, in this order (owner, Oct 16): Florida, Texas, Indiana, Illinois.** Chosen because the owner knows people there who will use and share the site. One at a time, each with certified candidates, dates, bios, records, and photos (owner sends photos as each state goes), checked like New York and California.
+8. **Then pause adding states** and build the next phase of the site (the hub layout below, planned in `docs/REDESIGN.md`) on its own branch and pull request, after the election. New states after that are added into the hub. The other states wait until after the election.
 
 ## Bigger picture (after the election)
 
-- **The hub layout above:** header, home page, state pages, upcoming elections, find your officials, person pages for everyone who writes and votes on laws.
+- **The hub layout above** (owner, Oct 16: after the election, once the four states above are done; plan in `docs/REDESIGN.md`): header, home page, state pages, upcoming elections, find your officials, person pages for everyone who writes and votes on laws.
 - **How elections work** page and the **glossary**.
+- **Clean up the git history** (with the new layout): squash main's older one-off commits into a few clear ones, so the history reads as one commit per finished piece of work plus the nightly refreshes. It overwrites main (a force push, which redeploys the live site), so do it after Nov 3, and only after any open branches are merged or restarted from the new main. Claude writes the steps; the owner runs them. From Oct 16 on, pull requests are squash-merged, so new history is already clean.
 - **Dec 1 runoff:** decide whether to cover it if any race goes to a runoff.
 - **A donate section** (once the hub is live): ask readers to help pay for the paid data, and say plainly what it buys: full candidate data for every race and state (Ballotpedia, BallotReady), election dates and polling places for every state (Democracy Works), and the plain-language bill summaries (Anthropic API).
 
 ## Later
 
 **Records:**
+- **Bios for California's U.S. House challengers** (owner, Oct 16: later, possibly hand-sourced). About 55 challengers show only their ballot job title. Ballotpedia blocks automated reading and Branch has no California bios yet, so these need hand sourcing or reading Ballotpedia through a browser.
 - **Seven hidden candidate facts** (Kingston, Day, Kozycki, Harris, McBath career line, Blooming) stay hidden until each has a source.
 - **Bills for former state legislators** (Harper, Waites). Open States only lists current members.
 - **Spot-check other "became law" counts** against Congress.gov.
@@ -62,12 +68,13 @@ Question: Could the page layout be automated? like, if there is currently an ele
 - Not planned, because they turn into ratings: ideology scores, interest-group ratings, "votes with their party" percentages.
 
 **Data plumbing:**
-- **Legislature rosters from Open States' public GitHub data** (`github.com/openstates/people`, no key, no limit) instead of the API. The roster is the biggest remaining API use (one request per 50 legislators). Switching would bring each state to about 4 requests a night, enough for all 50 states. Now each state uses about 8–12 a night, and the limit is 250 a day.
+- **Contact info for state legislators without the API.** Done for rosters (Oct 16): the legislature step now reads Open States' free current-legislators file (`data.openstates.org/people/current/<state>.csv`), no key and no limit. The contact step still uses the API (one request per state), because that file is missing some Capitol office phones and addresses (Claire Valdez's, for one).
 
 **Maybe later: not a simple pull from a data source** (owner, Oct 15, 2026: if it can't be pulled from an API and easily checked, leave it out for now):
 - Mayors of state capitals (their races and a card for each). No free data feed, so they'd be hand-entered.
 - Local ballot questions and races (city, county, school board), e.g. the 5 New York City Charter questions. They differ by city, so they'd need ballot data for every city and county (paid services like Ballotpedia or BallotReady).
-- Judge races.
+- Judge races, including California's yes/no votes on keeping appellate and Supreme Court justices.
+- **California's Board of Equalization** (owner, Oct 16): 4 races, one per district. Left out for now because the address lookup can't tell which BOE district someone lives in (the Census doesn't publish those districts).
 - Campaign money for Georgia's statewide candidates. Georgia's Ethics Commission has no API or download.
 - Outside spending in state races. The FEC only covers federal races.
 - Kept anyway (owner, Oct 15): statewide ballot questions (the same for every voter in the state, checked against a sample ballot) and hand-written candidate bios (each line sourced). Certified candidate lists, dates, and office descriptions are core to the site.
