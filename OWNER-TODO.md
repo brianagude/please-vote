@@ -50,21 +50,9 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 
 ## Now
 
-- [ ] **Photos: 71 people.** Drag the image files into the chat, with the person's name and the page each one came from. Claude crops and adds them.
-  - **New York (17):**
+- [ ] **Photos: 55 people.** Drag the image files into the chat, with the person's name and the page each one came from. Claude crops and adds them.
+  - **New York (1):**
     - NY-10 Jennifer E. Moore (you couldn't find one yet)
-    - NY-13 Jomo M. Williams
-    - NY-14 Diamant Hysenaj
-    - NY-15 Stylo Sapaskis, Gonzalo Duran, Andre Easton, Jose Vega
-    - NY-16 Joseph J. Cinquemani
-    - NY-18 Jackie Mary Auringer
-    - NY-20 Ralph F. Ambrosio
-    - NY-21 Blake Gendebien, Anthony Constantino
-    - NY-22 Kailee Buller
-    - NY-23 Aaron Gies
-    - NY-24 Alissa J. Ellman
-    - NY-25 Virginia E. McIntyre
-    - NY-26 Dennis E. Hannon
   - **California, statewide (8):**
     - Governor: Steve Hilton
     - Secretary of State: Don Wagner
@@ -136,4 +124,5 @@ Things only you can do, or that need your call, with dates. Claude keeps this li
 ## Done
 
 - [x] **Georgia photos:** every candidate has one (Oct 15).
+- [x] **New York photos:** all but Jennifer Moore (Oct 17).
 - [x] **Redesign decisions 1–7** answered (Oct 16).

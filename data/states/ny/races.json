@@ -1225,7 +1225,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-13/candidates/jomo-m-williams"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/jomo-m-williams.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Manual_Williams"
+            }
+          }
         }
       ]
     },
@@ -1268,6 +1276,14 @@
               "label": "Branch",
               "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-14/candidates/diamant-hysenaj"
             }
+          },
+          "photo": {
+            "src": "/photos/manual/diamant-hysenaj.jpg",
+            "credit": "Yahoo News",
+            "source": {
+              "label": "Yahoo News",
+              "url": "https://www.yahoo.com/news/diamant-hysenaj-gop-businessman-immigrant-180934978.html"
+            }
           }
         }
       ]
@@ -1309,6 +1325,14 @@
               "label": "Branch",
               "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/stylo-sapaskis"
             }
+          },
+          "photo": {
+            "src": "/photos/manual/stylo-sapaskis.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Stylo_Sapaskis"
+            }
           }
         },
         {
@@ -1343,7 +1367,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/gonzalo-duran"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/gonzalo-duran.jpg",
+            "credit": "LocalCandidates.org",
+            "source": {
+              "label": "LocalCandidates.org",
+              "url": "https://www.localcandidates.org/elections/2026-us-house-of-representatives-ny-15"
+            }
+          }
         },
         {
           "id": "andre-easton",
@@ -1370,7 +1402,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/andre-easton"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/andre-easton.jpg",
+            "credit": "Andre Easton campaign",
+            "source": {
+              "label": "Andre Easton campaign",
+              "url": "https://www.andreforthebronx.nyc/"
+            }
+          }
         },
         {
           "id": "jose-vega",
@@ -1397,7 +1437,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-15/candidates/jose-vega"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/jose-vega.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Jose_Vega"
+            }
+          }
         }
       ]
     },
@@ -1449,7 +1497,15 @@
                 "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-us-representative-ny-congressional-16/candidates/joseph-cinquemani"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/joseph-j-cinquemani.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Joseph_Cinquemani"
+            }
+          }
         }
       ]
     },
@@ -1559,7 +1615,15 @@
                 "url": "https://spectrumlocalnews.com/nys/hudson-valley/politics/2026/04/13/republican-businesswoman-jackie-auringer-enters-race-for-ny-18-seat"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/jackie-mary-auringer.jpg",
+            "credit": "Daily Freeman",
+            "source": {
+              "label": "Daily Freeman",
+              "url": "https://www.dailyfreeman.com/2026/07/11/election-2026-on-immigration-auringer-says-focus-should-be-on-criminal-illegals/"
+            }
+          }
         }
       ]
     },
@@ -1675,7 +1739,15 @@
                 "url": "https://spectrumlocalnews.com/nys/capital-region/news/2026/01/20/republican-announces-plans-to-challenge-tonko"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/ralph-f-ambrosio.jpg",
+            "credit": "BallotReady",
+            "source": {
+              "label": "BallotReady",
+              "url": "https://www.ballotready.org/people/ralph-f-ambrosio"
+            }
+          }
         }
       ]
     },
@@ -1713,7 +1785,15 @@
                 "url": "https://www.wamc.org/news/2026-06-10/ny-21-candidate-profile-democrat-blake-gendebien"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/blake-gendebien.jpg",
+            "credit": "J Street PAC",
+            "source": {
+              "label": "J Street PAC",
+              "url": "https://jstreetpac.org/candidate/blake-gendebien/"
+            }
+          }
         },
         {
           "id": "anthony-constantino",
@@ -1738,7 +1818,15 @@
                 "url": "https://spectrumlocalnews.com/nys/capital-region/politics/2026/06/23/anthony-constantino-wins-republican-nomination-in-ny-21"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/anthony-constantino.jpg",
+            "credit": "Glens Falls Chronicle",
+            "source": {
+              "label": "Glens Falls Chronicle",
+              "url": "https://www.glensfallschronicle.com/constantino-sit-down-at-the-chronicle/"
+            }
+          }
         }
       ]
     },
@@ -1788,7 +1876,15 @@
                 "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/03/05/former-department-of-agriculture-official-to-run-for-cny-u-s--house-seat"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/kailee-buller.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Kailee_Buller"
+            }
+          }
         }
       ]
     },
@@ -1817,7 +1913,15 @@
                 "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/06/24/gies-wins-democratic-nomination-for-ny-23-seat--will-face-rep--nick-langworthy"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/aaron-gies.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Aaron_Gies"
+            }
+          }
         },
         {
           "id": "nicholas-a-langworthy",
@@ -1867,7 +1971,15 @@
                 "url": "https://www.wrvo.org/2026-06-22/meet-the-democrats-hoping-to-replace-claudia-tenney-in-ny-24"
               }
             }
-          ]
+          ],
+          "photo": {
+            "src": "/photos/manual/alissa-j-ellman.jpg",
+            "credit": "Ballotpedia",
+            "source": {
+              "label": "Ballotpedia",
+              "url": "https://ballotpedia.org/Alissa_Ellman"
+            }
+          }
         },
         {
           "id": "claudia-tenney",
@@ -1929,6 +2041,14 @@
               "label": "WHEC",
               "url": "https://www.whec.com/top-news/monroe-county-legislator-virginia-mcintyre-enters-race-against-rep-joe-morelle/"
             }
+          },
+          "photo": {
+            "src": "/photos/manual/virginia-e-mcintyre.jpg",
+            "credit": "BallotReady",
+            "source": {
+              "label": "BallotReady",
+              "url": "https://www.ballotready.org/people/virginia-e-mcintyre"
+            }
           }
         }
       ]
@@ -1969,6 +2089,14 @@
             "source": {
               "label": "Spectrum News",
               "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/04/12/dennis-hannon-announces-campaign-for-ny-26"
+            }
+          },
+          "photo": {
+            "src": "/photos/manual/dennis-e-hannon.jpg",
+            "credit": "Niagara Gazette",
+            "source": {
+              "label": "Niagara Gazette",
+              "url": "https://www.niagara-gazette.com/news/election/dennis-hannon-announces-candidacy-for-26th-congressional-district/article_7571a7da-f394-4a93-9fb1-916f598d53c9.html"
             }
           }
         }

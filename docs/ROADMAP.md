@@ -35,7 +35,7 @@ Question: Could the page layout be automated? like, if there is currently an ele
 
 ## To do now
 
-1. **Photos** for candidates without one (owner): Georgia is done; 17 left in New York; 54 in California (mostly U.S. House challengers).
+1. **Photos** for candidates without one (owner): Georgia is done; 1 left in New York (Jennifer Moore); 54 in California (mostly U.S. House challengers).
 2. **Check the first nightly run with New York**, including that the bills step (now on bulk downloads) regenerates everything correctly.
 3. **Submit the sitemap** to Google Search Console (owner, with Claude's help).
 4. **Testing and tooling** (branch `cleanup-and-optimize`):
