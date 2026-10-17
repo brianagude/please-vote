@@ -1,6 +1,6 @@
 {
-  "v": 2,
-  "fetched": "2026-10-16",
+  "v": 4,
+  "fetched": "2026-10-17",
   "people": [
     "ocd-person/b83b0486-773f-4979-a1ce-e2f7f3e6d7e1",
     "ocd-person/1f7d013a-8861-4e08-b6bf-7c8d36f8107c",
@@ -18,6 +18,7 @@
         "url": "https://www.legis.ga.gov/legislation/70605",
         "introduced": "2025-02-20",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -27,6 +28,7 @@
         "url": "https://www.legis.ga.gov/legislation/70341",
         "introduced": "2025-02-13",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -36,6 +38,7 @@
         "url": "https://www.legis.ga.gov/legislation/70342",
         "introduced": "2025-02-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -45,6 +48,7 @@
         "url": "https://www.legis.ga.gov/legislation/72150",
         "introduced": "2026-01-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -54,6 +58,7 @@
         "url": "https://www.legis.ga.gov/legislation/69479",
         "introduced": "2025-01-17",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -63,6 +68,7 @@
         "url": "https://www.legis.ga.gov/legislation/71729",
         "introduced": "2025-03-27",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -72,6 +78,7 @@
         "url": "https://www.legis.ga.gov/legislation/72203",
         "introduced": "2026-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -81,6 +88,7 @@
         "url": "https://www.legis.ga.gov/legislation/72202",
         "introduced": "2026-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -90,6 +98,7 @@
         "url": "https://www.legis.ga.gov/legislation/73466",
         "introduced": "2026-02-20",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       }
@@ -101,6 +110,7 @@
         "url": "https://www.legis.ga.gov/legislation/72209",
         "introduced": "2026-01-14",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -110,6 +120,7 @@
         "url": "https://www.legis.ga.gov/legislation/70965",
         "introduced": "2025-02-27",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -119,6 +130,7 @@
         "url": "https://www.legis.ga.gov/legislation/70420",
         "introduced": "2025-02-18",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -128,6 +140,7 @@
         "url": "https://www.legis.ga.gov/legislation/70421",
         "introduced": "2025-02-18",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -137,8 +150,9 @@
         "url": "https://www.legis.ga.gov/legislation/71307",
         "introduced": "2025-03-11",
         "law": "2025-05-13",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "HB 721",
@@ -146,6 +160,7 @@
         "url": "https://www.legis.ga.gov/legislation/71130",
         "introduced": "2025-03-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -155,6 +170,7 @@
         "url": "https://www.legis.ga.gov/legislation/73704",
         "introduced": "2026-02-25",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -164,6 +180,7 @@
         "url": "https://www.legis.ga.gov/legislation/71002",
         "introduced": "2025-02-27",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -173,6 +190,7 @@
         "url": "https://www.legis.ga.gov/legislation/73875",
         "introduced": "2026-03-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       }
@@ -184,7 +202,8 @@
         "url": "https://www.legis.ga.gov/legislation/74267",
         "introduced": "2026-03-19",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -193,6 +212,7 @@
         "url": "https://www.legis.ga.gov/legislation/70132",
         "introduced": "2025-02-10",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -202,7 +222,8 @@
         "url": "https://www.legis.ga.gov/legislation/69851",
         "introduced": "2025-02-04",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -211,6 +232,7 @@
         "url": "https://www.legis.ga.gov/legislation/69970",
         "introduced": "2025-02-05",
         "law": "2025-05-14",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -220,7 +242,8 @@
         "url": "https://www.legis.ga.gov/legislation/71653",
         "introduced": "2025-03-25",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -229,7 +252,8 @@
         "url": "https://www.legis.ga.gov/legislation/71654",
         "introduced": "2025-03-25",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -238,8 +262,9 @@
         "url": "https://www.legis.ga.gov/legislation/74198",
         "introduced": "2026-03-18",
         "law": "2026-05-12",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "HB 295",
@@ -247,6 +272,7 @@
         "url": "https://www.legis.ga.gov/legislation/69969",
         "introduced": "2025-02-05",
         "law": "2026-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -256,8 +282,9 @@
         "url": "https://www.legis.ga.gov/legislation/74214",
         "introduced": "2026-03-18",
         "law": "2026-05-11",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "HB 1437",
@@ -265,7 +292,8 @@
         "url": "https://www.legis.ga.gov/legislation/73556",
         "introduced": "2026-02-24",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -274,6 +302,7 @@
         "url": "https://www.legis.ga.gov/legislation/73368",
         "introduced": "2026-02-18",
         "law": "2026-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -283,6 +312,7 @@
         "url": "https://www.legis.ga.gov/legislation/70258",
         "introduced": "2025-02-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -292,6 +322,7 @@
         "url": "https://www.legis.ga.gov/legislation/70664",
         "introduced": "2025-02-21",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -301,6 +332,7 @@
         "url": "https://www.legis.ga.gov/legislation/69956",
         "introduced": "2025-02-05",
         "law": "2025-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -310,6 +342,7 @@
         "url": "https://www.legis.ga.gov/legislation/70326",
         "introduced": "2025-02-13",
         "law": "2025-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -319,8 +352,9 @@
         "url": "https://www.legis.ga.gov/legislation/71641",
         "introduced": "2025-03-25",
         "law": "2025-05-13",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "HB 1436",
@@ -328,7 +362,8 @@
         "url": "https://www.legis.ga.gov/legislation/73555",
         "introduced": "2026-02-24",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -337,6 +372,7 @@
         "url": "https://www.legis.ga.gov/legislation/70608",
         "introduced": "2025-02-20",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       }
@@ -348,7 +384,8 @@
         "url": "https://www.legis.ga.gov/legislation/72849",
         "introduced": "2026-02-04",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       },
       {
@@ -357,8 +394,9 @@
         "url": "https://www.legis.ga.gov/legislation/73053",
         "introduced": "2026-02-10",
         "law": null,
+        "vetoed": false,
         "house": false,
-        "senate": true
+        "senate": false
       },
       {
         "id": "SB 4",
@@ -366,6 +404,7 @@
         "url": "https://www.legis.ga.gov/legislation/69277",
         "introduced": "2025-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -375,6 +414,7 @@
         "url": "https://www.legis.ga.gov/legislation/70106",
         "introduced": "2025-02-10",
         "law": "2025-05-13",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -384,7 +424,8 @@
         "url": "https://www.legis.ga.gov/legislation/69523",
         "introduced": "2025-01-27",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       },
       {
@@ -393,6 +434,7 @@
         "url": "https://www.legis.ga.gov/legislation/69543",
         "introduced": "2025-01-27",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -402,7 +444,8 @@
         "url": "https://www.legis.ga.gov/legislation/69639",
         "introduced": "2025-01-29",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       },
       {
@@ -411,8 +454,9 @@
         "url": "https://www.legis.ga.gov/legislation/69275",
         "introduced": "2025-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
-        "senate": true
+        "senate": false
       },
       {
         "id": "SB 152",
@@ -420,7 +464,8 @@
         "url": "https://www.legis.ga.gov/legislation/70245",
         "introduced": "2025-02-12",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       },
       {
@@ -429,6 +474,7 @@
         "url": "https://www.legis.ga.gov/legislation/70371",
         "introduced": "2025-02-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -438,6 +484,7 @@
         "url": "https://www.legis.ga.gov/legislation/69276",
         "introduced": "2025-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -447,6 +494,7 @@
         "url": "https://www.legis.ga.gov/legislation/69274",
         "introduced": "2025-01-13",
         "law": "2025-04-28",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -456,6 +504,7 @@
         "url": "https://www.legis.ga.gov/legislation/71941",
         "introduced": "2025-03-31",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -465,6 +514,7 @@
         "url": "https://www.legis.ga.gov/legislation/72665",
         "introduced": "2026-02-02",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -474,6 +524,7 @@
         "url": "https://www.legis.ga.gov/legislation/69559",
         "introduced": "2025-01-28",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -483,6 +534,7 @@
         "url": "https://www.legis.ga.gov/legislation/73566",
         "introduced": "2026-02-24",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -492,6 +544,7 @@
         "url": "https://www.legis.ga.gov/legislation/72949",
         "introduced": "2026-02-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       }
@@ -503,6 +556,7 @@
         "url": "https://www.legis.ga.gov/legislation/73702",
         "introduced": "2026-02-25",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -512,6 +566,7 @@
         "url": "https://www.legis.ga.gov/legislation/70198",
         "introduced": "2025-02-11",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -521,8 +576,9 @@
         "url": "https://www.legis.ga.gov/legislation/73869",
         "introduced": "2026-03-03",
         "law": "2026-05-11",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "HB 743",
@@ -530,8 +586,9 @@
         "url": "https://www.legis.ga.gov/legislation/71268",
         "introduced": "2025-03-10",
         "law": "2025-05-09",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "HB 1391",
@@ -539,6 +596,7 @@
         "url": "https://www.legis.ga.gov/legislation/73429",
         "introduced": "2026-02-19",
         "law": "2026-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -548,6 +606,7 @@
         "url": "https://www.legis.ga.gov/legislation/69587",
         "introduced": "2025-01-28",
         "law": "2025-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -557,7 +616,8 @@
         "url": "https://www.legis.ga.gov/legislation/72004",
         "introduced": "2025-04-02",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -566,7 +626,8 @@
         "url": "https://www.legis.ga.gov/legislation/70728",
         "introduced": "2025-02-24",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -575,7 +636,8 @@
         "url": "https://www.legis.ga.gov/legislation/70191",
         "introduced": "2025-02-11",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       }
     ],
@@ -586,6 +648,7 @@
         "url": "https://www.legis.ga.gov/legislation/69963",
         "introduced": "2025-02-05",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -595,6 +658,7 @@
         "url": "https://www.legis.ga.gov/legislation/69964",
         "introduced": "2025-02-05",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -604,7 +668,8 @@
         "url": "https://www.legis.ga.gov/legislation/71186",
         "introduced": "2025-03-06",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": false
       },
       {
@@ -613,6 +678,7 @@
         "url": "https://www.legis.ga.gov/legislation/71169",
         "introduced": "2025-03-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -622,6 +688,7 @@
         "url": "https://www.legis.ga.gov/legislation/70017",
         "introduced": "2025-02-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -631,6 +698,7 @@
         "url": "https://www.legis.ga.gov/legislation/71616",
         "introduced": "2025-03-25",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -640,6 +708,7 @@
         "url": "https://www.legis.ga.gov/legislation/73933",
         "introduced": "2026-03-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -649,6 +718,7 @@
         "url": "https://www.legis.ga.gov/legislation/73934",
         "introduced": "2026-03-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       }
@@ -660,6 +730,7 @@
         "url": "https://www.legis.ga.gov/legislation/73482",
         "introduced": "2026-02-20",
         "law": "2026-05-06",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -669,6 +740,7 @@
         "url": "https://www.legis.ga.gov/legislation/70088",
         "introduced": "2025-02-10",
         "law": "2025-05-14",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -678,8 +750,9 @@
         "url": "https://www.legis.ga.gov/legislation/71263",
         "introduced": "2025-03-10",
         "law": "2025-05-13",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "SB 328",
@@ -687,8 +760,9 @@
         "url": "https://www.legis.ga.gov/legislation/71262",
         "introduced": "2025-03-10",
         "law": "2025-05-13",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "SB 482",
@@ -696,7 +770,8 @@
         "url": "https://www.legis.ga.gov/legislation/73034",
         "introduced": "2026-02-09",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       },
       {
@@ -705,6 +780,7 @@
         "url": "https://www.legis.ga.gov/legislation/72065",
         "introduced": "2025-04-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -714,6 +790,7 @@
         "url": "https://www.legis.ga.gov/legislation/72533",
         "introduced": "2026-01-28",
         "law": "2026-05-06",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -723,8 +800,9 @@
         "url": "https://www.legis.ga.gov/legislation/70661",
         "introduced": "2025-02-21",
         "law": "2025-05-13",
-        "house": true,
-        "senate": true
+        "vetoed": false,
+        "house": false,
+        "senate": false
       },
       {
         "id": "SB 89",
@@ -732,7 +810,8 @@
         "url": "https://www.legis.ga.gov/legislation/69886",
         "introduced": "2025-02-04",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       },
       {
@@ -741,6 +820,7 @@
         "url": "https://www.legis.ga.gov/legislation/71979",
         "introduced": "2025-04-02",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -750,6 +830,7 @@
         "url": "https://www.legis.ga.gov/legislation/70493",
         "introduced": "2025-02-19",
         "law": "2026-05-12",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -759,15 +840,17 @@
         "url": "https://www.legis.ga.gov/legislation/70922",
         "introduced": "2025-02-26",
         "law": null,
+        "vetoed": false,
         "house": false,
-        "senate": true
+        "senate": false
       },
       {
         "id": "SB 569",
         "title": "Motor Vehicles and Traffic; the issuance of emergency vehicle light permits for towing service companies in certain instances; provide",
         "url": "https://www.legis.ga.gov/legislation/73567",
         "introduced": "2026-02-24",
-        "law": "2026-05-12",
+        "law": null,
+        "vetoed": true,
         "house": true,
         "senate": true
       },
@@ -777,7 +860,8 @@
         "url": "https://www.legis.ga.gov/legislation/73568",
         "introduced": "2026-02-24",
         "law": null,
-        "house": true,
+        "vetoed": false,
+        "house": false,
         "senate": true
       }
     ]

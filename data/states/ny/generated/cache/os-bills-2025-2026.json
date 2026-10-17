@@ -1,6 +1,6 @@
 {
-  "v": 1,
-  "fetched": "2026-10-16",
+  "v": 4,
+  "fetched": "2026-10-17",
   "people": [
     "ocd-person/9147362c-8b83-49ff-8fab-4d48a77eebc9",
     "ocd-person/bb46f499-d77e-4863-9269-6a04d5ba3f7e",
@@ -14,6 +14,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1155?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -23,6 +24,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S300?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -32,6 +34,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7126?summary=&detail=",
         "introduced": "2025-04-01",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -41,6 +44,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S477?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -50,6 +54,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1648?summary=&detail=",
         "introduced": "2025-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -59,6 +64,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9400?summary=&detail=",
         "introduced": "2026-03-09",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -68,6 +74,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1748?summary=&detail=",
         "introduced": "2025-01-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -77,6 +84,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S297?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -86,6 +94,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S301?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -95,6 +104,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S296?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -104,15 +114,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S299?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
-        "house": false,
-        "senate": false
-      },
-      {
-        "id": "S 483",
-        "title": "Relates to membership on the state board of parole",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S483?summary=&detail=",
-        "introduced": "2025-01-08",
-        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -122,6 +124,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S480?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -131,6 +134,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S481?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -140,6 +144,17 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S485?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "S 483",
+        "title": "Relates to membership on the state board of parole",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S483?summary=&detail=",
+        "introduced": "2025-01-08",
+        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -149,6 +164,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S4543?summary=&detail=",
         "introduced": "2025-02-06",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -158,6 +174,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S924?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -167,6 +184,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1124?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -176,6 +194,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1152?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -185,6 +204,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1151?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -194,6 +214,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1118?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -203,6 +224,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1149?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -212,6 +234,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1125?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -221,6 +244,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1122?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -230,6 +254,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1121?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -239,6 +264,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1150?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -248,6 +274,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1153?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -257,6 +284,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1119?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -266,6 +294,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1120?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -275,6 +304,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6624?summary=&detail=",
         "introduced": "2025-03-18",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -284,6 +314,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S4656?summary=&detail=",
         "introduced": "2025-02-10",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -293,6 +324,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1691?summary=&detail=",
         "introduced": "2025-01-13",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -302,6 +334,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6623?summary=&detail=",
         "introduced": "2025-03-18",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -311,6 +344,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7820?summary=&detail=",
         "introduced": "2025-05-09",
         "law": "2026-08-21",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -320,6 +354,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1989?summary=&detail=",
         "introduced": "2025-01-14",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -329,6 +364,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6677?summary=&detail=",
         "introduced": "2025-03-19",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -338,6 +374,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S2110?summary=&detail=",
         "introduced": "2025-01-15",
         "law": "2025-09-10",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -347,6 +384,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S2111?summary=&detail=",
         "introduced": "2025-01-15",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -356,6 +394,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1154?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -365,6 +404,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7942?summary=&detail=",
         "introduced": "2025-05-14",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -374,6 +414,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S479?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -383,6 +424,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S2711?summary=&detail=",
         "introduced": "2025-01-22",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -392,6 +434,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6811?summary=&detail=",
         "introduced": "2025-03-24",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -401,6 +444,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6834?summary=&detail=",
         "introduced": "2025-03-25",
         "law": "2026-08-21",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -410,6 +454,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10646?summary=&detail=",
         "introduced": "2026-06-02",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -419,6 +464,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S1123?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -428,6 +474,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S298?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -437,6 +484,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S5439?summary=&detail=",
         "introduced": "2025-02-21",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -446,6 +494,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S3625?summary=&detail=",
         "introduced": "2025-01-29",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -455,6 +504,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S3626?summary=&detail=",
         "introduced": "2025-01-29",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -464,6 +514,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6366?summary=&detail=",
         "introduced": "2025-03-11",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -473,6 +524,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S5661?summary=&detail=",
         "introduced": "2025-02-26",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -482,6 +534,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S5773?summary=&detail=",
         "introduced": "2025-02-28",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -491,6 +544,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8267?summary=&detail=",
         "introduced": "2025-05-28",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -500,6 +554,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8304?summary=&detail=",
         "introduced": "2025-05-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -509,6 +564,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6267?summary=&detail=",
         "introduced": "2025-03-07",
         "law": "2025-08-07",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -518,6 +574,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8381?summary=&detail=",
         "introduced": "2025-06-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -527,6 +584,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8398?summary=&detail=",
         "introduced": "2025-06-09",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -536,6 +594,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S6429?summary=&detail=",
         "introduced": "2025-03-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -545,6 +604,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8657?summary=&detail=",
         "introduced": "2026-01-07",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -554,6 +614,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8938?summary=&detail=",
         "introduced": "2026-01-16",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -563,6 +624,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8919?summary=&detail=",
         "introduced": "2026-01-15",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -572,6 +634,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7703?summary=&detail=",
         "introduced": "2025-04-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -581,6 +644,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7704?summary=&detail=",
         "introduced": "2025-04-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": true
       },
@@ -590,6 +654,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9816?summary=&detail=",
         "introduced": "2026-04-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -599,6 +664,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9836?summary=&detail=",
         "introduced": "2026-04-07",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -608,6 +674,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S482?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -617,15 +684,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S484?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
-        "house": false,
-        "senate": false
-      },
-      {
-        "id": "S 9137",
-        "title": "Relates to the inspection of meters and other apparatus used for regulating and supplying gas or electricity by the division of weights and measures",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9137?summary=&detail=",
-        "introduced": "2026-02-05",
-        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -635,6 +694,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9031?summary=&detail=",
         "introduced": "2026-01-23",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -644,6 +704,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8946?summary=&detail=",
         "introduced": "2026-01-20",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -653,6 +714,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8935?summary=&detail=",
         "introduced": "2026-01-16",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -662,6 +724,17 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S8947?summary=&detail=",
         "introduced": "2026-01-20",
         "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "S 9137",
+        "title": "Relates to the inspection of meters and other apparatus used for regulating and supplying gas or electricity by the division of weights and measures",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9137?summary=&detail=",
+        "introduced": "2026-02-05",
+        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -671,6 +744,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10209?summary=&detail=",
         "introduced": "2026-05-05",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -680,15 +754,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9023?summary=&detail=",
         "introduced": "2026-01-22",
         "law": null,
-        "house": false,
-        "senate": false
-      },
-      {
-        "id": "S 9118",
-        "title": "Relates to termination of service, deferred payment plans and quarterly billing",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9118?summary=&detail=",
-        "introduced": "2026-02-04",
-        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -698,6 +764,17 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9119?summary=&detail=",
         "introduced": "2026-02-04",
         "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "S 9118",
+        "title": "Relates to termination of service, deferred payment plans and quarterly billing",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9118?summary=&detail=",
+        "introduced": "2026-02-04",
+        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -707,6 +784,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S478?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -716,6 +794,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10308?summary=&detail=",
         "introduced": "2026-05-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -725,6 +804,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10455?summary=&detail=",
         "introduced": "2026-05-15",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -734,6 +814,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10528?summary=&detail=",
         "introduced": "2026-05-18",
         "law": "2026-07-24",
+        "vetoed": false,
         "house": true,
         "senate": true
       }
@@ -745,6 +826,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8245?summary=&detail=",
         "introduced": "2025-05-05",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -754,6 +836,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6654?summary=&detail=",
         "introduced": "2025-03-06",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -763,6 +846,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A799?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -772,6 +856,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6992?summary=&detail=",
         "introduced": "2025-03-18",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -781,6 +866,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9220?summary=&detail=",
         "introduced": "2025-11-03",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -790,6 +876,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8278?summary=&detail=",
         "introduced": "2025-05-08",
         "law": "2025-07-29",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -799,6 +886,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5297?summary=&detail=",
         "introduced": "2025-02-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -808,6 +896,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8318?summary=&detail=",
         "introduced": "2025-05-13",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -817,6 +906,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8380?summary=&detail=",
         "introduced": "2025-05-13",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -826,6 +916,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8427?summary=&detail=",
         "introduced": "2025-05-15",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -835,6 +926,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5308?summary=&detail=",
         "introduced": "2025-02-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -844,6 +936,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8383?summary=&detail=",
         "introduced": "2025-05-13",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -853,6 +946,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8096?summary=&detail=",
         "introduced": "2025-04-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -862,6 +956,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10109?summary=&detail=",
         "introduced": "2026-02-02",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -871,6 +966,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10070?summary=&detail=",
         "introduced": "2026-01-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -880,6 +976,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4045?summary=&detail=",
         "introduced": "2025-01-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -889,6 +986,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6629?summary=&detail=",
         "introduced": "2025-03-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -898,6 +996,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8016?summary=&detail=",
         "introduced": "2025-04-22",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -907,6 +1006,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8636?summary=&detail=",
         "introduced": "2025-05-22",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -916,6 +1016,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7632?summary=&detail=",
         "introduced": "2025-04-01",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -925,6 +1026,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5287?summary=&detail=",
         "introduced": "2025-02-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -934,6 +1036,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8768?summary=&detail=",
         "introduced": "2025-06-02",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -943,6 +1046,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8717?summary=&detail=",
         "introduced": "2025-06-02",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -952,6 +1056,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4040?summary=&detail=",
         "introduced": "2025-01-30",
         "law": "2025-12-19",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -961,6 +1066,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9092?summary=&detail=",
         "introduced": "2025-09-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -970,6 +1076,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8241?summary=&detail=",
         "introduced": "2025-05-05",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -979,6 +1086,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A825?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -988,6 +1096,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8332?summary=&detail=",
         "introduced": "2025-05-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -997,6 +1106,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8187?summary=&detail=",
         "introduced": "2025-05-05",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1006,6 +1116,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A793?summary=&detail=",
         "introduced": "2025-01-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1015,6 +1126,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9227?summary=&detail=",
         "introduced": "2025-11-03",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1024,6 +1136,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8097?summary=&detail=",
         "introduced": "2025-04-30",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1033,6 +1146,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8832?summary=&detail=",
         "introduced": "2025-06-09",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1042,6 +1156,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9444?summary=&detail=",
         "introduced": "2026-01-06",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1051,6 +1166,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5859?summary=&detail=",
         "introduced": "2025-02-24",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1060,6 +1176,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6423?summary=&detail=",
         "introduced": "2025-03-04",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -1069,6 +1186,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10811?summary=&detail=",
         "introduced": "2026-04-01",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1078,6 +1196,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10853?summary=&detail=",
         "introduced": "2026-04-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1087,6 +1206,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10183?summary=&detail=",
         "introduced": "2026-02-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1096,6 +1216,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10265?summary=&detail=",
         "introduced": "2026-02-13",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1105,6 +1226,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10318?summary=&detail=",
         "introduced": "2026-02-20",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1114,6 +1236,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8139?summary=&detail=",
         "introduced": "2025-05-01",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1123,6 +1246,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8584?summary=&detail=",
         "introduced": "2025-05-21",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1132,6 +1256,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9014?summary=&detail=",
         "introduced": "2025-08-20",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1141,6 +1266,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5291?summary=&detail=",
         "introduced": "2025-02-12",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -1150,15 +1276,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7729?summary=&detail=",
         "introduced": "2025-04-08",
         "law": null,
-        "house": false,
-        "senate": false
-      },
-      {
-        "id": "A 9335",
-        "title": "Relates to certain crimes of interference with health care services or religious worship",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9335?summary=&detail=",
-        "introduced": "2025-12-10",
-        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1168,6 +1286,17 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9233?summary=&detail=",
         "introduced": "2025-11-07",
         "law": null,
+        "vetoed": false,
+        "house": false,
+        "senate": false
+      },
+      {
+        "id": "A 9335",
+        "title": "Relates to certain crimes of interference with health care services or religious worship",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9335?summary=&detail=",
+        "introduced": "2025-12-10",
+        "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1177,6 +1306,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9212?summary=&detail=",
         "introduced": "2025-11-03",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       }
@@ -1188,6 +1318,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6326?summary=&detail=",
         "introduced": "2025-03-04",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -1197,6 +1328,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5427?summary=&detail=",
         "introduced": "2025-02-14",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1206,6 +1338,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9071?summary=&detail=",
         "introduced": "2025-09-05",
         "law": null,
+        "vetoed": false,
         "house": true,
         "senate": false
       },
@@ -1215,6 +1348,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8917?summary=&detail=",
         "introduced": "2025-07-16",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1224,6 +1358,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8478?summary=&detail=",
         "introduced": "2025-05-16",
         "law": "2025-06-18",
+        "vetoed": false,
         "house": true,
         "senate": true
       },
@@ -1233,6 +1368,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11038?summary=&detail=",
         "introduced": "2026-04-23",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1242,6 +1378,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11037?summary=&detail=",
         "introduced": "2026-04-23",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1251,6 +1388,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6320?summary=&detail=",
         "introduced": "2025-03-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1260,6 +1398,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6348?summary=&detail=",
         "introduced": "2025-03-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1269,6 +1408,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8803?summary=&detail=",
         "introduced": "2025-06-08",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1278,16 +1418,8 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10304?summary=&detail=",
         "introduced": "2026-02-20",
         "law": null,
+        "vetoed": false,
         "house": false,
-        "senate": false
-      },
-      {
-        "id": "A 9643",
-        "title": "Authorizes a claimant to receive a dependent allowance in addition to unemployment insurance benefits",
-        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9643?summary=&detail=",
-        "introduced": "2026-01-21",
-        "law": null,
-        "house": true,
         "senate": false
       },
       {
@@ -1296,6 +1428,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9555?summary=&detail=",
         "introduced": "2026-01-14",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1305,7 +1438,18 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10048?summary=&detail=",
         "introduced": "2026-01-30",
         "law": null,
+        "vetoed": false,
         "house": false,
+        "senate": false
+      },
+      {
+        "id": "A 9643",
+        "title": "Authorizes a claimant to receive a dependent allowance in addition to unemployment insurance benefits",
+        "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9643?summary=&detail=",
+        "introduced": "2026-01-21",
+        "law": null,
+        "vetoed": false,
+        "house": true,
         "senate": false
       },
       {
@@ -1314,6 +1458,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8078?summary=&detail=",
         "introduced": "2025-04-24",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1323,6 +1468,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9582?summary=&detail=",
         "introduced": "2026-01-21",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1332,6 +1478,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9166?summary=&detail=",
         "introduced": "2025-10-17",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1341,6 +1488,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8084?summary=&detail=",
         "introduced": "2025-04-24",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1350,6 +1498,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10740?summary=&detail=",
         "introduced": "2026-03-27",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1359,6 +1508,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11160?summary=&detail=",
         "introduced": "2026-04-28",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1368,6 +1518,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A8931?summary=&detail=",
         "introduced": "2025-07-16",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1377,6 +1528,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10222?summary=&detail=",
         "introduced": "2026-02-12",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1386,6 +1538,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11270?summary=&detail=",
         "introduced": "2026-05-04",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1395,6 +1548,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10970?summary=&detail=",
         "introduced": "2026-04-14",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1404,6 +1558,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10928?summary=&detail=",
         "introduced": "2026-04-09",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       },
@@ -1413,6 +1568,7 @@
         "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A5860?summary=&detail=",
         "introduced": "2025-02-24",
         "law": null,
+        "vetoed": false,
         "house": false,
         "senate": false
       }
